@@ -1,7 +1,6 @@
 #+TITLE: Welcome to Luís Spengler
 #+DESCRIPTION: luispengler.github.io/site - Official Site of Luís Spengler
-#+EXPORT_FILE_NAME: /home/luispengler/code/www/site/begin.org
-#+SETUPFILE:  https://luispengler.github.io/site/theme-readtheorg.setup
+#+SETUPFILE:  https://luispengler.github.io/site/org-html-themes/theme-readtheorg.setup
 #+OPTIONS: nul:nul ^:{}
 
 
