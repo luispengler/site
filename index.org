@@ -1,7 +1,8 @@
 #+TITLE: Welcome to Luís Spengler
 #+DESCRIPTION: luispengler.github.io/site - Official Site of Luís Spengler
 #+SETUPFILE:  https://luispengler.github.io/site/theme-readtheorg.setup
-#+INCLUDE: https://luispengler.github.io/site/header.org
+#+INCLUDE: "~/code/www/site/header.org"
+
 #+OPTIONS: nul:nul ^:{}
 
 
