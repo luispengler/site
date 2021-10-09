@@ -11,3 +11,4 @@ Oi, eu sou o Luís e no momento que eu escrevo isso, sou um estudante do segundo
 Meus interesses estão na área da física (física de particulas e mecânica quântica) e ciência da computação, principalmente no que se refere a [[https://www.gnu.org/philosophy/free-sw.pt-br.html][software livre]].\\
 Sinta-se livre para compartilhar essa página, modificar e criar sua própria versão (e até usá-la comercialmente ¯\_(ツ)_/¯) \\
 Esse website foi escrito em org-mode usando [[https://github.com/hlissner/doom-emacs/][doom emacs]] e sua função de exportar para html, junto do tema [[https://github.com/fniessen/org-html-themes][readtheorg]]. O código fonte está todo no [[https://github.com/luispengler/site][github]], o qual é o host dessa página.
+hello
