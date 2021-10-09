@@ -1,7 +1,7 @@
 #+TITLE: Fisica de particulas: um resumo breve e compilação de artigos básicos.
 #+DESCRIPTION: Fisica de particulas: um resumo breve e compilação de artigos básicos
 #+SETUPFILE: https://luispengler.github.io/site/org-html-themes/org/theme-readtheorg.setup
-#+OPTIONS: nul:nil ^{}
+#+OPTIONS: nul:nil ^:{}
 
 * Não estamos sozinhos
 yep
