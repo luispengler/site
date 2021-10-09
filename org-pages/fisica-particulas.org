@@ -10,6 +10,49 @@ Pense nele como a tabela periódica das partículas, assim como existe a tabela 
 #+ATTR_HTML: alt: Modelo padrão :title Modelo Padrão :style float:left;margin-bottom:20px;margin-left: auto;margin-right: auto;background-color: mintcream;display: block;max-width: 100%;height: auto;
 https://luispengler.github.io/site/doc/images/image0.png
 
-* Movimento brawniano
 
-* Spin
+** Spin
+
+** Bósons-Férmions
+
+** Princípio de exclusão de Pauli
+
+* Pré-Modelo Padrão: Constituintes
+
+** Os constituintes do modelo padrão: O fóton
+
+*** Efeito compton
+
+* Estabilidade nuclear e força forte
+
+* Os constituintes do modelo padrão: Méson pi e o Múon
+
+* Os constituintes do modelo padrão: As Antipartículas
+
+** A interpretação do mar de Dirac
+
+** Criação de Pares/Aniquilação de Pares
+
+* Partículas virtuais
+
+** O efeito Casimir
+
+* Os constituintes do modelo padrão: Os Neutrinos
+
+* A interação fraca
+
+* O caminho Octuplo
+
+* O modelo de Quarks
+
+* Bários e Mésons
+
+* Liberdade Assintónica
+
+* Classificação de partículas
+
+* Os bósons mediadores
+
+* Os bósons intermediadores
+
+* As interações Fundamentais
