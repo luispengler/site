@@ -1,9 +1,11 @@
 #+TITLE: Welcome to Luís Spengler
 #+DESCRIPTION: luispengler.github.io/site - Official Site of Luís Spengler
-#+SETUPFILE:  https://luispengler.github.io/site/org-html-themes/theme-readtheorg.setup
+#+SETUPFILE:  https://luispengler.github.io/site/org-html-themes/org/theme-readtheorg.setup
 #+OPTIONS: nul:nul ^:{}
 
-| [[https://luispengler.github.io/site/html/org-pages/ficha.html][ficha monitoria]] |
+
+
+| [[https://luispengler.github.io/site/html/org-pages/ficha.html][Ficha monitoria]] |
 
 * Bem-vindo(a)
 
