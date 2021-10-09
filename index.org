@@ -1,4 +1,4 @@
-#+TITLE: Welcome to Luís Spengler
+#+TITLE: Luís Spengleπ
 #+DESCRIPTION: luispengler.github.io/site - Official Site of Luís Spengler
 #+SETUPFILE:  https://luispengler.github.io/site/org-html-themes/org/theme-readtheorg.setup
 #+OPTIONS: nul:nul ^:{}
