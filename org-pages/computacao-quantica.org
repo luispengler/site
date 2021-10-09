@@ -1,9 +1,9 @@
-#+TITLE: Fisica de particulas: um resumo breve e compilação de artigos básicos.
+#+TITLE: Computação Quantica: um resumo breve e compilação de artigos básicos.
 #+DESCRIPTION: Fisica de particulas: um resumo breve e compilação de artigos básicos
 #+SETUPFILE: https://luispengler.github.io/site/org-html-themes/org/theme-readtheorg.setup
 #+OPTIONS: nul:nil ^{}
 
-* Não estamos sozinhos
-yep
-
-* Eu sou eu
+* IKR
+yessirr
+* and u?
+me tooo
