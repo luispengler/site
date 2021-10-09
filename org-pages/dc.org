@@ -3,13 +3,13 @@
 #+SETUPFILE:  https://luispengler.github.io/site/org-html-themes/org/theme-readtheorg.setup
 #+OPTIONS: nul:nil ^:{}
 
-·         Arrow – Season 1
++         Arrow – Season 1
 
 ·         Arrow – Season 2
 
-2014/2015
+* 2014/2015
 
-·         The Flash – 1.01: “Pilot”
+.         The Flash – 1.01: “Pilot”
 
 ·         Arrow – 3.01: “The Calm”
 
@@ -101,7 +101,7 @@
 
 ·         The Flash – 1.23: “Fast Enough”
 
-2015/2016
+* 2015/2016
 
 ·         Supergirl – Season 1, Episodes 1-17
 
@@ -233,7 +233,7 @@
 
 ·         Arrow – 4.23: “Schism”
 
-2016/2017
+* 2016/2017
 
 ·         The Flash – 3.01: “Flashpoint”
 
@@ -405,7 +405,7 @@
 
 ·         Arrow – 5.23: “Lian Yu”
 
-2017/2018
+* 2017/2018
 
 ·         Supergirl – 3.01: “Girl of Steel”
 
@@ -607,7 +607,7 @@
 
 ·         Supergirl – 3.23: “Battles Lost And Won”
 
-2018/2019
+* 2018/2019
 
 ·         The Flash – 5.01: “Nora”
 
@@ -807,7 +807,7 @@
 
 ·         Legends of Tomorrow – 4.16: “Hey World!”
 
-2019/2020
+* 2019/2020
 
 ·         Batwoman – 1.01: “Pilot”
 
@@ -1033,7 +1033,7 @@
 
 ·         Stargirl – 1.13: “Stars & S.T.R.I.P.E Part Two”
 
-2021
+* 2021
 
 ·         Batwoman – 2.01: “What Happened To Kate Kane”
 

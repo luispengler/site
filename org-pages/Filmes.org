@@ -44,15 +44,31 @@
 *** [ ] A era do gelo 2
 *** [ ] A era do gelo 3
 *** [ ] A era do gelo 4
-** [ ] Shrek
-** [ ] Meu malvado favorito
-** [ ] Detona ralph
+** [ ] Shrek [0/4]
+*** [ ] Sherek 1
+*** [ ] Sherek 2
+*** [ ] Sherek third
+*** [ ] Sherek forever
+** [ ] Meu malvado favorito [0/4]
+*** [ ] Minions
+*** [ ] Meu malvado favorito
+*** [ ] Meu malvado favorito 2
+*** [ ] Meu malvado favorito 3
+** [ ] Detona ralph [0/2]
+*** [ ] Detona ralph
+*** [ ] Wifi
 ** [ ] As cronicas de narnia
+*** [ ]
 ** [ ] Alice
+*** [ ]
 ** [ ] Planeta dos macacos
+*** [ ]
 ** [ ] Resident Evil
+*** [ ]
 ** [ ] Missão Impossível
+*** [ ]
 ** [ ] Jogos vorazes
+*** [ ]
 ** [ ] Divergente
 ** [ ] After
 ** [ ] Crepúsculo
