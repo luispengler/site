@@ -4,7 +4,7 @@
 #+OPTIONS: nul:nil ^:{}
 
 
-| [[https://luispengler.github.io/site/html/org-pages/fisica-particulas.html][Fisica de partículas]] | [[https://luispengler.github.io/site/html/org-pages/computacao-quantica.html][Computação Quântica]] | [[https://luispengler.github.io/site/html/org-pages/Filmes.html][Carlinda movies]] | [[https://luispengler.github.io/site/html/org-pages/dc.html][DC'series]] | [[https://luispengler.github.io/site/html/org-pages/ficha.html][Ficha monitoria]] |
+| [[https://luispengler.github.io/site/html/org-pages/fisica-particulas.html][Fisica de partículas]] | [[https://luispengler.github.io/site/html/org-pages/computacao-quantica.html][Computação Quântica]] | [[https://luispengler.github.io/site/html/org-pages/filmes.html][Carlinda movies]] | [[https://luispengler.github.io/site/html/org-pages/dc.html][DC'series]] | [[https://luispengler.github.io/site/html/org-pages/ficha.html][Ficha monitoria]] |
 
 * Bem vindo(a)
 Oi, eu sou o Luís e no momento que eu escrevo isso, sou um estudante do segundo ano do ensino médio, cursando técnico integrado em eletrotécnica.\\
