@@ -6,8 +6,8 @@
 <!-- 2021-10-09 sáb 10:15 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Theme Chooser</title>
-<meta name="author" content="Fabrice Niessen" />
+<title>Ficha da monitoria</title>
+<meta name="author" content="Luís Guilherme Miranda Spengler" />
 <meta name="generator" content="Org Mode" />
 <style>
   #content { max-width: 60em; margin: auto; }
@@ -193,121 +193,37 @@
     { background-color: #ffff00; color: #000000; font-weight: bold; }
   .org-svg { width: 90%; }
 </style>
+<link rel="stylesheet" type="text/css" href="https://distro.tube/org-html-themes/src/readtheorg_theme/css/htmlize.css"/>
+<link rel="stylesheet" type="text/css" href="https://distro.tube/org-html-themes/src/readtheorg_theme/css/readtheorg.css"/>
+<script src="httpss://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="httpss://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://distro.tube/org-html-themes/src/lib/js/jquery.stickytableheaders.min.js"></script>
+<script type="text/javascript" src="https://distro.tube/org-html-themes/src/readtheorg_theme/js/readtheorg.js"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        displayAlign: "center",
+        displayIndent: "0em",
+
+        "HTML-CSS": { scale: 100,
+                        linebreaks: { automatic: "false" },
+                        webFont: "TeX"
+                       },
+        SVG: {scale: 100,
+              linebreaks: { automatic: "false" },
+              font: "TeX"},
+        NativeMML: {scale: 100},
+        TeX: { equationNumbers: {autoNumber: "AMS"},
+               MultLineWidth: "85%",
+               TagSide: "right",
+               TagIndent: ".8em"
+             }
+});
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML"></script>
 </head>
 <body>
 <div id="content" class="content">
-<h1 class="title">Theme Chooser</h1>
-<div id="table-of-contents" role="doc-toc">
-<h2>Table of Contents</h2>
-<div id="text-table-of-contents" role="doc-toc">
-<ul>
-<li><a href="#org8d3dc91">Header 1</a>
-<ul>
-<li><a href="#orgbb38dc1">Header 2</a>
-<ul>
-<li><a href="#org6a62a00">Header 3</a>
-<ul>
-<li><a href="#org2d34be5">Header 4</a></li>
-</ul>
-</li>
-<li><a href="#orge9b2f7f">There&rsquo;s a horizontal rule below this.</a></li>
-<li><a href="#org4ad5392">Here is an unordered list:</a></li>
-<li><a href="#org8d18b21">And an ordered list:</a></li>
-<li><a href="#org95a043f">And a nested list:</a></li>
-<li><a href="#org21282cb">Small image</a></li>
-<li><a href="#org163cb0c">Large image</a></li>
-<li><a href="#orgb410197">Definition lists can be used with HTML syntax.</a></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</div>
-</div>
-<p>
-Text can be <b>bold</b>, <i>italic</i>, or <del>strikethrough</del>.
-</p>
-
-<p>
-<a href="https://github.com/fniessen/org-html-themes/org/theme-chooser.htmltheme-chooser.txt">Link to another page.</a>
-</p>
-
-<p>
-There should be whitespace between paragraphs.
-</p>
-
-<p>
-There should be whitespace between paragraphs. We recommend including a README,
-or a file with information about your project.
-</p>
-
-<div id="outline-container-org8d3dc91" class="outline-2">
-<h2 id="org8d3dc91">Header 1</h2>
-<div class="outline-text-2" id="text-org8d3dc91">
-<p>
-This is a normal paragraph following a header. GitHub is a code hosting platform
-for version control and collaboration. It lets you and others work together on
-projects from anywhere.
-</p>
-</div>
-
-<div id="outline-container-orgbb38dc1" class="outline-3">
-<h3 id="orgbb38dc1">Header 2</h3>
-<div class="outline-text-3" id="text-orgbb38dc1">
-<p>
-This is a blockquote following a header.
-</p>
-
-<p>
-When something is important enough, you do it even if the odds are not in your
-favor.
-</p>
-</div>
-
-<div id="outline-container-org6a62a00" class="outline-4">
-<h4 id="org6a62a00">Header 3</h4>
-<div class="outline-text-4" id="text-org6a62a00">
-<div class="org-src-container">
-<pre class="src src-javascript"><span style="color: #6272a4;">// </span><span style="color: #6272a4;">Javascript code with syntax highlighting.</span>
-<span style="color: #ff79c6;">var</span> <span style="color: #ffc9e8;">fun</span> = <span style="color: #ff79c6;">function</span> lang(<span style="color: #ffc9e8;">l</span>) {
-  dateformat.i18n = require(<span style="color: #f1fa8c;">'./lang/'</span> + l)
-  <span style="color: #ff79c6;">return</span> <span style="color: #8be9fd;">true</span>;
-}
-</pre>
-</div>
-
-<div class="org-src-container">
-<pre class="src src-ruby"><span style="color: #6272a4;"># </span><span style="color: #6272a4;">Ruby code with syntax highlighting</span>
-<span style="color: #bd93f9;">GitHubPages</span>::<span style="color: #bd93f9;">Dependencies</span>.gems.each <span style="color: #ff79c6;">do</span> |gem, version|
-  s.add_dependency(gem, <span style="color: #f1fa8c;">"= </span><span style="color: #ffc9e8;">#{version}</span><span style="color: #f1fa8c;">"</span>)
-<span style="color: #ff79c6;">end</span>
-</pre>
-</div>
-</div>
-
-<div id="outline-container-org2d34be5" class="outline-5">
-<h5 id="org2d34be5">Header 4</h5>
-<div class="outline-text-5" id="text-org2d34be5">
-<ul class="org-ul">
-<li>This is an unordered list following a header.</li>
-<li>This is an unordered list following a header.</li>
-<li>This is an unordered list following a header.</li>
-</ul>
-</div>
-
-<div id="outline-container-orgecf0c20" class="outline-6">
-<h6 id="orgecf0c20">Header 5</h6>
-<div class="outline-text-6" id="text-orgecf0c20">
-<ol class="org-ol">
-<li>This is an ordered list following a header.</li>
-<li>This is an ordered list following a header.</li>
-<li>This is an ordered list following a header.</li>
-</ol>
-</div>
-
-<div id="outline-container-org992d5e2" class="outline-7">
-<h7 id="org992d5e2">Header 6</h7>
-<div class="outline-text-7" id="text-org992d5e2">
+<h1 class="title">Ficha da monitoria</h1>
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
@@ -317,149 +233,115 @@ favor.
 <col  class="org-left" />
 
 <col  class="org-left" />
+
+<col  class="org-left" />
 </colgroup>
 <thead>
 <tr>
-<th scope="col" class="org-left">head1</th>
-<th scope="col" class="org-left">head two</th>
-<th scope="col" class="org-left">three</th>
+<th scope="col" class="org-left">FICHA DE ATIVIDADES DESENVOLVIDAS NO PROGRAMA DE MONITORIA DO IFMS - 2021</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td class="org-left">ok</td>
-<td class="org-left">good swedish fish</td>
-<td class="org-left">nice</td>
+<td class="org-left">Nome: Luís Guilherme Miranda Spengler</td>
+<td class="org-left">Mês: Outubro</td>
+<td class="org-left">Ano: 2021/2</td>
+<td class="org-left">&#xa0;</td>
 </tr>
 
 <tr>
-<td class="org-left">out of stock</td>
-<td class="org-left">good and plenty</td>
-<td class="org-left">nice</td>
+<td class="org-left">Área da monitoria: Física 2</td>
+<td class="org-left">Turno da monitoria: Vespertino\Noturno</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
 </tr>
 
 <tr>
-<td class="org-left">ok</td>
-<td class="org-left">good <code>oreos</code></td>
-<td class="org-left">hmm</td>
+<td class="org-left">Curso: Eletrotécnica</td>
+<td class="org-left">Professor Orientador: Nathany Ueno</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">Atividades desenvolvidas e número de estudantes participantes</td>
+<td class="org-left">Data</td>
+<td class="org-left">Início</td>
+<td class="org-left">Término</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">Nenhum estudante compareceu</td>
+<td class="org-left">27/09 (Segunda-feira)</td>
+<td class="org-left">17h</td>
+<td class="org-left">19h</td>
 </tr>
 
 <tr>
-<td class="org-left">ok</td>
-<td class="org-left">good <code>zoute</code> drop</td>
-<td class="org-left">yumm</td>
+<td class="org-left">Nenhum estudante compareceu</td>
+<td class="org-left">29/09 (Quarta-feira)</td>
+<td class="org-left">15h</td>
+<td class="org-left">18h</td>
+</tr>
+
+<tr>
+<td class="org-left">Nenhum estudante compareceu</td>
+<td class="org-left">30/09 (Quinta-feira)</td>
+<td class="org-left">15h</td>
+<td class="org-left">18h</td>
+</tr>
+
+<tr>
+<td class="org-left">Lista 2. Ex: 4 e 7; Prova 1. Ex: 1 e 4; Carla Souza e João Miguel.</td>
+<td class="org-left">04/10 (Segunda-feira)</td>
+<td class="org-left">14h20</td>
+<td class="org-left">19h</td>
+</tr>
+
+<tr>
+<td class="org-left">Nenhum estudante compareceu</td>
+<td class="org-left">06/10 (Quarta-feira)</td>
+<td class="org-left">15h</td>
+<td class="org-left">18h</td>
+</tr>
+
+<tr>
+<td class="org-left">Nenhum estudante compareceu</td>
+<td class="org-left">07/10 (Quinta-feira)</td>
+<td class="org-left">15h</td>
+<td class="org-left">18h</td>
+</tr>
+
+<tr>
+<td class="org-left">-------------------------------------------------------------------------</td>
+<td class="org-left">11/10 (Segunda-feira)</td>
+<td class="org-left">17h</td>
+<td class="org-left">19h</td>
+</tr>
+
+<tr>
+<td class="org-left">-------------------------------------------------------------------------</td>
+<td class="org-left">13/10 (Quarta-feira)</td>
+<td class="org-left">15h</td>
+<td class="org-left">18h</td>
+</tr>
+
+<tr>
+<td class="org-left">-------------------------------------------------------------------------</td>
+<td class="org-left">14/10 (Quinta-feira)</td>
+<td class="org-left">15h</td>
+<td class="org-left">18h</td>
 </tr>
 </tbody>
 </table>
 </div>
-</div>
-</div>
-</div>
-</div>
-
-<div id="outline-container-orge9b2f7f" class="outline-4">
-<h4 id="orge9b2f7f">There&rsquo;s a horizontal rule below this.</h4>
-<div class="outline-text-4" id="text-orge9b2f7f">
-<hr />
-</div>
-</div>
-
-<div id="outline-container-org4ad5392" class="outline-4">
-<h4 id="org4ad5392">Here is an unordered list:</h4>
-<div class="outline-text-4" id="text-org4ad5392">
-<ul class="org-ul">
-<li>Item foo</li>
-<li>Item bar</li>
-<li>Item baz</li>
-<li>Item zip</li>
-</ul>
-</div>
-</div>
-
-<div id="outline-container-org8d18b21" class="outline-4">
-<h4 id="org8d18b21">And an ordered list:</h4>
-<div class="outline-text-4" id="text-org8d18b21">
-<ol class="org-ol">
-<li>Item one</li>
-<li>Item two</li>
-<li>Item three</li>
-<li>Item four</li>
-</ol>
-</div>
-</div>
-
-<div id="outline-container-org95a043f" class="outline-4">
-<h4 id="org95a043f">And a nested list:</h4>
-<div class="outline-text-4" id="text-org95a043f">
-<ul class="org-ul">
-<li>level 1 item
-<ul class="org-ul">
-<li>level 2 item</li>
-<li>level 2 item
-<ul class="org-ul">
-<li>level 3 item</li>
-<li>level 3 item</li>
-</ul></li>
-</ul></li>
-<li>level 1 item
-<ul class="org-ul">
-<li>level 2 item</li>
-<li>level 2 item</li>
-<li>level 2 item</li>
-</ul></li>
-<li>level 1 item
-<ul class="org-ul">
-<li>level 2 item</li>
-<li>level 2 item</li>
-</ul></li>
-<li>level 1 item</li>
-</ul>
-</div>
-</div>
-
-<div id="outline-container-org21282cb" class="outline-4">
-<h4 id="org21282cb">Small image</h4>
-<div class="outline-text-4" id="text-org21282cb">
-<p>
-Octocat
-</p>
-</div>
-</div>
-
-<div id="outline-container-org163cb0c" class="outline-4">
-<h4 id="org163cb0c">Large image</h4>
-<div class="outline-text-4" id="text-org163cb0c">
-<p>
-Branching
-</p>
-</div>
-</div>
-
-<div id="outline-container-orgb410197" class="outline-4">
-<h4 id="orgb410197">Definition lists can be used with HTML syntax.</h4>
-<div class="outline-text-4" id="text-orgb410197">
-<dl class="org-dl">
-<dt>Name</dt><dd>Godzilla</dd>
-<dt>Born</dt><dd>1952</dd>
-<dt>Birthplace</dt><dd>Japan</dd>
-<dt>Color</dt><dd>Green</dd>
-</dl>
-
-<pre class="example">
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-</pre>
-
-
-<pre class="example">
-The final element.
-</pre>
-</div>
-</div>
-</div>
-</div>
-</div>
 <div id="postamble" class="status">
-<p class="author">Author: Fabrice Niessen</p>
+<p class="author">Author: Luís Guilherme Miranda Spengler</p>
 <p class="date">Created: 2021-10-09 sáb 10:15</p>
 </div>
 </body>
