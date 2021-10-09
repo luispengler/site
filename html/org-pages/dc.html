@@ -1,0 +1,2684 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2021-10-09 sáb 18:16 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>DC's arrowverse</title>
+<meta name="author" content="Luís Guilherme Miranda Spengler" />
+<meta name="description" content="luispengler.github.io/site - DC's arrowverse" />
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+</style>
+<link rel="stylesheet" type="text/css" href="https://luispengler.github.io/site/org-html-themes/src/readtheorg_theme/css/htmlize.css"/>
+<link rel="stylesheet" type="text/css" href="https://luispengler.github.io/site/org-html-themes/src/readtheorg_theme/css/readtheorg.css"/>
+<script src="httpss://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="httpss://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://luispengler.github.io/site/org-html-themes/src/lib/js/jquery.stickytableheaders.min.js"></script>
+<script type="text/javascript" src="https://luispengler.github.io/site/org-html-themes/src/readtheorg_theme/js/readtheorg.js"></script>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">DC&rsquo;s arrowverse</h1>
+<p>
+·         Arrow – Season 1
+</p>
+
+<p>
+·         Arrow – Season 2
+</p>
+
+<p>
+2014/2015
+</p>
+
+<p>
+·         The Flash – 1.01: “Pilot”
+</p>
+
+<p>
+·         Arrow – 3.01: “The Calm”
+</p>
+
+<p>
+·         The Flash -  1.02: “Fastest Man Alive”
+</p>
+
+<p>
+·         Arrow – 3.02: “Sara”
+</p>
+
+<p>
+·         The Flash – 1.03: “Things You Can’t Outrun”
+</p>
+
+<p>
+·         Arrow – 3.03: “Corto Maltese”
+</p>
+
+<p>
+·         The Flash – 1.04: “Going Rogue”
+</p>
+
+<p>
+·         Arrow – 3.04: “The Magician”
+</p>
+
+<p>
+·         Arrow -  3.05: “The Secret Origin of Felicity Smoak”
+</p>
+
+<p>
+·         The Flash -  1.05: “Plastique”
+</p>
+
+<p>
+·         Arrow – 3.06: “Guilty”
+</p>
+
+<p>
+·         The Flash – 1.06: “The Flash Is Born”
+</p>
+
+<p>
+·         Arrow – 3.07: “Draw Back Your Bow”
+</p>
+
+<p>
+·         The Flash – 1.07: “Power Outage”
+</p>
+
+<p>
+·         The Flash – 1.08: “Flash vs. Arrow” ***MUST BE WATCHED TOGETHER (1)
+</p>
+
+<p>
+·         Arrow – 3.08: “The Brave and the Bold” ***MUST BE WATCHED TOGETHER (2)
+</p>
+
+<p>
+·         The Flash – 1.09: “The Man in the Yellow Suit”
+</p>
+
+<p>
+·         Arrow – 3.09: “The Climb”
+</p>
+
+<p>
+·         The Flash – 1.10: “Revenge of the Rogues”
+</p>
+
+<p>
+·         Arrow – 3.10: “Left Behind”
+</p>
+
+<p>
+·         The Flash – 1.11: “The Sound and the Fury”
+</p>
+
+<p>
+·         Arrow – 3.11: “Midnight City”
+</p>
+
+<p>
+·         The Flash - 1×12: “Crazy for You”
+</p>
+
+<p>
+·         Arrow – 3.12: “Uprising”
+</p>
+
+<p>
+·         The Flash - 1×13: “The Nuclear Man”
+</p>
+
+<p>
+·         Arrow – 3.13: “Canaries”
+</p>
+
+<p>
+·         The Flash - 1×14: “Fallout”
+</p>
+
+<p>
+·         Arrow – 3.14: “The Return”
+</p>
+
+<p>
+·         Arrow -  3.15: “Nanda Parbat”
+</p>
+
+<p>
+·         The Flash – 1.15: “Out of Time”
+</p>
+
+<p>
+·         The Flash – 1.16: “Rogue Time”
+</p>
+
+<p>
+·         Arrow -  3.16: “The Offer”
+</p>
+
+<p>
+·         The Flash -  1.17: “Tricksters”
+</p>
+
+<p>
+·         Arrow – 3.17: “Suicidal Tendencies”
+</p>
+
+<p>
+·         Arrow – 3.18: “Public Enemy”
+</p>
+
+<p>
+·         The Flash – 1.18: “All Star Team Up”
+</p>
+
+<p>
+·         Arrow -  3.19: “Broken Arrow”
+</p>
+
+<p>
+·         The Flash – 1.19: “Who Is Harrison Wells?”
+</p>
+
+<p>
+·         Arrow -  3.20: “The Fallen”
+</p>
+
+<p>
+·         The Flash – 1.20: “The Trap”
+</p>
+
+<p>
+·         Arrow – 3.21: “Al Sah-him”
+</p>
+
+<p>
+·         The Flash – 1.21: “Grodd Lives”
+</p>
+
+<p>
+·         Arrow – 3.22: “This Is Your Sword”
+</p>
+
+<p>
+·         The Flash – 1.22: “Rogue Air”
+</p>
+
+<p>
+·         Arrow – 3.23: “My Name Is Oliver Queen”
+</p>
+
+<p>
+·         The Flash – 1.23: “Fast Enough”
+</p>
+
+<p>
+2015/2016
+</p>
+
+<p>
+·         Supergirl – Season 1, Episodes 1-17
+</p>
+
+<p>
+·         The Flash – 2.01: “The Man Who Saved Central City”
+</p>
+
+<p>
+·         Arrow – 4.01: “Green Arrow”
+</p>
+
+<p>
+·         The Flash – 2.02: “Flash of Two Worlds”
+</p>
+
+<p>
+·         Arrow – 4.02: “The Candidate”
+</p>
+
+<p>
+·         The Flash – 2.03: “Family of Rogues”
+</p>
+
+<p>
+·         Arrow – 4.03: “Restoration”
+</p>
+
+<p>
+·         The Flash – 2.04: “The Fury of Firestorm”
+</p>
+
+<p>
+·         Arrow – 4.04: “Beyond Redemption”
+</p>
+
+<p>
+·         The Flash – 2.05: “The Darkness and the Light”
+</p>
+
+<p>
+·         Arrow -  4.05: “Haunted”
+</p>
+
+<p>
+·         The Flash – 2.06: “Enter Zoom”
+</p>
+
+<p>
+·         Arrow – 4.06: “Lost Souls”
+</p>
+
+<p>
+·         The Flash – 2.07: “Gorilla Warfare”
+</p>
+
+<p>
+·         Arrow – 4.07: “Brotherhood”
+</p>
+
+<p>
+·         The Flash – 2.08: “Legends of Today”
+</p>
+
+<p>
+·         Arrow – 4.08: “Legends of Yesterday”
+</p>
+
+<p>
+·         The Flash – 2.09: “Running to Stand Still”
+</p>
+
+<p>
+·         Arrow – 4.09: “Dark Waters”
+</p>
+
+<p>
+·         The Flash – 2.10: “Potential Energy”
+</p>
+
+<p>
+·         Arrow – 4.10: “Blood Debts”
+</p>
+
+<p>
+·         Legends of Tomorrow – “1.01: Pilot, Part 1”
+</p>
+
+<p>
+·         Legends of Tomorrow – “1.01: Pilot, Part 2”
+</p>
+
+<p>
+·         The Flash – 2.11: “The Reverse-Flash Returns”
+</p>
+
+<p>
+·         Arrow – 4.11: “A.W.O.L.”
+</p>
+
+<p>
+·         The Flash – 2.12: “Fast Lane”
+</p>
+
+<p>
+·         Arrow – 4.12: “Unchained”
+</p>
+
+<p>
+·         Arrow – 4.13: “Sins of the Father”
+</p>
+
+<p>
+·         Legends of Tomorrow – 1.03: “Blood Ties”
+</p>
+
+<p>
+·         The Flash – 2.13: “Welcome to Earth-2”
+</p>
+
+<p>
+·         The Flash – 2.14: “Escape from Earth-2”
+</p>
+
+<p>
+·         Legends of Tomorrow – 1.04: “White Knights”
+</p>
+
+<p>
+·         Legends of Tomorrow – 1.05: “Fail-Safe”
+</p>
+
+<p>
+·         Arrow – 4.14: “Code of Silence”
+</p>
+
+<p>
+·         The Flash – 2.15: “King Shark”
+</p>
+
+<p>
+·         Arrow – 4.15: “Taken”
+</p>
+
+<p>
+·         Legends of Tomorrow – 1.06: “Star City 2046”
+</p>
+
+<p>
+·         Legends of Tomorrow – 1.07: “Marooned”
+</p>
+
+<p>
+·         Legends of Tomorrow – 1.08: “Night of the Hawk”
+</p>
+
+<p>
+·         The Flash – 2.16: “Trajectory”
+</p>
+
+<p>
+·         Arrow – 4.16: “Broken Hearts”
+</p>
+
+<p>
+·         The Flash – 2.17: “Flash Back”
+</p>
+
+<p>
+·         Supergirl – 1.18: “Worlds Finest” ***MUST BE WATCHED HERE
+</p>
+
+<p>
+·         Supergirl – Season 1, Episodes 19-20
+</p>
+
+<p>
+·         Arrow – 4.17: “Beacon of Hope”
+</p>
+
+<p>
+·         Legends of Tomorrow – 1.09: “Left Behind”
+</p>
+
+<p>
+·         Arrow – 4.18: “Eleven-Fifty-Nine”
+</p>
+
+<p>
+·         Legends of Tomorrow – 1.10: “Progeny”
+</p>
+
+<p>
+·         Legends of Tomorrow – 1.11: “The Magnificent Eight”
+</p>
+
+<p>
+·         The Flash – 2.18: “Versus Zoom”
+</p>
+
+<p>
+·         Legends of Tomorrow – 1.12: “Last Refuge”
+</p>
+
+<p>
+·         The Flash – 2.19: “Back to Normal”
+</p>
+
+<p>
+·         Legends of Tomorrow – 1.13: “Leviathan”
+</p>
+
+<p>
+·         The Flash – 2.20: “Rupture”
+</p>
+
+<p>
+·         Legends of Tomorrow – 1.14: “River of Time”
+</p>
+
+<p>
+·         The Flash – 2.21: “The Runaway Dinosaur”
+</p>
+
+<p>
+·         Arrow – 4.19: “Canary Cry”
+</p>
+
+<p>
+·         Arrow – 4.20: “Genesis”
+</p>
+
+<p>
+·         Arrow – 4.21: “Monument Point”
+</p>
+
+<p>
+·         Legends of Tomorrow – 1.15: ” Destiny”
+</p>
+
+<p>
+·         The Flash – 2.22: “Invincible”
+</p>
+
+<p>
+·         Arrow – 4.22: “Lost in the Flood”
+</p>
+
+<p>
+·         Legends of Tomorrow – 1.16: “Legendary”
+</p>
+
+<p>
+·         The Flash – 2.23: “The Race of His Life”
+</p>
+
+<p>
+·         Arrow – 4.23: “Schism”
+</p>
+
+<p>
+2016/2017
+</p>
+
+<p>
+·         The Flash – 3.01: “Flashpoint”
+</p>
+
+<p>
+·         Arrow – 5.01: “Legacy”
+</p>
+
+<p>
+·         Supergirl – 2.01: “The Adventures of Supergirl”
+</p>
+
+<p>
+·         The Flash – 3.02: “Paradox”
+</p>
+
+<p>
+·         Arrow – 5.02: “The Recruits”
+</p>
+
+<p>
+·         Legends of Tomorrow – 2.01: “Out of Time”
+</p>
+
+<p>
+·         Supergirl – 2.02: “The Last Children of Krypton”
+</p>
+
+<p>
+·         The Flash – 3.03: “Magenta”
+</p>
+
+<p>
+·         Arrow – 5.03: “A Matter of Trust”
+</p>
+
+<p>
+·         Legends of Tomorrow – 2.02: “The Justice Society of America”
+</p>
+
+<p>
+·         Supergirl – 2.03: “Welcome to Earth”
+</p>
+
+<p>
+·         The Flash – 3.04: “The New Rogues”
+</p>
+
+<p>
+·         Arrow – 5.04: “Penance”
+</p>
+
+<p>
+·         Legends of Tomorrow – 2.03: “Shogun”
+</p>
+
+<p>
+·         Supergirl – 2.04: “Survivors”
+</p>
+
+<p>
+·         The Flash – 3.05: “Monster”
+</p>
+
+<p>
+·         Arrow – 5.05: “Human Target”
+</p>
+
+<p>
+·         Legends of Tomorrow – 2.04: “Abominations”
+</p>
+
+<p>
+·         Supergirl – 2.05: “Crossfire”
+</p>
+
+<p>
+·         Arrow – 5.06: “So It Begins”
+</p>
+
+<p>
+·         Legends of Tomorrow – 2.05: “Compromised”
+</p>
+
+<p>
+·         Supergirl – 2.06: “Changing”
+</p>
+
+<p>
+·         The Flash – 3.06: “Shade”
+</p>
+
+<p>
+·         Arrow – 5.07: “Vigilante”
+</p>
+
+<p>
+·         Legends of Tomorrow – 2.06: “Outlaw Country”
+</p>
+
+<p>
+·         Supergirl – 2.07: “The Darkest Place”
+</p>
+
+<p>
+·         The Flash – 3.07: “Killer Frost”
+</p>
+
+<p>
+·         Supergirl – 2.08: “Medusa” ***MUST BE WATCHED TOGETHER (1)
+</p>
+
+<p>
+·         The Flash – 3.08: “Invasion!” ***MUST BE WATCHED TOGETHER (2)
+</p>
+
+<p>
+·         Arrow – 5.08: “Invasion!” ***MUST BE WATCHED TOGETHER (3)
+</p>
+
+<p>
+·         Legends of Tomorrow – 2.07: “Invasion!” ***MUST BE WATCHED TOGETHER (4)
+</p>
+
+<p>
+·         The Flash – 3.09: “The Present”
+</p>
+
+<p>
+·         Arrow – 5.09: “What We Leave Behind”
+</p>
+
+<p>
+·         Legends of Tomorrow – 2.08: “The Chicago Way”
+</p>
+
+<p>
+·         Supergirl – 2.09: “Supergirl Lives”
+</p>
+
+<p>
+·         The Flash – 3.10: “Borrowing Problems From The Future”
+</p>
+
+<p>
+·         Legends of Tomorrow – 2.09: “Raiders of the Lost Art”
+</p>
+
+<p>
+·         Arrow – 5.10: “Who Are You”
+</p>
+
+<p>
+·         Supergirl – 2.10: “We Can Be Heroes”
+</p>
+
+<p>
+·         The Flash – 3.11: “Dead or Alive”
+</p>
+
+<p>
+·         Legends of Tomorrow – 2.10: “The Legion of Doom”
+</p>
+
+<p>
+·         Arrow – 5.11: “Second Chances”
+</p>
+
+<p>
+·         Supergirl – 2.11: “The Martian Chronicles”
+</p>
+
+<p>
+·         The Flash – 3.12: “Untouchable”
+</p>
+
+<p>
+·         Legends of Tomorrow – 2.11: “Turncoat”
+</p>
+
+<p>
+·         Arrow – 5.12: “Bratva”
+</p>
+
+<p>
+·         Supergirl – 2.12: “Luthors”
+</p>
+
+<p>
+·         Arrow – 5.13: “Spectre of the Gun”
+</p>
+
+<p>
+·         Supergirl – 2.13: “Mr. &amp; Mrs. Mxyzptlk”
+</p>
+
+<p>
+·         The Flash – 3.13: “Attack on Gorilla City”
+</p>
+
+<p>
+·         Legends of Tomorrow – 2.12: “Camelot/3000”
+</p>
+
+<p>
+·         Arrow – 5.14: “The Sin-Eater”
+</p>
+
+<p>
+·         Supergirl – 2.14: “Homecoming”
+</p>
+
+<p>
+·         The Flash – 3.14: “Attack on Central City”
+</p>
+
+<p>
+·         Arrow – 5.15: “Fighting Fire with Fire”
+</p>
+
+<p>
+·         Supergirl – 2.15: “Exodus”
+</p>
+
+<p>
+·         The Flash – 3.15: “The Wrath of Savitar”
+</p>
+
+<p>
+·         Legends of Tomorrow – 2.13: “Land of the Lost”
+</p>
+
+<p>
+·         The Flash – 3.16: “Into The Speed Force”
+</p>
+
+<p>
+·         Legends of Tomorrow – 2.14: “Moonshot”
+</p>
+
+<p>
+·         Arrow – 5.16: “Checkmate”
+</p>
+
+<p>
+·         Supergirl – 2.16: “Star-Crossed”  ***MUST BE WATCHED TOGETHER (1)
+</p>
+
+<p>
+·         The Flash – 3.17: “Duet” ***MUST BE WATCHED TOGETHER (2)
+</p>
+
+<p>
+·         Legends of Tomorrow – 2.15: “Fellowship of the Spear”
+</p>
+
+<p>
+·         Arrow – 5.17: “Kapiushon”
+</p>
+
+<p>
+·         Supergirl – 2.17: “Distance Sun”
+</p>
+
+<p>
+·         The Flash – 3.18: “Abra Kadabra”
+</p>
+
+<p>
+·         Legends of Tomorrow – 2.16: “Doomworld”
+</p>
+
+<p>
+·         Arrow – 5.18: “Disbanded”
+</p>
+
+<p>
+·         Legends of Tomorrow – 2.17: “Aruba”
+</p>
+
+<p>
+·         Supergirl – 2.18: “Ace Reporter”
+</p>
+
+<p>
+·         The Flash – 3.19: “The Once and Future Flash”
+</p>
+
+<p>
+·         Arrow – 5.19: “Dangerous Liaisons”
+</p>
+
+<p>
+·         Supergirl – 2.19: “Alex”
+</p>
+
+<p>
+·         The Flash – 3.20: “I Know Who You Are”
+</p>
+
+<p>
+·         Arrow – 5.20: “Underneath”
+</p>
+
+<p>
+·         Supergirl – 2.20: “City of Lost Children”
+</p>
+
+<p>
+·         The Flash – 3.21: “Cause and Effect”
+</p>
+
+<p>
+·         Arrow – 5.21: “Honor Thy Fathers”
+</p>
+
+<p>
+·         Supergirl – 2.21: “Resist”
+</p>
+
+<p>
+·         The Flash – 3.22: “Infantino Street”
+</p>
+
+<p>
+·         Arrow – 5.22: “Missing”
+</p>
+
+<p>
+·         Supergirl – 2.22: “Nevertheless, She Persisted”
+</p>
+
+<p>
+·         The Flash – 3.23: “Finish Line”
+</p>
+
+<p>
+·         Arrow – 5.23: “Lian Yu”
+</p>
+
+<p>
+2017/2018
+</p>
+
+<p>
+·         Supergirl – 3.01: “Girl of Steel”
+</p>
+
+<p>
+·         The Flash – 4.01: “The Flash Reborn”
+</p>
+
+<p>
+·         Legends of Tomorrow – 3.01: “Aruba-Con”
+</p>
+
+<p>
+·         Arrow – 6.01: “Fallout”
+</p>
+
+<p>
+·         Supergirl – 3.02: “Triggers”
+</p>
+
+<p>
+·         The Flash – 4.02: “Mixed Signals”
+</p>
+
+<p>
+·         Legends of Tomorrow – 3.02: “Freakshow”
+</p>
+
+<p>
+·         Arrow – 6.02: “Tribute”
+</p>
+
+<p>
+·         Supergirl – 3.03: “Far From The Tree”
+</p>
+
+<p>
+·         The Flash – 4.03: “Luck Be A Lady”
+</p>
+
+<p>
+·         Legends of Tomorrow – 3.03: “Zari”
+</p>
+
+<p>
+·         Arrow – 6.03: “Next of Kin”
+</p>
+
+<p>
+·         Supergirl – 3.04: “The Faithful”
+</p>
+
+<p>
+·         The Flash – 4.04: “Elongated Journey Into Night”
+</p>
+
+<p>
+·         Legends of Tomorrow – 3.04: “Phone Home”
+</p>
+
+<p>
+·         Arrow – 6.04: “Reversal”
+</p>
+
+<p>
+·         Supergirl – 3.05: “Damage”
+</p>
+
+<p>
+·         The Flash – 4.05: “Girls Night Out”
+</p>
+
+<p>
+·         Legends of Tomorrow – 3.05: “Return of the Mack”
+</p>
+
+<p>
+·         Arrow – 6.05: “Deathstroke Returns”
+</p>
+
+<p>
+·         Supergirl – 3.06: “Midvale”
+</p>
+
+<p>
+·         The Flash – 4.06: “When Harry Met Harry”
+</p>
+
+<p>
+·         Legends of Tomorrow – 3.06: “Helen Hunt”
+</p>
+
+<p>
+·         Arrow – 6.06: “Promises Kept”
+</p>
+
+<p>
+·         Supergirl – 3.07: “Wake Up”
+</p>
+
+<p>
+·         The Flash – 4.07: “Therefore I Am”
+</p>
+
+<p>
+·         Legends of Tomorrow – 3.07: “Welcome to the Jungle”
+</p>
+
+<p>
+·         Arrow – 6.07: “Thanksgiving”
+</p>
+
+<p>
+·         Supergirl – 3.08: “Crisis on Earth-X Part 1” ***MUST BE WATCHED TOGETHER (1)
+</p>
+
+<p>
+·         Arrow – 6.08: “Crisis on Earth-X Part 2” ***MUST BE WATCHED TOGETHER (2)
+</p>
+
+<p>
+·         The Flash – 4.08: “Crisis on Earth-X Part 3” ***MUST BE WATCHED TOGETHER (3)
+</p>
+
+<p>
+·         Legends of Tomorrow – 3.08: “Crisis on Earth-X Part 4” ***MUST BE WATCHED TOGETHER (4)
+</p>
+
+<p>
+·         Supergirl – 3.09: “Reign”
+</p>
+
+<p>
+·         The Flash – 4.09: “Don’t Run”
+</p>
+
+<p>
+·         Legends of Tomorrow – 3.09: “Beebo The God of War”
+</p>
+
+<p>
+·         Arrow – 6.09: “Irreconcilable Differences”
+</p>
+
+<p>
+·         Supergirl – 3.10: “Legion of Super-Heroes”
+</p>
+
+<p>
+·         The Flash – 4.10: “The Trial of The Flash”
+</p>
+
+<p>
+·         Black Lightning – 1.01: “The Resurrection”
+</p>
+
+<p>
+·         Arrow – 6.10: “Divided”
+</p>
+
+<p>
+·         Supergirl – 3.11: “Fort Rozz”
+</p>
+
+<p>
+·         The Flash – 4.11: “The Elongated Knight Rises”
+</p>
+
+<p>
+·         Black Lightning – 1.02: “Lawanda: The Book of Hope”
+</p>
+
+<p>
+·         Arrow – 6.11: “We Fall”
+</p>
+
+<p>
+·         Supergirl – 3.12: “For Good”
+</p>
+
+<p>
+·         The Flash – 4.12: “Honey I Shrunk Team Flash”
+</p>
+
+<p>
+·         Black Lightning – 1.03: “Lawanda: The Book of Burial”
+</p>
+
+<p>
+·         Arrow – 6.12: “All For Nothing”
+</p>
+
+<p>
+·         Supergirl – 3.13: “Both Sides Now”
+</p>
+
+<p>
+·         The Flash – 4.13: “True Colors”
+</p>
+
+<p>
+·         Black Lightning – 1.04: “Black Jesus”
+</p>
+
+<p>
+·         Arrow – 6.13: “The Devil’s Greatest Trick”
+</p>
+
+<p>
+·         Legends of Tomorrow – 3.10: “Daddy Darhkest”
+</p>
+
+<p>
+·         Black Lightning – 1.05: “And Then the Devil Brought the Plague: The Book of Green Light”
+</p>
+
+<p>
+·         Legends of Tomorrow – 3.11: “Here I Go Again”
+</p>
+
+<p>
+·         Legends of Tomorrow – 3.12: “The Curse of the Earth Totem”
+</p>
+
+<p>
+·         The Flash – 4.14: “Subject 9”
+</p>
+
+<p>
+·         Black Lightning – 1.06: “Three Sevens The Book of Thunder”
+</p>
+
+<p>
+·         Arrow – 6.14: “Collision Course”
+</p>
+
+<p>
+·         Legends of Tomorrow – 3.13: “No Country For Old Dads”
+</p>
+
+<p>
+·         The Flash – 4.15: “Enter Flashtime”
+</p>
+
+<p>
+·         Black Lightning – 1.07: “Equinox: The Book of Fate”
+</p>
+
+<p>
+·         Arrow – 6.15: “Doppelgänger”
+</p>
+
+<p>
+·         Legends of Tomorrow – 3.14: “Amazing Grace”
+</p>
+
+<p>
+·         The Flash – 4.16: “Run, Iris, Run”
+</p>
+
+<p>
+·         Black Lightning – 1.08: “Revelations”
+</p>
+
+<p>
+·         Legends of Tomorrow – 3.15: “Necromancing the Stone”
+</p>
+
+<p>
+·         Black Lightning – 1.09: “The Book of Little Black Lies”
+</p>
+
+<p>
+·         Legends of Tomorrow – 3.16: “I, Ava”
+</p>
+
+<p>
+·         Black Lightning – 1.10: “Sins of the Father: The Book of Redemption”
+</p>
+
+<p>
+·         Arrow – 6.16: “The Thanatos Guild”
+</p>
+
+<p>
+·         Legends of Tomorrow – 3.17: “Guest Starring John Noble”
+</p>
+
+<p>
+·         Black Lightning – 1.11: “Black Jesus: The Book of Crucifixion”
+</p>
+
+<p>
+·         Arrow – 6.17: “Brothers in Arms”
+</p>
+
+<p>
+·         Legends of Tomorrow – 3.18: “The Good, The Bad and The Cuddly”
+</p>
+
+<p>
+·         The Flash – 4.16: “Null and Annoyed”
+</p>
+
+<p>
+·         Black Lightning – 1.12: “The Resurrection and the Light: The Book of Pain”
+</p>
+
+<p>
+·         Arrow – 6.18: “Fundamentals”
+</p>
+
+<p>
+·         Supergirl – 3.14: “Schott Through The Heart”
+</p>
+
+<p>
+·         The Flash – 4.18: “Lose Yourself”
+</p>
+
+<p>
+·         Black Lightning – 1.13: “Shadow of Death: The Book of War”
+</p>
+
+<p>
+·         Arrow – 6.19: “The Dragon”
+</p>
+
+<p>
+·         Supergirl – 3.15: “In Search of Lost Time”
+</p>
+
+<p>
+·         The Flash – 4.19: “Fury Rogue”
+</p>
+
+<p>
+·         Arrow – 6.20: “Shifting Allegiances”
+</p>
+
+<p>
+·         Supergirl – 3.16: “Of Two Minds”
+</p>
+
+<p>
+·         The Flash – 4.20: “Therefore She Is”
+</p>
+
+<p>
+·         Arrow – 6.21: “Docket No. 11-19-41-73”
+</p>
+
+<p>
+·         Supergirl – 3.17: “Trinity”
+</p>
+
+<p>
+·         The Flash – 4.21: “Harry and the Harrisons”
+</p>
+
+<p>
+·         Arrow – 6.22: “The Ties That Bind”
+</p>
+
+<p>
+·         Supergirl – 3.18: “Shelter From The Storm”
+</p>
+
+<p>
+·         The Flash – 4.22: “Think Fast”
+</p>
+
+<p>
+·         Arrow – 6.23: “Life Sentence”
+</p>
+
+<p>
+·         Supergirl – 3.19: “The Fanatical”
+</p>
+
+<p>
+·         The Flash – 4.23: “We Are The Flash”
+</p>
+
+<p>
+·         Supergirl – 3.20: “Dark Side of the Moon”
+</p>
+
+<p>
+·         Supergirl – 3.21: “Not Kansas”
+</p>
+
+<p>
+·         Supergirl – 3.22: “Make It Reign”
+</p>
+
+<p>
+·         Supergirl – 3.23: “Battles Lost And Won”
+</p>
+
+<p>
+2018/2019
+</p>
+
+<p>
+·         The Flash – 5.01: “Nora”
+</p>
+
+<p>
+·         Black Lightning – 2.01: “The Book of Consequences: Chapter One: The Rise of the Green Light Babies”
+</p>
+
+<p>
+·         Supergirl – 4.01: “American Alien”
+</p>
+
+<p>
+·         Arrow – 7.01: “Inmate 4587”
+</p>
+
+<p>
+·         The Flash – 5.02: “Blocked”
+</p>
+
+<p>
+·         Black Lightning – 2.02: “The Book of Consequences: Chapter Two: Black Jesus Blues”
+</p>
+
+<p>
+·         Consequences: Chapter Two: Black Jesus Blues”
+</p>
+
+<p>
+·         Supergirl – 4.02: “Fallout”
+</p>
+
+<p>
+·         Arrow – 7.02: “The Longbow Hunters”
+</p>
+
+<p>
+·         Legends of Tomorrow – 4.01: “The Virgin Gary”
+</p>
+
+<p>
+·         The Flash – 5.03: “The Death Of Vibe”
+</p>
+
+<p>
+·         Black Lightning – 2.03: “The Book of Consequences: Chapter Three: Master Lowry”
+</p>
+
+<p>
+·         Supergirl – 4.03: “Man Of Steel”
+</p>
+
+<p>
+·         Arrow – 7.03: “Crossing Lines”
+</p>
+
+<p>
+·         Legends of Tomorrow – 4.02: “Witch Hunt”
+</p>
+
+<p>
+·         The Flash – 5.04: “News Flash”
+</p>
+
+<p>
+·         Black Lightning – 2.04: “The Book of Consequences: Chapter Four: Translucent Freak”
+</p>
+
+<p>
+·         Supergirl – 4.04: “Ahimsa”
+</p>
+
+<p>
+·         Arrow – 7.04: “Level 2”
+</p>
+
+<p>
+·         Legends of Tomorrow – 4.03: “Dancing Queen”
+</p>
+
+<p>
+·         Supergirl – 4.05: “Parasite Lost”
+</p>
+
+<p>
+·         Arrow – 7.05: “The Demon”
+</p>
+
+<p>
+·         Legends of Tomorrow – 4.04: “Wet Hot American Bummer”
+</p>
+
+<p>
+·         The Flash – 5.05: “All Doll’d Up”
+</p>
+
+<p>
+·         Black Lightning – 2.05: “The Book of Blood: Chapter One: Requiem”
+</p>
+
+<p>
+·         Supergirl – 4.06: “Call To Action”
+</p>
+
+<p>
+·         Arrow – 7.06: “Due Process”
+</p>
+
+<p>
+·         Legends of Tomorrow – 4.05: “Tagumo Attacks!!!”
+</p>
+
+<p>
+·         The Flash – 5.06: “The Icicle Cometh”
+</p>
+
+<p>
+·         Black Lightning – 2.06: “The Book of Blood: Chapter Two - The Perdi”
+</p>
+
+<p>
+·         Supergirl – 4.07: “Rather The Fallen Angel”
+</p>
+
+<p>
+·         Arrow – 7.07: “The Slabside Redemption”
+</p>
+
+<p>
+·         Legends of Tomorrow – 4.06: “Tender Is The Nate”
+</p>
+
+<p>
+·         The Flash – 5.07: “O Come, All Ye Thankful”
+</p>
+
+<p>
+·         Black Lightning – 2.07: “The Book of Blood: Chapter Three - The Sange”
+</p>
+
+<p>
+·         Supergirl – 4.08: “Bunker Hill”
+</p>
+
+<p>
+·         Arrow – 7.08: “Unmasked”
+</p>
+
+<p>
+·         Legends of Tomorrow – 4.07: “Hell No, Dolly!”
+</p>
+
+<p>
+·         The Flash – 5.08: “What’s Past Is Prologue”
+</p>
+
+<p>
+·         Black Lightning – 2.08: “The Book of Rebellion: Chapter One: Exodus”
+</p>
+
+<p>
+·         The Flash – 5.09: “Elseworlds Part 1” ***MUST BE WATCHED TOGETHER (1)
+</p>
+
+<p>
+·         Arrow – 7.09: “Elseworlds Part 2” ***MUST BE WATCHED TOGETHER (2)
+</p>
+
+<p>
+·         Supergirl – 4.09: “Elseworlds Part 3” ***MUST BE WATCHED TOGETHER (3)
+</p>
+
+<p>
+·         Legends of Tomorrow – 4.08: “Legends Of To-Meow-Meow”
+</p>
+
+<p>
+·         Black Lightning – 2.09: “The Book of Rebellion: Chapter Two: Gift Of The Magi”
+</p>
+
+<p>
+·         The Flash – 5.10: “The Flash &amp; The Furious”
+</p>
+
+<p>
+·         Supergirl – 4.10: “Suspicious Minds”
+</p>
+
+<p>
+·         Arrow – 7.10: “My Name Is Emiko Queen”
+</p>
+
+<p>
+·         Black Lightning – 2.10: “The Book of Rebellion: Chapter Three: Angelitos Negros”
+</p>
+
+<p>
+·         The Flash – 5.11: “Seeing Red”
+</p>
+
+<p>
+·         Supergirl – 4.11: “Blood Memory”
+</p>
+
+<p>
+·         Arrow – 7.11: “Past Sins”
+</p>
+
+<p>
+·         Black Lightning – 2.11: “The Book Of Secrets: Chapter One: Prodigal Son”
+</p>
+
+<p>
+·         The Flash – 5.12: “Memorabilia”
+</p>
+
+<p>
+·         Arrow – 7.12: “The Emerald Archer”
+</p>
+
+<p>
+·         Black Lightning – 2.12: “The Book Of Secrets: Chapter Two: Just and Unjust”
+</p>
+
+<p>
+·         The Flash – 5.13: “Goldfaced”
+</p>
+
+<p>
+·         Arrow – 7.13: “Star City Slayer”
+</p>
+
+<p>
+·         Black Lightning – 2.13: “The Book of Secrets: Chapter Three: Pillar of Fire”
+</p>
+
+<p>
+·         The Flash – 5.14: “Cause and XS”
+</p>
+
+<p>
+·         Supergirl – 4.12: “Menagerie”
+</p>
+
+<p>
+·         Supergirl – 4.13: “What’s So Funny About Truth, Justice, And The American Way?”
+</p>
+
+<p>
+·         Arrow – 7.14: “Brothers &amp; Sisters”
+</p>
+
+<p>
+·         Black Lightning – 2.14: “The Book of Secrets: Chapter Four: Original Sin”
+</p>
+
+<p>
+·         The Flash – 5.15: “King Shark vs Gorilla Grodd”
+</p>
+
+<p>
+·         Supergirl – 4.14: “Stand And Deliver”
+</p>
+
+<p>
+·         Arrow – 7.15: “Training Day”
+</p>
+
+<p>
+·         Black Lightning – 2.15: “The Book Of The Apocalypse: Chapter One: The Alpha”
+</p>
+
+<p>
+·         The Flash – 5.16: “Failure Is An Orphan”
+</p>
+
+<p>
+·         Supergirl – 4.15: “O Brother, Where Art Though”
+</p>
+
+<p>
+·         Arrow – 7.16: “Star City 2040”
+</p>
+
+<p>
+·         Black Lightning – 2.16: “The Book Of The Apocalypse: Chapter Two: The Omega”
+</p>
+
+<p>
+·         The Flash – 5.17: “Time Bomb”
+</p>
+
+<p>
+·         Supergirl – 4.16: “The House Of L”
+</p>
+
+<p>
+·         Arrow – 7.17: “Inheritance”
+</p>
+
+<p>
+·         Supergirl – 4.17: “All About Eve”
+</p>
+
+<p>
+·         Legends of Tomorrow – 4.09: “Lucha de Apuestas”
+</p>
+
+<p>
+·         Legends of Tomorrow – 4.10: “The Getaway”
+</p>
+
+<p>
+·         Arrow – 7.18: “Lost Canary”
+</p>
+
+<p>
+·         Legends of Tomorrow – 4.11: “Séance and Sensibility”
+</p>
+
+<p>
+·         The Flash – 5.18: “Godspeed”
+</p>
+
+<p>
+·         Supergirl – 4.18: “Crime And Punishment”
+</p>
+
+<p>
+·         Arrow – 7.19: “Spartan”
+</p>
+
+<p>
+·         Legends of Tomorrow – 4.12: “The Eggplant, The Witch &amp; The Wardrobe”
+</p>
+
+<p>
+·         The Flash – 5.19: “Snow Pack”
+</p>
+
+<p>
+·         Supergirl – 4.19: “American Dreamer”
+</p>
+
+<p>
+·         Arrow – 7.20: “Confessions”
+</p>
+
+<p>
+·         Legends of Tomorrow – 4.13: “Egg MacGuffin”
+</p>
+
+<p>
+·         The Flash – 5.20: “Gone Rogue”
+</p>
+
+<p>
+·         Supergirl – 4.20: “Will The Real Miss Tessmacher Please Stand Up?”
+</p>
+
+<p>
+·         Arrow – 7.21: “Living Proof”
+</p>
+
+<p>
+·         Legends of Tomorrow – 4.14: “Nip/Stuck”
+</p>
+
+<p>
+·         The Flash – 5.21: “The Girl With The Red Lightning”
+</p>
+
+<p>
+·         Supergirl – 4.21: “Red Dawn”
+</p>
+
+<p>
+·         Arrow – 7.22: “You Have Saved This City”
+</p>
+
+<p>
+·         Legends of Tomorrow – 4.15: “Terms Of Service”
+</p>
+
+<p>
+·         The Flash – 5.22: “Legacy”
+</p>
+
+<p>
+·         Supergirl – 4.22: “The Quest For Peace”
+</p>
+
+<p>
+·         Legends of Tomorrow – 4.16: “Hey World!”
+</p>
+
+<p>
+2019/2020
+</p>
+
+<p>
+·         Batwoman – 1.01: “Pilot”
+</p>
+
+<p>
+·         Supergirl – 5.01: “Event Horizon”
+</p>
+
+<p>
+·         Black Lightning – 3.01: “The Book Of Occupation: Chapter One: Birth of Blackbird”
+</p>
+
+<p>
+·         The Flash – 6.01: “Into The Void”
+</p>
+
+<p>
+·         Batwoman – 1.02: “The Rabbit Hole”
+</p>
+
+<p>
+·         Supergirl – 5.02: “Stranger Beside Me”
+</p>
+
+<p>
+·         Black Lightning – 3.02: “The Book Of Occupation: Chapter Two”
+</p>
+
+<p>
+·         The Flash – 6.02: “A Flash Of Lightning”
+</p>
+
+<p>
+·         Arrow – 8.01: “Starling City”
+</p>
+
+<p>
+·         Batwoman – 1.03: “Down Down Down”
+</p>
+
+<p>
+·         Supergirl – 5.03: “Blurred Lines”
+</p>
+
+<p>
+·         Black Lightning – 3.03: “The Book Of Occupation: Chapter Three:  Agent Odell&rsquo;s Pipe-Dream”
+</p>
+
+<p>
+·         The Flash – 6.03: “Dead Man Running”
+</p>
+
+<p>
+·         Arrow – 8.02: “Welcome To Hong Kong”
+</p>
+
+<p>
+·         Batwoman – 1.04: “Who Are You”
+</p>
+
+<p>
+·         Supergirl – 5.04: “In Plain Sight”
+</p>
+
+<p>
+·         Black Lightning – 3.04: “The Book Of Occupation: Chapter Four: Lynn’s Ouroboros”
+</p>
+
+<p>
+·         The Flash – 6.04: “There Will Be Blood”
+</p>
+
+<p>
+·         Arrow – 8.03: “Leap Of Faith”
+</p>
+
+<p>
+·         Batwoman – 1.05: “Mine Is A Long Sad Tale”
+</p>
+
+<p>
+·         Supergirl – 5.05: “Dangerous Liaisons”
+</p>
+
+<p>
+·         The Flash – 6.05: “Kiss Kiss Breach Breach”
+</p>
+
+<p>
+·         Arrow – 8.04: “Present Tense”
+</p>
+
+<p>
+·         Batwoman – 1.06: “I’ll Be Judge, I’ll Be Jury”
+</p>
+
+<p>
+·         Supergirl – 5.06: “Confidence Women”
+</p>
+
+<p>
+·         Black Lightning – 3.05: “The Book Of Occupation: Chapter Five: Requiem For Tavon”
+</p>
+
+<p>
+·         Batwoman – 1.07: “Tell Me The Truth”
+</p>
+
+<p>
+·         Supergirl – 5.07: “Tremors”
+</p>
+
+<p>
+·         Black Lightning – 3.06: “The Book Of Resistance: Chapter Six:”
+</p>
+
+<p>
+·         The Flash – 6.06: “License To Elongate”
+</p>
+
+<p>
+·         Arrow – 8.05: “Prochnost”
+</p>
+
+<p>
+·         Black Lightning – 3.07: “The Book Of Resistance: Chapter Two: Henderson’s Opus”
+</p>
+
+<p>
+·         The Flash – 6.07: “The Last Temptation Of Barry Allen, Pt 1”
+</p>
+
+<p>
+·         Arrow – 8.06: “Reset”
+</p>
+
+<p>
+·         Batwoman – 1.08: “A Mad Tea Party”
+</p>
+
+<p>
+·         Supergirl – 5.08: “The Wrath Of Rama Khan”
+</p>
+
+<p>
+·         Black Lightning – 3.08: “The Book Of Resistance: Chapter Three: Battle of Franklin Terrace”
+</p>
+
+<p>
+·         The Flash – 6.08: “The Last Temptation Of Barry Allen, Pt 2”
+</p>
+
+<p>
+·         Arrow – 8.07: “Purgatory”
+</p>
+
+<p>
+·         Supergirl – 5.09: “Crisis On Infinite Earths Part 1” ***MUST WATCH TOGETHER
+</p>
+
+<p>
+·         Batwoman – 1.09: “Crisis On Infinite Earths Part 2” ***MUST WATCH TOGETHER
+</p>
+
+<p>
+·         Black Lightning – 3.09: “The Book Of Resistance: Chapter Four: Earth Crisis”
+</p>
+
+<p>
+·         The Flash – 6.09: “Crisis On Infinite Earths Part 3” ***MUST WATCH TOGETHER
+</p>
+
+<p>
+·         Arrow – 8.08: “Crisis On Infinite Earths Part 4” ***MUST WATCH TOGETHER
+</p>
+
+<p>
+·         Legends of Tomorrow – 5.01: “Crisis On Infinite Earths Part 5” **MUST WATCH TOGETHER
+</p>
+
+<p>
+·         Batwoman – 1.10: “How Queer Everything Is Today!”
+</p>
+
+<p>
+·         Supergirl – 5.10: “The Bottle Episode”
+</p>
+
+<p>
+·         Black Lightning – 3.10: “The Book Of Markovia: Chapter One: Blessings and Curses Reborn”
+</p>
+
+<p>
+·         Arrow – 8.09: “Green Arrow &amp; The Canaries”
+</p>
+
+<p>
+·         Legends of Tomorrow – 5.02: “Meet The Legends”
+</p>
+
+<p>
+·         Batwoman – 1.11: “An Un-birthday Present”
+</p>
+
+<p>
+·         Supergirl – 5.11: “Back From The Future – Part One”
+</p>
+
+<p>
+·         Black Lightning – 3.11: “The Book Of Markovia: Chapter Two: Lynn’s Addiction ”
+</p>
+
+<p>
+·         Arrow – 8.10: “Fadeout”
+</p>
+
+<p>
+·         Black Lightning – 3.12: “The Book Of Markovia: Chapter Three: Motherless ID”
+</p>
+
+<p>
+·         The Flash – 6.10: “Marathon”
+</p>
+
+<p>
+·         Legends of Tomorrow – 5.03: “Miss Me, Kiss Me, Love Me”
+</p>
+
+<p>
+·         Black Lightning – 3.13: “The Book Of Markovia: Chapter Four: Grab The Strap”
+</p>
+
+<p>
+·         The Flash – 6.11: “Love Is A Battlefield”
+</p>
+
+<p>
+·         Legends of Tomorrow – 5.04: “Slay Anything”
+</p>
+
+<p>
+·         Batwoman – 1.12: “Take Your Choice”
+</p>
+
+<p>
+·         Supergirl – 5.12: “Back From The Future – Part Two”
+</p>
+
+<p>
+·         The Flash – 6.12: “A Girl Named Sue”
+</p>
+
+<p>
+·         Legends of Tomorrow – 5.05: “A Head Of Her Time”
+</p>
+
+<p>
+·         Batwoman – 1.13: “Drink Me”
+</p>
+
+<p>
+·         Supergirl – 5.13: “A Super Life”
+</p>
+
+<p>
+·         Black Lightning – 3.14: “The Book Of War: Chapter One: Homecoming”
+</p>
+
+<p>
+·         The Flash – 6.13: “Grodd Friended Me”
+</p>
+
+<p>
+·         Legends of Tomorrow – 5.06: “Mortal Khanbat”
+</p>
+
+<p>
+·         Black Lightning – 3.15: “The Book Of War: Chapter Two: Freedom Ain’t Free”
+</p>
+
+<p>
+·         Batwoman – 1.14: “Grinning From Ear To Ear”
+</p>
+
+<p>
+·         Supergirl – 5.14: “The Bodyguard”
+</p>
+
+<p>
+·         Black Lightning – 3.16: “The Book Of War: Chapter Three: Liberation”
+</p>
+
+<p>
+·         The Flash – 6.14: “Death Of The Speed Force”
+</p>
+
+<p>
+·         Legends of Tomorrow – 5.07: “Mr. Parker’s Cul-De-Sac”
+</p>
+
+<p>
+·         Batwoman – 1.15: “Off With Her Head”
+</p>
+
+<p>
+·         Supergirl – 5.15: “Reality Bytes”
+</p>
+
+<p>
+·         The Flash – 6.15: “The Exorcism of Nash Wells”
+</p>
+
+<p>
+·         Legends of Tomorrow – 5.08: “Romeo V. Juliet: Dawn of Justness”
+</p>
+
+<p>
+·         Batwoman – 1.16: “Through The Looking Glass”
+</p>
+
+<p>
+·         Supergirl – 5.16: “Alex In Wonderland”
+</p>
+
+<p>
+·         The Flash – 6.16: “So Long and Goodnight”
+</p>
+
+<p>
+·         Legends of Tomorrow – 5.09: “Zari, Not Zari”
+</p>
+
+<p>
+·         Batwoman – 1.17: “A Narrow Escape”
+</p>
+
+<p>
+·         The Flash – 6.17: “Liberation”
+</p>
+
+<p>
+·         Legends of Tomorrow – 5.10: “The Great British Fake Off”
+</p>
+
+<p>
+·         Batwoman – 1.18: “If You Believe In Me, I’ll Believe In You”
+</p>
+
+<p>
+·         Supergirl – 5.17: “Deus Ex Machina”
+</p>
+
+<p>
+·         The Flash – 6.18: “Pay The Piper”
+</p>
+
+<p>
+·         Legends of Tomorrow – 5.11: “Ship Broken”
+</p>
+
+<p>
+·         Batwoman – 1.19: “A Secret Kept From All The Rest”
+</p>
+
+<p>
+·         Supergirl – 5.18: “The Missing Link”
+</p>
+
+<p>
+·         The Flash – 6.19: “Success Is Assured”
+</p>
+
+<p>
+·         Legends of Tomorrow – 5.12: “Freaks and Greeks”
+</p>
+
+<p>
+·         Batwoman – 1.20: “O, Mouse!”
+</p>
+
+<p>
+·         Supergirl – 5.19: “Immortal Kombat”
+</p>
+
+<p>
+·         Stargirl – 1.01: “Pilot”
+</p>
+
+<p>
+·         Legends of Tomorrow – 5.13: “I Am Legends”
+</p>
+
+<p>
+·         Stargirl – 1.02: “S.T.R.I.P.E.”
+</p>
+
+<p>
+·         Legends of Tomorrow – 5.14: “The One Where We’re Stuck On TV”
+</p>
+
+<p>
+·         Stargirl – 1.03: “Icicle”
+</p>
+
+<p>
+·         Legends of Tomorrow – 5.15: “Swan Thong”
+</p>
+
+<p>
+·         Stargirl – 1.04: “Wildcat”
+</p>
+
+<p>
+·         Stargirl – 1.05: “Hourman and Dr. Mid-Nite ”
+</p>
+
+<p>
+·         Stargirl – 1.06: “The Justice Society”
+</p>
+
+<p>
+·         Stargirl – 1.07: “Shiv Part One”
+</p>
+
+<p>
+·         Stargirl – 1.08: “Shiv Part Two”
+</p>
+
+<p>
+·         Stargirl – 1.09: “Brainwave”
+</p>
+
+<p>
+·         Stargirl – 1.10: “Brainwave Jr.”
+</p>
+
+<p>
+·         Stargirl – 1.11: “Shining Knight”
+</p>
+
+<p>
+·         Stargirl – 1.12: “Stars &amp; S.T.R.I.P.E Part One”
+</p>
+
+<p>
+·         Stargirl – 1.13: “Stars &amp; S.T.R.I.P.E Part Two”
+</p>
+
+<p>
+2021
+</p>
+
+<p>
+·         Batwoman – 2.01: “What Happened To Kate Kane”
+</p>
+
+<p>
+·         Batwoman – 2.02: “Prior Criminal History”
+</p>
+
+<p>
+·         Batwoman – 2.03: “Bat Girl Magic!”
+</p>
+
+<p>
+·         Black Lightning – 4.01: “The Book of Reconstruction: Chapter One”
+</p>
+
+<p>
+·         Batwoman – 2.04: “Fair Skin, Blue Eyes”
+</p>
+
+<p>
+·         Black Lightning – 4.02: “The Book of Reconstruction: Chapter Two”
+</p>
+
+<p>
+·         Batwoman – 2.05: “Gore On Canvas”
+</p>
+
+<p>
+·         Black Lightning – 4.03: “The Book of Reconstruction: Chapter Three”
+</p>
+
+<p>
+·         Superman &amp; Lois – 1.01: “Pilot”
+</p>
+
+<p>
+·         Batwoman – 2.06: “Do Not Resuscitate”
+</p>
+
+<p>
+·         Black Lightning – 4.04: “The Book of Reconstruction: Chapter Four”
+</p>
+
+<p>
+·         The Flash – 7.01: “All’s Wells That Ends Wells”
+</p>
+
+<p>
+·         Superman &amp; Lois – 1.02: “Heritage”
+</p>
+
+<p>
+·         Black Lightning – 4.05: “The Book of Ruin: Chapter One”
+</p>
+
+<p>
+·         The Flash – 7.02: “The Speed of Thought”
+</p>
+
+<p>
+·         Superman &amp; Lois – 1.03: “The Perks of Not Being a Wallflower”
+</p>
+
+<p>
+·         Batwoman – 2.07: “It’s Best You Stop Digging”
+</p>
+
+<p>
+·         Black Lightning – 4.06: “The Book of Ruin: Chapter Two”
+</p>
+
+<p>
+·         The Flash – 7.02: “Mother”
+</p>
+
+<p>
+·         Superman &amp; Lois – 1.04: “Haywire”
+</p>
+
+<p>
+·         Batwoman – 2.08: “Survived Much Worse”
+</p>
+
+<p>
+·         The Flash – 7.04: “Central City Strong”
+</p>
+
+<p>
+·         Superman &amp; Lois – 1.05: “The Best of Smallville”
+</p>
+
+<p>
+·         Batwoman – 2.09: “Rule #1”
+</p>
+
+<p>
+·         The Flash – 7.05: “Fear Me”
+</p>
+
+<p>
+·         Supergirl – 6.01: “Rebirth”
+</p>
+
+<p>
+·         The Flash – 7.06: “The One With The Nineties”
+</p>
+
+<p>
+·         Supergirl – 6.02: “A Few Good Women”
+</p>
+
+<p>
+·         Batwoman – 2.10: “Time Off For Good Behavior”
+</p>
+
+<p>
+·         Black Lightning – 4.07: “Painkiller”
+</p>
+
+<p>
+·         The Flash – 7.07: “Growing Pains”
+</p>
+
+<p>
+·         Supergirl – 6.03: “Phantom Menaces”
+</p>
+
+<p>
+·         Batwoman – 2.11: “Arrive Alive”
+</p>
+
+<p>
+·         Black Lightning – 4.08: “The Book of Ruin: Chapter Three”
+</p>
+
+<p>
+·         Supergirl – 6.04: “Lost Souls”
+</p>
+
+<p>
+·         Black Lightning – 4.09: “The Book of Ruin: Chapter Four”
+</p>
+
+<p>
+·         Supergirl – 6.05: “Prom Night”
+</p>
+
+<p>
+·         Legends of Tomorrow – 6.01: “Ground Control to Sara Lance”
+</p>
+
+<p>
+·         Batwoman – 2.12: “Initiate Self Destruct”
+</p>
+
+<p>
+·         Black Lightning – 4.10: “The Book of Reunification: Chapter One”
+</p>
+
+<p>
+·         The Flash – 7.08: “The People v. Killer Frost”
+</p>
+
+<p>
+·         Supergirl – 6.06: “Prom Again!”
+</p>
+
+<p>
+·         Legends of Tomorrow – 6.02: “Meat: The Legends”
+</p>
+
+<p>
+·         Batwoman – 2.13: “I&rsquo;ll Give You A Clue”
+</p>
+
+<p>
+·         Black Lightning – 4.11: “The Book of Reunification: Chapter Two”
+</p>
+
+<p>
+·         The Flash – 7.09: “Timeless”
+</p>
+
+<p>
+·         Supergirl – 6.07: “Fear Knot”
+</p>
+
+<p>
+·         Legends of Tomorrow – 6.03: “The Ex-Factor”
+</p>
+
+<p>
+·         Batwoman – 2.14: “And Justice For All”
+</p>
+
+<p>
+·         Black Lightning – 4.12: “The Book of Resurrection: Chapter One”
+</p>
+
+<p>
+·         The Flash – 7.10: “Family Matters Part 1”
+</p>
+
+<p>
+·         Superman &amp; Lois – 1.06: “Broken Trust”
+</p>
+
+<p>
+·         Legends of Tomorrow – 6.04: “Bay of Squids”
+</p>
+
+<p>
+·         Black Lightning – 4.13: “The Book of Resurrection: Chapter Two” (Series Finale)
+</p>
+
+<p>
+·         The Flash – 7.11: “Family Matters Part 2”
+</p>
+
+<p>
+·         Superman &amp; Lois – 1.07: “Man of Steel”
+</p>
+
+<p>
+·         Superman &amp; Lois – 1.08: “Holding The Wrench”
+</p>
+
+<p>
+·         Legends of Tomorrow – 6.05: “The Satanist&rsquo;s Apprentice”
+</p>
+
+<p>
+·         Batwoman – 2.15: “Armed and Dangerous”
+</p>
+
+<p>
+·         The Flash – 7.12: “Good-Bye Vibrations”
+</p>
+
+<p>
+·         Superman &amp; Lois – 1.09: “Loyal Subjekts”
+</p>
+
+<p>
+·         Legends of Tomorrow – 6.06: “Bishop&rsquo;s Gambit”
+</p>
+
+<p>
+·         Batwoman – 2.16: “Rebirth”
+</p>
+
+<p>
+·         The Flash – 7.13: “Masquerade”
+</p>
+
+<p>
+·         Superman &amp; Lois – 1.10: “O Mother, Where Art Thou?”
+</p>
+
+<p>
+·         Legends of Tomorrow – 6.07: “Back to the Finale: Part II”
+</p>
+
+<p>
+·         Batwoman – 2.17: “Kane, Kate”
+</p>
+
+<p>
+·         The Flash – 7.14: “Rayo de Luz”
+</p>
+
+<p>
+·         Superman &amp; Lois – 1.11: “A Brief Reminiscence In-Between Cataclysmic Events”
+</p>
+
+<p>
+·         Legends of Tomorrow – 6.08: “Stressed Western”
+</p>
+
+<p>
+·         Batwoman – 2.18: “Power”
+</p>
+
+<p>
+·         The Flash – 7.15: “Enemy At The Gates”
+</p>
+
+<p>
+·         The Flash – 7.16: “P.O.W.”
+</p>
+
+<p>
+·         Legends of Tomorrow – 6.09: “This Is Gus”
+</p>
+
+<p>
+·         The Flash – 7.17: “Heart Of The Matter, Part 1”
+</p>
+
+<p>
+·         Superman &amp; Lois – 1.12: “Through The Valley Of Death”
+</p>
+
+<p>
+·         Legends of Tomorrow – 6.10: “Bad Blood”
+</p>
+
+<p>
+·         The Flash – 7.18: “Heart Of The Matter, Part 2”
+</p>
+
+<p>
+·         Superman &amp; Lois – 1.13: “Fail Safe”
+</p>
+
+<p>
+·         Legends of Tomorrow – 6.11: “The Final Frame”
+</p>
+
+<p>
+·         Stargirl – 2.01: “Summer School: Chapter One”
+</p>
+
+<p>
+·         Superman &amp; Lois – 1.14: “The Eradicator”
+</p>
+
+<p>
+·         Legends of Tomorrow – 6.12: “Bored On Board Onboard”
+</p>
+
+<p>
+·         Stargirl – 2.02: “Summer School: Chapter Two”
+</p>
+
+<p>
+·         Superman &amp; Lois – 1.15: “Last Sons of Krypton”
+</p>
+
+<p>
+·         Legends of Tomorrow – 6.13: “Silence of the Sonograms”
+</p>
+
+<p>
+·         Stargirl – 2.03: “Summer School: Chapter Three”
+</p>
+
+<p>
+·         Supergirl – 6.08: “Welcome Back, Kara”
+</p>
+
+<p>
+·         Legends of Tomorrow – 6.14: “There Will Be Brood”
+</p>
+
+<p>
+·         Stargirl – 2.04: “Summer School: Chapter Four”
+</p>
+
+<p>
+·         Supergirl – 6.09: “Dream Weaver”
+</p>
+
+<p>
+·         Legends of Tomorrow – 6.15: “The Fungus Amongus”
+</p>
+
+<p>
+·         Stargirl – 2.05: “Summer School: Chapter Five”
+</p>
+
+<p>
+·         Supergirl – 6.10: “Still I Rise”
+</p>
+
+<p>
+·         Stargirl – 2.06: “Summer School: Chapter Six”
+</p>
+
+<p>
+·         Supergirl – 6.11: “Mxy In The Middle”
+</p>
+
+<p>
+·         Stargirl – 2.07: “Summer School: Chapter Seven”
+</p>
+
+<p>
+·         Supergirl – 6.12: “Blind Spots”
+</p>
+
+<p>
+·         Stargirl – 2.08: “Summer School: Chapter Eight”
+</p>
+
+<p>
+·         Supergirl – 6.13: “The Gauntlet”
+</p>
+
+<p>
+·         Stargirl – 2.09: “Summer School: Chapter Nine”
+</p>
+
+<p>
+·         Supergirl – 6.14: “Magical Thinking”
+</p>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Luís Guilherme Miranda Spengler</p>
+<p class="date">Created: 2021-10-09 sáb 18:16</p>
+</div>
+</body>
+</html>

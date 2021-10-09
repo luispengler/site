@@ -1,0 +1,104 @@
+#+TITLE: Carlinda movies
+#+DESCRIPTION: luispengler.github.io/site - Carlinda movies
+#+SETUPFILE:  https://luispengler.github.io/site/org-html-themes/org/theme-readtheorg.setup
+#+OPTIONS: nul:nil ^:{}
+
+
+* Assistir as franquias (One week stand :) [3%] [1/30]
+** [X] Harry Potter [9/9]
+*** [X] Harry Potter and the sorcerer's stone
+*** [X] Harry Potter and the chamber of secrets
+*** [X] Harry Potter and the prizioner of azkaban
+*** [X] Harry Potter and the globet of fire
+*** [X] Harry Potter and the order of the phoenix
+*** [X] Harry Potter and half-blood prince
+*** [X] Harry Potter and the deathly hallows pt.1
+*** [X] Harry Potter and the deathly hallows pt.2
+*** [X] Fantastic Beasts and where to find them
+** [ ] Percy Jackson [0/3]
+*** [ ] Percy Jackson: The lightning thief
+*** [ ] Percy Jackson: Sea of monsters
+*** [ ] Percy Jackson and the titan's curse
+** [ ] Indiana Jones [0/5]
+*** [ ] Indiana Jones and the Temple of Doom (1984)
+*** [ ] Indiana Jones and the Raiders of the Lost Ark (1981)
+*** [ ] Indiana Jones and the Last Crusade (1989)
+*** [ ] Indiana Jones and the Kingdom of the Crystal Skull (2008)
+*** [ ] The Young Indiana Jones Chronicles
+** [ ] Velozes e Furiosos [0/9]
+*** [ ] Velozes e furiosos 1
+*** [ ] Velozes e furiosos 2
+*** [ ] Velozes e furiosos 3
+*** [ ] Velozes e furiosos 4
+*** [ ] Velozes e furiosos 5
+*** [ ] Velozes e furiosos 6
+*** [ ] Velozes e furiosos 7
+*** [ ] Velozes e furiosos 8
+*** [ ] Velozes e furiosos 9
+** [ ] Toy Story [0/3]
+*** [ ] Toy Story 1
+*** [ ] Toy Story 2
+*** [ ] Toy Story 3
+** [ ] A era do gelo [0/4]
+*** [ ] A era do gelo 1
+*** [ ] A era do gelo 2
+*** [ ] A era do gelo 3
+*** [ ] A era do gelo 4
+** [ ] Shrek
+** [ ] Meu malvado favorito
+** [ ] Detona ralph
+** [ ] As cronicas de narnia
+** [ ] Alice
+** [ ] Planeta dos macacos
+** [ ] Resident Evil
+** [ ] Missão Impossível
+** [ ] Jogos vorazes
+** [ ] Divergente
+** [ ] After
+** [ ] Crepúsculo
+** [ ] Malévola
+** [ ] Jurassic Park
+** [ ] Piratas do Caribe
+** [ ] 007
+** [ ] Die Hard
+** [ ] Mortal Kombat
+** [ ] Matrix
+** [ ] Star Wars
+** [ ] De volta para o futuro [0/3]
+*** [ ] De volta para o futuro 1
+*** [ ] De volta para o futuro 2
+*** [ ] De volta para o futuro 3
+** [ ] Exterminador do Futuro
+** [ ] MIB
+** [ ] Alien
+
+*** Regra: depois de uma saga, um filme separado
+
+* Filmes separados (One night stand :) [3%] [1/27]
+** [X] Titanic
+** [ ] Interestellar
+** [ ] World War Z
+** [ ] Caroline
+** [ ] Mama
+** [ ] Rei Arthur e a lenda da espada
+** [ ] Gigantes de aço
+** [ ] Wall-e
+** [ ] As aventuras de Shark Boy e Lava Girl
+** [ ] Prometheus
+** [ ] Em ritmo de fuga
+** [ ] As branquelas
+** [ ] Fahrenheit 451
+** [ ] The Last Witch Hunter
+** [ ] The theory of everthing
+** [ ] Torre negra
+** [ ] The Martian
+** [ ] A lenda dos guardiões
+** [ ] Oxygen
+** [ ] A forma da água
+** [ ] A culpa é das estrelas
+** [ ] Simplesmente acontece
+** [ ] The lost city of Z
+** [ ] Questão de tempo
+** [ ] As vantagens de ser invisivel
+** [ ] A bela e a fera
+** [ ] Sombras da noite

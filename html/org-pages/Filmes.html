@@ -1,0 +1,657 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2021-10-09 sáb 18:16 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Carlinda movies</title>
+<meta name="author" content="Luís Guilherme Miranda Spengler" />
+<meta name="description" content="luispengler.github.io/site - Carlinda movies" />
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+</style>
+<link rel="stylesheet" type="text/css" href="https://luispengler.github.io/site/org-html-themes/src/readtheorg_theme/css/htmlize.css"/>
+<link rel="stylesheet" type="text/css" href="https://luispengler.github.io/site/org-html-themes/src/readtheorg_theme/css/readtheorg.css"/>
+<script src="httpss://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="httpss://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://luispengler.github.io/site/org-html-themes/src/lib/js/jquery.stickytableheaders.min.js"></script>
+<script type="text/javascript" src="https://luispengler.github.io/site/org-html-themes/src/readtheorg_theme/js/readtheorg.js"></script>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">Carlinda movies</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#orgd92ee2d">1. Assistir as franquias (One week stand :) <code>[3%]</code> <code>[1/30]</code></a>
+<ul>
+<li><a href="#orgca15207">1.1. <span class="done _X_">[X]</span> Harry Potter <code>[9/9]</code></a>
+<ul>
+<li><a href="#orgd5eb8dd">1.1.1. <span class="done _X_">[X]</span> Harry Potter and the sorcerer&rsquo;s stone</a></li>
+<li><a href="#org9f539d3">1.1.2. <span class="done _X_">[X]</span> Harry Potter and the chamber of secrets</a></li>
+<li><a href="#orge851764">1.1.3. <span class="done _X_">[X]</span> Harry Potter and the prizioner of azkaban</a></li>
+<li><a href="#orgc0a068e">1.1.4. <span class="done _X_">[X]</span> Harry Potter and the globet of fire</a></li>
+<li><a href="#org27e475a">1.1.5. <span class="done _X_">[X]</span> Harry Potter and the order of the phoenix</a></li>
+<li><a href="#org99fbdee">1.1.6. <span class="done _X_">[X]</span> Harry Potter and half-blood prince</a></li>
+<li><a href="#orgbfdf3c0">1.1.7. <span class="done _X_">[X]</span> Harry Potter and the deathly hallows pt.1</a></li>
+<li><a href="#org8c23586">1.1.8. <span class="done _X_">[X]</span> Harry Potter and the deathly hallows pt.2</a></li>
+<li><a href="#org31911dd">1.1.9. <span class="done _X_">[X]</span> Fantastic Beasts and where to find them</a></li>
+</ul>
+</li>
+<li><a href="#orga53937a">1.2. <span class="todo ___">[ ]</span> Percy Jackson <code>[0/3]</code></a>
+<ul>
+<li><a href="#orgab36d06">1.2.1. <span class="todo ___">[ ]</span> Percy Jackson: The lightning thief</a></li>
+<li><a href="#orgbde4df5">1.2.2. <span class="todo ___">[ ]</span> Percy Jackson: Sea of monsters</a></li>
+<li><a href="#orgad485f0">1.2.3. <span class="todo ___">[ ]</span> Percy Jackson and the titan&rsquo;s curse</a></li>
+</ul>
+</li>
+<li><a href="#org5c9f515">1.3. <span class="todo ___">[ ]</span> Indiana Jones <code>[0/5]</code></a>
+<ul>
+<li><a href="#org7e759c9">1.3.1. <span class="todo ___">[ ]</span> Indiana Jones and the Temple of Doom (1984)</a></li>
+<li><a href="#org8dd1635">1.3.2. <span class="todo ___">[ ]</span> Indiana Jones and the Raiders of the Lost Ark (1981)</a></li>
+<li><a href="#org91674c2">1.3.3. <span class="todo ___">[ ]</span> Indiana Jones and the Last Crusade (1989)</a></li>
+<li><a href="#org15e023f">1.3.4. <span class="todo ___">[ ]</span> Indiana Jones and the Kingdom of the Crystal Skull (2008)</a></li>
+<li><a href="#orgb467349">1.3.5. <span class="todo ___">[ ]</span> The Young Indiana Jones Chronicles</a></li>
+</ul>
+</li>
+<li><a href="#org97f4e05">1.4. <span class="todo ___">[ ]</span> Velozes e Furiosos <code>[0/9]</code></a>
+<ul>
+<li><a href="#org4607c44">1.4.1. <span class="todo ___">[ ]</span> Velozes e furiosos 1</a></li>
+<li><a href="#orgdc908a1">1.4.2. <span class="todo ___">[ ]</span> Velozes e furiosos 2</a></li>
+<li><a href="#org42e8b6e">1.4.3. <span class="todo ___">[ ]</span> Velozes e furiosos 3</a></li>
+<li><a href="#org1cc9185">1.4.4. <span class="todo ___">[ ]</span> Velozes e furiosos 4</a></li>
+<li><a href="#orgf7a90cb">1.4.5. <span class="todo ___">[ ]</span> Velozes e furiosos 5</a></li>
+<li><a href="#org3b9e9de">1.4.6. <span class="todo ___">[ ]</span> Velozes e furiosos 6</a></li>
+<li><a href="#org5bb0fcc">1.4.7. <span class="todo ___">[ ]</span> Velozes e furiosos 7</a></li>
+<li><a href="#org5c0c20f">1.4.8. <span class="todo ___">[ ]</span> Velozes e furiosos 8</a></li>
+<li><a href="#org72dc1b7">1.4.9. <span class="todo ___">[ ]</span> Velozes e furiosos 9</a></li>
+</ul>
+</li>
+<li><a href="#orge6da017">1.5. <span class="todo ___">[ ]</span> Toy Story <code>[0/3]</code></a>
+<ul>
+<li><a href="#org27acdf2">1.5.1. <span class="todo ___">[ ]</span> Toy Story 1</a></li>
+<li><a href="#org19f3b47">1.5.2. <span class="todo ___">[ ]</span> Toy Story 2</a></li>
+<li><a href="#org04f9f94">1.5.3. <span class="todo ___">[ ]</span> Toy Story 3</a></li>
+</ul>
+</li>
+<li><a href="#org5bd3f03">1.6. <span class="todo ___">[ ]</span> A era do gelo <code>[0/4]</code></a>
+<ul>
+<li><a href="#orge17ed17">1.6.1. <span class="todo ___">[ ]</span> A era do gelo 1</a></li>
+<li><a href="#orgd5d6cd9">1.6.2. <span class="todo ___">[ ]</span> A era do gelo 2</a></li>
+<li><a href="#orgc696321">1.6.3. <span class="todo ___">[ ]</span> A era do gelo 3</a></li>
+<li><a href="#orga0101c4">1.6.4. <span class="todo ___">[ ]</span> A era do gelo 4</a></li>
+</ul>
+</li>
+<li><a href="#org999ced8">1.7. <span class="todo ___">[ ]</span> Shrek</a></li>
+<li><a href="#orgb0f7ac8">1.8. <span class="todo ___">[ ]</span> Meu malvado favorito</a></li>
+<li><a href="#org5efad8a">1.9. <span class="todo ___">[ ]</span> Detona ralph</a></li>
+<li><a href="#org201c018">1.10. <span class="todo ___">[ ]</span> As cronicas de narnia</a></li>
+<li><a href="#org85cd352">1.11. <span class="todo ___">[ ]</span> Alice</a></li>
+<li><a href="#org99e89d0">1.12. <span class="todo ___">[ ]</span> Planeta dos macacos</a></li>
+<li><a href="#orga5b071d">1.13. <span class="todo ___">[ ]</span> Resident Evil</a></li>
+<li><a href="#org17f3541">1.14. <span class="todo ___">[ ]</span> Missão Impossível</a></li>
+<li><a href="#org479dcf3">1.15. <span class="todo ___">[ ]</span> Jogos vorazes</a></li>
+<li><a href="#orgc64ccab">1.16. <span class="todo ___">[ ]</span> Divergente</a></li>
+<li><a href="#org941f1a7">1.17. <span class="todo ___">[ ]</span> After</a></li>
+<li><a href="#org41883e0">1.18. <span class="todo ___">[ ]</span> Crepúsculo</a></li>
+<li><a href="#orgde9b61d">1.19. <span class="todo ___">[ ]</span> Malévola</a></li>
+<li><a href="#org201f750">1.20. <span class="todo ___">[ ]</span> Jurassic Park</a></li>
+<li><a href="#org1d44840">1.21. <span class="todo ___">[ ]</span> Piratas do Caribe</a></li>
+<li><a href="#org0ef4e71">1.22. <span class="todo ___">[ ]</span> 007</a></li>
+<li><a href="#org8ec7793">1.23. <span class="todo ___">[ ]</span> Die Hard</a></li>
+<li><a href="#org44aaf38">1.24. <span class="todo ___">[ ]</span> Mortal Kombat</a></li>
+<li><a href="#orge0b402c">1.25. <span class="todo ___">[ ]</span> Matrix</a></li>
+<li><a href="#org741c2b9">1.26. <span class="todo ___">[ ]</span> Star Wars</a></li>
+<li><a href="#orgc1389b1">1.27. <span class="todo ___">[ ]</span> De volta para o futuro <code>[0/3]</code></a>
+<ul>
+<li><a href="#org960b843">1.27.1. <span class="todo ___">[ ]</span> De volta para o futuro 1</a></li>
+<li><a href="#org570ed9a">1.27.2. <span class="todo ___">[ ]</span> De volta para o futuro 2</a></li>
+<li><a href="#org483bb68">1.27.3. <span class="todo ___">[ ]</span> De volta para o futuro 3</a></li>
+</ul>
+</li>
+<li><a href="#org7b852fb">1.28. <span class="todo ___">[ ]</span> Exterminador do Futuro</a></li>
+<li><a href="#orga9a850b">1.29. <span class="todo ___">[ ]</span> MIB</a></li>
+<li><a href="#org7e62860">1.30. <span class="todo ___">[ ]</span> Alien</a>
+<ul>
+<li><a href="#orge41cab5">1.30.1. Regra: depois de uma saga, um filme separado</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org21cf190">2. Filmes separados (One night stand :) <code>[3%]</code> <code>[1/27]</code></a>
+<ul>
+<li><a href="#org8bf7f5f">2.1. <span class="done _X_">[X]</span> Titanic</a></li>
+<li><a href="#org12d21c2">2.2. <span class="todo ___">[ ]</span> Interestellar</a></li>
+<li><a href="#org391f13e">2.3. <span class="todo ___">[ ]</span> World War Z</a></li>
+<li><a href="#org7b15126">2.4. <span class="todo ___">[ ]</span> Caroline</a></li>
+<li><a href="#org5f4bbb7">2.5. <span class="todo ___">[ ]</span> Mama</a></li>
+<li><a href="#org904075e">2.6. <span class="todo ___">[ ]</span> Rei Arthur e a lenda da espada</a></li>
+<li><a href="#org12a064a">2.7. <span class="todo ___">[ ]</span> Gigantes de aço</a></li>
+<li><a href="#org1a5ef92">2.8. <span class="todo ___">[ ]</span> Wall-e</a></li>
+<li><a href="#org1b1da45">2.9. <span class="todo ___">[ ]</span> As aventuras de Shark Boy e Lava Girl</a></li>
+<li><a href="#org8367eab">2.10. <span class="todo ___">[ ]</span> Prometheus</a></li>
+<li><a href="#orgd9b6672">2.11. <span class="todo ___">[ ]</span> Em ritmo de fuga</a></li>
+<li><a href="#orgff22d7d">2.12. <span class="todo ___">[ ]</span> As branquelas</a></li>
+<li><a href="#org985d199">2.13. <span class="todo ___">[ ]</span> Fahrenheit 451</a></li>
+<li><a href="#org3e2efea">2.14. <span class="todo ___">[ ]</span> The Last Witch Hunter</a></li>
+<li><a href="#orgd13de0a">2.15. <span class="todo ___">[ ]</span> The theory of everthing</a></li>
+<li><a href="#orgbc1d198">2.16. <span class="todo ___">[ ]</span> Torre negra</a></li>
+<li><a href="#org6885325">2.17. <span class="todo ___">[ ]</span> The Martian</a></li>
+<li><a href="#org4fa4bb9">2.18. <span class="todo ___">[ ]</span> A lenda dos guardiões</a></li>
+<li><a href="#org3424199">2.19. <span class="todo ___">[ ]</span> Oxygen</a></li>
+<li><a href="#org0538e5a">2.20. <span class="todo ___">[ ]</span> A forma da água</a></li>
+<li><a href="#org00a2bd9">2.21. <span class="todo ___">[ ]</span> A culpa é das estrelas</a></li>
+<li><a href="#org7b8f4e8">2.22. <span class="todo ___">[ ]</span> Simplesmente acontece</a></li>
+<li><a href="#orgd0be0a0">2.23. <span class="todo ___">[ ]</span> The lost city of Z</a></li>
+<li><a href="#orgd598851">2.24. <span class="todo ___">[ ]</span> Questão de tempo</a></li>
+<li><a href="#org2e490be">2.25. <span class="todo ___">[ ]</span> As vantagens de ser invisivel</a></li>
+<li><a href="#org048b489">2.26. <span class="todo ___">[ ]</span> A bela e a fera</a></li>
+<li><a href="#orgf6692ab">2.27. <span class="todo ___">[ ]</span> Sombras da noite</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+
+<div id="outline-container-orgd92ee2d" class="outline-2">
+<h2 id="orgd92ee2d"><span class="section-number-2">1.</span> Assistir as franquias (One week stand :) <code>[3%]</code> <code>[1/30]</code></h2>
+<div class="outline-text-2" id="text-1">
+</div>
+<div id="outline-container-orgca15207" class="outline-3">
+<h3 id="orgca15207"><span class="section-number-3">1.1.</span> <span class="done _X_">[X]</span> Harry Potter <code>[9/9]</code></h3>
+<div class="outline-text-3" id="text-1-1">
+</div>
+<div id="outline-container-orgd5eb8dd" class="outline-4">
+<h4 id="orgd5eb8dd"><span class="section-number-4">1.1.1.</span> <span class="done _X_">[X]</span> Harry Potter and the sorcerer&rsquo;s stone</h4>
+</div>
+<div id="outline-container-org9f539d3" class="outline-4">
+<h4 id="org9f539d3"><span class="section-number-4">1.1.2.</span> <span class="done _X_">[X]</span> Harry Potter and the chamber of secrets</h4>
+</div>
+<div id="outline-container-orge851764" class="outline-4">
+<h4 id="orge851764"><span class="section-number-4">1.1.3.</span> <span class="done _X_">[X]</span> Harry Potter and the prizioner of azkaban</h4>
+</div>
+<div id="outline-container-orgc0a068e" class="outline-4">
+<h4 id="orgc0a068e"><span class="section-number-4">1.1.4.</span> <span class="done _X_">[X]</span> Harry Potter and the globet of fire</h4>
+</div>
+<div id="outline-container-org27e475a" class="outline-4">
+<h4 id="org27e475a"><span class="section-number-4">1.1.5.</span> <span class="done _X_">[X]</span> Harry Potter and the order of the phoenix</h4>
+</div>
+<div id="outline-container-org99fbdee" class="outline-4">
+<h4 id="org99fbdee"><span class="section-number-4">1.1.6.</span> <span class="done _X_">[X]</span> Harry Potter and half-blood prince</h4>
+</div>
+<div id="outline-container-orgbfdf3c0" class="outline-4">
+<h4 id="orgbfdf3c0"><span class="section-number-4">1.1.7.</span> <span class="done _X_">[X]</span> Harry Potter and the deathly hallows pt.1</h4>
+</div>
+<div id="outline-container-org8c23586" class="outline-4">
+<h4 id="org8c23586"><span class="section-number-4">1.1.8.</span> <span class="done _X_">[X]</span> Harry Potter and the deathly hallows pt.2</h4>
+</div>
+<div id="outline-container-org31911dd" class="outline-4">
+<h4 id="org31911dd"><span class="section-number-4">1.1.9.</span> <span class="done _X_">[X]</span> Fantastic Beasts and where to find them</h4>
+</div>
+</div>
+<div id="outline-container-orga53937a" class="outline-3">
+<h3 id="orga53937a"><span class="section-number-3">1.2.</span> <span class="todo ___">[ ]</span> Percy Jackson <code>[0/3]</code></h3>
+<div class="outline-text-3" id="text-1-2">
+</div>
+<div id="outline-container-orgab36d06" class="outline-4">
+<h4 id="orgab36d06"><span class="section-number-4">1.2.1.</span> <span class="todo ___">[ ]</span> Percy Jackson: The lightning thief</h4>
+</div>
+<div id="outline-container-orgbde4df5" class="outline-4">
+<h4 id="orgbde4df5"><span class="section-number-4">1.2.2.</span> <span class="todo ___">[ ]</span> Percy Jackson: Sea of monsters</h4>
+</div>
+<div id="outline-container-orgad485f0" class="outline-4">
+<h4 id="orgad485f0"><span class="section-number-4">1.2.3.</span> <span class="todo ___">[ ]</span> Percy Jackson and the titan&rsquo;s curse</h4>
+</div>
+</div>
+<div id="outline-container-org5c9f515" class="outline-3">
+<h3 id="org5c9f515"><span class="section-number-3">1.3.</span> <span class="todo ___">[ ]</span> Indiana Jones <code>[0/5]</code></h3>
+<div class="outline-text-3" id="text-1-3">
+</div>
+<div id="outline-container-org7e759c9" class="outline-4">
+<h4 id="org7e759c9"><span class="section-number-4">1.3.1.</span> <span class="todo ___">[ ]</span> Indiana Jones and the Temple of Doom (1984)</h4>
+</div>
+<div id="outline-container-org8dd1635" class="outline-4">
+<h4 id="org8dd1635"><span class="section-number-4">1.3.2.</span> <span class="todo ___">[ ]</span> Indiana Jones and the Raiders of the Lost Ark (1981)</h4>
+</div>
+<div id="outline-container-org91674c2" class="outline-4">
+<h4 id="org91674c2"><span class="section-number-4">1.3.3.</span> <span class="todo ___">[ ]</span> Indiana Jones and the Last Crusade (1989)</h4>
+</div>
+<div id="outline-container-org15e023f" class="outline-4">
+<h4 id="org15e023f"><span class="section-number-4">1.3.4.</span> <span class="todo ___">[ ]</span> Indiana Jones and the Kingdom of the Crystal Skull (2008)</h4>
+</div>
+<div id="outline-container-orgb467349" class="outline-4">
+<h4 id="orgb467349"><span class="section-number-4">1.3.5.</span> <span class="todo ___">[ ]</span> The Young Indiana Jones Chronicles</h4>
+</div>
+</div>
+<div id="outline-container-org97f4e05" class="outline-3">
+<h3 id="org97f4e05"><span class="section-number-3">1.4.</span> <span class="todo ___">[ ]</span> Velozes e Furiosos <code>[0/9]</code></h3>
+<div class="outline-text-3" id="text-1-4">
+</div>
+<div id="outline-container-org4607c44" class="outline-4">
+<h4 id="org4607c44"><span class="section-number-4">1.4.1.</span> <span class="todo ___">[ ]</span> Velozes e furiosos 1</h4>
+</div>
+<div id="outline-container-orgdc908a1" class="outline-4">
+<h4 id="orgdc908a1"><span class="section-number-4">1.4.2.</span> <span class="todo ___">[ ]</span> Velozes e furiosos 2</h4>
+</div>
+<div id="outline-container-org42e8b6e" class="outline-4">
+<h4 id="org42e8b6e"><span class="section-number-4">1.4.3.</span> <span class="todo ___">[ ]</span> Velozes e furiosos 3</h4>
+</div>
+<div id="outline-container-org1cc9185" class="outline-4">
+<h4 id="org1cc9185"><span class="section-number-4">1.4.4.</span> <span class="todo ___">[ ]</span> Velozes e furiosos 4</h4>
+</div>
+<div id="outline-container-orgf7a90cb" class="outline-4">
+<h4 id="orgf7a90cb"><span class="section-number-4">1.4.5.</span> <span class="todo ___">[ ]</span> Velozes e furiosos 5</h4>
+</div>
+<div id="outline-container-org3b9e9de" class="outline-4">
+<h4 id="org3b9e9de"><span class="section-number-4">1.4.6.</span> <span class="todo ___">[ ]</span> Velozes e furiosos 6</h4>
+</div>
+<div id="outline-container-org5bb0fcc" class="outline-4">
+<h4 id="org5bb0fcc"><span class="section-number-4">1.4.7.</span> <span class="todo ___">[ ]</span> Velozes e furiosos 7</h4>
+</div>
+<div id="outline-container-org5c0c20f" class="outline-4">
+<h4 id="org5c0c20f"><span class="section-number-4">1.4.8.</span> <span class="todo ___">[ ]</span> Velozes e furiosos 8</h4>
+</div>
+<div id="outline-container-org72dc1b7" class="outline-4">
+<h4 id="org72dc1b7"><span class="section-number-4">1.4.9.</span> <span class="todo ___">[ ]</span> Velozes e furiosos 9</h4>
+</div>
+</div>
+<div id="outline-container-orge6da017" class="outline-3">
+<h3 id="orge6da017"><span class="section-number-3">1.5.</span> <span class="todo ___">[ ]</span> Toy Story <code>[0/3]</code></h3>
+<div class="outline-text-3" id="text-1-5">
+</div>
+<div id="outline-container-org27acdf2" class="outline-4">
+<h4 id="org27acdf2"><span class="section-number-4">1.5.1.</span> <span class="todo ___">[ ]</span> Toy Story 1</h4>
+</div>
+<div id="outline-container-org19f3b47" class="outline-4">
+<h4 id="org19f3b47"><span class="section-number-4">1.5.2.</span> <span class="todo ___">[ ]</span> Toy Story 2</h4>
+</div>
+<div id="outline-container-org04f9f94" class="outline-4">
+<h4 id="org04f9f94"><span class="section-number-4">1.5.3.</span> <span class="todo ___">[ ]</span> Toy Story 3</h4>
+</div>
+</div>
+<div id="outline-container-org5bd3f03" class="outline-3">
+<h3 id="org5bd3f03"><span class="section-number-3">1.6.</span> <span class="todo ___">[ ]</span> A era do gelo <code>[0/4]</code></h3>
+<div class="outline-text-3" id="text-1-6">
+</div>
+<div id="outline-container-orge17ed17" class="outline-4">
+<h4 id="orge17ed17"><span class="section-number-4">1.6.1.</span> <span class="todo ___">[ ]</span> A era do gelo 1</h4>
+</div>
+<div id="outline-container-orgd5d6cd9" class="outline-4">
+<h4 id="orgd5d6cd9"><span class="section-number-4">1.6.2.</span> <span class="todo ___">[ ]</span> A era do gelo 2</h4>
+</div>
+<div id="outline-container-orgc696321" class="outline-4">
+<h4 id="orgc696321"><span class="section-number-4">1.6.3.</span> <span class="todo ___">[ ]</span> A era do gelo 3</h4>
+</div>
+<div id="outline-container-orga0101c4" class="outline-4">
+<h4 id="orga0101c4"><span class="section-number-4">1.6.4.</span> <span class="todo ___">[ ]</span> A era do gelo 4</h4>
+</div>
+</div>
+<div id="outline-container-org999ced8" class="outline-3">
+<h3 id="org999ced8"><span class="section-number-3">1.7.</span> <span class="todo ___">[ ]</span> Shrek</h3>
+</div>
+<div id="outline-container-orgb0f7ac8" class="outline-3">
+<h3 id="orgb0f7ac8"><span class="section-number-3">1.8.</span> <span class="todo ___">[ ]</span> Meu malvado favorito</h3>
+</div>
+<div id="outline-container-org5efad8a" class="outline-3">
+<h3 id="org5efad8a"><span class="section-number-3">1.9.</span> <span class="todo ___">[ ]</span> Detona ralph</h3>
+</div>
+<div id="outline-container-org201c018" class="outline-3">
+<h3 id="org201c018"><span class="section-number-3">1.10.</span> <span class="todo ___">[ ]</span> As cronicas de narnia</h3>
+</div>
+<div id="outline-container-org85cd352" class="outline-3">
+<h3 id="org85cd352"><span class="section-number-3">1.11.</span> <span class="todo ___">[ ]</span> Alice</h3>
+</div>
+<div id="outline-container-org99e89d0" class="outline-3">
+<h3 id="org99e89d0"><span class="section-number-3">1.12.</span> <span class="todo ___">[ ]</span> Planeta dos macacos</h3>
+</div>
+<div id="outline-container-orga5b071d" class="outline-3">
+<h3 id="orga5b071d"><span class="section-number-3">1.13.</span> <span class="todo ___">[ ]</span> Resident Evil</h3>
+</div>
+<div id="outline-container-org17f3541" class="outline-3">
+<h3 id="org17f3541"><span class="section-number-3">1.14.</span> <span class="todo ___">[ ]</span> Missão Impossível</h3>
+</div>
+<div id="outline-container-org479dcf3" class="outline-3">
+<h3 id="org479dcf3"><span class="section-number-3">1.15.</span> <span class="todo ___">[ ]</span> Jogos vorazes</h3>
+</div>
+<div id="outline-container-orgc64ccab" class="outline-3">
+<h3 id="orgc64ccab"><span class="section-number-3">1.16.</span> <span class="todo ___">[ ]</span> Divergente</h3>
+</div>
+<div id="outline-container-org941f1a7" class="outline-3">
+<h3 id="org941f1a7"><span class="section-number-3">1.17.</span> <span class="todo ___">[ ]</span> After</h3>
+</div>
+<div id="outline-container-org41883e0" class="outline-3">
+<h3 id="org41883e0"><span class="section-number-3">1.18.</span> <span class="todo ___">[ ]</span> Crepúsculo</h3>
+</div>
+<div id="outline-container-orgde9b61d" class="outline-3">
+<h3 id="orgde9b61d"><span class="section-number-3">1.19.</span> <span class="todo ___">[ ]</span> Malévola</h3>
+</div>
+<div id="outline-container-org201f750" class="outline-3">
+<h3 id="org201f750"><span class="section-number-3">1.20.</span> <span class="todo ___">[ ]</span> Jurassic Park</h3>
+</div>
+<div id="outline-container-org1d44840" class="outline-3">
+<h3 id="org1d44840"><span class="section-number-3">1.21.</span> <span class="todo ___">[ ]</span> Piratas do Caribe</h3>
+</div>
+<div id="outline-container-org0ef4e71" class="outline-3">
+<h3 id="org0ef4e71"><span class="section-number-3">1.22.</span> <span class="todo ___">[ ]</span> 007</h3>
+</div>
+<div id="outline-container-org8ec7793" class="outline-3">
+<h3 id="org8ec7793"><span class="section-number-3">1.23.</span> <span class="todo ___">[ ]</span> Die Hard</h3>
+</div>
+<div id="outline-container-org44aaf38" class="outline-3">
+<h3 id="org44aaf38"><span class="section-number-3">1.24.</span> <span class="todo ___">[ ]</span> Mortal Kombat</h3>
+</div>
+<div id="outline-container-orge0b402c" class="outline-3">
+<h3 id="orge0b402c"><span class="section-number-3">1.25.</span> <span class="todo ___">[ ]</span> Matrix</h3>
+</div>
+<div id="outline-container-org741c2b9" class="outline-3">
+<h3 id="org741c2b9"><span class="section-number-3">1.26.</span> <span class="todo ___">[ ]</span> Star Wars</h3>
+</div>
+<div id="outline-container-orgc1389b1" class="outline-3">
+<h3 id="orgc1389b1"><span class="section-number-3">1.27.</span> <span class="todo ___">[ ]</span> De volta para o futuro <code>[0/3]</code></h3>
+<div class="outline-text-3" id="text-1-27">
+</div>
+<div id="outline-container-org960b843" class="outline-4">
+<h4 id="org960b843"><span class="section-number-4">1.27.1.</span> <span class="todo ___">[ ]</span> De volta para o futuro 1</h4>
+</div>
+<div id="outline-container-org570ed9a" class="outline-4">
+<h4 id="org570ed9a"><span class="section-number-4">1.27.2.</span> <span class="todo ___">[ ]</span> De volta para o futuro 2</h4>
+</div>
+<div id="outline-container-org483bb68" class="outline-4">
+<h4 id="org483bb68"><span class="section-number-4">1.27.3.</span> <span class="todo ___">[ ]</span> De volta para o futuro 3</h4>
+</div>
+</div>
+<div id="outline-container-org7b852fb" class="outline-3">
+<h3 id="org7b852fb"><span class="section-number-3">1.28.</span> <span class="todo ___">[ ]</span> Exterminador do Futuro</h3>
+</div>
+<div id="outline-container-orga9a850b" class="outline-3">
+<h3 id="orga9a850b"><span class="section-number-3">1.29.</span> <span class="todo ___">[ ]</span> MIB</h3>
+</div>
+<div id="outline-container-org7e62860" class="outline-3">
+<h3 id="org7e62860"><span class="section-number-3">1.30.</span> <span class="todo ___">[ ]</span> Alien</h3>
+<div class="outline-text-3" id="text-1-30">
+</div>
+<div id="outline-container-orge41cab5" class="outline-4">
+<h4 id="orge41cab5"><span class="section-number-4">1.30.1.</span> Regra: depois de uma saga, um filme separado</h4>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org21cf190" class="outline-2">
+<h2 id="org21cf190"><span class="section-number-2">2.</span> Filmes separados (One night stand :) <code>[3%]</code> <code>[1/27]</code></h2>
+<div class="outline-text-2" id="text-2">
+</div>
+<div id="outline-container-org8bf7f5f" class="outline-3">
+<h3 id="org8bf7f5f"><span class="section-number-3">2.1.</span> <span class="done _X_">[X]</span> Titanic</h3>
+</div>
+<div id="outline-container-org12d21c2" class="outline-3">
+<h3 id="org12d21c2"><span class="section-number-3">2.2.</span> <span class="todo ___">[ ]</span> Interestellar</h3>
+</div>
+<div id="outline-container-org391f13e" class="outline-3">
+<h3 id="org391f13e"><span class="section-number-3">2.3.</span> <span class="todo ___">[ ]</span> World War Z</h3>
+</div>
+<div id="outline-container-org7b15126" class="outline-3">
+<h3 id="org7b15126"><span class="section-number-3">2.4.</span> <span class="todo ___">[ ]</span> Caroline</h3>
+</div>
+<div id="outline-container-org5f4bbb7" class="outline-3">
+<h3 id="org5f4bbb7"><span class="section-number-3">2.5.</span> <span class="todo ___">[ ]</span> Mama</h3>
+</div>
+<div id="outline-container-org904075e" class="outline-3">
+<h3 id="org904075e"><span class="section-number-3">2.6.</span> <span class="todo ___">[ ]</span> Rei Arthur e a lenda da espada</h3>
+</div>
+<div id="outline-container-org12a064a" class="outline-3">
+<h3 id="org12a064a"><span class="section-number-3">2.7.</span> <span class="todo ___">[ ]</span> Gigantes de aço</h3>
+</div>
+<div id="outline-container-org1a5ef92" class="outline-3">
+<h3 id="org1a5ef92"><span class="section-number-3">2.8.</span> <span class="todo ___">[ ]</span> Wall-e</h3>
+</div>
+<div id="outline-container-org1b1da45" class="outline-3">
+<h3 id="org1b1da45"><span class="section-number-3">2.9.</span> <span class="todo ___">[ ]</span> As aventuras de Shark Boy e Lava Girl</h3>
+</div>
+<div id="outline-container-org8367eab" class="outline-3">
+<h3 id="org8367eab"><span class="section-number-3">2.10.</span> <span class="todo ___">[ ]</span> Prometheus</h3>
+</div>
+<div id="outline-container-orgd9b6672" class="outline-3">
+<h3 id="orgd9b6672"><span class="section-number-3">2.11.</span> <span class="todo ___">[ ]</span> Em ritmo de fuga</h3>
+</div>
+<div id="outline-container-orgff22d7d" class="outline-3">
+<h3 id="orgff22d7d"><span class="section-number-3">2.12.</span> <span class="todo ___">[ ]</span> As branquelas</h3>
+</div>
+<div id="outline-container-org985d199" class="outline-3">
+<h3 id="org985d199"><span class="section-number-3">2.13.</span> <span class="todo ___">[ ]</span> Fahrenheit 451</h3>
+</div>
+<div id="outline-container-org3e2efea" class="outline-3">
+<h3 id="org3e2efea"><span class="section-number-3">2.14.</span> <span class="todo ___">[ ]</span> The Last Witch Hunter</h3>
+</div>
+<div id="outline-container-orgd13de0a" class="outline-3">
+<h3 id="orgd13de0a"><span class="section-number-3">2.15.</span> <span class="todo ___">[ ]</span> The theory of everthing</h3>
+</div>
+<div id="outline-container-orgbc1d198" class="outline-3">
+<h3 id="orgbc1d198"><span class="section-number-3">2.16.</span> <span class="todo ___">[ ]</span> Torre negra</h3>
+</div>
+<div id="outline-container-org6885325" class="outline-3">
+<h3 id="org6885325"><span class="section-number-3">2.17.</span> <span class="todo ___">[ ]</span> The Martian</h3>
+</div>
+<div id="outline-container-org4fa4bb9" class="outline-3">
+<h3 id="org4fa4bb9"><span class="section-number-3">2.18.</span> <span class="todo ___">[ ]</span> A lenda dos guardiões</h3>
+</div>
+<div id="outline-container-org3424199" class="outline-3">
+<h3 id="org3424199"><span class="section-number-3">2.19.</span> <span class="todo ___">[ ]</span> Oxygen</h3>
+</div>
+<div id="outline-container-org0538e5a" class="outline-3">
+<h3 id="org0538e5a"><span class="section-number-3">2.20.</span> <span class="todo ___">[ ]</span> A forma da água</h3>
+</div>
+<div id="outline-container-org00a2bd9" class="outline-3">
+<h3 id="org00a2bd9"><span class="section-number-3">2.21.</span> <span class="todo ___">[ ]</span> A culpa é das estrelas</h3>
+</div>
+<div id="outline-container-org7b8f4e8" class="outline-3">
+<h3 id="org7b8f4e8"><span class="section-number-3">2.22.</span> <span class="todo ___">[ ]</span> Simplesmente acontece</h3>
+</div>
+<div id="outline-container-orgd0be0a0" class="outline-3">
+<h3 id="orgd0be0a0"><span class="section-number-3">2.23.</span> <span class="todo ___">[ ]</span> The lost city of Z</h3>
+</div>
+<div id="outline-container-orgd598851" class="outline-3">
+<h3 id="orgd598851"><span class="section-number-3">2.24.</span> <span class="todo ___">[ ]</span> Questão de tempo</h3>
+</div>
+<div id="outline-container-org2e490be" class="outline-3">
+<h3 id="org2e490be"><span class="section-number-3">2.25.</span> <span class="todo ___">[ ]</span> As vantagens de ser invisivel</h3>
+</div>
+<div id="outline-container-org048b489" class="outline-3">
+<h3 id="org048b489"><span class="section-number-3">2.26.</span> <span class="todo ___">[ ]</span> A bela e a fera</h3>
+</div>
+<div id="outline-container-orgf6692ab" class="outline-3">
+<h3 id="orgf6692ab"><span class="section-number-3">2.27.</span> <span class="todo ___">[ ]</span> Sombras da noite</h3>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Luís Guilherme Miranda Spengler</p>
+<p class="date">Created: 2021-10-09 sáb 18:16</p>
+</div>
+</body>
+</html>
