@@ -1,0 +1,22 @@
+#+TITLE: Ficha da monitoria
+#+SETUPFILE: https://luispengler.github.io/site/org-html-themes/org/theme-readtheorg.setup
+#+OPTIONS: num:nil ^{}
+
+
+| FICHA DE ATIVIDADES DESENVOLVIDAS NO PROGRAMA DE MONITORIA DO IFMS - 2021 |                                        |             |         |
+|---------------------------------------------------------------------------+----------------------------------------+-------------+---------|
+| Nome: Luís Guilherme Miranda Spengler                                     | Mês: Outubro                           | Ano: 2021/2 |         |
+| Área da monitoria: Física 2                                               | Turno da monitoria: Vespertino\Noturno |             |         |
+| Curso: Eletrotécnica                                                      | Professor Orientador: Nathany Ueno     |             |         |
+|---------------------------------------------------------------------------+----------------------------------------+-------------+---------|
+| Atividades desenvolvidas e número de estudantes participantes             | Data                                   | Início      | Término |
+|---------------------------------------------------------------------------+----------------------------------------+-------------+---------|
+| Nenhum estudante compareceu                                               | 27/09 (Segunda-feira)                  | 17h         | 19h     |
+| Nenhum estudante compareceu                                               | 29/09 (Quarta-feira)                   | 15h         | 18h     |
+| Nenhum estudante compareceu                                               | 30/09 (Quinta-feira)                   | 15h         | 18h     |
+| Lista 2. Ex: 4 e 7; Prova 1. Ex: 1 e 4; Carla Souza e João Miguel.        | 04/10 (Segunda-feira)                  | 14h20       | 19h     |
+| Nenhum estudante compareceu                                               | 06/10 (Quarta-feira)                   | 15h         | 18h     |
+| Nenhum estudante compareceu                                               | 07/10 (Quinta-feira)                   | 15h         | 18h     |
+| ------------------------------------------------------------------------- | 11/10 (Segunda-feira)                  | 17h         | 19h     |
+| ------------------------------------------------------------------------- | 13/10 (Quarta-feira)                   | 15h         | 18h     |
+| ------------------------------------------------------------------------- | 14/10 (Quinta-feira)                   | 15h         | 18h     |
