@@ -1,5 +1,5 @@
-#+TITLE: An introduction to Quantum computing - my own writings on QubitxQubit lectures.
-#+DESCRIPTION: Fisica de particulas: um resumo breve e compilação de artigos básicos
+#+TITLE: Week 3 - my own writings on QubitxQubit lectures.
+#+DESCRIPTION: Week 3 - my own writings on QubitxQubit lectures.
 #+SETUPFILE: https://luispengler.github.io/site/org-html-themes/org/theme-readtheorg.setup
 #+OPTIONS: nul:nil ^:{}
 
@@ -90,12 +90,3 @@ Birds migrating feel and follow the magnetic field of earth.
 Quantum biology center out of UCLA. (wants to develop a quantum biology course - the first official one)
 
 *Book*: Life on the edge; (introduction to quantum biology)
-
-
-** Undergraduate TA panel:
-*** Sanskriti Deva
-*** Shayda Moezzi
-*** Elisa Tabor
-*** Richard Dube
-
-[[https://www.youtube.com/playlist?list=PLR3IPFP-OywS3nMoKLJcEpeHfQRsT7QKR][Quantum Computing playlist]]

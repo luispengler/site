@@ -1,0 +1,13 @@
+#+TITLE: An introduction to Quantum computing - my own writings on the subject.
+#+DESCRIPTION: An introduction to Quantum computing - my own writings on the subject.
+#+SETUPFILE: https://luispengler.github.io/site/org-html-themes/org/theme-readtheorg.setup
+#+OPTIONS: nul:nil ^:{}
+
+| week 0 | week 1 | week 2 | week 3 |
+
+* This collection
+
+* Resources to study quantum
+** Courses:
+[[https://www.youtube.com/playlist?list=PLR3IPFP-OywS3nMoKLJcEpeHfQRsT7QKR][Quantum Computing playlist]] By one of my teachers at QubitbyQubit.
+** Youtube videos:
