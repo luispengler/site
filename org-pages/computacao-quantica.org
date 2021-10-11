@@ -1,9 +1,90 @@
-#+TITLE: Computação Quantica: um resumo breve e compilação de artigos básicos.
+#+TITLE: An introduction to Quantum computing - my own writings on QubitxQubit lectures.
 #+DESCRIPTION: Fisica de particulas: um resumo breve e compilação de artigos básicos
 #+SETUPFILE: https://luispengler.github.io/site/org-html-themes/org/theme-readtheorg.setup
 #+OPTIONS: nul:nil ^:{}
 
-* IKR
-yessirr
-* and u?
-me tooo
+* Week 3 (Qubit by Qubit)
+
+** RECAP:
+*** Quantum properties:
+*Discretness*: Energy can only take certain values.
+*Superposition*: Qubits being in a combination of two(?) states at the same time.
+*Interference*: The state of objects adding up or cancelling out.
+*Entanglement*: One object's state depends on another object's state.
+*Measurement*: The outcome is often random and obeserving (measuring) you can change it.
+
+** Quantum mechanics: part 2
+*** Wave-particle duality and the double-slit experiment.
++ Why do quantum objects show superposition, interference, and entanglemenet?
++ How should they be described (their behaver)?
++ Classical physics: things are either waves or particles. Which of them should I use to describe what I see in my experiments?
+
+  *Waves*:
+  - Waves travel at a certain velocity.
+  - Different kinds of waves have different speeds.
+  - Sound waves are slower than light waves.
+  - Waves interact with each other, they show *interference*. Interference can be constructive: two waves add together, or destructive: two waves cancel out. water waves interacting with each other (show gif).
+  Water wave, light waves, microwaves, sound waves.
+  *Particles*:
+  - Particles have mass.
+  - Particles have a well-defined postion or location - they are discrete.
+  - They move with a velocity.
+
++ Double-slit experiment is used to decide if quantum objects behave like a wave or a particle.
+  (show double slit experiment)
+
+  - Particles would leave two lines on the wall behing the two slits (discrete spots and no interference)
+
+  - Waves would leave a pattern of bright and dark lines, some waves are amplifying one another, while others waves are canceling out (interference).
+
+*Throwing electrons*:
+- Each electron is a discrete spot on the wall.
+- After a certain amount of electrons, you get an interference pattern.
+- A nice example of particle-wave duality on my opinion.
+- This happens to *all quantum objects*
+- In quantum, waves can behave as particles and particles can behave as waves.
+
+*** Case study: how large can objects get and still be quantum?
++ Article: Wave-particle duality of C60 molecules
+
+  *State*:
+  - A possible condition of the classical bit or qubit.
+
+
+
+
+Superposition and interference are very similar: both involve overlapping waves.
+
+*** Explaining discretization
+In a guitar, a string can take only *specific shapes* when it vibrates.
+Specific shapes are a result of *confinement*.
+The idea of confinement also applys to quantum objects.
+If you limit something's movement, it will also show the same kind of discretization (either a 0 or 1), just like a guitar's string.
+
+What confines quantum objects?
+- trapped ions quantum computers, AKA as some sort of artificial atoms.
+- Superconductiing computers, confinements are virtually created.
+
+
+
+*** The unanswered questions.
++ Entanglement: Why does it happen? Is there a mysterious link between atoms that we didn't see?
++ Why does measuruments change?
+
+** What Clarice Yellow taught us:
+Quantum sensing: using quantum objects as sensors.
+Quantum biology: There is quantum objects inside animals that we can use and apply to our own technology.
+There are many electron spins that work as a very good quantum sensors. Spin is a merely quantum mechanical protety that doenst have classical equivalent. it measures how well an ojbetc interect with a magnetic field.
+There are asome chemical reactons that are indepented. we an control natural qubits to drive csome bilogical reactions. We got som much to learn with nature, as it controls quantum so well. Disease treatment is a way all this knowldege can be used. Quantum bits can be controlled using magnetic field, same thing in quantum biology.
+Birds migrating feel and follow the magnetic field of earth.
+Quantum biology center out of UCLA. (wants to develop a quantum biology course - the first official one)
+Book: Life on the edge; (introduction to quantum biology)
+
+
+** Undergraduate TA panel:
+*** Sanskriti Deva
+*** Shayda Moezzi
+*** Elisa Tabor
+*** Richard Dube
+
+[[https://www.youtube.com/playlist?list=PLR3IPFP-OywS3nMoKLJcEpeHfQRsT7QKR][Quantum Computing playlist]]

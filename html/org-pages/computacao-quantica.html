@@ -3,10 +3,10 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2021-10-09 sáb 19:54 -->
+<!-- 2021-10-10 dom 20:01 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Computação Quantica: um resumo breve e compilação de artigos básicos.</title>
+<title>An introduction to Quantum computing - my own writings on QubitxQubit lectures.</title>
 <meta name="author" content="Luís Guilherme Miranda Spengler" />
 <meta name="description" content="Fisica de particulas: um resumo breve e compilação de artigos básicos" />
 <meta name="generator" content="Org Mode" />
@@ -203,37 +203,220 @@
 </head>
 <body>
 <div id="content" class="content">
-<h1 class="title">Computação Quantica: um resumo breve e compilação de artigos básicos.</h1>
+<h1 class="title">An introduction to Quantum computing - my own writings on QubitxQubit lectures.</h1>
 <div id="table-of-contents" role="doc-toc">
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#orgddb4e20">1. IKR</a></li>
-<li><a href="#org16f7fd0">2. and u?</a></li>
+<li><a href="#orgddd1ac2">1. Week 3 (Qubit by Qubit)</a>
+<ul>
+<li><a href="#orga0fac10">1.1. RECAP:</a>
+<ul>
+<li><a href="#orge53a661">1.1.1. Quantum properties:</a></li>
+</ul>
+</li>
+<li><a href="#org4f73d92">1.2. Quantum mechanics: part 2</a>
+<ul>
+<li><a href="#org45a8f1b">1.2.1. Wave-particle duality and the double-slit experiment.</a></li>
+<li><a href="#orgeb5e9cc">1.2.2. Case study: how large can objects get and still be quantum?</a></li>
+<li><a href="#org379fac9">1.2.3. Explaining discretization</a></li>
+<li><a href="#org7798d0b">1.2.4. The unanswered questions.</a></li>
+</ul>
+</li>
+<li><a href="#orgf63aca4">1.3. What Clarice Yellow taught us:</a></li>
+<li><a href="#org286b2e7">1.4. Undergraduate TA panel:</a>
+<ul>
+<li><a href="#org1b55a8a">1.4.1. Sanskriti Deva</a></li>
+<li><a href="#org57672f2">1.4.2. Shayda Moezzi</a></li>
+<li><a href="#org4369017">1.4.3. Elisa Tabor</a></li>
+<li><a href="#org9cb7782">1.4.4. Richard Dube</a></li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orgddb4e20" class="outline-2">
-<h2 id="orgddb4e20"><span class="section-number-2">1.</span> IKR</h2>
+<div id="outline-container-orgddd1ac2" class="outline-2">
+<h2 id="orgddd1ac2"><span class="section-number-2">1.</span> Week 3 (Qubit by Qubit)</h2>
 <div class="outline-text-2" id="text-1">
+</div>
+<div id="outline-container-orga0fac10" class="outline-3">
+<h3 id="orga0fac10"><span class="section-number-3">1.1.</span> RECAP:</h3>
+<div class="outline-text-3" id="text-1-1">
+</div>
+<div id="outline-container-orge53a661" class="outline-4">
+<h4 id="orge53a661"><span class="section-number-4">1.1.1.</span> Quantum properties:</h4>
+<div class="outline-text-4" id="text-1-1-1">
 <p>
-yessirr
+<b>Discretness</b>: Energy can only take certain values.
+<b>Superposition</b>: Qubits being in a combination of two(?) states at the same time.
+<b>Interference</b>: The state of objects adding up or cancelling out.
+<b>Entanglement</b>: One object&rsquo;s state depends on another object&rsquo;s state.
+<b>Measurement</b>: The outcome is often random and obeserving (measuring) you can change it.
 </p>
 </div>
 </div>
-<div id="outline-container-org16f7fd0" class="outline-2">
-<h2 id="org16f7fd0"><span class="section-number-2">2.</span> and u?</h2>
-<div class="outline-text-2" id="text-2">
-<p>
-me tooo
+</div>
+
+<div id="outline-container-org4f73d92" class="outline-3">
+<h3 id="org4f73d92"><span class="section-number-3">1.2.</span> Quantum mechanics: part 2</h3>
+<div class="outline-text-3" id="text-1-2">
+</div>
+<div id="outline-container-org45a8f1b" class="outline-4">
+<h4 id="org45a8f1b"><span class="section-number-4">1.2.1.</span> Wave-particle duality and the double-slit experiment.</h4>
+<div class="outline-text-4" id="text-1-2-1">
+<ul class="org-ul">
+<li>Why do quantum objects show superposition, interference, and entanglemenet?</li>
+<li>How should they be described (their behaver)?</li>
+<li><p>
+Classical physics: things are either waves or particles. Which of them should I use to describe what I see in my experiments?
 </p>
+
+<p>
+<b>Waves</b>:
+</p>
+<ul class="org-ul">
+<li>Waves travel at a certain velocity.</li>
+<li>Different kinds of waves have different speeds.</li>
+<li>Sound waves are slower than light waves.</li>
+<li>Waves interact with each other, they show <b>interference</b>. Interference can be constructive: two waves add together, or destructive: two waves cancel out. water waves interacting with each other (show gif).</li>
+</ul>
+<p>
+Water wave, light waves, microwaves, sound waves.
+<b>Particles</b>:
+</p>
+<ul class="org-ul">
+<li>Particles have mass.</li>
+<li>Particles have a well-defined postion or location - they are discrete.</li>
+<li>They move with a velocity.</li>
+</ul></li>
+
+<li>Double-slit experiment is used to decide if quantum objects behave like a wave or a particle.
+(show double slit experiment)
+
+<ul class="org-ul">
+<li>Particles would leave two lines on the wall behing the two slits (discrete spots and no interference)</li>
+
+<li>Waves would leave a pattern of bright and dark lines, some waves are amplifying one another, while others waves are canceling out (interference).</li>
+</ul></li>
+</ul>
+
+<p>
+<b>Throwing electrons</b>:
+</p>
+<ul class="org-ul">
+<li>Each electron is a discrete spot on the wall.</li>
+<li>After a certain amount of electrons, you get an interference pattern.</li>
+<li>A nice example of particle-wave duality on my opinion.</li>
+<li>This happens to <b>all quantum objects</b></li>
+<li>In quantum, waves can behave as particles and particles can behave as waves.</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgeb5e9cc" class="outline-4">
+<h4 id="orgeb5e9cc"><span class="section-number-4">1.2.2.</span> Case study: how large can objects get and still be quantum?</h4>
+<div class="outline-text-4" id="text-1-2-2">
+<ul class="org-ul">
+<li><p>
+Article: Wave-particle duality of C60 molecules
+</p>
+
+<p>
+<b>State</b>:
+</p>
+<ul class="org-ul">
+<li>A possible condition of the classical bit or qubit.</li>
+</ul></li>
+</ul>
+
+
+
+
+<p>
+Superposition and interference are very similar: both involve overlapping waves.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org379fac9" class="outline-4">
+<h4 id="org379fac9"><span class="section-number-4">1.2.3.</span> Explaining discretization</h4>
+<div class="outline-text-4" id="text-1-2-3">
+<p>
+In a guitar, a string can take only <b>specific shapes</b> when it vibrates.
+Specific shapes are a result of <b>confinement</b>.
+The idea of confinement also applys to quantum objects.
+If you limit something&rsquo;s movement, it will also show the same kind of discretization (either a 0 or 1), just like a guitar&rsquo;s string.
+</p>
+
+<p>
+What confines quantum objects?
+</p>
+<ul class="org-ul">
+<li>trapped ions quantum computers, AKA as some sort of artificial atoms.</li>
+<li>Superconductiing computers, confinements are virtually created.</li>
+</ul>
+</div>
+</div>
+
+
+
+<div id="outline-container-org7798d0b" class="outline-4">
+<h4 id="org7798d0b"><span class="section-number-4">1.2.4.</span> The unanswered questions.</h4>
+<div class="outline-text-4" id="text-1-2-4">
+<ul class="org-ul">
+<li>Entanglement: Why does it happen? Is there a mysterious link between atoms that we didn&rsquo;t see?</li>
+<li>Why does measuruments change?</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgf63aca4" class="outline-3">
+<h3 id="orgf63aca4"><span class="section-number-3">1.3.</span> What Clarice Yellow taught us:</h3>
+<div class="outline-text-3" id="text-1-3">
+<p>
+Quantum sensing: using quantum objects as sensors.
+Quantum biology: There is quantum objects inside animals that we can use and apply to our own technology.
+There are many electron spins that work as a very good quantum sensors. Spin is a merely quantum mechanical protety that doenst have classical equivalent. it measures how well an ojbetc interect with a magnetic field.
+There are asome chemical reactons that are indepented. we an control natural qubits to drive csome bilogical reactions. We got som much to learn with nature, as it controls quantum so well. Disease treatment is a way all this knowldege can be used. Quantum bits can be controlled using magnetic field, same thing in quantum biology.
+Birds migrating feel and follow the magnetic field of earth.
+Quantum biology center out of UCLA. (wants to develop a quantum biology course - the first official one)
+Book: Life on the edge; (introduction to quantum biology)
+</p>
+</div>
+</div>
+
+
+<div id="outline-container-org286b2e7" class="outline-3">
+<h3 id="org286b2e7"><span class="section-number-3">1.4.</span> Undergraduate TA panel:</h3>
+<div class="outline-text-3" id="text-1-4">
+</div>
+<div id="outline-container-org1b55a8a" class="outline-4">
+<h4 id="org1b55a8a"><span class="section-number-4">1.4.1.</span> Sanskriti Deva</h4>
+</div>
+<div id="outline-container-org57672f2" class="outline-4">
+<h4 id="org57672f2"><span class="section-number-4">1.4.2.</span> Shayda Moezzi</h4>
+</div>
+<div id="outline-container-org4369017" class="outline-4">
+<h4 id="org4369017"><span class="section-number-4">1.4.3.</span> Elisa Tabor</h4>
+</div>
+<div id="outline-container-org9cb7782" class="outline-4">
+<h4 id="org9cb7782"><span class="section-number-4">1.4.4.</span> Richard Dube</h4>
+<div class="outline-text-4" id="text-1-4-4">
+<p>
+<a href="https://www.youtube.com/playlist?list=PLR3IPFP-OywS3nMoKLJcEpeHfQRsT7QKR">Quantum Computing playlist</a>
+</p>
+</div>
+</div>
 </div>
 </div>
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Luís Guilherme Miranda Spengler</p>
-<p class="date">Created: 2021-10-09 sáb 19:54</p>
+<p class="date">Created: 2021-10-10 dom 20:01</p>
 </div>
 </body>
 </html>
