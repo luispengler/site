@@ -78,6 +78,14 @@ What confines quantum objects?
 + Entanglement: Why does it happen? Is there a mysterious link between atoms that we didn't see?
 + Why does measuruments change?
 
+
+
+** Lab 13:
+Q: Could quantum measurument be used to create real random numbers? which is a problem we haven't solved in computing yet.
+
+LIGO Laser Interferometer Gravitational-wave obeservatory.
+
+We used flytrap a bit on this week lab, a really cool thing. Watch out for this one: https://lab.quantumflytrap.com/lab
 ** What Clarice Aiello taught us:
 *Quantum sensing*: using quantum objects as sensors.
 *Quantum biology*: There is quantum objects inside animals that we can use and apply to our own technology.
