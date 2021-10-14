@@ -15,8 +15,8 @@
 *** [X] Harry Potter and the deathly hallows pt.1
 *** [X] Harry Potter and the deathly hallows pt.2
 *** [X] Fantastic Beasts and where to find them
-** [ ] Percy Jackson [0/3]
-*** [ ] Percy Jackson: The lightning thief
+** [ ] Percy Jackson [1/3]
+*** [X] Percy Jackson: The lightning thief
 *** [ ] Percy Jackson: Sea of monsters
 *** [ ] Percy Jackson and the titan's curse
 ** [ ] Indiana Jones [0/5]

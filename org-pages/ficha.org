@@ -17,6 +17,6 @@
 | Lista 2. Ex: 4 e 7; Prova 1. Ex: 1 e 4; Carla Souza e João Miguel.        | 04/10 (Segunda-feira)                  | 14h20       | 19h     |
 | Nenhum estudante compareceu                                               | 06/10 (Quarta-feira)                   | 15h         | 18h     |
 | Nenhum estudante compareceu                                               | 07/10 (Quinta-feira)                   | 15h         | 18h     |
-| ------------------------------------------------------------------------- | 11/10 (Segunda-feira)                  | 17h         | 19h     |
-| ------------------------------------------------------------------------- | 13/10 (Quarta-feira)                   | 15h         | 18h     |
-| ------------------------------------------------------------------------- | 14/10 (Quinta-feira)                   | 15h         | 18h     |
+| Nenhum estudante compareceu                                               | 11/10 (Segunda-feira)                  | 17h         | 19h     |
+| Nenhum estudante compareceu                                               | 13/10 (Quarta-feira)                   | 15h         | 18h     |
+| Nenhum estudante compareceu                                               | 14/10 (Quinta-feira)                   | 15h         | 18h     |
