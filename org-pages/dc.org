@@ -10,7 +10,7 @@ Using org-mode thanks to doom emacs, I was able to make this viewing order list 
 |------------------------+--------------------------+--------------------------+-----------------------------------+-------------------------------+------------------------+------------------------+-------------------------------|
 | Arrow   (170 episodes) | The Flash (151 episodes) | Supergirl (121 episodes) | Legends of Tomorrow (98 episodes) | Black Lightning (58 episodes) | Batwoman (41 episodes) | Stargirl (26 episodes) | Superman & Lois (15 episodes) |
 
-There are 680 episodes in arrowverse right now. If every episode on this list is at least 40 minutes long, then the total watch time would be of 27200 minutes or 453,33 hours, which is 18,888 days.
+There are *680 episodes* in arrowverse right now. If every episode on this list is at least 40 minutes long, then the total *watch time would be of 27200 minutes or 453,33 hours, which is 18,888 days.*
 
 * An arrow on ya [1/2] [50%]
 + [X]         Arrow – Season 1
