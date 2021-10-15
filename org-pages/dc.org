@@ -3,103 +3,59 @@
 #+SETUPFILE:  https://luispengler.github.io/site/org-html-themes/org/theme-readtheorg.setup
 #+OPTIONS: nul:nil ^:{}
 
-+         Arrow – Season 1
 
-·         Arrow – Season 2
++ [X]         Arrow – Season 1
 
-* 2014/2015
++ [ ]         Arrow – Season 2
 
-.         The Flash – 1.01: “Pilot”
+* 2014/2015 [/] [%]
 
-·         Arrow – 3.01: “The Calm”
-
-·         The Flash -  1.02: “Fastest Man Alive”
-
-·         Arrow – 3.02: “Sara”
-
-·         The Flash – 1.03: “Things You Can’t Outrun”
-
-·         Arrow – 3.03: “Corto Maltese”
-
-·         The Flash – 1.04: “Going Rogue”
-
-·         Arrow – 3.04: “The Magician”
-
-·         Arrow -  3.05: “The Secret Origin of Felicity Smoak”
-
-·         The Flash -  1.05: “Plastique”
-
-·         Arrow – 3.06: “Guilty”
-
-·         The Flash – 1.06: “The Flash Is Born”
-
-·         Arrow – 3.07: “Draw Back Your Bow”
-
-·         The Flash – 1.07: “Power Outage”
-
-·         The Flash – 1.08: “Flash vs. Arrow” ***MUST BE WATCHED TOGETHER (1)
-
-·         Arrow – 3.08: “The Brave and the Bold” ***MUST BE WATCHED TOGETHER (2)
-
-·         The Flash – 1.09: “The Man in the Yellow Suit”
-
-·         Arrow – 3.09: “The Climb”
-
-·         The Flash – 1.10: “Revenge of the Rogues”
-
-·         Arrow – 3.10: “Left Behind”
-
-·         The Flash – 1.11: “The Sound and the Fury”
-
-·         Arrow – 3.11: “Midnight City”
-
-·         The Flash - 1×12: “Crazy for You”
-
-·         Arrow – 3.12: “Uprising”
-
-·         The Flash - 1×13: “The Nuclear Man”
-
-·         Arrow – 3.13: “Canaries”
-
-·         The Flash - 1×14: “Fallout”
-
-·         Arrow – 3.14: “The Return”
-
-·         Arrow -  3.15: “Nanda Parbat”
-
-·         The Flash – 1.15: “Out of Time”
-
-·         The Flash – 1.16: “Rogue Time”
-
-·         Arrow -  3.16: “The Offer”
-
-·         The Flash -  1.17: “Tricksters”
-
-·         Arrow – 3.17: “Suicidal Tendencies”
-
-·         Arrow – 3.18: “Public Enemy”
-
-·         The Flash – 1.18: “All Star Team Up”
-
-·         Arrow -  3.19: “Broken Arrow”
-
-·         The Flash – 1.19: “Who Is Harrison Wells?”
-
-·         Arrow -  3.20: “The Fallen”
-
-·         The Flash – 1.20: “The Trap”
-
-·         Arrow – 3.21: “Al Sah-him”
-
-·         The Flash – 1.21: “Grodd Lives”
-
-·         Arrow – 3.22: “This Is Your Sword”
-
-·         The Flash – 1.22: “Rogue Air”
-
-·         Arrow – 3.23: “My Name Is Oliver Queen”
-
-·         The Flash – 1.23: “Fast Enough”
++ [ ]         The Flash – 1.01: “Pilot”
++ [ ]         Arrow – 3.01: “The Calm”
++ [ ]         The Flash -  1.02: “Fastest Man Alive”
++ [ ]         Arrow – 3.02: “Sara”
++ [ ]         The Flash – 1.03: “Things You Can’t Outrun”
++ [ ]         Arrow – 3.03: “Corto Maltese”
++ [ ]         The Flash – 1.04: “Going Rogue”
++ [ ]         Arrow – 3.04: “The Magician”
++ [ ]         Arrow -  3.05: “The Secret Origin of Felicity Smoak”
++ [ ]         The Flash -  1.05: “Plastique”
++ [ ]         Arrow – 3.06: “Guilty”
++ [ ]         The Flash – 1.06: “The Flash Is Born”
++ [ ]         Arrow – 3.07: “Draw Back Your Bow”
++ [ ]         The Flash – 1.07: “Power Outage”
++ [ ]         The Flash – 1.08: “Flash vs. Arrow” ***MUST BE WATCHED TOGETHER (1)
++ [ ]         Arrow – 3.08: “The Brave and the Bold” ***MUST BE WATCHED TOGETHER (2)
++ [ ]         The Flash – 1.09: “The Man in the Yellow Suit”
++ [ ]         Arrow – 3.09: “The Climb”
++ [ ]         The Flash – 1.10: “Revenge of the Rogues”
++ [ ]         Arrow – 3.10: “Left Behind”
++ [ ]         The Flash – 1.11: “The Sound and the Fury”
++ [ ]         Arrow – 3.11: “Midnight City”
++ [ ]         The Flash - 1×12: “Crazy for You”
++ [ ]         Arrow – 3.12: “Uprising”
++ [ ]         The Flash - 1×13: “The Nuclear Man”
++ [ ]         Arrow – 3.13: “Canaries”
++ [ ]         The Flash - 1×14: “Fallout”
++ [ ]         Arrow – 3.14: “The Return”
++ [ ]         Arrow -  3.15: “Nanda Parbat”
++ [ ]         The Flash – 1.15: “Out of Time”
++ [ ]         The Flash – 1.16: “Rogue Time”
++ [ ]         Arrow -  3.16: “The Offer”
++ [ ]         The Flash -  1.17: “Tricksters”
++ [ ]         Arrow – 3.17: “Suicidal Tendencies”
++ [ ]         Arrow – 3.18: “Public Enemy”
++ [ ]         The Flash – 1.18: “All Star Team Up”
++ [ ]         Arrow -  3.19: “Broken Arrow”
++ [ ]         The Flash – 1.19: “Who Is Harrison Wells?”
++ [ ]         Arrow -  3.20: “The Fallen”
++ [ ]         The Flash – 1.20: “The Trap”
++ [ ]         Arrow – 3.21: “Al Sah-him”
++ [ ]         The Flash – 1.21: “Grodd Lives”
++ [ ]         Arrow – 3.22: “This Is Your Sword”
++ [ ]         The Flash – 1.22: “Rogue Air”
++ [ ]         Arrow – 3.23: “My Name Is Oliver Queen”
++ [ ]         The Flash – 1.23: “Fast Enough”
 
 * 2015/2016
 
