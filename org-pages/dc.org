@@ -12,12 +12,12 @@ Using org-mode thanks to doom emacs, I was able to make this viewing order list 
 
 There are 680 episodes in arrowverse right now. If every episode on this list is at least 40 minutes long, then the total watch time would be of 27200 minutes or 453,33 hours, which is 18,888 days.
 
-* An arrow on ya
+* An arrow on ya [1/2] [50%]
 + [X]         Arrow – Season 1
 
 + [ ]         Arrow – Season 2
 
-* 2014/2015 [/] [%]
+* 2014/2015 [0/46] [0%]
 
 + [ ]         The Flash – 1.01: “Pilot”
 + [ ]         Arrow – 3.01: “The Calm”
@@ -66,7 +66,7 @@ There are 680 episodes in arrowverse right now. If every episode on this list is
 + [ ]         Arrow – 3.23: “My Name Is Oliver Queen”
 + [ ]         The Flash – 1.23: “Fast Enough”
 
-* 2015/2016 [/] [%]
+* 2015/2016 [0/65] [0%]
 
 + [ ]         Supergirl – Season 1, Episodes 1-17
 + [ ]         The Flash – 2.01: “The Man Who Saved Central City”
@@ -134,7 +134,7 @@ There are 680 episodes in arrowverse right now. If every episode on this list is
 + [ ]         The Flash – 2.23: “The Race of His Life”
 + [ ]         Arrow – 4.23: “Schism”
 
-* 2016/2017 [/] [%]
+* 2016/2017 [0/85] [0%]
 
 + [ ]         The Flash – 3.01: “Flashpoint”
 + [ ]         Arrow – 5.01: “Legacy”
@@ -222,7 +222,7 @@ There are 680 episodes in arrowverse right now. If every episode on this list is
 + [ ]         The Flash – 3.23: “Finish Line”
 + [ ]         Arrow – 5.23: “Lian Yu”
 
-* 2017/2018 [/] [%]
+* 2017/2018 [0/100] [0%]
 
 + [ ]         Supergirl – 3.01: “Girl of Steel”
 + [ ]         The Flash – 4.01: “The Flash Reborn”
@@ -325,7 +325,7 @@ There are 680 episodes in arrowverse right now. If every episode on this list is
 + [ ]         Supergirl – 3.22: “Make It Reign”
 + [ ]         Supergirl – 3.23: “Battles Lost And Won”
 
-* 2018/2019 [/] [%]
+* 2018/2019 [0/99] [0%]
 
 + [ ]         The Flash – 5.01: “Nora”
 + [ ]         Black Lightning – 2.01: “The Book of Consequences: Chapter One: The Rise of the Green Light Babies”
@@ -427,7 +427,7 @@ There are 680 episodes in arrowverse right now. If every episode on this list is
 + [ ]         Supergirl – 4.22: “The Quest For Peace”
 + [ ]         Legends of Tomorrow – 4.16: “Hey World!”
 
-* 2019/2020 [/] [%]
+* 2019/2020 [0/112] [0%]
 
 + [ ]         Batwoman – 1.01: “Pilot”
 + [ ]         Supergirl – 5.01: “Event Horizon”
@@ -542,7 +542,7 @@ There are 680 episodes in arrowverse right now. If every episode on this list is
 + [ ]         Stargirl – 1.12: “Stars & S.T.R.I.P.E Part One”
 + [ ]         Stargirl – 1.13: “Stars & S.T.R.I.P.E Part Two”
 
-* 2021 [/] [%]
+* 2021 [0/102] [0%]
 
 + [ ]         Batwoman – 2.01: “What Happened To Kate Kane”
 + [ ]         Batwoman – 2.02: “Prior Criminal History”
