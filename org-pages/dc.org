@@ -4,6 +4,13 @@
 #+OPTIONS: nul:nil ^:{}
 
 * Getting started
+Before reading, just know the credit for this list goes to Matt Vernier, posted on [[https://www.geekyregards.com/p/arrowverse-viewing-order.html][Geeky Regards]]
+Using org-mode thanks to doom emacs, I was able to make this viewing order list in a checkbox list, to track my progress while I watch the series.
+| Series on this list    |                          |                          |                                   |                               |                        |                        |
+|------------------------+--------------------------+--------------------------+-----------------------------------+-------------------------------+------------------------+------------------------|
+| Arrow   (170 episodes) | The Flash (151 episodes) | Supergirl (121 episodes) | Legends of Tomorrow (98 episodes) | Black Lightning (58 episodes) | Batwoman (41 episodes) | Stargirl (26 episodes) |
+
+There are 665 episodes in arrowverse right now. If every episode on this list is at least 40 minutes long, then the total watch time would be of 26600 minutes or 443,33 hours, which is 18,47 days.
 
 * An arrow on ya
 + [X]         Arrow – Season 1
