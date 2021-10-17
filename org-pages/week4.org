@@ -1,10 +1,10 @@
 #+TITLE: Week 4 - my own writings
 #+DESCRIPTION: Week 4 - my own writings
 #+SETUPFILE: https://luispengler.github.io/site/org-html-themes/org/theme-readtheorg.setup
+#+LaTeX_+HEADER: \usepackage{physics}
 #+OPTIONS: nul:nil ^:{}
 
 * Week 4 (Qubit by Qubit)
-test \(E=mc^2\)
 ** RECAP:
 *** Quantum mechanics:
 + Qubits have discrete states and we can use these 0s and 1s in computation.
@@ -21,10 +21,10 @@ Ket notation and the Block sphere are two common ways to describe qubits instead
 
 *** Ket Notation
 + 1 and 0 are not just numbers, they are *quantum states.* and to represent that, we use kets.
-+ Anything inside  \(bra\ket\) means it's a quantum state. Ex: |1>, |2> and Superposition of |0> and |1>
++ Anything inside  \(\langle|\) means it's a quantum state. Ex: \(|1\rangle\), \(|0\rangle\) and Superposition of \(|0\rangle\) and \(|1\rangle\)
 + AKA bra-ket notation or Dirac notation.
 **** Schrodinger's ket
-+ |alive> + |dead>
++ \(|alive\rangle+|dead\rangle\)
 + In future weeks, we will be learning some math with kets.
 
 *** the Block sphere
@@ -37,23 +37,23 @@ Show images of it...
 + The computations that quantum gates make can be visualized as rotations on the Bloch sphere.
 + There are a lot of gates. But we'll be focusing on 3 (X gate, H gate, Z gate) of them first, 2 of them today (H and X gate).
 + For gates, we will need a 3-D coordinate system. Like x,y,z. and we can place the Bloch sphere on this coordinate system.
-+ |0> lies along z, as well as |1>. Equal superposition |0>+|1> lies along x axis.
++ \(|0\rangle\) lies along z, as well as \(|1\rangle\). Equal superposition \(|0\rangle+|1\rangle\) lies along x axis.
 
 **** The X gate
 + it gives the opposite of the input (hint: just like NOT gate in classical computing)
-+ Input: |0> Output: |1>
-+ Input: |1> Output: |0>
++ Input: \(|0\rangle\) Output: \(|1\rangle\)
++ Input: \(|1\rangle\) Output: \(|0\rangle\)
 + Its name is "X gate" because it does a rotation of 180º around the X axis.
 
 **** The H gate
 + AKA Hadamard gate
 + It is a purely quantum gate (has no classical equivalent) and only exists on quantum computers.
 + It creates a superposition.
-+ Input: |0> Output: |+>
-+ Input: |1> Output: |->
-+ |+> and |-> are examples of superpositions.
++ Input: \(|0\rangle\) Output: \(|+\rangle\)
++ Input: \(|1\rangle\) Output: \(|-\rangle\)
++ \(|+\rangle\) and \(|-\rangle\) are examples of superpositions.
 + It rotates 90º on any axis, creating a superposition.
-+ We will learn more math to understand the difference between the |+> and |-> states.
++ We will learn more math to understand the difference between the \(|+\rangle\) and \(|-\rangle\) states.
 ** Guest speaker:
 Dr. Casey Berger, visiting assistant. Computational physics.
 science fiction she's written: URSA MAJOR, FIRST LIGHT, DARK STARTS https://www.caseybergerbooks.com/
