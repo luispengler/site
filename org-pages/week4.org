@@ -21,7 +21,7 @@ Ket notation and the Block sphere are two common ways to describe qubits instead
 
 *** Ket Notation
 + 1 and 0 are not just numbers, they are *quantum states.* and to represent that, we use kets.
-+ Anything inside | > it means it's a quantum state. Ex: |1>, |2> and Superposition of |0> and |1>
++ Anything inside  \(bra\ket\) means it's a quantum state. Ex: |1>, |2> and Superposition of |0> and |1>
 + AKA bra-ket notation or Dirac notation.
 **** Schrodinger's ket
 + |alive> + |dead>
