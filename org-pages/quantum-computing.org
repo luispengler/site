@@ -3,7 +3,7 @@
 #+SETUPFILE: https://luispengler.github.io/site/org-html-themes/org/theme-readtheorg.setup
 #+OPTIONS: nul:nil ^:{}
 
-| week 0 | week 1 | week 2 | [[https://luispengler.github.io/site/html/org-pages/week3.html][week 3]] |
+| week 0 | week 1 | week 2 | [[https://luispengler.github.io/site/html/org-pages/week3.html][week 3]] | [[https://luispengler.github.io/site/html/org-pages/week4.html][week 4]] |
 
 * This collection
 
