@@ -20,3 +20,6 @@
 | Nenhum estudante compareceu                                               | 11/10 (Segunda-feira)                  | 17h         | 19h     |
 | Nenhum estudante compareceu                                               | 13/10 (Quarta-feira)                   | 15h         | 18h     |
 | Nenhum estudante compareceu                                               | 14/10 (Quinta-feira)                   | 15h         | 18h     |
+| Nenhum estudante compareceu                                               | 18/10 (Segunda-feira)                  | 17h         | 19h     |
+|                                                                           | 20/10 (Quarta-feira)                   | 15h         | 18h     |
+|                                                                           | 21/10 (Quinta-feira)                   | 15h         | 18h     |

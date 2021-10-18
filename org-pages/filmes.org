@@ -4,7 +4,7 @@
 #+OPTIONS: nul:nil ^:{}
 
 
-* Assistir as franquias (One week stand :) [3%] [1/31]
+* Assistir as franquias (One week stand :) [6%] [2/30]
 ** [X] Harry Potter [9/9]
 *** [X] Harry Potter and the sorcerer's stone
 *** [X] Harry Potter and the chamber of secrets
@@ -15,10 +15,9 @@
 *** [X] Harry Potter and the deathly hallows pt.1
 *** [X] Harry Potter and the deathly hallows pt.2
 *** [X] Fantastic Beasts and where to find them
-** [ ] Percy Jackson [1/3]
+** [X] Percy Jackson [2/2]
 *** [X] Percy Jackson: The lightning thief
-*** [ ] Percy Jackson: Sea of monsters
-*** [ ] Percy Jackson and the titan's curse
+*** [X] Percy Jackson: Sea of monsters
 ** [ ] Indiana Jones [0/5]
 *** [ ] Indiana Jones and the Temple of Doom (1984)
 *** [ ] Indiana Jones and the Raiders of the Lost Ark (1981)
@@ -198,9 +197,9 @@
 
 *** Regra: depois de uma saga, um filme separado
 
-* Filmes separados (One night stand :) [3%] [1/28]
+* Filmes separados (One night stand :) [7%] [2/28]
 ** [X] Titanic
-** [ ] Interestellar
+** [X] Interestellar
 ** [ ] World War Z
 ** [ ] Caroline
 ** [ ] Mama
