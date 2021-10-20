@@ -12,14 +12,14 @@ Using org-mode thanks to doom emacs, I was able to make this viewing order list 
 
 There are *680 episodes* in arrowverse right now. If every episode on this list is at least 40 minutes long, then the total *watch time would be of 27200 minutes or 453,33 hours, which is 18,888 days.*
 
-* An arrow on ya [1/2] [50%]
+* An arrow on ya [2/2] [100%]
 + [X]         Arrow – Season 1
 
-+ [ ]         Arrow – Season 2
++ [X]         Arrow – Season 2
 
-* 2014/2015 [0/46] [0%]
+* 2014/2015 [1/46] [2%]
 
-+ [ ]         The Flash – 1.01: “Pilot”
++ [X]         The Flash – 1.01: “Pilot”
 + [ ]         Arrow – 3.01: “The Calm”
 + [ ]         The Flash -  1.02: “Fastest Man Alive”
 + [ ]         Arrow – 3.02: “Sara”
