@@ -1,0 +1,7 @@
+#+TITLE: Week 0 - me own writings
+#+DESCRIPTION: Week 0 - my own writings
+#+SETUPFILE: https://luispengler.github.io/site/org-html-themes/org/theme-readtheorg.setup
+#+OPTIONS: nul:nil ^:{}
+
+* THIS PAGE IS A PLACE HOLDER
+Content is coming soon.
