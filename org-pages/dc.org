@@ -17,12 +17,12 @@ There are *680 episodes* in arrowverse right now. If every episode on this list 
 
 + [X]         Arrow – Season 2
 
-* 2014/2015 [1/46] [2%]
+* 2014/2015 [4/46] [8%]
 
 + [X]         The Flash – 1.01: “Pilot”
-+ [ ]         Arrow – 3.01: “The Calm”
-+ [ ]         The Flash -  1.02: “Fastest Man Alive”
-+ [ ]         Arrow – 3.02: “Sara”
++ [X]         Arrow – 3.01: “The Calm”
++ [X]         The Flash -  1.02: “Fastest Man Alive”
++ [X]         Arrow – 3.02: “Sara”
 + [ ]         The Flash – 1.03: “Things You Can’t Outrun”
 + [ ]         Arrow – 3.03: “Corto Maltese”
 + [ ]         The Flash – 1.04: “Going Rogue”
