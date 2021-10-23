@@ -29,18 +29,11 @@ Ket notation and the Block sphere are two common ways to describe qubits instead
 
 *** the Block sphere
 + Qubits can be in more than three states (different than using arrow notation, that uses *Equal Superpostion*).
-
-
-
 #+ATTR_HTML: alt: Modelo padrão :title Modelo Padrão :style float:left;margin-bottom:20px;margin-left: auto;margin-right: auto;background-color: mintcream;display: block;max-width: 100%;height: auto;
 https://luispengler.github.io/site/doc/images/qc-x-h.png
 
-
-
 #+ATTR_HTML: alt: Modelo padrão :title Modelo Padrão :style float:left;margin-bottom:20px;margin-left: auto;margin-right: auto;background-color: mintcream;display: block;max-width: 100%;height: auto;
 https://luispengler.github.io/site/doc/images/qc-h-x.png
-
-
 
 + Unequal superpositions are the ones that are not either 0, 1 or 50% superposition. It's like 30% of 0 and 70% of 1. They are like an unfair coin.
 
