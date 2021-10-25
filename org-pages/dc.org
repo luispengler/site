@@ -17,7 +17,7 @@ There are *680 episodes* in arrowverse right now. If every episode on this list 
 
 + [X]         Arrow – Season 2
 
-* 2014/2015 [38/46] [82%]
+* 2014/2015 [46/46] [100%]
 
 + [X]         The Flash – 1.01: “Pilot”
 + [X]         Arrow – 3.01: “The Calm”
@@ -57,14 +57,14 @@ There are *680 episodes* in arrowverse right now. If every episode on this list 
 + [X]         The Flash – 1.18: “All Star Team Up”
 + [X]         Arrow -  3.19: “Broken Arrow”
 + [X]         The Flash – 1.19: “Who Is Harrison Wells?”
-+ [ ]         Arrow -  3.20: “The Fallen”
-+ [ ]         The Flash – 1.20: “The Trap”
-+ [ ]         Arrow – 3.21: “Al Sah-him”
-+ [ ]         The Flash – 1.21: “Grodd Lives”
-+ [ ]         Arrow – 3.22: “This Is Your Sword”
-+ [ ]         The Flash – 1.22: “Rogue Air”
-+ [ ]         Arrow – 3.23: “My Name Is Oliver Queen”
-+ [ ]         The Flash – 1.23: “Fast Enough”
++ [X]         Arrow -  3.20: “The Fallen”
++ [X]         The Flash – 1.20: “The Trap”
++ [X]         Arrow – 3.21: “Al Sah-him”
++ [X]         The Flash – 1.21: “Grodd Lives”
++ [X]         Arrow – 3.22: “This Is Your Sword”
++ [X]         The Flash – 1.22: “Rogue Air”
++ [X]         Arrow – 3.23: “My Name Is Oliver Queen”
++ [X]         The Flash – 1.23: “Fast Enough”
 
 * 2015/2016 [0/65] [0%]
 

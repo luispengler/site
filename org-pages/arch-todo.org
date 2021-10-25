@@ -1,0 +1,16 @@
+#+TITLE: Arch - Things that need to be taken care of.
+#+DESCRIPTION: Arch - Things that need to be taken care of.
+#+SETUPFILE: https://luispengler.github.io/site/org-html-themes/org/theme-readtheorg.setup
+#+OPTIONS: nul:nil ^:{}
+
+
+* New arch install
+
++ [ ] Improve the notification system
++ [ ] Use st (simple terminal) instead of Alacritty.
++ [ ] If you are gonna use Reddit, have a look at bugswritter's video on reddit from bash.
++ [ ] Improve file-sharing "Stop using windows style. Now that's how linux users share file."
++ [ ] Configue deluge-console (I managed to get it working) and use bugswritter's script to download stuff.
++ [ ] Configure firefox to be the secure browser (use it for general webing) and brave to be the one for video conferecing (due to firefox's multiple playback issue, participants camera keep stopping) and also need brave cause I'm lazy to configure tor (and would be an extra browser and more dependencies)
++ [ ] Study awk (some day) (The AWK Programming Language)
++ [ ] Study some web scripting on terminal (smth like pup)
