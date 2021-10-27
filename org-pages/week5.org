@@ -1,0 +1,64 @@
+#+TITLE: Week 5 - my own writings
+#+DESCRIPTION: Week 5 - my own writings
+#+SETUPFILE: https://luispengler.github.io/site/org-html-themes/org/theme-readtheorg.setup
+#+LaTeX_+HEADER: \usepackage{physics}
+#+OPTIONS: nul:nil ^:{}
+
+* Week 5 (Qubit by Qubit)
+** RECAP:
+*** The Bloch Sphere:
++ State on the top: \(|0\rangle\)
++ State on the bottom: \(|1\rangle\)
++ State pointing torwards: \(|+\rangle\)
++ State pointing backwards: \(|-\rangle\)
+
+*** Quantum gates:
++ X gate
++ Hadamard gate
+
+** Z gate
++ The Z gate does a 180º rotation around the Z axis (like a carrosel)
++ Z axis is the one pointing upwards.
+
+*** Rules:
+- If we apply the Z gate to the \(|0\rangle\) state, nothing will change because the \(|0\rangle\) lies on the Z axis.
+- Applying it to a superpostion makes more sense: \(|+\rangle\) becomes \(|-\rangle\) and \(|+\rangle\) becomes \(|-\rangle\)
+- If we apply the Z gate to the \(|1\rangle\) state, it becomes \(-|1\rangle\) (Changing its fase, subject for next week!!!)
+
+** Quantum measurements
++ We need to measure the qubits so we can understand what state they are in.
++ By observing (measuring) a quantum state, we can change it.
++ The outcome of a quantum measurement is oftem random.
+  - We don't know why this happens, but it is scientifically proven.
++ When we measure a quantum circuit you are asking if it is either in \(|0\rangle\) or \(|1\rangle\) state.
+
+*** Quantum Circuit model
++ The quantum circuit model shows us three parts of a quantum circuit
++ States, Gates, Measurement
+  - Measurement is a crucial state (without it, we don't get an answer and the goal here is to get an answer!)
++ The dial symbol (insert image later!!!!!!!!!) is how we represent measurements in a circuit.
+
+*** Some results
++ Input: \(|0\rangle\), you measure it and it is \(|0\rangle\)
++ Input: \(|1\rangle\), you measure it and it is \(|1\rangle\)
++ Measuring a superpostion it is fundamentally random. It can be either \(|0\rangle\) or \(|1\rangle\) at any measurement (the act of measuring itself changes the result). This is known as *collapse* or *wave-function collapse*.
+
+** Wave-particle duality and measurement
++ Qubits can be represented as waves too.
+- Q: Just like the dirac notation and the bloch sphere notation, is there a way of representing qubits as waves using notations? or is it useful to do so?
+- A: Typically the Dirac notation is used to talk about wavefunctions
++ Measurement inherently affects the wavefunction of your quantum object.
++ Just like to determine the probability of a coin being heads or tails, you measure again and again (hundreds, thousands, or even tens of thousands of times), to find a probability.
++ Quote Richard Feynman about probability.
++ Article: Using the un Bob Yirka
++ : What if the reason quantum states change when we measure them is because just like in real world we see objects and things using light (light reflects on something and comes to our eyes). The point is, light kinda touches the object. A quantum state is so sensible to the envirorment that its nature is changed by any means of interactions
+
+** IQX circuit composer
++ In IBM quantum experience you can find it: https://quantum-computing.ibm.com/composer/
+** A Theory
++ What if the reason quantum states change when we measure them is because just like in real world we see objects and things using light (light reflects on something and comes to our eyes). The point is, light kinda touches the object. A quantum state is so sensible to the envirorment that its nature is changed by any means of interactions with matter and the simple act of looking (measuring it) at it changes it. So, nowadays there is no way of measuring a quantum state without making a particle or wave touch this quantum object, therefore the measurement property of changing results will continue to occur.
+** Articles
+https://www.forbes.com/sites/startswithabang/2020/12/10/does-making-a-quantum-measurement-really-destroy-information/
+https://www.science.org/doi/abs/10.1126/science.1109541
+https://phys.org/news/2020-02-scientists-quantum.html
+http://backreaction.blogspot.com/2019/10/what-is-quantum-measurement-problem.html

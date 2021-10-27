@@ -6,9 +6,9 @@
 <!-- 2021-10-27 qua 07:22 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>An introduction to Quantum computing - my own writings on the subject.</title>
+<title>Week 5 - my own writings</title>
 <meta name="author" content="Luís Guilherme Miranda Spengler" />
-<meta name="description" content="An introduction to Quantum computing - my own writings on the subject." />
+<meta name="description" content="Week 5 - my own writings" />
 <meta name="generator" content="Org Mode" />
 <style>
   #content { max-width: 60em; margin: auto; }
@@ -200,71 +200,198 @@
 <script src="httpss://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="https://luispengler.github.io/site/org-html-themes/src/lib/js/jquery.stickytableheaders.min.js"></script>
 <script type="text/javascript" src="https://luispengler.github.io/site/org-html-themes/src/readtheorg_theme/js/readtheorg.js"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        displayAlign: "center",
+        displayIndent: "0em",
+
+        "HTML-CSS": { scale: 100,
+                        linebreaks: { automatic: "false" },
+                        webFont: "TeX"
+                       },
+        SVG: {scale: 100,
+              linebreaks: { automatic: "false" },
+              font: "TeX"},
+        NativeMML: {scale: 100},
+        TeX: { equationNumbers: {autoNumber: "AMS"},
+               MultLineWidth: "85%",
+               TagSide: "right",
+               TagIndent: ".8em"
+             }
+});
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML"></script>
 </head>
 <body>
 <div id="content" class="content">
-<h1 class="title">An introduction to Quantum computing - my own writings on the subject.</h1>
+<h1 class="title">Week 5 - my own writings</h1>
 <div id="table-of-contents" role="doc-toc">
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#org5c61b8f">1. This collection</a></li>
-<li><a href="#org1b9184c">2. Resources to study quantum</a>
+<li><a href="#orgb7765c4">1. Week 5 (Qubit by Qubit)</a>
 <ul>
-<li><a href="#org010254c">2.1. Courses:</a></li>
-<li><a href="#org72e61af">2.2. Youtube videos:</a></li>
-<li><a href="#org6ceed01">2.3. Books:</a></li>
+<li><a href="#org066fb4e">1.1. RECAP:</a>
+<ul>
+<li><a href="#org1b70feb">1.1.1. The Bloch Sphere:</a></li>
+<li><a href="#org1e4ac9c">1.1.2. Quantum gates:</a></li>
+</ul>
+</li>
+<li><a href="#org0f1b0b5">1.2. Z gate</a>
+<ul>
+<li><a href="#orgf834545">1.2.1. Rules:</a></li>
+</ul>
+</li>
+<li><a href="#org2993f1e">1.3. Quantum measurements</a>
+<ul>
+<li><a href="#orgc72f0d9">1.3.1. Quantum Circuit model</a></li>
+<li><a href="#orga8d0c13">1.3.2. Some results</a></li>
+</ul>
+</li>
+<li><a href="#org3635ebe">1.4. Wave-particle duality and measurement</a></li>
+<li><a href="#org04a9a8d">1.5. IQX circuit composer</a></li>
+<li><a href="#org5793651">1.6. A Theory</a></li>
+<li><a href="#org9bc0e64">1.7. Articles</a></li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
-<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
-
-<colgroup>
-<col  class="org-left" />
-
-<col  class="org-left" />
-
-<col  class="org-left" />
-
-<col  class="org-left" />
-
-<col  class="org-left" />
-</colgroup>
-<tbody>
-<tr>
-<td class="org-left"><a href="https://luispengler.github.io/site/html/org-pages/week0.html">week 0</a></td>
-<td class="org-left"><a href="https://luispengler.github.io/site/html/org-pages/week1.html">week 1</a></td>
-<td class="org-left"><a href="https://luispengler.github.io/site/html/org-pages/week2.html">week 2</a></td>
-<td class="org-left"><a href="https://luispengler.github.io/site/html/org-pages/week3.html">week 3</a></td>
-<td class="org-left"><a href="https://luispengler.github.io/site/html/org-pages/week4.html">week 4</a></td>
-</tr>
-</tbody>
-</table>
-
-<div id="outline-container-org5c61b8f" class="outline-2">
-<h2 id="org5c61b8f"><span class="section-number-2">1.</span> This collection</h2>
+<div id="outline-container-orgb7765c4" class="outline-2">
+<h2 id="orgb7765c4"><span class="section-number-2">1.</span> Week 5 (Qubit by Qubit)</h2>
+<div class="outline-text-2" id="text-1">
+</div>
+<div id="outline-container-org066fb4e" class="outline-3">
+<h3 id="org066fb4e"><span class="section-number-3">1.1.</span> RECAP:</h3>
+<div class="outline-text-3" id="text-1-1">
+</div>
+<div id="outline-container-org1b70feb" class="outline-4">
+<h4 id="org1b70feb"><span class="section-number-4">1.1.1.</span> The Bloch Sphere:</h4>
+<div class="outline-text-4" id="text-1-1-1">
+<ul class="org-ul">
+<li>State on the top: \(|0\rangle\)</li>
+<li>State on the bottom: \(|1\rangle\)</li>
+<li>State pointing torwards: \(|+\rangle\)</li>
+<li>State pointing backwards: \(|-\rangle\)</li>
+</ul>
+</div>
 </div>
 
-<div id="outline-container-org1b9184c" class="outline-2">
-<h2 id="org1b9184c"><span class="section-number-2">2.</span> Resources to study quantum</h2>
-<div class="outline-text-2" id="text-2">
+<div id="outline-container-org1e4ac9c" class="outline-4">
+<h4 id="org1e4ac9c"><span class="section-number-4">1.1.2.</span> Quantum gates:</h4>
+<div class="outline-text-4" id="text-1-1-2">
+<ul class="org-ul">
+<li>X gate</li>
+<li>Hadamard gate</li>
+</ul>
 </div>
-<div id="outline-container-org010254c" class="outline-3">
-<h3 id="org010254c"><span class="section-number-3">2.1.</span> Courses:</h3>
 </div>
-<div id="outline-container-org72e61af" class="outline-3">
-<h3 id="org72e61af"><span class="section-number-3">2.2.</span> Youtube videos:</h3>
-<div class="outline-text-3" id="text-2-2">
+</div>
+
+<div id="outline-container-org0f1b0b5" class="outline-3">
+<h3 id="org0f1b0b5"><span class="section-number-3">1.2.</span> Z gate</h3>
+<div class="outline-text-3" id="text-1-2">
+<ul class="org-ul">
+<li>The Z gate does a 180º rotation around the Z axis (like a carrosel)</li>
+<li>Z axis is the one pointing upwards.</li>
+</ul>
+</div>
+
+<div id="outline-container-orgf834545" class="outline-4">
+<h4 id="orgf834545"><span class="section-number-4">1.2.1.</span> Rules:</h4>
+<div class="outline-text-4" id="text-1-2-1">
+<ul class="org-ul">
+<li>If we apply the Z gate to the \(|0\rangle\) state, nothing will change because the \(|0\rangle\) lies on the Z axis.</li>
+<li>Applying it to a superpostion makes more sense: \(|+\rangle\) becomes \(|-\rangle\) and \(|+\rangle\) becomes \(|-\rangle\)</li>
+<li>If we apply the Z gate to the \(|1\rangle\) state, it becomes \(-|1\rangle\) (Changing its fase, subject for next week!!!)</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org2993f1e" class="outline-3">
+<h3 id="org2993f1e"><span class="section-number-3">1.3.</span> Quantum measurements</h3>
+<div class="outline-text-3" id="text-1-3">
+<ul class="org-ul">
+<li>We need to measure the qubits so we can understand what state they are in.</li>
+<li>By observing (measuring) a quantum state, we can change it.</li>
+<li>The outcome of a quantum measurement is oftem random.
+<ul class="org-ul">
+<li>We don&rsquo;t know why this happens, but it is scientifically proven.</li>
+</ul></li>
+<li>When we measure a quantum circuit you are asking if it is either in \(|0\rangle\) or \(|1\rangle\) state.</li>
+</ul>
+</div>
+
+<div id="outline-container-orgc72f0d9" class="outline-4">
+<h4 id="orgc72f0d9"><span class="section-number-4">1.3.1.</span> Quantum Circuit model</h4>
+<div class="outline-text-4" id="text-1-3-1">
+<ul class="org-ul">
+<li>The quantum circuit model shows us three parts of a quantum circuit</li>
+<li>States, Gates, Measurement
+<ul class="org-ul">
+<li>Measurement is a crucial state (without it, we don&rsquo;t get an answer and the goal here is to get an answer!)</li>
+</ul></li>
+<li>The dial symbol (insert image later!!!!!!!!!) is how we represent measurements in a circuit.</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orga8d0c13" class="outline-4">
+<h4 id="orga8d0c13"><span class="section-number-4">1.3.2.</span> Some results</h4>
+<div class="outline-text-4" id="text-1-3-2">
+<ul class="org-ul">
+<li>Input: \(|0\rangle\), you measure it and it is \(|0\rangle\)</li>
+<li>Input: \(|1\rangle\), you measure it and it is \(|1\rangle\)</li>
+<li>Measuring a superpostion it is fundamentally random. It can be either \(|0\rangle\) or \(|1\rangle\) at any measurement (the act of measuring itself changes the result). This is known as <b>collapse</b> or <b>wave-function collapse</b>.</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org3635ebe" class="outline-3">
+<h3 id="org3635ebe"><span class="section-number-3">1.4.</span> Wave-particle duality and measurement</h3>
+<div class="outline-text-3" id="text-1-4">
+<ul class="org-ul">
+<li>Qubits can be represented as waves too.</li>
+<li>Q: Just like the dirac notation and the bloch sphere notation, is there a way of representing qubits as waves using notations? or is it useful to do so?</li>
+<li>A: Typically the Dirac notation is used to talk about wavefunctions</li>
+<li>Measurement inherently affects the wavefunction of your quantum object.</li>
+<li>Just like to determine the probability of a coin being heads or tails, you measure again and again (hundreds, thousands, or even tens of thousands of times), to find a probability.</li>
+<li>Quote Richard Feynman about probability.</li>
+<li>Article: Using the un Bob Yirka</li>
+<li>: What if the reason quantum states change when we measure them is because just like in real world we see objects and things using light (light reflects on something and comes to our eyes). The point is, light kinda touches the object. A quantum state is so sensible to the envirorment that its nature is changed by any means of interactions</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org04a9a8d" class="outline-3">
+<h3 id="org04a9a8d"><span class="section-number-3">1.5.</span> IQX circuit composer</h3>
+<div class="outline-text-3" id="text-1-5">
+<ul class="org-ul">
+<li>In IBM quantum experience you can find it: <a href="https://quantum-computing.ibm.com/composer/">https://quantum-computing.ibm.com/composer/</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org5793651" class="outline-3">
+<h3 id="org5793651"><span class="section-number-3">1.6.</span> A Theory</h3>
+<div class="outline-text-3" id="text-1-6">
+<ul class="org-ul">
+<li>What if the reason quantum states change when we measure them is because just like in real world we see objects and things using light (light reflects on something and comes to our eyes). The point is, light kinda touches the object. A quantum state is so sensible to the envirorment that its nature is changed by any means of interactions with matter and the simple act of looking (measuring it) at it changes it. So, nowadays there is no way of measuring a quantum state without making a particle or wave touch this quantum object, therefore the measurement property of changing results will continue to occur.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org9bc0e64" class="outline-3">
+<h3 id="org9bc0e64"><span class="section-number-3">1.7.</span> Articles</h3>
+<div class="outline-text-3" id="text-1-7">
 <p>
-<a href="https://www.youtube.com/playlist?list=PLR3IPFP-OywS3nMoKLJcEpeHfQRsT7QKR">Quantum Computing playlist</a>
+<a href="https://www.forbes.com/sites/startswithabang/2020/12/10/does-making-a-quantum-measurement-really-destroy-information/">https://www.forbes.com/sites/startswithabang/2020/12/10/does-making-a-quantum-measurement-really-destroy-information/</a>
+<a href="https://www.science.org/doi/abs/10.1126/science.1109541">https://www.science.org/doi/abs/10.1126/science.1109541</a>
+<a href="https://phys.org/news/2020-02-scientists-quantum.html">https://phys.org/news/2020-02-scientists-quantum.html</a>
+<a href="http://backreaction.blogspot.com/2019/10/what-is-quantum-measurement-problem.html">http://backreaction.blogspot.com/2019/10/what-is-quantum-measurement-problem.html</a>
 </p>
 </div>
-</div>
-<div id="outline-container-org6ceed01" class="outline-3">
-<h3 id="org6ceed01"><span class="section-number-3">2.3.</span> Books:</h3>
 </div>
 </div>
 </div>

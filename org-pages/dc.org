@@ -17,7 +17,7 @@ There are *680 episodes* in arrowverse right now. If every episode on this list 
 
 + [X]         Arrow – Season 2
 
-* 2014/2015 [6/46] [13%]
+* 2014/2015 [27/46] [58%]
 
 + [X]         The Flash – 1.01: “Pilot”
 + [X]         Arrow – 3.01: “The Calm”
@@ -25,27 +25,27 @@ There are *680 episodes* in arrowverse right now. If every episode on this list 
 + [X]         Arrow – 3.02: “Sara”
 + [X]         The Flash – 1.03: “Things You Can’t Outrun”
 + [X]         Arrow – 3.03: “Corto Maltese”
-+ [ ]         The Flash – 1.04: “Going Rogue”
-+ [ ]         Arrow – 3.04: “The Magician”
-+ [ ]         Arrow -  3.05: “The Secret Origin of Felicity Smoak”
-+ [ ]         The Flash -  1.05: “Plastique”
-+ [ ]         Arrow – 3.06: “Guilty”
-+ [ ]         The Flash – 1.06: “The Flash Is Born”
-+ [ ]         Arrow – 3.07: “Draw Back Your Bow”
-+ [ ]         The Flash – 1.07: “Power Outage”
-+ [ ]         The Flash – 1.08: “Flash vs. Arrow” ***MUST BE WATCHED TOGETHER (1)
-+ [ ]         Arrow – 3.08: “The Brave and the Bold” ***MUST BE WATCHED TOGETHER (2)
-+ [ ]         The Flash – 1.09: “The Man in the Yellow Suit”
-+ [ ]         Arrow – 3.09: “The Climb”
-+ [ ]         The Flash – 1.10: “Revenge of the Rogues”
-+ [ ]         Arrow – 3.10: “Left Behind”
-+ [ ]         The Flash – 1.11: “The Sound and the Fury”
-+ [ ]         Arrow – 3.11: “Midnight City”
-+ [ ]         The Flash - 1×12: “Crazy for You”
-+ [ ]         Arrow – 3.12: “Uprising”
-+ [ ]         The Flash - 1×13: “The Nuclear Man”
-+ [ ]         Arrow – 3.13: “Canaries”
-+ [ ]         The Flash - 1×14: “Fallout”
++ [X]         The Flash – 1.04: “Going Rogue”
++ [X]         Arrow – 3.04: “The Magician”
++ [X]         Arrow -  3.05: “The Secret Origin of Felicity Smoak”
++ [X]         The Flash -  1.05: “Plastique”
++ [X]         Arrow – 3.06: “Guilty”
++ [X]         The Flash – 1.06: “The Flash Is Born”
++ [X]         Arrow – 3.07: “Draw Back Your Bow”
++ [X]         The Flash – 1.07: “Power Outage”
++ [X]         The Flash – 1.08: “Flash vs. Arrow” ***MUST BE WATCHED TOGETHER (1)
++ [X]         Arrow – 3.08: “The Brave and the Bold” ***MUST BE WATCHED TOGETHER (2)
++ [X]         The Flash – 1.09: “The Man in the Yellow Suit”
++ [X]         Arrow – 3.09: “The Climb”
++ [X]         The Flash – 1.10: “Revenge of the Rogues”
++ [X]         Arrow – 3.10: “Left Behind”
++ [X]         The Flash – 1.11: “The Sound and the Fury”
++ [X]         Arrow – 3.11: “Midnight City”
++ [X]         The Flash - 1×12: “Crazy for You”
++ [X]         Arrow – 3.12: “Uprising”
++ [X]         The Flash - 1×13: “The Nuclear Man”
++ [X]         Arrow – 3.13: “Canaries”
++ [X]         The Flash - 1×14: “Fallout”
 + [ ]         Arrow – 3.14: “The Return”
 + [ ]         Arrow -  3.15: “Nanda Parbat”
 + [ ]         The Flash – 1.15: “Out of Time”
