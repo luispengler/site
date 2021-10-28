@@ -9,7 +9,7 @@
 * Sobre mim
 Oi, eu sou o Luís e no momento que eu escrevo isso, sou um estudante do segundo ano do ensino médio, cursando técnico integrado em eletrotécnica.\\
 Meus interesses estão na área da física (física de particulas e mecânica quântica) e ciência da computação, principalmente no que se refere a [[https://www.gnu.org/philosophy/free-sw.pt-br.html][software livre]].\\
-* Sobre o website
+* Sobre esse website
 **
 ** Seus direitos
 Sinta-se livre para compartilhar essa página, modificar e criar sua própria versão (e até usá-la comercialmente respeitando os termos da licensa.\\

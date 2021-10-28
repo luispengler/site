@@ -7,9 +7,9 @@
 | [[https://luispengler.github.io/site/html/org-pages/notes.html][My notes]] | [[https://luispengler.github.io/site/html/org-pages/filmes.html][Carlinda movies]] | [[https://luispengler.github.io/site/html/org-pages/dc.html][DC'series]] | [[https://luispengler.github.io/site/html/org-pages/ficha.html][Ficha monitoria]] |
 
 * About me
-Hi, I am Luís and at the moment I write this I am a Junior in High School, and taking electrotechnics vacational program.\\
+Hi, I am Luís Spengler and at the moment I write this I am a Junior High School student, taking electrotechnics vacational program.\\
 My interests are in the area of physics (particle physics and quantum mechanics) and computer science, mainly what refers to [[https://www.gnu.org/philosophy/free-sw.en.html][free software]].\\
-* About the website
+* About this website
 ** Contents
 This is the main page of the website, therefore it makes sense to be the center of the webiste. Any action you can perform in the website, has a start in here.\\
 At the top header, you can see a collection of links you can click on to be redirected to, you can also check out the portuguese version of it.\\
