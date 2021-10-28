@@ -3,12 +3,12 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2021-10-21 qui 20:05 -->
+<!-- 2021-10-28 qui 11:18 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Week 4 - my own writings</title>
+<title>Week 3 - my own writings</title>
 <meta name="author" content="Luís Guilherme Miranda Spengler" />
-<meta name="description" content="Week 4 - my own writings" />
+<meta name="description" content="Week 3 - my own writings" />
 <meta name="generator" content="Org Mode" />
 <style>
   #content { max-width: 60em; margin: auto; }
@@ -200,212 +200,264 @@
 <script src="httpss://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="https://luispengler.github.io/site/org-html-themes/src/lib/js/jquery.stickytableheaders.min.js"></script>
 <script type="text/javascript" src="https://luispengler.github.io/site/org-html-themes/src/readtheorg_theme/js/readtheorg.js"></script>
-<script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-        displayAlign: "center",
-        displayIndent: "0em",
-
-        "HTML-CSS": { scale: 100,
-                        linebreaks: { automatic: "false" },
-                        webFont: "TeX"
-                       },
-        SVG: {scale: 100,
-              linebreaks: { automatic: "false" },
-              font: "TeX"},
-        NativeMML: {scale: 100},
-        TeX: { equationNumbers: {autoNumber: "AMS"},
-               MultLineWidth: "85%",
-               TagSide: "right",
-               TagIndent: ".8em"
-             }
-});
-</script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML"></script>
 </head>
 <body>
 <div id="content" class="content">
-<h1 class="title">Week 4 - my own writings</h1>
+<h1 class="title">Week 3 - my own writings</h1>
 <div id="table-of-contents" role="doc-toc">
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#orgcbce7ff">1. Week 4 (Qubit by Qubit)</a>
+<li><a href="#orgb110040">1. Week 3 (Qubit by Qubit)</a>
 <ul>
-<li><a href="#org8dbf09a">1.1. RECAP:</a>
+<li><a href="#orge86dec8">1.1. RECAP:</a>
 <ul>
-<li><a href="#orgc6c026b">1.1.1. Quantum mechanics:</a></li>
+<li><a href="#org4aed375">1.1.1. Quantum properties:</a></li>
 </ul>
 </li>
-<li><a href="#org6945064">1.2. Quantum Gates and Measurement</a>
+<li><a href="#org856f508">1.2. Quantum mechanics: part 2</a>
 <ul>
-<li><a href="#org931996a">1.2.1. Representing Qubits</a></li>
-<li><a href="#orgb860af6">1.2.2. Ket Notation</a></li>
-<li><a href="#org4c79c26">1.2.3. the Block sphere</a></li>
-<li><a href="#orgd3a6190">1.2.4. Quantum Gates</a></li>
+<li><a href="#orgab39016">1.2.1. Wave-particle duality and the double-slit experiment.</a></li>
+<li><a href="#orgc574e76">1.2.2. Case study: how large can objects get and still be quantum?</a></li>
+<li><a href="#org4ffca3a">1.2.3. Explaining discretization</a></li>
+<li><a href="#orgffeb46f">1.2.4. The unanswered questions.</a></li>
+<li><a href="#org01a58f3">1.2.5. Some interpretations</a></li>
 </ul>
 </li>
-<li><a href="#orgc2c472f">1.3. Lab:</a></li>
-<li><a href="#orge13e221">1.4. Guest speaker:</a></li>
+<li><a href="#orgd54917c">1.3. Lab 13:</a></li>
+<li><a href="#org5ec5563">1.4. Guest speaker:</a></li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orgcbce7ff" class="outline-2">
-<h2 id="orgcbce7ff"><span class="section-number-2">1.</span> Week 4 (Qubit by Qubit)</h2>
+<div id="outline-container-orgb110040" class="outline-2">
+<h2 id="orgb110040"><span class="section-number-2">1.</span> Week 3 (Qubit by Qubit)</h2>
 <div class="outline-text-2" id="text-1">
 </div>
-<div id="outline-container-org8dbf09a" class="outline-3">
-<h3 id="org8dbf09a"><span class="section-number-3">1.1.</span> RECAP:</h3>
+<div id="outline-container-orge86dec8" class="outline-3">
+<h3 id="orge86dec8"><span class="section-number-3">1.1.</span> RECAP:</h3>
 <div class="outline-text-3" id="text-1-1">
 </div>
-<div id="outline-container-orgc6c026b" class="outline-4">
-<h4 id="orgc6c026b"><span class="section-number-4">1.1.1.</span> Quantum mechanics:</h4>
+<div id="outline-container-org4aed375" class="outline-4">
+<h4 id="org4aed375"><span class="section-number-4">1.1.1.</span> Quantum properties:</h4>
 <div class="outline-text-4" id="text-1-1-1">
-<ul class="org-ul">
-<li>Qubits have discrete states and we can use these 0s and 1s in computation.</li>
-<li>In adition to being 0 or 1, qubits can also be in a superposition and therefore, can hold exponentionally more information than classical</li>
-<li>Superposition powers: Process all possibilities of solving a problem at the same time.</li>
-<li>Interference powers: Rules out incorrect possible solutions, making them interfere with each other destructively and correct ones interfere constructively.</li>
-<li>Quantum computers excel at finding one solution among massive amounts of possibilities.</li>
-</ul>
+<p>
+<b>Discretness</b>: Energy can only take certain values.
+</p>
+
+<p>
+<b>Superposition</b>: Qubits being in a combination of two(?) states at the same time.
+</p>
+
+<p>
+<b>Interference</b>: The state of objects adding up or cancelling out.
+</p>
+
+<p>
+<b>Entanglement</b>: One object&rsquo;s state depends on another object&rsquo;s state.
+</p>
+
+<p>
+<b>Measurement</b>: The outcome is often random and obeserving (measuring) you can change it.
+</p>
 </div>
 </div>
 </div>
 
-<div id="outline-container-org6945064" class="outline-3">
-<h3 id="org6945064"><span class="section-number-3">1.2.</span> Quantum Gates and Measurement</h3>
+<div id="outline-container-org856f508" class="outline-3">
+<h3 id="org856f508"><span class="section-number-3">1.2.</span> Quantum mechanics: part 2</h3>
 <div class="outline-text-3" id="text-1-2">
 </div>
-<div id="outline-container-org931996a" class="outline-4">
-<h4 id="org931996a"><span class="section-number-4">1.2.1.</span> Representing Qubits</h4>
+<div id="outline-container-orgab39016" class="outline-4">
+<h4 id="orgab39016"><span class="section-number-4">1.2.1.</span> Wave-particle duality and the double-slit experiment.</h4>
 <div class="outline-text-4" id="text-1-2-1">
 <ul class="org-ul">
-<li>Superconducting qubits (Google, IBM), trapped ion qubits (IONq), Photonics (PsiQuantum) are some types of qubits, but they all obey quantum mechanics laws as well as <b>having the same way to represent them.</b></li>
-<li>Represntation is a way to write down and show what&rsquo;s happening, without worring to much about the physics.</li>
-</ul>
-<p>
-Ket notation and the Block sphere are two common ways to describe qubits instead of using arrows.
+<li>Why do quantum objects show superposition, interference, and entanglemenet?</li>
+<li>How should they be described (their behavior)?</li>
+<li><p>
+Classical physics: things are either waves or particles. Which one of them should I use to describe what I see in my experiments?
 </p>
+
+<p>
+<b>Waves</b>:
+</p>
+<ul class="org-ul">
+<li>Waves travel at a certain velocity.</li>
+<li>Different kinds of waves have different speeds.</li>
+<li>Sound waves are slower than light waves.</li>
+<li><p>
+Waves interact with each other, they show <b>interference</b>. Interference can be constructive: two waves add together, or destructive: two waves cancel out.
+</p>
+
+<div id="orgbc564d4" class="figure">
+<p><img src="https://luispengler.github.io/site/doc/images/waterwave.jpg" alt="waterwave.jpg" title="Double-slit" style="float:left;margin-bottom:20px;margin-left: auto;margin-right: auto;background-color: mintcream;display: block;max-width: 100%;height: auto;" />
+</p>
+</div></li>
+</ul>
+
+<p>
+<b>Particles</b>:
+</p>
+<ul class="org-ul">
+<li>Particles have mass.</li>
+<li>Particles have a well-defined postion or location - they are <b>discrete</b>.</li>
+<li>They move with a velocity.</li>
+</ul></li>
+</ul>
+
+
+<p>
+<b>Double-slit experiment is used to decide if quantum objects behave like a wave or a particle</b>.
+</p>
+
+<div id="orgb1233bd" class="figure">
+<p><img src="https://luispengler.github.io/site/doc/images/double-slit.png" alt="double-slit.png" title="Double-slit" style="float:left;margin-bottom:20px;margin-left: auto;margin-right: auto;background-color: mintcream;display: block;max-width: 100%;height: auto;" />
+</p>
+</div>
+
+<ul class="org-ul">
+<li>Particles would leave two lines on the wall behind the two slits (discrete spots and no interference)</li>
+
+<li>Waves would leave a pattern of bright and dark lines, some waves are amplifying one another, while other waves are canceling out (interference).</li>
+</ul>
+
+<p>
+<b>Throwing electrons</b>:
+</p>
+<ul class="org-ul">
+<li>Each electron is a <b>discrete</b> spot on the wall.</li>
+<li>After a certain amount of electrons, you get an <b>interference</b> pattern.</li>
+<li>A nice example of <b>particle-wave</b> duality on my opinion.</li>
+<li>This happens to <b>all quantum objects</b></li>
+<li>In quantum, waves can behave as particles and particles can behave as waves.</li>
+</ul>
 </div>
 </div>
 
-<div id="outline-container-orgb860af6" class="outline-4">
-<h4 id="orgb860af6"><span class="section-number-4">1.2.2.</span> Ket Notation</h4>
+<div id="outline-container-orgc574e76" class="outline-4">
+<h4 id="orgc574e76"><span class="section-number-4">1.2.2.</span> Case study: how large can objects get and still be quantum?</h4>
 <div class="outline-text-4" id="text-1-2-2">
 <ul class="org-ul">
-<li>1 and 0 are not just numbers, they are <b>quantum states.</b> and to represent that, we use kets.</li>
-<li>Anything inside  \(\langle|\) means it&rsquo;s a quantum state. Ex: \(|1\rangle\), \(|0\rangle\) and Superposition of \(|0\rangle\) and \(|1\rangle\)</li>
-<li>AKA bra-ket notation or Dirac notation.</li>
-</ul>
-</div>
-<ol class="org-ol">
-<li><a id="orgcc9ab31"></a>Schrodinger&rsquo;s ket<br />
-<div class="outline-text-5" id="text-1-2-2-1">
+<li><p>
+<a href="https://www.phys.ens.fr/~nascimbene/enseignement/old/meca_q/td_2006_2007/td1/arndt_1999.pdf">Article</a>: Wave-particle duality of C60 molecules - Markus Arndt, Olaf Naiz, Julian Vos-Andreae, Claudia Keller, Gerbrand van der Zouw &amp; Anton Zeilinger.
+</p>
+
+<p>
+<b>State</b>:
+</p>
 <ul class="org-ul">
-<li>\(|alive\rangle+|dead\rangle\)</li>
-<li>In future weeks, we will be learning some math with kets.</li>
+<li>A possible condition of the classical bit or qubit.</li>
+</ul></li>
 </ul>
+
+<p>
+<b>Superposition and interference are very similar: both involve overlapping waves.</b>
+</p>
 </div>
-</li>
-</ol>
 </div>
 
-<div id="outline-container-org4c79c26" class="outline-4">
-<h4 id="org4c79c26"><span class="section-number-4">1.2.3.</span> the Block sphere</h4>
+<div id="outline-container-org4ffca3a" class="outline-4">
+<h4 id="org4ffca3a"><span class="section-number-4">1.2.3.</span> Explaining discretization</h4>
 <div class="outline-text-4" id="text-1-2-3">
-<ul class="org-ul">
-<li>Qubits can be in more than three states (different than using arrow notation, that uses <b>Equal Superpostion</b>).</li>
-</ul>
-
-<div id="orgf8930a8" class="figure">
-<p><img src="https://luispengler.github.io/site/doc/images/qc-x-h.png" alt="qc-x-h.png" title="Modelo Padrão" style="float:left;margin-bottom:20px;margin-left: auto;margin-right: auto;background-color: mintcream;display: block;max-width: 100%;height: 100%;" />
+<p>
+In a guitar, a string can take only <b>specific shapes</b> when it vibrates.
 </p>
-</div>
 
-
-<div id="org287cc7e" class="figure">
-<p><img src="https://luispengler.github.io/site/doc/images/qc-h-x.png" alt="qc-h-x.png" title="Modelo Padrão" style="float:left;margin-bottom:20px;margin-left: auto;margin-right: auto;background-color: mintcream;display: block;max-width: 100%;height: auto;" />
+<p>
+Specific shapes are a result of <b>confinement</b>.
 </p>
-</div>
 
+<p>
+The idea of confinement also applys to quantum objects.
+</p>
+
+<p>
+If you limit something&rsquo;s movement, it will also show the same kind of discretization (either a 0 or 1), just like a guitar&rsquo;s string.
+</p>
+
+<p>
+What confines quantum objects?
+</p>
 <ul class="org-ul">
-<li>Unequal superpositions are the ones that are not either 0, 1 or 50% superposition. It&rsquo;s like 30% of 0 and 70% of 1. They are like an unfair coin.</li>
+<li>trapped ions quantum computers, AKA as some sort of artificial atoms.</li>
+<li>Superconductiing computers, confinements are virtually created.</li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orgd3a6190" class="outline-4">
-<h4 id="orgd3a6190"><span class="section-number-4">1.2.4.</span> Quantum Gates</h4>
+
+
+<div id="outline-container-orgffeb46f" class="outline-4">
+<h4 id="orgffeb46f"><span class="section-number-4">1.2.4.</span> The unanswered questions.</h4>
 <div class="outline-text-4" id="text-1-2-4">
 <ul class="org-ul">
-<li>Quantum gates convert a qubit from one state to another.</li>
-<li>The computations that quantum gates make can be visualized as rotations on the Bloch sphere.</li>
-<li>There are a lot of gates. But we&rsquo;ll be focusing on 3 (X gate, H gate, Z gate) of them first, 2 of them today (H and X gate).</li>
-<li>For gates, we will need a 3-D coordinate system. Like x,y,z. and we can place the Bloch sphere on this coordinate system.</li>
-<li>\(|0\rangle\) lies along z, as well as \(|1\rangle\). Equal superposition \(|0\rangle+|1\rangle\) lies along x axis.</li>
+<li>Entanglement: Why does it happen? Is there just a mysterious link between atoms or is it something most likely more tangible and physical that we can understand?</li>
+<li>Why does measurument change the state of the qubit?</li>
+<li>Why is quantum measurument random?</li>
 </ul>
+<p>
+and many more&#x2026;
+</p>
+</div>
 </div>
 
-<ol class="org-ol">
-<li><a id="org3dbf74a"></a>The X gate<br />
-<div class="outline-text-5" id="text-1-2-4-1">
+<div id="outline-container-org01a58f3" class="outline-4">
+<h4 id="org01a58f3"><span class="section-number-4">1.2.5.</span> Some interpretations</h4>
+<div class="outline-text-4" id="text-1-2-5">
 <ul class="org-ul">
-<li>it gives the opposite of the input (hint: just like NOT gate in classical computing)</li>
-<li>Input: \(|0\rangle\) Output: \(|1\rangle\)</li>
-<li>Input: \(|1\rangle\) Output: \(|0\rangle\)</li>
-<li>Its name is &ldquo;X gate&rdquo; because it does a rotation of 180º around the X axis.</li>
+<li>The Copenhangen Interpretation (Niels Bohr and colleagues). When a quantum state is measured, it collapses to one of the possible results of the measurument - the most accepted interpretation</li>
+<li>The Many Worlds Interpretation (Hugh Everett). There is no collapse going on, but when you measure it, you are splitting into a new universe.</li>
+<li>De Broglie-Bohm Interpretation, AKA Pilot wave theory. The wave and particle parts of the quantum object coexist, like a droplet bouncing on a puddle.</li>
 </ul>
-</div>
-</li>
 
-<li><a id="orgdbc306a"></a>The H gate<br />
-<div class="outline-text-5" id="text-1-2-4-2">
-<ul class="org-ul">
-<li>AKA Hadamard gate</li>
-<li>It is a purely quantum gate (has no classical equivalent) and only exists on quantum computers.</li>
-<li>It creates a superposition.</li>
-<li>Input: \(|0\rangle\) Output: \(|+\rangle\)</li>
-<li>Input: \(|1\rangle\) Output: \(|-\rangle\)</li>
-<li>\(|+\rangle\) and \(|-\rangle\) are examples of superpositions.</li>
-<li>It rotates 90º on any axis, creating a superposition.</li>
-<li>We will learn more math to understand the difference between the \(|+\rangle\) and \(|-\rangle\) states.</li>
-</ul>
+
+<div id="org1486da8" class="figure">
+<p><img src="https://luispengler.github.io/site/doc/images/broglie-bohm.png" alt="broglie-bohm.png" title="Modelo Padrão" style="float:left;margin-bottom:20px;margin-left: auto;margin-right: auto;background-color: mintcream;display: block;max-width: 100%;height: auto;" />
+</p>
 </div>
-</li>
-</ol>
+</div>
 </div>
 </div>
 
-<div id="outline-container-orgc2c472f" class="outline-3">
-<h3 id="orgc2c472f"><span class="section-number-3">1.3.</span> Lab:</h3>
+<div id="outline-container-orgd54917c" class="outline-3">
+<h3 id="orgd54917c"><span class="section-number-3">1.3.</span> Lab 13:</h3>
 <div class="outline-text-3" id="text-1-3">
 <p>
-We had an introduction to Qiskit (a python library developed by IBM)
+Note to myself: keep an eye on LIGO Laser Interferometer Gravitational-wave obeservatory ;)
 </p>
 
 <p>
-to define a Quantum Circuit (with one qubit):
-qc = QuantumCircuit(1)
+We used flytrap a bit on this week lab, a really cool thing. <a href="https://lab.quantumflytrap.com/lab">https://lab.quantumflytrap.com/lab</a>
 </p>
 </div>
 </div>
-<div id="outline-container-orge13e221" class="outline-3">
-<h3 id="orge13e221"><span class="section-number-3">1.4.</span> Guest speaker:</h3>
+
+<div id="outline-container-org5ec5563" class="outline-3">
+<h3 id="org5ec5563"><span class="section-number-3">1.4.</span> Guest speaker:</h3>
 <div class="outline-text-3" id="text-1-4">
 <p>
-Dr. Casey Berger, visiting assistant. Computational physics.
-science fiction she&rsquo;s written: URSA MAJOR, FIRST LIGHT, DARK STARTS <a href="https://www.caseybergerbooks.com/">https://www.caseybergerbooks.com/</a>
-She studies superfluids.
+Dr. Clarice Aiello, assistant professor of ECE, UCLA Quantum Biology Tech (QuBiT) Lab.
 </p>
+<ul class="org-ul">
+<li><b>Quantum sensing</b>: using quantum objects as sensors. It is proven mathematically that by using quantum objects as a sensor, your measurument is improved.</li>
+<li><b>Quantum biology</b>: There are quantum objects inside animals that we can use and apply to our own technology.</li>
+<li><b>Spin</b> is a merely quantum mechanical property that doesn&rsquo;t have a classical equivalent. It measures how well an object interact with a magnetic field.</li>
+<li>There are some chemical reactions that are spin dependent. Ex: If a spin is measured by the environment to be in a state up, the chemical reaction continues to one branch. The same with the down state. And the final products of these states are different.</li>
+<li>We got so much to learn with nature, as it controls quantum so well. Disease treatment is a way all this knowldege can be used.</li>
+<li>Quantum bits can be controlled using magnetic field, same thing in quantum biology.</li>
+<li>Birds, turtle, butterflies migrating feel and follow the magnetic field of earth (most accepted theory)</li>
+<li>Quantum biology center out of UCLA. (wants to develop a quantum biology course - the first official one)</li>
+<li><b>Book</b>: Life on the edge; (introduction to quantum biology)</li>
+</ul>
 </div>
 </div>
 </div>
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Luís Guilherme Miranda Spengler</p>
-<p class="date">Created: 2021-10-21 qui 20:05</p>
+<p class="date">Created: 2021-10-28 qui 11:18</p>
 </div>
 </body>
 </html>
