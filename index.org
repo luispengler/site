@@ -6,8 +6,17 @@
 
 | [[https://luispengler.github.io/site/html/org-pages/notes.html][My notes]] | [[https://luispengler.github.io/site/html/org-pages/filmes.html][Carlinda movies]] | [[https://luispengler.github.io/site/html/org-pages/dc.html][DC'series]] | [[https://luispengler.github.io/site/html/org-pages/ficha.html][Ficha monitoria]] |
 
-* Bem vindo(a)
-Oi, eu sou o Luís e no momento que eu escrevo isso, sou um estudante do segundo ano do ensino médio, cursando técnico integrado em eletrotécnica.\\
-Meus interesses estão na área da física (física de particulas e mecânica quântica) e ciência da computação, principalmente no que se refere a [[https://www.gnu.org/philosophy/free-sw.pt-br.html][software livre]].\\
-Sinta-se livre para compartilhar essa página, modificar e criar sua própria versão (e até usá-la comercialmente ¯\_(ツ)_/¯) \\
-Esse website foi escrito em org-mode usando [[https://github.com/hlissner/doom-emacs/][doom emacs]] e sua função de exportar para html, junto do tema [[https://github.com/fniessen/org-html-themes][readtheorg]]. O código fonte está todo no [[https://github.com/luispengler/site][github]], o qual é o host dessa página.
+* About me
+Hi, I am Luís and at the moment I write this I am a Junior in High School, and taking electrotechnics vacational program.\\
+My interests are in the area of physics (particle physics and quantum mechanics) and computer science, mainly what refers to [[https://www.gnu.org/philosophy/free-sw.en.html][free software]].\\
+* About the website
+** Contents
+This is the main page of the website, therefore it makes sense to be the center of the webiste. Any action you can perform in the website, has a start in here.\\
+At the top header, you can see a collection of links you can click on to be redirected to, you can also check out the portuguese version of it.\\
+In "[[https://luispengler.github.io/site/html/org-pages/notes.html][My notes]]" I host several notes on subjects I studied in the past few months. It can be a great source of information in the subjects available there :)\\
+The other stuff are some lists I host to organize work and leisure time, such as my [[https://luispengler.github.io/site/html/org-pages/ficha.html][mentoring list]] and compiled list on [[https://luispengler.github.io/site/html/org-pages/dc.html][arrowverse]], where I check my progess and a [[https://luispengler.github.io/site/html/org-pages/filmes.html][list of movies]] I watch with my girlfriend in the free time.\\
+Other than that, I thank you for visiting this webpage :)\\
+** Your rights
+Feel free to share this webpage, modify it and create your own version (and even use it commercially conform the license)\\
+This webiste was written in org-mode using [[https://github.com/hlissner/doom-emacs/][doom emacs]] and its function of exporting to html, counting on [[https://github.com/fniessen/org-html-themes][readtheorg]] theme's help.\\
+You can find this whole webiste's source code on  [[https://github.com/luispengler/site][github]].
