@@ -57,6 +57,7 @@
 + In IBM quantum experience you can find it: https://quantum-computing.ibm.com/composer/
 ** A Theory
 + What if the reason quantum states change when we measure them is because just like in real world we see objects and things using light (light reflects on something and comes to our eyes). The point is, light kinda touches the object. A quantum state is so sensible to the envirorment that its nature is changed by any means of interactions with matter and the simple act of looking (measuring it) at it changes it. So, nowadays there is no way of measuring a quantum state without making a particle or wave touch this quantum object, therefore the measurement property of changing results will continue to occur.
+
 ** Articles
 https://www.forbes.com/sites/startswithabang/2020/12/10/does-making-a-quantum-measurement-really-destroy-information/
 https://www.science.org/doi/abs/10.1126/science.1109541
