@@ -3,8 +3,7 @@
 #+SETUPFILE:  https://luispengler.github.io/site/org-html-themes/org/theme-readtheorg.setup
 #+OPTIONS: num:nil ^:{}
 
-
-* Assistir as franquias (One week stand :) [6%] [2/30]
+* Assistir as franquias [6%] [2/30]
 
 + [X] Harry Potter [9/9]
   - [X] Harry Potter and the sorcerer's stone
@@ -225,9 +224,9 @@
   - [ ] Prometheus (2012)
   - [ ] Alien: Convenant
 
- + Regra: depois de uma saga, um filme separado
+ =Regra:= Depois de uma saga, um filme separado
 
-* Filmes separados (One night stand :) [7%] [2/28]
+* Filmes separados [7%] [2/28]
 
 + [X] Titanic
 + [X] Interestellar
