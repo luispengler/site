@@ -1,4 +1,5 @@
 #+TITLE: Luís Spengler's Webpage
+[[https://luispengler.github.io/site/doc/images/flavime.jpg]]
 #+DESCRIPTION: luispengler.github.io/site - Luís Spengler's official webpage
 #+SETUPFILE:  https://luispengler.github.io/site/org-html-themes/org/theme-readtheorg.setup
 #+OPTIONS: toc:nil
