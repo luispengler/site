@@ -275,7 +275,7 @@ dl dd{
         background:rgba(0,0,0,0.05)}
 
     #content{
-        background:#282c34}
+        background:#161b22}
 }
 
 @media screen and (max-width: 768px){
@@ -393,7 +393,7 @@ table caption{
 }
 
 table tr:nth-child(2n-1) td{
-    background-color:#1c1f24;
+    background-color:#0d1117;
 }
 
 table tr:nth-child(2n) td{
