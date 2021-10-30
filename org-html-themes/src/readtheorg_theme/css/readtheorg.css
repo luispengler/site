@@ -276,6 +276,7 @@ dl dd{
 
     #content{
         background:#161b22}
+        margin:auto;
 }
 
 @media screen and (max-width: 768px){
