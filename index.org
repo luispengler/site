@@ -1,7 +1,5 @@
 #+TITLE: Luís Spengler's Webpage
-#+begin_src
-<link rel="shortcut icon" href="https://luispengler.github.io/site/doc/images/flavime.jpg" type="image/x-icon" />
-#+end_src
+#+ATTR_HTML: <link rel="shortcut icon" href="https://luispengler.github.io/site/doc/images/flavime.jpg" type="image/x-icon" />
 #+DESCRIPTION: luispengler.github.io/site - Luís Spengler's official webpage
 #+SETUPFILE:  https://luispengler.github.io/site/org-html-themes/org/theme-readtheorg.setup
 #+OPTIONS: toc:nil
