@@ -3,7 +3,7 @@
 #+SETUPFILE:  https://luispengler.github.io/site/org-html-themes/org/theme-readtheorg.setup
 #+OPTIONS: num:nil ^:{}
 
-\n
+
 * Assistir as franquias [6%] [2/30]
 
 + [X] Harry Potter [9/9]
