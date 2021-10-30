@@ -12,7 +12,7 @@ h1,h2,h3,h4,h5,h6,legend{
 
 h1{
     color: #fff;
-    background-color: #ff0000;
+    background-color: #0d1117;
     font-size:175%;
     text-align: left !important;
     padding: 12px 20px;
@@ -26,12 +26,13 @@ h1{
 }
 
 h2{
-    color: #c678dd;
+    color: #004dff;
     font-size:150%;
 }
 
 h3{
     font-size:125%;
+    color: #4f84ff;
 }
 
 h4{
@@ -60,8 +61,8 @@ html{
 }
 
 body{
-    background:#282c34;
-    color:#dfdfdf;
+    background: #161b22;
+    color:#ffffff;
     font-family:"Lato","proxima-nova","Helvetica Neue",Arial,sans-serif;
     font-weight:normal;
     margin:0;
@@ -70,7 +71,7 @@ body{
 }
 
 #content{
-    background:#282c34;
+    background: #161b22;
     height:100%;
     margin-left:300px;
     /* margin:auto; */
@@ -803,7 +804,7 @@ hr{
     overflow-x:hidden;
     overflow-y:scroll;
     height:100%;
-    background:#282c34;
+    background: #161b22;
     z-index:200;
     scrollbar-base-color: #1F1D1D;
     scrollbar-arrow-color: #b3b3b3;
@@ -827,7 +828,7 @@ hr{
 
 #table-of-contents h2{
     z-index:200;
-    background-image: linear-gradient(#950084, #9f46b9);
+    background-image: linear-gradient(#0d1117, #161b22);
     text-align:center;
     padding:0.809em;
     display:block;
