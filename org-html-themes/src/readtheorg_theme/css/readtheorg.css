@@ -73,7 +73,7 @@ body{
 #content{
     background: #161b22;
     height:100%;
-    margin-left:700px;
+    margin:auto;
     /* margin:auto; */
     max-width:1100px;
     min-height:100%;
