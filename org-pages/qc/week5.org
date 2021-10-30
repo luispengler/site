@@ -2,7 +2,7 @@
 #+DESCRIPTION: Week 5 - my own writings
 #+SETUPFILE: https://luispengler.github.io/site/org-html-themes/org/theme-readtheorg.setup
 #+LaTeX_+HEADER: \usepackage{physics}
-#+OPTIONS: nul:nil ^:{}
+#+OPTIONS: num:nil ^:{} toc:2
 
 * Week 5 (Qubit by Qubit)
 ** RECAP:
