@@ -4,225 +4,256 @@
 #+OPTIONS: nul:nil ^:{}
 
 
-* Assistir as franquias (One week stand :) [6%] [2/30]
-** [X] Harry Potter [9/9]
-*** [X] Harry Potter and the sorcerer's stone
-*** [X] Harry Potter and the chamber of secrets
-*** [X] Harry Potter and the prizioner of azkaban
-*** [X] Harry Potter and the globet of fire
-*** [X] Harry Potter and the order of the phoenix
-*** [X] Harry Potter and half-blood prince
-*** [X] Harry Potter and the deathly hallows pt.1
-*** [X] Harry Potter and the deathly hallows pt.2
-*** [X] Fantastic Beasts and where to find them
-** [X] Percy Jackson [2/2]
-*** [X] Percy Jackson: The lightning thief
-*** [X] Percy Jackson: Sea of monsters
-** [ ] Indiana Jones [0/5]
-*** [ ] Indiana Jones and the Temple of Doom (1984)
-*** [ ] Indiana Jones and the Raiders of the Lost Ark (1981)
-*** [ ] Indiana Jones and the Last Crusade (1989)
-*** [ ] Indiana Jones and the Kingdom of the Crystal Skull (2008)
-*** [ ] The Young Indiana Jones Chronicles
-** [ ] Velozes e Furiosos [0/9]
-*** [ ] Velozes e furiosos 1
-*** [ ] Velozes e furiosos 2
-*** [ ] Velozes e furiosos 3
-*** [ ] Velozes e furiosos 4
-*** [ ] Velozes e furiosos 5
-*** [ ] Velozes e furiosos 6
-*** [ ] Velozes e furiosos 7
-*** [ ] Velozes e furiosos 8
-*** [ ] Velozes e furiosos 9
-** [ ] Toy Story [0/3]
-*** [ ] Toy Story 1
-*** [ ] Toy Story 2
-*** [ ] Toy Story 3
-** [ ] A era do gelo [0/4]
-*** [ ] A era do gelo 1
-*** [ ] A era do gelo 2
-*** [ ] A era do gelo 3
-*** [ ] A era do gelo 4
-** [ ] Shrek [0/4]
-*** [ ] Sherek 1
-*** [ ] Sherek 2
-*** [ ] Sherek third
-*** [ ] Sherek forever
-** [ ] Meu malvado favorito [0/4]
-*** [ ] Minions
-*** [ ] Meu malvado favorito
-*** [ ] Meu malvado favorito 2
-*** [ ] Meu malvado favorito 3
-** [ ] Detona ralph [0/2]
-*** [ ] Detona ralph
-*** [ ] Wifi Raplh: breaking the internet
-** [ ] The chronicles of narnia [0/3]
-*** [ ] The chronicles of narnia: The lion, the witch and the wardrobe
-*** [ ] Prince caspian and the Voyage of the Dawn Treader
-*** [ ] The silver chair
-** [ ] Alice [0/3]
-*** [ ] Alice's adventures in the wonderland
-*** [ ] Alice through the looking glass
-** [ ] Planet of the Apes [0/5]
-*** [ ] Planet of the Apes
-*** [ ] Beaneth the planet of the apes
-*** [ ] Escape from the planet of the apes
-*** [ ] Conquest of the planet of the apes
-** [ ] Resident Evil [0/6]
-*** [ ] Resident Evil
-*** [ ] Apocalipse
-*** [ ] A extinção
-*** [ ] Recomeço
-*** [ ] Retribuição
-*** [ ] Resident Evil captulo final
-** [ ] Mission: Impossible [0/7]
-*** [ ] Mission: Impossible vs the Mob
-*** [ ] Mission: Impossible 2
-*** [ ] Mission: Impossible 3
-*** [ ] Mission: Impossible - Ghost protocol
-*** [ ] Mission: Impossible - Rogue nation
-*** [ ] Mission: Impossible - fallout
-*** [ ] Mission: Impossible 7
-** [ ] Now you see me [0/3]
-*** [ ] Now you see me
-*** [ ] Now you see me 2
-*** [ ] Now you see me 3
-** [ ] Jogos vorazes [0/4]
-*** [ ] The Hunger Games
-*** [ ] The Hunger Games: Catching Fire
-*** [ ] The Hunger Games: Mockingjay - Part 1
-*** [ ] The Hunger Games: Mockingjay - Part 2
-** [ ] Divergente [0/3]
-*** [ ] Divergente
-*** [ ] Divergente consergente
-*** [ ] Divergente insurgente
-** [ ] After [0/2]
-*** [ ] After 1
-*** [ ] After: depois do desencontro
-** [ ] Crepúsculo [0/4]
-*** [ ] Crepúsculo eclipse
-*** [ ] Crepúsculo Lua nova
-*** [ ] Crepúsculo amanhecer parte 1
-*** [ ] Crepúsculo amanhecer parte 2
-** [ ] Malévola [0/2]
-*** [ ] Malévola
-*** [ ] Malévola 2
-** [ ] Jurassic Park [0/6]
-*** [ ] Jurassic Park (1993)
-*** [ ] The Lost World: Jurassic Park (1997)
-*** [ ] Jurassic Park III (2001)
-*** [ ] Jurassic World (2015)
-*** [ ] Jurassic World: Fallen Kingdom (2018)
-*** [ ] Jurassic World: Dominion (2022) – To Be Released.
-** [ ] Piratas do Caribe [0/1]
-*** [ ] Pirates of the Caribbean: Tales of the Code – Wedlocked (2011) – Short Movie
-*** [ ] Pirates of the Caribbean: The Curse of the Black Pearl (2003)
-*** [ ] Pirates of the Caribbean: Dead Man’s Chest (2006)
-*** [ ] Pirates of the Caribbean: At World’s End (2007)
-*** [ ] Pirates of the Caribbean: On Stranger Tides (2011)
-*** [ ] Pirates of the Caribbean: Dead Men Tell No Tales (2017)
-** [ ] 007 [0/27]
-*** [ ] Dr. No (1962) - Sean Connery
-*** [ ] From Russia with Love (1963) - Sean Connery
-*** [ ] Goldfinger (1964) - Sean Connery
-*** [ ] Thunderball (1965) - Sean Connery
-*** [ ] Casino Royale (1967) - David Niven
-*** [ ] You Only Live Twice (1967) - Sean Connery
-*** [ ] On Her Majesty's Secret Service (1969) - George Lazenby
-*** [ ] Diamonds Are Forever (1971) - Sean Connery
-*** [ ] Live and Let Die (1973) - Roger Moore
-*** [ ] The Man with the Golden Gun (1974) - Roger Moore
-*** [ ] The Spy Who Loved Me (1977) - Roger Moore
-*** [ ] Moonraker (1979) - Roger Moore
-*** [ ] For Your Eyes Only (1981) - Roger Moore
-*** [ ] Octopussy (1983) - Roger Moore
-*** [ ] Never Say Never Again (1983) - Sean Connery
-*** [ ] A View to a Kill (1985) - Roger Moore
-*** [ ] The Living Daylights (1987) - Timothy Dalton
-*** [ ] Licence to Kill (1989) - Timothy Dalton
-*** [ ] GoldenEye (1995) - Pierce Brosnan
-*** [ ] Tomorrow Never Dies (1997) - Pierce Brosnan
-*** [ ] The World Is Not Enough (1999) - Pierce Brosnan
-*** [ ] Die Another Day (2002) - Pierce Brosnan
-*** [ ] Casino Royale (2006) - Daniel Craig
-*** [ ] Quantum of Solace (2008) - Daniel Craig
-*** [ ] Skyfall (2012) - Daniel Craig
-*** [ ] Spectre (2015) - Daniel Craig
-*** [ ] No Time to Die (2021) - Daniel Craig
-** [ ] Die Hard [0/5]
-*** [ ] Die Hard (1988)
-*** [ ] Die Hard 2 (1990)
-*** [ ] Die Hard with a Vengeance (1995)
-*** [ ] Live Free or Die Hard (2007)
-*** [ ] A Good Day to Die Hard (2013)
-** [ ] Matrix [0/3]
-*** [ ] The Matrix
-*** [ ] The Matrix reloaded
-*** [ ] The Matrix Revolutions
-** [ ] Star Wars [0/11]
-*** [ ] A New Hope (1977)
-*** [ ] The Empire Strikes Back (1980)
-*** [ ] Return of the Jedi (1983)
-*** [ ] The Phantom Menace (1999)
-*** [ ] Attack of the Clones (2002)
-*** [ ] Revenge of the Sith (2005)
-*** [ ] The Force Awakens (2015)
-*** [ ] Rogue One (2016)
-*** [ ] The Last Jedi (2017)
-*** [ ] Solo (2018)
-*** [ ] The Rise of Skywalker (2019)
-** [ ] De volta para o futuro [0/3]
-*** [ ] De volta para o futuro 1
-*** [ ] De volta para o futuro 2
-*** [ ] De volta para o futuro 3
-** [ ] The terminator [0/6]
-*** [ ] The terminator
-*** [ ] The terminator 2: Judgment day
-*** [ ] The terminator 3: Rise of the machines
-*** [ ] Terminator Salvation
-*** [ ] Terminator Genisys
-*** [ ] Terminator: Dark Fate
-** [ ] MIB [0/1]
-*** [ ] Men in Black (1997)
-*** [ ] Men in Black II (2002)
-*** [ ] Men in Black 3 (2012)
-*** [ ] Men in Black: International
-** [ ] Alien [0/6]
-*** [ ] Alien
-*** [ ] Aliens
-*** [ ] Alien 3
-*** [ ] Alien Resurrection
-*** [ ] Prometheus (2012)
-*** [ ] Alien: Convenant
+* Assistir as franquias (One week stand :) [0%] [0/6]
 
-*** Regra: depois de uma saga, um filme separado
++ [X] Harry Potter [9/9]
+  - [X] Harry Potter and the sorcerer's stone
+  - [X] Harry Potter and the chamber of secrets
+  - [X] Harry Potter and the prizioner of azkaban
+  - [X] Harry Potter and the globet of fire
+  - [X] Harry Potter and the order of the phoenix
+  - [X] Harry Potter and half-blood prince
+  - [X] Harry Potter and the deathly hallows pt.1
+  - [X] Harry Potter and the deathly hallows pt.2
+  - [X] Fantastic Beasts and where to find them
+
++ [X] Percy Jackson [2/2]
+  - [X] Percy Jackson: The lightning thief
+  - [X] Percy Jackson: Sea of monsters
+
++ [ ] Indiana Jones [0/5]
+  - [ ] Indiana Jones and the Temple of Doom (1984)
+  - [ ] Indiana Jones and the Raiders of the Lost Ark (1981)
+  - [ ] Indiana Jones and the Last Crusade (1989)
+  - [ ] Indiana Jones and the Kingdom of the Crystal Skull (2008)
+  - [ ] The Young Indiana Jones Chronicles
+
++ [ ] Velozes e Furiosos [0/9]
+  - [ ] Velozes e furiosos 1
+  - [ ] Velozes e furiosos 2
+  - [ ] Velozes e furiosos 3
+  - [ ] Velozes e furiosos 4
+  - [ ] Velozes e furiosos 5
+  - [ ] Velozes e furiosos 6
+  - [ ] Velozes e furiosos 7
+  - [ ] Velozes e furiosos 8
+  - [ ] Velozes e furiosos 9
+
++ [ ] Toy Story [0/3]
+  - [ ] Toy Story 1
+  - [ ] Toy Story 2
+  - [ ] Toy Story 3
+
++ [ ] A era do gelo [0/4]
+  - [ ] A era do gelo 1
+  - [ ] A era do gelo 2
+  - [ ] A era do gelo 3
+  - [ ] A era do gelo 4
+
++ [ ] Shrek [0/4]
+  - [ ] Sherek 1
+  - [ ] Sherek 2
+  - [ ] Sherek third
+  - [ ] Sherek forever
+
++ [ ] Meu malvado favorito [0/4]
+  - [ ] Minions
+  - [ ] Meu malvado favorito
+  - [ ] Meu malvado favorito 2
+  - [ ] Meu malvado favorito 3
+
++ [ ] Detona ralph [0/2]
+  - [ ] Detona ralph
+  - [ ] Wifi Raplh: breaking the internet
+
++ [ ] The chronicles of narnia [0/3]
+  - [ ] The chronicles of narnia: The lion, the witch and the wardrobe
+  - [ ] Prince caspian and the Voyage of the Dawn Treader
+  - [ ] The silver chair
+
++ [ ] Alice [0/3]
+  - [ ] Alice's adventures in the wonderland
+  - [ ] Alice through the looking glass
+
++ [ ] Planet of the Apes [0/5]
+  - [ ] Planet of the Apes
+  - [ ] Beaneth the planet of the apes
+  - [ ] Escape from the planet of the apes
+  - [ ] Conquest of the planet of the apes
+
++ [ ] Resident Evil [0/6]
+  - [ ] Resident Evil
+  - [ ] Apocalipse
+  - [ ] A extinção
+  - [ ] Recomeço
+  - [ ] Retribuição
+  - [ ] Resident Evil captulo final
+
++ [ ] Mission: Impossible [0/7]
+  - [ ] Mission: Impossible vs the Mob
+  - [ ] Mission: Impossible 2
+  - [ ] Mission: Impossible 3
+  - [ ] Mission: Impossible - Ghost protocol
+  - [ ] Mission: Impossible - Rogue nation
+  - [ ] Mission: Impossible - fallout
+  - [ ] Mission: Impossible 7
+
++ [ ] Now you see me [0/3]
+  - [ ] Now you see me
+  - [ ] Now you see me 2
+  - [ ] Now you see me 3
+
++ [ ] Jogos vorazes [0/4]
+  - [ ] The Hunger Games
+  - [ ] The Hunger Games: Catching Fire
+  - [ ] The Hunger Games: Mockingjay - Part 1
+  - [ ] The Hunger Games: Mockingjay - Part 2
+
++ [ ] Divergente [0/3]
+  - [ ] Divergente
+  - [ ] Divergente consergente
+  - [ ] Divergente insurgente
+
++ [ ] After [0/2]
+  - [ ] After 1
+  - [ ] After: depois do desencontro
+
++ [ ] Crepúsculo [0/4]
+  - [ ] Crepúsculo eclipse
+  - [ ] Crepúsculo Lua nova
+  - [ ] Crepúsculo amanhecer parte 1
+  - [ ] Crepúsculo amanhecer parte 2
+
++ [ ] Malévola [0/2]
+  - [ ] Malévola
+  - [ ] Malévola 2
+
++ [ ] Jurassic Park [0/6]
+  - [ ] Jurassic Park (1993)
+  - [ ] The Lost World: Jurassic Park (1997)
+  - [ ] Jurassic Park III (2001)
+  - [ ] Jurassic World (2015)
+  - [ ] Jurassic World: Fallen Kingdom (2018)
+  - [ ] Jurassic World: Dominion (2022) – To Be Released.
+
++ [ ] Piratas do Caribe [0/1]
+  - [ ] Pirates of the Caribbean: Tales of the Code – Wedlocked (2011) – Short Movie
+  - [ ] Pirates of the Caribbean: The Curse of the Black Pearl (2003)
+  - [ ] Pirates of the Caribbean: Dead Man’s Chest (2006)
+  - [ ] Pirates of the Caribbean: At World’s End (2007)
+  - [ ] Pirates of the Caribbean: On Stranger Tides (2011)
+  - [ ] Pirates of the Caribbean: Dead Men Tell No Tales (2017)
+
++ [ ] 007 [0/27]
+  - [ ] Dr. No (1962) - Sean Connery
+  - [ ] From Russia with Love (1963) - Sean Connery
+  - [ ] Goldfinger (1964) - Sean Connery
+  - [ ] Thunderball (1965) - Sean Connery
+  - [ ] Casino Royale (1967) - David Niven
+  - [ ] You Only Live Twice (1967) - Sean Connery
+  - [ ] On Her Majesty's Secret Service (1969) - George Lazenby
+  - [ ] Diamonds Are Forever (1971) - Sean Connery
+  - [ ] Live and Let Die (1973) - Roger Moore
+  - [ ] The Man with the Golden Gun (1974) - Roger Moore
+  - [ ] The Spy Who Loved Me (1977) - Roger Moore
+  - [ ] Moonraker (1979) - Roger Moore
+  - [ ] For Your Eyes Only (1981) - Roger Moore
+  - [ ] Octopussy (1983) - Roger Moore
+  - [ ] Never Say Never Again (1983) - Sean Connery
+  - [ ] A View to a Kill (1985) - Roger Moore
+  - [ ] The Living Daylights (1987) - Timothy Dalton
+  - [ ] Licence to Kill (1989) - Timothy Dalton
+  - [ ] GoldenEye (1995) - Pierce Brosnan
+  - [ ] Tomorrow Never Dies (1997) - Pierce Brosnan
+  - [ ] The World Is Not Enough (1999) - Pierce Brosnan
+  - [ ] Die Another Day (2002) - Pierce Brosnan
+  - [ ] Casino Royale (2006) - Daniel Craig
+  - [ ] Quantum of Solace (2008) - Daniel Craig
+  - [ ] Skyfall (2012) - Daniel Craig
+  - [ ] Spectre (2015) - Daniel Craig
+  - [ ] No Time to Die (2021) - Daniel Craig
+
++ [ ] Die Hard [0/5]
+  - [ ] Die Hard (1988)
+  - [ ] Die Hard 2 (1990)
+  - [ ] Die Hard with a Vengeance (1995)
+  - [ ] Live Free or Die Hard (2007)
+  - [ ] A Good Day to Die Hard (2013)
+
++ [ ] Matrix [0/3]
+  - [ ] The Matrix
+  - [ ] The Matrix reloaded
+  - [ ] The Matrix Revolutions
+
++ [ ] Star Wars [0/11]
+  - [ ] A New Hope (1977)
+  - [ ] The Empire Strikes Back (1980)
+  - [ ] Return of the Jedi (1983)
+  - [ ] The Phantom Menace (1999)
+  - [ ] Attack of the Clones (2002)
+  - [ ] Revenge of the Sith (2005)
+  - [ ] The Force Awakens (2015)
+  - [ ] Rogue One (2016)
+  - [ ] The Last Jedi (2017)
+  - [ ] Solo (2018)
+  - [ ] The Rise of Skywalker (2019)
+
++ [ ] De volta para o futuro [0/3]
+  - [ ] De volta para o futuro 1
+  - [ ] De volta para o futuro 2
+  - [ ] De volta para o futuro 3
+
++ [ ] The terminator [0/6]
+  - [ ] The terminator
+  - [ ] The terminator 2: Judgment day
+  - [ ] The terminator 3: Rise of the machines
+  - [ ] Terminator Salvation
+  - [ ] Terminator Genisys
+  - [ ] Terminator: Dark Fate
+
++ [ ] MIB [0/1]
+  - [ ] Men in Black (1997)
+  - [ ] Men in Black II (2002)
+  - [ ] Men in Black 3 (2012)
+  - [ ] Men in Black: International
+
++ [ ] Alien [0/6]
+  - [ ] Alien
+  - [ ] Aliens
+  - [ ] Alien 3
+  - [ ] Alien Resurrection
+  - [ ] Prometheus (2012)
+  - [ ] Alien: Convenant
+
+ + Regra: depois de uma saga, um filme separado
 
 * Filmes separados (One night stand :) [7%] [2/28]
-** [X] Titanic
-** [X] Interestellar
-** [ ] World War Z
-** [ ] Caroline
-** [ ] Mama
-** [ ] Rei Arthur e a lenda da espada
-** [ ] Gigantes de aço
-** [ ] Wall-e
-** [ ] As aventuras de Shark Boy e Lava Girl
-** [ ] Em ritmo de fuga
-** [ ] As branquelas
-** [ ] Fahrenheit 451
-** [ ] The Last Witch Hunter
-** [ ] The theory of everthing
-** [ ] Torre negra
-** [ ] The Martian
-** [ ] A lenda dos guardiões
-** [ ] Oxygen
-** [ ] A forma da água
-** [ ] A culpa é das estrelas
-** [ ] Simplesmente acontece
-** [ ] The lost city of Z
-** [ ] Questão de tempo
-** [ ] As vantagens de ser invisivel
-** [ ] A bela e a fera
-** [ ] Sombras da noite
-** [ ] Sing
-** [ ] Avatar
+
++ [X] Titanic
++ [X] Interestellar
++ [ ] World War Z
++ [ ] Caroline
++ [ ] Mama
++ [ ] Rei Arthur e a lenda da espada
++ [ ] Gigantes de aço
++ [ ] Wall-e
++ [ ] As aventuras de Shark Boy e Lava Girl
++ [ ] Em ritmo de fuga
++ [ ] As branquelas
++ [ ] Fahrenheit 451
++ [ ] The Last Witch Hunter
++ [ ] The theory of everthing
++ [ ] Torre negra
++ [ ] The Martian
++ [ ] A lenda dos guardiões
++ [ ] Oxygen
++ [ ] A forma da água
++ [ ] A culpa é das estrelas
++ [ ] Simplesmente acontece
++ [ ] The lost city of Z
++ [ ] Questão de tempo
++ [ ] As vantagens de ser invisivel
++ [ ] A bela e a fera
++ [ ] Sombras da noite
++ [ ] Sing
++ [ ] Avatar
