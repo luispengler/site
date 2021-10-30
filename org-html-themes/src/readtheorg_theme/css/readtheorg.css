@@ -804,7 +804,8 @@ hr{
     overflow-x:hidden;
     overflow-y:scroll;
     height:100%;
-    background: #161b22;
+    background: #fff;
+    background-image: linear-gradient(#151a21, #0d1117);
     z-index:200;
     scrollbar-base-color: #1F1D1D;
     scrollbar-arrow-color: #b3b3b3;
