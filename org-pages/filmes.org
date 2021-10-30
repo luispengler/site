@@ -4,7 +4,7 @@
 #+OPTIONS: nul:nil ^:{}
 
 
-* Assistir as franquias (One week stand :) [0%] [0/6]
+* Assistir as franquias (One week stand :) [6%] [2/30]
 
 + [X] Harry Potter [9/9]
   - [X] Harry Potter and the sorcerer's stone
@@ -21,8 +21,8 @@
   - [X] Percy Jackson: The lightning thief
   - [X] Percy Jackson: Sea of monsters
 
-+ [ ] Indiana Jones [0/5]
-  - [ ] Indiana Jones and the Temple of Doom (1984)
++ [-] Indiana Jones [1/5]
+  - [X] Indiana Jones and the Temple of Doom (1984)
   - [ ] Indiana Jones and the Raiders of the Lost Ark (1981)
   - [ ] Indiana Jones and the Last Crusade (1989)
   - [ ] Indiana Jones and the Kingdom of the Crystal Skull (2008)
@@ -71,11 +71,11 @@
   - [ ] Prince caspian and the Voyage of the Dawn Treader
   - [ ] The silver chair
 
-+ [ ] Alice [0/3]
++ [ ] Alice [0/2]
   - [ ] Alice's adventures in the wonderland
   - [ ] Alice through the looking glass
 
-+ [ ] Planet of the Apes [0/5]
++ [ ] Planet of the Apes [0/4]
   - [ ] Planet of the Apes
   - [ ] Beaneth the planet of the apes
   - [ ] Escape from the planet of the apes
@@ -136,7 +136,7 @@
   - [ ] Jurassic World: Fallen Kingdom (2018)
   - [ ] Jurassic World: Dominion (2022) – To Be Released.
 
-+ [ ] Piratas do Caribe [0/1]
++ [ ] Piratas do Caribe [0/6]
   - [ ] Pirates of the Caribbean: Tales of the Code – Wedlocked (2011) – Short Movie
   - [ ] Pirates of the Caribbean: The Curse of the Black Pearl (2003)
   - [ ] Pirates of the Caribbean: Dead Man’s Chest (2006)
@@ -211,7 +211,7 @@
   - [ ] Terminator Genisys
   - [ ] Terminator: Dark Fate
 
-+ [ ] MIB [0/1]
++ [ ] MIB [0/4]
   - [ ] Men in Black (1997)
   - [ ] Men in Black II (2002)
   - [ ] Men in Black 3 (2012)
