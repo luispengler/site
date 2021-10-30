@@ -1,7 +1,7 @@
 #+TITLE: Arch - Things that need to be taken care of.
 #+DESCRIPTION: Arch - Things that need to be taken care of.
 #+SETUPFILE: https://luispengler.github.io/site/org-html-themes/org/theme-readtheorg.setup
-#+OPTIONS: nul:nil ^:{}
+#+OPTIONS: num:nil ^:{}
 
 
 * New arch install

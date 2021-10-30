@@ -1,7 +1,7 @@
 #+TITLE: Notes
 #+DESCRIPTION: luispengler.github.io/site - Official Site of Luís Spengler
 #+SETUPFILE:  https://luispengler.github.io/site/org-html-themes/org/theme-readtheorg.setup
-#+OPTIONS: nul:nil ^:{}
+#+OPTIONS: num:nil ^:{}
 
 
 [[https://luispengler.github.io/site/html/org-pages/particle-physics.html][Particle Physics]]

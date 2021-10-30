@@ -1,7 +1,7 @@
 #+TITLE: Bem-vindo(a)!
 #+DESCRIPTION: luispengler.github.io/site - Site oficial Luís Spengler
 #+SETUPFILE:  https://luispengler.github.io/site/org-html-themes/org/theme-readtheorg.setup
-#+OPTIONS: nul:nil ^:{}
+#+OPTIONS: toc:nil
 
 
 | [[https://luispengler.github.io/site/html/org-pages/notes.html][My notes]] | [[https://luispengler.github.io/site/html/org-pages/filmes.html][Carlinda movies]] | [[https://luispengler.github.io/site/html/org-pages/dc.html][DC'series]] | [[https://luispengler.github.io/site/html/org-pages/ficha.html][Ficha monitoria]] |

@@ -1,7 +1,7 @@
 #+TITLE: Fisica de particulas: um resumo meio completo e compilação de artigos básicos.
 #+DESCRIPTION: Fisica de particulas: um resumo breve e compilação de artigos básicos
 #+SETUPFILE: https://luispengler.github.io/site/org-html-themes/org/theme-readtheorg.setup
-#+OPTIONS: nul:nil ^:{}
+#+OPTIONS: num:nil ^:{}
 
 * Modelo padrão
 Pense nele como a tabela periódica das partículas, assim como existe a tabela periódica dos átomos que compõem nosso universo.

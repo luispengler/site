@@ -1,7 +1,7 @@
 #+TITLE: Carlinda movies
 #+DESCRIPTION: luispengler.github.io/site - Carlinda movies
 #+SETUPFILE:  https://luispengler.github.io/site/org-html-themes/org/theme-readtheorg.setup
-#+OPTIONS: nul:nil ^:{}
+#+OPTIONS: num:nil ^:{}
 
 
 * Assistir as franquias (One week stand :) [6%] [2/30]

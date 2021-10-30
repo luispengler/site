@@ -1,7 +1,7 @@
 #+TITLE: An introduction to Quantum computing - my own writings on the subject.
 #+DESCRIPTION: An introduction to Quantum computing - my own writings on the subject.
 #+SETUPFILE: https://luispengler.github.io/site/org-html-themes/org/theme-readtheorg.setup
-#+OPTIONS: nul:nil ^:{}
+#+OPTIONS: num:nil ^:{}
 
 | [[https://luispengler.github.io/site/html/org-pages/qc/week0.html][week0]] | [[https://luispengler.github.io/site/html/org-pages/qc/week1.html][week1]] | [[https://luispengler.github.io/site/html/org-pages/qc/week2.html][week2]] | [[https://luispengler.github.io/site/html/org-pages/qc/week3.html][week3]] | [[https://luispengler.github.io/site/html/org-pages/qc/week4.html][week4]] | [[https://luispengler.github.io/site/html/org-pages/qc/week5.html][week5]] |
 

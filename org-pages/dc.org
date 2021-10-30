@@ -1,7 +1,7 @@
 #+TITLE: DC's arrowverse
 #+DESCRIPTION: luispengler.github.io/site - DC's arrowverse
 #+SETUPFILE:  https://luispengler.github.io/site/org-html-themes/org/theme-readtheorg.setup
-#+OPTIONS: nul:nil ^:{}
+#+OPTIONS: num:nil ^:{}
 
 * Getting started
 Before reading, just know the credit for this list goes to Matt Vernier, posted on [[https://www.geekyregards.com/p/arrowverse-viewing-order.html][Geeky Regards]]
