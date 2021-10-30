@@ -671,7 +671,7 @@ label{
     font-size:90%}
 
 a{
-    color:#51afef;
+    color:#00ffe7;
     text-decoration:none;
     cursor:pointer}
 
@@ -681,10 +681,10 @@ a:hover,a:active{
 }
 
 a:hover{
-    color:#00ffe7}
+    color:#00ffe7;}
 
 a:visited{
-    color:#00ffe7}
+    color:#00ffe7;}
 
 .org-left a {
     color: #00ffe7;
