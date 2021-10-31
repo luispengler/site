@@ -1,14 +1,34 @@
-#+TITLE: An introduction to Quantum computing - my own writings on the subject.
-#+DESCRIPTION: An introduction to Quantum computing - my own writings on the subject.
+#+TITLE: An introduction to Quantum computing (QubitxQubit)- my notes.
+#+DESCRIPTION: An introduction to Quantum computing (QubitxQubit) - my notes
 #+SETUPFILE: https://luispengler.github.io/site/org-html-themes/org/theme-readtheorg.setup
 #+OPTIONS: num:nil ^:{} toc:1
 
 | [[https://luispengler.github.io/site/html/org-pages/qc/week0.html][week0]] | [[https://luispengler.github.io/site/html/org-pages/qc/week1.html][week1]] | [[https://luispengler.github.io/site/html/org-pages/qc/week2.html][week2]] | [[https://luispengler.github.io/site/html/org-pages/qc/week3.html][week3]] | [[https://luispengler.github.io/site/html/org-pages/qc/week4.html][week4]] | [[https://luispengler.github.io/site/html/org-pages/qc/week5.html][week5]] | [[https://luispengler.github.io/site/html/org-pages/qc/week6.html][week6]] |
 
 * This collection
+This notes page is about all my notes taken throughout this whole course.
++ What is this course?
+  - This is "Introduction to Quantum Computing", made by The Coding School (TCS) as a result of a partnership with IBM Quantum.
++ Who is this for?
+  - Mainly High School students. But if you are not a High School student anymore, you can check out this [[https://qiskit.org/learn/intro-qc-qh/][course]] instead.
++ How do I apply?
+  - Personally, the first time I heard of this was through a friend and he showed me [[https://www.instagram.com/the_coding_school/][their instagram page]] (where they made the course's annoucement)
+  - So I would say, wait for it to open again (usually around august each year). However, I am not 100% sure if they are planning on opening new classes - why not tho?
+  - The course goes from September until April (at least 22' was)
 
-* Resources to study quantum
-** Courses:
-** Youtube videos:
-[[https://www.youtube.com/playlist?list=PLR3IPFP-OywS3nMoKLJcEpeHfQRsT7QKR][Quantum Computing playlist]]
-** Books:
+* Resources
++ A small collection of resources I gathred
+** Videos
++ [[https://www.youtube.com/playlist?list=PLR3IPFP-OywS3nMoKLJcEpeHfQRsT7QKR][Quantum Computing playlist]]
++ [[https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab][Essence of Linear Algebra: A Video Playlist by 3Blue1Brown]]
++ [[https://youtube.com/playlist?list=PLZHQObOWTQDP5CVelJJ1bNDouqrAhVPev][Loockdown Math: A Video Playlist by 3Blue1Brown]]
+
+** Books
++ Life on the Edge: The Coming of Age of Quantum Biology
+
+** Articles
++ [[https://www.forbes.com/sites/startswithabang/2020/12/10/does-making-a-quantum-measurement-really-destroy-information/][Does Making A Quantum Measurement Really Destroy Information?]]
++ [[https://arxiv.org/abs/1507.05255https://phys.org/news/2020-02-scientists-quantum.html][On the quantum measurement problem]]
++ [[http://backreaction.blogspot.com/2019/10/what-is-quantum-measurement-problem.html][What is the quantum measurement problem?]]
++ [[https://phys.org/news/2020-02-scientists-quantum.html][Scientists 'film' a quantum measurement]]
++ [[https://medium.com/@jeremyjkun/here-s-just-a-fraction-of-what-you-can-do-with-linear-algebra-633383d4153f][Here’s just a fraction of what you can do with linear algebra, Jeremy Kun (Article)]]

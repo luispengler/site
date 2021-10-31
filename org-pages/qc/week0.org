@@ -1,7 +1,54 @@
-#+TITLE: Week 0 - me own writings
-#+DESCRIPTION: Week 0 - my own writings
+#+TITLE: Week 0 - Notes
+#+DESCRIPTION: Week 0 - Notes
 #+SETUPFILE: https://luispengler.github.io/site/org-html-themes/org/theme-readtheorg.setup
 #+OPTIONS: num:nil ^:{} toc:2
 
-* THIS PAGE IS A PLACE HOLDER
-Content is coming soon.
+* Week 0 (Qubit by Qubit)
++ As this is the first week of the intire course, we had plenty of introduction to the course logistics, so I will make notes about the *content* given only.
+
+** Quantum Computing
++ A quantum computer uses properties of quantum mechanics to solve problems (just like a classical computer would do, except for this we use classical physics)
+
+** Quantum Mechanics
++ It describes how really small objects (AKA quantum objects like atoms and subatomic particles) behave.
++ In the quantum world, plenty of strange things can happen: Objects can be in multiple places (superposition), Objects can pass through physical barriers (tunneling), Information can be teleported (teleportation).
+
+** The 3 main phenomena
++ Superposition, Interference, Entanglement
+  - These are the 3 quantum phenomena that allow us to design quantum algorithms.
++ This field is all about mastering these properties to make computing faster and more powerful.
+
+** Applications of Quantum Computing
++ Saving lives - Climate change is a threat.
++ Globally distributing food - "Could Quantum Computing Help Feed the World?"
++ Astrophysics - Search for life in other planets
++ Vaccine developtment, Drug Discovery - Simulating quantum systems
+  - Finance
+  - Cyber Security
+  - Biology
+  - Chemestry
+  - Aerospace
+  - Robotics and Machine Learning
+
+** Quantum Computers posses advantages in
++ Problems that involve too much searching or testing for classical computers to do quickly
++ Problems that require secure encryption
++ Problems that require simulating quantum mechanical systems
+
+** The bigger field
++ Quantum Computing is part of a larger field called Quantum Information Science and Engineering (QISE)
+  - Quantum computing, Quantum sensing, Quantum networking
+
+** Universities (US/UK)
+- Search about "The Quantum talent gap"
+  + The Institute for Quantum Computing — University of Waterloo
+  + University of Oxford
+  + Centre for Quantum Information and Foundations - Cambridge
+  + University of California Berkeley
+  + University of Maryland — Joint Quantum Institute
+  + University of Science and Technology of China (USTC) – Division of Quantum Physics and Quantum Information
+  + University of Chicago — Chicago Quantum Exchange (CQE)
+  + Harvard University — Harvard Quantum Initiative
+  + MIT — Center for Theoretical Physics
+  + Unversity of California Riverside
+  + [[https://quantumcomputingreport.com/universities/]["Quantum Universities"]]

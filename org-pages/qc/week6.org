@@ -5,6 +5,9 @@
 #+LaTeX_+HEADER: \usepackage{amsmath}
 #+OPTIONS: num:nil ^:{} toc:2
 
+* COME BACK HERE
+* FIX THIS WEBPAGE (REWATCH THE LECTURE IF NEEDED)
+
 * Week 6 (Qubit by Qubit)
 ** RECAP
 *** Review: States and Gates
