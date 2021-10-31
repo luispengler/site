@@ -1,0 +1,33 @@
+#+TITLE: Week 6 - my notes
+#+DESCRIPTION: Week 6 - my notes
+#+SETUPFILE: https://luispengler.github.io/site/org-html-themes/org/theme-readtheorg.setup
+#+LaTeX_+HEADER: \usepackage{physics}
+#+LaTeX_+HEADER: \usepackage{amsmath}
+#+OPTIONS: num:nil ^:{} toc:2
+
+* Week 6 (Qubit by Qubit)
+** RECAP
+*** Review: States and Gates
+ + X - 180 rotation around the X-axis
+ + Z - 180 rotation around the Z-axis
+ + H - creates a superposition
+
+** Math for Quantum: Qubits
++ With math we can predict the outcomes, without necessarily having to memorize each one of them.
++ *Superconducting, *Trapped Ions*, *Diamond NV Centers*, *Photonics* are different kind of qubits, and math is the language common to all of them!
++ *Linear Algebra* is used in many algorithms, like grover's algorithm.
+
+*** Qubits
++ \(|0\rangle\), \(|1\rangle\), \(|+\rangle\), \(|-\rangle\) are ways to represent them.
++ *But* in an unequal superposition, we need a better way to represent contributions.
++ That is why we will use *two numbers in the form of a vector.*
++ 0 state is represented as \begin{bmatrix}1\\0\end{bmatrix}
++ 1 state is represented as \begin{bmatrix}0\\1\end{bmatrix}
++ It is worth mentioning that the top number represents the component of \(|0\rangle\) and the bottom, the component of \(|1\rangle\).
+\begin{bmatrix} |0\rangle\ component\\|1\rangle\ component\end{bmatrix}
++ But how do we represent
+
+*** Superpostions
++ To represent equal superpositions, we just need to add the two vectors:
+  \[\begin{bmatrix}1\\0\end{bmatrix} + \begin{bmatrix}0\\1\end{bmatrix} = \begin{bmatrix}1\\1\end{bmatrix}\]
++ To represent unequal superpositions,

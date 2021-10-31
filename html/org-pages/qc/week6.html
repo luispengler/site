@@ -6,9 +6,9 @@
 <!-- 2021-10-31 dom 14:05 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>An introduction to Quantum computing - my own writings on the subject.</title>
+<title>Week 6 - my notes</title>
 <meta name="author" content="Luís Guilherme Miranda Spengler" />
-<meta name="description" content="An introduction to Quantum computing - my own writings on the subject." />
+<meta name="description" content="Week 6 - my notes" />
 <meta name="generator" content="Org Mode" />
 <style>
   #content { max-width: 60em; margin: auto; }
@@ -200,68 +200,103 @@
 <script src="httpss://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="https://luispengler.github.io/site/org-html-themes/src/lib/js/jquery.stickytableheaders.min.js"></script>
 <script type="text/javascript" src="https://luispengler.github.io/site/org-html-themes/src/readtheorg_theme/js/readtheorg.js"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        displayAlign: "center",
+        displayIndent: "0em",
+
+        "HTML-CSS": { scale: 100,
+                        linebreaks: { automatic: "false" },
+                        webFont: "TeX"
+                       },
+        SVG: {scale: 100,
+              linebreaks: { automatic: "false" },
+              font: "TeX"},
+        NativeMML: {scale: 100},
+        TeX: { equationNumbers: {autoNumber: "AMS"},
+               MultLineWidth: "85%",
+               TagSide: "right",
+               TagIndent: ".8em"
+             }
+});
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML"></script>
 </head>
 <body>
 <div id="content" class="content">
-<h1 class="title">An introduction to Quantum computing - my own writings on the subject.</h1>
+<h1 class="title">Week 6 - my notes</h1>
 <div id="table-of-contents" role="doc-toc">
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#org5c61b8f">This collection</a></li>
-<li><a href="#org1b9184c">Resources to study quantum</a></li>
+<li><a href="#org83c0e86">Week 6 (Qubit by Qubit)</a>
+<ul>
+<li><a href="#orgc4265d0">RECAP</a></li>
+<li><a href="#orgcb0888e">Math for Quantum: Qubits</a></li>
+</ul>
+</li>
 </ul>
 </div>
 </div>
-<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
-
-<colgroup>
-<col  class="org-left" />
-
-<col  class="org-left" />
-
-<col  class="org-left" />
-
-<col  class="org-left" />
-
-<col  class="org-left" />
-
-<col  class="org-left" />
-</colgroup>
-<tbody>
-<tr>
-<td class="org-left"><a href="https://luispengler.github.io/site/html/org-pages/qc/week0.html">week0</a></td>
-<td class="org-left"><a href="https://luispengler.github.io/site/html/org-pages/qc/week1.html">week1</a></td>
-<td class="org-left"><a href="https://luispengler.github.io/site/html/org-pages/qc/week2.html">week2</a></td>
-<td class="org-left"><a href="https://luispengler.github.io/site/html/org-pages/qc/week3.html">week3</a></td>
-<td class="org-left"><a href="https://luispengler.github.io/site/html/org-pages/qc/week4.html">week4</a></td>
-<td class="org-left"><a href="https://luispengler.github.io/site/html/org-pages/qc/week5.html">week5</a></td>
-</tr>
-</tbody>
-</table>
-
-<div id="outline-container-org5c61b8f" class="outline-2">
-<h2 id="org5c61b8f">This collection</h2>
+<div id="outline-container-org83c0e86" class="outline-2">
+<h2 id="org83c0e86">Week 6 (Qubit by Qubit)</h2>
+<div class="outline-text-2" id="text-org83c0e86">
 </div>
-
-<div id="outline-container-org1b9184c" class="outline-2">
-<h2 id="org1b9184c">Resources to study quantum</h2>
-<div class="outline-text-2" id="text-org1b9184c">
+<div id="outline-container-orgc4265d0" class="outline-3">
+<h3 id="orgc4265d0">RECAP</h3>
+<div class="outline-text-3" id="text-orgc4265d0">
 </div>
-<div id="outline-container-org010254c" class="outline-3">
-<h3 id="org010254c">Courses:</h3>
-</div>
-<div id="outline-container-org72e61af" class="outline-3">
-<h3 id="org72e61af">Youtube videos:</h3>
-<div class="outline-text-3" id="text-org72e61af">
-<p>
-<a href="https://www.youtube.com/playlist?list=PLR3IPFP-OywS3nMoKLJcEpeHfQRsT7QKR">Quantum Computing playlist</a>
-</p>
+<div id="outline-container-org231b90f" class="outline-4">
+<h4 id="org231b90f">Review: States and Gates</h4>
+<div class="outline-text-4" id="text-org231b90f">
+<ul class="org-ul">
+<li>X - 180 rotation around the X-axis</li>
+<li>Z - 180 rotation around the Z-axis</li>
+<li>H - creates a superposition</li>
+</ul>
 </div>
 </div>
-<div id="outline-container-org6ceed01" class="outline-3">
-<h3 id="org6ceed01">Books:</h3>
+</div>
+
+<div id="outline-container-orgcb0888e" class="outline-3">
+<h3 id="orgcb0888e">Math for Quantum: Qubits</h3>
+<div class="outline-text-3" id="text-orgcb0888e">
+<ul class="org-ul">
+<li>With math we can predict the outcomes, without necessarily having to memorize each one of them.</li>
+<li><b>Superconducting, *Trapped Ions</b>, <b>Diamond NV Centers</b>, <b>Photonics</b> are different kind of qubits, and math is the language common to all of them!</li>
+<li><b>Linear Algebra</b> is used in many algorithms, like grover&rsquo;s algorithm.</li>
+</ul>
+</div>
+
+<div id="outline-container-orgb688bc3" class="outline-4">
+<h4 id="orgb688bc3">Qubits</h4>
+<div class="outline-text-4" id="text-orgb688bc3">
+<ul class="org-ul">
+<li>\(|0\rangle\), \(|1\rangle\), \(|+\rangle\), \(|-\rangle\) are ways to represent them.</li>
+<li><b>But</b> in an unequal superposition, we need a better way to represent contributions.</li>
+<li>That is why we will use <b>two numbers in the form of a vector.</b></li>
+<li>0 state is represented as \begin{bmatrix}1\\0\end{bmatrix}</li>
+<li>1 state is represented as \begin{bmatrix}0\\1\end{bmatrix}</li>
+<li>It is worth mentioning that the top number represents the component of \(|0\rangle\) and the bottom, the component of \(|1\rangle\).</li>
+</ul>
+\begin{bmatrix} |0\rangle\ component\\|1\rangle\ component\end{bmatrix}
+<ul class="org-ul">
+<li>But how do we represent</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgaf28ccc" class="outline-4">
+<h4 id="orgaf28ccc">Superpostions</h4>
+<div class="outline-text-4" id="text-orgaf28ccc">
+<ul class="org-ul">
+<li>To represent equal superpositions, we just need to add the two vectors:
+\[\begin{bmatrix}1\\0\end{bmatrix} + \begin{bmatrix}0\\1\end{bmatrix} = \begin{bmatrix}1\\1\end{bmatrix}\]</li>
+<li>To represent unequal superpositions,</li>
+</ul>
+</div>
+</div>
 </div>
 </div>
 </div>

@@ -14,3 +14,6 @@
 + [ ] Configure firefox to be the secure browser (use it for general webing) and brave to be the one for video conferecing (due to firefox's multiple playback issue, participants camera keep stopping) and also need brave cause I'm lazy to configure tor (and would be an extra browser and more dependencies)
 + [ ] Study awk (some day) (The AWK Programming Language)
 + [ ] Study some web scripting on terminal (smth like pup)
++ [ ] Bugswriter has a cool script for connecting to wifi
++ [ ] Use maim to take screenshots
++ [ ] Have a look at [[https://wiki.archlinux.org/title/Sxhkd][sxhkd]] for keyboard shortcuts

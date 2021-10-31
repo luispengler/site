@@ -21,8 +21,8 @@
   - [X] Percy Jackson: The lightning thief
   - [X] Percy Jackson: Sea of monsters
 
-+ [ ] Indiana Jones [0/5]
-  - [ ] Indiana Jones and the Temple of Doom (1984)
++ [-] Indiana Jones [1/5]
+  - [X] Indiana Jones and the Temple of Doom (1984)
   - [ ] Indiana Jones and the Raiders of the Lost Ark (1981)
   - [ ] Indiana Jones and the Last Crusade (1989)
   - [ ] Indiana Jones and the Kingdom of the Crystal Skull (2008)
@@ -225,7 +225,9 @@
   - [ ] Prometheus (2012)
   - [ ] Alien: Convenant
 
- =Regra:= Depois de uma saga, um filme separado
++ [ ] Ghostbusters
+
+  =Regra:= Depois de uma saga, um filme separado
 
 * Filmes separados [7%] [2/28]
 
@@ -233,6 +235,8 @@
 + [X] Interestellar
 + [ ] World War Z
 + [ ] Caroline
++ [ ] Hacksaw Ridge
++ [ ] Unbroken
 + [ ] Mama
 + [ ] Rei Arthur e a lenda da espada
 + [ ] Gigantes de aço

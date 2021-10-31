@@ -1,11 +1,11 @@
-#+TITLE: Week 5 - my own writings
-#+DESCRIPTION: Week 5 - my own writings
+#+TITLE: Week 5 - my notes
+#+DESCRIPTION: Week 5 - my notes
 #+SETUPFILE: https://luispengler.github.io/site/org-html-themes/org/theme-readtheorg.setup
 #+LaTeX_+HEADER: \usepackage{physics}
 #+OPTIONS: num:nil ^:{} toc:2
 
 * Week 5 (Qubit by Qubit)
-** RECAP:
+** RECAP
 *** The Bloch Sphere:
 + State on the top: \(|0\rangle\)
 + State on the bottom: \(|1\rangle\)
