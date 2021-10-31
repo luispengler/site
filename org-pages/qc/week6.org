@@ -14,7 +14,7 @@
 
 ** Math for Quantum: Qubits
 + With math we can predict the outcomes, without necessarily having to memorize each one of them.
-+ *Superconducting, *Trapped Ions*, *Diamond NV Centers*, *Photonics* are different kind of qubits, and math is the language common to all of them!
++ *Superconducting*, *Trapped Ions*, *Diamond NV Centers*, *Photonics* are different kind of qubits, and math is the language common to all of them!
 + *Linear Algebra* is used in many algorithms, like grover's algorithm.
 
 *** Qubits
@@ -30,4 +30,32 @@
 *** Superpostions
 + To represent equal superpositions, we just need to add the two vectors:
   \[\begin{bmatrix}1\\0\end{bmatrix} + \begin{bmatrix}0\\1\end{bmatrix} = \begin{bmatrix}1\\1\end{bmatrix}\]
-+ To represent unequal superpositions,
+
++ To get to an unequal superposition, we need to apply some gates to get there and it is the goal of a field called quantum algorithm design
+
+*** Normalization
++ The vectors representing quantum states must be *normalized*, which means having a *lenght of 1*
++ The radius of the Bloch Sphere is 1, so as all quantum states lie on the Bloch sphere, they must all have a length of 1.
+
++ [ ] Step 1: Write the state in the vector form \begin{bmatrix}a\\b\end{bmatrix}
++ [ ] Step 2: Find the length of the state as sqrt((a^2) + (b^2))
++ [ ] Step 3: If the length is 1, the state is normalized. If not, divide the state by its length to get the normalized state.
+  - Normalized form of the state = \[1/\sqrt{a^2 + b^2}\begin{bmatrix}a\\b\end{bmatrix}\]
+
+*** Examples to help with normalization:
++ Remember that all of this comes from *linear algebra*
+
+** Phase
++ Subtract the following states:
+ \[\begin{bmatrix}1\\0\end{bmatrix} + \begin{bmatrix}0\\1\end{bmatrix} = \begin{bmatrix}1\\1\end{bmatrix}\]
++ The sign between \(|0\rangle\) and \(|1\rangle\) is called phase.
++ The phase diferences lead to interference (more coming soon)
++ There are more relations in phase that won't be addressed in this course because they require *complex numbers*
+
+** Additional Resources
++ [[https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab][Essence of Linear Algebra: A Video Playlist by 3Blue1Brown]]
+  - Summary: Explains all important concepts in linear algebra visually in a geometric way. Very highly recommended!
++ [[https://www.youtube.com/playlist?list=PLZHQObOWTQDP5CVelJJ1bNDouqrAhVPev][Lockdown Math: A Video Playlist by 3Blue1Brown]]
+  - Summary:  Important math concepts presented in a visual manner. Multiple episodes on complex numbers which are very highly recommended!
++ [[https://medium.com/@jeremyjkun/here-s-just-a-fraction-of-what-you-can-do-with-linear-algebra-633383d4153f][Here’s just a fraction of what you can do with linear algebra, Jeremy Kun (Article)]]
+  - Summary: Why should we be motivated to learn the math needed for this course and computer science as a whole?  A quick read on some applications of linear algebra.

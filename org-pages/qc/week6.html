@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2021-10-31 dom 14:03 -->
+<!-- 2021-10-31 dom 14:25 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Week 6 - my notes</title>
@@ -229,27 +229,27 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#org6aa3400">Week 6 (Qubit by Qubit)</a>
+<li><a href="#org83971b6">Week 6 (Qubit by Qubit)</a>
 <ul>
-<li><a href="#org9a9b52c">RECAP</a></li>
-<li><a href="#org49f4fbc">Math for Quantum: Qubits</a></li>
+<li><a href="#orga213517">RECAP</a></li>
+<li><a href="#org164b3e8">Math for Quantum: Qubits</a></li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org6aa3400" class="outline-2">
-<h2 id="org6aa3400">Week 6 (Qubit by Qubit)</h2>
-<div class="outline-text-2" id="text-org6aa3400">
+<div id="outline-container-org83971b6" class="outline-2">
+<h2 id="org83971b6">Week 6 (Qubit by Qubit)</h2>
+<div class="outline-text-2" id="text-org83971b6">
 </div>
-<div id="outline-container-org9a9b52c" class="outline-3">
-<h3 id="org9a9b52c">RECAP</h3>
-<div class="outline-text-3" id="text-org9a9b52c">
+<div id="outline-container-orga213517" class="outline-3">
+<h3 id="orga213517">RECAP</h3>
+<div class="outline-text-3" id="text-orga213517">
 </div>
-<div id="outline-container-orgab3116c" class="outline-4">
-<h4 id="orgab3116c">Review: States and Gates</h4>
-<div class="outline-text-4" id="text-orgab3116c">
+<div id="outline-container-org3794be8" class="outline-4">
+<h4 id="org3794be8">Review: States and Gates</h4>
+<div class="outline-text-4" id="text-org3794be8">
 <ul class="org-ul">
 <li>X - 180 rotation around the X-axis</li>
 <li>Z - 180 rotation around the Z-axis</li>
@@ -259,19 +259,19 @@
 </div>
 </div>
 
-<div id="outline-container-org49f4fbc" class="outline-3">
-<h3 id="org49f4fbc">Math for Quantum: Qubits</h3>
-<div class="outline-text-3" id="text-org49f4fbc">
+<div id="outline-container-org164b3e8" class="outline-3">
+<h3 id="org164b3e8">Math for Quantum: Qubits</h3>
+<div class="outline-text-3" id="text-org164b3e8">
 <ul class="org-ul">
 <li>With math we can predict the outcomes, without necessarily having to memorize each one of them.</li>
-<li><b>Superconducting, *Trapped Ions</b>, <b>Diamond NV Centers</b>, <b>Photonics</b> are different kind of qubits, and math is the language common to all of them!</li>
+<li><b>Superconducting</b>, <b>Trapped Ions</b>, <b>Diamond NV Centers</b>, <b>Photonics</b> are different kind of qubits, and math is the language common to all of them!</li>
 <li><b>Linear Algebra</b> is used in many algorithms, like grover&rsquo;s algorithm.</li>
 </ul>
 </div>
 
-<div id="outline-container-org9be1478" class="outline-4">
-<h4 id="org9be1478">Qubits</h4>
-<div class="outline-text-4" id="text-org9be1478">
+<div id="outline-container-orgc66d468" class="outline-4">
+<h4 id="orgc66d468">Qubits</h4>
+<div class="outline-text-4" id="text-orgc66d468">
 <ul class="org-ul">
 <li>\(|0\rangle\), \(|1\rangle\), \(|+\rangle\), \(|-\rangle\) are ways to represent them.</li>
 <li><b>But</b> in an unequal superposition, we need a better way to represent contributions.</li>
@@ -287,13 +287,31 @@
 </div>
 </div>
 
-<div id="outline-container-org83bdd5a" class="outline-4">
-<h4 id="org83bdd5a">Superpostions</h4>
-<div class="outline-text-4" id="text-org83bdd5a">
+<div id="outline-container-org680869c" class="outline-4">
+<h4 id="org680869c">Superpostions</h4>
+<div class="outline-text-4" id="text-org680869c">
 <ul class="org-ul">
 <li>To represent equal superpositions, we just need to add the two vectors:
 \[\begin{bmatrix}1\\0\end{bmatrix} + \begin{bmatrix}0\\1\end{bmatrix} = \begin{bmatrix}1\\1\end{bmatrix}\]</li>
-<li>To represent unequal superpositions,</li>
+
+<li>To get to an unequal superposition, we need to apply some gates to get there and it is the goal of a field called quantum algorithm design</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgca1db38" class="outline-4">
+<h4 id="orgca1db38">Normalization</h4>
+<div class="outline-text-4" id="text-orgca1db38">
+<ul class="org-ul">
+<li>The vectors representing quantum states must be <b>normalized</b>, which means having a <b>lenght of 1</b></li>
+<li>The radius of the Bloch Sphere is 1, so as all quantum states lie on the Bloch sphere, they must all have a length of 1.</li>
+
+<li class="off"><code>[&#xa0;]</code> Step 1: Write the state in the vector form \begin{bmatrix}a\\b\end{bmatrix}</li>
+<li class="off"><code>[&#xa0;]</code> Step 2: Find the length of the state as sqrt((a^2) + (b^2))</li>
+<li class="off"><code>[&#xa0;]</code> Step 3: If the length is 1, the state is normalized. If not, divide the state by its length to get the normalized state.
+<ul class="org-ul">
+<li>Normalized form of the state = \[\frac{1/\sqrt{a^2 + b^2}}\begin{bmatrix}a\\b\end{bmatrix}\]</li>
+</ul></li>
 </ul>
 </div>
 </div>
@@ -302,7 +320,7 @@
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Luís Guilherme Miranda Spengler</p>
-<p class="date">Created: 2021-10-31 dom 14:03</p>
+<p class="date">Created: 2021-10-31 dom 14:25</p>
 </div>
 </body>
 </html>

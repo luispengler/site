@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2021-10-31 dom 14:05 -->
+<!-- 2021-10-31 dom 14:43 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Week 6 - my notes</title>
@@ -233,6 +233,8 @@
 <ul>
 <li><a href="#orgc4265d0">RECAP</a></li>
 <li><a href="#orgcb0888e">Math for Quantum: Qubits</a></li>
+<li><a href="#orgaf0104e">Phase</a></li>
+<li><a href="#org454a561">Additional Resources</a></li>
 </ul>
 </li>
 </ul>
@@ -264,7 +266,7 @@
 <div class="outline-text-3" id="text-orgcb0888e">
 <ul class="org-ul">
 <li>With math we can predict the outcomes, without necessarily having to memorize each one of them.</li>
-<li><b>Superconducting, *Trapped Ions</b>, <b>Diamond NV Centers</b>, <b>Photonics</b> are different kind of qubits, and math is the language common to all of them!</li>
+<li><b>Superconducting</b>, <b>Trapped Ions</b>, <b>Diamond NV Centers</b>, <b>Photonics</b> are different kind of qubits, and math is the language common to all of them!</li>
 <li><b>Linear Algebra</b> is used in many algorithms, like grover&rsquo;s algorithm.</li>
 </ul>
 </div>
@@ -293,16 +295,76 @@
 <ul class="org-ul">
 <li>To represent equal superpositions, we just need to add the two vectors:
 \[\begin{bmatrix}1\\0\end{bmatrix} + \begin{bmatrix}0\\1\end{bmatrix} = \begin{bmatrix}1\\1\end{bmatrix}\]</li>
-<li>To represent unequal superpositions,</li>
+
+<li>To get to an unequal superposition, we need to apply some gates to get there and it is the goal of a field called quantum algorithm design</li>
 </ul>
 </div>
+</div>
+
+<div id="outline-container-org88f4ee3" class="outline-4">
+<h4 id="org88f4ee3">Normalization</h4>
+<div class="outline-text-4" id="text-org88f4ee3">
+<ul class="org-ul">
+<li>The vectors representing quantum states must be <b>normalized</b>, which means having a <b>lenght of 1</b></li>
+<li>The radius of the Bloch Sphere is 1, so as all quantum states lie on the Bloch sphere, they must all have a length of 1.</li>
+
+<li class="off"><code>[&#xa0;]</code> Step 1: Write the state in the vector form \begin{bmatrix}a\\b\end{bmatrix}</li>
+<li class="off"><code>[&#xa0;]</code> Step 2: Find the length of the state as sqrt((a^2) + (b^2))</li>
+<li class="off"><code>[&#xa0;]</code> Step 3: If the length is 1, the state is normalized. If not, divide the state by its length to get the normalized state.
+<ul class="org-ul">
+<li>Normalized form of the state = \[1/\sqrt{a^2 + b^2}\begin{bmatrix}a\\b\end{bmatrix}\]</li>
+</ul></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgb6dc7c2" class="outline-4">
+<h4 id="orgb6dc7c2">Examples to help with normalization:</h4>
+<div class="outline-text-4" id="text-orgb6dc7c2">
+<ul class="org-ul">
+<li>Remember that all of this comes from <b>linear algebra</b></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgaf0104e" class="outline-3">
+<h3 id="orgaf0104e">Phase</h3>
+<div class="outline-text-3" id="text-orgaf0104e">
+<ul class="org-ul">
+<li>Subtract the following states:
+\[\begin{bmatrix}1\\0\end{bmatrix} + \begin{bmatrix}0\\1\end{bmatrix} = \begin{bmatrix}1\\1\end{bmatrix}\]</li>
+<li>The sign between \(|0\rangle\) and \(|1\rangle\) is called phase.</li>
+<li>The phase diferences lead to interference (more coming soon)</li>
+<li>There are more relations in phase that won&rsquo;t be addressed in this course because they require <b>complex numbers</b></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org454a561" class="outline-3">
+<h3 id="org454a561">Additional Resources</h3>
+<div class="outline-text-3" id="text-org454a561">
+<ul class="org-ul">
+<li><a href="https://www.youtube.com/watch?v=fNk_zzaMoSs&amp;list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab">Essence of Linear Algebra: A Video Playlist by 3Blue1Brown</a>
+<ul class="org-ul">
+<li>Summary: Explains all important concepts in linear algebra visually in a geometric way. Very highly recommended!</li>
+</ul></li>
+<li><a href="https://www.youtube.com/playlist?list=PLZHQObOWTQDP5CVelJJ1bNDouqrAhVPev">Lockdown Math: A Video Playlist by 3Blue1Brown</a>
+<ul class="org-ul">
+<li>Summary:  Important math concepts presented in a visual manner. Multiple episodes on complex numbers which are very highly recommended!</li>
+</ul></li>
+<li><a href="https://medium.com/@jeremyjkun/here-s-just-a-fraction-of-what-you-can-do-with-linear-algebra-633383d4153f">Here’s just a fraction of what you can do with linear algebra, Jeremy Kun (Article)</a>
+<ul class="org-ul">
+<li>Summary: Why should we be motivated to learn the math needed for this course and computer science as a whole?  A quick read on some applications of linear algebra.</li>
+</ul></li>
+</ul>
 </div>
 </div>
 </div>
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Luís Guilherme Miranda Spengler</p>
-<p class="date">Created: 2021-10-31 dom 14:05</p>
+<p class="date">Created: 2021-10-31 dom 14:43</p>
 </div>
 </body>
 </html>
