@@ -66,9 +66,9 @@ There are *680 episodes* in arrowverse right now. If every episode on this list 
 + [X]         Arrow – 3.23: “My Name Is Oliver Queen”
 + [X]         The Flash – 1.23: “Fast Enough”
 
-* 2015/2016 [0/65] [0%]
+* 2015/2016 [1/65] [1%]
 
-+ [ ]         Supergirl – Season 1, Episodes 1-17
++ [X]         Supergirl – Season 1, Episodes 1-17
 + [ ]         The Flash – 2.01: “The Man Who Saved Central City”
 + [ ]         Arrow – 4.01: “Green Arrow”
 + [ ]         The Flash – 2.02: “Flash of Two Worlds”

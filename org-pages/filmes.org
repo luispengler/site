@@ -4,7 +4,7 @@
 #+OPTIONS: num:nil ^:{}
 
 
-* Assistir as franquias [6%] [2/30]
+* Assistir as franquias [6%] [2/31]
 
 + [X] Harry Potter [9/9]
   - [X] Harry Potter and the sorcerer's stone
@@ -21,9 +21,9 @@
   - [X] Percy Jackson: The lightning thief
   - [X] Percy Jackson: Sea of monsters
 
-+ [-] Indiana Jones [1/5]
++ [-] Indiana Jones [2/5]
   - [X] Indiana Jones and the Temple of Doom (1984)
-  - [ ] Indiana Jones and the Raiders of the Lost Ark (1981)
+  - [X] Indiana Jones and the Raiders of the Lost Ark (1981)
   - [ ] Indiana Jones and the Last Crusade (1989)
   - [ ] Indiana Jones and the Kingdom of the Crystal Skull (2008)
   - [ ] The Young Indiana Jones Chronicles
@@ -261,3 +261,4 @@
 + [ ] Sombras da noite
 + [ ] Sing
 + [ ] Avatar
++ [ ] War horse

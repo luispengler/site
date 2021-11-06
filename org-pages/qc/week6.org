@@ -37,7 +37,7 @@
 + To get to an unequal superposition, we need to apply some gates to get there and it is the goal of a field called quantum algorithm design
 
 *** Normalization
-+ The vectors representing quantum states must be *normalized*, which means having a *lenght of 1*
++ The vectors representing quantum states must be *normalized*, which means they have a *lenght of 1*
 + The radius of the Bloch Sphere is 1, so as all quantum states lie on the Bloch sphere, they must all have a length of 1.
 
 + [ ] Step 1: Write the state in the vector form \begin{bmatrix}a\\b\end{bmatrix}
@@ -54,6 +54,13 @@
 + The sign between \(|0\rangle\) and \(|1\rangle\) is called phase.
 + The phase diferences lead to interference (more coming soon)
 + There are more relations in phase that won't be addressed in this course because they require *complex numbers*
+
+** Lab
++ Qiskit Aer, Qiskit Nature, Qiskit Pulse are what we have inside the mega qiskit library. We are gonna use Qiskit Aer.
+  - Qiskit Aer has two simulators: the Statevector simulator and the QASM simulator
++ The Statevector simulator gives us the vector form of the final state. It gives us the *ideal result*
++ The QASM simulator gives us the performing measurements on quantum circuits (like a hands-on)
++ We can say statevector will give us the theorical result and QASM simulator will give us the experimental result.
 
 ** Additional Resources
 + [[https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab][Essence of Linear Algebra: A Video Playlist by 3Blue1Brown]]

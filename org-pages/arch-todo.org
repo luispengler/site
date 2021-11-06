@@ -17,3 +17,7 @@
 + [ ] Bugswriter has a cool script for connecting to wifi
 + [ ] Use maim to take screenshots
 + [ ] Have a look at [[https://wiki.archlinux.org/title/Sxhkd][sxhkd]] for keyboard shortcuts
++ [ ] Use xwallpaper instead of feh
++ [ ] Install devour (with xdo installed) to swallow terminal :)
+
+  =Good practice= it is a good practice to clone repos inside of ~/.local/src
