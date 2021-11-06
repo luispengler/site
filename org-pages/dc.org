@@ -8,7 +8,7 @@ Before reading, just know the credit for this list goes to Matt Vernier, posted 
 Using org-mode thanks to doom emacs, I was able to make this viewing order list in a checkbox list, to track my progress while I watch the series.
 
 |------------------------+--------------------------+--------------------------+-----------------------------------+-------------------------------+------------------------+------------------------+-------------------------------|
-| Arrow   (170 episodes) | The Flash (151 episodes) | Supergirl (121 episodes) | Legends of Tomorrow (98 episodes) | Black Lightning (58 episodes) | Batwoman (41 episodes) | Stargirl (26 episodes) | Superman & Lois (15 episodes) |
+| Arrow   (170 episodes) | The Flash (151 episodes) | Supergirl (121 episodes) | Legends of Tomorrow (98 episodes) | Black Lightning (58 episodes) | Batwoman (42 episodes) | Stargirl (26 episodes) | Superman & Lois (15 episodes) |
 
 There are *680 episodes* in arrowverse right now. If every episode on this list is at least 40 minutes long, then the total *watch time would be of 27200 minutes or 453,33 hours, which is 18,888 days.*
 
@@ -66,9 +66,25 @@ There are *680 episodes* in arrowverse right now. If every episode on this list 
 + [X]         Arrow – 3.23: “My Name Is Oliver Queen”
 + [X]         The Flash – 1.23: “Fast Enough”
 
-* 2015/2016 [1/65] [1%]
+* 2015/2016 [17/81] [20%]
 
-+ [X]         Supergirl – Season 1, Episodes 1-17
++ [X]         Supergirl - 1.01: "Pilot"
++ [X]         Supergirl - 1.02: "Stronger Together"
++ [X]         Supergirl - 1.03: "Fight or Flight"
++ [X]         Supergirl - 1.04: "How Does She Do It?"
++ [X]         Supergirl - 1.05: "Livewire"
++ [X]         Supergirl - 1.06: "Red Faced"
++ [X]         Supergirl - 1.07: "Human for a Day"
++ [X]         Supergirl - 1.08: "Hostile Takeover"
++ [X]         Supergirl - 1.09: "Blood Bonds"
++ [X]         Supergirl - 1.10: "Childish Things"
++ [X]         Supergirl - 1.11: "Strange Visitor From Another Planet"
++ [X]         Supergirl - 1.12: "Bizarro"
++ [X]         Supergirl - 1.13: "For the Girl Who Has Everything"
++ [X]         Supergirl - 1.14: "Truth, Justice and the American Way"
++ [X]         Supergirl - 1.15: "Solitude"
++ [X]         Supergirl - 1.16: "Falling"
++ [X]         Supergirl - 1.17: "Manhunter"
 + [ ]         The Flash – 2.01: “The Man Who Saved Central City”
 + [ ]         Arrow – 4.01: “Green Arrow”
 + [ ]         The Flash – 2.02: “Flash of Two Worlds”
