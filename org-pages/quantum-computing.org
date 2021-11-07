@@ -1,4 +1,4 @@
-#+TITLE: An introduction to Quantum computing (QubitxQubit)- my notes.
+#+TITLE: An introduction to Quantum computing (QubitxQubit) - my notes.
 #+DESCRIPTION: An introduction to Quantum computing (QubitxQubit) - my notes
 #+SETUPFILE: https://luispengler.github.io/site/org-html-themes/org/theme-readtheorg.setup
 #+OPTIONS: num:nil ^:{} toc:1
