@@ -4,6 +4,8 @@
 #+OPTIONS: num:nil ^:{}
 
 
-[[https://luispengler.github.io/site/html/org-pages/particle-physics.html][Particle Physics]]
+[[https://luispengler.github.io/site/html/org-pages/linear-algebra-intro.html][Intro to Linear Algebra]]
 
 [[https://luispengler.github.io/site/html/org-pages/quantum-computing.html][Quantum Computing]]
+
+[[https://luispengler.github.io/site/html/org-pages/particle-physics.html][Particle Physics]]
