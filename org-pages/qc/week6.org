@@ -21,8 +21,8 @@
 + \(|0\rangle\), \(|1\rangle\), \(|+\rangle\), \(|-\rangle\) are ways to represent them.
 + *But* in an unequal superposition, we need a better way to represent contributions.
 + That is why we will use *two numbers in the form of a vector.*
-+ 0 state is represented as \begin{bmatrix}1\\0\end{bmatrix}
-+ 1 state is represented as \begin{bmatrix}0\\1\end{bmatrix}
++ 0 state is represented as \[\begin{bmatrix}1\\0\end{bmatrix}\]
++ 1 state is represented as \[\begin{bmatrix}0\\1\end{bmatrix}\]
 + It is worth mentioning that the top number represents the component of \(|0\rangle\) and the bottom, the component of \(|1\rangle\).
 \begin{bmatrix} |0\rangle\ component\\|1\rangle\ component\end{bmatrix}
 
@@ -36,16 +36,16 @@
 + The vectors representing quantum states must be *normalized*, which means they have a *lenght of 1*
 + The radius of the Bloch Sphere is 1, so as all quantum states lie on the Bloch sphere, they must all have a length of 1.
 
-+ [ ] Step 1: Write the state in the vector form \begin{bmatrix}a\\b\end{bmatrix}
++ [ ] Step 1: Write the state in the vector form \[\begin{bmatrix}a\\b\end{bmatrix}\]
 + [ ] Step 2: Find the length of the state as \[\sqrt{a^2 + b^2}\]
 + [ ] Step 3: If the length is 1, the state is normalized. If not, divide the state by its length to get the normalized state.
   - Normalized form of the state = \[\frac{1}{\sqrt{a^2 + b^2}}\begin{bmatrix}a\\b\end{bmatrix}\]
 
 *** Examples to help with normalization:
 + Remember that all of this comes from *linear algebra*
-+ The length of the state \begin{bmatrix}1\\0\end{bmatrix}
++ The length of the state \[\begin{bmatrix}1\\0\end{bmatrix}\]
   - A: 1
-+ Find the normalized state of \begin{bmatrix}1\\1\end{bmatrix}
++ Find the normalized state of \[\begin{bmatrix}1\\1\end{bmatrix}\]
   - Finding the length: \[\sqrt{1^2 + 1^2} = \sqrt{2}\]
   - As the length is not 1, we need to divide take the state and divide it by its length, then we get the normalized state:
 \[\frac{1}{\sqrt{2}}\begin{bmatrix}1\\1\end{bmatrix}\]
