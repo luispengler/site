@@ -3,7 +3,7 @@
 #+SETUPFILE: https://luispengler.github.io/site/org-html-themes/org/theme-readtheorg.setup
 #+OPTIONS: num:nil ^:{} toc:1
 
-| [[https://luispengler.github.io/site/html/org-pages/qc/week0.html][week0]] | [[https://luispengler.github.io/site/html/org-pages/qc/week1.html][week1]] | [[https://luispengler.github.io/site/html/org-pages/qc/week2.html][week2]] | [[https://luispengler.github.io/site/html/org-pages/qc/week3.html][week3]] | [[https://luispengler.github.io/site/html/org-pages/qc/week4.html][week4]] | [[https://luispengler.github.io/site/html/org-pages/qc/week5.html][week5]] | [[https://luispengler.github.io/site/html/org-pages/qc/week6.html][week6]] |
+| [[https://luispengler.github.io/site/html/org-pages/qc/week0.html][week0]] | [[https://luispengler.github.io/site/html/org-pages/qc/week1.html][week1]] | [[https://luispengler.github.io/site/html/org-pages/qc/week2.html][week2]] | [[https://luispengler.github.io/site/html/org-pages/qc/week3.html][week3]] | [[https://luispengler.github.io/site/html/org-pages/qc/week4.html][week4]] | [[https://luispengler.github.io/site/html/org-pages/qc/week5.html][week5]] | [[https://luispengler.github.io/site/html/org-pages/qc/week6.html][week6]] | [[https://luispengler.github.io/site/html/org-pages/qc/week7.html][week7]] |
 
 * This collection
 This notes page is about all my notes taken throughout this whole course.

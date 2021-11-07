@@ -5,14 +5,14 @@
 #+LaTeX_+HEADER: \usepackage{amsmath}
 #+OPTIONS: num:nil ^:{} toc:2
 
-* Week 6 (Qubit by Qubit)
-** RECAP
+* Week 6 (qubit by qubit)
+** Recap
 *** Review: States and Gates
  + X - 180 rotation around the X-axis
  + Z - 180 rotation around the Z-axis
  + H - creates a superposition
 
-** Math for Quantum
+** Math for Quantum: Qubits
 + With math we can predict the outcomes, without necessarily having to memorize each one of them.
 + *Superconducting*, *Trapped Ions*, *Diamond NV Centers*, *Photonics* are different kind of qubits, and math is the language common to all of them!
 + *Linear Algebra* is used in many algorithms, like grover's algorithm.
@@ -55,8 +55,8 @@
  \[\frac{1}{\sqrt{2}}\begin{bmatrix}1\\0\end{bmatrix} - \frac{1}{\sqrt{2}}\begin{bmatrix}0\\1\end{bmatrix} = \frac{1}{\sqrt{2}}\begin{bmatrix}1\\-1\end{bmatrix}\]
 + That is the same as \(|-\rangle\)
 *** Normalized form of \(|+\rangle\) and \(|-\rangle\) states
-+ \[\|+\rangle = \frac{1}{\sqrt{2}}(|0\rangle+|1\rangle)\] (same as \[\frac{1}{\sqrt{2}}\begin{bmatrix}1\\1\end{bmatrix}\])
-+ \[\|-\rangle = \frac{1}{\sqrt{2}}(|0\rangle-|1\rangle)\] (same as \[\frac{1}{\sqrt{2}}\begin{bmatrix}1\\-1\end{bmatrix}\])
++ \(|+\rangle\) = \[\frac{1}{\sqrt{2}}(|0\rangle+|1\rangle)\] same as \[\frac{1}{\sqrt{2}}\begin{bmatrix}1\\1\end{bmatrix}\]
++ \(|-\rangle\) = \[\\frac{1}{\sqrt{2}}(|0\rangle-|1\rangle)\] same as \[\frac{1}{\sqrt{2}}\begin{bmatrix}1\\-1\end{bmatrix}\]
 + These two states above are both equal superpositions but they differ in *phase*
 + Therefore, the sign between \(|0\rangle\) and \(|1\rangle\) is called phase. *Is it positive or negative?*
 + The phase diferences lead to interference (more coming soon)

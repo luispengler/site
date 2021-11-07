@@ -6,9 +6,9 @@
 <!-- 2021-11-07 dom 16:17 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Week 0 - Notes</title>
+<title>Week 7 - my notes</title>
 <meta name="author" content="Luís Guilherme Miranda Spengler" />
-<meta name="description" content="Week 0 - Notes" />
+<meta name="description" content="Week 7 - my notes" />
 <meta name="generator" content="Org Mode" />
 <style>
   #content { max-width: 60em; margin: auto; }
@@ -200,131 +200,199 @@
 <script src="httpss://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="https://luispengler.github.io/site/org-html-themes/src/lib/js/jquery.stickytableheaders.min.js"></script>
 <script type="text/javascript" src="https://luispengler.github.io/site/org-html-themes/src/readtheorg_theme/js/readtheorg.js"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        displayAlign: "center",
+        displayIndent: "0em",
+
+        "HTML-CSS": { scale: 100,
+                        linebreaks: { automatic: "false" },
+                        webFont: "TeX"
+                       },
+        SVG: {scale: 100,
+              linebreaks: { automatic: "false" },
+              font: "TeX"},
+        NativeMML: {scale: 100},
+        TeX: { equationNumbers: {autoNumber: "AMS"},
+               MultLineWidth: "85%",
+               TagSide: "right",
+               TagIndent: ".8em"
+             }
+});
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML"></script>
 </head>
 <body>
 <div id="content" class="content">
-<h1 class="title">Week 0 - Notes</h1>
+<h1 class="title">Week 7 - my notes</h1>
 <div id="table-of-contents" role="doc-toc">
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#org1e6364d">Week 0 (Qubit by Qubit)</a>
+<li><a href="#org3f9b4ae">Week 7 (qubit by qubit)</a>
 <ul>
-<li><a href="#org5d2ce2d">Quantum Computing</a></li>
-<li><a href="#orge01d8ab">Quantum Mechanics</a></li>
-<li><a href="#orgc087db0">The 3 main phenomena</a></li>
-<li><a href="#org6c04c26">Applications of Quantum Computing</a></li>
-<li><a href="#org7f33a4c">Quantum Computers posses advantages in</a></li>
-<li><a href="#org6f5f126">The bigger field</a></li>
-<li><a href="#orga33f407">Universities (US/UK)</a></li>
+<li><a href="#org0cb3264">Recap</a></li>
+<li><a href="#org4baf6a2">Math for Quantum: Gates</a></li>
+<li><a href="#org5c55488">The formula</a></li>
+<li><a href="#org7c1e24c">Multiplying matrices</a></li>
+<li><a href="#orgc2a3cbd">The math of Quantum Resources</a></li>
+<li><a href="#org2f9d87c">Guest</a></li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org1e6364d" class="outline-2">
-<h2 id="org1e6364d">Week 0 (Qubit by Qubit)</h2>
-<div class="outline-text-2" id="text-org1e6364d">
-<ul class="org-ul">
-<li>As this is the first week of the intire course, we had plenty of introduction to the course logistics, so I will make notes about the <b>content</b> given only.</li>
-</ul>
+<div id="outline-container-org3f9b4ae" class="outline-2">
+<h2 id="org3f9b4ae">Week 7 (qubit by qubit)</h2>
+<div class="outline-text-2" id="text-org3f9b4ae">
 </div>
-
-<div id="outline-container-org5d2ce2d" class="outline-3">
-<h3 id="org5d2ce2d">Quantum Computing</h3>
-<div class="outline-text-3" id="text-org5d2ce2d">
-<ul class="org-ul">
-<li>A quantum computer uses properties of quantum mechanics to solve problems (just like a classical computer would do, except for this we use classical physics)</li>
-</ul>
+<div id="outline-container-org0cb3264" class="outline-3">
+<h3 id="org0cb3264">Recap</h3>
+<div class="outline-text-3" id="text-org0cb3264">
 </div>
-</div>
-
-<div id="outline-container-orge01d8ab" class="outline-3">
-<h3 id="orge01d8ab">Quantum Mechanics</h3>
-<div class="outline-text-3" id="text-orge01d8ab">
+<div id="outline-container-org08b296d" class="outline-4">
+<h4 id="org08b296d">Review:</h4>
+<div class="outline-text-4" id="text-org08b296d">
 <ul class="org-ul">
-<li>It describes how really small objects (AKA quantum objects like atoms and subatomic particles) behave.</li>
-<li>In the quantum world, plenty of strange things can happen: Objects can be in multiple places (superposition), Objects can pass through physical barriers (tunneling), Information can be teleported (teleportation).</li>
+<li>We saw the math of qubit states - vectors</li>
+<li>X - 180 rotation around the X-axis</li>
+<li>Z - 180 rotation around the Z-axis</li>
+<li>H - creates a superposition</li>
+<li>We have to normalize states - they must have a length of 1</li>
+<li>Phase is the sign between \(|0\rangle\) and \(|1\rangle\)</li>
 </ul>
 </div>
 </div>
+</div>
 
-<div id="outline-container-orgc087db0" class="outline-3">
-<h3 id="orgc087db0">The 3 main phenomena</h3>
-<div class="outline-text-3" id="text-orgc087db0">
+<div id="outline-container-org4baf6a2" class="outline-3">
+<h3 id="org4baf6a2">Math for Quantum: Gates</h3>
+<div class="outline-text-3" id="text-org4baf6a2">
 <ul class="org-ul">
-<li>Superposition, Interference, Entanglement
+<li>The representation of the gates is done by using matrices.</li>
+<li>When applying a gate, the input state and output state (qubit) can be represented as vectors.
 <ul class="org-ul">
-<li>These are the 3 quantum phenomena that allow us to design quantum algorithms.</li>
+<li>Applying and X gate:
+\(|0\rangle\) X \(|1\rangle\)</li>
 </ul></li>
-<li>This field is all about mastering these properties to make computing faster and more powerful.</li>
+<li>We can represent this <b>X</b> using a matrix.</li>
+<li>We use <b>vectors</b> to represent a quantum <b>state</b>
+\[\begin{bmatrix}0\\1\end{bmatrix}\]</li>
+
+<li>We use <b>matrices</b> to represent a quantum <b>gate</b>
+\[\begin{bmatrix}0 & 1\\1 & 0\end{bmatrix}\]</li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org6c04c26" class="outline-3">
-<h3 id="org6c04c26">Applications of Quantum Computing</h3>
-<div class="outline-text-3" id="text-org6c04c26">
+<div id="outline-container-org5c55488" class="outline-3">
+<h3 id="org5c55488">The formula</h3>
+<div class="outline-text-3" id="text-org5c55488">
 <ul class="org-ul">
-<li>Saving lives - Climate change is a threat.</li>
-<li>Globally distributing food - &ldquo;Could Quantum Computing Help Feed the World?&rdquo;</li>
-<li>Astrophysics - Search for life in other planets</li>
-<li>Vaccine developtment, Drug Discovery - Simulating quantum systems
+<li><p>
+Gate x Quantum State = New Quantum State
+</p>
 <ul class="org-ul">
-<li>Finance</li>
-<li>Cyber Security</li>
-<li>Biology</li>
-<li>Chemestry</li>
-<li>Aerospace</li>
-<li>Robotics and Machine Learning</li>
-</ul></li>
+<li>Matrix x Vector = New vector</li>
+<li>E.g: (X gate matrix) (initial state) = final state</li>
 </ul>
-</div>
-</div>
+<p>
+\[\begin{bmatrix}0 & 1\\1 & 0\end{bmatrix}\begin{bmatrix}1\\0\end{bmatrix} = \begin{bmatrix}0\\1\end{bmatrix}\]
+</p></li>
 
-<div id="outline-container-org7f33a4c" class="outline-3">
-<h3 id="org7f33a4c">Quantum Computers posses advantages in</h3>
-<div class="outline-text-3" id="text-org7f33a4c">
-<ul class="org-ul">
-<li>Problems that involve too much searching or testing for classical computers to do quickly</li>
-<li>Problems that require secure encryption</li>
-<li>Problems that require simulating quantum mechanical systems</li>
-</ul>
-</div>
-</div>
+<li>X gate:
+\[\begin{bmatrix}0 & 1\\1 & 0\end{bmatrix}\]</li>
 
-<div id="outline-container-org6f5f126" class="outline-3">
-<h3 id="org6f5f126">The bigger field</h3>
-<div class="outline-text-3" id="text-org6f5f126">
+<li>Z gate:
+\[\begin{bmatrix}1 & 0\\0 & -1\end{bmatrix}\]</li>
+
+<li>H gate:
+\[\frac{1}{\sqrt{2}}\begin{bmatrix}1 & 1\\1 & -1\end{bmatrix}\]
+
 <ul class="org-ul">
-<li>Quantum Computing is part of a larger field called Quantum Information Science and Engineering (QISE)
-<ul class="org-ul">
-<li>Quantum computing, Quantum sensing, Quantum networking</li>
+<li>You don&rsquo;t need to remember all of them, you can always look it up!</li>
 </ul></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orga33f407" class="outline-3">
-<h3 id="orga33f407">Universities (US/UK)</h3>
-<div class="outline-text-3" id="text-orga33f407">
+<div id="outline-container-org7c1e24c" class="outline-3">
+<h3 id="org7c1e24c">Multiplying matrices</h3>
+<div class="outline-text-3" id="text-org7c1e24c">
 <ul class="org-ul">
-<li>Search about &ldquo;The Quantum talent gap&rdquo;
+<li>You start by multiplying the first line of the first matrix by the first columm of the second matrix</li>
+</ul>
+<p>
+<code>note</code> I have already studied this subject (matrices) at school, so I apologize for not explaning each step <b>clearly</b>
+</p>
+
+<p>
+\[\begin{bmatrix}0 & 1\\1 & 0\end{bmatrix}\begin{bmatrix}1\\0\end{bmatrix} = \begin{bmatrix}0*1 + 1*0\\1*1 + 0*0\end{bmatrix} =\begin{bmatrix}0\\1\end{bmatrix}\]
+</p>
+
 <ul class="org-ul">
-<li>The Institute for Quantum Computing — University of Waterloo</li>
-<li>University of Oxford</li>
-<li>Centre for Quantum Information and Foundations - Cambridge</li>
-<li>University of California Berkeley</li>
-<li>University of Maryland — Joint Quantum Institute</li>
-<li>University of Science and Technology of China (USTC) – Division of Quantum Physics and Quantum Information</li>
-<li>University of Chicago — Chicago Quantum Exchange (CQE)</li>
-<li>Harvard University — Harvard Quantum Initiative</li>
-<li>MIT — Center for Theoretical Physics</li>
-<li>Unversity of California Riverside</li>
-<li><a href="https://quantumcomputingreport.com/universities/">&ldquo;Quantum Universities&rdquo;</a></li>
+<li>Let&rsquo;s start with a \(|1\rangle\) state:</li>
+</ul>
+<p>
+\[\begin{bmatrix}0 & 1\\1 & 0\end{bmatrix}\begin{bmatrix}0\\1\end{bmatrix} = \begin{bmatrix}0*0 + 1*1\\1*0 + 0*1\end{bmatrix} =\begin{bmatrix}1\\0\end{bmatrix}\]
+</p>
+
+<ul class="org-ul">
+<li>Let&rsquo;s try to apply a Z gate to a \(|0\rangle\) state:</li>
+</ul>
+<p>
+\[\begin{bmatrix}1 & 0\\0 & -1\end{bmatrix}\begin{bmatrix}1\\0\end{bmatrix} = \begin{bmatrix}1*1 + 0*0\\0*1 + (-1)*0\end{bmatrix} =\begin{bmatrix}1\\0\end{bmatrix}\]
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgc2a3cbd" class="outline-3">
+<h3 id="orgc2a3cbd">The math of Quantum Resources</h3>
+<div class="outline-text-3" id="text-orgc2a3cbd">
+</div>
+<div id="outline-container-orge1acca8" class="outline-4">
+<h4 id="orge1acca8">Math for superposition:</h4>
+<div class="outline-text-4" id="text-orge1acca8">
+<ul class="org-ul">
+<li>Apply the H gate to a \(|0\rangle\) input
+\[\frac{1}{\sqrt{2}}\begin{bmatrix}1 & 1\\1 & -1\end{bmatrix}\begin{bmatrix}1\\0\end{bmatrix} = \frac{1}{\sqrt{2}} \begin{bmatrix}1*1 + 1*0\\1*1 + (-1)*0\end{bmatrix} = \frac{1}{\sqrt{2}}\begin{bmatrix}1\\1\end{bmatrix} = |+\rangle\]</li>
+
+<li>Apply the H gate to a \(|1\rangle\) input
+\[\frac{1}{\sqrt{2}}\begin{bmatrix}1 & 1\\1 & -1\end{bmatrix}\begin{bmatrix}0\\1\end{bmatrix} = \frac{1}{\sqrt{2}} \begin{bmatrix}1*0 + 1*1\\1*0 + (-1)*1\end{bmatrix} = \frac{1}{\sqrt{2}}\begin{bmatrix}1\\-1\end{bmatrix} = |-\rangle\]</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org601f4c6" class="outline-4">
+<h4 id="org601f4c6">Interference with two H gates:</h4>
+<div class="outline-text-4" id="text-org601f4c6">
+<ul class="org-ul">
+<li><p>
+What is the final state of a circuit with input \(|0\rangle\) and two H gates after it?
+\[\frac{1}{\sqrt{2}}\begin{bmatrix}1 & 1\\1 & -1\end{bmatrix}\begin{bmatrix}1\\0\end{bmatrix} = \frac{1}{\sqrt{2}} \begin{bmatrix}1*1 + 1*0\\1*1 + (-1)*0\end{bmatrix} = \frac{1}{\sqrt{2}}\begin{bmatrix}1\\1\end{bmatrix}\]
+</p>
+
+<p>
+\[\frac{1}{\sqrt{2}}\begin{bmatrix}1 & 1\\1 & -1\end{bmatrix} \frac{1}{\sqrt{2}}\begin{bmatrix}1\\1\end{bmatrix} = \frac{1}{\sqrt{2}}*\frac{1}{\sqrt{2}} \begin{bmatrix}1*1 + 1*1\\1*1 + (-1)*1\end{bmatrix} = \frac{1}{2}\begin{bmatrix}2\\0\end{bmatrix} = \begin{bmatrix}1\\0\end{bmatrix}\]
+</p></li>
+
+<li>The example above is a interference! (more on this later)
+<ul class="org-ul">
+<li>Just like our interferometer we made in Quantum Flytrap</li>
+<li>A beamsplitter is what we use to create an H gate in real life and in Quantum Flytrap, we put the example above to test.</li>
 </ul></li>
 </ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org2f9d87c" class="outline-3">
+<h3 id="org2f9d87c">Guest</h3>
+<div class="outline-text-3" id="text-org2f9d87c">
+<p>
+<a href="https://physicstoday.scitation.org/do/10.1063/PT.6.4.20211025b/full/">https://physicstoday.scitation.org/do/10.1063/PT.6.4.20211025b/full/</a>
+</p>
 </div>
 </div>
 </div>

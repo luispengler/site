@@ -1,0 +1,78 @@
+#+TITLE: Week 7 - my notes
+#+DESCRIPTION: Week 7 - my notes
+#+SETUPFILE: https://luispengler.github.io/site/org-html-themes/org/theme-readtheorg.setup
+#+LaTeX_+HEADER: \usepackage{physics}
+#+LaTeX_+HEADER: \usepackage{amsmath}
+#+OPTIONS: num:nil ^:{} toc:2
+
+* Week 7 (qubit by qubit)
+** Recap
+*** Review:
++ We saw the math of qubit states - vectors
++ X - 180 rotation around the X-axis
++ Z - 180 rotation around the Z-axis
++ H - creates a superposition
++ We have to normalize states - they must have a length of 1
++ Phase is the sign between \(|0\rangle\) and \(|1\rangle\)
+
+** Math for Quantum: Gates
++ The representation of the gates is done by using matrices.
++ When applying a gate, the input state and output state (qubit) can be represented as vectors.
+  - Applying and X gate:
+    \(|0\rangle\) X \(|1\rangle\)
++ We can represent this *X* using a matrix.
++ We use *vectors* to represent a quantum *state*
+  \[\begin{bmatrix}0\\1\end{bmatrix}\]
+
++ We use *matrices* to represent a quantum *gate*
+  \[\begin{bmatrix}0 & 1\\1 & 0\end{bmatrix}\]
+
+** The formula
++ Gate x Quantum State = New Quantum State
+  - Matrix x Vector = New vector
+  - E.g: (X gate matrix) (initial state) = final state
+  \[\begin{bmatrix}0 & 1\\1 & 0\end{bmatrix}\begin{bmatrix}1\\0\end{bmatrix} = \begin{bmatrix}0\\1\end{bmatrix}\]
+
++ X gate:
+  \[\begin{bmatrix}0 & 1\\1 & 0\end{bmatrix}\]
+
++ Z gate:
+  \[\begin{bmatrix}1 & 0\\0 & -1\end{bmatrix}\]
+
++ H gate:
+  \[\frac{1}{\sqrt{2}}\begin{bmatrix}1 & 1\\1 & -1\end{bmatrix}\]
+
+    - You don't need to remember all of them, you can always look it up!
+
+** Multiplying matrices
++ You start by multiplying the first line of the first matrix by the first columm of the second matrix
+=note= I have already studied this subject (matrices) at school, so I apologize for not explaning each step *clearly*
+
+\[\begin{bmatrix}0 & 1\\1 & 0\end{bmatrix}\begin{bmatrix}1\\0\end{bmatrix} = \begin{bmatrix}0*1 + 1*0\\1*1 + 0*0\end{bmatrix} =\begin{bmatrix}0\\1\end{bmatrix}\]
+
++ Let's start with a \(|1\rangle\) state:
+\[\begin{bmatrix}0 & 1\\1 & 0\end{bmatrix}\begin{bmatrix}0\\1\end{bmatrix} = \begin{bmatrix}0*0 + 1*1\\1*0 + 0*1\end{bmatrix} =\begin{bmatrix}1\\0\end{bmatrix}\]
+
++ Let's try to apply a Z gate to a \(|0\rangle\) state:
+\[\begin{bmatrix}1 & 0\\0 & -1\end{bmatrix}\begin{bmatrix}1\\0\end{bmatrix} = \begin{bmatrix}1*1 + 0*0\\0*1 + (-1)*0\end{bmatrix} =\begin{bmatrix}1\\0\end{bmatrix}\]
+
+** The math of Quantum Resources
+*** Math for superposition:
++ Apply the H gate to a \(|0\rangle\) input
+  \[\frac{1}{\sqrt{2}}\begin{bmatrix}1 & 1\\1 & -1\end{bmatrix}\begin{bmatrix}1\\0\end{bmatrix} = \frac{1}{\sqrt{2}} \begin{bmatrix}1*1 + 1*0\\1*1 + (-1)*0\end{bmatrix} = \frac{1}{\sqrt{2}}\begin{bmatrix}1\\1\end{bmatrix} = |+\rangle\]
+
++ Apply the H gate to a \(|1\rangle\) input
+  \[\frac{1}{\sqrt{2}}\begin{bmatrix}1 & 1\\1 & -1\end{bmatrix}\begin{bmatrix}0\\1\end{bmatrix} = \frac{1}{\sqrt{2}} \begin{bmatrix}1*0 + 1*1\\1*0 + (-1)*1\end{bmatrix} = \frac{1}{\sqrt{2}}\begin{bmatrix}1\\-1\end{bmatrix} = |-\rangle\]
+
+*** Interference with two H gates:
++ What is the final state of a circuit with input \(|0\rangle\) and two H gates after it?
+  \[\frac{1}{\sqrt{2}}\begin{bmatrix}1 & 1\\1 & -1\end{bmatrix}\begin{bmatrix}1\\0\end{bmatrix} = \frac{1}{\sqrt{2}} \begin{bmatrix}1*1 + 1*0\\1*1 + (-1)*0\end{bmatrix} = \frac{1}{\sqrt{2}}\begin{bmatrix}1\\1\end{bmatrix}\]
+
+  \[\frac{1}{\sqrt{2}}\begin{bmatrix}1 & 1\\1 & -1\end{bmatrix} \frac{1}{\sqrt{2}}\begin{bmatrix}1\\1\end{bmatrix} = \frac{1}{\sqrt{2}}*\frac{1}{\sqrt{2}} \begin{bmatrix}1*1 + 1*1\\1*1 + (-1)*1\end{bmatrix} = \frac{1}{2}\begin{bmatrix}2\\0\end{bmatrix} = \begin{bmatrix}1\\0\end{bmatrix}\]
+
++ The example above is a interference! (more on this later)
+  - Just like our interferometer we made in Quantum Flytrap
+  - A beamsplitter is what we use to create an H gate in real life and in Quantum Flytrap, we put the example above to test.
+
+** Guest
+https://physicstoday.scitation.org/do/10.1063/PT.6.4.20211025b/full/
