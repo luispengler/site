@@ -1,0 +1,22 @@
+#+TITLE: An introduction to Linear Algebra - my notes.
+#+DESCRIPTION: An introduction to Linear Algebra - my notes
+#+SETUPFILE: https://luispengler.github.io/site/org-html-themes/org/theme-readtheorg.setup
+#+OPTIONS: num:nil ^:{} toc:1
+#+LaTeX_+HEADER: \usepackage{physics}
+#+LaTeX_+HEADER: \usepackage{amsmath}
+
+* This collection
+This is basically a summary from [[https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab][Essence of Linear Algebra: A Video Playlist by 3Blue1Brown]]
+A plan on digging down on Linear Algebra soon and so, I will probably have a better summary for you to read in the future :)
+
+* Why Linear Algebra
+[[https://medium.com/@jeremyjkun/here-s-just-a-fraction-of-what-you-can-do-with-linear-algebra-633383d4153f][Here’s just a fraction of what you can do with linear algebra]]
+The article above should explain everything, I am lazy to type it all here xD
+But the reason why I am interested in learning this is because linear algebra is a tool every physics either in particle physics or in quantum mechanics should know.
+
+* What is a vector
++ You can see it from 3 perspectives: Physics, Mathematics, Computer Science
+  - Physics: Vectors are arrows pointing in space and it is defined by its length and the direction it is pointing. As long as these are the same, no matter where in space they are. They are the same.
+  - Computer Science: Vectores are defined in a matrix. In here, vector is just a fancy word for list.
+\[\begin{bmatrix}Item a\\Item b\end{bmatrix}]
+  - Math: In Linear algebra it's almost always the casa that the vector will be rooted to the origin.

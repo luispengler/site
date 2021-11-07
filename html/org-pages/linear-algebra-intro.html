@@ -6,9 +6,9 @@
 <!-- 2021-11-07 dom 10:55 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Particle Physics - Notes</title>
+<title>An introduction to Linear Algebra - my notes.</title>
 <meta name="author" content="Luís Guilherme Miranda Spengler" />
-<meta name="description" content="luispengler.github.io/site - Official Site of Luís Spengler" />
+<meta name="description" content="An introduction to Linear Algebra - my notes" />
 <meta name="generator" content="Org Mode" />
 <style>
   #content { max-width: 60em; margin: auto; }
@@ -200,25 +200,79 @@
 <script src="httpss://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="https://luispengler.github.io/site/org-html-themes/src/lib/js/jquery.stickytableheaders.min.js"></script>
 <script type="text/javascript" src="https://luispengler.github.io/site/org-html-themes/src/readtheorg_theme/js/readtheorg.js"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        displayAlign: "center",
+        displayIndent: "0em",
+
+        "HTML-CSS": { scale: 100,
+                        linebreaks: { automatic: "false" },
+                        webFont: "TeX"
+                       },
+        SVG: {scale: 100,
+              linebreaks: { automatic: "false" },
+              font: "TeX"},
+        NativeMML: {scale: 100},
+        TeX: { equationNumbers: {autoNumber: "AMS"},
+               MultLineWidth: "85%",
+               TagSide: "right",
+               TagIndent: ".8em"
+             }
+});
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML"></script>
 </head>
 <body>
 <div id="content" class="content">
-<h1 class="title">Particle Physics - Notes</h1>
+<h1 class="title">An introduction to Linear Algebra - my notes.</h1>
 <div id="table-of-contents" role="doc-toc">
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#org6257265">Sorry</a></li>
+<li><a href="#org59034e1">This collection</a></li>
+<li><a href="#org7e2bebd">Why Linear Algebra</a></li>
+<li><a href="#org11d1f8e">What is a vector</a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org6257265" class="outline-2">
-<h2 id="org6257265">Sorry</h2>
-<div class="outline-text-2" id="text-org6257265">
+<div id="outline-container-org59034e1" class="outline-2">
+<h2 id="org59034e1">This collection</h2>
+<div class="outline-text-2" id="text-org59034e1">
 <p>
-Still building this up.
+This is basically a summary from <a href="https://www.youtube.com/watch?v=fNk_zzaMoSs&amp;list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab">Essence of Linear Algebra: A Video Playlist by 3Blue1Brown</a>
+A plan on digging down on Linear Algebra soon and so, I will probably have a better summary for you to read in the future :)
 </p>
+</div>
+</div>
+
+<div id="outline-container-org7e2bebd" class="outline-2">
+<h2 id="org7e2bebd">Why Linear Algebra</h2>
+<div class="outline-text-2" id="text-org7e2bebd">
+<p>
+<a href="https://medium.com/@jeremyjkun/here-s-just-a-fraction-of-what-you-can-do-with-linear-algebra-633383d4153f">Here’s just a fraction of what you can do with linear algebra</a>
+The article above should explain everything, I am lazy to type it all here xD
+But the reason why I am interested in learning this is because linear algebra is a tool every physics either in particle physics or in quantum mechanics should know.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org11d1f8e" class="outline-2">
+<h2 id="org11d1f8e">What is a vector</h2>
+<div class="outline-text-2" id="text-org11d1f8e">
+<ul class="org-ul">
+<li>You can see it from 3 perspectives: Physics, Mathematics, Computer Science
+<ul class="org-ul">
+<li>Physics: Vectors are arrows pointing in space and it is defined by its length and the direction it is pointing. As long as these are the same, no matter where in space they are. They are the same.</li>
+<li>Computer Science: Vectores are defined in a matrix. In here, vector is just a fancy word for list.</li>
+</ul></li>
+</ul>
+<p>
+\[\begin{bmatrix}Item a\\Item b\end{bmatrix}]
+</p>
+<ul class="org-ul">
+<li>Math: In Linear algebra it&rsquo;s almost always the casa that the vector will be rooted to the origin.</li>
+</ul>
 </div>
 </div>
 </div>
