@@ -66,7 +66,7 @@ There are *680 episodes* in arrowverse right now. If every episode on this list 
 + [X]         Arrow – 3.23: “My Name Is Oliver Queen”
 + [X]         The Flash – 1.23: “Fast Enough”
 
-* 2015/2016 [25/81] [30%]
+* 2015/2016 [28/81] [34%]
 
 + [X]         Supergirl - 1.01: "Pilot"
 + [X]         Supergirl - 1.02: "Stronger Together"
@@ -93,9 +93,9 @@ There are *680 episodes* in arrowverse right now. If every episode on this list 
 + [X]         Arrow – 4.03: “Restoration”
 + [X]         The Flash – 2.04: “The Fury of Firestorm”
 + [X]         Arrow – 4.04: “Beyond Redemption”
-+ [ ]         The Flash – 2.05: “The Darkness and the Light”
-+ [ ]         Arrow -  4.05: “Haunted”
-+ [ ]         The Flash – 2.06: “Enter Zoom”
++ [X]         The Flash – 2.05: “The Darkness and the Light”
++ [X]         Arrow -  4.05: “Haunted”
++ [X]         The Flash – 2.06: “Enter Zoom”
 + [ ]         Arrow – 4.06: “Lost Souls”
 + [ ]         The Flash – 2.07: “Gorilla Warfare”
 + [ ]         Arrow – 4.07: “Brotherhood”
