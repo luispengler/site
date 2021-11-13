@@ -3,6 +3,7 @@
 #+SETUPFILE:  https://luispengler.github.io/site/org-html-themes/org/theme-readtheorg.setup
 #+OPTIONS: toc:nil
 
+https://luispengler.github.io/site/html/org-pages/portuguese/diario-de-bordo.html
 
 ** O começo de tudo
 
