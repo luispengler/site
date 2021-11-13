@@ -3,11 +3,11 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2021-11-08 seg 07:03 -->
+<!-- 2021-11-13 Sat 17:03 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Week 4 - my own writings</title>
-<meta name="author" content="Luís Guilherme Miranda Spengler" />
+<meta name="author" content="Luís Spengler" />
 <meta name="description" content="Week 4 - my own writings" />
 <meta name="generator" content="Org Mode" />
 <style>
@@ -229,29 +229,29 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#orgd13c4f8">Week 4 (Qubit by Qubit)</a>
+<li><a href="#org84caadc">Week 4 (Qubit by Qubit)</a>
 <ul>
-<li><a href="#org43ab8af">RECAP:</a></li>
-<li><a href="#orgf35fa50">Quantum Gates and Measurement</a></li>
-<li><a href="#org1f542df">Lab:</a></li>
-<li><a href="#orgc900718">Guest speaker:</a></li>
+<li><a href="#orgd0f57e8">RECAP:</a></li>
+<li><a href="#org2f8d1af">Quantum Gates and Measurement</a></li>
+<li><a href="#orge1ff450">Lab:</a></li>
+<li><a href="#org641f68a">Guest speaker:</a></li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orgd13c4f8" class="outline-2">
-<h2 id="orgd13c4f8">Week 4 (Qubit by Qubit)</h2>
-<div class="outline-text-2" id="text-orgd13c4f8">
+<div id="outline-container-org84caadc" class="outline-2">
+<h2 id="org84caadc">Week 4 (Qubit by Qubit)</h2>
+<div class="outline-text-2" id="text-org84caadc">
 </div>
-<div id="outline-container-org43ab8af" class="outline-3">
-<h3 id="org43ab8af">RECAP:</h3>
-<div class="outline-text-3" id="text-org43ab8af">
+<div id="outline-container-orgd0f57e8" class="outline-3">
+<h3 id="orgd0f57e8">RECAP:</h3>
+<div class="outline-text-3" id="text-orgd0f57e8">
 </div>
-<div id="outline-container-orgb75721b" class="outline-4">
-<h4 id="orgb75721b">Quantum mechanics:</h4>
-<div class="outline-text-4" id="text-orgb75721b">
+<div id="outline-container-org2839738" class="outline-4">
+<h4 id="org2839738">Quantum mechanics:</h4>
+<div class="outline-text-4" id="text-org2839738">
 <ul class="org-ul">
 <li>Qubits have discrete states and we can use these 0s and 1s in computation.</li>
 <li>In adition to being 0 or 1, qubits can also be in a superposition and therefore, can hold exponentionally more information than classical</li>
@@ -263,13 +263,13 @@
 </div>
 </div>
 
-<div id="outline-container-orgf35fa50" class="outline-3">
-<h3 id="orgf35fa50">Quantum Gates and Measurement</h3>
-<div class="outline-text-3" id="text-orgf35fa50">
+<div id="outline-container-org2f8d1af" class="outline-3">
+<h3 id="org2f8d1af">Quantum Gates and Measurement</h3>
+<div class="outline-text-3" id="text-org2f8d1af">
 </div>
-<div id="outline-container-org51b5e70" class="outline-4">
-<h4 id="org51b5e70">Representing Qubits</h4>
-<div class="outline-text-4" id="text-org51b5e70">
+<div id="outline-container-orgb937c27" class="outline-4">
+<h4 id="orgb937c27">Representing Qubits</h4>
+<div class="outline-text-4" id="text-orgb937c27">
 <ul class="org-ul">
 <li>Superconducting qubits (Google, IBM), trapped ion qubits (IONq), Photonics (PsiQuantum) are some types of qubits, but they all obey quantum mechanics laws as well as <b>having the same way to represent them.</b></li>
 <li>Represntation is a way to write down and show what&rsquo;s happening, without worring to much about the physics.</li>
@@ -280,18 +280,18 @@ Ket notation and the Block sphere are two common ways to describe qubits instead
 </div>
 </div>
 
-<div id="outline-container-org70557cd" class="outline-4">
-<h4 id="org70557cd">Ket Notation</h4>
-<div class="outline-text-4" id="text-org70557cd">
+<div id="outline-container-org9a007a9" class="outline-4">
+<h4 id="org9a007a9">Ket Notation</h4>
+<div class="outline-text-4" id="text-org9a007a9">
 <ul class="org-ul">
 <li>1 and 0 are not just numbers, they are <b>quantum states.</b> and to represent that, we use kets.</li>
 <li>Anything inside  \(\langle|\) means it&rsquo;s a quantum state. Ex: \(|1\rangle\), \(|0\rangle\) and Superposition of \(|0\rangle\) and \(|1\rangle\)</li>
 <li>AKA bra-ket notation or Dirac notation.</li>
 </ul>
 </div>
-<div id="outline-container-orgc20d19e" class="outline-5">
-<h5 id="orgc20d19e">Schrodinger&rsquo;s ket</h5>
-<div class="outline-text-5" id="text-orgc20d19e">
+<div id="outline-container-org96d3489" class="outline-5">
+<h5 id="org96d3489">Schrodinger&rsquo;s ket</h5>
+<div class="outline-text-5" id="text-org96d3489">
 <ul class="org-ul">
 <li>\(|alive\rangle+|dead\rangle\)</li>
 <li>In future weeks, we will be learning some math with kets.</li>
@@ -300,20 +300,20 @@ Ket notation and the Block sphere are two common ways to describe qubits instead
 </div>
 </div>
 
-<div id="outline-container-org13ffe23" class="outline-4">
-<h4 id="org13ffe23">the Block sphere</h4>
-<div class="outline-text-4" id="text-org13ffe23">
+<div id="outline-container-orgaa5b110" class="outline-4">
+<h4 id="orgaa5b110">the Block sphere</h4>
+<div class="outline-text-4" id="text-orgaa5b110">
 <ul class="org-ul">
 <li>Qubits can be in more than three states (different than using arrow notation, that uses <b>Equal Superpostion</b>).</li>
 </ul>
 
-<div id="orgb20c885" class="figure">
+<div id="org9258d57" class="figure">
 <p><img src="https://luispengler.github.io/site/doc/images/qc-x-h.png" alt="qc-x-h.png" title="Double-slit" style="margin-left: auto;margin-right: auto;background-color: mintcream;display: block;width: 50%;" />
 </p>
 </div>
 
 
-<div id="orged861cb" class="figure">
+<div id="org4c2cd0d" class="figure">
 <p><img src="https://luispengler.github.io/site/doc/images/qc-h-x.png" alt="qc-h-x.png" title="Double-slit" style="margin-left: auto;margin-right: auto;background-color: mintcream;display: block;width: 50%;" />
 </p>
 </div>
@@ -324,9 +324,9 @@ Ket notation and the Block sphere are two common ways to describe qubits instead
 </div>
 </div>
 
-<div id="outline-container-org5b1c809" class="outline-4">
-<h4 id="org5b1c809">Quantum Gates</h4>
-<div class="outline-text-4" id="text-org5b1c809">
+<div id="outline-container-orgece49e6" class="outline-4">
+<h4 id="orgece49e6">Quantum Gates</h4>
+<div class="outline-text-4" id="text-orgece49e6">
 <ul class="org-ul">
 <li>Quantum gates convert a qubit from one state to another.</li>
 <li>The computations that quantum gates make can be visualized as rotations on the Bloch sphere.</li>
@@ -336,9 +336,9 @@ Ket notation and the Block sphere are two common ways to describe qubits instead
 </ul>
 </div>
 
-<div id="outline-container-org2f9c164" class="outline-5">
-<h5 id="org2f9c164">The X gate</h5>
-<div class="outline-text-5" id="text-org2f9c164">
+<div id="outline-container-org6c11cea" class="outline-5">
+<h5 id="org6c11cea">The X gate</h5>
+<div class="outline-text-5" id="text-org6c11cea">
 <ul class="org-ul">
 <li>it gives the opposite of the input (hint: just like NOT gate in classical computing)</li>
 <li>Input: \(|0\rangle\) Output: \(|1\rangle\)</li>
@@ -348,9 +348,9 @@ Ket notation and the Block sphere are two common ways to describe qubits instead
 </div>
 </div>
 
-<div id="outline-container-org069eaa0" class="outline-5">
-<h5 id="org069eaa0">The H gate</h5>
-<div class="outline-text-5" id="text-org069eaa0">
+<div id="outline-container-org8d34487" class="outline-5">
+<h5 id="org8d34487">The H gate</h5>
+<div class="outline-text-5" id="text-org8d34487">
 <ul class="org-ul">
 <li>AKA Hadamard gate</li>
 <li>It is a purely quantum gate (has no classical equivalent) and only exists on quantum computers.</li>
@@ -366,9 +366,9 @@ Ket notation and the Block sphere are two common ways to describe qubits instead
 </div>
 </div>
 
-<div id="outline-container-org1f542df" class="outline-3">
-<h3 id="org1f542df">Lab:</h3>
-<div class="outline-text-3" id="text-org1f542df">
+<div id="outline-container-orge1ff450" class="outline-3">
+<h3 id="orge1ff450">Lab:</h3>
+<div class="outline-text-3" id="text-orge1ff450">
 <p>
 We had an introduction to Qiskit (a python library developed by IBM)
 </p>
@@ -379,9 +379,9 @@ qc = QuantumCircuit(1)
 </p>
 </div>
 </div>
-<div id="outline-container-orgc900718" class="outline-3">
-<h3 id="orgc900718">Guest speaker:</h3>
-<div class="outline-text-3" id="text-orgc900718">
+<div id="outline-container-org641f68a" class="outline-3">
+<h3 id="org641f68a">Guest speaker:</h3>
+<div class="outline-text-3" id="text-org641f68a">
 <p>
 Dr. Casey Berger, visiting assistant. Computational physics.
 science fiction she&rsquo;s written: URSA MAJOR, FIRST LIGHT, DARK STARTS <a href="https://www.caseybergerbooks.com/">https://www.caseybergerbooks.com/</a>
@@ -392,8 +392,8 @@ She studies superfluids.
 </div>
 </div>
 <div id="postamble" class="status">
-<p class="author">Author: Luís Guilherme Miranda Spengler</p>
-<p class="date">Created: 2021-11-08 seg 07:03</p>
+<p class="author">Author: Luís Spengler</p>
+<p class="date">Created: 2021-11-13 Sat 17:03</p>
 </div>
 </body>
 </html>
