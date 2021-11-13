@@ -3,25 +3,27 @@
 #+SETUPFILE:  https://luispengler.github.io/site/org-html-themes/org/theme-readtheorg.setup
 #+OPTIONS: toc:nil
 
-https://luispengler.github.io/site/html/org-pages/portuguese/diario-de-bordo.html
-
 ** O começo de tudo
 
 
 O English Club atua desde 2017 no campus Campo Grande oferecendo encontros de conversação aos alunos e servidores de nossa comunidade interna. Embora nosso foco tenha se estendido à pesquisa em 2020, mantivemos a proposta inicial de continuar oferecendo os encontros de conversação e atuando nos eventos institucionais. Para isso, realizamos encontros periódicos com os estudantes voluntários do projeto e lançamos uma nova proposta de encontro de conversação. O diferencial em 2020 foi a atuação direta de nossos estudantes voluntários nos encontros, sendo organizado, planejado e ministrado por eles, sem a necessidade de intervenção direta das professoras coordenadoras. A experiência proporcionou aos estudantes voluntários mais autonomia e responsabilidade e, aos estudantes participantes dos encontros, mais liberdade para interagir com seus pares diante de moderadores do seu própria faixa etária. Além disso, foram propostos horários tanto no período matutino quanto vespertino, o que facilitou a participação de mais estudantes em nossos encontros.
 
 ** Algumas datas (para futura referência)
-+ Grupo do Telegram criado dia 9 de janeiro de 2021
-+ Primeiro Let's Bora dia 13 de janeiro de 2021
++ 8/01/2021: Criação do grupo do Telegram
++ 13/01/2021: Primeiro Let's Bora
 #+ATTR_HTML: alt: Modelo padrão :title Modelo Padrão :style float:left;margin-bottom:20px;margin-left: auto;margin-right: auto;background-color: mintcream;display: block;max-width: 100%;height: auto;
 https://luispengler.github.io/site/doc/images/primeiro-letsbora.jpg
   - Oficialmente todas as conversações foram nas quartas-feiras, sempre às 19h
-+ Encontro sobre música, dia 20 de janeiro de 2021
-+ Primeira tentativa da noite de jogos, dia 3 de fevereiro de 2021
+
++ 20/01/2021: Primeiro encontro com um tema definido, a partir deste, sempre tentamos ter um tópico de conversação
++ 03/02/2021: Primeira tentativa da noite de jogos
 + Até dia 17 de fevereiro, já haviamos falado sobre:
-  - Movies;
-  - Music;
-  - School;
-  - Games;
-  - Quarantine.
-+ Tivemos nosso primeiro convidado estrangeiro dia 21 de abril.
+    - Movies;
+    - Music;
+    - School;
+    - Games;
+    - Quarantine.
+
++ 21/04/2021: Tivemos nosso primeiro convidado estrangeiro
+
+https://luispengler.github.io/site/html/org-pages/portuguese/diario-de-bordo.html
