@@ -15,4 +15,12 @@ O English Club atua desde 2017 no campus Campo Grande oferecendo encontros de co
 #+ATTR_HTML: alt: Modelo padrão :title Modelo Padrão :style float:left;margin-bottom:20px;margin-left: auto;margin-right: auto;background-color: mintcream;display: block;max-width: 100%;height: auto;
 https://luispengler.github.io/site/doc/images/primeiro-letsbora.jpg
   - Oficialmente todas as conversações foram nas quartas-feiras, sempre às 19h
-+
++ Encontro sobre música, dia 20 de janeiro de 2021
++ Primeira tentativa da noite de jogos, dia 3 de fevereiro de 2021
++ Até dia 17 de fevereiro, já haviamos falado sobre:
+  - Movies;
+  - Music;
+  - School;
+  - Games;
+  - Quarantine.
++ Tivemos nosso primeiro convidado estrangeiro dia 21 de abril.
