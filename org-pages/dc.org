@@ -20,7 +20,7 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 
 + [X]         Arrow – Season 2
 
-* 2014/2015 [46/46] [100%]
+* 2014/2015 [45/58] [77%]
 
 + [X]         The Flash – 1.01: “Pilot”
 + [X]         Arrow – 3.01: “The Calm”
@@ -28,26 +28,38 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [X]         Arrow – 3.02: “Sara”
 + [X]         The Flash – 1.03: “Things You Can’t Outrun”
 + [X]         Arrow – 3.03: “Corto Maltese”
++ [ ]         Constantine - 1.01: "Non Est Asylum"
 + [X]         The Flash – 1.04: “Going Rogue”
 + [X]         Arrow – 3.04: “The Magician”
++ [ ]         Constantine - 1.02: "The Darkness Beneath"
 + [X]         Arrow -  3.05: “The Secret Origin of Felicity Smoak”
++ [ ]         Constantine - 1.03: "The Devil's Vinyl"
 + [X]         The Flash -  1.05: “Plastique”
 + [X]         Arrow – 3.06: “Guilty”
++ [ ]         Constantine - 1.04: "A Feast of Friends"
 + [X]         The Flash – 1.06: “The Flash Is Born”
 + [X]         Arrow – 3.07: “Draw Back Your Bow”
++ [ ]         Constantine - 1.05: "Danse Vaudou"
 + [X]         The Flash – 1.07: “Power Outage”
-+ [X]         The Flash – 1.08: “Flash vs. Arrow” ***MUST BE WATCHED TOGETHER (1)
-+ [X]         Arrow – 3.08: “The Brave and the Bold” ***MUST BE WATCHED TOGETHER (2)
++ [ ]         Constantine - 1.06: "Rage of Caliban"
++ [X]         The Flash – 1.08: “Flash vs. Arrow” *MUST BE WATCHED TOGETHER (1)*
++ [X]         Arrow – 3.08: “The Brave and the Bold” *MUST BE WATCHED TOGETHER (2)*
++ [ ]         Constantine - 1.07: "Blessed Are the Damned"
 + [X]         The Flash – 1.09: “The Man in the Yellow Suit”
 + [X]         Arrow – 3.09: “The Climb”
-+ [X]         The Flash – 1.10: “Revenge of the Rogues”
++ [ ]         Constantine - 1.08: "The Saint of Last Resorts"
++ [ ]         Constantine - 1.09: "The Saint of Last Resorts: Part 2"
 + [X]         Arrow – 3.10: “Left Behind”
++ [ ]         Constantine - 1.10: "Quid Pro Quo"
 + [X]         The Flash – 1.11: “The Sound and the Fury”
 + [X]         Arrow – 3.11: “Midnight City”
++ [ ]         Constantine - 1.11: "A Whole World Out There"
 + [X]         The Flash - 1×12: “Crazy for You”
 + [X]         Arrow – 3.12: “Uprising”
++ [ ]         Constantine - 1.12: "Angels and Ministers of Grace"
 + [X]         The Flash - 1×13: “The Nuclear Man”
 + [X]         Arrow – 3.13: “Canaries”
++ [ ]         Constantine - 1.13: "Waiting for the Man"
 + [X]         The Flash - 1×14: “Fallout”
 + [X]         Arrow – 3.14: “The Return”
 + [X]         Arrow -  3.15: “Nanda Parbat”
@@ -68,6 +80,12 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [X]         The Flash – 1.22: “Rogue Air”
 + [X]         Arrow – 3.23: “My Name Is Oliver Queen”
 + [X]         The Flash – 1.23: “Fast Enough”
++ [ ]         Vixen - 1.01: "Episode 1"
++ [ ]         Vixen - 1.02: "Episode 2"
++ [ ]         Vixen - 1.03: "Episode 3"
++ [ ]         Vixen - 1.04: "Episode 4"
++ [ ]         Vixen - 1.05: "Episode 5"
++ [ ]         Vixen - 1.06: "Episode 6"
 
 * 2015/2016 [30/81] [37%]
 
@@ -161,25 +179,31 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [ ]         The Flash – 3.02: “Paradox”
 + [ ]         Arrow – 5.02: “The Recruits”
 + [ ]         Legends of Tomorrow – 2.01: “Out of Time”
++ [ ]         Vixen - 2.01: "Episode 1"
 + [ ]         Supergirl – 2.02: “The Last Children of Krypton”
 + [ ]         The Flash – 3.03: “Magenta”
 + [ ]         Arrow – 5.03: “A Matter of Trust”
 + [ ]         Legends of Tomorrow – 2.02: “The Justice Society of America”
++ [ ]         Vixen - 2.02: "Episode 2"
 + [ ]         Supergirl – 2.03: “Welcome to Earth”
 + [ ]         The Flash – 3.04: “The New Rogues”
 + [ ]         Arrow – 5.04: “Penance”
 + [ ]         Legends of Tomorrow – 2.03: “Shogun”
++ [ ]         Vixen - 2.03: "Episode 3"
 + [ ]         Supergirl – 2.04: “Survivors”
 + [ ]         The Flash – 3.05: “Monster”
 + [ ]         Arrow – 5.05: “Human Target”
 + [ ]         Legends of Tomorrow – 2.04: “Abominations”
++ [ ]         Vixen - 2.04: "Episode 4"
 + [ ]         Supergirl – 2.05: “Crossfire”
 + [ ]         Arrow – 5.06: “So It Begins”
 + [ ]         Legends of Tomorrow – 2.05: “Compromised”
++ [ ]         Vixen - 2.05: "Episode 5"
 + [ ]         Supergirl – 2.06: “Changing”
 + [ ]         The Flash – 3.06: “Shade”
 + [ ]         Arrow – 5.07: “Vigilante”
 + [ ]         Legends of Tomorrow – 2.06: “Outlaw Country”
++ [ ]         Vixen - 2.06: "Episode 6"
 + [ ]         Supergirl – 2.07: “The Darkest Place”
 + [ ]         The Flash – 3.07: “Killer Frost”
 + [ ]         Supergirl – 2.08: “Medusa” ***MUST BE WATCHED TOGETHER (1)
@@ -279,6 +303,14 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [ ]         The Flash – 4.09: “Don’t Run”
 + [ ]         Legends of Tomorrow – 3.09: “Beebo The God of War”
 + [ ]         Arrow – 6.09: “Irreconcilable Differences”
++ [ ]         Freedom Fighters: The Ray - 1.01: "Episode One"
++ [ ]         Freedom Fighters: The Ray - 1.02: "Episode Two"
++ [ ]         Freedom Fighters: The Ray - 1.03: "Episode Three"
++ [ ]         Freedom Fighters: The Ray - 1.04: "Episode Four"
++ [ ]         Freedom Fighters: The Ray - 1.05: "Episode Five"
++ [ ]         Freedom Fighters: The Ray - 1.06: "Episode Six"
+
+
 + [ ]         Supergirl – 3.10: “Legion of Super-Heroes”
 + [ ]         The Flash – 4.10: “The Trial of The Flash”
 + [ ]         Black Lightning – 1.01: “The Resurrection”
@@ -343,6 +375,12 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [ ]         Supergirl – 3.21: “Not Kansas”
 + [ ]         Supergirl – 3.22: “Make It Reign”
 + [ ]         Supergirl – 3.23: “Battles Lost And Won”
++ [ ]         Freedom Fighters: The Ray - 2.01: "Episode One"
++ [ ]         Freedom Fighters: The Ray - 2.02: "Episode Two"
++ [ ]         Freedom Fighters: The Ray - 2.03: "Episode Three"
++ [ ]         Freedom Fighters: The Ray - 2.04: "Episode Four"
++ [ ]         Freedom Fighters: The Ray - 2.05: "Episode Five"
++ [ ]         Freedom Fighters: The Ray - 2.06: "Episode Six"
 
 * 2018/2019 [0/99] [0%]
 
@@ -665,3 +703,31 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [ ]         Supergirl – 6.13: “The Gauntlet”
 + [ ]         Stargirl – 2.09: “Summer School: Chapter Nine”
 + [ ]         Supergirl – 6.14: “Magical Thinking”
++ [ ]         Stargirl - 2.10: "Summer School: Chapter Ten"
++ [ ]         Supergirl - 6.15: "Hope for Tomorrow"
++ [ ]         Batwoman - 3.01: "Mad As a Hatter"
++ [ ]         DC's Legends of Tomorrow - 7.01: "The Bullet Blondes"
++ [ ]         Stargirl - 2.11: "Summer School: Chapter Eleven"
++ [ ]         Supergirl - 6.16: "Nightmare in National City"
++ [ ]         Batwoman - 3.02: "Loose Tooth"
++ [ ]         DC's Legends of Tomorrow - 7.02: "The Need for Speed"
++ [ ]         Stargirl - 2.12: "Summer School: Chapter Twelve"
++ [ ]         Supergirl - 6.17: "I Believe in a thing Called Love"
++ [ ]         Batwoman - 3.03: "Freeze"
++ [ ]         DC's Legends of Tomorrow - 7.03: "wvrdr_error_100 not found"
++ [ ]         Stargirl - 2.13: "Summer School: Chapter Thirteen"
++ [ ]         Supergirl - 6.18: "Truth or Consequences"
++ [ ]         Batwoman - 3.04: "Antifreeze"
++ [ ]         DC's Legends of Tomorrow - 7.04: "Speakeasy Does It"
++ [ ]         Supergirl - 6.19: "The Last Gauntlet"
++ [ ]         Supergirl - 6.20: "Kara"
++ [ ]         Batwoman - 3.05: "A Lesson From Professor Pyg"
++ [ ]         DC's Legends of Tomorrow - 7.05: "It's a Mad, Mad, Mad, Mad Scientist"
++ [ ]         The Flash - 8.01: "Armageddon, Part 1"
++ [ ]         Batwoman - 3.06: "How Does Your Garden Grow?""
++ [ ]         DC's Legends of Tomorrow - 7.06: "Deus Ex Latrina"
++ [ ]         The Flash - 8.02: "Armageddon, Part 2"
++ [ ]         Batwoman - 3.07: "Pick Your Poison"
++ [ ]         DC's Legends of Tomorrow - 7.07: "A Woman's Place Is The War Effort!"
++ [ ]         The Flash - 8.03: "Armageddon, Part 3"
++ [ ]         Superman & Lois - 2.01: "What Lies Beneath"
