@@ -1,7 +1,7 @@
 #+TITLE: Arrowverse - Selftracking DC's arrowverse
 #+DESCRIPTION: luispengler.github.io/site - Arrowverse - Selftracking DC's arrowverse
 #+SETUPFILE:  https://luispengler.github.io/site/org-html-themes/org/theme-readtheorg.setup
-#+OPTIONS: num:nil ^:{}
+#+OPTIONS: num:nil ^:{} toc:1
 
 * Getting started
 Another compilation of arroverse viewing order you can find on the net...
@@ -13,7 +13,7 @@ Another compilation of arroverse viewing order you can find on the net...
 
 There are *734 episodes* in arrowverse as of November 13th, 2022. If every episode on this list is at least 40 minutes long, then the total *watch time would be of 29360 minutes or 489,33 hours, which is 20 days and 9 hours.*
 
-** Changelog: Version 2.0 (Click here to view more)
+**  [[https://github.com/luispengler/site/commit/d3bcccd1755bebf9cf722e844e43e994bf1345be#diff-d8fcf12ffd178198924d2369cc02b14d48dcbf87cfb2184498a7ac20f3c5b4cc][Version 1.0]] (Added: Constantine, Vixen, Freedom Fighters: The Ray; counted new episodes)
 
 * An arrow on ya [2/2] [100%]
 + [X]         Arrow – Season 1
