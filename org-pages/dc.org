@@ -4,12 +4,12 @@
 #+OPTIONS: num:nil ^:{} toc:1
 
 * Getting started
-Another compilation of arroverse viewing order you can find on the net...
-=Note 1= As much as I'd like to make this a mainstream project I can't. This webpage serves the only porpouse of helping me check my progress while watching arrowverse.
+Another compilation of arroverse viewing order you can find on the net...\\
+=Note 1= As much as I'd like to make this a mainstream project I can't. This webpage serves the only porpouse of helping me check my progress while watching arrowverse.\\
 =Note 2= This viewing order comes from this amazing open-source project, check it out: [[https://arrowverse.info/][arrowverse.info]]
 
-|------------------------+--------------------------+---------------------------+---------------------+--------------------------+------------------------------------+-----------------------------------------+-------------------------------+------------------------+------------------------+-------------------------------|
-| Arrow   (170 episodes) | The Flash (151 episodes) | Constantine (13 episodes) | Vixen (12 episodes) | Supergirl (126 episodes) | Legends of Tomorrow (102 episodes) | Freedom Fighters: The Ray (12 episodes) | Black Lightning (58 episodes) | Batwoman (43 episodes) | Stargirl (26 episodes) | Superman & Lois (15 episodes) |
+|------------------+--------------------+---------------------+---------------+--------------------+------------------------------+-----------------------------------+-------------------------+------------------+------------------+-------------------------|
+| Arrow   (170 ep) | The Flash (151 ep) | Constantine (13 ep) | Vixen (12 ep) | Supergirl (126 ep) | Legends of Tomorrow (102 ep) | Freedom Fighters: The Ray (12 ep) | Black Lightning (58 ep) | Batwoman (43 ep) | Stargirl (26 ep) | Superman & Lois (15 ep) |
 
 There are *734 episodes* in arrowverse as of November 13th, 2022. If every episode on this list is at least 40 minutes long, then the total *watch time would be of 29360 minutes or 489,33 hours, which is 20 days and 9 hours.*
 
