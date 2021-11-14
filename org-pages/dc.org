@@ -1,16 +1,19 @@
-#+TITLE: DC's arrowverse
-#+DESCRIPTION: luispengler.github.io/site - DC's arrowverse
+#+TITLE: Arrowverse - Selftracking DC's arrowverse
+#+DESCRIPTION: luispengler.github.io/site - Arrowverse - Selftracking DC's arrowverse
 #+SETUPFILE:  https://luispengler.github.io/site/org-html-themes/org/theme-readtheorg.setup
 #+OPTIONS: num:nil ^:{}
 
 * Getting started
-Before reading, just know the credit for this list goes to Matt Vernier, posted on [[https://www.geekyregards.com/p/arrowverse-viewing-order.html][Geeky Regards]]
-Using org-mode thanks to doom emacs, I was able to make this viewing order list in a checkbox list, to track my progress while I watch the series.
+Another compilation of arroverse viewing order you can find on the net...
+=Note 1= As much as I'd like to make this a mainstream project I can't. This webpage serves the only porpouse of helping me check my progress while watching arrowverse.
+=Note 2= This viewing order comes from this amazing open-source project, check it out: [[https://arrowverse.info/][arrowverse.info]]
 
-|------------------------+--------------------------+--------------------------+-----------------------------------+-------------------------------+------------------------+------------------------+-------------------------------|
-| Arrow   (170 episodes) | The Flash (151 episodes) | Supergirl (121 episodes) | Legends of Tomorrow (98 episodes) | Black Lightning (58 episodes) | Batwoman (42 episodes) | Stargirl (26 episodes) | Superman & Lois (15 episodes) |
+|------------------------+--------------------------+---------------------------+---------------------+--------------------------+------------------------------------+-----------------------------------------+-------------------------------+------------------------+------------------------+-------------------------------|
+| Arrow   (170 episodes) | The Flash (151 episodes) | Constantine (13 episodes) | Vixen (12 episodes) | Supergirl (126 episodes) | Legends of Tomorrow (102 episodes) | Freedom Fighters: The Ray (12 episodes) | Black Lightning (58 episodes) | Batwoman (43 episodes) | Stargirl (26 episodes) | Superman & Lois (15 episodes) |
 
-There are *680 episodes* in arrowverse right now. If every episode on this list is at least 40 minutes long, then the total *watch time would be of 27200 minutes or 453,33 hours, which is 18,888 days.*
+There are *734 episodes* in arrowverse as of November 13th, 2022. If every episode on this list is at least 40 minutes long, then the total *watch time would be of 29360 minutes or 489,33 hours, which is 20 days and 9 hours.*
+
+** Changelog: Version 2.0 (Click here to view more)
 
 * An arrow on ya [2/2] [100%]
 + [X]         Arrow – Season 1
