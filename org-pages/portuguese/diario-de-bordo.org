@@ -5,48 +5,48 @@
 
 ** Diário de Bordo
 
-(inset date) O English Club atua desde 2017 no campus Campo Grande oferecendo encontros de conversação aos alunos e servidores de nossa comunidade interna. Embora nosso foco tenha se estendido à pesquisa em 2020, mantivemos a proposta inicial de continuar oferecendo os encontros de conversação e atuando nos eventos institucionais. Para isso, realizamos encontros periódicos com os estudantes voluntários do projeto e lançamos uma nova proposta de encontro de conversação. O diferencial em 2020 foi a atuação direta de nossos estudantes voluntários nos encontros, sendo organizado, planejado e ministrado por eles, sem a necessidade de intervenção direta das professoras coordenadoras. A experiência proporcionou aos estudantes voluntários mais autonomia e responsabilidade e, aos estudantes participantes dos encontros, mais liberdade para interagir com seus pares diante de moderadores do seu própria faixa etária. Além disso, foram propostos horários tanto no período matutino quanto vespertino, o que facilitou a participação de mais estudantes em nossos encontros.
-No entanto, devido a pandemia tivemos que mudar o modo em que fazemos as coisas
+=(insert date)= O English Club atua desde 2017 no campus Campo Grande oferecendo encontros de conversação aos alunos e servidores de nossa comunidade interna. Embora nosso foco tenha se estendido à pesquisa em 2020, mantivemos a proposta inicial de continuar oferecendo os encontros de conversação e atuando nos eventos institucionais. Para isso, realizamos encontros periódicos com os estudantes voluntários do projeto e lançamos uma nova proposta de encontro de conversação. O diferencial em 2020 foi a atuação direta de nossos estudantes voluntários nos encontros, sendo organizado, planejado e ministrado por eles, sem a necessidade de intervenção direta das professoras coordenadoras. A experiência proporcionou aos estudantes voluntários mais autonomia e responsabilidade e, aos estudantes participantes dos encontros, mais liberdade para interagir com seus pares diante de moderadores do seu própria faixa etária. Além disso, foram propostos horários tanto no período matutino quanto vespertino, o que facilitou a participação de mais estudantes em nossos encontros.\\
+No entanto, devido a pandemia tivemos que mudar o modo em que fazemos as coisas..
 
-(4/12/2020) Atualmente fazemos nossas reuniões semanais para descutir o que cada time fez. Nos dividimos em Time Iternacionalização, Time Linguístico, Time de Mídias, Time Cultural.
+=(4/12/2020)= Atualmente fazemos nossas reuniões semanais para descutir o que cada time fez. Nos dividimos em Time Iternacionalização, Time Linguístico, Time de Mídias, Time Cultural.
 Seguimos um modelo de reunião trazido pelo Felipe Pavenelli.
 
 #+ATTR_HTML: alt: Modelo padrão :title Modelo Padrão :style float:left;margin-bottom:20px;margin-left: auto;margin-right: auto;background-color: mintcream;display: block;max-width: 100%;height: auto;
 https://luispengler.github.io/site/doc/images/slidesec.png
 
-Temos ideias de projetos em mente, como o Essay Contest e o Spelling Bee. Alguém também sugeriu ao Felipe Pavenelli que criassem um projeto para jogarmos jogos em inglês:
+Temos ideias de projetos em mente, como o Essay Contest e o Spelling Bee. Alguém também sugeriu ao Felipe Pavenelli que criassem um projeto para jogarmos jogos em inglês:\\
 
 #+ATTR_HTML: alt: Modelo padrão :title Modelo Padrão :style float:left;margin-bottom:20px;margin-left: auto;margin-right: auto;background-color: mintcream;display: block;max-width: 100%;height: auto;
 https://luispengler.github.io/site/doc/images/coolidea.png
 
-No entanto, a Raquel Braiani disse que como haviam dito em reunião, já existe um projeto desse tipo no IFMT, chamado de English Game Arena, pelo aluno Luka
+No entanto, a Raquel Braiani disse que como haviam dito em reunião, já existe um projeto desse tipo no IFMT, chamado de English Game Arena, pelo aluno Luka\\
 
-(11/12/2020) Tivemos uma reunião hoje e surgiu a ideia de um projeto de conversação, decidimos nomea-lo Let's Bora Talkar. O intuito do projeto é fornecer encontros de convrsação de lingua inglesa online, com a participação de estudantes e servidores do IFMS.
+=(11/12/2020)= Tivemos uma reunião hoje e surgiu a ideia de um projeto de conversação, decidimos nomea-lo Let's Bora Talkar. O intuito do projeto é fornecer encontros de convrsação de lingua inglesa online, com a participação de estudantes e servidores do IFMS.\\
 
-(14/12/2020) Eu (Luís Spengler) comecei a criar artes para a divulgação do nosso projeto de conversação (Let's Bora Talkar). O resto do grupo está me dando dicas e sugestões para melhorar a arte, porque não sou muito bom nisso, mas logo teremos uma arte pronta.
+=(14/12/2020)= Eu (Luís Spengler) comecei a criar artes para a divulgação do nosso projeto de conversação (Let's Bora Talkar). O resto do grupo está me dando dicas e sugestões para melhorar a arte, porque não sou muito bom nisso, mas logo teremos uma arte pronta.\\
 
-(15/12/2020) Estela Siqueira começa a escrever as primeiras versões das regras do English Club, para podermos criar o nosso formulário de participação do Let's Bora Talkar.
+=(15/12/2020)= Estela Siqueira começa a escrever as primeiras versões das regras do English Club, para podermos criar o nosso formulário de participação do Let's Bora Talkar.\\
 
-(22/12/2020) Temos a primeira versão do formulário do Let's Bora Talkar.
+=(22/12/2020)= Temos a primeira versão do formulário do Let's Bora Talkar.\\
 
 #+ATTR_HTML: alt: Modelo padrão :title Modelo Padrão :style float:left;margin-bottom:20px;margin-left: auto;margin-right: auto;background-color: mintcream;display: block;max-width: 100%;height: auto;
 https://luispengler.github.io/site/doc/images/forms.png
 
 
-Também tentamos marcar a primeira reunião do Let's Bora Talkar para começar dia 30, mas como é o pneultimo dia do ano, talvez não seja uma boa idéia.
+Também tentamos marcar a primeira reunião do Let's Bora Talkar para começar dia 30, mas como é o pneultimo dia do ano, talvez não seja uma boa idéia.\\
 
-(07/01/2021) Depois do ano novo, nosso grupo está bem animado pra continuar os trabalhos que haviam sido feitos. Decidimos usar um grupo do Telegram pra fazermos as coisas, porque grupos de whatsapp tem um "ar de escola", onde alguns professores criam grupos para facilitar a comunicação com suas turmas. Contudo, o English Club sempre quis passar a imagem de ser algo para ser feito fora da sala de aula, até porque, os encontros presenciais (que começaram a partir de 2017) foram feitos fora da sala de aula.
+=(07/01/2021)= Depois do ano novo, nosso grupo está bem animado pra continuar os trabalhos que haviam sido feitos. Decidimos usar um grupo do Telegram pra fazermos as coisas, porque grupos de whatsapp tem um "ar de escola", onde alguns professores criam grupos para facilitar a comunicação com suas turmas. Contudo, o English Club sempre quis passar a imagem de ser algo para ser feito fora da sala de aula, até porque, os encontros presenciais (que começaram a partir de 2017) foram feitos fora da sala de aula.\\
 
-(11/01/2021) Começamos nossa divulgação no Whatsapp (grupos de sala) e Instagram (página do English Club)
+=(11/01/2021)= Começamos nossa divulgação no Whatsapp (grupos de sala) e Instagram (página do English Club)\\
 
-(13/01/2021) Hoje tivemos nosso primeiro Let's Bora! (parece que esse nome pegou mais do que o outro)
+=(13/01/2021)= Hoje tivemos nosso primeiro Let's Bora! (parece que esse nome pegou mais do que o outro)\\
 
 #+ATTR_HTML: alt: Modelo padrão :title Modelo Padrão :style float:left;margin-bottom:20px;margin-left: auto;margin-right: auto;background-color: mintcream;display: block;max-width: 100%;height: auto;
 https://luispengler.github.io/site/doc/images/primeiro-letsbora.jpg
 
-(16/01/2021) Na nossa reunião do staff, decidimos atribuir funções aos integrantes para ajudarem na divulgação do projeto, postando clips mensais de melhores momentos do Let's Bora (por exemplo)
+=(16/01/2021)= Na nossa reunião do staff, decidimos atribuir funções aos integrantes para ajudarem na divulgação do projeto, postando clips mensais de melhores momentos do Let's Bora (por exemplo)\\
 
-** Algumas datas (para futura referência)
+** Curiosidades sobre o Let's Bora
 + 8/01/2021: Criação do grupo do Telegram
 + 13/01/2021: Primeiro Let's Bora
   - Oficialmente todas as conversações foram nas quartas-feiras, sempre às 19h
