@@ -6,9 +6,9 @@
 <!-- 2021-11-16 Tue 16:52 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Week 7 - my notes</title>
+<title>Week 8 - my notes</title>
 <meta name="author" content="Luís Spengler" />
-<meta name="description" content="Week 7 - my notes" />
+<meta name="description" content="Week 8 - my notes" />
 <meta name="generator" content="Org Mode" />
 <style>
   #content { max-width: 60em; margin: auto; }
@@ -224,175 +224,58 @@
 </head>
 <body>
 <div id="content" class="content">
-<h1 class="title">Week 7 - my notes</h1>
+<h1 class="title">Week 8 - my notes</h1>
 <div id="table-of-contents" role="doc-toc">
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#orgbf85b58">Week 7 (qubit by qubit)</a>
+<li><a href="#orgc438476">Week 8 (qubit by qubit)</a>
 <ul>
-<li><a href="#org0ff101a">Recap</a></li>
-<li><a href="#org0fe11a6">Math for Quantum: Gates</a></li>
-<li><a href="#org8310016">The formula</a></li>
-<li><a href="#orga6866f5">Multiplying matrices</a></li>
-<li><a href="#org1506498">The math of Quantum Resources</a></li>
-<li><a href="#org6800765">Guest</a></li>
+<li><a href="#orga390a67">Recap</a></li>
+<li><a href="#orge6fa5a8">Measurement</a></li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orgbf85b58" class="outline-2">
-<h2 id="orgbf85b58">Week 7 (qubit by qubit)</h2>
-<div class="outline-text-2" id="text-orgbf85b58">
+<div id="outline-container-orgc438476" class="outline-2">
+<h2 id="orgc438476">Week 8 (qubit by qubit)</h2>
+<div class="outline-text-2" id="text-orgc438476">
 </div>
-<div id="outline-container-org0ff101a" class="outline-3">
-<h3 id="org0ff101a">Recap</h3>
-<div class="outline-text-3" id="text-org0ff101a">
+<div id="outline-container-orga390a67" class="outline-3">
+<h3 id="orga390a67">Recap</h3>
+<div class="outline-text-3" id="text-orga390a67">
 </div>
-<div id="outline-container-orge1467be" class="outline-4">
-<h4 id="orge1467be">Review:</h4>
-<div class="outline-text-4" id="text-orge1467be">
+<div id="outline-container-org3eb51f7" class="outline-4">
+<h4 id="org3eb51f7">Review:</h4>
+<div class="outline-text-4" id="text-org3eb51f7">
 <ul class="org-ul">
-<li>We saw the math of qubit states - vectors</li>
-<li>X - 180 rotation around the X-axis</li>
-<li>Z - 180 rotation around the Z-axis</li>
-<li>H - creates a superposition</li>
-<li>We have to normalize states - they must have a length of 1</li>
-<li>Phase is the sign between \(|0\rangle\) and \(|1\rangle\)</li>
-</ul>
-</div>
-</div>
-</div>
-
-<div id="outline-container-org0fe11a6" class="outline-3">
-<h3 id="org0fe11a6">Math for Quantum: Gates</h3>
-<div class="outline-text-3" id="text-org0fe11a6">
+<li>The Quantum Circuit Model is broken down in three parts
 <ul class="org-ul">
-<li>The representation of the gates is done by using matrices.</li>
-<li>When applying a gate, the input state and output state (qubit) can be represented as vectors.
-<ul class="org-ul">
-<li>Applying and X gate:
-\(|0\rangle\) X \(|1\rangle\)</li>
-</ul></li>
-<li>We can represent this <b>X</b> using a matrix.</li>
-<li>We use <b>vectors</b> to represent a quantum <b>state</b>
-\[\begin{bmatrix}0\\1\end{bmatrix}\]</li>
-
-<li>We use <b>matrices</b> to represent a quantum <b>gate</b>
-\[\begin{bmatrix}0 & 1\\1 & 0\end{bmatrix}\]</li>
-</ul>
-</div>
-</div>
-
-<div id="outline-container-org8310016" class="outline-3">
-<h3 id="org8310016">The formula</h3>
-<div class="outline-text-3" id="text-org8310016">
-<ul class="org-ul">
+<li>The initial state</li>
+<li>The computation</li>
 <li><p>
-Gate x Quantum State = New Quantum State
+Measurements
 </p>
-<ul class="org-ul">
-<li>Matrix x Vector = New vector</li>
-<li>E.g: (X gate matrix) (initial state) = final state</li>
-</ul>
+
 <p>
-\[\begin{bmatrix}0 & 1\\1 & 0\end{bmatrix}\begin{bmatrix}1\\0\end{bmatrix} = \begin{bmatrix}0\\1\end{bmatrix}\]
+<b>**</b> COMPLETE THIS LATER, YOU FAMILY IS ANNYOING
 </p></li>
-
-<li>X gate:
-\[\begin{bmatrix}0 & 1\\1 & 0\end{bmatrix}\]</li>
-
-<li>Z gate:
-\[\begin{bmatrix}1 & 0\\0 & -1\end{bmatrix}\]</li>
-
-<li>H gate:
-\[\frac{1}{\sqrt{2}}\begin{bmatrix}1 & 1\\1 & -1\end{bmatrix}\]
-
-<ul class="org-ul">
-<li>You don&rsquo;t need to remember all of them, you can always look it up!</li>
-</ul></li>
-</ul>
-</div>
-</div>
-
-<div id="outline-container-orga6866f5" class="outline-3">
-<h3 id="orga6866f5">Multiplying matrices</h3>
-<div class="outline-text-3" id="text-orga6866f5">
-<ul class="org-ul">
-<li>You start by multiplying the first line of the first matrix by the first columm of the second matrix</li>
-</ul>
-<p>
-<code>note</code> I have already studied this subject (matrices) at school, so I apologize for not explaning each step <b>clearly</b>
-</p>
-
-<p>
-\[\begin{bmatrix}0 & 1\\1 & 0\end{bmatrix}\begin{bmatrix}1\\0\end{bmatrix} = \begin{bmatrix}0*1 + 1*0\\1*1 + 0*0\end{bmatrix} =\begin{bmatrix}0\\1\end{bmatrix}\]
-</p>
-
-<ul class="org-ul">
-<li>Let&rsquo;s start with a \(|1\rangle\) state:</li>
-</ul>
-<p>
-\[\begin{bmatrix}0 & 1\\1 & 0\end{bmatrix}\begin{bmatrix}0\\1\end{bmatrix} = \begin{bmatrix}0*0 + 1*1\\1*0 + 0*1\end{bmatrix} =\begin{bmatrix}1\\0\end{bmatrix}\]
-</p>
-
-<ul class="org-ul">
-<li>Let&rsquo;s try to apply a Z gate to a \(|0\rangle\) state:</li>
-</ul>
-<p>
-\[\begin{bmatrix}1 & 0\\0 & -1\end{bmatrix}\begin{bmatrix}1\\0\end{bmatrix} = \begin{bmatrix}1*1 + 0*0\\0*1 + (-1)*0\end{bmatrix} =\begin{bmatrix}1\\0\end{bmatrix}\]
-</p>
-</div>
-</div>
-
-<div id="outline-container-org1506498" class="outline-3">
-<h3 id="org1506498">The math of Quantum Resources</h3>
-<div class="outline-text-3" id="text-org1506498">
-</div>
-<div id="outline-container-org8a360b2" class="outline-4">
-<h4 id="org8a360b2">Math for superposition:</h4>
-<div class="outline-text-4" id="text-org8a360b2">
-<ul class="org-ul">
-<li>Apply the H gate to a \(|0\rangle\) input
-\[\frac{1}{\sqrt{2}}\begin{bmatrix}1 & 1\\1 & -1\end{bmatrix}\begin{bmatrix}1\\0\end{bmatrix} = \frac{1}{\sqrt{2}} \begin{bmatrix}1*1 + 1*0\\1*1 + (-1)*0\end{bmatrix} = \frac{1}{\sqrt{2}}\begin{bmatrix}1\\1\end{bmatrix} = |+\rangle\]</li>
-
-<li>Apply the H gate to a \(|1\rangle\) input
-\[\frac{1}{\sqrt{2}}\begin{bmatrix}1 & 1\\1 & -1\end{bmatrix}\begin{bmatrix}0\\1\end{bmatrix} = \frac{1}{\sqrt{2}} \begin{bmatrix}1*0 + 1*1\\1*0 + (-1)*1\end{bmatrix} = \frac{1}{\sqrt{2}}\begin{bmatrix}1\\-1\end{bmatrix} = |-\rangle\]</li>
-</ul>
-</div>
-</div>
-
-<div id="outline-container-org86ffaa5" class="outline-4">
-<h4 id="org86ffaa5">Interference with two H gates:</h4>
-<div class="outline-text-4" id="text-org86ffaa5">
-<ul class="org-ul">
-<li><p>
-What is the final state of a circuit with input \(|0\rangle\) and two H gates after it?
-\[\frac{1}{\sqrt{2}}\begin{bmatrix}1 & 1\\1 & -1\end{bmatrix}\begin{bmatrix}1\\0\end{bmatrix} = \frac{1}{\sqrt{2}} \begin{bmatrix}1*1 + 1*0\\1*1 + (-1)*0\end{bmatrix} = \frac{1}{\sqrt{2}}\begin{bmatrix}1\\1\end{bmatrix}\]
-</p>
-
-<p>
-\[\frac{1}{\sqrt{2}}\begin{bmatrix}1 & 1\\1 & -1\end{bmatrix} \frac{1}{\sqrt{2}}\begin{bmatrix}1\\1\end{bmatrix} = \frac{1}{\sqrt{2}}*\frac{1}{\sqrt{2}} \begin{bmatrix}1*1 + 1*1\\1*1 + (-1)*1\end{bmatrix} = \frac{1}{2}\begin{bmatrix}2\\0\end{bmatrix} = \begin{bmatrix}1\\0\end{bmatrix}\]
-</p></li>
-
-<li>The example above is a interference! (more on this later)
-<ul class="org-ul">
-<li>Just like our interferometer we made in Quantum Flytrap</li>
-<li>A beamsplitter is what we use to create an H gate in real life and in Quantum Flytrap, we put the example above to test.</li>
 </ul></li>
 </ul>
 </div>
 </div>
 </div>
 
-<div id="outline-container-org6800765" class="outline-3">
-<h3 id="org6800765">Guest</h3>
-<div class="outline-text-3" id="text-org6800765">
-<p>
-<a href="https://physicstoday.scitation.org/do/10.1063/PT.6.4.20211025b/full/">https://physicstoday.scitation.org/do/10.1063/PT.6.4.20211025b/full/</a>
-</p>
+<div id="outline-container-orge6fa5a8" class="outline-3">
+<h3 id="orge6fa5a8">Measurement</h3>
+<div class="outline-text-3" id="text-orge6fa5a8">
+<ul class="org-ul">
+<li>When we measure something, we are basically asking if it is in a \(|0\rangle\) or \(|1\rangle\) state</li>
+<li>Quantum measurements operate in terms of probabilities.</li>
+<li>Our goal is to predict the result of our measurements</li>
+</ul>
 </div>
 </div>
 </div>

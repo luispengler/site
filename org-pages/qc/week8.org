@@ -1,0 +1,21 @@
+#+TITLE: Week 8 - my notes
+#+DESCRIPTION: Week 8 - my notes
+#+SETUPFILE: https://luispengler.github.io/site/org-html-themes/org/theme-readtheorg.setup
+#+LaTeX_+HEADER: \usepackage{physics}
+#+LaTeX_+HEADER: \usepackage{amsmath}
+#+OPTIONS: num:nil ^:{} toc:2
+
+* Week 8 (qubit by qubit)
+** Recap
+*** Review:
++ The Quantum Circuit Model is broken down in three parts
+  - The initial state
+  - The computation
+  - Measurements
+
+    **** COMPLETE THIS LATER, YOU FAMILY IS ANNYOING
+
+** Measurement
++ When we measure something, we are basically asking if it is in a \(|0\rangle\) or \(|1\rangle\) state
++ Quantum measurements operate in terms of probabilities.
++ Our goal is to predict the result of our measurements

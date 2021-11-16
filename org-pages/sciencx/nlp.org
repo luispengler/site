@@ -1,0 +1,29 @@
+#+TITLE: A different aproach to NLP and NLU
+
+
++ NLP serves as a way to run prebuild functions, and not to make it do something.
+  - For it to be able to do something from the words you say
++ Running prebuild functions, there are usually more than 10 ways to trigger these to run:
+  - Say for example, you wanna ask Alexa the wheather:
+    - Alexa, what is the wheather today? - Works
+    - Tell me about the wheather today - Works
+    - I need some information on whether - Quite not the result I wanted
+    - Alexa, am I gonna get wet? - Doesn't work
+* NLP
+** Problems
++ It provides no guarantee - No guarantee of the user receinving what he wants.
++ It can never perfectly understand human languages (eg. sarcasm)
++ It is hard to extend
++ One language dominance (e.g english)
+* Create another language
+- New ALI (Audio Language Interface)
+- Completely undestandable by a computer:
+  - There is only one way of input (which means no sarcasm, synonyms, irony, figure of speech)
+  - Grammar is computer instructions
+  - Language can be extensible
+  - It should remove NLP current issues
+** Benefits
++ It is realiable
++ Easy to be developed
++ It will provide a standard for programs and voice control supported will be added to every software
++ Easier for blind people to use computers

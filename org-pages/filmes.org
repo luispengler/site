@@ -226,6 +226,8 @@
   - [ ] Alien: Convenant
 
 + [ ] Ghostbusters
+  - [ ] Ghostbusters (1984)
+  - [ ] Ghostbusters II (1989)
 
   =Regra:= Depois de uma saga, um filme separado
 
