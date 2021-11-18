@@ -20,7 +20,7 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 
 + [X]         Arrow – Season 2
 
-* 2014/2015 [45/58] [77%]
+* 2014/2015 [54/64] [84%]
 
 + [X]         The Flash – 1.01: “Pilot”
 + [X]         Arrow – 3.01: “The Calm”
@@ -28,27 +28,27 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [X]         Arrow – 3.02: “Sara”
 + [X]         The Flash – 1.03: “Things You Can’t Outrun”
 + [X]         Arrow – 3.03: “Corto Maltese”
-+ [ ]         Constantine - 1.01: "Non Est Asylum"
++ [X]         Constantine - 1.01: "Non Est Asylum"
 + [X]         The Flash – 1.04: “Going Rogue”
 + [X]         Arrow – 3.04: “The Magician”
-+ [ ]         Constantine - 1.02: "The Darkness Beneath"
++ [X]         Constantine - 1.02: "The Darkness Beneath"
 + [X]         Arrow -  3.05: “The Secret Origin of Felicity Smoak”
-+ [ ]         Constantine - 1.03: "The Devil's Vinyl"
++ [X]         Constantine - 1.03: "The Devil's Vinyl"
 + [X]         The Flash -  1.05: “Plastique”
 + [X]         Arrow – 3.06: “Guilty”
-+ [ ]         Constantine - 1.04: "A Feast of Friends"
++ [X]         Constantine - 1.04: "A Feast of Friends"
 + [X]         The Flash – 1.06: “The Flash Is Born”
 + [X]         Arrow – 3.07: “Draw Back Your Bow”
-+ [ ]         Constantine - 1.05: "Danse Vaudou"
++ [X]         Constantine - 1.05: "Danse Vaudou"
 + [X]         The Flash – 1.07: “Power Outage”
-+ [ ]         Constantine - 1.06: "Rage of Caliban"
++ [X]         Constantine - 1.06: "Rage of Caliban"
 + [X]         The Flash – 1.08: “Flash vs. Arrow” *MUST BE WATCHED TOGETHER (1)*
 + [X]         Arrow – 3.08: “The Brave and the Bold” *MUST BE WATCHED TOGETHER (2)*
-+ [ ]         Constantine - 1.07: "Blessed Are the Damned"
++ [X]         Constantine - 1.07: "Blessed Are the Damned"
 + [X]         The Flash – 1.09: “The Man in the Yellow Suit”
 + [X]         Arrow – 3.09: “The Climb”
-+ [ ]         Constantine - 1.08: "The Saint of Last Resorts"
-+ [ ]         Constantine - 1.09: "The Saint of Last Resorts: Part 2"
++ [X]         Constantine - 1.08: "The Saint of Last Resorts"
++ [X]         Constantine - 1.09: "The Saint of Last Resorts: Part 2"
 + [X]         Arrow – 3.10: “Left Behind”
 + [ ]         Constantine - 1.10: "Quid Pro Quo"
 + [X]         The Flash – 1.11: “The Sound and the Fury”

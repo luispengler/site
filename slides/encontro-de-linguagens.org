@@ -1,0 +1,28 @@
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+#+REVEAL_REVEAL_JS_VERSION: 4
+#+REVEAL_TRANS: linear
+#+REVEAL_THEME: moon
+#+OPTIONS: num:nil toc:1 timestamp:nil
+#+Title: II Encontro de Linguagens - slides
+#+Author: Natanael Ribeiro, Luís Spengler, Mariana Lopes
+#+Email: englishclubcg@gmail.com
+* Title of Presentation
+by: [YOUR NAME]
+* INTRODUÇÃO
+#+BEGIN_NOTES
+  Enter speaker notes here.
+#+END_NOTES
+* METODOLOGIA
+There be text here!
+* RESULTADOS E ANÁLISE
+:PROPERTIES:
+:reveal_background: path/to/image
+:reveal_background_size: x00px
+:reveal_background_trans: slide
+:END:
+* CONSIDERAÇÕES FINAIS
+* REFERÊNCIAS
+* Follow English Club
+- Web: [YOUR WEBSITE]
+- Twitter: [YOUR TWITTER HANDLE]
+- Blog: [YOUR BLOG]
