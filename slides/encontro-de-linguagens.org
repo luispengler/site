@@ -29,8 +29,16 @@ O Let's Bora está sendo o nosso jeito de manter aqueles que querem melhorar seu
   Essas são as edições de Let's Bora que aconteceram até o dia de hoje.
 #+END_NOTES
 * INTRODUÇÃO
-#+ATTR_HTML: :width 75% :align center
+#+BEGIN_NOTES
+Muita gente começou a criar conteúdo para as redes socias depois que a pandemia começou
+#+END_NOTES
+#+ATTR_HTML: :height 35% :width 35% :align center
+https://luispengler.github.io/site/doc/images/max.jpg
+
+#+ATTR_HTML: :height 35% :width 35% :align center
 https://luispengler.github.io/site/doc/images/monalisa-mask.jpg
+
+** O Nascimento do Let's Bora
 * METODOLOGIA
 There be text here!
 * RESULTADOS E ANÁLISE
