@@ -29,16 +29,24 @@ O Let's Bora está sendo o nosso jeito de manter aqueles que querem melhorar seu
   Essas são as edições de Let's Bora que aconteceram até o dia de hoje.
 #+END_NOTES
 * INTRODUÇÃO
+** Criação de Conteúdo
+#+ATTR_REVEAL: :frag (appear)
 #+BEGIN_NOTES
-Muita gente começou a criar conteúdo para as redes socias depois que a pandemia começou
+Como não é surpresa para ninguém, muita gente começou a criar conteúdo para as redes socias depois que a pandemia começou...
 #+END_NOTES
-#+ATTR_HTML: :height 35% :width 35% :align center
+
+#+ATTR_HTML: :width 65% :align center
 https://luispengler.github.io/site/doc/images/max.jpg
 
+#+BEGIN_NOTES
+Essa foto é de um clipe de um artista alemão e no clipe da música dele aparecem dezenas de pessoas, que submeteram vídeos deles cantando a música. O nome da música é Nie starker als jetz, que significa, Nunca fomos tão fortes quanto agora.
+#+END_NOTES
+
+** O Nascimento do Let's Bora
+Você na pandemia indo ao Let's Bora:
 #+ATTR_HTML: :height 35% :width 35% :align center
 https://luispengler.github.io/site/doc/images/monalisa-mask.jpg
 
-** O Nascimento do Let's Bora
 * METODOLOGIA
 There be text here!
 * RESULTADOS E ANÁLISE
