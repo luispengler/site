@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2021-11-18 Thu 16:52 -->
+<!-- 2021-11-18 Thu 19:19 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Week 8 - my notes</title>
@@ -232,9 +232,29 @@
 <li><a href="#orgc438476">Week 8 (qubit by qubit)</a>
 <ul>
 <li><a href="#orga390a67">Recap</a></li>
-<li><a href="#orge6fa5a8">Measurement</a></li>
 </ul>
 </li>
+<li><a href="#orge6fa5a8">Measurement</a>
+<ul>
+<li><a href="#orga8c5230">What we know about quantum measurements</a></li>
+</ul>
+</li>
+<li><a href="#org5ab1c0f">Statevector math</a>
+<ul>
+<li><a href="#orgdec52ca">Born Rule</a></li>
+<li><a href="#org10fcb84">Some questions&#x2026;</a></li>
+<li><a href="#orga0cc01a">That is why we normalize</a></li>
+<li><a href="#orga3b6449">Why does the Born rule work?</a></li>
+</ul>
+</li>
+<li><a href="#orgb2ed43b">Measurement Bases</a>
+<ul>
+<li><a href="#orgcef70d0">Rules for measurement</a></li>
+<li><a href="#orgfdf496a">Revisiting the Bloch Sphere</a></li>
+</ul>
+</li>
+<li><a href="#orgaf6f6cf">The Stern Gerlach Experiment</a></li>
+<li><a href="#org754107b">Resources</a></li>
 </ul>
 </div>
 </div>
@@ -255,34 +275,205 @@
 <ul class="org-ul">
 <li>The initial state</li>
 <li>The computation</li>
-<li><p>
-Measurements
-</p>
-
-<p>
-<b>**</b> COMPLETE THIS LATER, YOU FAMILY IS ANNYOING
-</p></li>
+<li>Measurements</li>
 </ul></li>
+<li>The final part of every circuit is the measurement.</li>
+<li>We can represent a quantum state as a vector with two elements</li>
+<li>We can represent a quantum gate as a matrix</li>
+<li>We learned how to mathematically apply a gate (Matrix times Vector = New Vector)</li>
 </ul>
 </div>
 </div>
 </div>
+</div>
 
-<div id="outline-container-orge6fa5a8" class="outline-3">
-<h3 id="orge6fa5a8">Measurement</h3>
-<div class="outline-text-3" id="text-orge6fa5a8">
+<div id="outline-container-orge6fa5a8" class="outline-2">
+<h2 id="orge6fa5a8">Measurement</h2>
+<div class="outline-text-2" id="text-orge6fa5a8">
+</div>
+<div id="outline-container-orga8c5230" class="outline-3">
+<h3 id="orga8c5230">What we know about quantum measurements</h3>
+<div class="outline-text-3" id="text-orga8c5230">
 <ul class="org-ul">
-<li>When we measure something, we are basically asking if it is in a \(|0\rangle\) or \(|1\rangle\) state</li>
+<li>By obersivign (measuring) a quantum state, we can change it</li>
+<li>When we measure something, we are basically asking if it is in a \(|0\rangle\) or \(|1\rangle\) state
+<ul class="org-ul">
+<li>Those are the only two choices. After a measurement, its state needs to be in one state only.</li>
+</ul></li>
+<li>The outcome of a quantum measurement is sometimes random</li>
 <li>Quantum measurements operate in terms of probabilities.</li>
 <li>Our goal is to predict the result of our measurements</li>
 </ul>
+<p>
+<code>Today</code> we will learn how we can predict quantum measurements
+</p>
 </div>
 </div>
+</div>
+<div id="outline-container-org5ab1c0f" class="outline-2">
+<h2 id="org5ab1c0f">Statevector math</h2>
+<div class="outline-text-2" id="text-org5ab1c0f">
+</div>
+<div id="outline-container-orgdec52ca" class="outline-3">
+<h3 id="orgdec52ca">Born Rule</h3>
+<div class="outline-text-3" id="text-orgdec52ca">
+<p>
+Here we got an equal contribuition of \(|0\rangle\) and \(|1\rangle\):
+</p>
+
+<p>
+\[\frac{1}{\sqrt{2}}\begin{bmatrix}1\\1\end{bmatrix}\]
+For example, the contribuition of \(|0\rangle\) and its probability:
+</p>
+<ul class="org-ul">
+<li>Contribuition:
+\[\frac{1}{\sqrt{2}}\]</li>
+<li>Probability:
+[\frac{1}{2}]</li>
+<li>To get the probability above, we can simply square a state&rsquo;s contribuition:</li>
+</ul>
+<p>
+\[(\frac{1}{\sqrt{2}})^2=\frac{1}{2}\]
+</p>
+
+<p>
+<code>This rule works across the board!</code>
+</p>
+<ul class="org-ul">
+<li>The probability of measuring a qubit in the \(|0\rangle\) state is equal to the square of the contribuition of \(|0\rangle\) to the qubit&rsquo;s state.</li>
+<li>Similarly, the probability of measuring a qubit in the \(|1\rangle\) state is equal to the square of the contribuition of \(|1\rangle\) to the qubit&rsquo;s state.</li>
+<li>The formal term for the contribuitions of \(|0\rangle\) and \(|1\rangle\) is the <b>amplitude</b></li>
+<li>This is one of the reasons we learn vectors. The contain the probabilities hidden&#x2026;</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org10fcb84" class="outline-3">
+<h3 id="org10fcb84">Some questions&#x2026;</h3>
+<div class="outline-text-3" id="text-org10fcb84">
+<ul class="org-ul">
+<li>What is the probability of measuring \(|0\rangle\) for this state? What about the probability of \(|1\rangle\)?
+\[\frac{1}{\sqrt{5}}\begin{bmatrix}1\\2\end{bmatrix}\]</li>
+<li>Contribuition of \(|0\rangle\):
+\[\frac{1}{\sqrt{5}}\]</li>
+<li>Probability of \(|0\rangle\):
+\[(\frac{1}{\sqrt{5}}^2)=\frac{1}{5}\]</li>
+<li>Contribuition of \(|1\rangle\):
+\[\frac{2}{\sqrt{5}}\]</li>
+<li>Probability of \(|1\rangle\):
+\[(\frac{2}{\sqrt{5}}^2)=\frac{4}{5}\]</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orga0cc01a" class="outline-3">
+<h3 id="orga0cc01a">That is why we normalize</h3>
+<div class="outline-text-3" id="text-orga0cc01a">
+<ul class="org-ul">
+<li>When we represent vectors in quantum state, the must be normalized, which means they must have a lenght of 1.</li>
+<li>Why 1?</li>
+<li>The numbers in the vectors show us probabilities of measuring a certain value. These probabilities must add up to 1.</li>
+<li>If we use 1 as the normalized state, it means that 100% of the time we can get that state.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orga3b6449" class="outline-3">
+<h3 id="orga3b6449">Why does the Born rule work?</h3>
+<div class="outline-text-3" id="text-orga3b6449">
+<ul class="org-ul">
+<li>No idea.</li>
+<li>In quantum mechanics we have rules for what happens, but sometimes we don&rsquo;t know why they happen.</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgb2ed43b" class="outline-2">
+<h2 id="orgb2ed43b">Measurement Bases</h2>
+<div class="outline-text-2" id="text-orgb2ed43b">
+<ul class="org-ul">
+<li>Are 0 and 1 the only possible outcomes?
+<ul class="org-ul">
+<li>Short answer: No! We can get different outcomes if we measure in different ways.</li>
+</ul></li>
+</ul>
+</div>
+<div id="outline-container-orgcef70d0" class="outline-3">
+<h3 id="orgcef70d0">Rules for measurement</h3>
+<div class="outline-text-3" id="text-orgcef70d0">
+<ul class="org-ul">
+<li>The output can be one of two options. You only have these two options for a potential outcome.</li>
+<li>If your initial state is a superposition the measurement will default to one of the two options randomly.</li>
+<li>However, your set of two choices will be decided by which measurement basis you use.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgfdf496a" class="outline-3">
+<h3 id="orgfdf496a">Revisiting the Bloch Sphere</h3>
+<div class="outline-text-3" id="text-orgfdf496a">
+<ul class="org-ul">
+<li>The Bloch Sphere sits along 3 axes: X, Y and Z.
+<ul class="org-ul">
+<li>The \(|0\rangle\) and \(|1\rangle\) states lie along the Z axis.</li>
+<li>The \(|+\rangle\) and \(|-\rangle\) states lie along the X axis.</li>
+<li>We won&rsquo;t discuss the Y axis in this course (because it requires complex numbers&#x2026;)</li>
+</ul></li>
+</ul>
+</div>
+
+<div id="outline-container-org9361e7d" class="outline-4">
+<h4 id="org9361e7d">Measuring in the Z basis</h4>
+<div class="outline-text-4" id="text-org9361e7d">
+<ul class="org-ul">
+<li>If our measurement only have either \(|0\rangle\) or \(|1\rangle\) results, we are measuring along the Z axis. This is also known as measuring along the Z basis.
+<ul class="org-ul">
+<li>But we have other basis, remember!?</li>
+</ul></li>
+<li>When we make a measurement, we need to specify which axis we are measuring along, or which measurement basis we are using.
+<ul class="org-ul">
+<li>basis = axis = direction</li>
+</ul></li>
+<li>The basis we choose will affect our measurement outcomes</li>
+<li>In circuits, we represent the measurement symbol with the Z inside it, but if you don&rsquo;t, it also means it is in the Z basis.</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org3648571" class="outline-4">
+<h4 id="org3648571">Measuring in the X basis</h4>
+<div class="outline-text-4" id="text-org3648571">
+<ul class="org-ul">
+<li>When measuring in this basis, we can only get either \(|+\rangle\) or \(|-\rangle\)</li>
+<li>In circuits, we represent the measurement symbol with the X inside it</li>
+<li>When you measure the \(|+\rangle\) in the X basis, you get a \(|+\rangle\) state
+<ul class="org-ul">
+<li>This same state, measured along the Z basis, you randomly get \(|0\rangle\) or \(|1\rangle\)</li>
+</ul></li>
+<li>A \(|0\rangle\) state measured in the X basis is basically this: randomly \(|+\rangle\) or \(|-\rangle\) states, \(|0\rangle\) and \(|1\rangle\) are basically superpositions in the X basis.</li>
+<li>Every state is a superposition in some basis!</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgaf6f6cf" class="outline-2">
+<h2 id="orgaf6f6cf">The Stern Gerlach Experiment</h2>
+<div class="outline-text-2" id="text-orgaf6f6cf">
+<ul class="org-ul">
+<li>Step 1: Measurement changes the state of a qubit</li>
+<li>Step 2: The results of quantum measurement are often random</li>
+<li>Step 3: How you measure determines the outcomes you get</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org754107b" class="outline-2">
+<h2 id="org754107b">Resources</h2>
 </div>
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Luís Spengler</p>
-<p class="date">Created: 2021-11-18 Thu 16:52</p>
+<p class="date">Created: 2021-11-18 Thu 19:19</p>
 </div>
 </body>
 </html>

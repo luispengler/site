@@ -12,10 +12,91 @@
   - The initial state
   - The computation
   - Measurements
++ The final part of every circuit is the measurement.
++ We can represent a quantum state as a vector with two elements
++ We can represent a quantum gate as a matrix
++ We learned how to mathematically apply a gate (Matrix times Vector = New Vector)
 
-    **** COMPLETE THIS LATER, YOU FAMILY IS ANNYOING
-
-** Measurement
+* Measurement
+** What we know about quantum measurements
++ By obersivign (measuring) a quantum state, we can change it
 + When we measure something, we are basically asking if it is in a \(|0\rangle\) or \(|1\rangle\) state
+  - Those are the only two choices. After a measurement, its state needs to be in one state only.
++ The outcome of a quantum measurement is sometimes random
 + Quantum measurements operate in terms of probabilities.
 + Our goal is to predict the result of our measurements
+=Today= we will learn how we can predict quantum measurements
+* Statevector math
+** Born Rule
+Here we got an equal contribuition of \(|0\rangle\) and \(|1\rangle\):
+
+\[\frac{1}{\sqrt{2}}\begin{bmatrix}1\\1\end{bmatrix}\]
+For example, the contribuition of \(|0\rangle\) and its probability:
++ Contribuition:
+  \[\frac{1}{\sqrt{2}}\]
++ Probability:
+  [\frac{1}{2}]
++ To get the probability above, we can simply square a state's contribuition:
+\[(\frac{1}{\sqrt{2}})^2=\frac{1}{2}\]
+
+=This rule works across the board!=
++ The probability of measuring a qubit in the \(|0\rangle\) state is equal to the square of the contribuition of \(|0\rangle\) to the qubit's state.
++ Similarly, the probability of measuring a qubit in the \(|1\rangle\) state is equal to the square of the contribuition of \(|1\rangle\) to the qubit's state.
++ The formal term for the contribuitions of \(|0\rangle\) and \(|1\rangle\) is the *amplitude*
++ This is one of the reasons we learn vectors. The contain the probabilities hidden...
+
+** Some questions...
++ What is the probability of measuring \(|0\rangle\) for this state? What about the probability of \(|1\rangle\)?
+ \[\frac{1}{\sqrt{5}}\begin{bmatrix}1\\2\end{bmatrix}\]
+- Contribuition of \(|0\rangle\):
+  \[\frac{1}{\sqrt{5}}\]
+- Probability of \(|0\rangle\):
+  \[(\frac{1}{\sqrt{5}}^2)=\frac{1}{5}\]
+- Contribuition of \(|1\rangle\):
+  \[\frac{2}{\sqrt{5}}\]
+- Probability of \(|1\rangle\):
+  \[(\frac{2}{\sqrt{5}}^2)=\frac{4}{5}\]
+** That is why we normalize
++ When we represent vectors in quantum state, the must be normalized, which means they must have a lenght of 1.
+- Why 1?
++ The numbers in the vectors show us probabilities of measuring a certain value. These probabilities must add up to 1.
++ If we use 1 as the normalized state, it means that 100% of the time we can get that state.
+** Why does the Born rule work?
++ No idea.
++ In quantum mechanics we have rules for what happens, but sometimes we don't know why they happen.
+
+* Measurement Bases
++ Are 0 and 1 the only possible outcomes?
+  - Short answer: No! We can get different outcomes if we measure in different ways.
+** Rules for measurement
++ The output can be one of two options. You only have these two options for a potential outcome.
++ If your initial state is a superposition the measurement will default to one of the two options randomly.
+- However, your set of two choices will be decided by which measurement basis you use.
+** Revisiting the Bloch Sphere
++ The Bloch Sphere sits along 3 axes: X, Y and Z.
+  - The \(|0\rangle\) and \(|1\rangle\) states lie along the Z axis.
+  - The \(|+\rangle\) and \(|-\rangle\) states lie along the X axis.
+  - We won't discuss the Y axis in this course (because it requires complex numbers...)
+
+*** Measuring in the Z basis
++ If our measurement only have either \(|0\rangle\) or \(|1\rangle\) results, we are measuring along the Z axis. This is also known as measuring along the Z basis.
+  - But we have other basis, remember!?
++ When we make a measurement, we need to specify which axis we are measuring along, or which measurement basis we are using.
+  - basis = axis = direction
++ The basis we choose will affect our measurement outcomes
++ In circuits, we represent the measurement symbol with the Z inside it, but if you don't, it also means it is in the Z basis.
+
+*** Measuring in the X basis
++ When measuring in this basis, we can only get either \(|+\rangle\) or \(|-\rangle\)
++ In circuits, we represent the measurement symbol with the X inside it
++ When you measure the \(|+\rangle\) in the X basis, you get a \(|+\rangle\) state
+  - This same state, measured along the Z basis, you randomly get \(|0\rangle\) or \(|1\rangle\)
++ A \(|0\rangle\) state measured in the X basis is basically this: randomly \(|+\rangle\) or \(|-\rangle\) states, \(|0\rangle\) and \(|1\rangle\) are basically superpositions in the X basis.
++ Every state is a superposition in some basis!
+
+* The Stern Gerlach Experiment
++ Step 1: Measurement changes the state of a qubit
++ Step 2: The results of quantum measurement are often random
++ Step 3: How you measure determines the outcomes you get
+
+* Resources
