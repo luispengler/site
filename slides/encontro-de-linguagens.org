@@ -42,10 +42,18 @@ https://luispengler.github.io/site/doc/images/max.jpg
 Essa foto é de um clipe de um artista alemão e no clipe da música dele aparecem dezenas de pessoas, que submeteram vídeos deles cantando a música. O nome da música é Nie starker als jetz, que significa, Nunca fomos tão fortes quanto agora.
 #+END_NOTES
 
-** O Nascimento do Let's Bora
+** O nascimento do Let's Bora
 Você na pandemia indo ao Let's Bora:
 #+ATTR_HTML: :height 35% :width 35% :align center
 https://luispengler.github.io/site/doc/images/monalisa-mask.jpg
+
+#+BEGIN_NOTES
+E com o Let's Bora não podia ser diferente. Depois de várias reuniões com nosso staff, nasce o Let's Bora no janeiro desse ano.
+#+END_NOTES
+
+** Como resultado do Let's Bora...
+Vimos que poderiamos aproveitar os mesmos conteúdos abordados nos encontros de conversação para desenvolvimento de conteúdo digital no Instagram e Telegram.
+
 
 * METODOLOGIA
 There be text here!
