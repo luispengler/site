@@ -54,15 +54,24 @@ E com o Let's Bora não podia ser diferente. Depois de várias reuniões com nos
 ** Como resultado do Let's Bora...
 Vimos que poderiamos aproveitar os mesmos conteúdos abordados nos encontros de conversação para desenvolvimento de conteúdo digital no Instagram e Telegram.
 
+* Desenvolvimento de conteúdo digital
+#+ATTR_REVEAL: :frag (appear)
+O planejamento das ações que deveriam ser feitas durante as semanas aconteciam durante as reuniões de equipe e o controle era feito a partir de uma planilha no google sheets
+#+ATTR_HTML: :width 65% :align center
+https://luispengler.github.io/site/doc/images/editorial.png
 
-* METODOLOGIA
-There be text here!
-* RESULTADOS E ANÁLISE
-:PROPERTIES:
-:reveal_background: path/to/image
-:reveal_background_size: x00px
-:reveal_background_trans: slide
-:END:
+** Conteúdos criados no Instagram e Telegram
+#+BEGIN_NOTES
+Como dito anteriormente, os conteúdos digitais eram baseados em encontros de conversação passados e as ideias eram discutidos e atribuídas ao integrante responsável pela criação digital que foi escalado no cronograma semanal.
+#+END_NOTES
+Criação de conteúdo nos Stories do Instagram a partir de discussão sobre a sigla "PB" em um encontro do Let's Bora
+#+ATTR_HTML: :width 65% :align center
+https://luispengler.github.io/site/doc/images/PB.jpg
+
+Criação de conteúdo nos Stories do Instagram a partir de discussão sobre a expressão "Down the drain" em um encontro do Let's Bora
+#+ATTR_HTML: :width 65% :align center
+https://luispengler.github.io/site/doc/images/quizz.png
+
 * CONSIDERAÇÕES FINAIS
 * REFERÊNCIAS
 * Follow English Club
