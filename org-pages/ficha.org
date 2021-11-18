@@ -23,9 +23,15 @@
 | Nenhum estudante compareceu                                               | 18/10 (Segunda-feira)                  | 17h         | 19h     |
 | Não compareci                                                             | 20/10 (Quarta-feira)                   | 15h         | 18h     |
 | Nenhum estudante compareceu                                               | 21/10 (Quinta-feira)                   | 15h         | 18h     |
-| Nenhum estudante compareceu                                               | 25/10 (Segunda-feira)                  | 15h         | 18h     |
+| Nenhum estudante compareceu                                               | 25/10 (Segunda-feira)                  | 17h         | 19h     |
 | Não compareci                                                             | 27/10 (Quarta-feira)                   | 15h         | 18h     |
 | Recesso                                                                   | 28/10 (Quinta-feira)                   | 15h         | 18h     |
-| Recesso                                                                   | 01/11 (Segunda-feira)                  | 15h         | 18h     |
+| Recesso                                                                   | 01/11 (Segunda-feira)                  | 17h         | 19h     |
 | Nenhum estudante compareceu                                               | 03/11 (Quarta-feira)                   | 15h         | 18h     |
 | Nenhum estudante compareceu                                               | 04/11 (Quinta-feira)                   | 15h         | 18h     |
+| Nenhum estudante compareceu                                               | 08/11 (Segunda-feira)                  | 17h         | 19h     |
+| Nenhum estudante compareceu                                               | 10/11 (Quarta-feira)                   | 15h         | 18h     |
+| Nenhum estudante compareceu                                               | 11/11 (Quinta-feira)                   | 15h         | 18h     |
+| Nenhum estudante compareceu                                               | 15/11 (Segunda-feira)                  | 17h         | 19h     |
+| Nenhum estudante compareceu                                               | 17/11 (Quarta-feira)                   | 15h         | 18h     |
+| Nenhum estudante compareceu                                               | 18/11 (Quinta-feira)                   | 15h         | 18h     |

@@ -2,16 +2,35 @@
 #+REVEAL_REVEAL_JS_VERSION: 4
 #+REVEAL_TRANS: linear
 #+REVEAL_THEME: moon
-#+OPTIONS: num:nil toc:1 timestamp:nil
-#+Title: II Encontro de Linguagens - slides
-#+Author: Natanael Ribeiro, Luís Spengler, Mariana Lopes
+#+OPTIONS: timestamp:nil toc:nil num:nil
+#+Title: Let's Bora no II Encontro de Linguagens
 #+Email: englishclubcg@gmail.com
-* Title of Presentation
-by: [YOUR NAME]
-* INTRODUÇÃO
+#+Author:
+* O Let's Bora
+#+ATTR_REVEAL: :frag (appear)
+** Primeiro Encontro (13/01/2021)
+#+ATTR_HTML: :width 75% :align center
+https://luispengler.github.io/site/doc/images/primeiro-letsbora.jpg
+** Let's bora nos últimos meses
+O Let's Bora está sendo o nosso jeito de manter aqueles que querem melhorar seu inglês bem aquecidos durante a quarentena!
+** E tem dado certo!
+#+ATTR_REVEAL: :frag (appear)
+40 edições do Let's Bora até hoje...
+| Data              | Let's Bora nº |
+|-------------------+---------------|
+| 13/01/21          |             1 |
+| 20/01/21          |             2 |
+| 27/01/21          |             3 |
+| ................. |            .. |
+| 03/11/21          |            38 |
+| 10/11/21          |            39 |
+| 17/11/21          |            40 |
 #+BEGIN_NOTES
-  Enter speaker notes here.
+  Essas são as edições de Let's Bora que aconteceram até o dia de hoje.
 #+END_NOTES
+* INTRODUÇÃO
+#+ATTR_HTML: :width 75% :align center
+https://luispengler.github.io/site/doc/images/monalisa-mask.jpg
 * METODOLOGIA
 There be text here!
 * RESULTADOS E ANÁLISE

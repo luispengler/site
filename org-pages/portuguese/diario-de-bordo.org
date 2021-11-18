@@ -69,6 +69,49 @@ https://luispengler.github.io/site/doc/images/primeiro-letsbora.jpg
 + 24/03/2021: Criamos um grupo "especial" para os convidados mais ativos
 + 21/04/2021: Tivemos nosso primeiro convidado estrangeiro
 
+| Data     | Let's Bora nº |
+|----------+---------------|
+| 13/01/21 |             1 |
+| 20/01/21 |             2 |
+| 27/01/21 |             3 |
+| 03/02/21 |             4 |
+| 10/02/21 |             5 |
+| 17/02/21 |             6 |
+| 24/02/21 |             7 |
+| 03/03/21 |             8 |
+| 10/03/21 |             9 |
+| 17/03/21 |            10 |
+| 24/03/21 |            11 |
+| 31/03/21 |            12 |
+| 7/04/21  |            13 |
+| 14/04/21 |            14 |
+| 21/04/21 |            15 |
+| 28/04/21 |            16 |
+| 05/05/21 |            17 |
+| 12/05/21 |            18 |
+| 19/05/21 |            19 |
+| 26/05/21 |            20 |
+| 02/06/21 |            21 |
+| 09/06/21 |            22 |
+| 16/06/21 |            23 |
+| 23/06/21 |            24 |
+| 30/06/21 |            25 |
+| 07/07/21 |            26 |
+| 14/07/21 |            27 |
+| 25/08/21 |            28 |
+| 01/09/21 |            29 |
+| 08/09/21 |            30 |
+| 15/09/21 |            31 |
+| 22/09/21 |            32 |
+| 29/09/21 |            33 |
+| 06/10/21 |            34 |
+| 13/10/21 |            35 |
+| 20/10/21 |            36 |
+| 27/10/21 |            37 |
+| 03/11/21 |            38 |
+| 10/11/21 |            39 |
+| 17/11/21 |            40 |
+
 ** Algumas fotos do Let's bora
 #+ATTR_HTML: alt: Modelo padrão :title Modelo Padrão :style float:left;margin-bottom:20px;margin-left: auto;margin-right: auto;background-color: mintcream;display: block;max-width: 100%;height: auto;
 https://luispengler.github.io/site/doc/images/letsbora1.jpg
