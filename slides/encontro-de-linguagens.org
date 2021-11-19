@@ -3,16 +3,16 @@
 #+REVEAL_TRANS: linear
 #+REVEAL_THEME: moon
 #+OPTIONS: timestamp:nil toc:nil num:nil
-#+Title: https://luispengler.github.io/site/doc/images/encontro.png
+#+Title: II ENCONTRO DE LINGUAGENS - Let's Bora
 #+Email: englishclubcg@gmail.com
 #+Author:
+** https://luispengler.github.io/site/doc/images/encontro.png
 ** Criação de Conteúdo Digital a partir dos encontros Let's Bora
 #+ATTR_REVEAL: :frag (appear)
 + Integrantes: Luís Spengler, Mariana Lopes, Natanael Teixeira
-#+REVEAL: split
+** Prêmio melhor projeto a nível médio, FECINTEC 2021
 #+ATTR_HTML: :height 35% :width 35% :align center
 https://luispengler.github.io/site/doc/images/prize.png
-+ Prêmio melhor projeto a nível médio, FECINTEC 2021
 ** Primeiro Encontro (13/01/2021)
 #+ATTR_HTML: :width 75% :align center
 https://luispengler.github.io/site/doc/images/primeiro-letsbora.jpg
@@ -46,7 +46,8 @@ https://luispengler.github.io/site/doc/images/max.jpg
 
 Max Giesinger - "Nie stärker als jetzt"
 #+BEGIN_NOTES
-Essa foto é de um clipe de um artista alemão e no clipe da música dele aparecem dezenas de pessoas, que submeteram vídeos deles cantando a música. O nome da música é Nie starker als jetz, que significa, Nunca fomos tão fortes quanto agora.
+Essa foto é de um clipe de um artista alemão e no clipe da música dele aparecem dezenas de pessoas, se não, quase uma centena, que submeteram vídeos deles cantando a música. O nome da música é Nie starker als jetz, que significa, Nunca fomos tão fortes quanto agora. Eu só achei bem legal mostrar isso aqui, como mesmo nesses vários meses de pandemia, a gente ainda deu um jeito de se unir de alguma forma e essa forma, no caso deles, foi a música.
+E agora no nosso caso...
 #+END_NOTES
 
 ** O nascimento do Let's Bora
@@ -56,16 +57,22 @@ Você na pandemia indo ao Let's Bora:
 https://luispengler.github.io/site/doc/images/monalisa-mask.jpg
 
 #+BEGIN_NOTES
-E com o Let's Bora não podia ser diferente. Depois de várias reuniões com nosso staff, nasce o Let's Bora no janeiro desse ano.
+A gente tem o Let's Bora. Um projeto que nasceu depois de várias reuniões com nosso staff e em janeiro desse ano, a gente começou com os encontros online.
+E deu resultados viu?
 #+END_NOTES
 
 ** Como resultado do Let's Bora...
 Vimos que poderiamos aproveitar os mesmos conteúdos abordados nos encontros de conversação para desenvolvimento de conteúdo digital no Instagram e Telegram.
 
+#+BEGIN_NOTES
+A gente percebeu que podia usar os mesmos conteúdos abordados nos encontros, pra criar conteúdo.
+Agora o Natanael vai falar um pouquinho sobre como a gente desenvolvia esse conteúdo digital, de que a gente tanto fala.
+#+END_NOTES
 * DESENVOLVIMENTO DE CONTEÚDO DIGITAL
 #+ATTR_REVEAL: :frag (appear)
 #+BEGIN_NOTES
-O planejamento das ações que deveriam ser feitas durante as semanas aconteciam durante as reuniões de equipe e o controle era feito a partir de uma planilha no google sheets
+O planejamento das ações que deveriam ser feitas durante as semanas aconteciam durante as reuniões de equipe e o controle era feito a partir de uma planilha de controle no google sheets
+Agora a Mariana vai falar um pouco sobre o conteúdo que a gente cria para as plataformas do Instagram e do Telegram
 #+END_NOTES
 #+REVEAL: split
 #+ATTR_HTML: :width 65% :align center
@@ -75,7 +82,9 @@ https://luispengler.github.io/site/doc/images/editorial.png
 #+REVEAL: split
 #+ATTR_REVEAL: :frag (appear)
 #+BEGIN_NOTES
-Como dito anteriormente, os conteúdos digitais eram baseados em encontros de conversação passados e as ideias eram discutidos e atribuídas ao integrante responsável pela criação digital que foi escalado no cronograma semanal.
+-Como o Luís mencionou, os conteúdos digitais eram baseados nos nossos encontros do Let's Bora e a função de criar determinada ideia dependia de como eram escaladas as funções da semana.
+-(Fale um pouco da sua experiência)
+-Aqui a gente tem alguns exemplos do tipo de conteúdo que a gente criava
 #+END_NOTES
 
 Criação de conteúdo nos Stories do Instagram a partir de discussão sobre a sigla "PB" em um encontro do Let's Bora
@@ -91,10 +100,13 @@ https://luispengler.github.io/site/doc/images/quizz.png
 #+REVEAL: split
 #+ATTR_HTML: :height 35% :width 35% :align center
 https://luispengler.github.io/site/doc/images/quizz.png
+#+BEGIN_NOTES
+Passe para o Natanael
+#+END_NOTES
 * RESULTADOS E ANÁLISE
 ** Numeros desde a criação
 #+BEGIN_NOTES
-Buscamos desenvolver uma presença ativa nas redes socias desde o inicio do período pandemico. Entre janeiro e julho de 2021, tivemos um grande aumento no instagram.
+A gente busca ter uma presença ativa nas redes socias, principalmente no instagram desde o inicio da pandemia.
 #+END_NOTES
 #+REVEAL: split
 Desde a criação do nosso instagram, 25 de março de 2020, temos em nosso perfil...
@@ -121,8 +133,8 @@ Esses posts tem conteudos variados, como convites para os encontros de conversa�
 A gente aprendeu que é possivel apoiar os alunos que precisam perder o medo de falar inglês, seja por meio do Let's Bora ou pela criação de conteúdo digital.
 #+END_NOTES
 * REFERÊNCIAS
-CASTELLS, Manuel. A sociedade em rede. São Paulo: Paz e Terra, 2006.
-KNOBEL, Michele; LANKSHEAR, Colin (Eds.). A New
-Literacies Sampler. Vol. 29. New York: Peter Lang, 2007.
-* Follow English
++ CASTELLS, Manuel. A sociedade em rede. São Paulo: Paz e Terra, 2006.
++ KNOBEL, Michele; LANKSHEAR, Colin (Eds.). A New
++ Literacies Sampler. Vol. 29. New York: Peter Lang, 2007.
+* Follow us!
 - Instagram: @englishclubcg
