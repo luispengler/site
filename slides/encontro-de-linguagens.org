@@ -9,7 +9,8 @@
 ** Criação de Conteúdo Digital a partir dos encontros Let's Bora
 #+ATTR_REVEAL: :frag (appear)
 + Integrantes: Luís Spengler, Mariana Lopes, Natanael Teixeira
-#+ATTR_HTML: :width 75% :align center
+#+REVEAL: split
+#+ATTR_HTML: :height 35% :width 35% :align center
 https://luispengler.github.io/site/doc/images/prize.png
 + Prêmio melhor projeto a nível médio, FECINTEC 2021
 ** Primeiro Encontro (13/01/2021)
@@ -30,7 +31,7 @@ O Let's Bora está sendo o nosso jeito de manter aqueles que querem melhorar seu
 | 10/11/21          |            39 |
 | 17/11/21          |            40 |
 #+BEGIN_NOTES
-  Essas são as edições de Let's Bora que aconteceram até o dia de hoje.
+  Essas são as edições de Let's Bora que aconteceram até o dia de hoje, 19 de novembro.
 #+END_NOTES
 * INTRODUÇÃO
 ** Criação de Conteúdo
