@@ -35,14 +35,17 @@ O Let's Bora está sendo o nosso jeito de manter aqueles que querem melhorar seu
 Como não é surpresa para ninguém, muita gente começou a criar conteúdo para as redes socias depois que a pandemia começou...
 #+END_NOTES
 
+#+REVEAL: split
 #+ATTR_HTML: :width 65% :align center
 https://luispengler.github.io/site/doc/images/max.jpg
 
+Max Giesinger - "Nie stärker als jetzt"
 #+BEGIN_NOTES
 Essa foto é de um clipe de um artista alemão e no clipe da música dele aparecem dezenas de pessoas, que submeteram vídeos deles cantando a música. O nome da música é Nie starker als jetz, que significa, Nunca fomos tão fortes quanto agora.
 #+END_NOTES
 
 ** O nascimento do Let's Bora
+#+REVEAL: split
 Você na pandemia indo ao Let's Bora:
 #+ATTR_HTML: :height 35% :width 35% :align center
 https://luispengler.github.io/site/doc/images/monalisa-mask.jpg
@@ -56,25 +59,35 @@ Vimos que poderiamos aproveitar os mesmos conteúdos abordados nos encontros de 
 
 * Desenvolvimento de conteúdo digital
 #+ATTR_REVEAL: :frag (appear)
+#+BEGIN_NOTES
 O planejamento das ações que deveriam ser feitas durante as semanas aconteciam durante as reuniões de equipe e o controle era feito a partir de uma planilha no google sheets
+#+END_NOTES
+#+REVEAL: split
 #+ATTR_HTML: :width 65% :align center
 https://luispengler.github.io/site/doc/images/editorial.png
 
-** Conteúdos criados no Instagram e Telegram
+* Conteúdos criados no Instagram e Telegram
+#+REVEAL: split
+#+ATTR_REVEAL: :frag (appear)
 #+BEGIN_NOTES
 Como dito anteriormente, os conteúdos digitais eram baseados em encontros de conversação passados e as ideias eram discutidos e atribuídas ao integrante responsável pela criação digital que foi escalado no cronograma semanal.
 #+END_NOTES
+
 Criação de conteúdo nos Stories do Instagram a partir de discussão sobre a sigla "PB" em um encontro do Let's Bora
-#+ATTR_HTML: :width 65% :align center
+#+ATTR_HTML: :height 25% :width 25% :align center
 https://luispengler.github.io/site/doc/images/PB.jpg
-
+#+REVEAL: split
+#+ATTR_HTML: :height 35% :width 35% :align center
+https://luispengler.github.io/site/doc/images/PB.jpg
+#+REVEAL: split
 Criação de conteúdo nos Stories do Instagram a partir de discussão sobre a expressão "Down the drain" em um encontro do Let's Bora
-#+ATTR_HTML: :width 65% :align center
+#+ATTR_HTML: :height 25% :width 25% :align center
 https://luispengler.github.io/site/doc/images/quizz.png
-
+#+REVEAL: split
+#+ATTR_HTML: :height 35% :width 35% :align center
+https://luispengler.github.io/site/doc/images/quizz.png
 * CONSIDERAÇÕES FINAIS
 * REFERÊNCIAS
-* Follow English Club
-- Web: [YOUR WEBSITE]
-- Twitter: [YOUR TWITTER HANDLE]
-- Blog: [YOUR BLOG]
+
+* Follow English
+- Instagram: @englishclubcg
