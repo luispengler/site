@@ -6,7 +6,7 @@
 #+Title: Let's Bora no II Encontro de Linguagens
 #+Email: englishclubcg@gmail.com
 #+Author:
-* O Let's Bora
+* LET'S BORA
 #+ATTR_REVEAL: :frag (appear)
 ** Primeiro Encontro (13/01/2021)
 #+ATTR_HTML: :width 75% :align center
@@ -57,7 +57,7 @@ E com o Let's Bora não podia ser diferente. Depois de várias reuniões com nos
 ** Como resultado do Let's Bora...
 Vimos que poderiamos aproveitar os mesmos conteúdos abordados nos encontros de conversação para desenvolvimento de conteúdo digital no Instagram e Telegram.
 
-* Desenvolvimento de conteúdo digital
+* DESENVOLVIMENTO DE CONTEÚDO DIGITAL
 #+ATTR_REVEAL: :frag (appear)
 #+BEGIN_NOTES
 O planejamento das ações que deveriam ser feitas durante as semanas aconteciam durante as reuniões de equipe e o controle era feito a partir de uma planilha no google sheets
@@ -66,7 +66,7 @@ O planejamento das ações que deveriam ser feitas durante as semanas aconteciam
 #+ATTR_HTML: :width 65% :align center
 https://luispengler.github.io/site/doc/images/editorial.png
 
-* Conteúdos criados no Instagram e Telegram
+* CONTEÚDOS NO INSTAGRAM E TELEGRAM
 #+REVEAL: split
 #+ATTR_REVEAL: :frag (appear)
 #+BEGIN_NOTES
@@ -86,7 +86,35 @@ https://luispengler.github.io/site/doc/images/quizz.png
 #+REVEAL: split
 #+ATTR_HTML: :height 35% :width 35% :align center
 https://luispengler.github.io/site/doc/images/quizz.png
+* RESULTADOS E ANÁLISE
+** Numeros desde a criação
+#+BEGIN_NOTES
+Buscamos desenvolver uma presença ativa nas redes socias desde o inicio do período pandemico. Entre janeiro e julho de 2021, tivemos um grande aumento no instagram.
+#+END_NOTES
+#+REVEAL: split
+Desde a criação do nosso instagram, 25 de março de 2020, temos em nosso perfil...
+#+ATTR_HTML: :height 35% :width 35% :align center
+https://luispengler.github.io/site/doc/images/reels.png
+15 reels
+#+REVEAL: split
+#+ATTR_HTML: :height 45% :width 45% :align center
+https://luispengler.github.io/site/doc/images/reels.png
+#+REVEAL: split
+#+ATTR_HTML: :height 35% :width 35% :align center
+https://luispengler.github.io/site/doc/images/videos.png
+11 videos
+#+REVEAL: split
+#+ATTR_HTML: :height 45% :width 45% :align center
+https://luispengler.github.io/site/doc/images/videos.png
+#+REVEAL: split
+#+ATTR_HTML: :height 35% :width 35% :align center
+https://luispengler.github.io/site/doc/images/posts.png
+82 posts
+#+REVEAL: split
+#+ATTR_HTML: :height 45% :width 45% :align center
+https://luispengler.github.io/site/doc/images/posts.png
 * CONSIDERAÇÕES FINAIS
+
 * REFERÊNCIAS
 
 * Follow English
