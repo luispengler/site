@@ -108,9 +108,13 @@ https://luispengler.github.io/site/doc/images/videos.png
 https://luispengler.github.io/site/doc/images/posts.png
 
 82 posts
+#+BEGIN_NOTES
+Esses posts tem conteudos variados, como convites para os encontros de conversação, vocalubário, citações, dicas de como estudar inglês, datas comemorativas e oportunidades para estudar fora.
+#+END_NOTES
 * CONSIDERAÇÕES FINAIS
-
 * REFERÊNCIAS
-
+CASTELLS, Manuel. A sociedade em rede. São Paulo: Paz e Terra, 2006.
+KNOBEL, Michele; LANKSHEAR, Colin (Eds.). A New
+Literacies Sampler. Vol. 29. New York: Peter Lang, 2007.
 * Follow English
 - Instagram: @englishclubcg
