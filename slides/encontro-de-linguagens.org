@@ -93,26 +93,21 @@ Buscamos desenvolver uma presença ativa nas redes socias desde o inicio do per�
 #+END_NOTES
 #+REVEAL: split
 Desde a criação do nosso instagram, 25 de março de 2020, temos em nosso perfil...
-#+ATTR_HTML: :height 35% :width 35% :align center
+#+REVEAL: split
+#+ATTR_HTML: :height 55% :width 55% :align center
 https://luispengler.github.io/site/doc/images/reels.png
+
 15 reels
 #+REVEAL: split
-#+ATTR_HTML: :height 45% :width 45% :align center
-https://luispengler.github.io/site/doc/images/reels.png
-#+REVEAL: split
-#+ATTR_HTML: :height 35% :width 35% :align center
+#+ATTR_HTML: :height 65% :width 65% :align center
 https://luispengler.github.io/site/doc/images/videos.png
+
 11 videos
 #+REVEAL: split
-#+ATTR_HTML: :height 45% :width 45% :align center
-https://luispengler.github.io/site/doc/images/videos.png
-#+REVEAL: split
-#+ATTR_HTML: :height 35% :width 35% :align center
+#+ATTR_HTML: :height 55% :width 55% :align center
 https://luispengler.github.io/site/doc/images/posts.png
+
 82 posts
-#+REVEAL: split
-#+ATTR_HTML: :height 45% :width 45% :align center
-https://luispengler.github.io/site/doc/images/posts.png
 * CONSIDERAÇÕES FINAIS
 
 * REFERÊNCIAS
