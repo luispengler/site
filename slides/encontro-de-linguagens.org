@@ -3,14 +3,15 @@
 #+REVEAL_TRANS: linear
 #+REVEAL_THEME: moon
 #+OPTIONS: timestamp:nil toc:nil num:nil
+#+Title: https://luispengler.github.io/site/doc/images/encontro.png
 #+Email: englishclubcg@gmail.com
 #+Author:
-#+ATTR_HTML: :align center
-https://luispengler.github.io/site/doc/images/encontro.png
-* LET'S BORA
+** Criação de Conteúdo Digital a partir dos encontros Let's Bora
 #+ATTR_REVEAL: :frag (appear)
-#+ATTR_HTML: :align center
-https://luispengler.github.io/site/doc/images/encontro.png
++ Integrantes: Luís Spengler, Mariana Lopes, Natanael Teixeira
+#+ATTR_HTML: :width 75% :align center
+https://luispengler.github.io/site/doc/images/prize.png
++ Prêmio melhor projeto a nível médio, FECINTEC 2021
 ** Primeiro Encontro (13/01/2021)
 #+ATTR_HTML: :width 75% :align center
 https://luispengler.github.io/site/doc/images/primeiro-letsbora.jpg
