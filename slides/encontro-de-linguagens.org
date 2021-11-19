@@ -112,6 +112,9 @@ https://luispengler.github.io/site/doc/images/posts.png
 Esses posts tem conteudos variados, como convites para os encontros de conversação, vocalubário, citações, dicas de como estudar inglês, datas comemorativas e oportunidades para estudar fora.
 #+END_NOTES
 * CONSIDERAÇÕES FINAIS
+#+BEGIN_NOTES
+A gente aprendeu que é possivel apoiar os alunos que precisam perder o medo de falar inglês, seja por meio do Let's Bora ou pela criação de conteúdo digital.
+#+END_NOTES
 * REFERÊNCIAS
 CASTELLS, Manuel. A sociedade em rede. São Paulo: Paz e Terra, 2006.
 KNOBEL, Michele; LANKSHEAR, Colin (Eds.). A New
