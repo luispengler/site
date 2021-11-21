@@ -20,7 +20,7 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 
 + [X]         Arrow – Season 2
 
-* 2014/2015 [54/64] [84%]
+* 2014/2015 [64/64] [100%]
 
 + [X]         The Flash – 1.01: “Pilot”
 + [X]         Arrow – 3.01: “The Calm”
@@ -50,16 +50,16 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [X]         Constantine - 1.08: "The Saint of Last Resorts"
 + [X]         Constantine - 1.09: "The Saint of Last Resorts: Part 2"
 + [X]         Arrow – 3.10: “Left Behind”
-+ [ ]         Constantine - 1.10: "Quid Pro Quo"
++ [X]         Constantine - 1.10: "Quid Pro Quo"
 + [X]         The Flash – 1.11: “The Sound and the Fury”
 + [X]         Arrow – 3.11: “Midnight City”
-+ [ ]         Constantine - 1.11: "A Whole World Out There"
++ [X]         Constantine - 1.11: "A Whole World Out There"
 + [X]         The Flash - 1×12: “Crazy for You”
 + [X]         Arrow – 3.12: “Uprising”
-+ [ ]         Constantine - 1.12: "Angels and Ministers of Grace"
++ [X]         Constantine - 1.12: "Angels and Ministers of Grace"
 + [X]         The Flash - 1×13: “The Nuclear Man”
 + [X]         Arrow – 3.13: “Canaries”
-+ [ ]         Constantine - 1.13: "Waiting for the Man"
++ [X]         Constantine - 1.13: "Waiting for the Man"
 + [X]         The Flash - 1×14: “Fallout”
 + [X]         Arrow – 3.14: “The Return”
 + [X]         Arrow -  3.15: “Nanda Parbat”
@@ -80,14 +80,14 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [X]         The Flash – 1.22: “Rogue Air”
 + [X]         Arrow – 3.23: “My Name Is Oliver Queen”
 + [X]         The Flash – 1.23: “Fast Enough”
-+ [ ]         Vixen - 1.01: "Episode 1"
-+ [ ]         Vixen - 1.02: "Episode 2"
-+ [ ]         Vixen - 1.03: "Episode 3"
-+ [ ]         Vixen - 1.04: "Episode 4"
-+ [ ]         Vixen - 1.05: "Episode 5"
-+ [ ]         Vixen - 1.06: "Episode 6"
++ [X]         Vixen - 1.01: "Episode 1"
++ [X]         Vixen - 1.02: "Episode 2"
++ [X]         Vixen - 1.03: "Episode 3"
++ [X]         Vixen - 1.04: "Episode 4"
++ [X]         Vixen - 1.05: "Episode 5"
++ [X]         Vixen - 1.06: "Episode 6"
 
-* 2015/2016 [30/81] [37%]
+* 2015/2016 [37/81] [45%]
 
 + [X]         Supergirl - 1.01: "Pilot"
 + [X]         Supergirl - 1.02: "Stronger Together"
@@ -119,13 +119,13 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [X]         The Flash – 2.06: “Enter Zoom”
 + [X]         Arrow – 4.06: “Lost Souls”
 + [X]         The Flash – 2.07: “Gorilla Warfare”
-+ [ ]         Arrow – 4.07: “Brotherhood”
-+ [ ]         The Flash – 2.08: “Legends of Today”
-+ [ ]         Arrow – 4.08: “Legends of Yesterday”
-+ [ ]         The Flash – 2.09: “Running to Stand Still”
-+ [ ]         Arrow – 4.09: “Dark Waters”
-+ [ ]         The Flash – 2.10: “Potential Energy”
-+ [ ]         Arrow – 4.10: “Blood Debts”
++ [X]         Arrow – 4.07: “Brotherhood”
++ [X]         The Flash – 2.08: “Legends of Today”
++ [X]         Arrow – 4.08: “Legends of Yesterday”
++ [X]         The Flash – 2.09: “Running to Stand Still”
++ [X]         Arrow – 4.09: “Dark Waters”
++ [X]         The Flash – 2.10: “Potential Energy”
++ [X]         Arrow – 4.10: “Blood Debts”
 + [ ]         Legends of Tomorrow – “1.01: Pilot, Part 1”
 + [ ]         Legends of Tomorrow – “1.01: Pilot, Part 2”
 + [ ]         The Flash – 2.11: “The Reverse-Flash Returns”
