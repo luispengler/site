@@ -56,3 +56,13 @@ https://luispengler.github.io/site/slides/doc/images/violin.jpg
 #+REVEAL: split
 #+ATTR_HTML: :height 85% :width 85% :align center
 https://luispengler.github.io/site/slides/doc/images/bulbs.jpg
+
+
+* Thanksgiving
+#+ATTR_REVEAL: :frag (appear)
+We don't usually celebrate thanksgiving in Brazil.
+#+BEGIN_NOTES
+Even though it would be nice if there were a day here in which all of us told each other what we were greatful for.
+#+END_NOTES
+#+REVEAL: split
+Tell us one thing you were greatful for in this year.
