@@ -1,0 +1,23 @@
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+#+REVEAL_REVEAL_JS_VERSION: 4
+#+REVEAL_TRANS: linear
+#+REVEAL_THEME: moon
+#+OPTIONS: timestamp:nil toc:nil num:nil
+#+Title: Let's Bora - 24/11/2021
+#+Email: englishclubcg@gmail.com
+#+Author:
+* INTRODUÇÃO
+** Icebreaker
+#+ATTR_REVEAL: :frag (appear)
+Simon Says
+#+REVEAL: split
+AKA Mestre mandou
+#+ATTR_HTML: :width 65% :align center
+#+BEGIN_NOTES
+We will be playing Simon says know. So we need someone
+#+END_NOTES
+
+** Telling stories through objects
+#+REVEAL: split
+#+ATTR_HTML: :height 35% :width 35% :align center
+https://luispengler.github.io/site/slides/doc/images/gumball.jpeg
