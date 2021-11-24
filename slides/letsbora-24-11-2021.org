@@ -17,7 +17,46 @@ AKA Mestre mandou
 We will be playing Simon says know. So we need someone
 #+END_NOTES
 
-** Telling stories through objects
+* Telling stories through objects
+#+ATTR_REVEAL: :frag (appear)
+The person who took the longest to get an object will be starting to tell a story through an object.
 #+REVEAL: split
 #+ATTR_HTML: :height 35% :width 35% :align center
 https://luispengler.github.io/site/slides/doc/images/gumball.jpeg
+#+REVEAL: split
+#+ATTR_HTML: :height 35% :width 35% :align center
+https://luispengler.github.io/site/slides/doc/images/fox.jpg
+#+REVEAL: split
+#+ATTR_HTML: :height 35% :width 35% :align center
+https://luispengler.github.io/site/slides/doc/images/church.jpg
+#+REVEAL: split
+#+ATTR_HTML: :height 35% :width 35% :align center
+https://luispengler.github.io/site/slides/doc/images/sparkling.jpg
+#+REVEAL: split
+#+ATTR_HTML: :height 35% :width 35% :align center
+https://luispengler.github.io/site/slides/doc/images/candles.jpg
+#+REVEAL: split
+#+ATTR_HTML: :height 35% :width 35% :align center
+https://luispengler.github.io/site/slides/doc/images/pills.jpg
+#+REVEAL: split
+#+ATTR_HTML: :height 35% :width 35% :align center
+https://luispengler.github.io/site/slides/doc/images/umbrella.jpg
+#+REVEAL: split
+#+ATTR_HTML: :height 35% :width 35% :align center
+https://luispengler.github.io/site/slides/doc/images/shaving.jpg
+
+#+REVEAL: split
+#+ATTR_HTML: :height 35% :width 35% :align center
+https://luispengler.github.io/site/slides/doc/images/clocks.jpg
+
+#+REVEAL: split
+#+ATTR_HTML: :height 35% :width 35% :align center
+https://luispengler.github.io/site/slides/doc/images/woods.jpg
+
+#+REVEAL: split
+#+ATTR_HTML: :height 35% :width 35% :align center
+https://luispengler.github.io/site/slides/doc/images/violin.jpg
+
+#+REVEAL: split
+#+ATTR_HTML: :height 35% :width 35% :align center
+https://luispengler.github.io/site/slides/doc/images/bulbs.jpg
