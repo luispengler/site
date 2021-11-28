@@ -69,7 +69,7 @@
 + The QASM simulator gives us the performing measurements on quantum circuits (like a hands-on)
 + We can say statevector will give us the theorical result and QASM simulator will give us the experimental result.
 
-** Additional Resources
+** Resources
 + [[https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab][Essence of Linear Algebra: A Video Playlist by 3Blue1Brown]]
   - Summary: Explains all important concepts in linear algebra visually in a geometric way. Very highly recommended!
 + [[https://www.youtube.com/playlist?list=PLZHQObOWTQDP5CVelJJ1bNDouqrAhVPev][Lockdown Math: A Video Playlist by 3Blue1Brown]]

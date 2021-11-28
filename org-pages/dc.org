@@ -87,7 +87,7 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [X]         Vixen - 1.05: "Episode 5"
 + [X]         Vixen - 1.06: "Episode 6"
 
-* 2015/2016 [46/81] [56%]
+* 2015/2016 [56/81] [69%]
 
 + [X]         Supergirl - 1.01: "Pilot"
 + [X]         Supergirl - 1.02: "Stronger Together"
@@ -135,16 +135,16 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [X]         Arrow – 4.13: “Sins of the Father”
 + [X]         Legends of Tomorrow – 1.03: “Blood Ties”
 + [X]         The F﻿lash – 2.13: “Welcome to Earth-2”
-+ [ ]         The Flash – 2.14: “Escape from Earth-2”
-+ [ ]         Legends of Tomorrow – 1.04: “White Knights”
-+ [ ]         Legends of Tomorrow – 1.05: “Fail-Safe”
-+ [ ]         Arrow – 4.14: “Code of Silence”
-+ [ ]         The Flash – 2.15: “King Shark”
-+ [ ]         Arrow – 4.15: “Taken”
-+ [ ]         Legends of Tomorrow – 1.06: “Star City 2046”
-+ [ ]         Legends of Tomorrow – 1.07: “Marooned”
-+ [ ]         Legends of Tomorrow – 1.08: “Night of the Hawk”
-+ [ ]         The Flash – 2.16: “Trajectory”
++ [X]         The Flash – 2.14: “Escape from Earth-2”
++ [X]         Legends of Tomorrow – 1.04: “White Knights”
++ [X]         Legends of Tomorrow – 1.05: “Fail-Safe”
++ [X]         Arrow – 4.14: “Code of Silence”
++ [X]         The Flash – 2.15: “King Shark”
++ [X]         Arrow – 4.15: “Taken”
++ [X]         Legends of Tomorrow – 1.06: “Star City 2046”
++ [X]         Legends of Tomorrow – 1.07: “Marooned”
++ [X]         Legends of Tomorrow – 1.08: “Night of the Hawk”
++ [X]         The Flash – 2.16: “Trajectory”
 + [ ]         Arrow – 4.16: “Broken Hearts”
 + [ ]         The Flash – 2.17: “Flash Back”
 + [ ]         Supergirl – 1.18: “Worlds Finest” ***MUST BE WATCHED HERE
@@ -265,7 +265,7 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [ ]         The Flash – 3.23: “Finish Line”
 + [ ]         Arrow – 5.23: “Lian Yu”
 
-* 2017/2018 [0/100] [0%]
+* 2017/2018 [0/112] [0%]
 
 + [ ]         Supergirl – 3.01: “Girl of Steel”
 + [ ]         The Flash – 4.01: “The Flash Reborn”

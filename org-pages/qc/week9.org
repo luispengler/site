@@ -1,0 +1,17 @@
+#+TITLE: Week 9 - my notes
+#+DESCRIPTION: Week 9 - my notes
+#+SETUPFILE: https://luispengler.github.io/site/org-html-themes/org/theme-readtheorg.setup
+#+LaTeX_+HEADER: \usepackage{physics}
+#+LaTeX_+HEADER: \usepackage{amsmath}
+#+OPTIONS: num:nil ^:{} toc:2
+
+I got lazy because this week was a just a summary and digging a bit deeper into some questions
+
+
+* Resources
+
++ [[https://www.youtube.com/watch?v=JQBRzsPhw2w][Logic Gates, Truth Tables, Boolean Algebra AND, OR, NOT, NAND & NOR]]
+
++ [[https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/index.htm][Linear Algebra, MIT OCW]]
+
++ [[https://www.qutube.nl/fundamentals-11/how-to-measure-in-any-basis-167][Measuring qubits in any basis]]
