@@ -87,7 +87,7 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [X]         Vixen - 1.05: "Episode 5"
 + [X]         Vixen - 1.06: "Episode 6"
 
-* 2015/2016 [56/81] [69%]
+* 2015/2016 [66/82] [80%]
 
 + [X]         Supergirl - 1.01: "Pilot"
 + [X]         Supergirl - 1.02: "Stronger Together"
@@ -145,15 +145,16 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [X]         Legends of Tomorrow – 1.07: “Marooned”
 + [X]         Legends of Tomorrow – 1.08: “Night of the Hawk”
 + [X]         The Flash – 2.16: “Trajectory”
-+ [ ]         Arrow – 4.16: “Broken Hearts”
-+ [ ]         The Flash – 2.17: “Flash Back”
-+ [ ]         Supergirl – 1.18: “Worlds Finest” ***MUST BE WATCHED HERE
-+ [ ]         Supergirl – Season 1, Episodes 19-20
-+ [ ]         Arrow – 4.17: “Beacon of Hope”
-+ [ ]         Legends of Tomorrow – 1.09: “Left Behind”
-+ [ ]         Arrow – 4.18: “Eleven-Fifty-Nine”
-+ [ ]         Legends of Tomorrow – 1.10: “Progeny”
-+ [ ]         Legends of Tomorrow – 1.11: “The Magnificent Eight”
++ [X]         Arrow – 4.16: “Broken Hearts”
++ [X]         The Flash – 2.17: “Flash Back”
++ [X]         Supergirl – 1.18: “Worlds Finest”
++ [X]         Supergirl – 1.19: "Myriad"
++ [X]         Supergirl - 1:20: "Better Angels"
++ [X]         Arrow – 4.17: “Beacon of Hope”
++ [X]         Legends of Tomorrow – 1.09: “Left Behind”
++ [X]         Arrow – 4.18: “Eleven-Fifty-Nine”
++ [X]         Legends of Tomorrow – 1.10: “Progeny”
++ [X]         Legends of Tomorrow – 1.11: “The Magnificent Eight”
 + [ ]         The Flash – 2.18: “Versus Zoom”
 + [ ]         Legends of Tomorrow – 1.12: “Last Refuge”
 + [ ]         The Flash – 2.19: “Back to Normal”
