@@ -87,7 +87,7 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [X]         Vixen - 1.05: "Episode 5"
 + [X]         Vixen - 1.06: "Episode 6"
 
-* 2015/2016 [73/82] [89%]
+* 2015/2016 [79/82] [96%]
 
 + [X]         Supergirl - 1.01: "Pilot"
 + [X]         Supergirl - 1.02: "Stronger Together"
@@ -162,12 +162,12 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [X]         The Flash – 2.20: “Rupture”
 + [X]         Legends of Tomorrow – 1.14: “River of Time”
 + [X]         The Flash – 2.21: “The Runaway Dinosaur”
-+ [ ]         Arrow – 4.19: “Canary Cry”
-+ [ ]         Arrow – 4.20: “Genesis”
-+ [ ]         Arrow – 4.21: “Monument Point”
-+ [ ]         Legends of Tomorrow – 1.15: ” Destiny”
-+ [ ]         The Flash – 2.22: “Invincible”
-+ [ ]         Arrow – 4.22: “Lost in the Flood”
++ [X]         Arrow – 4.19: “Canary Cry”
++ [X]         Arrow – 4.20: “Genesis”
++ [X]         Arrow – 4.21: “Monument Point”
++ [X]         Legends of Tomorrow – 1.15: ” Destiny”
++ [X]         The Flash – 2.22: “Invincible”
++ [X]         Arrow – 4.22: “Lost in the Flood”
 + [ ]         Legends of Tomorrow – 1.16: “Legendary”
 + [ ]         The Flash – 2.23: “The Race of His Life”
 + [ ]         Arrow – 4.23: “Schism”
