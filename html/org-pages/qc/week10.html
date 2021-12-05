@@ -6,9 +6,9 @@
 <!-- 2021-12-05 Sun 15:43 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Week 6 - my notes</title>
+<title>Week 10 - my notes</title>
 <meta name="author" content="Luís Spengler" />
-<meta name="description" content="Week 6 - my notes" />
+<meta name="description" content="Week 10 - my notes" />
 <meta name="generator" content="Org Mode" />
 <style>
   #content { max-width: 60em; margin: auto; }
@@ -224,177 +224,197 @@
 </head>
 <body>
 <div id="content" class="content">
-<h1 class="title">Week 6 - my notes</h1>
+<h1 class="title">Week 10 - my notes</h1>
 <div id="table-of-contents" role="doc-toc">
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#orgf054fa5">Week 6 (qubit by qubit)</a>
+<li><a href="#org5ee7fce">Week 10 - Quantum Key Distribuition: Part 1</a>
 <ul>
-<li><a href="#org3bcabcd">Recap</a></li>
-<li><a href="#org3890a91">Math for Quantum: Qubits</a></li>
-<li><a href="#org2758d94">Phase</a></li>
-<li><a href="#orgccfa371">Lab</a></li>
-<li><a href="#orgd6e4ecb">Resources</a></li>
+<li><a href="#orgb316a2f">Recap</a></li>
 </ul>
 </li>
+<li><a href="#orgc4bda68">Quantum Algorithms and Protocols</a>
+<ul>
+<li><a href="#org55a28f2">Algorithm vs Protocol</a></li>
+</ul>
+</li>
+<li><a href="#orgca7373e">Cybersecurity &amp; Criptography</a>
+<ul>
+<li><a href="#org7fa138f">Foundations</a></li>
+</ul>
+</li>
+<li><a href="#orgbe26a85">Introduction to Quantum Key Distrubution</a></li>
+<li><a href="#org3c1d056">QKD in action</a>
+<ul>
+<li><a href="#orgde79ef7">Phase 1: Sending</a></li>
+<li><a href="#org6695380">Phase 2: Receiving</a></li>
+<li><a href="#org13e8e83">Phase 3: Comparing</a></li>
+<li><a href="#org996ae88">Importance of second step in third phase</a></li>
+</ul>
+</li>
+<li><a href="#orgb583036">Resources</a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orgf054fa5" class="outline-2">
-<h2 id="orgf054fa5">Week 6 (qubit by qubit)</h2>
-<div class="outline-text-2" id="text-orgf054fa5">
+<div id="outline-container-org5ee7fce" class="outline-2">
+<h2 id="org5ee7fce">Week 10 - Quantum Key Distribuition: Part 1</h2>
+<div class="outline-text-2" id="text-org5ee7fce">
 </div>
-<div id="outline-container-org3bcabcd" class="outline-3">
-<h3 id="org3bcabcd">Recap</h3>
-<div class="outline-text-3" id="text-org3bcabcd">
+<div id="outline-container-orgb316a2f" class="outline-3">
+<h3 id="orgb316a2f">Recap</h3>
+<div class="outline-text-3" id="text-orgb316a2f">
 </div>
-<div id="outline-container-org55ebd3a" class="outline-4">
-<h4 id="org55ebd3a">Review: States and Gates</h4>
-<div class="outline-text-4" id="text-org55ebd3a">
+<div id="outline-container-orga38b589" class="outline-4">
+<h4 id="orga38b589">Quantum measurements</h4>
+<div class="outline-text-4" id="text-orga38b589">
 <ul class="org-ul">
-<li>X - 180 rotation around the X-axis</li>
-<li>Z - 180 rotation around the Z-axis</li>
-<li>H - creates a superposition</li>
+<li>By observing a quantum state, we can change it</li>
+<li>The outcome of a quantum measurement is sometimes random</li>
 </ul>
 </div>
 </div>
-</div>
-
-<div id="outline-container-org3890a91" class="outline-3">
-<h3 id="org3890a91">Math for Quantum: Qubits</h3>
-<div class="outline-text-3" id="text-org3890a91">
+<div id="outline-container-orgd86de14" class="outline-4">
+<h4 id="orgd86de14">Measurement basis</h4>
+<div class="outline-text-4" id="text-orgd86de14">
 <ul class="org-ul">
-<li>With math we can predict the outcomes, without necessarily having to memorize each one of them.</li>
-<li><b>Superconducting</b>, <b>Trapped Ions</b>, <b>Diamond NV Centers</b>, <b>Photonics</b> are different kind of qubits, and math is the language common to all of them!</li>
-<li><b>Linear Algebra</b> is used in many algorithms, like grover&rsquo;s algorithm.</li>
-</ul>
-</div>
-
-<div id="outline-container-org7ef70fd" class="outline-4">
-<h4 id="org7ef70fd">Qubits</h4>
-<div class="outline-text-4" id="text-org7ef70fd">
+<li>In X basis, we can only get \(|+\rangle\) or \(|-\rangle\) as a result
 <ul class="org-ul">
-<li>\(|0\rangle\), \(|1\rangle\), \(|+\rangle\), \(|-\rangle\) are ways to represent them.</li>
-<li><b>But</b> in an unequal superposition, we need a better way to represent contributions.</li>
-<li>That is why we will use <b>two numbers in the form of a vector.</b></li>
-<li>0 state is represented as \[\begin{bmatrix}1\\0\end{bmatrix}\]</li>
-<li>1 state is represented as \[\begin{bmatrix}0\\1\end{bmatrix}\]</li>
-<li>It is worth mentioning that the top number represents the component of \(|0\rangle\) and the bottom, the component of \(|1\rangle\).</li>
-</ul>
-\begin{bmatrix} |0\rangle\ component\\|1\rangle\ component\end{bmatrix}
-</div>
-</div>
-
-<div id="outline-container-orgb6d6773" class="outline-4">
-<h4 id="orgb6d6773">Superpostions</h4>
-<div class="outline-text-4" id="text-orgb6d6773">
+<li>\(|1\rangle\) state measured in the X basis will be either \(|+\rangle\) or \(|-rangle\), half the time one of these states when measured.</li>
+</ul></li>
+<li>In Z basis, we can only get \(|0\rangle\) or \(|1\rangle\) as a result
 <ul class="org-ul">
-<li>To represent equal superpositions, we just need to add the two vectors:
-\[\begin{bmatrix}1\\0\end{bmatrix} + \begin{bmatrix}0\\1\end{bmatrix} = \begin{bmatrix}1\\1\end{bmatrix}\]</li>
-
-<li>To get to an unequal superposition, we need to apply some gates to get there and this is the goal of a field called quantum algorithm design</li>
-</ul>
-</div>
-</div>
-
-<div id="outline-container-orgc1954f4" class="outline-4">
-<h4 id="orgc1954f4">Normalization</h4>
-<div class="outline-text-4" id="text-orgc1954f4">
-<ul class="org-ul">
-<li>The vectors representing quantum states must be <b>normalized</b>, which means they have a <b>lenght of 1</b></li>
-<li>The radius of the Bloch Sphere is 1, so as all quantum states lie on the Bloch sphere, they must all have a length of 1.</li>
-
-<li class="off"><code>[&#xa0;]</code> Step 1: Write the state in the vector form \[\begin{bmatrix}a\\b\end{bmatrix}\]</li>
-<li class="off"><code>[&#xa0;]</code> Step 2: Find the length of the state as \[\sqrt{a^2 + b^2}\]</li>
-<li class="off"><code>[&#xa0;]</code> Step 3: If the length is 1, the state is normalized. If not, divide the state by its length to get the normalized state.
-<ul class="org-ul">
-<li>Normalized form of the state = \[\frac{1}{\sqrt{a^2 + b^2}}\begin{bmatrix}a\\b\end{bmatrix}\]</li>
+<li>\(|+\rangle\) state measured in the Z basis will be either \(|1\rangle\) or \(|0\rangle\), half the time one of these states when measured.</li>
 </ul></li>
 </ul>
 </div>
 </div>
-
-<div id="outline-container-org5da675e" class="outline-4">
-<h4 id="org5da675e">Examples to help with normalization:</h4>
-<div class="outline-text-4" id="text-org5da675e">
-<ul class="org-ul">
-<li>Remember that all of this comes from <b>linear algebra</b></li>
-<li>The length of the state \[\begin{bmatrix}1\\0\end{bmatrix}\]
-<ul class="org-ul">
-<li>A: 1</li>
-</ul></li>
-<li>Find the normalized state of \[\begin{bmatrix}1\\1\end{bmatrix}\]
-<ul class="org-ul">
-<li>Finding the length: \[\sqrt{1^2 + 1^2} = \sqrt{2}\]</li>
-<li>As the length is not 1, we need to divide take the state and divide it by its length, then we get the normalized state:</li>
-</ul></li>
-</ul>
-<p>
-\[\frac{1}{\sqrt{2}}\begin{bmatrix}1\\1\end{bmatrix}\]
-</p>
-</div>
 </div>
 </div>
 
-<div id="outline-container-org2758d94" class="outline-3">
-<h3 id="org2758d94">Phase</h3>
-<div class="outline-text-3" id="text-org2758d94">
-<ul class="org-ul">
-<li>Subtract the following states:
-\[\frac{1}{\sqrt{2}}\begin{bmatrix}1\\0\end{bmatrix} - \frac{1}{\sqrt{2}}\begin{bmatrix}0\\1\end{bmatrix} = \frac{1}{\sqrt{2}}\begin{bmatrix}1\\-1\end{bmatrix}\]</li>
-<li>That is the same as \(|-\rangle\)</li>
-</ul>
+<div id="outline-container-orgc4bda68" class="outline-2">
+<h2 id="orgc4bda68">Quantum Algorithms and Protocols</h2>
+<div class="outline-text-2" id="text-orgc4bda68">
 </div>
-<div id="outline-container-org580eefc" class="outline-4">
-<h4 id="org580eefc">Normalized form of \(|+\rangle\) and \(|-\rangle\) states</h4>
-<div class="outline-text-4" id="text-org580eefc">
+<div id="outline-container-org55a28f2" class="outline-3">
+<h3 id="org55a28f2">Algorithm vs Protocol</h3>
+<div class="outline-text-3" id="text-org55a28f2">
 <ul class="org-ul">
-<li>\(|+\rangle\) = \[\frac{1}{\sqrt{2}}(|0\rangle+|1\rangle)\] same as \[\frac{1}{\sqrt{2}}\begin{bmatrix}1\\1\end{bmatrix}\]</li>
-<li>\(|-\rangle\) = \[\\frac{1}{\sqrt{2}}(|0\rangle-|1\rangle)\] same as \[\frac{1}{\sqrt{2}}\begin{bmatrix}1\\-1\end{bmatrix}\]</li>
-<li>These two states above are both equal superpositions but they differ in <b>phase</b></li>
-<li>Therefore, the sign between \(|0\rangle\) and \(|1\rangle\) is called phase. <b>Is it positive or negative?</b></li>
-<li>The phase diferences lead to interference (more coming soon)</li>
-<li>There are more relations in phase that won&rsquo;t be addressed in this course because they require <b>complex numbers</b></li>
+<li><b>Algorithm</b>: A specific set os steps for solving a computational problem</li>
+<li><b>Protocol</b>: Set of rules that allow electronic devices to communicate with each other.
+<ul class="org-ul">
+<li>Quantum Protocol: Set of rules that uses properties of quantum physics to allow electronic devices to communicate with each other.</li>
+</ul></li>
 </ul>
 </div>
 </div>
 </div>
 
-<div id="outline-container-orgccfa371" class="outline-3">
-<h3 id="orgccfa371">Lab</h3>
-<div class="outline-text-3" id="text-orgccfa371">
+<div id="outline-container-orgca7373e" class="outline-2">
+<h2 id="orgca7373e">Cybersecurity &amp; Criptography</h2>
+<div class="outline-text-2" id="text-orgca7373e">
 <ul class="org-ul">
-<li>Qiskit Aer, Qiskit Nature, Qiskit Pulse are what we have inside the mega qiskit library. We are gonna use Qiskit Aer.
+<li>Criptography is a sub-field of cybersecurity
 <ul class="org-ul">
-<li>Qiskit Aer has two simulators: the Statevector simulator and the QASM simulator</li>
+<li>Using protocols a criptography professional can secure someone&rsquo;s cellphone.</li>
 </ul></li>
-<li>The Statevector simulator gives us the vector form of the final state. It gives us the <b>ideal result</b></li>
-<li>The QASM simulator gives us the performing measurements on quantum circuits (like a hands-on)</li>
-<li>We can say statevector will give us the theorical result and QASM simulator will give us the experimental result.</li>
+</ul>
+</div>
+<div id="outline-container-org7fa138f" class="outline-3">
+<h3 id="org7fa138f">Foundations</h3>
+<div class="outline-text-3" id="text-org7fa138f">
+<ul class="org-ul">
+<li>Encryption: enconding/scramble a message so that it can only be read by desired parties.</li>
+<li>Descryption: the process of converting the encrypted message back into a readable form.</li>
+<li>The key: the peice of information you need to encrypt and decrypt a message.
+<ul class="org-ul">
+<li>Quantum Key Distrubution is just a smart way of distrubiting a key!</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgbe26a85" class="outline-2">
+<h2 id="orgbe26a85">Introduction to Quantum Key Distrubution</h2>
+<div class="outline-text-2" id="text-orgbe26a85">
+<ul class="org-ul">
+<li>A protocol that uses quantum properties to help us securely share a key.</li>
+<li>Using QKD we can figure out if there is someone eavesdroping, therefore making the actual key only shared between the sender and the receiver.
+<ul class="org-ul">
+<li>Quantum Measurement is the way to make this happen.</li>
+<li>Someone eavesdroping will change the key!</li>
+</ul></li>
+<li>The key itself is a series of classical bits, the way we share it tho, we use qubits.</li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orgd6e4ecb" class="outline-3">
-<h3 id="orgd6e4ecb">Resources</h3>
-<div class="outline-text-3" id="text-orgd6e4ecb">
+<div id="outline-container-org3c1d056" class="outline-2">
+<h2 id="org3c1d056">QKD in action</h2>
+<div class="outline-text-2" id="text-org3c1d056">
 <ul class="org-ul">
-<li><a href="https://www.youtube.com/watch?v=fNk_zzaMoSs&amp;list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab">Essence of Linear Algebra: A Video Playlist by 3Blue1Brown</a>
+<li>The purpose of QKD is to test if your quantum communication channel is truly secure</li>
+<li>In QKD, we use four quantum states \(|0\rangle\), \(|1\rangle\), \(|+\rangle\), \(|-\rangle\) to create a predetermined code</li>
+<li>Before running the protocol, we need to decide on the two measurement basis, which one to use</li>
+<li>Then we assign a value of each classical bit in a qubit state in each basis that will be used.</li>
+<li>Classical bit 0: In Z basis it is a \(|0\rangle\). In X basis it is a \(|+\rangle\)</li>
+<li>Classical bit 1: In Z basis it is a \(|1\rangle\). In X basis it is a \(|-\rangle\)
 <ul class="org-ul">
-<li>Summary: Explains all important concepts in linear algebra visually in a geometric way. Very highly recommended!</li>
-</ul></li>
-<li><a href="https://www.youtube.com/playlist?list=PLZHQObOWTQDP5CVelJJ1bNDouqrAhVPev">Lockdown Math: A Video Playlist by 3Blue1Brown</a>
-<ul class="org-ul">
-<li>Summary:  Important math concepts presented in a visual manner. Multiple episodes on complex numbers which are very highly recommended!</li>
-</ul></li>
-<li><a href="https://medium.com/@jeremyjkun/here-s-just-a-fraction-of-what-you-can-do-with-linear-algebra-633383d4153f">Here’s just a fraction of what you can do with linear algebra, Jeremy Kun (Article)</a>
-<ul class="org-ul">
-<li>Summary: Why should we be motivated to learn the math needed for this course and computer science as a whole?  A quick read on some applications of linear algebra.</li>
+<li>You can use any other order for this!</li>
 </ul></li>
 </ul>
 </div>
+<div id="outline-container-orgde79ef7" class="outline-3">
+<h3 id="orgde79ef7">Phase 1: Sending</h3>
+<div class="outline-text-3" id="text-orgde79ef7">
+<ol class="org-ol">
+<li>Sender randomly picks some classical bits</li>
+<li>Sender randomly chooses a basis (Z or X) to each bit.</li>
+<li>Sender encondes each classical bit in a qubit using the rules the party agreed on.</li>
+<li>Sender sends the qubits using a quantum channel</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org6695380" class="outline-3">
+<h3 id="org6695380">Phase 2: Receiving</h3>
+<div class="outline-text-3" id="text-org6695380">
+<ol class="org-ol">
+<li>Receiver ramdonly picks bases</li>
+<li>Receiver measures the qubits with his/her chosen bases to get new quantum states</li>
+<li>Receiver decodes the states of his measured qubits into bits</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org13e8e83" class="outline-3">
+<h3 id="org13e8e83">Phase 3: Comparing</h3>
+<div class="outline-text-3" id="text-org13e8e83">
+<ol class="org-ol">
+<li>Sender and receiver compare bases using the classical channel and eliminate the ones that their bases didn&rsquo;t match up.</li>
+<li>Sender and receiver compare bits over the classical channel</li>
+</ol>
+</div>
+</div>
+
+<div id="outline-container-org996ae88" class="outline-3">
+<h3 id="org996ae88">Importance of second step in third phase</h3>
+<div class="outline-text-3" id="text-org996ae88">
+<ul class="org-ul">
+<li>If their bits are not the same, it means someone eveadropped</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgb583036" class="outline-2">
+<h2 id="orgb583036">Resources</h2>
+<div class="outline-text-2" id="text-orgb583036">
+<ul class="org-ul">
+<li><a href="https://www.norwegiancreations.com/2018/11/introduction-to-quantum-cryptography/">Intro to quantum cryptography</a></li>
+<li><a href="https://www.youtube.com/watch?v=owPC60Ue0BE">Video on the no-cloning theorem</a></li>
+<li><a href="https://lab.quantumflytrap.com/lab/bb84">QKD implemented on Quantum Flytrap</a></li>
+</ul>
 </div>
 </div>
 </div>

@@ -26,6 +26,7 @@
 + Quantum measurements operate in terms of probabilities.
 + Our goal is to predict the result of our measurements
 =Today= we will learn how we can predict quantum measurements
+
 * Statevector math
 ** Born Rule
 Here we got an equal contribuition of \(|0\rangle\) and \(|1\rangle\):

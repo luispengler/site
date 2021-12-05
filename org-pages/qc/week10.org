@@ -1,0 +1,68 @@
+#+TITLE: Week 10 - my notes
+#+DESCRIPTION: Week 10 - my notes
+#+SETUPFILE: https://luispengler.github.io/site/org-html-themes/org/theme-readtheorg.setup
+#+LaTeX_+HEADER: \usepackage{physics}
+#+LaTeX_+HEADER: \usepackage{amsmath}
+#+OPTIONS: num:nil ^:{} toc:2
+
+* Week 10 - Quantum Key Distribuition: Part 1
+** Recap
+*** Quantum measurements
++ By observing a quantum state, we can change it
++ The outcome of a quantum measurement is sometimes random
+*** Measurement basis
++ In X basis, we can only get \(|+\rangle\) or \(|-\rangle\) as a result
+  - \(|1\rangle\) state measured in the X basis will be either \(|+\rangle\) or \(|-rangle\), half the time one of these states when measured.
++ In Z basis, we can only get \(|0\rangle\) or \(|1\rangle\) as a result
+  - \(|+\rangle\) state measured in the Z basis will be either \(|1\rangle\) or \(|0\rangle\), half the time one of these states when measured.
+
+* Quantum Algorithms and Protocols
+** Algorithm vs Protocol
++ *Algorithm*: A specific set os steps for solving a computational problem
++ *Protocol*: Set of rules that allow electronic devices to communicate with each other.
+  - Quantum Protocol: Set of rules that uses properties of quantum physics to allow electronic devices to communicate with each other.
+
+* Cybersecurity & Criptography
++ Criptography is a sub-field of cybersecurity
+  - Using protocols a criptography professional can secure someone's cellphone.
+** Foundations
++ Encryption: enconding/scramble a message so that it can only be read by desired parties.
++ Descryption: the process of converting the encrypted message back into a readable form.
++ The key: the peice of information you need to encrypt and decrypt a message.
+ - Quantum Key Distrubution is just a smart way of distrubiting a key!
+
+* Introduction to Quantum Key Distrubution
++ A protocol that uses quantum properties to help us securely share a key.
++ Using QKD we can figure out if there is someone eavesdroping, therefore making the actual key only shared between the sender and the receiver.
+  - Quantum Measurement is the way to make this happen.
+  - Someone eavesdroping will change the key!
++ The key itself is a series of classical bits, the way we share it tho, we use qubits.
+
+* QKD in action
++ The purpose of QKD is to test if your quantum communication channel is truly secure
++ In QKD, we use four quantum states \(|0\rangle\), \(|1\rangle\), \(|+\rangle\), \(|-\rangle\) to create a predetermined code
++ Before running the protocol, we need to decide on the two measurement basis, which one to use
++ Then we assign a value of each classical bit in a qubit state in each basis that will be used.
++ Classical bit 0: In Z basis it is a \(|0\rangle\). In X basis it is a \(|+\rangle\)
++ Classical bit 1: In Z basis it is a \(|1\rangle\). In X basis it is a \(|-\rangle\)
+  - You can use any other order for this!
+** Phase 1: Sending
+1. Sender randomly picks some classical bits
+2. Sender randomly chooses a basis (Z or X) to each bit.
+3. Sender encondes each classical bit in a qubit using the rules the party agreed on.
+4. Sender sends the qubits using a quantum channel
+** Phase 2: Receiving
+1. Receiver ramdonly picks bases
+2. Receiver measures the qubits with his/her chosen bases to get new quantum states
+3. Receiver decodes the states of his measured qubits into bits
+** Phase 3: Comparing
+1. Sender and receiver compare bases using the classical channel and eliminate the ones that their bases didn't match up.
+2. Sender and receiver compare bits over the classical channel
+
+** Importance of second step in third phase
++ If their bits are not the same, it means someone eveadropped
+
+* Resources
++ [[https://www.norwegiancreations.com/2018/11/introduction-to-quantum-cryptography/][Intro to quantum cryptography]]
++ [[https://www.youtube.com/watch?v=owPC60Ue0BE][Video on the no-cloning theorem]]
++ [[https://lab.quantumflytrap.com/lab/bb84][QKD implemented on Quantum Flytrap]]

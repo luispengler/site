@@ -35,3 +35,6 @@
 | Nenhum estudante compareceu                                               | 15/11 (Segunda-feira)                  | 17h         | 19h     |
 | Nenhum estudante compareceu                                               | 17/11 (Quarta-feira)                   | 15h         | 18h     |
 | Nenhum estudante compareceu                                               | 18/11 (Quinta-feira)                   | 15h         | 18h     |
+| Nenhum estudante compareceu                                               | 22/11 (Segunda-feira)                  | 17h         | 19h     |
+| Nenhum estudante compareceu                                               | 24/11 (Quarta-feira)                   | 15h         | 18h     |
+| Nenhum estudante compareceu                                               | 25/11 (Quinta-feira)                   | 15h         | 18h     |
