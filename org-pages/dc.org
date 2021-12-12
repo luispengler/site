@@ -172,7 +172,7 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [X]         The Flash – 2.23: “The Race of His Life”
 + [X]         Arrow – 4.23: “Schism”
 
-* 2016/2017 [14/91] [15%]
+* 2016/2017 [33/91] [36%]
 
 + [X]         The Flash – 3.01: “Flashpoint”
 + [X]         Arrow – 5.01: “Legacy”
@@ -188,25 +188,25 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [X]         Vixen - 2.02: "Episode 2"
 + [X]         Supergirl – 2.03: “Welcome to Earth”
 + [X]         The Flash – 3.04: “The New Rogues”
-+ [ ]         Arrow – 5.04: “Penance”
-+ [ ]         Legends of Tomorrow – 2.03: “Shogun”
-+ [ ]         Vixen - 2.03: "Episode 3"
-+ [ ]         Supergirl – 2.04: “Survivors”
-+ [ ]         The Flash – 3.05: “Monster”
-+ [ ]         Arrow – 5.05: “Human Target”
-+ [ ]         Legends of Tomorrow – 2.04: “Abominations”
-+ [ ]         Vixen - 2.04: "Episode 4"
-+ [ ]         Supergirl – 2.05: “Crossfire”
-+ [ ]         Arrow – 5.06: “So It Begins”
-+ [ ]         Legends of Tomorrow – 2.05: “Compromised”
-+ [ ]         Vixen - 2.05: "Episode 5"
-+ [ ]         Supergirl – 2.06: “Changing”
-+ [ ]         The Flash – 3.06: “Shade”
-+ [ ]         Arrow – 5.07: “Vigilante”
-+ [ ]         Legends of Tomorrow – 2.06: “Outlaw Country”
-+ [ ]         Vixen - 2.06: "Episode 6"
-+ [ ]         Supergirl – 2.07: “The Darkest Place”
-+ [ ]         The Flash – 3.07: “Killer Frost”
++ [X]         Arrow – 5.04: “Penance”
++ [X]         Legends of Tomorrow – 2.03: “Shogun”
++ [X]         Vixen - 2.03: "Episode 3"
++ [X]         Supergirl – 2.04: “Survivors”
++ [X]         The Flash – 3.05: “Monster”
++ [X]         Arrow – 5.05: “Human Target”
++ [X]         Legends of Tomorrow – 2.04: “Abominations”
++ [X]         Vixen - 2.04: "Episode 4"
++ [X]         Supergirl – 2.05: “Crossfire”
++ [X]         Arrow – 5.06: “So It Begins”
++ [X]         Legends of Tomorrow – 2.05: “Compromised”
++ [X]         Vixen - 2.05: "Episode 5"
++ [X]         Supergirl – 2.06: “Changing”
++ [X]         The Flash – 3.06: “Shade”
++ [X]         Arrow – 5.07: “Vigilante”
++ [X]         Legends of Tomorrow – 2.06: “Outlaw Country”
++ [X]         Vixen - 2.06: "Episode 6"
++ [X]         Supergirl – 2.07: “The Darkest Place”
++ [X]         The Flash – 3.07: “Killer Frost”
 + [ ]         Supergirl – 2.08: “Medusa” ***MUST BE WATCHED TOGETHER (1)
 + [ ]         The Flash – 3.08: “Invasion!” ***MUST BE WATCHED TOGETHER (2)
 + [ ]         Arrow – 5.08: “Invasion!” ***MUST BE WATCHED TOGETHER (3)
