@@ -9,10 +9,10 @@
 ** https://luispengler.github.io/site/doc/images/mostra.jpg
 ** Criação de Conteúdo Digital a partir dos encontros Let's Bora
 #+ATTR_REVEAL: :frag (appear)
-+ Integrantes: Luís Spengler, Mariana Lopes, Natanael Teixeira
-** Prêmio melhor projeto a nível médio, FECINTEC 2021
-#+ATTR_HTML: :height 35% :width 35% :align center
-https://luispengler.github.io/site/doc/images/prize.png
++ Instituto Federal de Mato Grosso do Sul, campus Campo Grande
++ Projeto: English Club
++ Integrantes:  Luís Spengler, Mariana Lopes, Natanael Teixeira
++ Coordenação: Profa. Me. Fernanda Belarmino de Santana Scaini
 ** Primeiro Encontro (13/01/2021)
 #+ATTR_HTML: :width 75% :align center
 https://luispengler.github.io/site/doc/images/primeiro-letsbora.jpg
@@ -56,7 +56,6 @@ Vimos que poderiamos aproveitar os mesmos conteúdos abordados nos encontros de 
 
 #+BEGIN_NOTES
 A gente percebeu que podia usar os mesmos conteúdos abordados nos encontros, pra criar conteúdo.
-Agora o Natanael vai falar um pouquinho sobre como a gente desenvolvia esse conteúdo digital, de que a gente tanto fala.
 #+END_NOTES
 * DESENVOLVIMENTO DE CONTEÚDO DIGITAL
 #+ATTR_REVEAL: :frag (appear)
@@ -81,18 +80,9 @@ Criação de conteúdo nos Stories do Instagram a partir de discussão sobre a s
 #+ATTR_HTML: :height 25% :width 25% :align center
 https://luispengler.github.io/site/doc/images/PB.jpg
 #+REVEAL: split
-#+ATTR_HTML: :height 35% :width 35% :align center
-https://luispengler.github.io/site/doc/images/PB.jpg
-#+REVEAL: split
 Criação de conteúdo nos Stories do Instagram a partir de discussão sobre a expressão "Down the drain" em um encontro do Let's Bora
 #+ATTR_HTML: :height 25% :width 25% :align center
 https://luispengler.github.io/site/doc/images/quizz.png
-#+REVEAL: split
-#+ATTR_HTML: :height 35% :width 35% :align center
-https://luispengler.github.io/site/doc/images/quizz.png
-#+BEGIN_NOTES
-Passe para o Natanael
-#+END_NOTES
 * RESULTADOS E ANÁLISE
 ** Numeros desde a criação
 #+BEGIN_NOTES
@@ -122,6 +112,9 @@ Esses posts tem conteudos variados, como convites para os encontros de conversa�
 #+BEGIN_NOTES
 A gente aprendeu que é possivel apoiar os alunos que precisam perder o medo de falar inglês, seja por meio do Let's Bora ou pela criação de conteúdo digital.
 #+END_NOTES
+* Prêmio melhor projeto a nível médio, FECINTEC 2021
+#+ATTR_HTML: :height 35% :width 35% :align center
+https://luispengler.github.io/site/doc/images/prize.png
 * REFERÊNCIAS
 + CASTELLS, Manuel. A sociedade em rede. São Paulo: Paz e Terra, 2006.
 + KNOBEL, Michele; LANKSHEAR, Colin (Eds.). A New
