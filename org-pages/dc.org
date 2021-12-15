@@ -172,7 +172,7 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [X]         The Flash – 2.23: “The Race of His Life”
 + [X]         Arrow – 4.23: “Schism”
 
-* 2016/2017 [33/91] [36%]
+* 2016/2017 [48/91] [52%]
 
 + [X]         The Flash – 3.01: “Flashpoint”
 + [X]         Arrow – 5.01: “Legacy”
@@ -207,21 +207,21 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [X]         Vixen - 2.06: "Episode 6"
 + [X]         Supergirl – 2.07: “The Darkest Place”
 + [X]         The Flash – 3.07: “Killer Frost”
-+ [ ]         Supergirl – 2.08: “Medusa” ***MUST BE WATCHED TOGETHER (1)
-+ [ ]         The Flash – 3.08: “Invasion!” ***MUST BE WATCHED TOGETHER (2)
-+ [ ]         Arrow – 5.08: “Invasion!” ***MUST BE WATCHED TOGETHER (3)
-+ [ ]         Legends of Tomorrow – 2.07: “Invasion!” ***MUST BE WATCHED TOGETHER (4)
-+ [ ]         The Flash – 3.09: “The Present”
-+ [ ]         Arrow – 5.09: “What We Leave Behind”
-+ [ ]         Legends of Tomorrow – 2.08: “The Chicago Way”
-+ [ ]         Supergirl – 2.09: “Supergirl Lives”
-+ [ ]         The Flash – 3.10: “Borrowing Problems From The Future”
-+ [ ]         Legends of Tomorrow – 2.09: “Raiders of the Lost Art”
-+ [ ]         Arrow – 5.10: “Who Are You”
-+ [ ]         Supergirl – 2.10: “We Can Be Heroes”
-+ [ ]         The Flash – 3.11: “Dead or Alive”
-+ [ ]         Legends of Tomorrow – 2.10: “The Legion of Doom”
-+ [ ]         Arrow – 5.11: “Second Chances”
++ [X]         Supergirl – 2.08: “Medusa” *MUST BE WATCHED TOGETHER (1)*
++ [X]         The Flash – 3.08: “Invasion!” *MUST BE WATCHED TOGETHER (2)*
++ [X]         Arrow – 5.08: “Invasion!” *MUST BE WATCHED TOGETHER (3)*
++ [X]         Legends of Tomorrow – 2.07: “Invasion!” *MUST BE WATCHED TOGETHER (4)*
++ [X]         The Flash – 3.09: “The Present”
++ [X]         Arrow – 5.09: “What We Leave Behind”
++ [X]         Legends of Tomorrow – 2.08: “The Chicago Way”
++ [X]         Supergirl – 2.09: “Supergirl Lives”
++ [X]         The Flash – 3.10: “Borrowing Problems From The Future”
++ [X]         Legends of Tomorrow – 2.09: “Raiders of the Lost Art”
++ [X]         Arrow – 5.10: “Who Are You”
++ [X]         Supergirl – 2.10: “We Can Be Heroes”
++ [X]         The Flash – 3.11: “Dead or Alive”
++ [X]         Legends of Tomorrow – 2.10: “The Legion of Doom”
++ [X]         Arrow – 5.11: “Second Chances”
 + [ ]         Supergirl – 2.11: “The Martian Chronicles”
 + [ ]         The Flash – 3.12: “Untouchable”
 + [ ]         Legends of Tomorrow – 2.11: “Turncoat”
