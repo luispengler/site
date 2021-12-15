@@ -20,16 +20,16 @@ https://luispengler.github.io/site/doc/images/primeiro-letsbora.jpg
 O Let's Bora está sendo o nosso jeito de manter aqueles que querem melhorar seu inglês bem aquecidos durante a quarentena!
 ** E tem dado certo!
 #+ATTR_REVEAL: :frag (appear)
-40 edições do Let's Bora até hoje...
+41 edições do Let's Bora até hoje...
 | Data              | Let's Bora nº |
 |-------------------+---------------|
 | 13/01/21          |             1 |
 | 20/01/21          |             2 |
 | 27/01/21          |             3 |
 | ................. |            .. |
-| 03/11/21          |            38 |
 | 10/11/21          |            39 |
 | 17/11/21          |            40 |
+| 08/12/21          |            41 |
 #+BEGIN_NOTES
   Essas são as edições de Let's Bora que aconteceram até o dia de hoje, 19 de novembro.
 #+END_NOTES
@@ -38,16 +38,6 @@ O Let's Bora está sendo o nosso jeito de manter aqueles que querem melhorar seu
 #+ATTR_REVEAL: :frag (appear)
 #+BEGIN_NOTES
 Como não é surpresa para ninguém, muita gente começou a criar conteúdo para as redes socias depois que a pandemia começou...
-#+END_NOTES
-
-#+REVEAL: split
-#+ATTR_HTML: :width 65% :align center
-https://luispengler.github.io/site/doc/images/max.jpg
-
-Max Giesinger - "Nie stärker als jetzt"
-#+BEGIN_NOTES
-Essa foto é de um clipe de um artista alemão e no clipe da música dele aparecem dezenas de pessoas, se não, quase uma centena, que submeteram vídeos deles cantando a música. O nome da música é Nie starker als jetz, que significa, Nunca fomos tão fortes quanto agora. Eu só achei bem legal mostrar isso aqui, como mesmo nesses vários meses de pandemia, a gente ainda deu um jeito de se unir de alguma forma e essa forma, no caso deles, foi a música.
-E agora no nosso caso...
 #+END_NOTES
 
 ** O nascimento do Let's Bora
@@ -114,7 +104,7 @@ Desde a criação do nosso instagram, 25 de março de 2020, temos em nosso perfi
 #+ATTR_HTML: :height 55% :width 55% :align center
 https://luispengler.github.io/site/doc/images/reels.png
 
-15 reels
+18 reels
 #+REVEAL: split
 #+ATTR_HTML: :height 65% :width 65% :align center
 https://luispengler.github.io/site/doc/images/videos.png
@@ -124,7 +114,7 @@ https://luispengler.github.io/site/doc/images/videos.png
 #+ATTR_HTML: :height 55% :width 55% :align center
 https://luispengler.github.io/site/doc/images/posts.png
 
-82 posts
+80 posts
 #+BEGIN_NOTES
 Esses posts tem conteudos variados, como convites para os encontros de conversação, vocalubário, citações, dicas de como estudar inglês, datas comemorativas e oportunidades para estudar fora.
 #+END_NOTES
