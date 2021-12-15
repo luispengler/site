@@ -3,10 +3,10 @@
 #+REVEAL_TRANS: linear
 #+REVEAL_THEME: moon
 #+OPTIONS: timestamp:nil toc:nil num:nil
-#+Title: II ENCONTRO DE LINGUAGENS - Let's Bora
+#+Title: Mostra Nacional das Feiras de Ciência - Let's Bora
 #+Email: englishclubcg@gmail.com
 #+Author:
-** https://luispengler.github.io/site/doc/images/encontro.png
+** https://luispengler.github.io/site/doc/images/mostra.jpg
 ** Criação de Conteúdo Digital a partir dos encontros Let's Bora
 #+ATTR_REVEAL: :frag (appear)
 + Integrantes: Luís Spengler, Mariana Lopes, Natanael Teixeira
