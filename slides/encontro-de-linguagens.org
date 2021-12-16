@@ -16,23 +16,6 @@
 ** Primeiro Encontro (13/01/2021)
 #+ATTR_HTML: :width 75% :align center
 https://luispengler.github.io/site/doc/images/primeiro-letsbora.jpg
-** Let's bora nos últimos meses
-O Let's Bora está sendo o nosso jeito de manter aqueles que querem melhorar seu inglês bem aquecidos durante a quarentena!
-** E tem dado certo!
-#+ATTR_REVEAL: :frag (appear)
-41 edições do Let's Bora até hoje...
-| Data              | Let's Bora nº |
-|-------------------+---------------|
-| 13/01/21          |             1 |
-| 20/01/21          |             2 |
-| 27/01/21          |             3 |
-| ................. |            .. |
-| 10/11/21          |            39 |
-| 17/11/21          |            40 |
-| 08/12/21          |            41 |
-#+BEGIN_NOTES
-  Essas são as edições de Let's Bora que aconteceram até o dia de hoje, 19 de novembro.
-#+END_NOTES
 * INTRODUÇÃO
 ** Criação de Conteúdo
 #+ATTR_REVEAL: :frag (appear)
@@ -61,7 +44,6 @@ A gente percebeu que podia usar os mesmos conteúdos abordados nos encontros, pr
 #+ATTR_REVEAL: :frag (appear)
 #+BEGIN_NOTES
 O planejamento das ações que deveriam ser feitas durante as semanas aconteciam durante as reuniões de equipe e o controle era feito a partir de uma planilha de controle no google sheets
-Agora a Mariana vai falar um pouco sobre o conteúdo que a gente cria para as plataformas do Instagram e do Telegram
 #+END_NOTES
 #+REVEAL: split
 #+ATTR_HTML: :width 65% :align center
@@ -84,6 +66,23 @@ Criação de conteúdo nos Stories do Instagram a partir de discussão sobre a e
 #+ATTR_HTML: :height 25% :width 25% :align center
 https://luispengler.github.io/site/doc/images/quizz.png
 * RESULTADOS E ANÁLISE
+** Let's bora nos últimos meses
+O Let's Bora está sendo o nosso jeito de manter aqueles que querem melhorar seu inglês bem aquecidos durante a quarentena!
+** E tem dado certo!
+#+ATTR_REVEAL: :frag (appear)
+41 edições do Let's Bora até hoje...
+| Data              | Let's Bora nº |
+|-------------------+---------------|
+| 13/01/21          |             1 |
+| 20/01/21          |             2 |
+| 27/01/21          |             3 |
+| ................. |            .. |
+| 10/11/21          |            39 |
+| 17/11/21          |            40 |
+| 08/12/21          |            41 |
+#+BEGIN_NOTES
+  Essas são as edições de Let's Bora que aconteceram até o dia de hoje, 17 de dezembro.
+#+END_NOTES
 ** Numeros desde a criação
 #+BEGIN_NOTES
 A gente busca ter uma presença ativa nas redes socias, principalmente no instagram desde o inicio da pandemia.
