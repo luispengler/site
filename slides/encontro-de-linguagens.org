@@ -16,24 +16,6 @@
 ** Primeiro Encontro (13/01/2021)
 #+ATTR_HTML: :width 75% :align center
 https://luispengler.github.io/site/doc/images/primeiro-letsbora.jpg
-* INTRODUÇÃO
-** Criação de Conteúdo
-#+ATTR_REVEAL: :frag (appear)
-#+BEGIN_NOTES
-Como não é surpresa para ninguém, muita gente começou a criar conteúdo para as redes socias depois que a pandemia começou...
-#+END_NOTES
-
-** O nascimento do Let's Bora
-#+REVEAL: split
-Você na pandemia indo ao Let's Bora:
-#+ATTR_HTML: :height 35% :width 35% :align center
-https://luispengler.github.io/site/doc/images/monalisa-mask.jpg
-
-#+BEGIN_NOTES
-A gente tem o Let's Bora. Um projeto que nasceu depois de várias reuniões com nosso staff e em janeiro desse ano, a gente começou com os encontros online.
-E deu resultados viu?
-#+END_NOTES
-
 ** Como resultado do Let's Bora...
 Vimos que poderiamos aproveitar os mesmos conteúdos abordados nos encontros de conversação para desenvolvimento de conteúdo digital no Instagram e Telegram.
 
