@@ -172,7 +172,7 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [X]         The Flash – 2.23: “The Race of His Life”
 + [X]         Arrow – 4.23: “Schism”
 
-* 2016/2017 [49/91] [53%]
+* 2016/2017 [56/91] [61%]
 
 + [X]         The Flash – 3.01: “Flashpoint”
 + [X]         Arrow – 5.01: “Legacy”
@@ -223,13 +223,13 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [X]         Legends of Tomorrow – 2.10: “The Legion of Doom”
 + [X]         Arrow – 5.11: “Second Chances”
 + [X]         Supergirl – 2.11: “The Martian Chronicles”
-+ [ ]         The Flash – 3.12: “Untouchable”
-+ [ ]         Legends of Tomorrow – 2.11: “Turncoat”
-+ [ ]         Arrow – 5.12: “Bratva”
-+ [ ]         Supergirl – 2.12: “Luthors”
-+ [ ]         Arrow – 5.13: “Spectre of the Gun”
-+ [ ]         Supergirl – 2.13: “Mr. & Mrs. Mxyzptlk”
-+ [ ]         The Flash – 3.13: “Attack on Gorilla City”
++ [X]         The Flash – 3.12: “Untouchable”
++ [X]         Legends of Tomorrow – 2.11: “Turncoat”
++ [X]         Arrow – 5.12: “Bratva”
++ [X]         Supergirl – 2.12: “Luthors”
++ [X]         Arrow – 5.13: “Spectre of the Gun”
++ [X]         Supergirl – 2.13: “Mr. & Mrs. Mxyzptlk”
++ [X]         The Flash – 3.13: “Attack on Gorilla City”
 + [ ]         Legends of Tomorrow – 2.12: “Camelot/3000”
 + [ ]         Arrow – 5.14: “The Sin-Eater”
 + [ ]         Supergirl – 2.14: “Homecoming”
@@ -310,8 +310,6 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [ ]         Freedom Fighters: The Ray - 1.04: "Episode Four"
 + [ ]         Freedom Fighters: The Ray - 1.05: "Episode Five"
 + [ ]         Freedom Fighters: The Ray - 1.06: "Episode Six"
-
-
 + [ ]         Supergirl – 3.10: “Legion of Super-Heroes”
 + [ ]         The Flash – 4.10: “The Trial of The Flash”
 + [ ]         Black Lightning – 1.01: “The Resurrection”
@@ -600,7 +598,7 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [ ]         Stargirl – 1.12: “Stars & S.T.R.I.P.E Part One”
 + [ ]         Stargirl – 1.13: “Stars & S.T.R.I.P.E Part Two”
 
-* 2021 [0/102] [0%]
+* 2020/2021 [0/102] [0%]
 
 + [ ]         Batwoman – 2.01: “What Happened To Kate Kane”
 + [ ]         Batwoman – 2.02: “Prior Criminal History”
