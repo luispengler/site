@@ -172,7 +172,7 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [X]         The Flash – 2.23: “The Race of His Life”
 + [X]         Arrow – 4.23: “Schism”
 
-* 2016/2017 [56/91] [61%]
+* 2016/2017 [62/91] [68%]
 
 + [X]         The Flash – 3.01: “Flashpoint”
 + [X]         Arrow – 5.01: “Legacy”
@@ -230,12 +230,12 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [X]         Arrow – 5.13: “Spectre of the Gun”
 + [X]         Supergirl – 2.13: “Mr. & Mrs. Mxyzptlk”
 + [X]         The Flash – 3.13: “Attack on Gorilla City”
-+ [ ]         Legends of Tomorrow – 2.12: “Camelot/3000”
-+ [ ]         Arrow – 5.14: “The Sin-Eater”
-+ [ ]         Supergirl – 2.14: “Homecoming”
-+ [ ]         The Flash – 3.14: “Attack on Central City”
-+ [ ]         Arrow – 5.15: “Fighting Fire with Fire”
-+ [ ]         Supergirl – 2.15: “Exodus”
++ [X]         Legends of Tomorrow – 2.12: “Camelot/3000”
++ [X]         Arrow – 5.14: “The Sin-Eater”
++ [X]         Supergirl – 2.14: “Homecoming”
++ [X]         The Flash – 3.14: “Attack on Central City”
++ [X]         Arrow – 5.15: “Fighting Fire with Fire”
++ [X]         Supergirl – 2.15: “Exodus”
 + [ ]         The Flash – 3.15: “The Wrath of Savitar”
 + [ ]         Legends of Tomorrow – 2.13: “Land of the Lost”
 + [ ]         The Flash – 3.16: “Into The Speed Force”
