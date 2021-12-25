@@ -1,0 +1,118 @@
+#+TITLE: Application
+#+DESCRIPTION: College application 2022
+#+SETUPFILE: https://luispengler.github.io/site/org-html-themes/org/theme-readtheorg.setup
+#+OPTIONS: num:nil ^:{} toc:2
+
+* College list
+** Dream
++ MIT [QC]
++ Princeton [QC] (common-app)
++ Oxford [QC]
++ CALTECH [QC] (common-app)
++ Columbia [QC] (common-app)
++ Duke [QC] (common-app)
++ Cornell [QC] (common-app)
+
+** Target
++ Dartmouth [QC] (ED) (common-app)
+
+** Safe
++ Brandeis University (common-app)
++ Centre College (ED) (common-app)
++ Lehigh (common-app)
+
+cornell university? (QC)
+johns hopkins?
+california-los angeles? (QC)
+california-berkeley? (QC)
+california-san diego?
+california-davis? (QC)
+california-santa barbara? (QC)
+mit? (QC)
+maryland-college park? (QC)
+michigan-ann arbor?
+wisconsin-madison?
+ohio state university?
+washington-seattle? (QC)
+illinois at Urbana-Champaign? (QC)
+Minnesota-Twin Cities?
+SUNY empire state college?
+CALTECH? (QC)
+Stanford? (QC)
+Univesity of Chicago? (QC)
+Princeton? (QC)
+Texas-austin? (QC)
+Boston university? (QC)
+
+cambridge?
+waterloo? (QC)
+oxford? (QC)
+
+FACULDADES AMERICANAS QUE DERAM BOLSAS INTEGRAIS - CLASS OF 2025
+1. Amherst College 1x # Physics & astronomy are together; Support low-income families;
+2. Babson College 2x
+3. Bennington College 1x # Physics & astronomy are together; Dimensional application (like sharing a portifolio);
+4. Bowdoin College 1x # need-blind;
+5. Brandeis University 1x # Affordable; Near Boston!; Only bachelors at the areas I want;
+6. Centre College 1x # full-aid programs; apply from Common-app;
+7. Colgate University 1x # Physics & astronomy are together; Support low-income families;
+8. Columbia University 1x !!! (QC) # Full-tuition; Good location; Quantum Institute; Ivy League;
+9. Dartmouth College 5x !!! (QC) # Full-tuition; Good location; Quantum Institute; Ivy league; IFMS student there!
+10. Davidson College 1x #  need-blind;
+11. Duke University 3x !!! (QC) # Full-tuition; Good location; Quantum institute; Ivy league;
+12. Haverford College 1x # 100% your need
+13. Lehigh University 2x
+14. New York University AD 2x
+15. Northwestern University (EUA) 3x
+16. Oberlin College 1x !!!
+17. Rhodes College 1x
+18. Rice University 2x
+19. Rollins College 1x
+20. Stetson University 2x
+21. University of Chicago 1x !!! (QC)
+22. University of Pennsylvania 1x
+23. University of Wisconsin-Madison 2x !!!
+24. Wellesley College 1x
+25. Wesleyan University 1x
+26. Yale University 2x !!! (QC)
+27. Villanova University 1x
+28. University of Richmond 1x
+
+
+Universidades para aplicar em early:
+1. Oberlin College (ED 1 e 2) !!!
+2. Duke University (ED1) !!! (QC)
+3. Northwestern University (ED1)
+4. Amherst College (ED1)
+5. Bennington College (ED 1, 2 e EA)
+6. Bowdoin College (ED 1 e 2)
+7. Dartmouth College (ED1) (muita gente aplica mas muita gente passa) !!! (QC)
+8. Wesleyan University (ED 1 e 2)
+9. Colgate University (ED 1 e 2)
+10. Rice University (ED1)
+11. Haverford College (ED 1 e 2)
+12. Lehigh University (ED 1 e 2)
+13. Davidson College (ED 1 e 2)
+14. NYU Abu Dhabi (ED 1 e 2)
+15. Rhodes College (ED 1, 2 e EA)
+
+Se você for aplicar para estas faculdades, aplique em early:
+1. University of Chicago (Early action ou decision) (obrigatório)
+2. Tufts University (ED 1 ou 2) (obrigatório)
+3. Centre College (Early action) (recomendação)
+4. University of Richmond (Early action) (recomendação)
+
+Faculdades full need met que estão com um histórico muito ruim de aceitação e/ou bolsas integrais:
+1. Bryn Mawr College
+2. Carleton College
+3. Colby College
+4. Franklin & Marshall College
+5. Barnard College
+6. Middlebury College
+7. Hamilton College
+8. Lafayette College
+9. Mount Holyoke College
+10. Vassar College
+11. Skidmore College
+12. Williams College
+13. University of Rochester
