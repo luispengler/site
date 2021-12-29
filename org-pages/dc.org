@@ -172,7 +172,7 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [X]         The Flash – 2.23: “The Race of His Life”
 + [X]         Arrow – 4.23: “Schism”
 
-* 2016/2017 [67/91] [73%]
+* 2016/2017 [78/91] [85%]
 
 + [X]         The Flash – 3.01: “Flashpoint”
 + [X]         Arrow – 5.01: “Legacy”
@@ -241,17 +241,17 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [X]         The Flash – 3.16: “Into The Speed Force”
 + [X]         Legends of Tomorrow – 2.14: “Moonshot”
 + [X]         Arrow – 5.16: “Checkmate”
-+ [ ]         Supergirl – 2.16: “Star-Crossed”  ***MUST BE WATCHED TOGETHER (1)
-+ [ ]         The Flash – 3.17: “Duet” ***MUST BE WATCHED TOGETHER (2)
-+ [ ]         Legends of Tomorrow – 2.15: “Fellowship of the Spear”
-+ [ ]         Arrow – 5.17: “Kapiushon”
-+ [ ]         Supergirl – 2.17: “Distance Sun”
-+ [ ]         The Flash – 3.18: “Abra Kadabra”
-+ [ ]         Legends of Tomorrow – 2.16: “Doomworld”
-+ [ ]         Arrow – 5.18: “Disbanded”
-+ [ ]         Legends of Tomorrow – 2.17: “Aruba”
-+ [ ]         Supergirl – 2.18: “Ace Reporter”
-+ [ ]         The Flash – 3.19: “The Once and Future Flash”
++ [X]         Supergirl – 2.16: “Star-Crossed”  *MUST BE WATCHED TOGETHER (1)*
++ [X]         The Flash – 3.17: “Duet” *MUST BE WATCHED TOGETHER (2)*
++ [X]         Legends of Tomorrow – 2.15: “Fellowship of the Spear”
++ [X]         Arrow – 5.17: “Kapiushon”
++ [X]         Supergirl – 2.17: “Distance Sun”
++ [X]         The Flash – 3.18: “Abra Kadabra”
++ [X]         Legends of Tomorrow – 2.16: “Doomworld”
++ [X]         Arrow – 5.18: “Disbanded”
++ [X]         Legends of Tomorrow – 2.17: “Aruba”
++ [X]         Supergirl – 2.18: “Ace Reporter”
++ [X]         The Flash – 3.19: “The Once and Future Flash”
 + [ ]         Arrow – 5.19: “Dangerous Liaisons”
 + [ ]         Supergirl – 2.19: “Alex”
 + [ ]         The Flash – 3.20: “I Know Who You Are”
