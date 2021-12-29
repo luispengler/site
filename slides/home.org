@@ -1,0 +1,15 @@
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+#+REVEAL_REVEAL_JS_VERSION: 4
+#+REVEAL_TRANS: linear
+#+REVEAL_THEME: moon
+#+OPTIONS: timestamp:nil toc:nil num:nil
+#+Title: Daily college prep
+#+Author: Luís Spengler
+
+* SAT
+- [ ] [[https://www.khanacademy.org/mission/sat/][Prep]]
+- [ ] 3 practice videos
+
+* Application
+- [ ] [[https://apply.globalscholars.yale.edu/apply/frm?43d2be7f-b8df-486e-9808-8ed9a1ec84f3][YYGS]]
+- [ ] [[https://form.jotform.com/212855339348666?session=JF-S4L-24EMBHa3&stoken=JF-JLPjeMVQ-31&jumpToPage=2][Oportunidades Acadêmicas]]
