@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2021-12-31 Fri 19:15 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Big Form</title>
+<meta name="author" content="Luís Spengler" />
+<meta name="description" content="Big form" />
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+</style>
+<link rel="stylesheet" type="text/css" href="https://luispengler.github.io/site/org-html-themes/src/readtheorg_theme/css/htmlize.css"/>
+<link rel="stylesheet" type="text/css" href="https://luispengler.github.io/site/org-html-themes/src/readtheorg_theme/css/readtheorg.css"/>
+<script src="httpss://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="httpss://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://luispengler.github.io/site/org-html-themes/src/lib/js/jquery.stickytableheaders.min.js"></script>
+<script type="text/javascript" src="https://luispengler.github.io/site/org-html-themes/src/readtheorg_theme/js/readtheorg.js"></script>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">Big Form</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#orge3113b8">Writing and Activities Section - for future reference</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orge3113b8" class="outline-2">
+<h2 id="orge3113b8">Writing and Activities Section - for future reference</h2>
+<div class="outline-text-2" id="text-orge3113b8">
+</div>
+<div id="outline-container-orge3671b1" class="outline-3">
+<h3 id="orge3671b1">Extracurricular activities</h3>
+<div class="outline-text-3" id="text-orge3671b1">
+<ul class="org-ul">
+<li>LIST your extracurricular activities (i.e activities that students do outside of their classroom work, such as participation in clubs and societies, volunteer work, house responsibilities). Include dates of participation and briefly the type of activities that you do. Write them in order of importance. Also, feel free to share a link in the description of the activity, if applicable.</li>
+</ul>
+</div>
+
+<div id="outline-container-org4c114e2" class="outline-4">
+<h4 id="org4c114e2">Position/Leadership position</h4>
+<div class="outline-text-4" id="text-org4c114e2">
+<p>
+Staff Member and Leader
+</p>
+</div>
+</div>
+<div id="outline-container-org59d43aa" class="outline-4">
+<h4 id="org59d43aa">Organization Name OR name of the activity</h4>
+<div class="outline-text-4" id="text-org59d43aa">
+<p>
+English Club
+</p>
+</div>
+</div>
+<div id="outline-container-orgd11e2cf" class="outline-4">
+<h4 id="orgd11e2cf">Period of participation</h4>
+<div class="outline-text-4" id="text-orgd11e2cf">
+<p>
+2020-2022
+</p>
+</div>
+</div>
+<div id="outline-container-orgcc17388" class="outline-4">
+<h4 id="orgcc17388">Hours per Week and Weeks per Year</h4>
+<div class="outline-text-4" id="text-orgcc17388">
+<p>
+4h/w; 48w/y
+</p>
+</div>
+</div>
+<div id="outline-container-org8bfd609" class="outline-4">
+<h4 id="org8bfd609">Please describe this activity, including what you accomplished and any recognition you received, etc. [Feel free to share a link if applicable].</h4>
+<div class="outline-text-4" id="text-org8bfd609">
+<p>
+I joined in 2020 and due to the pandemic, we promoted online meetings, and digital content production. Instagram was the tool used to spread our digital content, with 109 posts. We enhanced and strengthened institutional internacionalization, and helped students develop their English. For our research we were honered with Best Project at High School Level in a state wide science fair (Fecintec), leading us to one state wide presentation and two national science fairs. <a href="https://www.instagram.com/englishclubcg/">https://www.instagram.com/englishclubcg/</a>
+</p>
+</div>
+</div>
+
+<div id="outline-container-orge904aa0" class="outline-4">
+<h4 id="orge904aa0">Position/Leadership position</h4>
+<div class="outline-text-4" id="text-orge904aa0">
+<p>
+Video editor senior
+</p>
+</div>
+</div>
+<div id="outline-container-org2f2714e" class="outline-4">
+<h4 id="org2f2714e">Organization Name OR name of the activity</h4>
+<div class="outline-text-4" id="text-org2f2714e">
+<p>
+Liga Olimpica de Astronomia
+</p>
+</div>
+</div>
+<div id="outline-container-org2280ea5" class="outline-4">
+<h4 id="org2280ea5">Period of participation</h4>
+<div class="outline-text-4" id="text-org2280ea5">
+<p>
+2021-2022
+</p>
+</div>
+</div>
+<div id="outline-container-org94aefc5" class="outline-4">
+<h4 id="org94aefc5">Hours per Week and Weeks per Year</h4>
+<div class="outline-text-4" id="text-org94aefc5">
+<p>
+5h/w; 40w/y
+</p>
+</div>
+</div>
+<div id="outline-container-org25a852d" class="outline-4">
+<h4 id="org25a852d">Please describe this activity, including what you accomplished and any recognition you received, etc. [Feel free to share a link if applicable].</h4>
+<div class="outline-text-4" id="text-org25a852d">
+<p>
+Olympiad League of Astronomy is a project focused on astronomy dissemination. We have 1,354 followers on Instagram and our recent youtube channel has 175 subscribers. However the project started as a webpage. We offer preparation for Astronomy Olympiads, be it national or international (OBA, MOBFOG, OLAA, IOAA), as well as having anything (exams, worklists, books, handouts, articles, guides) you will need to study for them. <a href="https://ligadeastronomia.com/">https://ligadeastronomia.com/</a> <a href="https://www.youtube.com/channel/UCzd-QgsR05lxMWl1Wa0KKuQ">https://www.youtube.com/channel/UCzd-QgsR05lxMWl1Wa0KKuQ</a>
+</p>
+</div>
+</div>
+
+<div id="outline-container-org49193be" class="outline-4">
+<h4 id="org49193be">Position/Leadership position</h4>
+<div class="outline-text-4" id="text-org49193be">
+<p>
+IGTV&amp;Live team member
+</p>
+</div>
+</div>
+<div id="outline-container-org0805dcd" class="outline-4">
+<h4 id="org0805dcd">Organization Name OR name of the activity</h4>
+<div class="outline-text-4" id="text-org0805dcd">
+<p>
+Yo Científicx
+</p>
+</div>
+</div>
+<div id="outline-container-org18237de" class="outline-4">
+<h4 id="org18237de">Period of participation</h4>
+<div class="outline-text-4" id="text-org18237de">
+<p>
+2020-2021
+</p>
+</div>
+</div>
+<div id="outline-container-org3bcfeec" class="outline-4">
+<h4 id="org3bcfeec">Hours per Week and Weeks per Year</h4>
+<div class="outline-text-4" id="text-org3bcfeec">
+<p>
+4h/w; 45w/y
+</p>
+</div>
+</div>
+<div id="outline-container-orga9be9c1" class="outline-4">
+<h4 id="orga9be9c1">Please describe this activity, including what you accomplished and any recognition you received, etc. [Feel free to share a link if applicable].</h4>
+<div class="outline-text-4" id="text-orga9be9c1">
+<p>
+Yo Científicx is a project focused on scientific dissemination. It is an Instagram and presencial project focused on bringing academic level science to high school students that engage with us. <a href="https://www.instagram.com/yocientificx/">https://www.instagram.com/yocientificx/</a>
+</p>
+</div>
+</div>
+
+<div id="outline-container-org80b9ad5" class="outline-4">
+<h4 id="org80b9ad5">Position/Leadership position</h4>
+<div class="outline-text-4" id="text-org80b9ad5">
+<p>
+English Mentor 1st cycle
+</p>
+</div>
+</div>
+<div id="outline-container-org9c5b125" class="outline-4">
+<h4 id="org9c5b125">Organization Name OR name of the activity</h4>
+<div class="outline-text-4" id="text-org9c5b125">
+<p>
+Projeto iLearn
+</p>
+</div>
+</div>
+<div id="outline-container-orga90d42a" class="outline-4">
+<h4 id="orga90d42a">Period of participation</h4>
+<div class="outline-text-4" id="text-orga90d42a">
+<p>
+2020
+</p>
+</div>
+</div>
+<div id="outline-container-orgb5923b8" class="outline-4">
+<h4 id="orgb5923b8">Hours per Week and Weeks per Year</h4>
+<div class="outline-text-4" id="text-orgb5923b8">
+<p>
+6h/w; 20w/y
+</p>
+</div>
+</div>
+<div id="outline-container-orgc51333c" class="outline-4">
+<h4 id="orgc51333c">Please describe this activity, including what you accomplished and any recognition you received, etc. [Feel free to share a link if applicable].</h4>
+<div class="outline-text-4" id="text-orgc51333c">
+<p>
+40 students impacted.<a href="https://www.instagram.com/projetoilearn/">https://www.instagram.com/projetoilearn/</a>
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org8de053b" class="outline-3">
+<h3 id="org8de053b">Academic accomplishments</h3>
+<div class="outline-text-3" id="text-org8de053b">
+<ul class="org-ul">
+<li>LIST your academic accomplishments (honors, medals, olympiads) and include a title for each one. Make sure you include if it is school wide, state wide, national, or international. Write them in cronological order, from most recent to least recent.</li>
+</ul>
+</div>
+
+<div id="outline-container-org4f09c1f" class="outline-4">
+<h4 id="org4f09c1f">Honor title</h4>
+<div class="outline-text-4" id="text-org4f09c1f">
+<p>
+Honorable Mention - 5th International Physics and Culture Olympiad (IPhCO)
+</p>
+</div>
+</div>
+<div id="outline-container-org1a03977" class="outline-4">
+<h4 id="org1a03977">Year of accomplishment</h4>
+<div class="outline-text-4" id="text-org1a03977">
+<p>
+2021
+</p>
+</div>
+</div>
+<div id="outline-container-orgab641db" class="outline-4">
+<h4 id="orgab641db">Level of Recognition</h4>
+<div class="outline-text-4" id="text-orgab641db">
+<p>
+International
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgd302147" class="outline-4">
+<h4 id="orgd302147">Honor title</h4>
+<div class="outline-text-4" id="text-orgd302147">
+<p>
+Honorable Mention - 24th Brazilian Olympiad of Astronautics and Astronomy (OBA)
+</p>
+</div>
+</div>
+<div id="outline-container-orgb1e305c" class="outline-4">
+<h4 id="orgb1e305c">Year of accomplishment</h4>
+<div class="outline-text-4" id="text-orgb1e305c">
+<p>
+2021
+</p>
+</div>
+</div>
+<div id="outline-container-org3469532" class="outline-4">
+<h4 id="org3469532">Level of Recognition</h4>
+<div class="outline-text-4" id="text-org3469532">
+<p>
+National
+</p>
+</div>
+</div>
+
+<div id="outline-container-org48b13c6" class="outline-4">
+<h4 id="org48b13c6">Honor title</h4>
+<div class="outline-text-4" id="text-org48b13c6">
+<p>
+Honorable Mention - Physics Brazilian Olympiad for the Public Schools (OBFEP) 2021
+</p>
+</div>
+</div>
+<div id="outline-container-orga5eba32" class="outline-4">
+<h4 id="orga5eba32">Year of accomplishment</h4>
+<div class="outline-text-4" id="text-orga5eba32">
+<p>
+2021
+</p>
+</div>
+</div>
+<div id="outline-container-orgf4cc91b" class="outline-4">
+<h4 id="orgf4cc91b">Level of Recognition</h4>
+<div class="outline-text-4" id="text-orgf4cc91b">
+<p>
+National
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgc981781" class="outline-4">
+<h4 id="orgc981781">Honor title</h4>
+<div class="outline-text-4" id="text-orgc981781">
+<p>
+Best project at High School level - Science and Technology Fair of Campo Grande MS (Fecintec) 2021
+</p>
+</div>
+</div>
+<div id="outline-container-orga950a53" class="outline-4">
+<h4 id="orga950a53">Year of accomplishment</h4>
+<div class="outline-text-4" id="text-orga950a53">
+<p>
+2021
+</p>
+</div>
+</div>
+<div id="outline-container-org0378f19" class="outline-4">
+<h4 id="org0378f19">Level of Recognition</h4>
+<div class="outline-text-4" id="text-org0378f19">
+<p>
+State wide
+</p>
+</div>
+</div>
+
+<div id="outline-container-org8019610" class="outline-4">
+<h4 id="org8019610">Honor title</h4>
+<div class="outline-text-4" id="text-org8019610">
+<p>
+Silver medal - Physics Brazilian Olympiad (OBF) 2021
+</p>
+</div>
+</div>
+<div id="outline-container-org9f6edb9" class="outline-4">
+<h4 id="org9f6edb9">Year of accomplishment</h4>
+<div class="outline-text-4" id="text-org9f6edb9">
+<p>
+2020
+</p>
+</div>
+</div>
+<div id="outline-container-orgecaacb0" class="outline-4">
+<h4 id="orgecaacb0">Level of Recognition</h4>
+<div class="outline-text-4" id="text-orgecaacb0">
+<p>
+State wide
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Luís Spengler</p>
+<p class="date">Created: 2021-12-31 Fri 19:15</p>
+</div>
+</body>
+</html>
