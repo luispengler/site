@@ -7,8 +7,8 @@
 #+Author: Luís Spengler
 
 * SAT
-- [ ] [[https://www.khanacademy.org/mission/sat/][Prep]]
-- [ ] 3 practice videos
+- [X] 3 practice videos
+- [X] [[https://www.khanacademy.org/mission/sat/][Prep]]
 
 * Application
 - [ ] [[https://apply.globalscholars.yale.edu/apply/frm?43d2be7f-b8df-486e-9808-8ed9a1ec84f3][YYGS]]

@@ -88,3 +88,11 @@ Silver medal - Physics Brazilian Olympiad (OBF) 2021
 2020
 *** Level of Recognition
 State wide
+
+** Essays
++ Prompt: Which major would you like to pursue and why? Even if you are undecided, tell us why. Please provide details. (250 - 500 words)
+  My interest for Physics actually started with Chemestry. As a 6 year-old boy, I would ask my dad to print me a new periodic table everytime I ran out of ways to set it up. But truth be told: at that time all I ever wanted to do was learn anything I found interesting. In Physics, one can never run out of curiosity and my inner-childhood never allowed me to do that. Throughout years I have been amazed by what humanity was able to do just by mastering Physics. How does an airplane that weights 440 tons fly anyway?
+  When I was 14 I got surprised how Linux made all the crappy computers I ever owned seem like they could have a new life. Simply learning how I could use this operating system with more efficiency helped me see the bigger picture. Just like operating systems, computers are simply a tool. And the better a tool becomes, more efficiently we are able to solve our unique set of problems. Be it improving chaotic system simulations for whether forecast or providing assistance in solving united nations' Zero Hunger Goal.
+  I want to be part of that. Quantum computers represent our best chance of doing many things we didn't imagine would be possible.
+
++ Optional: Please use this space to provide details of circumstances or qualifications not contemplated in this section (300 words or less). *

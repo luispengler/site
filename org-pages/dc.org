@@ -215,7 +215,7 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [X] The Flash – 2.23: “The Race of His Life”
 + [X] Arrow – 4.23: “Schism”
 
-* 2016/2017 [87/91] [95%]
+* 2016/2017 [91/91] [100%]
 
 + [X] The Flash – 3.01: “Flashpoint”
 + [X] Arrow – 5.01: “Legacy”
@@ -304,17 +304,17 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [X] Arrow – 5.21: “Honor Thy Fathers”
 + [X] Supergirl – 2.21: “Resist”
 + [X] The Flash – 3.22: “Infantino Street”
-+ [ ] Arrow – 5.22: “Missing”
-+ [ ] Supergirl – 2.22: “Nevertheless, She Persisted”
-+ [ ] The Flash – 3.23: “Finish Line”
-+ [ ] Arrow – 5.23: “Lian Yu”
++ [X] Arrow – 5.22: “Missing”
++ [X] Supergirl – 2.22: “Nevertheless, She Persisted”
++ [X] The Flash – 3.23: “Finish Line”
++ [X] Arrow – 5.23: “Lian Yu”
 
-* 2017/2018 [0/112] [0%]
+* 2017/2018 [4/112] [3%]
 
-+ [ ] Supergirl – 3.01: “Girl of Steel”
-+ [ ] The Flash – 4.01: “The Flash Reborn”
-+ [ ] Legends of Tomorrow – 3.01: “Aruba-Con”
-+ [ ] Arrow – 6.01: “Fallout”
++ [X] Supergirl – 3.01: “Girl of Steel”
++ [X] The Flash – 4.01: “The Flash Reborn”
++ [X] Legends of Tomorrow – 3.01: “Aruba-Con”
++ [X] Arrow – 6.01: “Fallout”
 + [ ] Supergirl – 3.02: “Triggers”
 + [ ] The Flash – 4.02: “Mixed Signals”
 + [ ] Legends of Tomorrow – 3.02: “Freakshow”
@@ -339,10 +339,10 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [ ] The Flash – 4.07: “Therefore I Am”
 + [ ] Legends of Tomorrow – 3.07: “Welcome to the Jungle”
 + [ ] Arrow – 6.07: “Thanksgiving”
-+ [ ] Supergirl – 3.08: “Crisis on Earth-X Part 1” ***MUST BE WATCHED TOGETHER (1)
-+ [ ] Arrow – 6.08: “Crisis on Earth-X Part 2” ***MUST BE WATCHED TOGETHER (2)
-+ [ ] The Flash – 4.08: “Crisis on Earth-X Part 3” ***MUST BE WATCHED TOGETHER (3)
-+ [ ] Legends of Tomorrow – 3.08: “Crisis on Earth-X Part 4” ***MUST BE WATCHED TOGETHER (4)
++ [ ] Supergirl – 3.08: “Crisis on Earth-X Part 1” *MUST BE WATCHED TOGETHER (1)*
++ [ ] Arrow – 6.08: “Crisis on Earth-X Part 2” *MUST BE WATCHED TOGETHER (2)*
++ [ ] The Flash – 4.08: “Crisis on Earth-X Part 3” *MUST BE WATCHED TOGETHER (3)*
++ [ ] Legends of Tomorrow – 3.08: “Crisis on Earth-X Part 4” *MUST BE WATCHED TOGETHER (4)*
 + [ ] Supergirl – 3.09: “Reign”
 + [ ] The Flash – 4.09: “Don’t Run”
 + [ ] Legends of Tomorrow – 3.09: “Beebo The God of War”
