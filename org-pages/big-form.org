@@ -92,7 +92,19 @@ State wide
 ** Essays
 + Prompt: Which major would you like to pursue and why? Even if you are undecided, tell us why. Please provide details. (250 - 500 words)
   My interest for Physics actually started with Chemestry. As a 6 year-old boy, I would ask my dad to print me a new periodic table everytime I ran out of ways to set it up. But truth be told: at that time all I ever wanted to do was learn anything I found interesting. In Physics, one can never run out of curiosity and my inner-childhood never allowed me to do that. Throughout years I have been amazed by what humanity was able to do just by mastering Physics. How does an airplane that weights 440 tons fly anyway?
-  When I was 14 I got surprised how Linux made all the crappy computers I ever owned seem like they could have a new life. Simply learning how I could use this operating system with more efficiency helped me see the bigger picture. Just like operating systems, computers are simply a tool. And the better a tool becomes, more efficiently we are able to solve our unique set of problems. Be it improving chaotic system simulations for whether forecast or providing assistance in solving united nations' Zero Hunger Goal.
-  I want to be part of that. Quantum computers represent our best chance of doing many things we didn't imagine would be possible.
+  When I was 14, I got surprised how Linux based operating systems made all the crappy computers I ever owned seem like they could have a new life. Simply learning how I could use this OS with more efficiency helped me see the bigger picture. Just like operating systems, computers are a tool. And the better a tool becomes, more efficiently we are able to solve our unique set of problems. Be it improving chaotic system simulations for whether forecast or providing assistance in solving united nations' Zero Hunger Goal.
+  Quantum Computers will be the way to go in the future, at least for simulations (which we can use to solve the world biggest problems). A cool thing about this growing field is that it is really multidisciplinary. Having a degree in Physics and Computer Science would help me approach Quantum Computers in two distinct ways. Besides, I have individual interests in both fields that I could persue in the future.
 
 + Optional: Please use this space to provide details of circumstances or qualifications not contemplated in this section (300 words or less). *
+
+* YYGS
+** Topic preferences
++ Please explain why you chose the session(s) above, including your reasoning for how you ranked each session. (100 Words)
+  I would be a better fit for IST and SGC programs because in the future I would like to be better prepared to use my knowledge in STEM to help make the world a better place.
+
++ SHORT ANSWER: We know students have many options for academic enrichment programs to which to apply. Please explain why you chose to apply for YYGS specifically AND why you would be a great fit for the program. What will you contribute to YYGS, and what do you hope to take away from YYGS and bring back to impact your community? (100 words)
+  YYGS's mission implies empowering the next generation of leaders. That is, young people like me that have the potential to change things for the best.
+  I hope to take as some of the many outcomes my self-development in some soft skills, such as leadership, and have a more impactful mindset, which would as a result influence, even more, the way I impact my community.
+
++ Please explain your responses above, including both your availability across all three session dates as well as your first choice session dates. (100 Words)
+  Session II dates I will be in winter break, meaning that I will not have any work from school to do, therefore this date is the best option for me.
