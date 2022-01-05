@@ -1,0 +1,22 @@
+#+TITLE: Luis Spengler book's list
+#+DESCRIPTION: luispengler.github.io/site - Luís Spengler's official webpage
+#+SETUPFILE:  https://luispengler.github.io/site/org-html-themes/org/theme-readtheorg.setup
+#+OPTIONS: toc:nil
+
+* 2022
+** Miss Peregrine's Home for Peculiar Children
+*** Total books
++ Miss Peregrine's Home for Peculiar Children
++ Miss Peregrine's Home for Peculiar Children - Hollow City
++ Miss Peregrine's Home for Peculiar Children - Library of Souls
++ Miss Peregrine's Home for Peculiar Children - A Map of Days
++ Miss Peregrine's Home for Peculiar Children - The Conference of the Birds
++ Miss Peregrine's Home for Peculiar Children - The Desolations of Devil's Acre
++ Tales of the Peculiar
+
+*** Cover sample
+#+ATTR_HTML: alt: waterwave :title Double-slit :style margin-left: auto;margin-right: auto;background-color: mintcream;display: block;width: 50%;
+https://luispengler.github.io/site/doc/images/missperegrines.jpg
+
+*** Description
+"A mysterious island. An abandoned orphanage. A strange collection of vintage photography. It all waits to be discovered in Miss Peregrine’s Home for Peculiar Children, a spine-tingling YA fantasy illustrated with haunting black-and-white photography. The hardcover edition spent more than 52 consecutive weeks on the New York Times Best-Seller List. This beautifully designed paperback edition features an exclusive interview with author Ransom Riggs and a sneak preview of the upcoming Miss Peregrine novel."
