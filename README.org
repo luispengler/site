@@ -4,7 +4,7 @@
 #+OPTIONS: num:nil ^:{} toc:nil
 
 #+ATTR_HTML: alt: waterwave :title Double-slit :style margin-left: auto;margin-right: auto;background-color: mintcream;display: block;width: 100%;
-https://luispengler.github.io/site/doc/images/punk8857.png
+https://luispengler.github.io/site/doc/images/testpunk.png
 | [[https://luispengler.github.io/site/html/org-pages/notes.html][My notes]] | [[https://luispengler.github.io/site/html/org-pages/filmes.html][Carlinda movies]] | [[https://luispengler.github.io/site/html/org-pages/dc.html][DC'series]] | [[https://luispengler.github.io/site/html/org-pages/books.html][Books]] |
 
 * About me
