@@ -1,10 +1,10 @@
 #+TITLE: Luís Spengler's Webpage
 #+DESCRIPTION: luispengler.github.io/site - Luís Spengler's official webpage
 #+SETUPFILE:  https://luispengler.github.io/site/org-html-themes/org/theme-readtheorg.setup
-#+OPTIONS: toc:nil
+#+OPTIONS: num:nil ^:{} toc:nil
 
 
-| [[https://luispengler.github.io/site/html/org-pages/notes.html][My notes]] | [[https://luispengler.github.io/site/html/org-pages/filmes.html][Carlinda movies]] | [[https://luispengler.github.io/site/html/org-pages/dc.html][DC'series]] |
+| [[https://luispengler.github.io/site/html/org-pages/notes.html][My notes]] | [[https://luispengler.github.io/site/html/org-pages/filmes.html][Carlinda movies]] | [[https://luispengler.github.io/site/html/org-pages/dc.html][DC'series]] | [[https://luispengler.github.io/site/html/org-pages/books.html][Books]] |
 
 * About me
 Hi, I am Luís Spengler and at the moment I write this I am a Junior High School student, taking electrotechnics vacational program.\\
