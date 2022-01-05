@@ -1,7 +1,7 @@
 #+TITLE: Luis Spengler book's list
 #+DESCRIPTION: luispengler.github.io/site - Luís Spengler's official webpage
 #+SETUPFILE:  https://luispengler.github.io/site/org-html-themes/org/theme-readtheorg.setup
-#+OPTIONS: toc:nil
+#+OPTIONS: num:nil ^:{} toc:2
 
 * 2022
 ** Miss Peregrine's Home for Peculiar Children
