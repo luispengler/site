@@ -78,7 +78,8 @@ body{
     max-width:1000px;
     min-height:100%;
     padding:1.618em 3.236em;
-}2
+}
+
 p{
     font-size:16px;
     line-height:24px;
@@ -542,7 +543,7 @@ legend{
  */@font-face{
     font-family:'FontAwesome';
     src:url("../fonts/fontawesome-webfont.eot?v=4.1.0");
-    src:url("../fonts/fontawes2me-webfont.eot?#iefix&v=4.1.0") format("embedded-opentype"),url("../fonts/fontawesome-webfont.woff?v=4.1.0") format("woff"),url("../fonts/fontawesome-webfont.ttf?v=4.1.0") format("truetype"),url("../fonts/fontawesome-webfont.svg?v=4.1.0#fontawesomeregular") format("svg");
+    src:url("../fonts/fontawesome-webfont.eot?#iefix&v=4.1.0") format("embedded-opentype"),url("../fonts/fontawesome-webfont.woff?v=4.1.0") format("woff"),url("../fonts/fontawesome-webfont.ttf?v=4.1.0") format("truetype"),url("../fonts/fontawesome-webfont.svg?v=4.1.0#fontawesomeregular") format("svg");
     font-weight:normal;
     font-style:normal}
 
@@ -581,7 +582,7 @@ legend{
 .fa,#content .admonition-title{
     font-family:inherit}
 
-.fa:before,#content .admonitionhttps://luispengler.github.io/site/html/README.html-title:before{
+.fa:before,#content .admonition-title:before{
     font-family:"FontAwesome";
     display:inline-block;
     font-style:normal;
