@@ -6,9 +6,9 @@
 <!-- 2022-01-09 Sun 13:18 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Fisica de particulas: um resumo meio completo e compilação de artigos básicos.</title>
+<title>Week 11 - my notes</title>
 <meta name="author" content="Luís Spengler" />
-<meta name="description" content="Fisica de particulas: um resumo breve e compilação de artigos básicos" />
+<meta name="description" content="Week 11 - my notes" />
 <meta name="generator" content="Org Mode" />
 <style>
   #content { max-width: 60em; margin: auto; }
@@ -200,168 +200,217 @@
 <script src="httpss://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="https://luispengler.github.io/site/org-html-themes/src/lib/js/jquery.stickytableheaders.min.js"></script>
 <script type="text/javascript" src="https://luispengler.github.io/site/org-html-themes/src/readtheorg_theme/js/readtheorg.js"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        displayAlign: "center",
+        displayIndent: "0em",
+
+        "HTML-CSS": { scale: 100,
+                        linebreaks: { automatic: "false" },
+                        webFont: "TeX"
+                       },
+        SVG: {scale: 100,
+              linebreaks: { automatic: "false" },
+              font: "TeX"},
+        NativeMML: {scale: 100},
+        TeX: { equationNumbers: {autoNumber: "AMS"},
+               MultLineWidth: "85%",
+               TagSide: "right",
+               TagIndent: ".8em"
+             }
+});
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML"></script>
 </head>
 <body>
 <div id="content" class="content">
-<h1 class="title">Fisica de particulas: um resumo meio completo e compilação de artigos básicos.</h1>
+<h1 class="title">Week 11 - my notes</h1>
 <div id="table-of-contents" role="doc-toc">
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#orgb3eb1bb">Modelo padrão</a>
+<li><a href="#org5698229">Week 11 - Quantum Key Distribuition: Part 2</a>
 <ul>
-<li><a href="#org99d9c4f">Spin</a></li>
-<li><a href="#orgb851e35">Bósons-Férmions</a></li>
-<li><a href="#org83ea798">Princípio de exclusão de Pauli</a></li>
+<li><a href="#orgb17fed8">Recap</a></li>
 </ul>
 </li>
-<li><a href="#org95acb4f">Pré-Modelo Padrão: Constituintes</a>
+<li><a href="#org1ed0470">QKD Part 2: Eve returns (imp smiling)</a>
 <ul>
-<li><a href="#org6d5c443">Os constituintes do modelo padrão: O fóton</a>
+<li><a href="#orge2a2342">Eve&rsquo;s work</a></li>
+<li><a href="#org2c62538">Receiver&rsquo;s work</a></li>
+<li><a href="#org3e95273">Comparison</a></li>
+</ul>
+</li>
+<li><a href="#orgdc6fd9a">Other QKD protocols</a>
 <ul>
-<li><a href="#orgec67958">Efeito compton</a></li>
+<li><a href="#org7b38beb">B92 protocol</a></li>
+<li><a href="#orgeec4cf8">E91 protocol</a></li>
+</ul>
+</li>
+<li><a href="#org191dbc0">QKD in the real world</a>
+<ul>
+<li><a href="#org5c3c255">Differences</a></li>
 </ul>
 </li>
 </ul>
-</li>
-<li><a href="#orge57c386">Estabilidade nuclear e força forte</a></li>
-<li><a href="#org79a16f0">Os constituintes do modelo padrão: Méson pi e o Múon</a></li>
-<li><a href="#org5f166d6">Os constituintes do modelo padrão: As Antipartículas</a>
-<ul>
-<li><a href="#orgd023812">A interpretação do mar de Dirac</a></li>
-<li><a href="#org6e93d18">Criação de Pares/Aniquilação de Pares</a></li>
-</ul>
-</li>
-<li><a href="#org4077d09">Partículas virtuais</a>
-<ul>
-<li><a href="#orgd5147ac">O efeito Casimir</a></li>
-</ul>
-</li>
-<li><a href="#org1261087">Os constituintes do modelo padrão: Os Neutrinos</a></li>
-<li><a href="#orgee1cce4">A interação fraca</a></li>
-<li><a href="#org0bf1c07">O caminho Octuplo</a></li>
-<li><a href="#org67c2148">O modelo de Quarks</a></li>
-<li><a href="#org26cf07b">Bários e Mésons</a></li>
-<li><a href="#org43d0183">Liberdade Assintónica</a></li>
-<li><a href="#org080e447">Classificação de partículas</a></li>
-<li><a href="#org5c1e926">Os bósons mediadores</a></li>
-<li><a href="#org94f9dc7">Os bósons intermediadores</a></li>
-<li><a href="#org62a6b8a">As interações Fundamentais</a></li>
+</div>
+</div>
+
+<div id="outline-container-org5698229" class="outline-2">
+<h2 id="org5698229">Week 11 - Quantum Key Distribuition: Part 2</h2>
+<div class="outline-text-2" id="text-org5698229">
+</div>
+<div id="outline-container-orgb17fed8" class="outline-3">
+<h3 id="orgb17fed8">Recap</h3>
+<div class="outline-text-3" id="text-orgb17fed8">
+</div>
+<div id="outline-container-org36e7d46" class="outline-4">
+<h4 id="org36e7d46">The Key</h4>
+<div class="outline-text-4" id="text-org36e7d46">
+<ul class="org-ul">
+<li>It is a series of classical bits</li>
+<li>It is used to encode and decode the party messages</li>
+<li>in QKD, the key is developed together</li>
+<li>QKD helps us construct and send a truly secure key</li>
+<li>Quantum measurement guarantees that we know if there was an eavesdropper listening</li>
 </ul>
 </div>
 </div>
-
-<div id="outline-container-orgb3eb1bb" class="outline-2">
-<h2 id="orgb3eb1bb">Modelo padrão</h2>
-<div class="outline-text-2" id="text-orgb3eb1bb">
-<p>
-Pense nele como a tabela periódica das partículas, assim como existe a tabela periódica dos átomos que compõem nosso universo.
-É importante ressaltar que ele é um modelo incompleto, existem lacunas e não sabemos com o que preenchê-las.
-</p>
-
-
-<div id="orgf2a3a19" class="figure">
-<p><img src="https://luispengler.github.io/site/doc/images/image0.png" alt="image0.png" title="Modelo Padrão" style="float:left;margin-bottom:20px;margin-left: auto;margin-right: auto;background-color: mintcream;display: block;max-width: 100%;height: auto;" />
-</p>
+<div id="outline-container-orgca9a356" class="outline-4">
+<h4 id="orgca9a356">QKD protocol</h4>
+<div class="outline-text-4" id="text-orgca9a356">
+</div>
+<div id="outline-container-orgd871ac0" class="outline-5">
+<h5 id="orgd871ac0">Phase 1: Sending</h5>
+<div class="outline-text-5" id="text-orgd871ac0">
+<ol class="org-ol">
+<li>Sender randomly picks some classical bits</li>
+<li>Sender randomly chooses a basis (Z or X) to each bit.</li>
+<li>Sender encondes each classical bit in a qubit using the rules the party agreed on.</li>
+<li>Sender sends the qubits using a quantum channel</li>
+</ol>
 </div>
 </div>
-
-
-<div id="outline-container-org99d9c4f" class="outline-3">
-<h3 id="org99d9c4f">Spin</h3>
-</div>
-
-<div id="outline-container-orgb851e35" class="outline-3">
-<h3 id="orgb851e35">Bósons-Férmions</h3>
-</div>
-
-<div id="outline-container-org83ea798" class="outline-3">
-<h3 id="org83ea798">Princípio de exclusão de Pauli</h3>
+<div id="outline-container-org87ef0ad" class="outline-5">
+<h5 id="org87ef0ad">Phase 2: Receiving</h5>
+<div class="outline-text-5" id="text-org87ef0ad">
+<ol class="org-ol">
+<li>Receiver ramdonly picks bases</li>
+<li>Receiver measures the qubits with his/her chosen bases to get new quantum states</li>
+<li>Receiver decodes the states of his measured qubits into bits</li>
+</ol>
 </div>
 </div>
-
-<div id="outline-container-org95acb4f" class="outline-2">
-<h2 id="org95acb4f">Pré-Modelo Padrão: Constituintes</h2>
-<div class="outline-text-2" id="text-org95acb4f">
-</div>
-<div id="outline-container-org6d5c443" class="outline-3">
-<h3 id="org6d5c443">Os constituintes do modelo padrão: O fóton</h3>
-<div class="outline-text-3" id="text-org6d5c443">
-</div>
-<div id="outline-container-orgec67958" class="outline-4">
-<h4 id="orgec67958">Efeito compton</h4>
+<div id="outline-container-org0478a24" class="outline-5">
+<h5 id="org0478a24">Phase 3: Comparing</h5>
+<div class="outline-text-5" id="text-org0478a24">
+<ol class="org-ol">
+<li>Sender and receiver compare bases using the classical channel and eliminate the ones that their bases didn&rsquo;t match up.</li>
+<li>Sender and receiver compare bits over the classical channel</li>
+</ol>
 </div>
 </div>
+<div id="outline-container-org8d7ae93" class="outline-5">
+<h5 id="org8d7ae93">Importance of second step in third phase</h5>
+<div class="outline-text-5" id="text-org8d7ae93">
+<ul class="org-ul">
+<li>If their bits are not the same, it means someone eveasdropped</li>
+<li>Remember, when we measure quantum states, they can change</li>
+</ul>
 </div>
-
-<div id="outline-container-orge57c386" class="outline-2">
-<h2 id="orge57c386">Estabilidade nuclear e força forte</h2>
 </div>
-
-<div id="outline-container-org79a16f0" class="outline-2">
-<h2 id="org79a16f0">Os constituintes do modelo padrão: Méson pi e o Múon</h2>
 </div>
-
-<div id="outline-container-org5f166d6" class="outline-2">
-<h2 id="org5f166d6">Os constituintes do modelo padrão: As Antipartículas</h2>
-<div class="outline-text-2" id="text-org5f166d6">
-</div>
-<div id="outline-container-orgd023812" class="outline-3">
-<h3 id="orgd023812">A interpretação do mar de Dirac</h3>
-</div>
-
-<div id="outline-container-org6e93d18" class="outline-3">
-<h3 id="org6e93d18">Criação de Pares/Aniquilação de Pares</h3>
 </div>
 </div>
 
-<div id="outline-container-org4077d09" class="outline-2">
-<h2 id="org4077d09">Partículas virtuais</h2>
-<div class="outline-text-2" id="text-org4077d09">
+<div id="outline-container-org1ed0470" class="outline-2">
+<h2 id="org1ed0470">QKD Part 2: Eve returns (imp smiling)</h2>
+<div class="outline-text-2" id="text-org1ed0470">
+<ul class="org-ul">
+<li>Phase will be slightly different:
+<ul class="org-ul">
+<li>Someone will intecerpt the qubits before Bob can measure them.</li>
+</ul></li>
+<li>When agreeing upon the bases and the table, we gotta consider Eve knowing them too</li>
+</ul>
 </div>
-<div id="outline-container-orgd5147ac" class="outline-3">
-<h3 id="orgd5147ac">O efeito Casimir</h3>
+<div id="outline-container-orge2a2342" class="outline-3">
+<h3 id="orge2a2342">Eve&rsquo;s work</h3>
+<div class="outline-text-3" id="text-orge2a2342">
+<ul class="org-ul">
+<li>He intercepts the qubits sent</li>
+<li>Then, he chooses bases (at random) to figure out the bits (he is measuring)</li>
+<li>Of course, as Eve used some different basis than the sender used, his measurements contain differences from the previous ones.</li>
+<li>Even, to remain undetected, needs to send off those results to the receiver</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org2c62538" class="outline-3">
+<h3 id="org2c62538">Receiver&rsquo;s work</h3>
+<div class="outline-text-3" id="text-org2c62538">
+<ul class="org-ul">
+<li>They choose random bases to figure out the bits</li>
+<li>They decode qubits back to bits using his random bases and the table previously agreed on</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org3e95273" class="outline-3">
+<h3 id="org3e95273">Comparison</h3>
+<div class="outline-text-3" id="text-org3e95273">
+<ul class="org-ul">
+<li>Sender and receiver compare their bases and cross off the ones tha don&rsquo;t match</li>
+<li>Afterwards, they check to see if their bits are the same (and it is not!)</li>
+<li>After knowing there is an eavesdropper on the line, they need to go and find a more secure method of communicating</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgdc6fd9a" class="outline-2">
+<h2 id="orgdc6fd9a">Other QKD protocols</h2>
+<div class="outline-text-2" id="text-orgdc6fd9a">
+<ul class="org-ul">
+<li>The QKD protocol we&rsquo;ve been learning is AKA BB84 procotol. It was invented by Bennet and Brassard in 1984</li>
+</ul>
+</div>
+<div id="outline-container-org7b38beb" class="outline-3">
+<h3 id="org7b38beb">B92 protocol</h3>
+<div class="outline-text-3" id="text-org7b38beb">
+<ul class="org-ul">
+<li>Sender uses two states to enconde - \(|0\rangle\) \(|+\rangle\) - Notice that these two states are still in different bases (Z and X).</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgeec4cf8" class="outline-3">
+<h3 id="orgeec4cf8">E91 protocol</h3>
+<div class="outline-text-3" id="text-orgeec4cf8">
+<ul class="org-ul">
+<li>This protocol uses entenglement - Sender and receiver have one qubit each, and the two qubits are entangled. The key is generated using these shared, entangled qubits</li>
+</ul>
+</div>
 </div>
 </div>
 
-<div id="outline-container-org1261087" class="outline-2">
-<h2 id="org1261087">Os constituintes do modelo padrão: Os Neutrinos</h2>
+<div id="outline-container-org191dbc0" class="outline-2">
+<h2 id="org191dbc0">QKD in the real world</h2>
+<div class="outline-text-2" id="text-org191dbc0">
+<ul class="org-ul">
+<li>Many quantum algorithms &amp; protocols are not yet usable, because they assume perfect, fault-tolerant hardware
+<ul class="org-ul">
+<li>These are called long-term algorithms</li>
+</ul></li>
+<li>However, we can start implementing QKD right now!</li>
+</ul>
 </div>
-
-<div id="outline-container-orgee1cce4" class="outline-2">
-<h2 id="orgee1cce4">A interação fraca</h2>
+<div id="outline-container-org5c3c255" class="outline-3">
+<h3 id="org5c3c255">Differences</h3>
+<div class="outline-text-3" id="text-org5c3c255">
+<ul class="org-ul">
+<li>QKD protocols have multiple components, such as devices, medium, distance between senders, cost of implementation</li>
+<li>Therefore, different QKD protocols are used for different use cases.</li>
+</ul>
 </div>
-
-<div id="outline-container-org0bf1c07" class="outline-2">
-<h2 id="org0bf1c07">O caminho Octuplo</h2>
 </div>
-
-<div id="outline-container-org67c2148" class="outline-2">
-<h2 id="org67c2148">O modelo de Quarks</h2>
-</div>
-
-<div id="outline-container-org26cf07b" class="outline-2">
-<h2 id="org26cf07b">Bários e Mésons</h2>
-</div>
-
-<div id="outline-container-org43d0183" class="outline-2">
-<h2 id="org43d0183">Liberdade Assintónica</h2>
-</div>
-
-<div id="outline-container-org080e447" class="outline-2">
-<h2 id="org080e447">Classificação de partículas</h2>
-</div>
-
-<div id="outline-container-org5c1e926" class="outline-2">
-<h2 id="org5c1e926">Os bósons mediadores</h2>
-</div>
-
-<div id="outline-container-org94f9dc7" class="outline-2">
-<h2 id="org94f9dc7">Os bósons intermediadores</h2>
-</div>
-
-<div id="outline-container-org62a6b8a" class="outline-2">
-<h2 id="org62a6b8a">As interações Fundamentais</h2>
 </div>
 </div>
 <div id="postamble" class="status">

@@ -1,0 +1,63 @@
+#+TITLE: Week 11 - my notes
+#+DESCRIPTION: Week 11 - my notes
+#+SETUPFILE: https://luispengler.github.io/site/org-html-themes/org/theme-readtheorg.setup
+#+LaTeX_+HEADER: \usepackage{physics}
+#+LaTeX_+HEADER: \usepackage{amsmath}
+#+OPTIONS: num:nil ^:{} toc:2
+
+* Week 11 - Quantum Key Distribuition: Part 2
+** Recap
+*** The Key
++ It is a series of classical bits
++ It is used to encode and decode the party messages
++ in QKD, the key is developed together
++ QKD helps us construct and send a truly secure key
++ Quantum measurement guarantees that we know if there was an eavesdropper listening
+*** QKD protocol
+**** Phase 1: Sending
+1. Sender randomly picks some classical bits
+2. Sender randomly chooses a basis (Z or X) to each bit.
+3. Sender encondes each classical bit in a qubit using the rules the party agreed on.
+4. Sender sends the qubits using a quantum channel
+**** Phase 2: Receiving
+1. Receiver ramdonly picks bases
+2. Receiver measures the qubits with his/her chosen bases to get new quantum states
+3. Receiver decodes the states of his measured qubits into bits
+**** Phase 3: Comparing
+1. Sender and receiver compare bases using the classical channel and eliminate the ones that their bases didn't match up.
+2. Sender and receiver compare bits over the classical channel
+**** Importance of second step in third phase
++ If their bits are not the same, it means someone eveasdropped
++ Remember, when we measure quantum states, they can change
+
+* QKD Part 2: Eve returns (imp smiling)
++ Phase will be slightly different:
+  - Someone will intecerpt the qubits before Bob can measure them.
++ When agreeing upon the bases and the table, we gotta consider Eve knowing them too
+** Eve's work
++ He intercepts the qubits sent
++ Then, he chooses bases (at random) to figure out the bits (he is measuring)
++ Of course, as Eve used some different basis than the sender used, his measurements contain differences from the previous ones.
++ Even, to remain undetected, needs to send off those results to the receiver
+** Receiver's work
++ They choose random bases to figure out the bits
++ They decode qubits back to bits using his random bases and the table previously agreed on
+** Comparison
++ Sender and receiver compare their bases and cross off the ones tha don't match
++ Afterwards, they check to see if their bits are the same (and it is not!)
++ After knowing there is an eavesdropper on the line, they need to go and find a more secure method of communicating
+
+* Other QKD protocols
++ The QKD protocol we've been learning is AKA BB84 procotol. It was invented by Bennet and Brassard in 1984
+** B92 protocol
+ + Sender uses two states to enconde - \(|0\rangle\) \(|+\rangle\) - Notice that these two states are still in different bases (Z and X).
+** E91 protocol
++ This protocol uses entenglement - Sender and receiver have one qubit each, and the two qubits are entangled. The key is generated using these shared, entangled qubits
+
+* QKD in the real world
++ Many quantum algorithms & protocols are not yet usable, because they assume perfect, fault-tolerant hardware
+  - These are called long-term algorithms
++ However, we can start implementing QKD right now!
+** Differences
++ QKD protocols have multiple components, such as devices, medium, distance between senders, cost of implementation
++ Therefore, different QKD protocols are used for different use cases.

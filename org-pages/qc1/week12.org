@@ -1,0 +1,9 @@
+#+TITLE: Week 12 - my notes
+#+DESCRIPTION: Week 12 - my notes
+#+SETUPFILE: https://luispengler.github.io/site/org-html-themes/org/theme-readtheorg.setup
+#+LaTeX_+HEADER: \usepackage{physics}
+#+LaTeX_+HEADER: \usepackage{amsmath}
+#+OPTIONS: num:nil ^:{} toc:2
+
+* Week 12 - Quantum Key Distribuition: Part 2
+** Recap
