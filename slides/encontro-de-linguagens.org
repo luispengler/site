@@ -3,7 +3,7 @@
 #+REVEAL_TRANS: linear
 #+REVEAL_THEME: moon
 #+OPTIONS: timestamp:nil toc:nil num:nil
-#+Title: FEBRACE - Let's Bora
+#+Title: FEBRACE 2022 - Let's Bora
 #+Email: englishclubcg@gmail.com
 #+Author:
 ** https://luispengler.github.io/site/doc/images/febrace.jpeg
