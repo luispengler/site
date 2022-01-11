@@ -13,6 +13,10 @@
 + Projeto: English Club
 + Integrantes:  Luís Spengler, Mariana Lopes, Natanael Teixeira
 + Coordenação: Profa. Me. Fernanda Belarmino de Santana Scaini
+
+#+BEGIN_NOTES
+O Let's Bora é um encontro de conversação focado em melhorar os listening e speaking, que é a fala e a escuta, dos integrantes através de encontros divertido e descontraídos.
+#+END_NOTES
 ** Primeiro Encontro (13/01/2021)
 #+ATTR_HTML: :width 75% :align center
 https://luispengler.github.io/site/doc/images/primeiro-letsbora.jpg
