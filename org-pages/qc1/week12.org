@@ -6,4 +6,24 @@
 #+OPTIONS: num:nil ^:{} toc:2
 
 * Week 12 - Quantum Key Distribuition: Part 2
-** Recap
+** One-to-one vs many-to-one problems
++ One-to-one: One output for each input. Ex: Update everyone's schedule for the new year. Each input can be processed individually without affecting the other inputs.
++ Many-to-one: Many inputs, one output. Ex: Update everyone's schedule based on everyone's availabilites, hence each input needs to be ballanced to get one certain output.
+
+** Quantum computers usefulness
+1. Search and optimization: find the best solution in a large dataset. Ex: Database search, energy distrubuition, climate modeling, portfolio optimization
+   + Is this just paralel computing? No. Paralel processing is focused on one-to-one problems, as quantum uses superposition to process multiple inputs (many-to-one) simultaneously.
+2. Simulation of quantum systems: use the same rules as nature at its most fundamental level to simulate this very own nature. Ex: Protein structure, novel battery materials, solar cells.
+
+** Relationships between quantum gates
++ Applying H, Z, H in this order is the same as only applying an X gate
++ Applying H, X, H in this order is the same as only applying a Z gate
++ This concept can be used as transpilation. Sometimes you work with a computer that can't implement a certain gate, so you can use these workarounds to substitute the desired gate.
+
+ Quantum Computing With Trapped Ions
+URL: https://www.youtube.com/watch?v=9aOLwjUZLm0&list=WL&index=37l
+Description:  Good introduction to trapped ion qubits, and also has a discussion of many-one vs one-one problems
+
+The Emerging Quantum Computing Sector
+URL: https://www.youtube.com/watch?v=c0VMhcjZ3lw&list=WL&index=37
+Description: Overview of the emerging QC industry

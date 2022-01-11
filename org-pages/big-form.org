@@ -16,7 +16,7 @@ English Club
 *** Hours per Week and Weeks per Year
 4h/w; 48w/y
 *** Please describe this activity, including what you accomplished and any recognition you received, etc. [Feel free to share a link if applicable].
-I joined in 2020 and due to the pandemic, we promoted online meetings, and digital content production. Instagram was the tool used to spread our digital content, with 109 posts. We enhanced and strengthened institutional internacionalization, and helped students develop their English. For our research we were honered with Best Project at High School Level in a state wide science fair (Fecintec), leading us to one state wide presentation and two national science fairs. We alos received... Link to our Instagram: https://www.instagram.com/englishclubcg/
+I joined the club in 2020 and due to the pandemic, we promoted online meetings, and digital content production. Instagram was the tool used to spread our digital content, with 109 posts created since its creation date. We enhanced and strengthened institutional internacionalization, and helped students develop their English. For our research we were honered with Best Project at High School Level in a state wide science fair (Fecintec), leading us to one state wide presentation and two national science fairs, from which we received R$ 4,200.00. Link to our Instagram: https://www.instagram.com/englishclubcg/
 
 *** Position/Leadership position
 Student
@@ -25,9 +25,9 @@ Qubit by Qubit by The coding School
 *** Period of participation
 2021-2021
 *** Hours per Week and Weeks per Year
-6h/w; 25w/y
+6h/w; 24w/y
 *** Please describe this activity, including what you accomplished and any recognition you received, etc. [Feel free to share a link if applicable].
-An online course with the mission of empowering students with the skills and confidence necessary to become future leaders, problem solvers and innovators through quantum education. Taught by MIT Scientists and Sponsored by IBM, this is the only online course about quantum computing open worldwide for high school students. QubitxQubit excits me every week with lectures and lab sessions and I take advantage of these moments to learn as much as I can about the field I want to specialize in. I even started sharing my notes with the worldwide web: https://luispengler.github.io/site/html/org-pages/quantum-computing.html also here's a link to my first semester grades: https://drive.google.com/file/d/1X8zmCD8W1R8TCljNCOMkUOpgvaeku9UF/view?usp=sharing
+An online course with the mission of empowering students with the skills and confidence necessary to become future leaders, problem solvers and innovators through quantum education. Taught by MIT Scientists (other universities too!) and Sponsored by IBM, this is the only online course about quantum computing open worldwide for high school students. QubitxQubit excits me every week with lectures and lab sessions and I take advantage of these moments to learn as much as I can about the field I want to specialize in. I even started sharing my notes with the worldwide web: https://luispengler.github.io/site/html/org-pages/quantum-computing.html also here's a link to my first semester grades: https://drive.google.com/file/d/1X8zmCD8W1R8TCljNCOMkUOpgvaeku9UF/view?usp=sharing
 
 *** Position/Leadership position
 IGTV&Live team member
@@ -140,19 +140,66 @@ I worked through High School physics problems but in 9th grade. I was one of fiv
 In Junior High, I received 11 certificates indicating great academic performance, 7 of them being either class valedictorian or stating a GPA greater than 9.5. But at the end of middle school, about 8th-9th grade, my house was not in a good mood. My parents always fought a lot, but prior to their divorce, there were constant fights each week that a few times made my mom leave the house or we (me, my mother, and my two younger siblings) go to a distant police station dedicated to cases concerning violence against women. They got divorced in February of 2019. On September 15h of 2020, I was hospitalized for a disease I still carry, but wasn't identified until this event. Idiopathic thrombocytopenic purpura is the disease, and a rare one. But after removing my spleen it isn't much of a trouble. I started developing a passion for FOSS (free and open-source software) and as part of that journey, I've been writing my own website/blog https://luispengler.github.io/site/html/README.html. I presented a scientific initiation in High School (https://www.youtube.com/watch?v=HXh0zFwdwKo).
 
 * YYGS
-** Topic preferences
-+ Please explain why you chose the session(s) above, including your reasoning for how you ranked each session. (100 Words)
-  I would be a better fit for IST and SGC programs because in the future I would like to be better prepared to use my knowledge in STEM to help make the world a better place. At IST, I would be hearing from other students with similar interests as mine, and that would help me understand
 
-+ SHORT ANSWER: We know students have many options for academic enrichment programs to which to apply. Please explain why you chose to apply for YYGS specifically AND why you would be a great fit for the program. What will you contribute to YYGS, and what do you hope to take away from YYGS and bring back to impact your community? (100 words)
-  YYGS's mission implies empowering the next generation of leaders. That is, young people like me that have the potential to change things for the best.
-  I hope to take as some of the many outcomes my self-development in some soft skills, such as leadership, and have a more impactful mindset, which would as a result influence, even more, the way I impact my community.
+** TODO Activities list
++ Activity/Organization Name
+  English Club
++ Position
+Staff Member and Leader
++ Description (130 char)
+Promote English interactions and reaserch throughout campus community
 
-+ Please explain your responses above, including both your availability across all three session dates as well as your first choice session dates. (100 Words)
-  Session II dates I will be in winter break, meaning that I will not have any work from school to do, therefore this date is the best option for me.
++ Why is this activity most meaningful to you? (100 words)
+  I feel link we are of great help to students seeking to practice English, especially with someone you can see every day in your classroom, creating a truly dynamic interaction between students. I couldn't know the feeling better, for I have been an English club member myself!
+  I also work with a very powerful, and incredible set of people. It feels like together we can do anything. As I write this, we have taken the English club to our state science fair, winning in first place, and two national science fairs. We even received a R$ 4,200.00 scholarship.
+
++ Activity/Organization Name
+  Qubit by Qubit by The coding School
++ Position
+  Student
++ Description
+An online course with the mission of empowering students with the skills and confidence necessary to become future leaders, problem solvers and innovators through quantum education. Taught by MIT Scientists (other universities too!) and Sponsored by IBM, this is the only online course about quantum computing open worldwide for high school students. QubitxQubit excits me every week with lectures and lab sessions and I take advantage of these moments to learn as much as I can about the field I want to specialize in. I even started sharing my notes with the worldwide web: https://luispengler.github.io/site/html/org-pages/quantum-computing.html also here's a link to my first semester grades: https://drive.google.com/file/d/1X8zmCD8W1R8TCljNCOMkUOpgvaeku9UF/view?usp=sharin
+
++ Activity/Organization Name
+Liga Olimpica de Astronomia
++ Position
+Video editor senior
++ Description
+Olympiad League of Astronomy is a project focused on astronomy dissemination. We have 1,354 followers on Instagram and our recent youtube channel has 175 subscribers. However the project started as a webpage. We offer preparation for Astronomy Olympiads, be it national or international (OBA, MOBFOG, OLAA, IOAA), as well as having anything (exams, worklists, books, handouts, articles, guides) you will need to study for them. Link to the project's website: https://ligadeastronomia.com/ Link to the youtube channel: https://www.youtube.com/channel/UCzd-QgsR05lxMWl1Wa0KKuQ
+
 ** Family information
 + For "No Parent/Guardian 2", please give a brief explanation. Many students list only one Parent/Guardian and then explain why this is the case.
   My parents got divorced about 3 years ago. My mother took custody, meaning she is the only legal guardian. My father needs to pay alimony tho.
+
+** Essay
++ Please write about a time when your courage failed you. What happened? If you could go back in time and change it, what would you do differently (if anything)? (200-400 words)
+It was September 15, 2020. I was in a queue to get vaccinated when my nose started bleeding. At that point in my life, my nose would start bleeding almost every day. However, this one occasion was special, as it was the first time I really needed to go to the hospital for it to stop bleeding.
+As a result of needing a hospital to refrain my nose from bleeding, I ended up staying there for about three weeks, being submitted to different exams. With the examination, the doctor was determining the best course of action to take from there. As a consequence, it was decided I was to remove my spleen.
+They tried explaining to me I would still have a normal life, and etc. I said I understood it, but I kept denying the fact that I was scared. Really scared this time. What if something was to go wrong? Besides, living the rest of my life requiring vaccination every 5 years wasn't something I was willing to go for either.
+After those three weeks, I was home, resting and getting ready to take the surgery. Still scared, but I managed to hide it from my mother and the people closest to me. Though, one night before going to the hospital again, I started crying like that was the last day of my life. I decided to tell my good friend Raquel what I was feeling, and after a moment I managed to put it together.
+I woke up the next day after the surgery, a bright day: October 23, 2020. At first, it was hard to do anything, but I recovered just fine. Sometimes I keep wondering why I felt so frightened that day. Perhaps if my life ever gets threatened once again, I can remember how well everything went that day.
+
++ If you could change one historical event that occurred in your country in the 20th century, what would you change and why? Please note that this does need to be a real, historical event that occurred between the years 1900-1999. (280 Characters)
+The Nationalization campaign directly resulted in the oppression of immigrants in Brazil. It affected generations of immigrants' descendants, being difficult for them to recover documents regarding family trees, heritage, natively spoken language, and dialects.
+
++ What fictional character (from a book, tv show, film, short story, or any other literary work) do you relate to the most and why? (280 Characters)
+Cyborg, from DC's teen titans. He goes in-depth when answering people's questions, he enjoys self-made (personalized) stuff, he binge-watches series he likes a lot, he is keen on technology. He has also displayed emotions of anger and frustration. Besides, he also eats a lot!
+
++ We want to learn more about your background, beliefs, values, and/or the important people in your life. Please tell us about something that has influenced you and articulate how it has shaped you. (200 words)
+New friends, youtube videos, and software were some things that helped me learn the English language. I would spend the afternoon talking in English with my Turkish friend, Berkay. At the earliest days of our calls on the phone, I was- how would you describe? “Just smile and wave, boys”. Now, I have a friend for life.
+The people from the English club were also on my list of new friends. There is a passion for the English language: A group of students ready to take their English experiences to other people. I soon became one of the staff members, and it helped me not only with English but also to develop my leadership skills.
+Even during the pandemic, my friend Raquel and I had work to do. We hosted four live streams in English and every time, we would just go crazy, having calls that lasted hours, just to prepare for being host again.
+I can say that learning English has enabled me to broaden my perspectives in many different ways, but above all, it has been responsible for the development of a better sense of myself and of what I want for life.
+=note= finish financial aid questions
+
+** Session Selection
++ Please explain why you chose the session(s) above, including your reasoning for how you ranked each session. (100 Words)
+   I chose IST as the first option because I carry a huge passion for physics, molecular biology, chemistry, astronomy, engineering. I have also worked at electrical engineering labs, and researched, mainly in the English language area. Multidisciplinarity is a great deal for me, as I am modeling my way towards working in the quantum computing field. I also considered SGC because parts of working in this field require you to think about how such an innovative and expensive machine can be used to solve the world's biggest problems.
+
++ SHORT ANSWER: We know students have many options for academic enrichment programs to which to apply. Please explain why you chose to apply for YYGS specifically AND why you would be a great fit for the program. What will you contribute to YYGS, and what do you hope to take away from YYGS and bring back to impact your community? (100 words)
+Partially because what I intend to do in the future takes contributions from many areas, I highly value multidisciplinarity and I feel at home when I am in a place I can learn from math to global politics.
+I fit in the program because I am an open-minded person, collaborative, and I can contribute to the global diversity as a Brazilian student.
+I hope to take as some of my outcomes, more impactful ideas to contribute to my projects regarding my school/country community where I play a big role, and greater respect for the different cultures portraited in YYGS.
 
 https://summer.uchicago.edu/programs/latin-american-phoenix-scholars
 
@@ -163,3 +210,5 @@ https://docs.google.com/document/u/1/d/1LPvdtoQUSV_6_c26H-RkYTu-3nlnv_eSmvHMqR5Y
 https://docs.google.com/spreadsheets/d/1rTgSijU-tr3zqN5AAJB6nI9A70Z4ktwk/edit#gid=1114293165
 
 https://docs.google.com/spreadsheets/d/1PmfXW78jpqGekbDNJR3LR1TM4BQA0JC9/edit#gid=1875892457
+
+SE EU PASSAR EU PROMETO QUE DOU 10 REAIS PRO EDUARDO.
