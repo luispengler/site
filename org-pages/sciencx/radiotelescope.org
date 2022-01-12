@@ -1,0 +1,5 @@
+#+TITLE: Radiotelescope
+
+
+* Goal
++ Develop a cheap radiotelescope that can use simple experiments to study physics subjects
