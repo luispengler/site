@@ -1,12 +1,12 @@
-#+TITLE: An introduction to Quantum computing (QubitxQubit) - my notes.
+#+TITLE: An introduction to Quantum computing - my notes.
 #+DESCRIPTION: An introduction to Quantum computing (QubitxQubit) - my notes
 #+SETUPFILE: https://luispengler.github.io/site/org-html-themes/org/theme-readtheorg.setup
 #+OPTIONS: num:nil ^:{} toc:1
 
 | [[https://luispengler.github.io/site/html/org-pages/qc/week0.html][week0]] | [[https://luispengler.github.io/site/html/org-pages/qc/week1.html][week1]] | [[https://luispengler.github.io/site/html/org-pages/qc/week2.html][week2]] | [[https://luispengler.github.io/site/html/org-pages/qc/week3.html][week3]] | [[https://luispengler.github.io/site/html/org-pages/qc/week4.html][week4]] | [[https://luispengler.github.io/site/html/org-pages/qc/week5.html][week5]] | [[https://luispengler.github.io/site/html/org-pages/qc/week6.html][week6]] | [[https://luispengler.github.io/site/html/org-pages/qc/week7.html][week7]] | [[https://luispengler.github.io/site/html/org-pages/qc/week8.html][week8]] | [[https://luispengler.github.io/site/html/org-pages/qc/week9.html][week9]] | [[https://luispengler.github.io/site/html/org-pages/qc/week10.html][week10]] | [[https://luispengler.github.io/site/html/org-pages/qc/week11.html][week11]] |
 #+ATTR_HTML: alt: waterwave :title Double-slit :style margin-left: auto;margin-right: auto;background-color: mintcream;display: block;width: 100%;
-https://luispengler.github.io/site/doc/images/testpunk.png
-| [[https://luispengler.github.io/site/html/org-pages/qc/week12.html][week12]] | week13 | week14 | week15 | week16 | week17 | week18 | week19 | week20 | week21 | week22 | week23 |
+https://luispengler.github.io/site/doc/images/qubit.png
+| [[https://luispengler.github.io/site/html/org-pages/qc1/week12.html][week12]] | week13 | week14 | week15 | week16 | week17 | week18 | week19 | week20 | week21 | week22 | week23 |
 
 * This collection
 This notes page is about all my notes taken throughout this whole course.

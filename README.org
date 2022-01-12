@@ -4,7 +4,7 @@
 #+OPTIONS: num:nil ^:{} toc:nil
 
 #+ATTR_HTML: alt: waterwave :title Double-slit :style margin-left: auto;margin-right: auto;background-color: mintcream;display: block;width: 100%;
-https://luispengler.github.io/site/doc/images/testpunk.png
+https://luispengler.github.io/site/doc/images/qubit.png
 | [[https://luispengler.github.io/site/html/org-pages/notes.html][My notes]] | [[https://luispengler.github.io/site/html/org-pages/filmes.html][Carlinda movies]] | [[https://luispengler.github.io/site/html/org-pages/dc.html][DC'series]] | [[https://luispengler.github.io/site/html/org-pages/books.html][Books]] |
 
 * About me
@@ -12,15 +12,18 @@ Hi, I am Luís Spengler and at the moment I write this I am a Junior High School
 My interests are in the area of physics (particle physics and quantum mechanics) and computer science, mainly what refers to [[https://www.gnu.org/philosophy/free-sw.en.html][free software]].
 * About this website
 ** Content
-This is the main page of the website, therefore it makes sense to be the center of the webiste. Any action you can perform in the website, has a start in here.\\
-At the top header, you can see a collection of links you can click on to be redirected to, you can also check out the portuguese version of it (coming soon!).\
+This is the main page of the website, therefore it makes sense to be the center of the webiste. Any action you can perform in the website, has a start in here.
 
-In "[[https://luispengler.github.io/site/html/org-pages/notes.html][My notes]]" I host several (I will be expanding in the future...) notes on subjects I studied in the past few weeks. It can be a great source of information in the subjects available there :)\
+At the top header, you can see a collection of links you can click on to be redirected to, you can also check out the portuguese version of it (coming soon!).
 
-The other stuff are some lists I host to organize work and leisure time, such as my [[https://luispengler.github.io/site/html/org-pages/ficha.html][mentoring list]] and compiled list on [[https://luispengler.github.io/site/html/org-pages/dc.html][arrowverse]], where I check my progess and a [[https://luispengler.github.io/site/html/org-pages/filmes.html][list of movies]] I watch with my girlfriend in the free time.\
+In "[[https://luispengler.github.io/site/html/org-pages/notes.html][My notes]]" I host several (I will be expanding in the future...) notes on subjects I studied in the past few weeks. It can be a great source of information in the subjects available there :)
+
+The other stuff are some lists I host to organize work and leisure time, such as my [[https://luispengler.github.io/site/html/org-pages/ficha.html][mentoring list]] and compiled list on [[https://luispengler.github.io/site/html/org-pages/dc.html][arrowverse]], where I check my progess and a [[https://luispengler.github.io/site/html/org-pages/filmes.html][list of movies]] I watch with my girlfriend in the free time.
 
 ** Your rights
-Feel free to share this webpage, modify it and create your own version (and even use it commercially conform the license)\\
+Feel free to share this webpage, modify it and create your own version (and even use it commercially conform the license)
+
 This webiste was written in org-mode using [[https://github.com/hlissner/doom-emacs/][doom emacs]] and its function of exporting to html, counting on [[https://github.com/fniessen/org-html-themes][readtheorg]] theme's help.\
+
 
 You can find this whole webiste's source code on  [[https://github.com/luispengler/site][github]].
