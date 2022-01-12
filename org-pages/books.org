@@ -1,4 +1,4 @@
-#+TITLE: Luis Spengler's books list
+#+TITLE: Luis Spengler's actually read books list
 #+DESCRIPTION:luispengler.github.io/site - Luís Spengler's official webpage
 #+SETUPFILE:  https://luispengler.github.io/site/org-html-themes/org/theme-readtheorg.setup
 #+OPTIONS: num:nil ^:{} toc:2
