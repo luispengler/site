@@ -309,7 +309,7 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [X] The Flash – 3.23: “Finish Line”
 + [X] Arrow – 5.23: “Lian Yu”
 
-* 2017/2018 [23/111] [20%]
+* 2017/2018 [48/112] [42%]
 
 + [X] Supergirl – 3.01: “Girl of Steel”
 + [X] The Flash – 4.01: “The Flash Reborn”
@@ -335,30 +335,30 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [X] The Flash – 4.06: “When Harry Met Harry”
 + [X] Legends of Tomorrow – 3.06: “Helen Hunt”
 + [X] Arrow – 6.06: “Promises Kept”
-+ [ ] Supergirl – 3.07: “Wake Up”
-+ [ ] The Flash – 4.07: “Therefore I Am”
-+ [ ] Legends of Tomorrow – 3.07: “Welcome to the Jungle”
-+ [ ] Arrow – 6.07: “Thanksgiving”
-+ [ ] Supergirl – 3.08: “Crisis on Earth-X Part 1” *MUST BE WATCHED TOGETHER (1)*
-+ [ ] Arrow – 6.08: “Crisis on Earth-X Part 2” *MUST BE WATCHED TOGETHER (2)*
-+ [ ] The Flash – 4.08: “Crisis on Earth-X Part 3” *MUST BE WATCHED TOGETHER (3)*
-+ [ ] Legends of Tomorrow – 3.08: “Crisis on Earth-X Part 4” *MUST BE WATCHED TOGETHER (4)*
-+ [ ] Supergirl – 3.09: “Reign”
-+ [ ] The Flash – 4.09: “Don’t Run”
-+ [ ] Legends of Tomorrow – 3.09: “Beebo The God of War”
-+ [ ] Arrow – 6.09: “Irreconcilable Differences”
-+ [ ] Freedom Fighters: The Ray - 1.01: "Episode One"
-+ [ ] Freedom Fighters: The Ray - 1.02: "Episode Two"
-+ [ ] Freedom Fighters: The Ray - 1.03: "Episode Three"
-+ [ ] Freedom Fighters: The Ray - 1.04: "Episode Four"
-+ [ ] Freedom Fighters: The Ray - 1.05: "Episode Five"
-+ [ ] Freedom Fighters: The Ray - 1.06: "Episode Six"
-+ [ ] Supergirl – 3.10: “Legion of Super-Heroes”
-+ [ ] The Flash – 4.10: “The Trial of The Flash”
-+ [ ] Black Lightning – 1.01: “The Resurrection”
-+ [ ] Arrow – 6.10: “Divided”
-+ [ ] Supergirl – 3.11: “Fort Rozz”
-+ [ ] The Flash – 4.11: “The Elongated Knight Rises”
++ [X] Supergirl – 3.07: “Wake Up”
++ [X] The Flash – 4.07: “Therefore I Am”
++ [X] Legends of Tomorrow – 3.07: “Welcome to the Jungle”
++ [X] Arrow – 6.07: “Thanksgiving”
++ [X] Supergirl – 3.08: “Crisis on Earth-X Part 1” *MUST BE WATCHED TOGETHER (1)*
++ [X] Arrow – 6.08: “Crisis on Earth-X Part 2” *MUST BE WATCHED TOGETHER (2)*
++ [X] The Flash – 4.08: “Crisis on Earth-X Part 3” *MUST BE WATCHED TOGETHER (3)*
++ [X] Legends of Tomorrow – 3.08: “Crisis on Earth-X Part 4” *MUST BE WATCHED TOGETHER (4)*
++ [X] Supergirl – 3.09: “Reign”
++ [X] The Flash – 4.09: “Don’t Run”
++ [X] Legends of Tomorrow – 3.09: “Beebo The God of War”
++ [X] Arrow – 6.09: “Irreconcilable Differences”
++ [X] Freedom Fighters: The Ray - 1.01: "Episode One"
++ [X] Freedom Fighters: The Ray - 1.02: "Episode Two"
++ [X] Freedom Fighters: The Ray - 1.03: "Episode Three"
++ [X] Freedom Fighters: The Ray - 1.04: "Episode Four"
++ [X] Freedom Fighters: The Ray - 1.05: "Episode Five"
++ [X] Freedom Fighters: The Ray - 1.06: "Episode Six"
++ [X] Supergirl – 3.10: “Legion of Super-Heroes”
++ [X] The Flash – 4.10: “The Trial of The Flash”
++ [X] Black Lightning – 1.01: “The Resurrection”
++ [X] Arrow – 6.10: “Divided”
++ [X] Supergirl – 3.11: “Fort Rozz”
++ [X] The Flash – 4.11: “The Elongated Knight Rises”
 + [ ] Black Lightning – 1.02: “Lawanda: The Book of Hope”
 + [ ] Arrow – 6.11: “We Fall”
 + [ ] Supergirl – 3.12: “For Good”
