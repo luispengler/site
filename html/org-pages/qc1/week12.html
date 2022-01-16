@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2022-01-15 Sat 13:23 -->
+<!-- 2022-01-16 Sun 12:06 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Week 12 - my notes</title>
@@ -200,6 +200,27 @@
 <script src="httpss://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="https://luispengler.github.io/site/org-html-themes/src/lib/js/jquery.stickytableheaders.min.js"></script>
 <script type="text/javascript" src="https://luispengler.github.io/site/org-html-themes/src/readtheorg_theme/js/readtheorg.js"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        displayAlign: "center",
+        displayIndent: "0em",
+
+        "HTML-CSS": { scale: 100,
+                        linebreaks: { automatic: "false" },
+                        webFont: "TeX"
+                       },
+        SVG: {scale: 100,
+              linebreaks: { automatic: "false" },
+              font: "TeX"},
+        NativeMML: {scale: 100},
+        TeX: { equationNumbers: {autoNumber: "AMS"},
+               MultLineWidth: "85%",
+               TagSide: "right",
+               TagIndent: ".8em"
+             }
+});
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML"></script>
 </head>
 <body>
 <div id="content" class="content">
@@ -213,6 +234,8 @@
 <li><a href="#org776b15d">One-to-one vs many-to-one problems</a></li>
 <li><a href="#org9deb775">Quantum computers usefulness</a></li>
 <li><a href="#orgc8a9b20">Relationships between quantum gates</a></li>
+<li><a href="#org5d375fb">LAB</a></li>
+<li><a href="#org46eb355">Optional content</a></li>
 </ul>
 </li>
 </ul>
@@ -252,15 +275,161 @@
 <ul class="org-ul">
 <li>Applying H, Z, H in this order is the same as only applying an X gate</li>
 <li>Applying H, X, H in this order is the same as only applying a Z gate</li>
-<li><p>
-This concept can be used as transpilation. Sometimes you work with a computer that can&rsquo;t implement a certain gate, so you can use these workarounds to substitute the desired gate.
+<li>This concept can be used as transpilation. Sometimes you work with a computer that can&rsquo;t implement a certain gate, so you can use these workarounds to substitute the desired gate.</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org5d375fb" class="outline-3">
+<h3 id="org5d375fb">LAB</h3>
+<div class="outline-text-3" id="text-org5d375fb">
+</div>
+<div id="outline-container-orgec5b0db" class="outline-4">
+<h4 id="orgec5b0db">Statevector vs QASM simulation</h4>
+<div class="outline-text-4" id="text-orgec5b0db">
+</div>
+<div id="outline-container-org0f1aeac" class="outline-5">
+<h5 id="org0f1aeac">Statevector steps:</h5>
+<div class="outline-text-5" id="text-org0f1aeac">
+<ol class="org-ol">
+<li>Create an &ldquo;empty&rdquo; quantum circuit with no classical bits</li>
+</ol>
+<p>
+<code>qc = QuantumCircuit(1)</code>
+</p>
+<ol class="org-ol">
+<li>Add gates to this circuit</li>
+</ol>
+<p>
+<code>qc.h(0)</code>
+</p>
+<ol class="org-ol">
+<li>Run it on a simulator</li>
+</ol>
+<p>
+<code>svsim = Aer.get_backend('statevector_simulator')</code>
 </p>
 
 <p>
-Quantum Computing With Trapped Ions
-</p></li>
+<code>job = execute(qc,svsim)</code>
+</p>
+
+<p>
+<code>result = job.result()</code>
+</p>
+
+<p>
+<code>counts = result.get_counts(qc)</code>
+</p>
+
+<p>
+<code>plot_histogram(counts)</code>
+</p>
+</div>
+</div>
+<div id="outline-container-org29ba9e1" class="outline-5">
+<h5 id="org29ba9e1">QASM steps:</h5>
+<div class="outline-text-5" id="text-org29ba9e1">
+<ol class="org-ol">
+<li>Create an &ldquo;empty&rdquo; quantum circuit with classical bits</li>
+</ol>
+<p>
+<code>qc = QuantumCircuit(1,1)</code>
+</p>
+<ol class="org-ol">
+<li>Add gates to this circuit</li>
+</ol>
+<p>
+<code>qc.h(0)</code>
+</p>
+
+<p>
+<code>qc.measure(0,0)</code>
+</p>
+<ol class="org-ol">
+<li>Run it on a simulator</li>
+</ol>
+<p>
+<code>backend = Aer.get_backend('qasm_simulator')</code>
+</p>
+
+<p>
+<code>job = execute(qc,backend,shots=1024)</code>
+</p>
+
+<p>
+<code>result = job.result()</code>
+</p>
+
+<p>
+<code>counts = result.get_counts(qc)</code>
+</p>
+
+<p>
+<code>plot_histogram(counts)</code>
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org75931f6" class="outline-4">
+<h4 id="org75931f6">Gates revision</h4>
+<div class="outline-text-4" id="text-org75931f6">
+<ul class="org-ul">
+<li>X gate: 180º rotation around the X axis</li>
+<li>H gate: creates a superposition, like a 90º roation around the axis</li>
+<li>Z gate: 180º rotation around the Z axis</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgb5d0013" class="outline-4">
+<h4 id="orgb5d0013">Rotation Gates</h4>
+<div class="outline-text-4" id="text-orgb5d0013">
+<ul class="org-ul">
+<li>With the gates we have we are only getting results like \(0\rangle\), \(1\rangle\), \(+\rangle\), and \(-\rangle\)</li>
+<li>But we should be able to reach every point in the Block Sphere&#x2026;
+<ul class="org-ul">
+<li>That&rsquo;s where rotation gates get into place</li>
+</ul></li>
+</ul>
+</div>
+
+<div id="outline-container-orgcadb336" class="outline-5">
+<h5 id="orgcadb336">RX gate</h5>
+<div class="outline-text-5" id="text-orgcadb336">
+<ul class="org-ul">
+<li>We tell it how many degrees to rotate around the X axis</li>
+<li>Telling it to rotate 180º, it will behave like a regular X gate</li>
+<li>The first number is the angle in radians and the second is the qubit index</li>
 </ul>
 <p>
+<code>qc.rx(0.5,0)</code>
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgb7ec068" class="outline-5">
+<h5 id="orgb7ec068">RZ gate</h5>
+<div class="outline-text-5" id="text-orgb7ec068">
+<ul class="org-ul">
+<li>We tell it how many degrees to rotate around the Z axis</li>
+<li>Telling it to rotate 180º, it will behave like a regular Z gate</li>
+<li>The first number is the angle in radians and the second is the qubit index</li>
+</ul>
+<p>
+<code>qc.rz(0.3,0)</code>
+</p>
+</div>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org46eb355" class="outline-3">
+<h3 id="org46eb355">Optional content</h3>
+<div class="outline-text-3" id="text-org46eb355">
+<p>
+Quantum Computing With Trapped Ions
 URL: <a href="https://www.youtube.com/watch?v=9aOLwjUZLm0&amp;list=WL&amp;index=37l">https://www.youtube.com/watch?v=9aOLwjUZLm0&amp;list=WL&amp;index=37l</a>
 Description:  Good introduction to trapped ion qubits, and also has a discussion of many-one vs one-one problems
 </p>
@@ -276,7 +445,7 @@ Description: Overview of the emerging QC industry
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Luís Spengler</p>
-<p class="date">Created: 2022-01-15 Sat 13:23</p>
+<p class="date">Created: 2022-01-16 Sun 12:06</p>
 </div>
 </body>
 </html>

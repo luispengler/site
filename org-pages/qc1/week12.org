@@ -20,7 +20,65 @@
 + Applying H, X, H in this order is the same as only applying a Z gate
 + This concept can be used as transpilation. Sometimes you work with a computer that can't implement a certain gate, so you can use these workarounds to substitute the desired gate.
 
- Quantum Computing With Trapped Ions
+** LAB
+*** Statevector vs QASM simulation
+**** Statevector steps:
+1. Create an "empty" quantum circuit with no classical bits
+~qc = QuantumCircuit(1)~
+2. Add gates to this circuit
+~qc.h(0)~
+3. Run it on a simulator
+~svsim = Aer.get_backend('statevector_simulator')~
+
+~job = execute(qc,svsim)~
+
+~result = job.result()~
+
+~counts = result.get_counts(qc)~
+
+~plot_histogram(counts)~
+**** QASM steps:
+1. Create an "empty" quantum circuit with classical bits
+~qc = QuantumCircuit(1,1)~
+2. Add gates to this circuit
+~qc.h(0)~
+
+~qc.measure(0,0)~
+3. Run it on a simulator
+~backend = Aer.get_backend('qasm_simulator')~
+
+~job = execute(qc,backend,shots=1024)~
+
+~result = job.result()~
+
+~counts = result.get_counts(qc)~
+
+~plot_histogram(counts)~
+
+*** Gates revision
++ X gate: 180º rotation around the X axis
++ H gate: creates a superposition, like a 90º roation around the axis
++ Z gate: 180º rotation around the Z axis
+
+*** Rotation Gates
++ With the gates we have we are only getting results like \(0\rangle\), \(1\rangle\), \(+\rangle\), and \(-\rangle\)
++ But we should be able to reach every point in the Block Sphere...
+  - That's where rotation gates get into place
+
+**** RX gate
++ We tell it how many degrees to rotate around the X axis
++ Telling it to rotate 180º, it will behave like a regular X gate
++ The first number is the angle in radians and the second is the qubit index
+~qc.rx(0.5,0)~
+
+**** RZ gate
++ We tell it how many degrees to rotate around the Z axis
++ Telling it to rotate 180º, it will behave like a regular Z gate
++ The first number is the angle in radians and the second is the qubit index
+~qc.rz(0.3,0)~
+
+** Optional content
+Quantum Computing With Trapped Ions
 URL: https://www.youtube.com/watch?v=9aOLwjUZLm0&list=WL&index=37l
 Description:  Good introduction to trapped ion qubits, and also has a discussion of many-one vs one-one problems
 

@@ -1,0 +1,9 @@
+#+TITLE: Week 13 - my notes
+#+DESCRIPTION: Week 13 - my notes
+#+SETUPFILE: https://luispengler.github.io/site/org-html-themes/org/theme-readtheorg.setup
+#+LaTeX_+HEADER: \usepackage{physics}
+#+LaTeX_+HEADER: \usepackage{amsmath}
+#+OPTIONS: num:nil ^:{} toc:2
+
+* Week 13 - Quantum Key Distribuition: Part 2
+** One-to-one vs many-to-one problems
