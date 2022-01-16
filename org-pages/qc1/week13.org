@@ -5,5 +5,42 @@
 #+LaTeX_+HEADER: \usepackage{amsmath}
 #+OPTIONS: num:nil ^:{} toc:2
 
-* Week 13 - Quantum Key Distribuition: Part 2
-** One-to-one vs many-to-one problems
+* Week 13 - Introduction to Multi-Qubit circits
+** Recap
+*** Quantum Gates
++ X gate, H gate, Z gate, and rotation X and Z gates were seen last week
+
+** Introduction to Multi-Qubit circuits
++ You can have single-qubit gates (ones that are applied to one qubit only)
++ You can have controlled gates (applied to multipled qubits at a time)
+
+** Single-Qubit gates
++ Whatever you do with one qubit will not be applied to any other qubit
+
+** The controled gate
++ It changes the target qubit based on the state of the control qubit
++ CX gate is the most commonly used control gate, CZ gate will be studied later on!
+*** CX gate rules:
++ The control qubit is always unaffected
++ If the control qubit is in the \(0\rangle\) state, no gate is applied on the target qubit
++ If the control qubit is in the \(1\rangle\) state, an X gate is applied on the target qubit
++ Controled gates do not imply a measurement
+
+** Creating entanglement
++ The controled gate creates the perfect situation for an entanglement - the state of a qubit is controlled by another qubit *in a state of superposition*
++ You create this superpostion by first applying the H gate, then you can use the controlled gate, thus getting an entanglement
+
+** Guest speaker:
+Dr. Olivia Lanes, North America Lead, Qiskit and Education
++ From most of the history, to access a quantum computer, you had to build and mantain it yourself.
++ Five years ago, it all changed. Now we have an open source community around it.
++ She likes her job because her days never look like the previous one
++ She is trying to put more people in their reaserch programs - it gives you access to more powerful QCs - but it's only available to university professors
+
+** Additional resources
+Qiskit textbook page on multiple qubits and entanglement
+https://qiskit.org/textbook/ch-gates/multiple-qubits-entangled-states.html
+Notes on gates, states, circuits
+https://threeplusone.com/pubs/on_gates.pdf
+Implementation of a CX gate using photonic qubits
+https://www.nature.com/articles/s41467-018-03059-5

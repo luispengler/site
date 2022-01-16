@@ -359,7 +359,7 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [X] Arrow – 6.10: “Divided”
 + [X] Supergirl – 3.11: “Fort Rozz”
 + [X] The Flash – 4.11: “The Elongated Knight Rises”
-+ [ ] Black Lightning – 1.02: “Lawanda: The Book of Hope”
++ [-] Black Lightning – 1.02: “Lawanda: The Book of Hope”
 + [ ] Arrow – 6.11: “We Fall”
 + [ ] Supergirl – 3.12: “For Good”
 + [ ] The Flash – 4.12: “Honey I Shrunk Team Flash”
