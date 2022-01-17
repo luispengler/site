@@ -309,7 +309,7 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [X] The Flash – 3.23: “Finish Line”
 + [X] Arrow – 5.23: “Lian Yu”
 
-* 2017/2018 [48/112] [42%]
+* 2017/2018 [53/112] [47%]
 
 + [X] Supergirl – 3.01: “Girl of Steel”
 + [X] The Flash – 4.01: “The Flash Reborn”
@@ -359,11 +359,11 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [X] Arrow – 6.10: “Divided”
 + [X] Supergirl – 3.11: “Fort Rozz”
 + [X] The Flash – 4.11: “The Elongated Knight Rises”
-+ [-] Black Lightning – 1.02: “Lawanda: The Book of Hope”
-+ [ ] Arrow – 6.11: “We Fall”
-+ [ ] Supergirl – 3.12: “For Good”
-+ [ ] The Flash – 4.12: “Honey I Shrunk Team Flash”
-+ [ ] Black Lightning – 1.03: “Lawanda: The Book of Burial”
++ [X] Black Lightning – 1.02: “Lawanda: The Book of Hope”
++ [X] Arrow – 6.11: “We Fall”
++ [X] Supergirl – 3.12: “For Good”
++ [X] The Flash – 4.12: “Honey I Shrunk Team Flash”
++ [X] Black Lightning – 1.03: “Lawanda: The Book of Burial”
 + [ ] Arrow – 6.12: “All For Nothing”
 + [ ] Supergirl – 3.13: “Both Sides Now”
 + [ ] The Flash – 4.13: “True Colors”
