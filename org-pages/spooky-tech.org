@@ -1,0 +1,131 @@
+#+TITLE: Spooky Tech - Be aware of social damage...
+#+DESCRIPTION: Spooky Tech - Be aware of social damage...
+#+SETUPFILE:  https://luispengler.github.io/site/org-html-themes/org/theme-readtheorg.setup
+#+OPTIONS: num:nil ^:{} toc:2
+
+* Description
+This page cointains a compiled list of spooky actions commited by the big tech, and reported by different sources.
+
+The overall goal is to mantain a list of attempts to privacy harm commited by several companies throughout years.
+
+Feel free to contact me if anything is wrong and should I add/remove something.
+
+* Adobe
++ "Adobe has [[https://www.bleepingcomputer.com/news/software/adobe-to-ban-users-from-venezuela-due-to-us-executive-order/][cancelled the software subscriptions of all users in Venezuela.]]" Sources: [[https://www.gnu.org/proprietary/malware-google.html#content][gnu.org]] (/modified/), bleepingcomputer.
+
++ "An upgrade package for Acrobat Reader [[https://www.bleepingcomputer.com/news/software/adobe-acrobat-reader-dc-update-installs-chrome-browser-extension/][silently alters Chrome.]]" Sources: [[https://www.gnu.org/proprietary/malware-google.html#content][gnu.org]], bleepingcomputer.
+
++ "Adobe nonfree software may halt all other work and freeze a computer [[https://shallowsky.com/blog/gimp/non-free-software-surprises.html][to perform a license check]], at a random time every 30 days." Sources: [[https://www.gnu.org/proprietary/malware-google.html#content][gnu.org]], [[https://shallowsky.com/][shallowsky.com]].
+
++ "Adobe made “Digital Editions,” the e-reader used by most US libraries, [[https://web.archive.org/web/20141220181015/http://www.computerworlduk.com/blogs/open-enterprise/drm-strikes-again-3575860/][send lots of data to Adobe]]. Adobe's “excuse”: it's needed to check DRM!" Sources: [[https://www.gnu.org/proprietary/malware-google.html#content][gnu.org]], computerworlduk.
+
++ "[[https://www.scientificamerican.com/article/adobe-software-subscription-model-means-you-cant-own-your-software/][Adobe tools require a subscription]]. Adobe also tried to [[https://chocolateandvodka.com/2014/02/20/adobe-creative-cloud-subscription-warning/][rip people off by making the subscriptions annual.]]" Sources: [[https://www.gnu.org/proprietary/malware-google.html#content][gnu.org]] (/modified/), Scientific American, Chocolate and Vodka.
+
++ "Adobe applications [[https://www.wired.com/2013/05/adobe-creative-cloud-petition/][require periodic connection to a server.]]" Sources: [[https://www.gnu.org/proprietary/malware-google.html#content][gnu.org]], wired.
+
++ "Adobe applications have time bombs: they [[https://techcrunch.com/2013/05/06/adobe-goes-all-in-with-subscription-based-creative-cloud-will-stop-selling-regular-cs-licenses-shrink-wrapped-boxes/][stop working after a certain time]], after which the user must pay to extend the time. Once there was a problem with the servers that these programs use to check who has paid, and [[https://web.archive.org/web/20150120010845/http://www.macuser.co.uk/9015-adobe-creative-cloud-outage-leaves-adobe-users-locked-out][the applications refused to work for anyone.]]" Sources: [[https://www.gnu.org/proprietary/malware-google.html#content][gnu.org]], TechCrunch, MacUser.
+
+* Amazon
++ ""
+
+* Google
+** Android
++ "Android has a [[https://www.theverge.com/platform/amp/2018/9/14/17861150/google-battery-saver-android-9-pie-remote-settings-change][back door for remotely changing “user” settings]].
+  The article suggests it might be a universal back door, but this isn't clear." Sources: [[https://www.gnu.org/proprietary/malware-google.html#content][gnu.org]], the verge.
+
++ "In Android, [[https://www.computerworld.com/article/2506557/google-throws--kill-switch--on-android-phones.html][Google has a back door to remotely delete apps]]. (It was in a program called GTalkService, which seems since then to have been merged into Google Play.)
+  Google can also [[https://jon.oberheide.org/blog/2010/06/25/remote-kill-and-install-on-google-android/][forcibly and remotely install apps]] through GTalkService. This is not equivalent to a universal back door, but permits various dirty tricks." Sources: [[https://www.gnu.org/proprietary/malware-google.html#content][gnu.org]] (/modified/), computerworld, Jon Oberheide.
+
++ "[[https://www.theguardian.com/media/2016/feb/03/google-pulls-ad-blocking-app-for-samsung-phones][Google censored installation of Samsung's ad-blocker]] on Android phones, saying that blocking ads is “interference” with the sites that advertise (and surveil users through ads)." Sources: [[https://www.gnu.org/proprietary/malware-google.html#content][gnu.org]], The Guardian.
+
++ "[[https://www.theguardian.com/news/2021/jul/18/what-is-pegasus-spyware-and-how-does-it-hack-phones][The pegasus spyware used vulnerabilities on proprietary smartphone operating systems]] to impose surveillance on people. It can record people's calls, copy their messages, and secretly film them, using a security vulnerability. There's also [[https://info.lookout.com/rs/051-ESQ-475/images/lookout-pegasus-technical-analysis.pdf][a technical analysis of this spyware]] available in PDF format." Sources: [[https://www.gnu.org/proprietary/malware-google.html#content][gnu.org]] (/modified/), The Guardian, Lookout.
+
++ "Many Android apps can track users' movements even when the user says [[https://www.theverge.com/2019/7/8/20686514/android-covert-channel-permissions-data-collection-imei-ssid-location][not to allow them access to locations]]. This involves an apparently unintentional weakness in Android, exploited intentionally by malicious apps." Sources: [[https://www.gnu.org/proprietary/malware-google.html#content][gnu.org]], the verge.
+
++ "A new app published by Google [[https://www.xda-developers.com/google-device-lock-controller-banks-payments/][lets banks and creditors deactivate people's Android devices]] if they fail to make payments. If someone's device gets deactivated, it will be limited to basic functionality, such as emergency calling and access to settings." Sources: [[https://www.gnu.org/proprietary/malware-google.html#content][gnu.org]], XDA developers.
+
++ "Google has long had [[https://www.theguardian.com/technology/2015/nov/24/google-can-unlock-android-devices-remotely-if-phone-unencrypted][a back door to remotely unlock an Android device]], unless its disk is encrypted (possible since Android 5.0 Lollipop, but still not quite the default)." Sources: [[https://www.gnu.org/proprietary/malware-google.html#content][gnu.org]], The Guardian.
+
++ "Since the beginning of 2017, [[https://qz.com/1131515/google-collects-android-users-locations-even-when-location-services-are-disabled/][Android phones have been collecting the addresses of nearby cellular towers]], even when location services are disabled, and sending that data back to Google." Sources: [[https://www.gnu.org/proprietary/malware-google.html#content][gnu.org]], Quartz.
+
++ "Some Google apps on Android [[https://www.theguardian.com/technology/2018/aug/13/google-location-tracking-android-iphone-mobile][record the user's location even when users disable “location tracking”]]." Sources: [[https://www.gnu.org/proprietary/malware-google.html#content][gnu.org]] (/modified/), The Guardian.
+
++ "Android tracks location for Google [[https://www.techdirt.com/articles/20171121/09030238658/investigation-finds-google-collected-location-data-even-with-location-services-turned-off.shtml][even when “location services” are turned off, even when the phone has no SIM card.]]" Sources: [[https://www.gnu.org/proprietary/malware-google.html#content][gnu.org]], techdirt.
+
++ "Google Play (a component of Android) [[https://www.extremetech.com/mobile/235594-yes-google-play-is-tracking-you-and-thats-just-the-tip-of-a-very-large-iceberg][tracks the users' movements without their permission.]]" Sources: [[https://www.gnu.org/proprietary/malware-google.html#content][gnu.org]] (/modified/), extremetech.
+
++ "Google Play intentionally sends app developers [[https://gadgets.ndtv.com/apps/news/google-play-store-policy-raises-privacy-concerns-331116][the personal details of users that install the app.]]" Sources: [[https://www.gnu.org/proprietary/malware-google.html#content][gnu.org]] (/modified/), gadgets 360.
+
++ "Spyware in Android phones (and Windows? laptops): The Wall Street Journal (in an article blocked from us by a paywall) reports that [[https://www.theverge.com/2013/8/1/4580718/fbi-can-remotely-activate-android-and-laptop-microphones-reports-wsj][the FBI can remotely activate the GPS and microphone in Android phones and laptops]] (presumably Windows laptops). Here is [[https://cryptome.org/2013/08/fbi-hackers.htm][more info.]]" Sources: [[https://www.gnu.org/proprietary/malware-google.html#content][gnu.org]], the verge.
+
++ "Spyware is present in some Android devices when they are sold. Some Motorola phones, made when this company was owned by Google, use a modified version of Android that [[https://www.beneaththewaves.net/Projects/Motorola_Is_Listening.html][sends personal data to Motorola.]]" Sources: [[https://www.gnu.org/proprietary/malware-google.html#content][gnu.org]], Beneath the Waves.
+
++ "A Motorola phone (in the past motorola was owned by google...) [[https://web.archive.org/web/20170629175629/http://www.itproportal.com/2013/07/25/motorolas-new-x8-arm-chip-underpinning-the-always-on-future-of-android/][listens for voice all the time.]]" Sources: [[https://www.gnu.org/proprietary/malware-google.html#content][gnu.org]] (/modified/), ITProPortal.
+
+** Chromebook/ChromeOS
++ "ChromeBooks are programmed for obsolescence: ChromeOS has a universal back door that is used for updates and [[https://www.theregister.com/2019/08/22/buying_a_chromebook_dont_forget_to_check_when_it_expires/][ceases to operate at a predefined date]]. From then on, there appears to be no support whatsoever for the computer. In other words, when you stop getting screwed by the back door, you start getting screwed by the obsolescence." Sources: [[https://www.gnu.org/proprietary/malware-google.html#content][gnu.org]], The Register.
+
++ "ChromeOS has a universal back door. At least, Google says it does—in [[https://www.google.com/intl/en/chromebook/termsofservice.html][section 4 of the EULA.]]" Sources: [[https://www.gnu.org/proprietary/malware-google.html#content][gnu.org]], Google.
+
++ "Low-priced Chromebooks for schools are [[https://www.eff.org/wp/school-issued-devices-and-student-privacy][collecting far more data on students than is necessary, and store it indefinitely]]. Parents and students complain about the lack of transparency on the part of both the educational services and the schools, the difficulty of opting out of these services, and the lack of proper privacy policies, among other things." Sources: [[https://www.gnu.org/proprietary/malware-google.html#content][gnu.org]] (/modified/), Electronic Frontier Foundation.
+
+** DRM
+=Digital restrictions management, or “DRM,” refers to functionalities designed to restrict what users can do with the data in their computers.=
++ "Google now allows Android apps to detect whether a device has been rooted, [[https://www.androidpolice.com/2017/05/13/netflix-confirms-blocking-rootedunlocked-devices-app-still-working-now/][and refuse to install if so]]. The Netflix app uses this ability to enforce DRM by refusing to install on rooted Android devices. Update: Google intentionally changed Android so that apps [[https://torrentfreak.com/netflix-use-of-google-drm-means-rooted-android-devices-are-banned-170515/][can detect rooted devices and refuse to run on them]]. The Netflix app is proprietary malware, and one shouldn't use it. However, that does not make what Google has done any less wrong." Source: [[https://www.gnu.org/proprietary/malware-google.html#content][gnu.org]], Android Police, torrentfreak.
+
++ "Chrome [[https://boingboing.net/2017/01/30/google-quietly-makes-optiona.html][implements DRM]]. So does Chromium, through nonfree software that is effectively part of it. [[https://bugs.chromium.org/p/chromium/issues/detail?id=686430][More information.]]" Sources: [[https://www.gnu.org/proprietary/malware-google.html#content][gnu.org]], boingboing, [[https://bugs.chromium.org/p/chromium/issues/list][bugs.chromium.org]].
+
++ "Android [[https://developer.android.com/reference/android/drm/package-summary.html][contains facilities specifically to support DRM.]]" Sources: [[https://www.gnu.org/proprietary/malware-google.html#content][gnu.org]], Android Developers.
+
+** General actions
++ "Google [[https://www.indiatoday.in/technology/news/story/disha-ravi-arrest-puts-privacy-of-all-google-india-users-in-doubt-1769772-2021-02-16][handed over personal data of Indian protesters and activists to Indian police]] which led to their arrest. The cops requested the IP address and the location where a document was created and with that information, they identified protesters and activists." Sources: [[https://www.gnu.org/proprietary/malware-google.html#content][gnu.org]], India Today.
+
++ "Google, Apple, and Microsoft (and probably some other companies) [[https://www.lifewire.com/wifi-positioning-system-1683343][are collecting people's access points and GPS coordinates (which can identify people's precise location) even if their GPS is turned off]], without the person's consent, using proprietary software implemented in person's smartphone. Though merely asking for permission would not necessarily legitimize this." Sources: [[https://www.gnu.org/proprietary/malware-google.html#content][gnu.org]], LifeWire.
+
++ "An Android phone was observed to track location even while in airplane mode. It didn't send the location data while in airplane mode. Instead, [[https://www.thesun.co.uk/tech/7811918/google-is-tracking-you-even-with-airplane-mode-turned-on/][it saved up the data, and sent them all later.]]" Sources: [[https://www.gnu.org/proprietary/malware-google.html#content][gnu.org]], The Sun.
+
++ "[[https://www.theverge.com/2018/8/13/17684660/google-turn-off-location-history-data][Google will track people even if people turn off location history]], using Google Maps, weather updates, and browser searches. Google basically uses any app activity to track people." Sources: [[https://www.gnu.org/proprietary/malware-google.html#content][gnu.org]], the verge.
+
++ "Google's new voice messaging app [[https://www.theverge.com/2016/9/21/12994362/allo-privacy-message-logs-google][logs all conversations.]]" Sources: [[https://www.gnu.org/proprietary/malware-google.html#content][gnu.org]], the verge.
+
++ "Many web sites report all their visitors to Google by using the Google Analytics service, which [[https://www.pcworld.idg.com.au/article/434164/google_analytics_breaks_norwegian_privacy_laws_local_agency_said/][tells Google the IP address and the page that was visited.]]" Sources: [[https://www.gnu.org/proprietary/malware-google.html#content][gnu.org]], PCWorld.
+
+** Google AdSense
++ "Tiny Lab Productions, along with online ad businesses run by Google, Twitter and three other companies are facing a lawsuit [[https://www.nytimes.com/interactive/2018/09/12/technology/kids-apps-data-privacy-google-twitter.html][for violating people's privacy by collecting their data from mobile games and handing over these data to other companies/advertisers.]]" Sources: [[https://www.gnu.org/proprietary/malware-google.html#content][gnu.org]], New York Times.
+
+** Google Assistant
++ "Google “Assistant” records users' conversations [[https://arstechnica.com/information-technology/2019/07/google-defends-listening-to-ok-google-queries-after-voice-recordings-leak/][even when it is not supposed to listen]]. Thus, when one of Google's subcontractors discloses a thousand confidential voice recordings, users were easily identified from these recordings." Sources: [[https://www.gnu.org/proprietary/malware-google.html#content][gnu.org]] (/modified/), arstechnica.
+
+** Google Chrome/Chromium
++ "On Windows and MacOS, Chrome [[https://sites.google.com/a/chromium.org/dev/developers/extensions-deployment-faq][disables extensions]] that are not hosted in the Chrome Web Store. For example, an extension was [[https://web.archive.org/web/20170120094917/https://consumerist.com/2017/01/18/why-is-google-blocking-this-ad-blocker-on-chrome/][banned from the Chrome Web Store, and permanently disabled]] on more than 40,000 computers." Sources: [[https://www.gnu.org/proprietary/malware-google.html#content][gnu.org]], The Chromium Projects, consumerist.
+
++ "Google is modifying Chromium so that [[https://tech.slashdot.org/story/19/01/23/0048202/google-proposes-changes-to-chromium-browser-that-will-break-content-blocking-extensions-including-various-ad-blockers][extensions won't be able to alter or block whatever the page contains.]]" Sources: [[https://www.gnu.org/proprietary/malware-google.html#content][gnu.org]] (/modified/), Slashdot.
+
++ "Google's proprietary Chrome web browser [[https://www.techrepublic.com/article/new-chrome-feature-can-tell-sites-and-webapps-when-youre-idle/][added a surveillance API (idle detection API)]] which lets websites ask Chrome to report when a user with a web page open is idle." Sources: [[https://www.gnu.org/proprietary/malware-google.html#content][gnu.org]], TechRepublic.
+
++ "Google Chrome is an [[https://www.mercurynews.com/2019/06/21/google-chrome-has-become-surveillance-software-its-time-to-switch/][instrument of surveillance]]. It lets thousands of trackers invade users' computers and report the sites they visit to advertising and data companies, first of all to Google. Moreover, if users have a Gmail account, Chrome automatically logs them in to the browser for more convenient profiling. On Android, Chrome also reports their location to Google." Sources: [[https://www.gnu.org/proprietary/malware-google.html#content][gnu.org]] (/modified/), The Mercury News.
+
++ "Google Chrome makes it easy for an extension to do [[https://labs.detectify.com/2015/07/28/how-i-disabled-your-chrome-security-extensions/][total snooping on the user's browsing]], and many of them do so." Sources: [[https://www.gnu.org/proprietary/malware-google.html#content][gnu.org]], detectify.
+
++ "Google Chrome includes a module that [[https://www.privateinternetaccess.com/blog/google-chrome-listening-in-to-your-room-shows-the-importance-of-privacy-defense-in-depth/][activates microphones and transmits audio to its servers.]]" Sources: [[https://www.gnu.org/proprietary/malware-google.html#content][gnu.org]], piablog.
+
++ "Google Chrome [[https://www.brad-x.com/2013/08/04/google-chrome-is-spyware/][spies on browser history, affiliations]], and other installed software." Sources: [[https://www.gnu.org/proprietary/malware-google.html#content][gnu.org]], bradx.
+
++ "Google Chrome contains a key logger that [[https://web.archive.org/web/20190126075111/http://www.favbrowser.com/google-chrome-spyware-confirmed/][sends Google every URL typed in]], one key at a time." Sources: [[https://www.gnu.org/proprietary/malware-google.html#content][gnu.org]], FavBrowser.com.
+
+** Google Maps
++ "Google tracks the movements of Android phones and iPhones running Google apps, and sometimes [[https://www.nytimes.com/interactive/2019/04/13/us/google-location-tracking-police.html][saves the data for years.]]" Source: [[https://www.gnu.org/proprietary/malware-google.html#content][gnu.org]] (/modified/), New York Times.
+
+** Google Meet
++ "Proprietary programs Google Meet, Microsoft Teams, and WebEx [[https://www.consumerreports.org/video-conferencing-services/videoconferencing-privacy-issues-google-microsoft-webex-a7383469308/][are collecting user's personal and identifiable data]] including how long a call lasts, who's participating in the call, and the IP addresses of everyone taking part. From experience, this can even harm users physically if those companies hand over data to governments." Sources: [[https://www.gnu.org/proprietary/malware-google.html#content][gnu.org]], ConsumerReports.
+
+** Google Play Store
++ "The [[https://play.google.com/about/play-terms/][Google Play Terms of Service]] insist that the user of Android accept the presence of universal back doors in apps released by Google. This does not tell us whether any of Google's apps currently contains a universal back door, but that is a secondary question. In moral terms, demanding that people accept in advance certain bad treatment is equivalent to actually doing it. Whatever condemnation the latter deserves, the former deserves the same." Sources: [[https://www.gnu.org/proprietary/malware-google.html#content][gnu.org]], [[https://play.google.com][play.google.com]].
+
+** Smart Devices
++ "Google Nest [[https://blog.google/products/google-nest/partnership-adt-smarter-home-security/][is taking over ADT]]. Google sent out a software update to its speaker devices using their back door [[https://www.protocol.com/google-smart-speaker-alarm-adt][that listens for things like smoke alarms]] and then notifies your phone that an alarm is happening. This means the devices now listen for more than just their wake words. Google says the software update was sent out prematurely and on accident and Google was planning on disclosing this new feature and offering it to customers who pay for it." Sources: [[https://www.gnu.org/proprietary/malware-google.html#content][gnu.org]], blog.google, protocol.
+
++ "Nest thermometers send [[https://bgr.com/general/google-nest-jailbreak-hack/][a lot of data about the user.]]" Sources: [[https://www.gnu.org/proprietary/malware-google.html#content][gnu.org]], BGR.
+
+* TikTok
++ "TikTok [[https://boingboing.net/2020/08/11/tiktok-exploited-android-secur.html][exploited an Android vulnerability]] to obtain user MAC addresses." Sources: [[https://www.gnu.org/proprietary/malware-google.html#content][gnu.org]], boingboing.

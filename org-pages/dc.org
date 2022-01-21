@@ -309,7 +309,7 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [X] The Flash – 3.23: “Finish Line”
 + [X] Arrow – 5.23: “Lian Yu”
 
-* 2017/2018 [53/112] [47%]
+* 2017/2018 [87/112] [77%]
 
 + [X] Supergirl – 3.01: “Girl of Steel”
 + [X] The Flash – 4.01: “The Flash Reborn”
@@ -364,40 +364,40 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [X] Supergirl – 3.12: “For Good”
 + [X] The Flash – 4.12: “Honey I Shrunk Team Flash”
 + [X] Black Lightning – 1.03: “Lawanda: The Book of Burial”
-+ [ ] Arrow – 6.12: “All For Nothing”
-+ [ ] Supergirl – 3.13: “Both Sides Now”
-+ [ ] The Flash – 4.13: “True Colors”
-+ [ ] Black Lightning – 1.04: “Black Jesus”
-+ [ ] Arrow – 6.13: “The Devil’s Greatest Trick”
-+ [ ] Legends of Tomorrow – 3.10: “Daddy Darhkest”
-+ [ ] Black Lightning – 1.05: “And Then the Devil Brought the Plague: The Book of Green Light”
-+ [ ] Legends of Tomorrow – 3.11: “Here I Go Again”
-+ [ ] Legends of Tomorrow – 3.12: “The Curse of the Earth Totem”
-+ [ ] The Flash – 4.14: “Subject 9”
-+ [ ] Black Lightning – 1.06: “Three Sevens The Book of Thunder”
-+ [ ] Arrow – 6.14: “Collision Course”
-+ [ ] Legends of Tomorrow – 3.13: “No Country For Old Dads”
-+ [ ] The Flash – 4.15: “Enter Flashtime”
-+ [ ] Black Lightning – 1.07: “Equinox: The Book of Fate”
-+ [ ] Arrow – 6.15: “Doppelgänger”
-+ [ ] Legends of Tomorrow – 3.14: “Amazing Grace”
-+ [ ] The Flash – 4.16: “Run, Iris, Run”
-+ [ ] Black Lightning – 1.08: “Revelations”
-+ [ ] Legends of Tomorrow – 3.15: “Necromancing the Stone”
-+ [ ] Black Lightning – 1.09: “The Book of Little Black Lies”
-+ [ ] Legends of Tomorrow – 3.16: “I, Ava”
-+ [ ] Black Lightning – 1.10: “Sins of the Father: The Book of Redemption”
-+ [ ] Arrow – 6.16: “The Thanatos Guild”
-+ [ ] Legends of Tomorrow – 3.17: “Guest Starring John Noble”
-+ [ ] Black Lightning – 1.11: “Black Jesus: The Book of Crucifixion”
-+ [ ] Arrow – 6.17: “Brothers in Arms”
-+ [ ] Legends of Tomorrow – 3.18: “The Good, The Bad and The Cuddly”
-+ [ ] The Flash – 4.16: “Null and Annoyed”
-+ [ ] Black Lightning – 1.12: “The Resurrection and the Light: The Book of Pain”
-+ [ ] Arrow – 6.18: “Fundamentals”
-+ [ ] Supergirl – 3.14: “Schott Through The Heart”
-+ [ ] The Flash – 4.18: “Lose Yourself”
-+ [ ] Black Lightning – 1.13: “Shadow of Death: The Book of War”
++ [X] Arrow – 6.12: “All For Nothing”
++ [X] Supergirl – 3.13: “Both Sides Now”
++ [X] The Flash – 4.13: “True Colors”
++ [X] Black Lightning – 1.04: “Black Jesus”
++ [X] Arrow – 6.13: “The Devil’s Greatest Trick”
++ [X] Legends of Tomorrow – 3.10: “Daddy Darhkest”
++ [X] Black Lightning – 1.05: “And Then the Devil Brought the Plague: The Book of Green Light”
++ [X] Legends of Tomorrow – 3.11: “Here I Go Again”
++ [X] Legends of Tomorrow – 3.12: “The Curse of the Earth Totem”
++ [X] The Flash – 4.14: “Subject 9”
++ [X] Black Lightning – 1.06: “Three Sevens The Book of Thunder”
++ [X] Arrow – 6.14: “Collision Course”
++ [X] Legends of Tomorrow – 3.13: “No Country For Old Dads”
++ [X] The Flash – 4.15: “Enter Flashtime”
++ [X] Black Lightning – 1.07: “Equinox: The Book of Fate”
++ [X] Arrow – 6.15: “Doppelgänger”
++ [X] Legends of Tomorrow – 3.14: “Amazing Grace”
++ [X] The Flash – 4.16: “Run, Iris, Run”
++ [X] Black Lightning – 1.08: “Revelations”
++ [X] Legends of Tomorrow – 3.15: “Necromancing the Stone”
++ [X] Black Lightning – 1.09: “The Book of Little Black Lies”
++ [X] Legends of Tomorrow – 3.16: “I, Ava”
++ [X] Black Lightning – 1.10: “Sins of the Father: The Book of Redemption”
++ [X] Arrow – 6.16: “The Thanatos Guild”
++ [X] Legends of Tomorrow – 3.17: “Guest Starring John Noble”
++ [X] Black Lightning – 1.11: “Black Jesus: The Book of Crucifixion”
++ [X] Arrow – 6.17: “Brothers in Arms”
++ [X] Legends of Tomorrow – 3.18: “The Good, The Bad and The Cuddly”
++ [X] The Flash – 4.17: “Null and Annoyed”
++ [X] Black Lightning – 1.12: “The Resurrection and the Light: The Book of Pain”
++ [X] Arrow – 6.18: “Fundamentals”
++ [X] Supergirl – 3.14: “Schott Through The Heart”
++ [X] The Flash – 4.18: “Lose Yourself”
++ [X] Black Lightning – 1.13: “Shadow of Death: The Book of War”
 + [ ] Arrow – 6.19: “The Dragon”
 + [ ] Supergirl – 3.15: “In Search of Lost Time”
 + [ ] The Flash – 4.19: “Fury Rogue”
