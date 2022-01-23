@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2022-01-23 Sun 15:58 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Spooky Tech - Be aware of social damage&#x2026;</title>
+<meta name="author" content="Luís Spengler" />
+<meta name="description" content="Spooky Tech - Be aware of social damage..." />
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+</style>
+<link rel="stylesheet" type="text/css" href="https://luispengler.github.io/site/org-html-themes/src/readtheorg_theme/css/htmlize.css"/>
+<link rel="stylesheet" type="text/css" href="https://luispengler.github.io/site/org-html-themes/src/readtheorg_theme/css/readtheorg.css"/>
+<script src="httpss://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="httpss://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://luispengler.github.io/site/org-html-themes/src/lib/js/jquery.stickytableheaders.min.js"></script>
+<script type="text/javascript" src="https://luispengler.github.io/site/org-html-themes/src/readtheorg_theme/js/readtheorg.js"></script>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">Spooky Tech - Be aware of social damage&#x2026;</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#orgf8cc9d7">Description</a></li>
+<li><a href="#org9f0cb50">Adobe</a></li>
+<li><a href="#org4da182b">Amazon</a></li>
+<li><a href="#org1fdfaef">Apple</a></li>
+<li><a href="#org4be4a52">Google</a>
+<ul>
+<li><a href="#org6707093">Android</a></li>
+<li><a href="#org19b2110">Chromebook/ChromeOS</a></li>
+<li><a href="#org0aa802d">DRM</a></li>
+<li><a href="#org376398b">General actions</a></li>
+<li><a href="#orgc71ad11">Google AdSense</a></li>
+<li><a href="#org5df48d3">Google Assistant</a></li>
+<li><a href="#orgdf136ac">Google Chrome/Chromium</a></li>
+<li><a href="#org9c53673">Google Maps</a></li>
+<li><a href="#org044b25d">Google Meet</a></li>
+<li><a href="#org551ba41">Google Play Store</a></li>
+<li><a href="#org07025bd">Smart Devices</a></li>
+</ul>
+</li>
+<li><a href="#orgfd14f93">TikTok</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgf8cc9d7" class="outline-2">
+<h2 id="orgf8cc9d7">Description</h2>
+<div class="outline-text-2" id="text-orgf8cc9d7">
+<p>
+This page cointains a compiled list of spooky actions commited by the big tech, and reported by different sources.
+</p>
+
+<p>
+The overall goal is to mantain a list of attempts to privacy harm commited by several companies throughout years.
+</p>
+
+<p>
+Feel free to contact me if anything is wrong and should I add/remove something.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org9f0cb50" class="outline-2">
+<h2 id="org9f0cb50">Adobe</h2>
+<div class="outline-text-2" id="text-org9f0cb50">
+<ul class="org-ul">
+<li>&ldquo;Adobe has <a href="https://www.bleepingcomputer.com/news/software/adobe-to-ban-users-from-venezuela-due-to-us-executive-order/">cancelled the software subscriptions of all users in Venezuela.</a>&rdquo; Sources: <a href="https://www.gnu.org/proprietary/malware-google.html#content">gnu.org</a> (<i>modified</i>), bleepingcomputer.</li>
+
+<li>&ldquo;An upgrade package for Acrobat Reader <a href="https://www.bleepingcomputer.com/news/software/adobe-acrobat-reader-dc-update-installs-chrome-browser-extension/">silently alters Chrome.</a>&rdquo; Sources: <a href="https://www.gnu.org/proprietary/malware-google.html#content">gnu.org</a>, bleepingcomputer.</li>
+
+<li>&ldquo;Adobe nonfree software may halt all other work and freeze a computer <a href="https://shallowsky.com/blog/gimp/non-free-software-surprises.html">to perform a license check</a>, at a random time every 30 days.&rdquo; Sources: <a href="https://www.gnu.org/proprietary/malware-google.html#content">gnu.org</a>, <a href="https://shallowsky.com/">shallowsky.com</a>.</li>
+
+<li>&ldquo;Adobe made “Digital Editions,” the e-reader used by most US libraries, <a href="https://web.archive.org/web/20141220181015/http://www.computerworlduk.com/blogs/open-enterprise/drm-strikes-again-3575860/">send lots of data to Adobe</a>. Adobe&rsquo;s “excuse”: it&rsquo;s needed to check DRM!&rdquo; Sources: <a href="https://www.gnu.org/proprietary/malware-google.html#content">gnu.org</a>, computerworlduk.</li>
+
+<li>&ldquo;<a href="https://www.scientificamerican.com/article/adobe-software-subscription-model-means-you-cant-own-your-software/">Adobe tools require a subscription</a>. Adobe also tried to <a href="https://chocolateandvodka.com/2014/02/20/adobe-creative-cloud-subscription-warning/">rip people off by making the subscriptions annual.</a>&rdquo; Sources: <a href="https://www.gnu.org/proprietary/malware-google.html#content">gnu.org</a> (<i>modified</i>), Scientific American, Chocolate and Vodka.</li>
+
+<li>&ldquo;Adobe applications <a href="https://www.wired.com/2013/05/adobe-creative-cloud-petition/">require periodic connection to a server.</a>&rdquo; Sources: <a href="https://www.gnu.org/proprietary/malware-google.html#content">gnu.org</a>, wired.</li>
+
+<li>&ldquo;Adobe applications have time bombs: they <a href="https://techcrunch.com/2013/05/06/adobe-goes-all-in-with-subscription-based-creative-cloud-will-stop-selling-regular-cs-licenses-shrink-wrapped-boxes/">stop working after a certain time</a>, after which the user must pay to extend the time. Once there was a problem with the servers that these programs use to check who has paid, and <a href="https://web.archive.org/web/20150120010845/http://www.macuser.co.uk/9015-adobe-creative-cloud-outage-leaves-adobe-users-locked-out">the applications refused to work for anyone.</a>&rdquo; Sources: <a href="https://www.gnu.org/proprietary/malware-google.html#content">gnu.org</a>, TechCrunch, MacUser.</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org4da182b" class="outline-2">
+<h2 id="org4da182b">Amazon</h2>
+<div class="outline-text-2" id="text-org4da182b">
+<ul class="org-ul">
+<li>&ldquo;Amazon <a href="https://www.techdirt.com/articles/20150321/13350230396/while-bricking-jailbroken-fire-tvs-last-year-amazon-did-same-to-kindle-devices.shtml">downgraded the software in users&rsquo; Swindles</a> so that those already rooted would cease to function at all.&rdquo; Sources: <a href="https://www.gnu.org/proprietary/malware-google.html#content">gnu.org</a>, techdirt.</li>
+
+<li>&ldquo;The Amazon Kindle-Swindle has a back door that has been used to <a href="https://pogue.blogs.nytimes.com/2009/07/17/some-e-books-are-more-equal-than-others/">remotely erase books</a>. One of the books erased was 1984, by George Orwell.&rdquo; Sources: <a href="https://www.gnu.org/proprietary/malware-google.html#content">gnu.org</a> (<i>modified</i>), The New York Times.</li>
+
+<li>&ldquo;The Amazon Ring app does <a href="https://www.theguardian.com/technology/2020/jan/29/ring-smart-doorbell-company-surveillance-eff-report">surveillance for other companies as well as for Amazon.</a>&rdquo; Sources: <a href="https://www.gnu.org/proprietary/malware-google.html#content">gnu.org</a>, The Guardian.</li>
+
+<li>&ldquo;The Electronic Frontier Foundation has examined and found <a href="https://www.eff.org/pages/reader-privacy-chart-2012">various kinds of surveillance in the Swindle and other e-readers.</a>&rdquo; Sources: <a href="https://www.gnu.org/proprietary/malware-google.html#content">gnu.org</a>, Electronic Frontier Foundation.</li>
+
+<li>&ldquo;Amazon&rsquo;s monopoly and DRM is <a href="https://www.washingtonpost.com/technology/2021/03/10/amazon-library-ebook-monopoly/">stopping public libraries from lending e-books and audiobooks.</a>&rdquo; Sources: <a href="https://www.gnu.org/proprietary/malware-google.html#content">gnu.org</a> (<i>modified</i>), The Washington Post.</li>
+
+<li>&ldquo;Amazon Alexa collects a lot more information from users than is necessary for correct functioning (time, location, recordings made without a legitimate prompt), and sends it to Amazon&rsquo;s servers, which store it indefinitely. Even worse, Amazon forwards it to third-party companies. Thus, even if users request deletion of their data from Amazon&rsquo;s servers, <a href="https://www.ctpost.com/business/article/Alexa-has-been-eavesdropping-on-you-this-whole-13822095.php">the data remain on other servers</a>, where they can be accessed by advertising companies and government agencies. In other words, deleting the collected information doesn&rsquo;t cancel the wrong of collecting it.&rdquo; Sources: <a href="https://www.gnu.org/proprietary/malware-google.html#content">gnu.org</a> (<i>modified</i>), ctpost.</li>
+
+<li>&ldquo;Some of users&rsquo; commands to the Alexa service are <a href="https://www.smh.com.au/technology/alexa-is-someone-else-listening-to-us-sometimes-someone-is-20190411-p51d4g.html">recorded for Amazon employees to listen to.</a>&rdquo; Sources: <a href="https://www.gnu.org/proprietary/malware-google.html#content">gnu.org</a> (<i>modified</i>), The Sydney Morning Herald.</li>
+
+<li>&ldquo;A fraction of the Alexa service staff even has access to <a href="https://www.bnnbloomberg.ca/amazon-s-alexa-reviewers-can-access-customers-home-addresses-1.1248788">location and other personal data.</a>&rdquo; Sources: <a href="https://www.gnu.org/proprietary/malware-google.html#content">gnu.org</a> (<i>modified</i>), BNN Bloomberg.</li>
+
+<li>&ldquo;The Ring (now Amazon) doorbell camera is designed so that the manufacturer (now Amazon) can watch all the time. Now it turns out that <a href="https://web.archive.org/web/20190918024432/https://dojo.bullguard.com/dojo-by-bullguard/blog/ring/">anyone else can also watch, and fake videos too.</a>&rdquo; Sources: <a href="https://www.gnu.org/proprietary/malware-google.html#content">gnu.org</a> (<i>modified</i>), dojo.</li>
+
+<li>&ldquo;Amazon Ring “security” devices <a href="https://www.engadget.com/2019-01-10-ring-gave-employees-access-customer-video-feeds.html">send the video they capture to Amazon servers</a>, which save it long-term.&rdquo; Sources: <a href="https://www.gnu.org/proprietary/malware-google.html#content">gnu.org</a> (<i>modified</i>), engadget.</li>
+
+<li>&ldquo;The Amazon “Smart” TV is <a href="https://www.theguardian.com/technology/shortcuts/2014/nov/09/amazon-echo-smart-tv-watching-listening-surveillance">snooping all the time.</a>&rdquo; Sources: <a href="https://www.gnu.org/proprietary/malware-google.html#content">gnu.org</a>, The Guardian.</li>
+</ul>
+</div>
+</div>
+
+
+<div id="outline-container-org1fdfaef" class="outline-2">
+<h2 id="org1fdfaef">Apple</h2>
+<div class="outline-text-2" id="text-org1fdfaef">
+<ul class="org-ul">
+<li>&ldquo;The iPhone has a back door <a href="https://www.telegraph.co.uk/technology/3358134/Apples-Jobs-confirms-iPhone-kill-switch.html">that allows Apple to remotely delete apps</a> which Apple considers “inappropriate”.&rdquo; Sources: <a href="https://www.gnu.org/proprietary/malware-google.html#content">gnu.org</a> (<i>modified</i>), The Telegraph.</li>
+
+<li>&ldquo;Apple&rsquo;s new tactic to restrict users from repairing their own device and impose DRM on people is to <a href="https://www.ifixit.com/News/54829/apples-new-screen-repair-trap-could-change-the-repair-industry-forever">completely disable its Face ID functionality</a> when you replace its screen.&rdquo; Sources: <a href="https://www.gnu.org/proprietary/malware-google.html#content">gnu.org</a>, IFIXIT.</li>
+
+<li>&ldquo;Apple is putting DRM on iPhone batteries, and the system proprietary software <a href="https://www.vice.com/en/article/59nz3k/apple-is-locking-batteries-to-specific-iphones-a-nightmare-for-diy-repair">turns off certain features when batteries are replaced other than by Apple.</a>&rdquo; Sources: <a href="https://www.gnu.org/proprietary/malware-google.html#content">gnu.org</a>, vice.</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org4be4a52" class="outline-2">
+<h2 id="org4be4a52">Google</h2>
+<div class="outline-text-2" id="text-org4be4a52">
+</div>
+<div id="outline-container-org6707093" class="outline-3">
+<h3 id="org6707093">Android</h3>
+<div class="outline-text-3" id="text-org6707093">
+<ul class="org-ul">
+<li>&ldquo;Android has a <a href="https://www.theverge.com/platform/amp/2018/9/14/17861150/google-battery-saver-android-9-pie-remote-settings-change">back door for remotely changing “user” settings</a>.
+The article suggests it might be a universal back door, but this isn&rsquo;t clear.&rdquo; Sources: <a href="https://www.gnu.org/proprietary/malware-google.html#content">gnu.org</a>, the verge.</li>
+
+<li>&ldquo;In Android, <a href="https://www.computerworld.com/article/2506557/google-throws--kill-switch--on-android-phones.html">Google has a back door to remotely delete apps</a>. (It was in a program called GTalkService, which seems since then to have been merged into Google Play.)
+Google can also <a href="https://jon.oberheide.org/blog/2010/06/25/remote-kill-and-install-on-google-android/">forcibly and remotely install apps</a> through GTalkService. This is not equivalent to a universal back door, but permits various dirty tricks.&rdquo; Sources: <a href="https://www.gnu.org/proprietary/malware-google.html#content">gnu.org</a> (<i>modified</i>), computerworld, Jon Oberheide.</li>
+
+<li>&ldquo;<a href="https://www.theguardian.com/media/2016/feb/03/google-pulls-ad-blocking-app-for-samsung-phones">Google censored installation of Samsung&rsquo;s ad-blocker</a> on Android phones, saying that blocking ads is “interference” with the sites that advertise (and surveil users through ads).&rdquo; Sources: <a href="https://www.gnu.org/proprietary/malware-google.html#content">gnu.org</a>, The Guardian.</li>
+
+<li>&ldquo;<a href="https://www.theguardian.com/news/2021/jul/18/what-is-pegasus-spyware-and-how-does-it-hack-phones">The pegasus spyware used vulnerabilities on proprietary smartphone operating systems</a> to impose surveillance on people. It can record people&rsquo;s calls, copy their messages, and secretly film them, using a security vulnerability. There&rsquo;s also <a href="https://info.lookout.com/rs/051-ESQ-475/images/lookout-pegasus-technical-analysis.pdf">a technical analysis of this spyware</a> available in PDF format.&rdquo; Sources: <a href="https://www.gnu.org/proprietary/malware-google.html#content">gnu.org</a> (<i>modified</i>), The Guardian, Lookout.</li>
+
+<li>&ldquo;Many Android apps can track users&rsquo; movements even when the user says <a href="https://www.theverge.com/2019/7/8/20686514/android-covert-channel-permissions-data-collection-imei-ssid-location">not to allow them access to locations</a>. This involves an apparently unintentional weakness in Android, exploited intentionally by malicious apps.&rdquo; Sources: <a href="https://www.gnu.org/proprietary/malware-google.html#content">gnu.org</a>, the verge.</li>
+
+<li>&ldquo;A new app published by Google <a href="https://www.xda-developers.com/google-device-lock-controller-banks-payments/">lets banks and creditors deactivate people&rsquo;s Android devices</a> if they fail to make payments. If someone&rsquo;s device gets deactivated, it will be limited to basic functionality, such as emergency calling and access to settings.&rdquo; Sources: <a href="https://www.gnu.org/proprietary/malware-google.html#content">gnu.org</a>, XDA developers.</li>
+
+<li>&ldquo;Google has long had <a href="https://www.theguardian.com/technology/2015/nov/24/google-can-unlock-android-devices-remotely-if-phone-unencrypted">a back door to remotely unlock an Android device</a>, unless its disk is encrypted (possible since Android 5.0 Lollipop, but still not quite the default).&rdquo; Sources: <a href="https://www.gnu.org/proprietary/malware-google.html#content">gnu.org</a>, The Guardian.</li>
+
+<li>&ldquo;Since the beginning of 2017, <a href="https://qz.com/1131515/google-collects-android-users-locations-even-when-location-services-are-disabled/">Android phones have been collecting the addresses of nearby cellular towers</a>, even when location services are disabled, and sending that data back to Google.&rdquo; Sources: <a href="https://www.gnu.org/proprietary/malware-google.html#content">gnu.org</a>, Quartz.</li>
+
+<li>&ldquo;Some Google apps on Android <a href="https://www.theguardian.com/technology/2018/aug/13/google-location-tracking-android-iphone-mobile">record the user&rsquo;s location even when users disable “location tracking”</a>.&rdquo; Sources: <a href="https://www.gnu.org/proprietary/malware-google.html#content">gnu.org</a> (<i>modified</i>), The Guardian.</li>
+
+<li>&ldquo;Android tracks location for Google <a href="https://www.techdirt.com/articles/20171121/09030238658/investigation-finds-google-collected-location-data-even-with-location-services-turned-off.shtml">even when “location services” are turned off, even when the phone has no SIM card.</a>&rdquo; Sources: <a href="https://www.gnu.org/proprietary/malware-google.html#content">gnu.org</a>, techdirt.</li>
+
+<li>&ldquo;Google Play (a component of Android) <a href="https://www.extremetech.com/mobile/235594-yes-google-play-is-tracking-you-and-thats-just-the-tip-of-a-very-large-iceberg">tracks the users&rsquo; movements without their permission.</a>&rdquo; Sources: <a href="https://www.gnu.org/proprietary/malware-google.html#content">gnu.org</a> (<i>modified</i>), extremetech.</li>
+
+<li>&ldquo;Google Play intentionally sends app developers <a href="https://gadgets.ndtv.com/apps/news/google-play-store-policy-raises-privacy-concerns-331116">the personal details of users that install the app.</a>&rdquo; Sources: <a href="https://www.gnu.org/proprietary/malware-google.html#content">gnu.org</a> (<i>modified</i>), gadgets 360.</li>
+
+<li>&ldquo;Spyware in Android phones (and Windows? laptops): The Wall Street Journal (in an article blocked from us by a paywall) reports that <a href="https://www.theverge.com/2013/8/1/4580718/fbi-can-remotely-activate-android-and-laptop-microphones-reports-wsj">the FBI can remotely activate the GPS and microphone in Android phones and laptops</a> (presumably Windows laptops). Here is <a href="https://cryptome.org/2013/08/fbi-hackers.htm">more info.</a>&rdquo; Sources: <a href="https://www.gnu.org/proprietary/malware-google.html#content">gnu.org</a>, the verge.</li>
+
+<li>&ldquo;Spyware is present in some Android devices when they are sold. Some Motorola phones, made when this company was owned by Google, use a modified version of Android that <a href="https://www.beneaththewaves.net/Projects/Motorola_Is_Listening.html">sends personal data to Motorola.</a>&rdquo; Sources: <a href="https://www.gnu.org/proprietary/malware-google.html#content">gnu.org</a>, Beneath the Waves.</li>
+
+<li>&ldquo;A Motorola phone (in the past motorola was owned by google&#x2026;) <a href="https://web.archive.org/web/20170629175629/http://www.itproportal.com/2013/07/25/motorolas-new-x8-arm-chip-underpinning-the-always-on-future-of-android/">listens for voice all the time.</a>&rdquo; Sources: <a href="https://www.gnu.org/proprietary/malware-google.html#content">gnu.org</a> (<i>modified</i>), ITProPortal.</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org19b2110" class="outline-3">
+<h3 id="org19b2110">Chromebook/ChromeOS</h3>
+<div class="outline-text-3" id="text-org19b2110">
+<ul class="org-ul">
+<li>&ldquo;ChromeBooks are programmed for obsolescence: ChromeOS has a universal back door that is used for updates and <a href="https://www.theregister.com/2019/08/22/buying_a_chromebook_dont_forget_to_check_when_it_expires/">ceases to operate at a predefined date</a>. From then on, there appears to be no support whatsoever for the computer. In other words, when you stop getting screwed by the back door, you start getting screwed by the obsolescence.&rdquo; Sources: <a href="https://www.gnu.org/proprietary/malware-google.html#content">gnu.org</a>, The Register.</li>
+
+<li>&ldquo;ChromeOS has a universal back door. At least, Google says it does—in <a href="https://www.google.com/intl/en/chromebook/termsofservice.html">section 4 of the EULA.</a>&rdquo; Sources: <a href="https://www.gnu.org/proprietary/malware-google.html#content">gnu.org</a>, Google.</li>
+
+<li>&ldquo;Low-priced Chromebooks for schools are <a href="https://www.eff.org/wp/school-issued-devices-and-student-privacy">collecting far more data on students than is necessary, and store it indefinitely</a>. Parents and students complain about the lack of transparency on the part of both the educational services and the schools, the difficulty of opting out of these services, and the lack of proper privacy policies, among other things.&rdquo; Sources: <a href="https://www.gnu.org/proprietary/malware-google.html#content">gnu.org</a> (<i>modified</i>), Electronic Frontier Foundation.</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org0aa802d" class="outline-3">
+<h3 id="org0aa802d">DRM</h3>
+<div class="outline-text-3" id="text-org0aa802d">
+<p>
+<code>Digital restrictions management, or “DRM,” refers to functionalities designed to restrict what users can do with the data in their computers.</code>
+</p>
+<ul class="org-ul">
+<li>&ldquo;Google now allows Android apps to detect whether a device has been rooted, <a href="https://www.androidpolice.com/2017/05/13/netflix-confirms-blocking-rootedunlocked-devices-app-still-working-now/">and refuse to install if so</a>. The Netflix app uses this ability to enforce DRM by refusing to install on rooted Android devices. Update: Google intentionally changed Android so that apps <a href="https://torrentfreak.com/netflix-use-of-google-drm-means-rooted-android-devices-are-banned-170515/">can detect rooted devices and refuse to run on them</a>. The Netflix app is proprietary malware, and one shouldn&rsquo;t use it. However, that does not make what Google has done any less wrong.&rdquo; Source: <a href="https://www.gnu.org/proprietary/malware-google.html#content">gnu.org</a>, Android Police, torrentfreak.</li>
+
+<li>&ldquo;Chrome <a href="https://boingboing.net/2017/01/30/google-quietly-makes-optiona.html">implements DRM</a>. So does Chromium, through nonfree software that is effectively part of it. <a href="https://bugs.chromium.org/p/chromium/issues/detail?id=686430">More information.</a>&rdquo; Sources: <a href="https://www.gnu.org/proprietary/malware-google.html#content">gnu.org</a>, boingboing, <a href="https://bugs.chromium.org/p/chromium/issues/list">bugs.chromium.org</a>.</li>
+
+<li>&ldquo;Android <a href="https://developer.android.com/reference/android/drm/package-summary.html">contains facilities specifically to support DRM.</a>&rdquo; Sources: <a href="https://www.gnu.org/proprietary/malware-google.html#content">gnu.org</a>, Android Developers.</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org376398b" class="outline-3">
+<h3 id="org376398b">General actions</h3>
+<div class="outline-text-3" id="text-org376398b">
+<ul class="org-ul">
+<li>&ldquo;Google <a href="https://www.indiatoday.in/technology/news/story/disha-ravi-arrest-puts-privacy-of-all-google-india-users-in-doubt-1769772-2021-02-16">handed over personal data of Indian protesters and activists to Indian police</a> which led to their arrest. The cops requested the IP address and the location where a document was created and with that information, they identified protesters and activists.&rdquo; Sources: <a href="https://www.gnu.org/proprietary/malware-google.html#content">gnu.org</a>, India Today.</li>
+
+<li>&ldquo;Google, Apple, and Microsoft (and probably some other companies) <a href="https://www.lifewire.com/wifi-positioning-system-1683343">are collecting people&rsquo;s access points and GPS coordinates (which can identify people&rsquo;s precise location) even if their GPS is turned off</a>, without the person&rsquo;s consent, using proprietary software implemented in person&rsquo;s smartphone. Though merely asking for permission would not necessarily legitimize this.&rdquo; Sources: <a href="https://www.gnu.org/proprietary/malware-google.html#content">gnu.org</a>, LifeWire.</li>
+
+<li>&ldquo;An Android phone was observed to track location even while in airplane mode. It didn&rsquo;t send the location data while in airplane mode. Instead, <a href="https://www.thesun.co.uk/tech/7811918/google-is-tracking-you-even-with-airplane-mode-turned-on/">it saved up the data, and sent them all later.</a>&rdquo; Sources: <a href="https://www.gnu.org/proprietary/malware-google.html#content">gnu.org</a>, The Sun.</li>
+
+<li>&ldquo;<a href="https://www.theverge.com/2018/8/13/17684660/google-turn-off-location-history-data">Google will track people even if people turn off location history</a>, using Google Maps, weather updates, and browser searches. Google basically uses any app activity to track people.&rdquo; Sources: <a href="https://www.gnu.org/proprietary/malware-google.html#content">gnu.org</a>, the verge.</li>
+
+<li>&ldquo;Google&rsquo;s new voice messaging app <a href="https://www.theverge.com/2016/9/21/12994362/allo-privacy-message-logs-google">logs all conversations.</a>&rdquo; Sources: <a href="https://www.gnu.org/proprietary/malware-google.html#content">gnu.org</a>, the verge.</li>
+
+<li>&ldquo;Many web sites report all their visitors to Google by using the Google Analytics service, which <a href="https://www.pcworld.idg.com.au/article/434164/google_analytics_breaks_norwegian_privacy_laws_local_agency_said/">tells Google the IP address and the page that was visited.</a>&rdquo; Sources: <a href="https://www.gnu.org/proprietary/malware-google.html#content">gnu.org</a>, PCWorld.</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgc71ad11" class="outline-3">
+<h3 id="orgc71ad11">Google AdSense</h3>
+<div class="outline-text-3" id="text-orgc71ad11">
+<ul class="org-ul">
+<li>&ldquo;Tiny Lab Productions, along with online ad businesses run by Google, Twitter and three other companies are facing a lawsuit <a href="https://www.nytimes.com/interactive/2018/09/12/technology/kids-apps-data-privacy-google-twitter.html">for violating people&rsquo;s privacy by collecting their data from mobile games and handing over these data to other companies/advertisers.</a>&rdquo; Sources: <a href="https://www.gnu.org/proprietary/malware-google.html#content">gnu.org</a>, New York Times.</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org5df48d3" class="outline-3">
+<h3 id="org5df48d3">Google Assistant</h3>
+<div class="outline-text-3" id="text-org5df48d3">
+<ul class="org-ul">
+<li>&ldquo;Google “Assistant” records users&rsquo; conversations <a href="https://arstechnica.com/information-technology/2019/07/google-defends-listening-to-ok-google-queries-after-voice-recordings-leak/">even when it is not supposed to listen</a>. Thus, when one of Google&rsquo;s subcontractors discloses a thousand confidential voice recordings, users were easily identified from these recordings.&rdquo; Sources: <a href="https://www.gnu.org/proprietary/malware-google.html#content">gnu.org</a> (<i>modified</i>), arstechnica.</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgdf136ac" class="outline-3">
+<h3 id="orgdf136ac">Google Chrome/Chromium</h3>
+<div class="outline-text-3" id="text-orgdf136ac">
+<ul class="org-ul">
+<li>&ldquo;On Windows and MacOS, Chrome <a href="https://sites.google.com/a/chromium.org/dev/developers/extensions-deployment-faq">disables extensions</a> that are not hosted in the Chrome Web Store. For example, an extension was <a href="https://web.archive.org/web/20170120094917/https://consumerist.com/2017/01/18/why-is-google-blocking-this-ad-blocker-on-chrome/">banned from the Chrome Web Store, and permanently disabled</a> on more than 40,000 computers.&rdquo; Sources: <a href="https://www.gnu.org/proprietary/malware-google.html#content">gnu.org</a>, The Chromium Projects, consumerist.</li>
+
+<li>&ldquo;Google is modifying Chromium so that <a href="https://tech.slashdot.org/story/19/01/23/0048202/google-proposes-changes-to-chromium-browser-that-will-break-content-blocking-extensions-including-various-ad-blockers">extensions won&rsquo;t be able to alter or block whatever the page contains.</a>&rdquo; Sources: <a href="https://www.gnu.org/proprietary/malware-google.html#content">gnu.org</a> (<i>modified</i>), Slashdot.</li>
+
+<li>&ldquo;Google&rsquo;s proprietary Chrome web browser <a href="https://www.techrepublic.com/article/new-chrome-feature-can-tell-sites-and-webapps-when-youre-idle/">added a surveillance API (idle detection API)</a> which lets websites ask Chrome to report when a user with a web page open is idle.&rdquo; Sources: <a href="https://www.gnu.org/proprietary/malware-google.html#content">gnu.org</a>, TechRepublic.</li>
+
+<li>&ldquo;Google Chrome is an <a href="https://www.mercurynews.com/2019/06/21/google-chrome-has-become-surveillance-software-its-time-to-switch/">instrument of surveillance</a>. It lets thousands of trackers invade users&rsquo; computers and report the sites they visit to advertising and data companies, first of all to Google. Moreover, if users have a Gmail account, Chrome automatically logs them in to the browser for more convenient profiling. On Android, Chrome also reports their location to Google.&rdquo; Sources: <a href="https://www.gnu.org/proprietary/malware-google.html#content">gnu.org</a> (<i>modified</i>), The Mercury News.</li>
+
+<li>&ldquo;Google Chrome makes it easy for an extension to do <a href="https://labs.detectify.com/2015/07/28/how-i-disabled-your-chrome-security-extensions/">total snooping on the user&rsquo;s browsing</a>, and many of them do so.&rdquo; Sources: <a href="https://www.gnu.org/proprietary/malware-google.html#content">gnu.org</a>, detectify.</li>
+
+<li>&ldquo;Google Chrome includes a module that <a href="https://www.privateinternetaccess.com/blog/google-chrome-listening-in-to-your-room-shows-the-importance-of-privacy-defense-in-depth/">activates microphones and transmits audio to its servers.</a>&rdquo; Sources: <a href="https://www.gnu.org/proprietary/malware-google.html#content">gnu.org</a>, piablog.</li>
+
+<li>&ldquo;Google Chrome <a href="https://www.brad-x.com/2013/08/04/google-chrome-is-spyware/">spies on browser history, affiliations</a>, and other installed software.&rdquo; Sources: <a href="https://www.gnu.org/proprietary/malware-google.html#content">gnu.org</a>, bradx.</li>
+
+<li>&ldquo;Google Chrome contains a key logger that <a href="https://web.archive.org/web/20190126075111/http://www.favbrowser.com/google-chrome-spyware-confirmed/">sends Google every URL typed in</a>, one key at a time.&rdquo; Sources: <a href="https://www.gnu.org/proprietary/malware-google.html#content">gnu.org</a>, FavBrowser.com.</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org9c53673" class="outline-3">
+<h3 id="org9c53673">Google Maps</h3>
+<div class="outline-text-3" id="text-org9c53673">
+<ul class="org-ul">
+<li>&ldquo;Google tracks the movements of Android phones and iPhones running Google apps, and sometimes <a href="https://www.nytimes.com/interactive/2019/04/13/us/google-location-tracking-police.html">saves the data for years.</a>&rdquo; Source: <a href="https://www.gnu.org/proprietary/malware-google.html#content">gnu.org</a> (<i>modified</i>), New York Times.</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org044b25d" class="outline-3">
+<h3 id="org044b25d">Google Meet</h3>
+<div class="outline-text-3" id="text-org044b25d">
+<ul class="org-ul">
+<li>&ldquo;Proprietary programs Google Meet, Microsoft Teams, and WebEx <a href="https://www.consumerreports.org/video-conferencing-services/videoconferencing-privacy-issues-google-microsoft-webex-a7383469308/">are collecting user&rsquo;s personal and identifiable data</a> including how long a call lasts, who&rsquo;s participating in the call, and the IP addresses of everyone taking part. From experience, this can even harm users physically if those companies hand over data to governments.&rdquo; Sources: <a href="https://www.gnu.org/proprietary/malware-google.html#content">gnu.org</a>, ConsumerReports.</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org551ba41" class="outline-3">
+<h3 id="org551ba41">Google Play Store</h3>
+<div class="outline-text-3" id="text-org551ba41">
+<ul class="org-ul">
+<li>&ldquo;The <a href="https://play.google.com/about/play-terms/">Google Play Terms of Service</a> insist that the user of Android accept the presence of universal back doors in apps released by Google. This does not tell us whether any of Google&rsquo;s apps currently contains a universal back door, but that is a secondary question. In moral terms, demanding that people accept in advance certain bad treatment is equivalent to actually doing it. Whatever condemnation the latter deserves, the former deserves the same.&rdquo; Sources: <a href="https://www.gnu.org/proprietary/malware-google.html#content">gnu.org</a>, <a href="https://play.google.com">play.google.com</a>.</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org07025bd" class="outline-3">
+<h3 id="org07025bd">Smart Devices</h3>
+<div class="outline-text-3" id="text-org07025bd">
+<ul class="org-ul">
+<li>&ldquo;Google Nest <a href="https://blog.google/products/google-nest/partnership-adt-smarter-home-security/">is taking over ADT</a>. Google sent out a software update to its speaker devices using their back door <a href="https://www.protocol.com/google-smart-speaker-alarm-adt">that listens for things like smoke alarms</a> and then notifies your phone that an alarm is happening. This means the devices now listen for more than just their wake words. Google says the software update was sent out prematurely and on accident and Google was planning on disclosing this new feature and offering it to customers who pay for it.&rdquo; Sources: <a href="https://www.gnu.org/proprietary/malware-google.html#content">gnu.org</a>, blog.google, protocol.</li>
+
+<li>&ldquo;Nest thermometers send <a href="https://bgr.com/general/google-nest-jailbreak-hack/">a lot of data about the user.</a>&rdquo; Sources: <a href="https://www.gnu.org/proprietary/malware-google.html#content">gnu.org</a>, BGR.</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgfd14f93" class="outline-2">
+<h2 id="orgfd14f93">TikTok</h2>
+<div class="outline-text-2" id="text-orgfd14f93">
+<ul class="org-ul">
+<li>&ldquo;TikTok <a href="https://boingboing.net/2020/08/11/tiktok-exploited-android-secur.html">exploited an Android vulnerability</a> to obtain user MAC addresses.&rdquo; Sources: <a href="https://www.gnu.org/proprietary/malware-google.html#content">gnu.org</a>, boingboing.</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Luís Spengler</p>
+<p class="date">Created: 2022-01-23 Sun 15:58</p>
+</div>
+</body>
+</html>

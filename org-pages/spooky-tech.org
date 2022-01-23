@@ -46,7 +46,8 @@ Feel free to contact me if anything is wrong and should I add/remove something.
 
 + "Amazon Ring “security” devices [[https://www.engadget.com/2019-01-10-ring-gave-employees-access-customer-video-feeds.html][send the video they capture to Amazon servers]], which save it long-term." Sources: [[https://www.gnu.org/proprietary/malware-google.html#content][gnu.org]] (/modified/), engadget.
 
-+ "The Amazon “Smart” TV is [[ https://www.theguardian.com/technology/shortcuts/2014/nov/09/amazon-echo-smart-tv-watching-listening-surveillance][snooping all the time.]]" Sources: [[https://www.gnu.org/proprietary/malware-google.html#content][gnu.org]], The Guardian.
++ "The Amazon “Smart” TV is [[https://www.theguardian.com/technology/shortcuts/2014/nov/09/amazon-echo-smart-tv-watching-listening-surveillance][snooping all the time.]]" Sources: [[https://www.gnu.org/proprietary/malware-google.html#content][gnu.org]], The Guardian.
+
 
 * Apple
 + "The iPhone has a back door [[https://www.telegraph.co.uk/technology/3358134/Apples-Jobs-confirms-iPhone-kill-switch.html][that allows Apple to remotely delete apps]] which Apple considers “inappropriate”." Sources: [[https://www.gnu.org/proprietary/malware-google.html#content][gnu.org]] (/modified/), The Telegraph.
