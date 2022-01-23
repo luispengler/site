@@ -3,12 +3,12 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2022-01-23 Sun 15:54 -->
+<!-- 2022-01-23 Sun 15:48 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>An introduction to Quantum computing - my notes.</title>
+<title>Week 14 - my notes</title>
 <meta name="author" content="Luís Spengler" />
-<meta name="description" content="An introduction to Quantum computing (QubitxQubit) - my notes" />
+<meta name="description" content="Week 14 - my notes" />
 <meta name="generator" content="Org Mode" />
 <style>
   #content { max-width: 60em; margin: auto; }
@@ -200,184 +200,193 @@
 <script src="httpss://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="https://luispengler.github.io/site/org-html-themes/src/lib/js/jquery.stickytableheaders.min.js"></script>
 <script type="text/javascript" src="https://luispengler.github.io/site/org-html-themes/src/readtheorg_theme/js/readtheorg.js"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        displayAlign: "center",
+        displayIndent: "0em",
+
+        "HTML-CSS": { scale: 100,
+                        linebreaks: { automatic: "false" },
+                        webFont: "TeX"
+                       },
+        SVG: {scale: 100,
+              linebreaks: { automatic: "false" },
+              font: "TeX"},
+        NativeMML: {scale: 100},
+        TeX: { equationNumbers: {autoNumber: "AMS"},
+               MultLineWidth: "85%",
+               TagSide: "right",
+               TagIndent: ".8em"
+             }
+});
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML"></script>
 </head>
 <body>
 <div id="content" class="content">
-<h1 class="title">An introduction to Quantum computing - my notes.</h1>
+<h1 class="title">Week 14 - my notes</h1>
 <div id="table-of-contents" role="doc-toc">
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#org366de39">This collection</a></li>
-<li><a href="#org834da0c">Resources</a></li>
+<li><a href="#org910f5d2">Week 14 - Math of Two-Qubit Circuits</a>
+<ul>
+<li><a href="#orgbd6441b">Recap</a></li>
+<li><a href="#org2b17869">Introduction to 2-Qubit circuits &amp; indexing</a></li>
+<li><a href="#org422f44e">Vector for multi-qubits states</a></li>
+<li><a href="#orgb213add">Applying gates to Multi-Qubit circuits</a></li>
+<li><a href="#org479511e">Predicting final states</a></li>
+<li><a href="#org0cc79be">Math of the CX gate</a></li>
+<li><a href="#org6df51ab">The Math of Entanglement</a></li>
+<li><a href="#orgdff0635">Tensor Product Introduction</a></li>
+</ul>
+</li>
 </ul>
 </div>
 </div>
-<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
-
-<colgroup>
-<col  class="org-left" />
-
-<col  class="org-left" />
-
-<col  class="org-left" />
-
-<col  class="org-left" />
-
-<col  class="org-left" />
-
-<col  class="org-left" />
-
-<col  class="org-left" />
-
-<col  class="org-left" />
-
-<col  class="org-left" />
-
-<col  class="org-left" />
-
-<col  class="org-left" />
-
-<col  class="org-left" />
-</colgroup>
-<tbody>
-<tr>
-<td class="org-left"><a href="https://luispengler.github.io/site/html/org-pages/qc/week0.html">week0</a></td>
-<td class="org-left"><a href="https://luispengler.github.io/site/html/org-pages/qc/week1.html">week1</a></td>
-<td class="org-left"><a href="https://luispengler.github.io/site/html/org-pages/qc/week2.html">week2</a></td>
-<td class="org-left"><a href="https://luispengler.github.io/site/html/org-pages/qc/week3.html">week3</a></td>
-<td class="org-left"><a href="https://luispengler.github.io/site/html/org-pages/qc/week4.html">week4</a></td>
-<td class="org-left"><a href="https://luispengler.github.io/site/html/org-pages/qc/week5.html">week5</a></td>
-<td class="org-left"><a href="https://luispengler.github.io/site/html/org-pages/qc/week6.html">week6</a></td>
-<td class="org-left"><a href="https://luispengler.github.io/site/html/org-pages/qc/week7.html">week7</a></td>
-<td class="org-left"><a href="https://luispengler.github.io/site/html/org-pages/qc/week8.html">week8</a></td>
-<td class="org-left"><a href="https://luispengler.github.io/site/html/org-pages/qc/week9.html">week9</a></td>
-<td class="org-left"><a href="https://luispengler.github.io/site/html/org-pages/qc/week10.html">week10</a></td>
-<td class="org-left"><a href="https://luispengler.github.io/site/html/org-pages/qc/week11.html">week11</a></td>
-</tr>
-</tbody>
-</table>
-
-<div id="org55593da" class="figure">
-<p><img src="https://luispengler.github.io/site/doc/images/qubit.jpg" alt="qubit.jpg" title="Double-slit" style="margin-left: auto;margin-right: auto;background-color: mintcream;display: block;width: 100%;" />
-</p>
+<div id="outline-container-org910f5d2" class="outline-2">
+<h2 id="org910f5d2">Week 14 - Math of Two-Qubit Circuits</h2>
+<div class="outline-text-2" id="text-org910f5d2">
 </div>
-<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<div id="outline-container-orgbd6441b" class="outline-3">
+<h3 id="orgbd6441b">Recap</h3>
+<div class="outline-text-3" id="text-orgbd6441b">
+</div>
+<div id="outline-container-org88f2180" class="outline-4">
+<h4 id="org88f2180">Vector and matrices</h4>
+<div class="outline-text-4" id="text-org88f2180">
+<ul class="org-ul">
+<li>X gate:
+\[\begin{bmatrix}0 & 1\\1 & 0\end{bmatrix}\]</li>
 
+<li>Z gate:
+\[\begin{bmatrix}1 & 0\\0 & -1\end{bmatrix}\]</li>
 
-<colgroup>
-<col  class="org-left" />
+<li>H gate:
+\[\frac{1}{\sqrt{2}}\begin{bmatrix}1 & 1\\1 & -1\end{bmatrix}\]</li>
+</ul>
+</div>
+</div>
 
-<col  class="org-left" />
+<div id="outline-container-org904644d" class="outline-4">
+<h4 id="org904644d">Multi-Qubit circuits</h4>
+<div class="outline-text-4" id="text-org904644d">
+<ul class="org-ul">
+<li>You can have single-qubit gates (ones that are applied to one qubit only)</li>
+<li>You can have controlled gates (applied to multipled qubits at a time)</li>
+</ul>
+</div>
+</div>
+</div>
 
-<col  class="org-left" />
+<div id="outline-container-org2b17869" class="outline-3">
+<h3 id="org2b17869">Introduction to 2-Qubit circuits &amp; indexing</h3>
+<div class="outline-text-3" id="text-org2b17869">
+<ul class="org-ul">
+<li>For individual circuits, writing a state in ket notation is super easy: \(|0\rangle\) or \(|1\rangle\)</li>
+<li>For 2-qubit circuits, just put those together: \(|01\rangle\) or \(|10\rangle\). You may also find \(|0\rangle|1\rangle\) or \(|1\rangle|0\rangle\)</li>
+<li>The index to be used is first (at left) q1 and at right q0: \(|q1q0\rangle\). This is known as right indexing.</li>
+</ul>
+</div>
+</div>
 
-<col  class="org-left" />
-
-<col  class="org-left" />
-
-<col  class="org-left" />
-
-<col  class="org-left" />
-
-<col  class="org-left" />
-
-<col  class="org-left" />
-
-<col  class="org-left" />
-
-<col  class="org-left" />
-
-<col  class="org-left" />
-</colgroup>
-<tbody>
-<tr>
-<td class="org-left"><a href="https://luispengler.github.io/site/html/org-pages/qc1/week12.html">week12</a></td>
-<td class="org-left"><a href="https://luispengler.github.io/site/html/org-pages/qc1/week13.html">week13</a></td>
-<td class="org-left"><a href="https://luispengler.github.io/site/html/org-pages/qc1/week14.html">week14</a></td>
-<td class="org-left"><a href="https://luispengler.github.io/site/html/org-pages/qc1/week15.html">week15</a></td>
-<td class="org-left"><a href="https://luispengler.github.io/site/html/org-pages/qc1/week16.html">week16</a></td>
-<td class="org-left"><a href="https://luispengler.github.io/site/html/org-pages/qc1/week17.html">week17</a></td>
-<td class="org-left"><a href="https://luispengler.github.io/site/html/org-pages/qc1/week18.html">week18</a></td>
-<td class="org-left"><a href="https://luispengler.github.io/site/html/org-pages/qc1/week19.html">week19</a></td>
-<td class="org-left"><a href="https://luispengler.github.io/site/html/org-pages/qc1/week20.html">week20</a></td>
-<td class="org-left"><a href="https://luispengler.github.io/site/html/org-pages/qc1/week21.html">week21</a></td>
-<td class="org-left"><a href="https://luispengler.github.io/site/html/org-pages/qc1/week22.html">week22</a></td>
-<td class="org-left"><a href="https://luispengler.github.io/site/html/org-pages/qc1/week23.html">week23</a></td>
-</tr>
-</tbody>
-</table>
-
-<div id="outline-container-org366de39" class="outline-2">
-<h2 id="org366de39">This collection</h2>
-<div class="outline-text-2" id="text-org366de39">
+<div id="outline-container-org422f44e" class="outline-3">
+<h3 id="org422f44e">Vector for multi-qubits states</h3>
+<div class="outline-text-3" id="text-org422f44e">
+<ul class="org-ul">
+<li>The upper part is the amount of \(|0\rangle\) contribution</li>
+<li>The lower part is the amount of \(|1\rangle\) contribution</li>
+<li>As an example, a \(|0\rangle\) state:</li>
+</ul>
 <p>
-This notes page is about all my notes taken throughout this whole course.
+\[\begin{bmatrix}1\\0\end{bmatrix}\]
 </p>
 <ul class="org-ul">
-<li>What is this course?
+<li>We will have four parts now. Representing the components of \(|00\rangle\), \(|01\rangle\), \(|10\rangle\), and \(|11\rangle\)</li>
+<li>As an example, a \(|10\rangle\) state:</li>
+</ul>
+<p>
+\[\begin{bmatrix}0\\0\\1\\0\end{bmatrix}\]
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgb213add" class="outline-3">
+<h3 id="orgb213add">Applying gates to Multi-Qubit circuits</h3>
+<div class="outline-text-3" id="text-orgb213add">
 <ul class="org-ul">
-<li>This is &ldquo;Introduction to Quantum Computing&rdquo;, made by The Coding School (TCS) as a result of a partnership with IBM Quantum.</li>
-</ul></li>
-<li>Who is this for?
-<ul class="org-ul">
-<li>Mainly High School students. But if you are not a High School student anymore, you can check out this <a href="https://qiskit.org/learn/intro-qc-qh/">course</a> instead.</li>
-</ul></li>
-<li>How do I apply?
-<ul class="org-ul">
-<li>Personally, the first time I heard of this was through a friend and he showed me <a href="https://www.instagram.com/the_coding_school/">their instagram page</a> (where they made the course&rsquo;s annoucement)</li>
-<li>So I would say, wait for it to open again (usually around august each year). However, I am not 100% sure if they are planning on opening new classes - why not tho?</li>
-<li>The course goes from September until April (at least 22&rsquo; was)</li>
-</ul></li>
+<li>For a single qubit: (Matrix) * (Initial state) = final state</li>
+<li>The math can be the same, but the matrix will be huge.. so let&rsquo;s try to predict it</li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org834da0c" class="outline-2">
-<h2 id="org834da0c">Resources</h2>
-<div class="outline-text-2" id="text-org834da0c">
-<ul class="org-ul">
-<li>A small collection of resources I gathred</li>
-</ul>
+<div id="outline-container-org479511e" class="outline-3">
+<h3 id="org479511e">Predicting final states</h3>
+<div class="outline-text-3" id="text-org479511e">
+<ol class="org-ol">
+<li>Find the ket representation of the final state by applying the gates in the circuit</li>
+<li>Fill in the vector based on the elements in the ket</li>
+</ol>
 </div>
-<div id="outline-container-org810a9bc" class="outline-3">
-<h3 id="org810a9bc">Videos</h3>
-<div class="outline-text-3" id="text-org810a9bc">
+</div>
+
+<div id="outline-container-org0cc79be" class="outline-3">
+<h3 id="org0cc79be">Math of the CX gate</h3>
+<div class="outline-text-3" id="text-org0cc79be">
 <ul class="org-ul">
-<li><a href="https://www.youtube.com/playlist?list=PLR3IPFP-OywS3nMoKLJcEpeHfQRsT7QKR">Quantum Computing playlist</a></li>
-<li><a href="https://www.youtube.com/watch?v=fNk_zzaMoSs&amp;list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab">Essence of Linear Algebra: A Video Playlist by 3Blue1Brown</a></li>
-<li><a href="https://youtube.com/playlist?list=PLZHQObOWTQDP5CVelJJ1bNDouqrAhVPev">Loockdown Math: A Video Playlist by 3Blue1Brown</a></li>
+<li>CX gate also has a matrix representation:</li>
+</ul>
+<p>
+\[\begin{bmatrix}1 & 0 & 0 & 0\\0 & 0 & 0 & 1\\0 & 0 & 1 & 0\\0 & 1 & 0 & 0\end{bmatrix}\]
+</p>
+<ul class="org-ul">
+<li>Lets apply this gate to a \(|00\rangle\) state</li>
+</ul>
+<p>
+\[\begin{bmatrix}1 & 0 & 0 & 0\\0 & 0 & 0 & 1\\0 & 0 & 1 & 0\\0 & 1 & 0 & 0\end{bmatrix}\cdot \begin{bmatrix}1\\0\\0\\0\end{bmatrix}=\begin{bmatrix}1\\0\\0\\0\end{bmatrix}\]
+</p>
+</div>
+</div>
+
+<div id="outline-container-org6df51ab" class="outline-3">
+<h3 id="org6df51ab">The Math of Entanglement</h3>
+<div class="outline-text-3" id="text-org6df51ab">
+<ul class="org-ul">
+<li>It generally is \[|q1q2\rangle = \frac{1}{\sqrt{2}}(|00\rangle + |11\rangle)\]</li>
+<li>You can see the sight of dependence in there</li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org30d2331" class="outline-3">
-<h3 id="org30d2331">Books</h3>
-<div class="outline-text-3" id="text-org30d2331">
+<div id="outline-container-orgdff0635" class="outline-3">
+<h3 id="orgdff0635">Tensor Product Introduction</h3>
+<div class="outline-text-3" id="text-orgdff0635">
 <ul class="org-ul">
-<li>Life on the Edge: The Coming of Age of Quantum Biology</li>
+<li>Could you combine two separete vectors to get a 4x1 vector?</li>
+<li>Ofc, we call this mathematical operation a tensor product</li>
 </ul>
 </div>
-</div>
-
-<div id="outline-container-org7b547f9" class="outline-3">
-<h3 id="org7b547f9">Articles</h3>
-<div class="outline-text-3" id="text-org7b547f9">
+<div id="outline-container-org4506fab" class="outline-4">
+<h4 id="org4506fab">Example</h4>
+<div class="outline-text-4" id="text-org4506fab">
 <ul class="org-ul">
-<li><a href="https://www.forbes.com/sites/startswithabang/2020/12/10/does-making-a-quantum-measurement-really-destroy-information/">Does Making A Quantum Measurement Really Destroy Information?</a></li>
-<li><a href="https://arxiv.org/abs/1507.05255https://phys.org/news/2020-02-scientists-quantum.html">On the quantum measurement problem</a></li>
-<li><a href="http://backreaction.blogspot.com/2019/10/what-is-quantum-measurement-problem.html">What is the quantum measurement problem?</a></li>
-<li><a href="https://phys.org/news/2020-02-scientists-quantum.html">Scientists &rsquo;film&rsquo; a quantum measurement</a></li>
-<li><a href="https://medium.com/@jeremyjkun/here-s-just-a-fraction-of-what-you-can-do-with-linear-algebra-633383d4153f">Here’s just a fraction of what you can do with linear algebra, Jeremy Kun (Article)</a></li>
+<li>Qubit 0 is in state \(|q0\rangle\) = \(|1\rangle\) = \[\begin{bmatrix}0\\1\end{bmatrix}\]</li>
+<li>Qubit 1 is in state \(|q1\rangle\) = \(|0\rangle\) = \[\begin{bmatrix}1\\0\end{bmatrix}\]</li>
+<li>The math basically is:</li>
 </ul>
+<p>
+\(|q1q0\rangle\) = \(|q1\rangle\otimes |q0\rangle\) = \(|0\rangle\otimes |1\rangle\) = \[\begin{bmatrix}1\\0\end{bmatrix}\otimes \begin{bmatrix}0\\1\end{bmatrix}\]
+</p>
+</div>
 </div>
 </div>
 </div>
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Luís Spengler</p>
-<p class="date">Created: 2022-01-23 Sun 15:54</p>
+<p class="date">Created: 2022-01-23 Sun 15:48</p>
 </div>
 </body>
 </html>

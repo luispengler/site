@@ -309,7 +309,7 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [X] The Flash – 3.23: “Finish Line”
 + [X] Arrow – 5.23: “Lian Yu”
 
-* 2017/2018 [87/112] [77%]
+* 2017/2018 [103/112] [91%]
 
 + [X] Supergirl – 3.01: “Girl of Steel”
 + [X] The Flash – 4.01: “The Flash Reborn”
@@ -398,23 +398,23 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [X] Supergirl – 3.14: “Schott Through The Heart”
 + [X] The Flash – 4.18: “Lose Yourself”
 + [X] Black Lightning – 1.13: “Shadow of Death: The Book of War”
-+ [ ] Arrow – 6.19: “The Dragon”
-+ [ ] Supergirl – 3.15: “In Search of Lost Time”
-+ [ ] The Flash – 4.19: “Fury Rogue”
-+ [ ] Arrow – 6.20: “Shifting Allegiances”
-+ [ ] Supergirl – 3.16: “Of Two Minds”
-+ [ ] The Flash – 4.20: “Therefore She Is”
-+ [ ] Arrow – 6.21: “Docket No. 11-19-41-73”
-+ [ ] Supergirl – 3.17: “Trinity”
-+ [ ] The Flash – 4.21: “Harry and the Harrisons”
-+ [ ] Arrow – 6.22: “The Ties That Bind”
-+ [ ] Supergirl – 3.18: “Shelter From The Storm”
-+ [ ] The Flash – 4.22: “Think Fast”
-+ [ ] Arrow – 6.23: “Life Sentence”
-+ [ ] Supergirl – 3.19: “The Fanatical”
-+ [ ] The Flash – 4.23: “We Are The Flash”
-+ [ ] Supergirl – 3.20: “Dark Side of the Moon”
-+ [ ] Supergirl – 3.21: “Not Kansas”
++ [X] Arrow – 6.19: “The Dragon”
++ [X] Supergirl – 3.15: “In Search of Lost Time”
++ [X] The Flash – 4.19: “Fury Rogue”
++ [X] Arrow – 6.20: “Shifting Allegiances”
++ [X] Supergirl – 3.16: “Of Two Minds”
++ [X] The Flash – 4.20: “Therefore She Is”
++ [X] Arrow – 6.21: “Docket No. 11-19-41-73”
++ [X] Supergirl – 3.17: “Trinity”
++ [X] The Flash – 4.21: “Harry and the Harrisons”
++ [X] Arrow – 6.22: “The Ties That Bind”
++ [X] Supergirl – 3.18: “Shelter From The Storm”
++ [X] The Flash – 4.22: “Think Fast”
++ [X] Arrow – 6.23: “Life Sentence”
++ [X] Supergirl – 3.19: “The Fanatical”
++ [X] The Flash – 4.23: “We Are The Flash”
++ [X] Supergirl – 3.20: “Dark Side of the Moon”
++ [-] Supergirl – 3.21: “Not Kansas”
 + [ ] Supergirl – 3.22: “Make It Reign”
 + [ ] Supergirl – 3.23: “Battles Lost And Won”
 + [ ] Freedom Fighters: The Ray - 2.01: "Episode One"
@@ -432,7 +432,6 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [ ] Arrow – 7.01: “Inmate 4587”
 + [ ] The Flash – 5.02: “Blocked”
 + [ ] Black Lightning – 2.02: “The Book of Consequences: Chapter Two: Black Jesus Blues”
-+ [ ] Consequences: Chapter Two: Black Jesus Blues”
 + [ ] Supergirl – 4.02: “Fallout”
 + [ ] Arrow – 7.02: “The Longbow Hunters”
 + [ ] Legends of Tomorrow – 4.01: “The Virgin Gary”
@@ -466,9 +465,9 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [ ] Legends of Tomorrow – 4.07: “Hell No, Dolly!”
 + [ ] The Flash – 5.08: “What’s Past Is Prologue”
 + [ ] Black Lightning – 2.08: “The Book of Rebellion: Chapter One: Exodus”
-+ [ ] The Flash – 5.09: “Elseworlds Part 1” ***MUST BE WATCHED TOGETHER (1)
-+ [ ] Arrow – 7.09: “Elseworlds Part 2” ***MUST BE WATCHED TOGETHER (2)
-+ [ ] Supergirl – 4.09: “Elseworlds Part 3” ***MUST BE WATCHED TOGETHER (3)
++ [ ] The Flash – 5.09: “Elseworlds Part 1” *MUST BE WATCHED TOGETHER (1)*
++ [ ] Arrow – 7.09: “Elseworlds Part 2” *MUST BE WATCHED TOGETHER (2)*
++ [ ] Supergirl – 4.09: “Elseworlds Part 3” *MUST BE WATCHED TOGETHER (3)*
 + [ ] Legends of Tomorrow – 4.08: “Legends Of To-Meow-Meow”
 + [ ] Black Lightning – 2.09: “The Book of Rebellion: Chapter Two: Gift Of The Magi”
 + [ ] The Flash – 5.10: “The Flash & The Furious”
@@ -641,7 +640,7 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [ ] Stargirl – 1.12: “Stars & S.T.R.I.P.E Part One”
 + [ ] Stargirl – 1.13: “Stars & S.T.R.I.P.E Part Two”
 
-* 2020/2021 [0/102] [0%]
+* 2020/2021 [0/104] [0%]
 
 + [ ] Batwoman – 2.01: “What Happened To Kate Kane”
 + [ ] Batwoman – 2.02: “Prior Criminal History”
@@ -747,6 +746,9 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [ ] Supergirl – 6.14: “Magical Thinking”
 + [ ] Stargirl - 2.10: "Summer School: Chapter Ten"
 + [ ] Supergirl - 6.15: "Hope for Tomorrow"
+
+* 2021/2022 [0/41] [0%]
+
 + [ ] Batwoman - 3.01: "Mad As a Hatter"
 + [ ] DC's Legends of Tomorrow - 7.01: "The Bullet Blondes"
 + [ ] Stargirl - 2.11: "Summer School: Chapter Eleven"
@@ -772,4 +774,19 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [ ] Batwoman - 3.07: "Pick Your Poison"
 + [ ] DC's Legends of Tomorrow - 7.07: "A Woman's Place Is The War Effort!"
 + [ ] The Flash - 8.03: "Armageddon, Part 3"
++ [ ] The Flash - 8.03: "Armageddon, Part 4"
++ [ ] The Flash - 8.03: "Armageddon, Part 5"
 + [ ] Superman & Lois - 2.01: "What Lies Beneath"
++ [ ] Batwoman - 3.08: "Trust Destiny"
++ [ ] DC's Legends of Tomorrow - 7.08: "Paranoid Android"
++ [ ] Superman & Lois - 2.02: "The Ties That Bind"
++ [ ] Batwoman - 3.09: "Meet Your Maker"
++ [ ] DC's Legends of Tomorrow - 7.09: "Lowest Common Denominator"
++ [ ] Superman & Lois - 2.03: "The Thing in the Mines"
++ [ ] Batwoman - 3.10: "Toxic"
++ [ ] DC's Legends of Tomorrow - 7.10: "The Fixed Point"
++ [ ] Superman & Lois - 2.04: "The Inverse Method"
++ [ ] Batwoman - 3.11: "Broken Toys"
++ [ ] DC's Legends of Tomorrow - 7.11: "Rage Against The Machines"
++ [ ] Superman & Lois - 2.05: "Girl... You'll Be a Woman, Soon"
++ [ ] The Flash - 8.06: "Impulsive Excessive Disorder"

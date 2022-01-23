@@ -26,7 +26,34 @@ Feel free to contact me if anything is wrong and should I add/remove something.
 + "Adobe applications have time bombs: they [[https://techcrunch.com/2013/05/06/adobe-goes-all-in-with-subscription-based-creative-cloud-will-stop-selling-regular-cs-licenses-shrink-wrapped-boxes/][stop working after a certain time]], after which the user must pay to extend the time. Once there was a problem with the servers that these programs use to check who has paid, and [[https://web.archive.org/web/20150120010845/http://www.macuser.co.uk/9015-adobe-creative-cloud-outage-leaves-adobe-users-locked-out][the applications refused to work for anyone.]]" Sources: [[https://www.gnu.org/proprietary/malware-google.html#content][gnu.org]], TechCrunch, MacUser.
 
 * Amazon
-+ ""
++ "Amazon [[https://www.techdirt.com/articles/20150321/13350230396/while-bricking-jailbroken-fire-tvs-last-year-amazon-did-same-to-kindle-devices.shtml][downgraded the software in users' Swindles]] so that those already rooted would cease to function at all." Sources: [[https://www.gnu.org/proprietary/malware-google.html#content][gnu.org]], techdirt.
+
++ "The Amazon Kindle-Swindle has a back door that has been used to [[https://pogue.blogs.nytimes.com/2009/07/17/some-e-books-are-more-equal-than-others/][remotely erase books]]. One of the books erased was 1984, by George Orwell." Sources: [[https://www.gnu.org/proprietary/malware-google.html#content][gnu.org]] (/modified/), The New York Times.
+
++ "The Amazon Ring app does [[https://www.theguardian.com/technology/2020/jan/29/ring-smart-doorbell-company-surveillance-eff-report][surveillance for other companies as well as for Amazon.]]" Sources: [[https://www.gnu.org/proprietary/malware-google.html#content][gnu.org]], The Guardian.
+
++ "The Electronic Frontier Foundation has examined and found [[https://www.eff.org/pages/reader-privacy-chart-2012][various kinds of surveillance in the Swindle and other e-readers.]]" Sources: [[https://www.gnu.org/proprietary/malware-google.html#content][gnu.org]], Electronic Frontier Foundation.
+
++ "Amazon's monopoly and DRM is [[https://www.washingtonpost.com/technology/2021/03/10/amazon-library-ebook-monopoly/][stopping public libraries from lending e-books and audiobooks.]]" Sources: [[https://www.gnu.org/proprietary/malware-google.html#content][gnu.org]] (/modified/), The Washington Post.
+
++ "Amazon Alexa collects a lot more information from users than is necessary for correct functioning (time, location, recordings made without a legitimate prompt), and sends it to Amazon's servers, which store it indefinitely. Even worse, Amazon forwards it to third-party companies. Thus, even if users request deletion of their data from Amazon's servers, [[https://www.ctpost.com/business/article/Alexa-has-been-eavesdropping-on-you-this-whole-13822095.php][the data remain on other servers]], where they can be accessed by advertising companies and government agencies. In other words, deleting the collected information doesn't cancel the wrong of collecting it." Sources: [[https://www.gnu.org/proprietary/malware-google.html#content][gnu.org]] (/modified/), ctpost.
+
++ "Some of users' commands to the Alexa service are [[https://www.smh.com.au/technology/alexa-is-someone-else-listening-to-us-sometimes-someone-is-20190411-p51d4g.html][recorded for Amazon employees to listen to.]]" Sources: [[https://www.gnu.org/proprietary/malware-google.html#content][gnu.org]] (/modified/), The Sydney Morning Herald.
+
++ "A fraction of the Alexa service staff even has access to [[https://www.bnnbloomberg.ca/amazon-s-alexa-reviewers-can-access-customers-home-addresses-1.1248788][location and other personal data.]]" Sources: [[https://www.gnu.org/proprietary/malware-google.html#content][gnu.org]] (/modified/), BNN Bloomberg.
+
++ "The Ring (now Amazon) doorbell camera is designed so that the manufacturer (now Amazon) can watch all the time. Now it turns out that [[https://web.archive.org/web/20190918024432/https://dojo.bullguard.com/dojo-by-bullguard/blog/ring/][anyone else can also watch, and fake videos too.]]" Sources: [[https://www.gnu.org/proprietary/malware-google.html#content][gnu.org]] (/modified/), dojo.
+
++ "Amazon Ring “security” devices [[https://www.engadget.com/2019-01-10-ring-gave-employees-access-customer-video-feeds.html][send the video they capture to Amazon servers]], which save it long-term." Sources: [[https://www.gnu.org/proprietary/malware-google.html#content][gnu.org]] (/modified/), engadget.
+
++ "The Amazon “Smart” TV is [[ https://www.theguardian.com/technology/shortcuts/2014/nov/09/amazon-echo-smart-tv-watching-listening-surveillance][snooping all the time.]]" Sources: [[https://www.gnu.org/proprietary/malware-google.html#content][gnu.org]], The Guardian.
+
+* Apple
++ "The iPhone has a back door [[https://www.telegraph.co.uk/technology/3358134/Apples-Jobs-confirms-iPhone-kill-switch.html][that allows Apple to remotely delete apps]] which Apple considers “inappropriate”." Sources: [[https://www.gnu.org/proprietary/malware-google.html#content][gnu.org]] (/modified/), The Telegraph.
+
++ "Apple's new tactic to restrict users from repairing their own device and impose DRM on people is to [[https://www.ifixit.com/News/54829/apples-new-screen-repair-trap-could-change-the-repair-industry-forever][completely disable its Face ID functionality]] when you replace its screen." Sources: [[https://www.gnu.org/proprietary/malware-google.html#content][gnu.org]], IFIXIT.
+
++ "Apple is putting DRM on iPhone batteries, and the system proprietary software [[https://www.vice.com/en/article/59nz3k/apple-is-locking-batteries-to-specific-iphones-a-nightmare-for-diy-repair][turns off certain features when batteries are replaced other than by Apple.]]" Sources: [[https://www.gnu.org/proprietary/malware-google.html#content][gnu.org]], vice.
 
 * Google
 ** Android

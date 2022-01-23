@@ -1,0 +1,38 @@
+#+TITLE: Professor Dave explains modern physics
+#+DESCRIPTION:  Professor Dave explains modern physics
+#+SETUPFILE: https://luispengler.github.io/site/org-html-themes/org/theme-readtheorg.setup
+#+LaTeX_+HEADER: \usepackage{physics}
+#+LaTeX_+HEADER: \usepackage{amsmath}
+#+OPTIONS: num:nil ^:{} toc:2
+
+* Introduction
++ From Newton's classical mechanics to Maxwell's classical electromagnetism, it seemed that we knew everthing there was to know about physics.
+
++ The universe appeared to be deterministic. If we knew just the location and momentum of every particle in a system, it was possible to know the system's state at any given time.
+  - This persisted until the begin of the 20th century, where this idea started falling apart.
+
++ We realized that classical physics worked for most earthly phenomena, but when taking care of the tiniest bit of matter, or even the fastest, it broke down.
+
++ Modern physics was the biggest paradigm shift in the history of science.
+
+* Quantization of Energy
++ The shift initieted in 1901, as Max Planck had solved the ultraviolet catastrophe.
+
+** Blackbody radiation and the Ultraviolet Catastrophe
++ Blackbodies emit electromagnetic radiation of all wavelengths. Eg. Sun, piece of metal really hot.
++ Most of the sun's emition is on the visible espectrum, but it emits a tiny portion of UV and Infrared and smaller frequencies.
++ The blackbody spectrum depends only on temperature.
++ At around 4000K and above, the object will emit mostly visible light.
++ Classical theory couldn't account for this distribuition.
+  - It predicted that shorter wavelenths, would increse to infinity. As in reality there was the UV portion of the spectrum.
++ This got known as Ultraviolet Catastrophe
++ It was stated that classical electromagnetism must be incomplete
++ Planck solved this problem by implementing quantization
++ Planck proposed that the vibration energies of the atoms are quantized.
++ Meaning energy was =discrete=, only being able to take up certain values from a set of accepted values
++ Planck then, developed the equation below, where n can be any integer, [\h=6.626/cdot 10^{-34}J/cdot s\] AKA Planck's constant, and f the frequency of radiation
+\[\E = nhf\]
++ N results in quantization, because it can only take up integer numbers
++ However, this explanation was only used in ad hoc manner, but it allowed for the correct math to line up with the observation, at all wavelengths.
++ Seeing how small the planck constant is, makes you realize why we haven't seen it coming: energy is quantized on the tiniest of scales, hence its gradations fadded, so as to appear non-existent.
++ This was the first time quantization would take place in solving a big physics problem.

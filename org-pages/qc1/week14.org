@@ -1,0 +1,70 @@
+#+TITLE: Week 14 - my notes
+#+DESCRIPTION: Week 14 - my notes
+#+SETUPFILE: https://luispengler.github.io/site/org-html-themes/org/theme-readtheorg.setup
+#+LaTeX_+HEADER: \usepackage{physics}
+#+LaTeX_+HEADER: \usepackage{amsmath}
+#+OPTIONS: num:nil ^:{} toc:2
+
+* Week 14 - Math of Two-Qubit Circuits
+** Recap
+*** Vector and matrices
++ X gate:
+  \[\begin{bmatrix}0 & 1\\1 & 0\end{bmatrix}\]
+
++ Z gate:
+  \[\begin{bmatrix}1 & 0\\0 & -1\end{bmatrix}\]
+
++ H gate:
+  \[\frac{1}{\sqrt{2}}\begin{bmatrix}1 & 1\\1 & -1\end{bmatrix}\]
+
+*** Multi-Qubit circuits
++ You can have single-qubit gates (ones that are applied to one qubit only)
++ You can have controlled gates (applied to multipled qubits at a time)
+
+** Introduction to 2-Qubit circuits & indexing
++ For individual circuits, writing a state in ket notation is super easy: \(|0\rangle\) or \(|1\rangle\)
++ For 2-qubit circuits, just put those together: \(|01\rangle\) or \(|10\rangle\). You may also find \(|0\rangle|1\rangle\) or \(|1\rangle|0\rangle\)
++ The index to be used is first (at left) q1 and at right q0: \(|q1q0\rangle\). This is known as right indexing.
+
+** Vector for multi-qubits states
++ The upper part is the amount of \(|0\rangle\) contribution
++ The lower part is the amount of \(|1\rangle\) contribution
++ As an example, a \(|0\rangle\) state:
+\[\begin{bmatrix}1\\0\end{bmatrix}\]
++ We will have four parts now. Representing the components of \(|00\rangle\), \(|01\rangle\), \(|10\rangle\), and \(|11\rangle\)
++ As an example, a \(|10\rangle\) state:
+\[\begin{bmatrix}0\\0\\1\\0\end{bmatrix}\]
+
+** Applying gates to Multi-Qubit circuits
++ For a single qubit: (Matrix) * (Initial state) = final state
++ The math can be the same, but the matrix will be huge.. so let's try to predict it
+
+** Predicting final states
+1. Find the ket representation of the final state by applying the gates in the circuit
+2. Fill in the vector based on the elements in the ket
+
+** Math of the CX gate
++ CX gate also has a matrix representation:
+\[\begin{bmatrix}1 & 0 & 0 & 0\\0 & 0 & 0 & 1\\0 & 0 & 1 & 0\\0 & 1 & 0 & 0\end{bmatrix}\]
++ Lets apply this gate to a \(|00\rangle\) state
+\[\begin{bmatrix}1 & 0 & 0 & 0\\0 & 0 & 0 & 1\\0 & 0 & 1 & 0\\0 & 1 & 0 & 0\end{bmatrix}\cdot \begin{bmatrix}1\\0\\0\\0\end{bmatrix}=\begin{bmatrix}1\\0\\0\\0\end{bmatrix}\]
+
+** The Math of Entanglement
++ It generally is \[|q1q2\rangle = \frac{1}{\sqrt{2}}(|00\rangle + |11\rangle)\]
++ You can see the sight of dependence in there
+
+** Tensor Product Introduction
++ Could you combine two separete vectors to get a 4x1 vector?
++ Ofc, we call this mathematical operation a tensor product
+*** Example
++ Qubit 0 is in state \(|q0\rangle\) = \(|1\rangle\) = \[\begin{bmatrix}0\\1\end{bmatrix}\]
++ Qubit 1 is in state \(|q1\rangle\) = \(|0\rangle\) = \[\begin{bmatrix}1\\0\end{bmatrix}\]
++ The math basically is:
+\(|q1q0\rangle\) = \(|q1\rangle\otimes |q0\rangle\) = \(|0\rangle\otimes |1\rangle\) = \[\begin{bmatrix}1\\0\end{bmatrix}\otimes \begin{bmatrix}0\\1\end{bmatrix}\]
+
+* Resources
+Tensor products for qubit states and gates
+https://docs.microsoft.com/en-us/azure/quantum/concepts-multiple-qubits
+
+Linear algebra of tensor products
+https://www.math3ma.com/blog/the-tensor-product-demystified
