@@ -6,9 +6,9 @@
 <!-- 2022-01-23 Sun 15:59 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Week 12 - my notes</title>
+<title>Professor Dave explains modern physics</title>
 <meta name="author" content="Luís Spengler" />
-<meta name="description" content="Week 12 - my notes" />
+<meta name="description" content="Professor Dave explains modern physics" />
 <meta name="generator" content="Org Mode" />
 <style>
   #content { max-width: 60em; margin: auto; }
@@ -224,221 +224,75 @@
 </head>
 <body>
 <div id="content" class="content">
-<h1 class="title">Week 12 - my notes</h1>
+<h1 class="title">Professor Dave explains modern physics</h1>
 <div id="table-of-contents" role="doc-toc">
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#orgdd01152">Week 12 - Quantum Key Distribuition: Part 2</a>
+<li><a href="#orga2eed7c">Introduction</a></li>
+<li><a href="#orgbd45884">Quantization of Energy</a>
 <ul>
-<li><a href="#org776b15d">One-to-one vs many-to-one problems</a></li>
-<li><a href="#org9deb775">Quantum computers usefulness</a></li>
-<li><a href="#orgc8a9b20">Relationships between quantum gates</a></li>
-<li><a href="#org5d375fb">LAB</a></li>
-<li><a href="#org46eb355">Optional content</a></li>
+<li><a href="#orgdaa13b2">Blackbody radiation and the Ultraviolet Catastrophe</a></li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orgdd01152" class="outline-2">
-<h2 id="orgdd01152">Week 12 - Quantum Key Distribuition: Part 2</h2>
-<div class="outline-text-2" id="text-orgdd01152">
-</div>
-<div id="outline-container-org776b15d" class="outline-3">
-<h3 id="org776b15d">One-to-one vs many-to-one problems</h3>
-<div class="outline-text-3" id="text-org776b15d">
+<div id="outline-container-orga2eed7c" class="outline-2">
+<h2 id="orga2eed7c">Introduction</h2>
+<div class="outline-text-2" id="text-orga2eed7c">
 <ul class="org-ul">
-<li>One-to-one: One output for each input. Ex: Update everyone&rsquo;s schedule for the new year. Each input can be processed individually without affecting the other inputs.</li>
-<li>Many-to-one: Many inputs, one output. Ex: Update everyone&rsquo;s schedule based on everyone&rsquo;s availabilites, hence each input needs to be ballanced to get one certain output.</li>
-</ul>
-</div>
-</div>
+<li>From Newton&rsquo;s classical mechanics to Maxwell&rsquo;s classical electromagnetism, it seemed that we knew everthing there was to know about physics.</li>
 
-<div id="outline-container-org9deb775" class="outline-3">
-<h3 id="org9deb775">Quantum computers usefulness</h3>
-<div class="outline-text-3" id="text-org9deb775">
-<ol class="org-ol">
-<li>Search and optimization: find the best solution in a large dataset. Ex: Database search, energy distrubuition, climate modeling, portfolio optimization
+<li>The universe appeared to be deterministic. If we knew just the location and momentum of every particle in a system, it was possible to know the system&rsquo;s state at any given time.
 <ul class="org-ul">
-<li>Is this just paralel computing? No. Paralel processing is focused on one-to-one problems, as quantum uses superposition to process multiple inputs (many-to-one) simultaneously.</li>
+<li>This persisted until the begin of the 20th century, where this idea started falling apart.</li>
 </ul></li>
-<li>Simulation of quantum systems: use the same rules as nature at its most fundamental level to simulate this very own nature. Ex: Protein structure, novel battery materials, solar cells.</li>
-</ol>
-</div>
-</div>
 
-<div id="outline-container-orgc8a9b20" class="outline-3">
-<h3 id="orgc8a9b20">Relationships between quantum gates</h3>
-<div class="outline-text-3" id="text-orgc8a9b20">
-<ul class="org-ul">
-<li>Applying H, Z, H in this order is the same as only applying an X gate</li>
-<li>Applying H, X, H in this order is the same as only applying a Z gate</li>
-<li>This concept can be used as transpilation. Sometimes you work with a computer that can&rsquo;t implement a certain gate, so you can use these workarounds to substitute the desired gate.</li>
+<li>We realized that classical physics worked for most earthly phenomena, but when taking care of the tiniest bit of matter, or even the fastest, it broke down.</li>
+
+<li>Modern physics was the biggest paradigm shift in the history of science.</li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org5d375fb" class="outline-3">
-<h3 id="org5d375fb">LAB</h3>
-<div class="outline-text-3" id="text-org5d375fb">
-</div>
-<div id="outline-container-orgec5b0db" class="outline-4">
-<h4 id="orgec5b0db">Statevector vs QASM simulation</h4>
-<div class="outline-text-4" id="text-orgec5b0db">
-</div>
-<div id="outline-container-org0f1aeac" class="outline-5">
-<h5 id="org0f1aeac">Statevector steps:</h5>
-<div class="outline-text-5" id="text-org0f1aeac">
-<ol class="org-ol">
-<li>Create an &ldquo;empty&rdquo; quantum circuit with no classical bits</li>
-</ol>
-<p>
-<code>qc = QuantumCircuit(1)</code>
-</p>
-<ol class="org-ol">
-<li>Add gates to this circuit</li>
-</ol>
-<p>
-<code>qc.h(0)</code>
-</p>
-<ol class="org-ol">
-<li>Run it on a simulator</li>
-</ol>
-<p>
-<code>svsim = Aer.get_backend('statevector_simulator')</code>
-</p>
-
-<p>
-<code>job = execute(qc,svsim)</code>
-</p>
-
-<p>
-<code>result = job.result()</code>
-</p>
-
-<p>
-<code>counts = result.get_counts(qc)</code>
-</p>
-
-<p>
-<code>plot_histogram(counts)</code>
-</p>
-</div>
-</div>
-<div id="outline-container-org29ba9e1" class="outline-5">
-<h5 id="org29ba9e1">QASM steps:</h5>
-<div class="outline-text-5" id="text-org29ba9e1">
-<ol class="org-ol">
-<li>Create an &ldquo;empty&rdquo; quantum circuit with classical bits</li>
-</ol>
-<p>
-<code>qc = QuantumCircuit(1,1)</code>
-</p>
-<ol class="org-ol">
-<li>Add gates to this circuit</li>
-</ol>
-<p>
-<code>qc.h(0)</code>
-</p>
-
-<p>
-<code>qc.measure(0,0)</code>
-</p>
-<ol class="org-ol">
-<li>Run it on a simulator</li>
-</ol>
-<p>
-<code>backend = Aer.get_backend('qasm_simulator')</code>
-</p>
-
-<p>
-<code>job = execute(qc,backend,shots=1024)</code>
-</p>
-
-<p>
-<code>result = job.result()</code>
-</p>
-
-<p>
-<code>counts = result.get_counts(qc)</code>
-</p>
-
-<p>
-<code>plot_histogram(counts)</code>
-</p>
-</div>
-</div>
-</div>
-
-<div id="outline-container-org75931f6" class="outline-4">
-<h4 id="org75931f6">Gates revision</h4>
-<div class="outline-text-4" id="text-org75931f6">
+<div id="outline-container-orgbd45884" class="outline-2">
+<h2 id="orgbd45884">Quantization of Energy</h2>
+<div class="outline-text-2" id="text-orgbd45884">
 <ul class="org-ul">
-<li>X gate: 180º rotation around the X axis</li>
-<li>H gate: creates a superposition, like a 90º roation around the axis</li>
-<li>Z gate: 180º rotation around the Z axis</li>
+<li>The shift initieted in 1901, as Max Planck had solved the ultraviolet catastrophe.</li>
 </ul>
 </div>
-</div>
 
-<div id="outline-container-orgb5d0013" class="outline-4">
-<h4 id="orgb5d0013">Rotation Gates</h4>
-<div class="outline-text-4" id="text-orgb5d0013">
+<div id="outline-container-orgdaa13b2" class="outline-3">
+<h3 id="orgdaa13b2">Blackbody radiation and the Ultraviolet Catastrophe</h3>
+<div class="outline-text-3" id="text-orgdaa13b2">
 <ul class="org-ul">
-<li>With the gates we have we are only getting results like \(0\rangle\), \(1\rangle\), \(+\rangle\), and \(-\rangle\)</li>
-<li>But we should be able to reach every point in the Block Sphere&#x2026;
+<li>Blackbodies emit electromagnetic radiation of all wavelengths. Eg. Sun, piece of metal really hot.</li>
+<li>Most of the sun&rsquo;s emition is on the visible espectrum, but it emits a tiny portion of UV and Infrared and smaller frequencies.</li>
+<li>The blackbody spectrum depends only on temperature.</li>
+<li>At around 4000K and above, the object will emit mostly visible light.</li>
+<li>Classical theory couldn&rsquo;t account for this distribuition.
 <ul class="org-ul">
-<li>That&rsquo;s where rotation gates get into place</li>
+<li>It predicted that shorter wavelenths, would increse to infinity. As in reality there was the UV portion of the spectrum.</li>
 </ul></li>
+<li>This got known as Ultraviolet Catastrophe</li>
+<li>It was stated that classical electromagnetism must be incomplete</li>
+<li>Planck solved this problem by implementing quantization</li>
+<li>Planck proposed that the vibration energies of the atoms are quantized.</li>
+<li>Meaning energy was <code>discrete</code>, only being able to take up certain values from a set of accepted values</li>
+<li>Planck then, developed the equation below, where n can be any integer, [\h=6.626/cdot 10<sup>-34</sup>J/cdot s\] AKA Planck&rsquo;s constant, and f the frequency of radiation</li>
 </ul>
-</div>
-
-<div id="outline-container-orgcadb336" class="outline-5">
-<h5 id="orgcadb336">RX gate</h5>
-<div class="outline-text-5" id="text-orgcadb336">
+<p>
+\[\E = nhf\]
+</p>
 <ul class="org-ul">
-<li>We tell it how many degrees to rotate around the X axis</li>
-<li>Telling it to rotate 180º, it will behave like a regular X gate</li>
-<li>The first number is the angle in radians and the second is the qubit index</li>
+<li>N results in quantization, because it can only take up integer numbers</li>
+<li>However, this explanation was only used in ad hoc manner, but it allowed for the correct math to line up with the observation, at all wavelengths.</li>
+<li>Seeing how small the planck constant is, makes you realize why we haven&rsquo;t seen it coming: energy is quantized on the tiniest of scales, hence its gradations fadded, so as to appear non-existent.</li>
+<li>This was the first time quantization would take place in solving a big physics problem.</li>
 </ul>
-<p>
-<code>qc.rx(0.5,0)</code>
-</p>
-</div>
-</div>
-
-<div id="outline-container-orgb7ec068" class="outline-5">
-<h5 id="orgb7ec068">RZ gate</h5>
-<div class="outline-text-5" id="text-orgb7ec068">
-<ul class="org-ul">
-<li>We tell it how many degrees to rotate around the Z axis</li>
-<li>Telling it to rotate 180º, it will behave like a regular Z gate</li>
-<li>The first number is the angle in radians and the second is the qubit index</li>
-</ul>
-<p>
-<code>qc.rz(0.3,0)</code>
-</p>
-</div>
-</div>
-</div>
-</div>
-
-<div id="outline-container-org46eb355" class="outline-3">
-<h3 id="org46eb355">Optional content</h3>
-<div class="outline-text-3" id="text-org46eb355">
-<p>
-Quantum Computing With Trapped Ions
-URL: <a href="https://www.youtube.com/watch?v=9aOLwjUZLm0&amp;list=WL&amp;index=37l">https://www.youtube.com/watch?v=9aOLwjUZLm0&amp;list=WL&amp;index=37l</a>
-Description:  Good introduction to trapped ion qubits, and also has a discussion of many-one vs one-one problems
-</p>
-
-<p>
-The Emerging Quantum Computing Sector
-URL: <a href="https://www.youtube.com/watch?v=c0VMhcjZ3lw&amp;list=WL&amp;index=37">https://www.youtube.com/watch?v=c0VMhcjZ3lw&amp;list=WL&amp;index=37</a>
-Description: Overview of the emerging QC industry
-</p>
 </div>
 </div>
 </div>
