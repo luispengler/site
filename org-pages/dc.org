@@ -424,7 +424,7 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [X] Freedom Fighters: The Ray - 2.05: "Episode Five"
 + [X] Freedom Fighters: The Ray - 2.06: "Episode Six"
 
-* 2018/2019 [11/98] [11%]
+* 2018/2019 [19/98] [19%]
 
 + [X] The Flash – 5.01: “Nora”
 + [X] Black Lightning – 2.01: “The Book of Consequences: Chapter One: The Rise of the Green Light Babies”
@@ -437,14 +437,14 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [X] Legends of Tomorrow – 4.01: “The Virgin Gary”
 + [X] The Flash – 5.03: “The Death Of Vibe”
 + [X] Black Lightning – 2.03: “The Book of Consequences: Chapter Three: Master Lowry”
-+ [ ] Supergirl – 4.03: “Man Of Steel”
-+ [ ] Arrow – 7.03: “Crossing Lines”
-+ [ ] Legends of Tomorrow – 4.02: “Witch Hunt”
-+ [ ] The Flash – 5.04: “News Flash”
-+ [ ] Black Lightning – 2.04: “The Book of Consequences: Chapter Four: Translucent Freak”
-+ [ ] Supergirl – 4.04: “Ahimsa”
-+ [ ] Arrow – 7.04: “Level 2”
-+ [ ] Legends of Tomorrow – 4.03: “Dancing Queen”
++ [X] Supergirl – 4.03: “Man Of Steel”
++ [X] Arrow – 7.03: “Crossing Lines”
++ [X] Legends of Tomorrow – 4.02: “Witch Hunt”
++ [X] The Flash – 5.04: “News Flash”
++ [X] Black Lightning – 2.04: “The Book of Consequences: Chapter Four: Translucent Freak”
++ [X] Supergirl – 4.04: “Ahimsa”
++ [X] Arrow – 7.04: “Level 2”
++ [X] Legends of Tomorrow – 4.03: “Dancing Queen”
 + [ ] Supergirl – 4.05: “Parasite Lost”
 + [ ] Arrow – 7.05: “The Demon”
 + [ ] Legends of Tomorrow – 4.04: “Wet Hot American Bummer”

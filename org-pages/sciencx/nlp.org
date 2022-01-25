@@ -27,3 +27,23 @@
 + Easy to be developed
 + It will provide a standard for programs and voice control supported will be added to every software
 + Easier for blind people to use computers
+
+* New proposal: build a privacy respecting home
+** Links
++ [[https://www.ctpost.com/business/article/Alexa-has-been-eavesdropping-on-you-this-whole-13822095.php][Alexa has been eavesdropping on you this whole time]]
+
+
+[[https://www.smh.com.au/technology/alexa-is-someone-else-listening-to-us-sometimes-someone-is-20190411-p51d4g.html]['Alexa, is someone else listening to us?' Sometimes, someone is]]
+[[https://www.bnnbloomberg.ca/amazon-s-alexa-reviewers-can-access-customers-home-addresses-1.1248788][Amazon's Alexa reviewers can access customers' home addresses]]
+[[https://www.welivesecurity.com/2018/02/26/privacy-design-create-safe-smart-home/][Privacy by Design: Can you create a safe smart home?]]
+
+"The sensors packed into Smart Home products – with their
+microphones, cameras, interface with GPS, not to mention interoperability
+– are juicy targets for malware attacks. By gaining control over these
+devices, cybercriminals can not only attack other devices on a user’s
+network but also spy and gather sensitive and personal data." [welivesecurity]
+If the company provider of these products do not decide to do it themselves, of course. Take for example "Alexa has been eavesdropping on you this whole time"
+
+- The product is not built by design to respect people's privacy.
+- It is owned by a big-tech company.
+-
