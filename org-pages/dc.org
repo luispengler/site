@@ -309,7 +309,7 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [X] The Flash – 3.23: “Finish Line”
 + [X] Arrow – 5.23: “Lian Yu”
 
-* 2017/2018 [103/112] [91%]
+* 2017/2018 [112/112] [100%]
 
 + [X] Supergirl – 3.01: “Girl of Steel”
 + [X] The Flash – 4.01: “The Flash Reborn”
@@ -414,29 +414,29 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [X] Supergirl – 3.19: “The Fanatical”
 + [X] The Flash – 4.23: “We Are The Flash”
 + [X] Supergirl – 3.20: “Dark Side of the Moon”
-+ [-] Supergirl – 3.21: “Not Kansas”
-+ [ ] Supergirl – 3.22: “Make It Reign”
-+ [ ] Supergirl – 3.23: “Battles Lost And Won”
-+ [ ] Freedom Fighters: The Ray - 2.01: "Episode One"
-+ [ ] Freedom Fighters: The Ray - 2.02: "Episode Two"
-+ [ ] Freedom Fighters: The Ray - 2.03: "Episode Three"
-+ [ ] Freedom Fighters: The Ray - 2.04: "Episode Four"
-+ [ ] Freedom Fighters: The Ray - 2.05: "Episode Five"
-+ [ ] Freedom Fighters: The Ray - 2.06: "Episode Six"
++ [X] Supergirl – 3.21: “Not Kansas”
++ [X] Supergirl – 3.22: “Make It Reign”
++ [X] Supergirl – 3.23: “Battles Lost And Won”
++ [X] Freedom Fighters: The Ray - 2.01: "Episode One"
++ [X] Freedom Fighters: The Ray - 2.02: "Episode Two"
++ [X] Freedom Fighters: The Ray - 2.03: "Episode Three"
++ [X] Freedom Fighters: The Ray - 2.04: "Episode Four"
++ [X] Freedom Fighters: The Ray - 2.05: "Episode Five"
++ [X] Freedom Fighters: The Ray - 2.06: "Episode Six"
 
-* 2018/2019 [0/99] [0%]
+* 2018/2019 [11/98] [11%]
 
-+ [ ] The Flash – 5.01: “Nora”
-+ [ ] Black Lightning – 2.01: “The Book of Consequences: Chapter One: The Rise of the Green Light Babies”
-+ [ ] Supergirl – 4.01: “American Alien”
-+ [ ] Arrow – 7.01: “Inmate 4587”
-+ [ ] The Flash – 5.02: “Blocked”
-+ [ ] Black Lightning – 2.02: “The Book of Consequences: Chapter Two: Black Jesus Blues”
-+ [ ] Supergirl – 4.02: “Fallout”
-+ [ ] Arrow – 7.02: “The Longbow Hunters”
-+ [ ] Legends of Tomorrow – 4.01: “The Virgin Gary”
-+ [ ] The Flash – 5.03: “The Death Of Vibe”
-+ [ ] Black Lightning – 2.03: “The Book of Consequences: Chapter Three: Master Lowry”
++ [X] The Flash – 5.01: “Nora”
++ [X] Black Lightning – 2.01: “The Book of Consequences: Chapter One: The Rise of the Green Light Babies”
++ [X] Supergirl – 4.01: “American Alien”
++ [X] Arrow – 7.01: “Inmate 4587”
++ [X] The Flash – 5.02: “Blocked”
++ [X] Black Lightning – 2.02: “The Book of Consequences: Chapter Two: Black Jesus Blues”
++ [X] Supergirl – 4.02: “Fallout”
++ [X] Arrow – 7.02: “The Longbow Hunters”
++ [X] Legends of Tomorrow – 4.01: “The Virgin Gary”
++ [X] The Flash – 5.03: “The Death Of Vibe”
++ [X] Black Lightning – 2.03: “The Book of Consequences: Chapter Three: Master Lowry”
 + [ ] Supergirl – 4.03: “Man Of Steel”
 + [ ] Arrow – 7.03: “Crossing Lines”
 + [ ] Legends of Tomorrow – 4.02: “Witch Hunt”
@@ -774,8 +774,8 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [ ] Batwoman - 3.07: "Pick Your Poison"
 + [ ] DC's Legends of Tomorrow - 7.07: "A Woman's Place Is The War Effort!"
 + [ ] The Flash - 8.03: "Armageddon, Part 3"
-+ [ ] The Flash - 8.03: "Armageddon, Part 4"
-+ [ ] The Flash - 8.03: "Armageddon, Part 5"
++ [ ] The Flash - 8.04: "Armageddon, Part 4"
++ [ ] The Flash - 8.05: "Armageddon, Part 5"
 + [ ] Superman & Lois - 2.01: "What Lies Beneath"
 + [ ] Batwoman - 3.08: "Trust Destiny"
 + [ ] DC's Legends of Tomorrow - 7.08: "Paranoid Android"
