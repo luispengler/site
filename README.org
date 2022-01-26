@@ -25,5 +25,4 @@ Feel free to share this webpage, modify it and create your own version (and even
 
 This webiste was written in org-mode using [[https://github.com/hlissner/doom-emacs/][doom emacs]] and its function of exporting to html, counting on [[https://github.com/fniessen/org-html-themes][readtheorg]] theme's help.\
 
-
 You can find this whole webiste's source code on  [[https://github.com/luispengler/site][github]].
