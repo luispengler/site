@@ -424,7 +424,7 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [X] Freedom Fighters: The Ray - 2.05: "Episode Five"
 + [X] Freedom Fighters: The Ray - 2.06: "Episode Six"
 
-* 2018/2019 [22/98] [22%]
+* 2018/2019 [32/98] [32%]
 
 + [X] The Flash – 5.01: “Nora”
 + [X] Black Lightning – 2.01: “The Book of Consequences: Chapter One: The Rise of the Green Light Babies”
@@ -448,16 +448,16 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [X] Supergirl – 4.05: “Parasite Lost”
 + [X] Arrow – 7.05: “The Demon”
 + [X] Legends of Tomorrow – 4.04: “Wet Hot American Bummer”
-+ [ ] The Flash – 5.05: “All Doll’d Up”
-+ [ ] Black Lightning – 2.05: “The Book of Blood: Chapter One: Requiem”
-+ [ ] Supergirl – 4.06: “Call To Action”
-+ [ ] Arrow – 7.06: “Due Process”
-+ [ ] Legends of Tomorrow – 4.05: “Tagumo Attacks!!!”
-+ [ ] The Flash – 5.06: “The Icicle Cometh”
-+ [ ] Black Lightning – 2.06: “The Book of Blood: Chapter Two - The Perdi”
-+ [ ] Supergirl – 4.07: “Rather The Fallen Angel”
-+ [ ] Arrow – 7.07: “The Slabside Redemption”
-+ [ ] Legends of Tomorrow – 4.06: “Tender Is The Nate”
++ [X] The Flash – 5.05: “All Doll’d Up”
++ [X] Black Lightning – 2.05: “The Book of Blood: Chapter One: Requiem”
++ [X] Supergirl – 4.06: “Call To Action”
++ [X] Arrow – 7.06: “Due Process”
++ [X] Legends of Tomorrow – 4.05: “Tagumo Attacks!!!”
++ [X] The Flash – 5.06: “The Icicle Cometh”
++ [X] Black Lightning – 2.06: “The Book of Blood: Chapter Two - The Perdi”
++ [X] Supergirl – 4.07: “Rather The Fallen Angel”
++ [X] Arrow – 7.07: “The Slabside Redemption”
++ [X] Legends of Tomorrow – 4.06: “Tender Is The Nate”
 + [ ] The Flash – 5.07: “O Come, All Ye Thankful”
 + [ ] Black Lightning – 2.07: “The Book of Blood: Chapter Three - The Sange”
 + [ ] Supergirl – 4.08: “Bunker Hill”
