@@ -424,7 +424,7 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [X] Freedom Fighters: The Ray - 2.05: "Episode Five"
 + [X] Freedom Fighters: The Ray - 2.06: "Episode Six"
 
-* 2018/2019 [32/98] [32%]
+* 2018/2019 [58/98] [59%]
 
 + [X] The Flash – 5.01: “Nora”
 + [X] Black Lightning – 2.01: “The Book of Consequences: Chapter One: The Rise of the Green Light Babies”
@@ -458,32 +458,32 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [X] Supergirl – 4.07: “Rather The Fallen Angel”
 + [X] Arrow – 7.07: “The Slabside Redemption”
 + [X] Legends of Tomorrow – 4.06: “Tender Is The Nate”
-+ [ ] The Flash – 5.07: “O Come, All Ye Thankful”
-+ [ ] Black Lightning – 2.07: “The Book of Blood: Chapter Three - The Sange”
-+ [ ] Supergirl – 4.08: “Bunker Hill”
-+ [ ] Arrow – 7.08: “Unmasked”
-+ [ ] Legends of Tomorrow – 4.07: “Hell No, Dolly!”
-+ [ ] The Flash – 5.08: “What’s Past Is Prologue”
-+ [ ] Black Lightning – 2.08: “The Book of Rebellion: Chapter One: Exodus”
-+ [ ] The Flash – 5.09: “Elseworlds Part 1” *MUST BE WATCHED TOGETHER (1)*
-+ [ ] Arrow – 7.09: “Elseworlds Part 2” *MUST BE WATCHED TOGETHER (2)*
-+ [ ] Supergirl – 4.09: “Elseworlds Part 3” *MUST BE WATCHED TOGETHER (3)*
-+ [ ] Legends of Tomorrow – 4.08: “Legends Of To-Meow-Meow”
-+ [ ] Black Lightning – 2.09: “The Book of Rebellion: Chapter Two: Gift Of The Magi”
-+ [ ] The Flash – 5.10: “The Flash & The Furious”
-+ [ ] Supergirl – 4.10: “Suspicious Minds”
-+ [ ] Arrow – 7.10: “My Name Is Emiko Queen”
-+ [ ] Black Lightning – 2.10: “The Book of Rebellion: Chapter Three: Angelitos Negros”
-+ [ ] The Flash – 5.11: “Seeing Red”
-+ [ ] Supergirl – 4.11: “Blood Memory”
-+ [ ] Arrow – 7.11: “Past Sins”
-+ [ ] Black Lightning – 2.11: “The Book Of Secrets: Chapter One: Prodigal Son”
-+ [ ] The Flash – 5.12: “Memorabilia”
-+ [ ] Arrow – 7.12: “The Emerald Archer”
-+ [ ] Black Lightning – 2.12: “The Book Of Secrets: Chapter Two: Just and Unjust”
-+ [ ] The Flash – 5.13: “Goldfaced”
-+ [ ] Arrow – 7.13: “Star City Slayer”
-+ [ ] Black Lightning – 2.13: “The Book of Secrets: Chapter Three: Pillar of Fire”
++ [X] The Flash – 5.07: “O Come, All Ye Thankful”
++ [X] Black Lightning – 2.07: “The Book of Blood: Chapter Three - The Sange”
++ [X] Supergirl – 4.08: “Bunker Hill”
++ [X] Arrow – 7.08: “Unmasked”
++ [X] Legends of Tomorrow – 4.07: “Hell No, Dolly!”
++ [X] The Flash – 5.08: “What’s Past Is Prologue”
++ [X] Black Lightning – 2.08: “The Book of Rebellion: Chapter One: Exodus”
++ [X] The Flash – 5.09: “Elseworlds Part 1” *MUST BE WATCHED TOGETHER (1)*
++ [X] Arrow – 7.09: “Elseworlds Part 2” *MUST BE WATCHED TOGETHER (2)*
++ [X] Supergirl – 4.09: “Elseworlds Part 3” *MUST BE WATCHED TOGETHER (3)*
++ [X] Legends of Tomorrow – 4.08: “Legends Of To-Meow-Meow”
++ [X] Black Lightning – 2.09: “The Book of Rebellion: Chapter Two: Gift Of The Magi”
++ [X] The Flash – 5.10: “The Flash & The Furious”
++ [X] Supergirl – 4.10: “Suspicious Minds”
++ [X] Arrow – 7.10: “My Name Is Emiko Queen”
++ [X] Black Lightning – 2.10: “The Book of Rebellion: Chapter Three: Angelitos Negros”
++ [X] The Flash – 5.11: “Seeing Red”
++ [X] Supergirl – 4.11: “Blood Memory”
++ [X] Arrow – 7.11: “Past Sins”
++ [X] Black Lightning – 2.11: “The Book Of Secrets: Chapter One: Prodigal Son”
++ [X] The Flash – 5.12: “Memorabilia”
++ [X] Arrow – 7.12: “The Emerald Archer”
++ [X] Black Lightning – 2.12: “The Book Of Secrets: Chapter Two: Just and Unjust”
++ [X] The Flash – 5.13: “Goldfaced”
++ [X] Arrow – 7.13: “Star City Slayer”
++ [X] Black Lightning – 2.13: “The Book of Secrets: Chapter Three: Pillar of Fire”
 + [ ] The Flash – 5.14: “Cause and XS”
 + [ ] Supergirl – 4.12: “Menagerie”
 + [ ] Supergirl – 4.13: “What’s So Funny About Truth, Justice, And The American Way?”
@@ -566,12 +566,12 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [ ] Black Lightning – 3.08: “The Book Of Resistance: Chapter Three: Battle of Franklin Terrace”
 + [ ] The Flash – 6.08: “The Last Temptation Of Barry Allen, Pt 2”
 + [ ] Arrow – 8.07: “Purgatory”
-+ [ ] Supergirl – 5.09: “Crisis On Infinite Earths Part 1” ***MUST WATCH TOGETHER
-+ [ ] Batwoman – 1.09: “Crisis On Infinite Earths Part 2” ***MUST WATCH TOGETHER
-+ [ ] Black Lightning – 3.09: “The Book Of Resistance: Chapter Four: Earth Crisis”
-+ [ ] The Flash – 6.09: “Crisis On Infinite Earths Part 3” ***MUST WATCH TOGETHER
-+ [ ] Arrow – 8.08: “Crisis On Infinite Earths Part 4” ***MUST WATCH TOGETHER
-+ [ ] Legends of Tomorrow – 5.01: “Crisis On Infinite Earths Part 5” **MUST WATCH TOGETHER
++ [ ] Supergirl – 5.09: “Crisis On Infinite Earths Part 1” *MUST WATCH TOGETHER*
++ [ ] Batwoman – 1.09: “Crisis On Infinite Earths Part 2” *MUST WATCH TOGETHER*
++ [ ] Black Lightning – 3.09: “The Book Of Resistance: Chapter Four: Earth Crisis” *MUST WATCH TOGETHER*
++ [ ] The Flash – 6.09: “Crisis On Infinite Earths Part 3” *MUST WATCH TOGETHER*
++ [ ] Arrow – 8.08: “Crisis On Infinite Earths Part 4” *MUST WATCH TOGETHER*
++ [ ] Legends of Tomorrow – 5.01: “Crisis On Infinite Earths Part 5” *MUST WATCH TOGETHER*
 + [ ] Batwoman – 1.10: “How Queer Everything Is Today!”
 + [ ] Supergirl – 5.10: “The Bottle Episode”
 + [ ] Black Lightning – 3.10: “The Book Of Markovia: Chapter One: Blessings and Curses Reborn”
