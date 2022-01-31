@@ -1,0 +1,54 @@
+#+TITLE: Week 15 - my notes
+#+DESCRIPTION: Week 15 - my notes
+#+SETUPFILE: https://luispengler.github.io/site/org-html-themes/org/theme-readtheorg.setup
+#+LaTeX_+HEADER: \usepackage{physics}
+#+LaTeX_+HEADER: \usepackage{amsmath}
+#+OPTIONS: num:nil ^:{} toc:2
+
+* Week 15 - Multi-Qubit Circuits Part 3: Measurement & Entanglement
+** Ket components meaning
++ Take this state:
+\[|q1q0\rangle = \frac{1}{\sqrt{2}}(|00\rangle + |01\rangle)\]
++ The number inside the kets tell you the number of qubits
++ The number of kets tell you the measurable outcomes for this state
+
+** Measuring Multi-Qubit Circuits
++ Remember the Quantum Circuit model? Composed by input states, gates (perform computation), and measurements (obtain the output).
++ For a single qubit, measurements result in one of two possible answers. If we measure it using the Z basis, we can only get \(|0\rangle\) or \(|1\rangle\). If we measure it using the X basis, we can only get \(|+\rangle\) or \(|-\rangle\)
++ After the measurement, we know the wavefunction colapse happens. Our superposition gets narrowed down to one single state.
++ The probability of getting one state is defined by its contribution squared.
++ We made normalizations to be able to get correct probabilities. All because of the Born rule. The squares of contribuitions need to add up to 1.
++ We can still use the born rule for multi-qubit circuits
+
+** Entangled States
++ Entanglement is a very defined relationship, where if you know the state of one object, you know the other's state.
++ \[|q1q0\rangle = \frac{1}{\sqrt{2}}(|00\rangle + |11\rangle)\]
+
+*** We can foil some quantum states
++ Just multiple the q0 by q1
++ You can factore it by doing the reverse
++ If a 2-qubit can be unFOILed or factorized, it is not entangled.
+
+** Entangled States as Circuits
++ Just because a circit has a CX gate, it doesn't mean the qubits are automatically entangled.
++ To create an entangled circuit, you should always have a superposition in the control qubit.
++ Also, the H gate should always come before the CX gate
+
+** The Bell states
++ \[|\beta00\rangle = \frac{1}{\sqrt{2}}(|00\rangle + |11\rangle)\]
++ \[|\beta01\rangle = \frac{1}{\sqrt{2}}(|10\rangle + |01\rangle)\]
++ \[|\beta10\rangle = \frac{1}{\sqrt{2}}(|00\rangle - |11\rangle)\]
++ \[|\beta11\rangle = \frac{1}{\sqrt{2}}(|01\rangle - |10\rangle)\]
+
+* Resources
+Superposition and entanglement
+URL: https://www.youtube.com/watch?v=j6Mw3_tOcNI
+Description: Video on the physics of superposition and entanglement
+
+Bell’s theorem
+URL: https://www.youtube.com/watch?v=zcqZHYo7ONs
+Description: Video on Bell’s theorem - a startling consequence of entanglement
+
+Math of quantum states
+URL: https://arxiv.org/pdf/1604.01790.pdf
+Description: Detailed notes on the linear algebra of quantum states and measurement, including entangled states

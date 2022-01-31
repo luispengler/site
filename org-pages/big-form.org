@@ -213,3 +213,20 @@ https://docs.google.com/spreadsheets/d/1PmfXW78jpqGekbDNJR3LR1TM4BQA0JC9/edit#gi
 
 SE EU PASSAR EU PROMETO QUE DOU 10 REAIS PRO EDUARDO.
 SE EU FOR PROS EUA EU PROMETO QUE DOU A GUITARRA PRO JOÃO DA ROSELI
+
+* TKS
+** App questions
++ What's a company working on a disruptive innovation that most people don't know about? Tell us more about the company and their innovation. ("In business theory, disruptive innovation is innovation that creates a new market and value network or enters at the bottom of an existing market and eventually displaces established market-leading firms, products, and alliances.")
+Many brands that design and manufacture laptops or other electronic devices aren't as focused on the consumer as you might think, and some might even use planned obsolescence as a business plan. However, framework is different.
+Framework is a company working on proving that you don't need to make ugly, heavy and thick laptops to call them repairable, neither revoke your rights on the product you manufacture to make it self-repairable.
+By open-sourcing their firmware, and soon other software components, by -- you give the user the choice, you give him back his freedom, and you stimulate privacy-conserving practices, as well as create a community of non and tech experts who will love their product by showing them you trust your users.
+
++ Teach us about a topic you're interested in.
+Why should you care about your privacy?
+People might say, but I do care about my privacy. If that was true at all, most big-tech companies...
+
++ Who is someone that inspires you?
+
++ Why do you want to be in TKS?
+
++ Optional: Is there anything else we should know? (Share projects you've worked on, past achievements you're proud of, or anything you think that will help us evaluate if you'd be a good candidate for TKS. If you share a link, please make sure it's not a private link.)

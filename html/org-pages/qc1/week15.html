@@ -6,9 +6,9 @@
 <!-- 2022-01-30 Sun 21:43 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Week 8 - my notes</title>
+<title>Week 15 - my notes</title>
 <meta name="author" content="Luís Spengler" />
-<meta name="description" content="Week 8 - my notes" />
+<meta name="description" content="Week 15 - my notes" />
 <meta name="generator" content="Org Mode" />
 <style>
   #content { max-width: 60em; margin: auto; }
@@ -224,259 +224,123 @@
 </head>
 <body>
 <div id="content" class="content">
-<h1 class="title">Week 8 - my notes</h1>
+<h1 class="title">Week 15 - my notes</h1>
 <div id="table-of-contents" role="doc-toc">
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#orgc438476">Week 8 (qubit by qubit)</a>
+<li><a href="#orgb968b56">Week 15 - Multi-Qubit Circuits Part 3: Measurement &amp; Entanglement</a>
 <ul>
-<li><a href="#orga390a67">Recap</a></li>
+<li><a href="#org719a556">Ket components meaning</a></li>
+<li><a href="#org7f81064">Measuring Multi-Qubit Circuits</a></li>
+<li><a href="#org60d388f">Entangled States</a></li>
+<li><a href="#org2c0afe2">Entangled States as Circuits</a></li>
+<li><a href="#org06d29ef">The Bell states</a></li>
 </ul>
 </li>
-<li><a href="#orge6fa5a8">Measurement</a>
-<ul>
-<li><a href="#orga8c5230">What we know about quantum measurements</a></li>
-</ul>
-</li>
-<li><a href="#org5ab1c0f">Statevector math</a>
-<ul>
-<li><a href="#orgdec52ca">Born Rule</a></li>
-<li><a href="#org10fcb84">Some questions&#x2026;</a></li>
-<li><a href="#orga0cc01a">That is why we normalize</a></li>
-<li><a href="#orga3b6449">Why does the Born rule work?</a></li>
-</ul>
-</li>
-<li><a href="#orgb2ed43b">Measurement Bases</a>
-<ul>
-<li><a href="#orgcef70d0">Rules for measurement</a></li>
-<li><a href="#orgfdf496a">Revisiting the Bloch Sphere</a></li>
-</ul>
-</li>
-<li><a href="#orgaf6f6cf">The Stern Gerlach Experiment</a></li>
-<li><a href="#org754107b">Resources</a></li>
+<li><a href="#orgcbc855d">Resources</a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orgc438476" class="outline-2">
-<h2 id="orgc438476">Week 8 (qubit by qubit)</h2>
-<div class="outline-text-2" id="text-orgc438476">
+<div id="outline-container-orgb968b56" class="outline-2">
+<h2 id="orgb968b56">Week 15 - Multi-Qubit Circuits Part 3: Measurement &amp; Entanglement</h2>
+<div class="outline-text-2" id="text-orgb968b56">
 </div>
-<div id="outline-container-orga390a67" class="outline-3">
-<h3 id="orga390a67">Recap</h3>
-<div class="outline-text-3" id="text-orga390a67">
-</div>
-<div id="outline-container-org3eb51f7" class="outline-4">
-<h4 id="org3eb51f7">Review:</h4>
-<div class="outline-text-4" id="text-org3eb51f7">
+<div id="outline-container-org719a556" class="outline-3">
+<h3 id="org719a556">Ket components meaning</h3>
+<div class="outline-text-3" id="text-org719a556">
 <ul class="org-ul">
-<li>The Quantum Circuit Model is broken down in three parts
-<ul class="org-ul">
-<li>The initial state</li>
-<li>The computation</li>
-<li>Measurements</li>
-</ul></li>
-<li>The final part of every circuit is the measurement.</li>
-<li>We can represent a quantum state as a vector with two elements</li>
-<li>We can represent a quantum gate as a matrix</li>
-<li>We learned how to mathematically apply a gate (Matrix times Vector = New Vector)</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-
-<div id="outline-container-orge6fa5a8" class="outline-2">
-<h2 id="orge6fa5a8">Measurement</h2>
-<div class="outline-text-2" id="text-orge6fa5a8">
-</div>
-<div id="outline-container-orga8c5230" class="outline-3">
-<h3 id="orga8c5230">What we know about quantum measurements</h3>
-<div class="outline-text-3" id="text-orga8c5230">
-<ul class="org-ul">
-<li>By obersivign (measuring) a quantum state, we can change it</li>
-<li>When we measure something, we are basically asking if it is in a \(|0\rangle\) or \(|1\rangle\) state
-<ul class="org-ul">
-<li>Those are the only two choices. After a measurement, its state needs to be in one state only.</li>
-</ul></li>
-<li>The outcome of a quantum measurement is sometimes random</li>
-<li>Quantum measurements operate in terms of probabilities.</li>
-<li>Our goal is to predict the result of our measurements</li>
+<li>Take this state:</li>
 </ul>
 <p>
-<code>Today</code> we will learn how we can predict quantum measurements
-</p>
-</div>
-</div>
-</div>
-
-<div id="outline-container-org5ab1c0f" class="outline-2">
-<h2 id="org5ab1c0f">Statevector math</h2>
-<div class="outline-text-2" id="text-org5ab1c0f">
-</div>
-<div id="outline-container-orgdec52ca" class="outline-3">
-<h3 id="orgdec52ca">Born Rule</h3>
-<div class="outline-text-3" id="text-orgdec52ca">
-<p>
-Here we got an equal contribuition of \(|0\rangle\) and \(|1\rangle\):
-</p>
-
-<p>
-\[\frac{1}{\sqrt{2}}\begin{bmatrix}1\\1\end{bmatrix}\]
-For example, the contribuition of \(|0\rangle\) and its probability:
+\[|q1q0\rangle = \frac{1}{\sqrt{2}}(|00\rangle + |01\rangle)\]
 </p>
 <ul class="org-ul">
-<li>Contribuition:
-\[\frac{1}{\sqrt{2}}\]</li>
-<li>Probability:
-[\frac{1}{2}]</li>
-<li>To get the probability above, we can simply square a state&rsquo;s contribuition:</li>
+<li>The number inside the kets tell you the number of qubits</li>
+<li>The number of kets tell you the measurable outcomes for this state</li>
 </ul>
+</div>
+</div>
+
+<div id="outline-container-org7f81064" class="outline-3">
+<h3 id="org7f81064">Measuring Multi-Qubit Circuits</h3>
+<div class="outline-text-3" id="text-org7f81064">
+<ul class="org-ul">
+<li>Remember the Quantum Circuit model? Composed by input states, gates (perform computation), and measurements (obtain the output).</li>
+<li>For a single qubit, measurements result in one of two possible answers. If we measure it using the Z basis, we can only get \(|0\rangle\) or \(|1\rangle\). If we measure it using the X basis, we can only get \(|+\rangle\) or \(|-\rangle\)</li>
+<li>After the measurement, we know the wavefunction colapse happens. Our superposition gets narrowed down to one single state.</li>
+<li>The probability of getting one state is defined by its contribution squared.</li>
+<li>We made normalizations to be able to get correct probabilities. All because of the Born rule. The squares of contribuitions need to add up to 1.</li>
+<li>We can still use the born rule for multi-qubit circuits</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org60d388f" class="outline-3">
+<h3 id="org60d388f">Entangled States</h3>
+<div class="outline-text-3" id="text-org60d388f">
+<ul class="org-ul">
+<li>Entanglement is a very defined relationship, where if you know the state of one object, you know the other&rsquo;s state.</li>
+<li>\[|q1q0\rangle = \frac{1}{\sqrt{2}}(|00\rangle + |11\rangle)\]</li>
+</ul>
+</div>
+
+<div id="outline-container-orgd9bb542" class="outline-4">
+<h4 id="orgd9bb542">We can foil some quantum states</h4>
+<div class="outline-text-4" id="text-orgd9bb542">
+<ul class="org-ul">
+<li>Just multiple the q0 by q1</li>
+<li>You can factore it by doing the reverse</li>
+<li>If a 2-qubit can be unFOILed or factorized, it is not entangled.</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org2c0afe2" class="outline-3">
+<h3 id="org2c0afe2">Entangled States as Circuits</h3>
+<div class="outline-text-3" id="text-org2c0afe2">
+<ul class="org-ul">
+<li>Just because a circit has a CX gate, it doesn&rsquo;t mean the qubits are automatically entangled.</li>
+<li>To create an entangled circuit, you should always have a superposition in the control qubit.</li>
+<li>Also, the H gate should always come before the CX gate</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org06d29ef" class="outline-3">
+<h3 id="org06d29ef">The Bell states</h3>
+<div class="outline-text-3" id="text-org06d29ef">
+<ul class="org-ul">
+<li>\[|\beta00\rangle = \frac{1}{\sqrt{2}}(|00\rangle + |11\rangle)\]</li>
+<li>\[|\beta01\rangle = \frac{1}{\sqrt{2}}(|10\rangle + |01\rangle)\]</li>
+<li>\[|\beta10\rangle = \frac{1}{\sqrt{2}}(|00\rangle - |11\rangle)\]</li>
+<li>\[|\beta11\rangle = \frac{1}{\sqrt{2}}(|01\rangle - |10\rangle)\]</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgcbc855d" class="outline-2">
+<h2 id="orgcbc855d">Resources</h2>
+<div class="outline-text-2" id="text-orgcbc855d">
 <p>
-\[(\frac{1}{\sqrt{2}})^2=\frac{1}{2}\]
+Superposition and entanglement
+URL: <a href="https://www.youtube.com/watch?v=j6Mw3_tOcNI">https://www.youtube.com/watch?v=j6Mw3_tOcNI</a>
+Description: Video on the physics of superposition and entanglement
 </p>
 
 <p>
-<code>This rule works across the board!</code>
+Bell’s theorem
+URL: <a href="https://www.youtube.com/watch?v=zcqZHYo7ONs">https://www.youtube.com/watch?v=zcqZHYo7ONs</a>
+Description: Video on Bell’s theorem - a startling consequence of entanglement
 </p>
-<ul class="org-ul">
-<li>The probability of measuring a qubit in the \(|0\rangle\) state is equal to the square of the contribuition of \(|0\rangle\) to the qubit&rsquo;s state.</li>
-<li>Similarly, the probability of measuring a qubit in the \(|1\rangle\) state is equal to the square of the contribuition of \(|1\rangle\) to the qubit&rsquo;s state.</li>
-<li>The formal term for the contribuitions of \(|0\rangle\) and \(|1\rangle\) is the <b>amplitude</b></li>
-<li>This is one of the reasons we learn vectors. The contain the probabilities hidden&#x2026;</li>
-</ul>
-</div>
-</div>
 
-<div id="outline-container-org10fcb84" class="outline-3">
-<h3 id="org10fcb84">Some questions&#x2026;</h3>
-<div class="outline-text-3" id="text-org10fcb84">
-<ul class="org-ul">
-<li>What is the probability of measuring \(|0\rangle\) for this state? What about the probability of \(|1\rangle\)?
-\[\frac{1}{\sqrt{5}}\begin{bmatrix}1\\2\end{bmatrix}\]</li>
-<li>Contribuition of \(|0\rangle\):
-\[\frac{1}{\sqrt{5}}\]</li>
-<li>Probability of \(|0\rangle\):
-\[(\frac{1}{\sqrt{5}}^2)=\frac{1}{5}\]</li>
-<li>Contribuition of \(|1\rangle\):
-\[\frac{2}{\sqrt{5}}\]</li>
-<li>Probability of \(|1\rangle\):
-\[(\frac{2}{\sqrt{5}}^2)=\frac{4}{5}\]</li>
-</ul>
-</div>
-</div>
-<div id="outline-container-orga0cc01a" class="outline-3">
-<h3 id="orga0cc01a">That is why we normalize</h3>
-<div class="outline-text-3" id="text-orga0cc01a">
-<ul class="org-ul">
-<li>When we represent vectors in quantum state, the must be normalized, which means they must have a lenght of 1.</li>
-<li>Why 1?</li>
-<li>The numbers in the vectors show us probabilities of measuring a certain value. These probabilities must add up to 1.</li>
-<li>If we use 1 as the normalized state, it means that 100% of the time we can get that state.</li>
-</ul>
-</div>
-</div>
-<div id="outline-container-orga3b6449" class="outline-3">
-<h3 id="orga3b6449">Why does the Born rule work?</h3>
-<div class="outline-text-3" id="text-orga3b6449">
-<ul class="org-ul">
-<li>No idea.</li>
-<li>In quantum mechanics we have rules for what happens, but sometimes we don&rsquo;t know why they happen.</li>
-</ul>
-</div>
-</div>
-</div>
-
-<div id="outline-container-orgb2ed43b" class="outline-2">
-<h2 id="orgb2ed43b">Measurement Bases</h2>
-<div class="outline-text-2" id="text-orgb2ed43b">
-<ul class="org-ul">
-<li>Are 0 and 1 the only possible outcomes?
-<ul class="org-ul">
-<li>Short answer: No! We can get different outcomes if we measure in different ways.</li>
-</ul></li>
-</ul>
-</div>
-<div id="outline-container-orgcef70d0" class="outline-3">
-<h3 id="orgcef70d0">Rules for measurement</h3>
-<div class="outline-text-3" id="text-orgcef70d0">
-<ul class="org-ul">
-<li>The output can be one of two options. You only have these two options for a potential outcome.</li>
-<li>If your initial state is a superposition the measurement will default to one of the two options randomly.</li>
-<li>However, your set of two choices will be decided by which measurement basis you use.</li>
-</ul>
-</div>
-</div>
-<div id="outline-container-orgfdf496a" class="outline-3">
-<h3 id="orgfdf496a">Revisiting the Bloch Sphere</h3>
-<div class="outline-text-3" id="text-orgfdf496a">
-<ul class="org-ul">
-<li>The Bloch Sphere sits along 3 axes: X, Y and Z.
-<ul class="org-ul">
-<li>The \(|0\rangle\) and \(|1\rangle\) states lie along the Z axis.</li>
-<li>The \(|+\rangle\) and \(|-\rangle\) states lie along the X axis.</li>
-<li>We won&rsquo;t discuss the Y axis in this course (because it requires complex numbers&#x2026;)</li>
-</ul></li>
-</ul>
-</div>
-
-<div id="outline-container-org9361e7d" class="outline-4">
-<h4 id="org9361e7d">Measuring in the Z basis</h4>
-<div class="outline-text-4" id="text-org9361e7d">
-<ul class="org-ul">
-<li>If our measurement only have either \(|0\rangle\) or \(|1\rangle\) results, we are measuring along the Z axis. This is also known as measuring along the Z basis.
-<ul class="org-ul">
-<li>But we have other basis, remember!?</li>
-</ul></li>
-<li>When we make a measurement, we need to specify which axis we are measuring along, or which measurement basis we are using.
-<ul class="org-ul">
-<li>basis = axis = direction</li>
-</ul></li>
-<li>The basis we choose will affect our measurement outcomes</li>
-<li>In circuits, we represent the measurement symbol with the Z inside it, but if you don&rsquo;t, it also means it is in the Z basis.</li>
-</ul>
-</div>
-</div>
-
-<div id="outline-container-org3648571" class="outline-4">
-<h4 id="org3648571">Measuring in the X basis</h4>
-<div class="outline-text-4" id="text-org3648571">
-<ul class="org-ul">
-<li>When measuring in this basis, we can only get either \(|+\rangle\) or \(|-\rangle\)</li>
-<li>In circuits, we represent the measurement symbol with the X inside it</li>
-<li>When you measure the \(|+\rangle\) in the X basis, you get a \(|+\rangle\) state
-<ul class="org-ul">
-<li>This same state, measured along the Z basis, you randomly get \(|0\rangle\) or \(|1\rangle\)</li>
-</ul></li>
-<li>A \(|0\rangle\) state measured in the X basis is basically this: randomly \(|+\rangle\) or \(|-\rangle\) states, \(|0\rangle\) and \(|1\rangle\) are basically superpositions in the X basis.</li>
-<li>Every state is a superposition in some basis!</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-
-<div id="outline-container-orgaf6f6cf" class="outline-2">
-<h2 id="orgaf6f6cf">The Stern Gerlach Experiment</h2>
-<div class="outline-text-2" id="text-orgaf6f6cf">
-<ul class="org-ul">
-<li>Step 1: Measurement changes the state of a qubit</li>
-<li>Step 2: The results of quantum measurement are often random</li>
-<li>Step 3: How you measure determines the outcomes you get</li>
-</ul>
-</div>
-</div>
-
-<div id="outline-container-org754107b" class="outline-2">
-<h2 id="org754107b">Resources</h2>
-<div class="outline-text-2" id="text-org754107b">
 <p>
-<a href="https://siliconangle.com/2021/11/15/ibm-debuts-new-eagle-quantum-processor-127-qubits/">https://siliconangle.com/2021/11/15/ibm-debuts-new-eagle-quantum-processor-127-qubits/</a>
-<a href="https://www.axios.com/ibm-quantum-computing-axios-hbo-bd9d50b7-3c11-4586-bdb1-8bbc9928ad1b.html">https://www.axios.com/ibm-quantum-computing-axios-hbo-bd9d50b7-3c11-4586-bdb1-8bbc9928ad1b.html</a>
-<a href="https://daily.jstor.org/the-quantum-random-number-generator/">https://daily.jstor.org/the-quantum-random-number-generator/</a>
-<a href="https://qrng.anu.edu.au/">https://qrng.anu.edu.au/</a>
-<a href="https://plato.stanford.edu/entries/qt-issues/">https://plato.stanford.edu/entries/qt-issues/</a>
+Math of quantum states
+URL: <a href="https://arxiv.org/pdf/1604.01790.pdf">https://arxiv.org/pdf/1604.01790.pdf</a>
+Description: Detailed notes on the linear algebra of quantum states and measurement, including entangled states
 </p>
 </div>
 </div>
