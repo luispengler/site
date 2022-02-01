@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2022-02-01 Tue 00:11 -->
+<!-- 2022-02-01 Tue 13:57 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Week 10 - my notes</title>
@@ -200,16 +200,227 @@
 <script src="httpss://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="https://luispengler.github.io/site/org-html-themes/src/lib/js/jquery.stickytableheaders.min.js"></script>
 <script type="text/javascript" src="https://luispengler.github.io/site/org-html-themes/src/readtheorg_theme/js/readtheorg.js"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        displayAlign: "center",
+        displayIndent: "0em",
+
+        "HTML-CSS": { scale: 100,
+                        linebreaks: { automatic: "false" },
+                        webFont: "TeX"
+                       },
+        SVG: {scale: 100,
+              linebreaks: { automatic: "false" },
+              font: "TeX"},
+        NativeMML: {scale: 100},
+        TeX: { equationNumbers: {autoNumber: "AMS"},
+               MultLineWidth: "85%",
+               TagSide: "right",
+               TagIndent: ".8em"
+             }
+});
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML"></script>
 </head>
 <body>
 <div id="content" class="content">
 <h1 class="title">Week 10 - my notes</h1>
-<p>
-i</p>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#orgeae4a8b">Week 10 - Quantum Key Distribuition: Part 1</a>
+<ul>
+<li><a href="#orgda8670c">Recap</a></li>
+</ul>
+</li>
+<li><a href="#org19821ef">Quantum Algorithms and Protocols</a>
+<ul>
+<li><a href="#org117f112">Algorithm vs Protocol</a></li>
+</ul>
+</li>
+<li><a href="#org7999bed">Cybersecurity &amp; Criptography</a>
+<ul>
+<li><a href="#orgd1578d6">Foundations</a></li>
+</ul>
+</li>
+<li><a href="#org17af6b6">Introduction to Quantum Key Distrubution</a></li>
+<li><a href="#orgec0569b">QKD in action</a>
+<ul>
+<li><a href="#orgf4e84c7">Phase 1: Sending</a></li>
+<li><a href="#orgaaa1bc4">Phase 2: Receiving</a></li>
+<li><a href="#orgb8f28d4">Phase 3: Comparing</a></li>
+<li><a href="#orgbb4d450">Importance of second step in third phase</a></li>
+</ul>
+</li>
+<li><a href="#orgeceb3a8">Resources</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgeae4a8b" class="outline-2">
+<h2 id="orgeae4a8b">Week 10 - Quantum Key Distribuition: Part 1</h2>
+<div class="outline-text-2" id="text-orgeae4a8b">
+</div>
+<div id="outline-container-orgda8670c" class="outline-3">
+<h3 id="orgda8670c">Recap</h3>
+<div class="outline-text-3" id="text-orgda8670c">
+</div>
+<div id="outline-container-org9a5f010" class="outline-4">
+<h4 id="org9a5f010">Quantum measurements</h4>
+<div class="outline-text-4" id="text-org9a5f010">
+<ul class="org-ul">
+<li>By observing a quantum state, we can change it</li>
+<li>The outcome of a quantum measurement is sometimes random</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgd2aa204" class="outline-4">
+<h4 id="orgd2aa204">Measurement basis</h4>
+<div class="outline-text-4" id="text-orgd2aa204">
+<ul class="org-ul">
+<li>In X basis, we can only get \(|+\rangle\) or \(|-\rangle\) as a result
+<ul class="org-ul">
+<li>\(|1\rangle\) state measured in the X basis will be either \(|+\rangle\) or \(|-rangle\), half the time one of these states when measured.</li>
+</ul></li>
+<li>In Z basis, we can only get \(|0\rangle\) or \(|1\rangle\) as a result
+<ul class="org-ul">
+<li>\(|+\rangle\) state measured in the Z basis will be either \(|1\rangle\) or \(|0\rangle\), half the time one of these states when measured.</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org19821ef" class="outline-2">
+<h2 id="org19821ef">Quantum Algorithms and Protocols</h2>
+<div class="outline-text-2" id="text-org19821ef">
+</div>
+<div id="outline-container-org117f112" class="outline-3">
+<h3 id="org117f112">Algorithm vs Protocol</h3>
+<div class="outline-text-3" id="text-org117f112">
+<ul class="org-ul">
+<li><b>Algorithm</b>: A specific set os steps for solving a computational problem</li>
+<li><b>Protocol</b>: Set of rules that allow electronic devices to communicate with each other.
+<ul class="org-ul">
+<li>Quantum Protocol: Set of rules that uses properties of quantum physics to allow electronic devices to communicate with each other.</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org7999bed" class="outline-2">
+<h2 id="org7999bed">Cybersecurity &amp; Criptography</h2>
+<div class="outline-text-2" id="text-org7999bed">
+<ul class="org-ul">
+<li>Criptography is a sub-field of cybersecurity
+<ul class="org-ul">
+<li>Using protocols a criptography professional can secure someone&rsquo;s cellphone.</li>
+</ul></li>
+</ul>
+</div>
+<div id="outline-container-orgd1578d6" class="outline-3">
+<h3 id="orgd1578d6">Foundations</h3>
+<div class="outline-text-3" id="text-orgd1578d6">
+<ul class="org-ul">
+<li>Encryption: enconding/scramble a message so that it can only be read by desired parties.</li>
+<li>Descryption: the process of converting the encrypted message back into a readable form.</li>
+<li>The key: the peice of information you need to encrypt and decrypt a message.
+<ul class="org-ul">
+<li>Quantum Key Distrubution is just a smart way of distrubiting a key!</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org17af6b6" class="outline-2">
+<h2 id="org17af6b6">Introduction to Quantum Key Distrubution</h2>
+<div class="outline-text-2" id="text-org17af6b6">
+<ul class="org-ul">
+<li>A protocol that uses quantum properties to help us securely share a key.</li>
+<li>Using QKD we can figure out if there is someone eavesdroping, therefore making the actual key only shared between the sender and the receiver.
+<ul class="org-ul">
+<li>Quantum Measurement is the way to make this happen.</li>
+<li>Someone eavesdroping will change the key!</li>
+</ul></li>
+<li>The key itself is a series of classical bits, the way we share it tho, we use qubits.</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgec0569b" class="outline-2">
+<h2 id="orgec0569b">QKD in action</h2>
+<div class="outline-text-2" id="text-orgec0569b">
+<ul class="org-ul">
+<li>The purpose of QKD is to test if your quantum communication channel is truly secure</li>
+<li>In QKD, we use four quantum states \(|0\rangle\), \(|1\rangle\), \(|+\rangle\), \(|-\rangle\) to create a predetermined code</li>
+<li>Before running the protocol, we need to decide on the two measurement basis, which one to use</li>
+<li>Then we assign a value of each classical bit in a qubit state in each basis that will be used.</li>
+<li>Classical bit 0: In Z basis it is a \(|0\rangle\). In X basis it is a \(|+\rangle\)</li>
+<li>Classical bit 1: In Z basis it is a \(|1\rangle\). In X basis it is a \(|-\rangle\)
+<ul class="org-ul">
+<li>You can use any other order for this!</li>
+</ul></li>
+</ul>
+</div>
+<div id="outline-container-orgf4e84c7" class="outline-3">
+<h3 id="orgf4e84c7">Phase 1: Sending</h3>
+<div class="outline-text-3" id="text-orgf4e84c7">
+<ol class="org-ol">
+<li>Sender randomly picks some classical bits</li>
+<li>Sender randomly chooses a basis (Z or X) to each bit.</li>
+<li>Sender encondes each classical bit in a qubit using the rules the party agreed on.</li>
+<li>Sender sends the qubits using a quantum channel</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-orgaaa1bc4" class="outline-3">
+<h3 id="orgaaa1bc4">Phase 2: Receiving</h3>
+<div class="outline-text-3" id="text-orgaaa1bc4">
+<ol class="org-ol">
+<li>Receiver ramdonly picks bases</li>
+<li>Receiver measures the qubits with his/her chosen bases to get new quantum states</li>
+<li>Receiver decodes the states of his measured qubits into bits</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-orgb8f28d4" class="outline-3">
+<h3 id="orgb8f28d4">Phase 3: Comparing</h3>
+<div class="outline-text-3" id="text-orgb8f28d4">
+<ol class="org-ol">
+<li>Sender and receiver compare bases using the classical channel and eliminate the ones that their bases didn&rsquo;t match up.</li>
+<li>Sender and receiver compare bits over the classical channel</li>
+</ol>
+</div>
+</div>
+
+<div id="outline-container-orgbb4d450" class="outline-3">
+<h3 id="orgbb4d450">Importance of second step in third phase</h3>
+<div class="outline-text-3" id="text-orgbb4d450">
+<ul class="org-ul">
+<li>If their bits are not the same, it means someone eveadropped</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgeceb3a8" class="outline-2">
+<h2 id="orgeceb3a8">Resources</h2>
+<div class="outline-text-2" id="text-orgeceb3a8">
+<ul class="org-ul">
+<li><a href="https://www.norwegiancreations.com/2018/11/introduction-to-quantum-cryptography/">Intro to quantum cryptography</a></li>
+<li><a href="https://www.youtube.com/watch?v=owPC60Ue0BE">Video on the no-cloning theorem</a></li>
+<li><a href="https://lab.quantumflytrap.com/lab/bb84">QKD implemented on Quantum Flytrap</a></li>
+</ul>
+</div>
+</div>
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Luís Spengler</p>
-<p class="date">Created: 2022-02-01 Tue 00:11</p>
+<p class="date">Created: 2022-02-01 Tue 13:57</p>
 </div>
 </body>
 </html>

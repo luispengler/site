@@ -424,7 +424,7 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [X] Freedom Fighters: The Ray - 2.05: "Episode Five"
 + [X] Freedom Fighters: The Ray - 2.06: "Episode Six"
 
-* 2018/2019 [74/98] [75%]
+* 2018/2019 [77/98] [78%]
 
 + [X] The Flash – 5.01: “Nora”
 + [X] Black Lightning – 2.01: “The Book of Consequences: Chapter One: The Rise of the Green Light Babies”
@@ -500,9 +500,9 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [X] The Flash – 5.17: “Time Bomb”
 + [X] Supergirl – 4.16: “The House Of L”
 + [X] Arrow – 7.17: “Inheritance”
-+ [ ] Supergirl – 4.17: “All About Eve”
-+ [ ] Legends of Tomorrow – 4.09: “Lucha de Apuestas”
-+ [ ] Legends of Tomorrow – 4.10: “The Getaway”
++ [X] Supergirl – 4.17: “All About Eve”
++ [X] Legends of Tomorrow – 4.09: “Lucha de Apuestas”
++ [X] Legends of Tomorrow – 4.10: “The Getaway”
 + [ ] Arrow – 7.18: “Lost Canary”
 + [ ] Legends of Tomorrow – 4.11: “Séance and Sensibility”
 + [ ] The Flash – 5.18: “Godspeed”

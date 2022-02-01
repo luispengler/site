@@ -234,7 +234,10 @@ Entanglement can also be explained in an easy way. Imagine you go to this same i
 The last three paragraphs are only simple analogies about complex ideas. You will not be a university professor just by understanding them, but I hope I made myself clear in explaining the essentials of a quantum computer, what we will get if we continue developing them, and the basics behind those strange computers.
 
 + Who is someone that inspires you?
+Richard Stallman is someone who inspires me to continue the fight for freedom of software, as well as freedom in a more general sense. Some even say he is the freedom defender whom we may not deserve but definetely need. By definition, free software means the users have the freedom to run, copy, distribute, study, change and improve the software.
+While Stallman has some ideas I don't agree with, his role as software freedom fighter remained since the beginning of his carrer and it is crucial to the internet as we know it today. Without him the internet would be a place 100% jeopardized by companies with interest in selling information about you. Even the way we learn programming, and science areas would be fundamentally different without someone like Richard.
 
 + Why do you want to be in TKS?
+
 
 + Optional: Is there anything else we should know? (Share projects you've worked on, past achievements you're proud of, or anything you think that will help us evaluate if you'd be a good candidate for TKS. If you share a link, please make sure it's not a private link.)
