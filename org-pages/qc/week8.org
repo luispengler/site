@@ -101,8 +101,8 @@ For example, the contribuition of \(|0\rangle\) and its probability:
 + Step 3: How you measure determines the outcomes you get
 
 * Resources
-https://siliconangle.com/2021/11/15/ibm-debuts-new-eagle-quantum-processor-127-qubits/
-https://www.axios.com/ibm-quantum-computing-axios-hbo-bd9d50b7-3c11-4586-bdb1-8bbc9928ad1b.html
-https://daily.jstor.org/the-quantum-random-number-generator/
-https://qrng.anu.edu.au/
-https://plato.stanford.edu/entries/qt-issues/
++ [[https://siliconangle.com/2021/11/15/ibm-debuts-new-eagle-quantum-processor-127-qubits/][IBM debuts new quantum processor with 127 qubits]]
++ [[https://www.axios.com/ibm-quantum-computing-axios-hbo-bd9d50b7-3c11-4586-bdb1-8bbc9928ad1b.html][Exclusive: IBM achieves quantum computing breakthrough]]
++ [[https://daily.jstor.org/the-quantum-random-number-generator/][The Quantum Random Number Generator]]
++ [[https://qrng.anu.edu.au/][Quantum random numbers]]
++ [[https://plato.stanford.edu/entries/qt-issues/][Philosophical Issues in Quantum Theory]]

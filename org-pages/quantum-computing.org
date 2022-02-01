@@ -25,9 +25,20 @@ This notes page is about all my notes taken throughout this whole course.
 + [[https://www.youtube.com/playlist?list=PLR3IPFP-OywS3nMoKLJcEpeHfQRsT7QKR][Quantum Computing playlist]]
 + [[https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab][Essence of Linear Algebra: A Video Playlist by 3Blue1Brown]]
 + [[https://youtube.com/playlist?list=PLZHQObOWTQDP5CVelJJ1bNDouqrAhVPev][Loockdown Math: A Video Playlist by 3Blue1Brown]]
++ [[https://www.youtube.com/watch?v=JQBRzsPhw2w][Logic Gates, Truth Tables, Boolean Algebra AND, OR, NOT, NAND & NOR]]
++ [[https://www.qutube.nl/fundamentals-11/how-to-measure-in-any-basis-167][Measuring qubits in any basis]]
++ [[https://www.youtube.com/watch?v=owPC60Ue0BE][Video on the no-cloning theorem]]
++ [[https://www.youtube.com/watch?v=9aOLwjUZLm0&list=WL][Quantum Computing with trapped ions]]
++ [[https://www.youtube.com/watch?v=c0VMhcjZ3lw&list=WL&index=37][The Emerging Quantum Computing Sector]]
+
 
 ** Books
 + Life on the Edge: The Coming of Age of Quantum Biology
+
+** Tools
++ [[https://qrng.anu.edu.au/][Quantum random numbers]]
++ [[https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/index.htm][Linear Algebra, MIT OCW]]
++ [[https://lab.quantumflytrap.com/lab/bb84][QKD implemented on Quantum Flytrap]]
 
 ** Articles
 + [[https://www.forbes.com/sites/startswithabang/2020/12/10/does-making-a-quantum-measurement-really-destroy-information/][Does Making A Quantum Measurement Really Destroy Information?]]
@@ -35,3 +46,13 @@ This notes page is about all my notes taken throughout this whole course.
 + [[http://backreaction.blogspot.com/2019/10/what-is-quantum-measurement-problem.html][What is the quantum measurement problem?]]
 + [[https://phys.org/news/2020-02-scientists-quantum.html][Scientists 'film' a quantum measurement]]
 + [[https://medium.com/@jeremyjkun/here-s-just-a-fraction-of-what-you-can-do-with-linear-algebra-633383d4153f][Here’s just a fraction of what you can do with linear algebra, Jeremy Kun (Article)]]
++ [[https://siliconangle.com/2021/11/15/ibm-debuts-new-eagle-quantum-processor-127-qubits/][IBM debuts new quantum processor with 127 qubits]]
++ [[https://www.axios.com/ibm-quantum-computing-axios-hbo-bd9d50b7-3c11-4586-bdb1-8bbc9928ad1b.html][Exclusive: IBM achieves quantum computing breakthrough]]
++ [[https://daily.jstor.org/the-quantum-random-number-generator/][The Quantum Random Number Generator]]
++ [[https://plato.stanford.edu/entries/qt-issues/][Philosophical Issues in Quantum Theory]]
++ [[https://www.norwegiancreations.com/2018/11/introduction-to-quantum-cryptography/][Intro to quantum cryptography]]
++ [[https://qiskit.org/textbook/ch-gates/multiple-qubits-entangled-states.html][Qiskit textbook page on multiple qubits and entanglement]]
++ [[https://threeplusone.com/pubs/on_gates.pdf][Notes on gates, states, circuits]]
++ [[https://www.nature.com/articles/s41467-018-03059-5][A CNOT gate between multiphoton qubits encoded in two cavities]]
++ [[https://docs.microsoft.com/en-us/azure/quantum/concepts-multiple-qubits][Tensor products for qubit states and gates]]
++ [[https://www.math3ma.com/blog/the-tensor-product-demystified][Linear algebra of tensor products]]

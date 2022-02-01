@@ -424,7 +424,7 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [X] Freedom Fighters: The Ray - 2.05: "Episode Five"
 + [X] Freedom Fighters: The Ray - 2.06: "Episode Six"
 
-* 2018/2019 [65/98] [66%]
+* 2018/2019 [74/98] [75%]
 
 + [X] The Flash – 5.01: “Nora”
 + [X] Black Lightning – 2.01: “The Book of Consequences: Chapter One: The Rise of the Green Light Babies”
@@ -491,15 +491,15 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [X] Black Lightning – 2.14: “The Book of Secrets: Chapter Four: Original Sin”
 + [X] The Flash – 5.15: “King Shark vs Gorilla Grodd”
 + [X] Supergirl – 4.14: “Stand And Deliver”
-+ [ ] Arrow – 7.15: “Training Day”
-+ [ ] Black Lightning – 2.15: “The Book Of The Apocalypse: Chapter One: The Alpha”
-+ [ ] The Flash – 5.16: “Failure Is An Orphan”
-+ [ ] Supergirl – 4.15: “O Brother, Where Art Though”
-+ [ ] Arrow – 7.16: “Star City 2040”
-+ [ ] Black Lightning – 2.16: “The Book Of The Apocalypse: Chapter Two: The Omega”
-+ [ ] The Flash – 5.17: “Time Bomb”
-+ [ ] Supergirl – 4.16: “The House Of L”
-+ [ ] Arrow – 7.17: “Inheritance”
++ [X] Arrow – 7.15: “Training Day”
++ [X] Black Lightning – 2.15: “The Book Of The Apocalypse: Chapter One: The Alpha”
++ [X] The Flash – 5.16: “Failure Is An Orphan”
++ [X] Supergirl – 4.15: “O Brother, Where Art Though”
++ [X] Arrow – 7.16: “Star City 2040”
++ [X] Black Lightning – 2.16: “The Book Of The Apocalypse: Chapter Two: The Omega”
++ [X] The Flash – 5.17: “Time Bomb”
++ [X] Supergirl – 4.16: “The House Of L”
++ [X] Arrow – 7.17: “Inheritance”
 + [ ] Supergirl – 4.17: “All About Eve”
 + [ ] Legends of Tomorrow – 4.09: “Lucha de Apuestas”
 + [ ] Legends of Tomorrow – 4.10: “The Getaway”

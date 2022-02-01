@@ -37,7 +37,7 @@ Dr. Olivia Lanes, North America Lead, Qiskit and Education
 + She likes her job because her days never look like the previous one
 + She is trying to put more people in their reaserch programs - it gives you access to more powerful QCs - but it's only available to university professors
 
-** Additional resources
+** Resources
 Qiskit textbook page on multiple qubits and entanglement
 https://qiskit.org/textbook/ch-gates/multiple-qubits-entangled-states.html
 Notes on gates, states, circuits

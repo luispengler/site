@@ -77,7 +77,7 @@
 + The first number is the angle in radians and the second is the qubit index
 ~qc.rz(0.3,0)~
 
-** Optional content
+** Resources
 Quantum Computing With Trapped Ions
 URL: https://www.youtube.com/watch?v=9aOLwjUZLm0&list=WL&index=37l
 Description:  Good introduction to trapped ion qubits, and also has a discussion of many-one vs one-one problems
