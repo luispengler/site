@@ -39,6 +39,7 @@
 + \[|\beta01\rangle = \frac{1}{\sqrt{2}}(|10\rangle + |01\rangle)\]
 + \[|\beta10\rangle = \frac{1}{\sqrt{2}}(|00\rangle - |11\rangle)\]
 + \[|\beta11\rangle = \frac{1}{\sqrt{2}}(|01\rangle - |10\rangle)\]
+- These states are special!
 
 * Resources
 Superposition and entanglement

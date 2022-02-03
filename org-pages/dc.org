@@ -424,7 +424,7 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [X] Freedom Fighters: The Ray - 2.05: "Episode Five"
 + [X] Freedom Fighters: The Ray - 2.06: "Episode Six"
 
-* 2018/2019 [77/98] [78%]
+* 2018/2019 [88/98] [89%]
 
 + [X] The Flash – 5.01: “Nora”
 + [X] Black Lightning – 2.01: “The Book of Consequences: Chapter One: The Rise of the Green Light Babies”
@@ -503,19 +503,19 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [X] Supergirl – 4.17: “All About Eve”
 + [X] Legends of Tomorrow – 4.09: “Lucha de Apuestas”
 + [X] Legends of Tomorrow – 4.10: “The Getaway”
-+ [ ] Arrow – 7.18: “Lost Canary”
-+ [ ] Legends of Tomorrow – 4.11: “Séance and Sensibility”
-+ [ ] The Flash – 5.18: “Godspeed”
-+ [ ] Supergirl – 4.18: “Crime And Punishment”
-+ [ ] Arrow – 7.19: “Spartan”
-+ [ ] Legends of Tomorrow – 4.12: “The Eggplant, The Witch & The Wardrobe”
-+ [ ] The Flash – 5.19: “Snow Pack”
-+ [ ] Supergirl – 4.19: “American Dreamer”
-+ [ ] Arrow – 7.20: “Confessions”
-+ [ ] Legends of Tomorrow – 4.13: “Egg MacGuffin”
-+ [ ] The Flash – 5.20: “Gone Rogue”
-+ [ ] Supergirl – 4.20: “Will The Real Miss Tessmacher Please Stand Up?”
-+ [ ] Arrow – 7.21: “Living Proof”
++ [X] Arrow – 7.18: “Lost Canary”
++ [X] Legends of Tomorrow – 4.11: “Séance and Sensibility”
++ [X] The Flash – 5.18: “Godspeed”
++ [X] Supergirl – 4.18: “Crime And Punishment”
++ [X] Arrow – 7.19: “Spartan”
++ [X] Legends of Tomorrow – 4.12: “The Eggplant, The Witch & The Wardrobe”
++ [X] The Flash – 5.19: “Snow Pack”
++ [X] Supergirl – 4.19: “American Dreamer”
++ [X] Arrow – 7.20: “Confessions”
++ [X] Legends of Tomorrow – 4.13: “Egg MacGuffin”
++ [X] The Flash – 5.20: “Gone Rogue”
++ [X] Supergirl – 4.20: “Will The Real Miss Tessmacher Please Stand Up?”
++ [X] Arrow – 7.21: “Living Proof”
 + [ ] Legends of Tomorrow – 4.14: “Nip/Stuck”
 + [ ] The Flash – 5.21: “The Girl With The Red Lightning”
 + [ ] Supergirl – 4.21: “Red Dawn”
