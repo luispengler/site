@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2022-02-03 Thu 19:40 -->
+<!-- 2022-02-04 Fri 11:49 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Week 15 - my notes</title>
@@ -312,13 +312,56 @@
 <div id="outline-container-org06d29ef" class="outline-3">
 <h3 id="org06d29ef">The Bell states</h3>
 <div class="outline-text-3" id="text-org06d29ef">
-<ul class="org-ul">
+<ol class="org-ol">
 <li>\[|\beta00\rangle = \frac{1}{\sqrt{2}}(|00\rangle + |11\rangle)\]</li>
 <li>\[|\beta01\rangle = \frac{1}{\sqrt{2}}(|10\rangle + |01\rangle)\]</li>
 <li>\[|\beta10\rangle = \frac{1}{\sqrt{2}}(|00\rangle - |11\rangle)\]</li>
 <li>\[|\beta11\rangle = \frac{1}{\sqrt{2}}(|01\rangle - |10\rangle)\]</li>
 <li>These states are special!</li>
+<li>They differ in two ways: <b>Parity</b>, <b>Phase</b></li>
+</ol>
+</div>
+
+<div id="outline-container-org142f296" class="outline-4">
+<h4 id="org142f296">Creating the circuits</h4>
+<div class="outline-text-4" id="text-org142f296">
+<ul class="org-ul">
+<li>The first bell state: H gate in q0, and control gate in q0 (target in q1)</li>
 </ul>
+<p>
+<code>qc = QuantumCircuit(2)</code>
+<code>qc.h(0)</code>
+<code>qc.cx(0,1)</code>
+</p>
+<ul class="org-ul">
+<li>The second bell state:  H gate in q0, and control gate in q0 (target in q1) + X gate in q0 after CX</li>
+</ul>
+<p>
+<code>qc = QuantumCircuit(2)</code>
+<code>qc.h(0)</code>
+<code>qc.cx(0,1)</code>
+<code>qc.x(0)</code>
+</p>
+<ul class="org-ul">
+<li>The third bell state: H gate in q0, and control gate in q0 (target in q1) + Z gate in q0 after CX</li>
+</ul>
+<p>
+<code>qc = QuantumCircuit(2)</code>
+<code>qc.h(0)</code>
+<code>qc.cx(0,1)</code>
+<code>qc.z(1)</code>
+</p>
+<ul class="org-ul">
+<li>The fourth bell state: H gate in q0, and control gate in q0 (target in q1) + Z and X gate in q0 after CX</li>
+</ul>
+<p>
+<code>qc = QuantumCircuit(2)</code>
+<code>qc.h(0)</code>
+<code>qc.cx(0,1)</code>
+<code>qc.z(1)</code>
+<code>qc.x(1)</code>
+</p>
+</div>
 </div>
 </div>
 </div>
@@ -348,7 +391,7 @@ Description: Detailed notes on the linear algebra of quantum states and measurem
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Luís Spengler</p>
-<p class="date">Created: 2022-02-03 Thu 19:40</p>
+<p class="date">Created: 2022-02-04 Fri 11:49</p>
 </div>
 </body>
 </html>

@@ -35,11 +35,34 @@
 + Also, the H gate should always come before the CX gate
 
 ** The Bell states
-+ \[|\beta00\rangle = \frac{1}{\sqrt{2}}(|00\rangle + |11\rangle)\]
-+ \[|\beta01\rangle = \frac{1}{\sqrt{2}}(|10\rangle + |01\rangle)\]
-+ \[|\beta10\rangle = \frac{1}{\sqrt{2}}(|00\rangle - |11\rangle)\]
-+ \[|\beta11\rangle = \frac{1}{\sqrt{2}}(|01\rangle - |10\rangle)\]
+1. \[|\beta00\rangle = \frac{1}{\sqrt{2}}(|00\rangle + |11\rangle)\]
+2. \[|\beta01\rangle = \frac{1}{\sqrt{2}}(|10\rangle + |01\rangle)\]
+3. \[|\beta10\rangle = \frac{1}{\sqrt{2}}(|00\rangle - |11\rangle)\]
+4. \[|\beta11\rangle = \frac{1}{\sqrt{2}}(|01\rangle - |10\rangle)\]
 - These states are special!
++ They differ in two ways: *Parity*, *Phase*
+
+*** Creating the circuits
++ The first bell state: H gate in q0, and control gate in q0 (target in q1)
+~qc = QuantumCircuit(2)~
+~qc.h(0)~
+~qc.cx(0,1)~
++ The second bell state:  H gate in q0, and control gate in q0 (target in q1) + X gate in q0 after CX
+~qc = QuantumCircuit(2)~
+~qc.h(0)~
+~qc.cx(0,1)~
+~qc.x(0)~
++ The third bell state: H gate in q0, and control gate in q0 (target in q1) + Z gate in q0 after CX
+~qc = QuantumCircuit(2)~
+~qc.h(0)~
+~qc.cx(0,1)~
+~qc.z(1)~
++ The fourth bell state: H gate in q0, and control gate in q0 (target in q1) + Z and X gate in q0 after CX
+~qc = QuantumCircuit(2)~
+~qc.h(0)~
+~qc.cx(0,1)~
+~qc.z(1)~
+~qc.x(1)~
 
 * Resources
 Superposition and entanglement
