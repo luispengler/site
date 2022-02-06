@@ -525,21 +525,21 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [X] Supergirl – 4.22: “The Quest For Peace”
 + [X] Legends of Tomorrow – 4.16: “Hey World!”
 
-* 2019/2020 [0/112] [0%]
+* 2019/2020 [13/112] [11%]
 
-+ [ ] Batwoman – 1.01: “Pilot”
-+ [ ] Supergirl – 5.01: “Event Horizon”
-+ [ ] Black Lightning – 3.01: “The Book Of Occupation: Chapter One: Birth of Blackbird”
-+ [ ] The Flash – 6.01: “Into The Void”
-+ [ ] Batwoman – 1.02: “The Rabbit Hole”
-+ [ ] Supergirl – 5.02: “Stranger Beside Me”
-+ [ ] Black Lightning – 3.02: “The Book Of Occupation: Chapter Two”
-+ [ ] The Flash – 6.02: “A Flash Of Lightning”
-+ [ ] Arrow – 8.01: “Starling City”
-+ [ ] Batwoman – 1.03: “Down Down Down”
-+ [ ] Supergirl – 5.03: “Blurred Lines”
-+ [ ] Black Lightning – 3.03: “The Book Of Occupation: Chapter Three:  Agent Odell's Pipe-Dream”
-+ [ ] The Flash – 6.03: “Dead Man Running”
++ [X] Batwoman – 1.01: “Pilot”
++ [X] Supergirl – 5.01: “Event Horizon”
++ [X] Black Lightning – 3.01: “The Book Of Occupation: Chapter One: Birth of Blackbird”
++ [X] The Flash – 6.01: “Into The Void”
++ [X] Batwoman – 1.02: “The Rabbit Hole”
++ [X] Supergirl – 5.02: “Stranger Beside Me”
++ [X] Black Lightning – 3.02: “The Book Of Occupation: Chapter Two”
++ [X] The Flash – 6.02: “A Flash Of Lightning”
++ [X] Arrow – 8.01: “Starling City”
++ [X] Batwoman – 1.03: “Down Down Down”
++ [X] Supergirl – 5.03: “Blurred Lines”
++ [X] Black Lightning – 3.03: “The Book Of Occupation: Chapter Three:  Agent Odell's Pipe-Dream”
++ [X] The Flash – 6.03: “Dead Man Running”
 + [ ] Arrow – 8.02: “Welcome To Hong Kong”
 + [ ] Batwoman – 1.04: “Who Are You”
 + [ ] Supergirl – 5.04: “In Plain Sight”
