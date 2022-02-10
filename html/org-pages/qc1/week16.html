@@ -6,9 +6,9 @@
 <!-- 2022-02-09 Wed 22:49 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Week 9 - my notes</title>
+<title>Week 16 - my notes</title>
 <meta name="author" content="Luís Spengler" />
-<meta name="description" content="Week 9 - my notes" />
+<meta name="description" content="Week 16 - my notes" />
 <meta name="generator" content="Org Mode" />
 <style>
   #content { max-width: 60em; margin: auto; }
@@ -200,33 +200,183 @@
 <script src="httpss://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="https://luispengler.github.io/site/org-html-themes/src/lib/js/jquery.stickytableheaders.min.js"></script>
 <script type="text/javascript" src="https://luispengler.github.io/site/org-html-themes/src/readtheorg_theme/js/readtheorg.js"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        displayAlign: "center",
+        displayIndent: "0em",
+
+        "HTML-CSS": { scale: 100,
+                        linebreaks: { automatic: "false" },
+                        webFont: "TeX"
+                       },
+        SVG: {scale: 100,
+              linebreaks: { automatic: "false" },
+              font: "TeX"},
+        NativeMML: {scale: 100},
+        TeX: { equationNumbers: {autoNumber: "AMS"},
+               MultLineWidth: "85%",
+               TagSide: "right",
+               TagIndent: ".8em"
+             }
+});
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML"></script>
 </head>
 <body>
 <div id="content" class="content">
-<h1 class="title">Week 9 - my notes</h1>
+<h1 class="title">Week 16 - my notes</h1>
 <div id="table-of-contents" role="doc-toc">
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#orgdf47ecd">Resources</a></li>
+<li><a href="#orgb3b2789">Week 16 - Review Week: Entanglement, Superdense Coding, &amp; Projects</a>
+<ul>
+<li><a href="#org55f5419">Multi-Qubit Circuits &amp; Entanglement</a></li>
+<li><a href="#org9c9bacf">Entanglement &amp; Computation</a></li>
+<li><a href="#org28de5a9">Preview: Superdense Coding</a></li>
+<li><a href="#org4448fa7">Research projects</a></li>
+</ul>
+</li>
+<li><a href="#org045751e">Resources</a></li>
 </ul>
 </div>
 </div>
+
+<div id="outline-container-orgb3b2789" class="outline-2">
+<h2 id="orgb3b2789">Week 16 - Review Week: Entanglement, Superdense Coding, &amp; Projects</h2>
+<div class="outline-text-2" id="text-orgb3b2789">
+</div>
+<div id="outline-container-org55f5419" class="outline-3">
+<h3 id="org55f5419">Multi-Qubit Circuits &amp; Entanglement</h3>
+<div class="outline-text-3" id="text-org55f5419">
+<ul class="org-ul">
+<li>Entangled states <b>cannot be factorized</b></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org9c9bacf" class="outline-3">
+<h3 id="org9c9bacf">Entanglement &amp; Computation</h3>
+<div class="outline-text-3" id="text-org9c9bacf">
+</div>
+<div id="outline-container-org4e669d2" class="outline-4">
+<h4 id="org4e669d2">Storing information from independent qubits</h4>
+<div class="outline-text-4" id="text-org4e669d2">
+<ul class="org-ul">
+<li>3 qubits: \[q0=\begin{bmatrix}0\\1\end{bmatrix}\] \[q1=\begin{bmatrix}1\\0\end{bmatrix}\] \[q2=\frac{1}{\sqrt{2}}\begin{bmatrix}1\\1\end{bmatrix}\] - We need 2 bits for each qubit, meaning we need 6 bits.</li>
+<li>5 qubits: \[q0=\begin{bmatrix}1\\0\end{bmatrix}\] \[q1=\begin{bmatrix}1\\0\end{bmatrix}\] \[q2=\begin{bmatrix}1\\0\end{bmatrix}\] \[q3=\begin{bmatrix}1\\0\end{bmatrix}\] \[q4=\begin{bmatrix}1\\0\end{bmatrix}\] - We need 2 bits for each qubit, meaning we need 10 bits.</li>
+<li>300 qubits: 600 bits.</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org69847e4" class="outline-4">
+<h4 id="org69847e4">Storing information from entangled qubits</h4>
+<div class="outline-text-4" id="text-org69847e4">
+<ul class="org-ul">
+<li>If the previous 3 qubit-circuit were to be represented as a joint state: \(|000\rangle\),\(|001\rangle\),\(|010\rangle\),\(|011\rangle\), \(|100\rangle\), \(|101\rangle\), \(|110\rangle\), \(|111\rangle\) - We need 1 bit for each possible combination \(2^3\), meaning we need 8 bits.</li>
+<li>If the previous 5 qubit-circuit were to be represented as a joint state: \(|00000\rangle\),\(|00001\rangle\),\(|00010\rangle\)&#x2026; - We need 1 bit for each possible combination \(2^5\), meaning we need 32 bits.</li>
+<li>300 qubits: 2^300 bits.</li>
+<li>Summarizing: With entanglement, we need \(2^n\) bits. Without entanglement, we need \(2\cdot n\) bits. (note, you are representing n qubits)</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org28de5a9" class="outline-3">
+<h3 id="org28de5a9">Preview: Superdense Coding</h3>
+<div class="outline-text-3" id="text-org28de5a9">
+<ul class="org-ul">
+<li>Protocol is like a contract signed by multiple parts, but with the function of allowing communication between them. The same idea works for quantum protocols, except for the fact the rules defined in this contract follow the properties of quantum mechanics.</li>
+<li>As QKD was about secure key distrubuition, superdense coding is about efficient information transfer.</li>
+<li>Information transfer can simply mean texting, emailing or calling - and all of this is done using 0s and 1s.</li>
+<li>In superdense coding, we can use entanglement to communicate the same information by sending half as many qubits as classical bits! (by sending 1 qubit, we will transfer 2 bits of information)</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org4448fa7" class="outline-3">
+<h3 id="org4448fa7">Research projects</h3>
+<div class="outline-text-3" id="text-org4448fa7">
+<ul class="org-ul">
+<li>The further you are from the primary source, the more risk there is for the message to be innacurate.</li>
+</ul>
+</div>
+
+<div id="outline-container-org605ff15" class="outline-4">
+<h4 id="org605ff15">Hierarchy of accuracies</h4>
+<div class="outline-text-4" id="text-org605ff15">
+<ol class="org-ol">
+<li>Papers directly from the researchers in the field you are interested in.</li>
+<li>Commentaries (quotes) from experts in the field, but not directly involved in the research you read.</li>
+<li>Articles in reputable magazines, such as Scientific American, Quanta, etc.</li>
+<li>Blog posts, website articles, youtube videos.</li>
+</ol>
+</div>
+</div>
+
+<div id="outline-container-orgc697972" class="outline-4">
+<h4 id="orgc697972">Good article?</h4>
+<div class="outline-text-4" id="text-orgc697972">
+<ol class="org-ol">
+<li>Do they cite others?</li>
+<li>Do others cite them?</li>
+<li>However, some researchers from some countries are not cited as much as others, even though their work as good as any other. So you will have to use your own judgment in these cases.</li>
+</ol>
+</div>
+</div>
+
+<div id="outline-container-org807d3dc" class="outline-4">
+<h4 id="org807d3dc">Generally reliable sources</h4>
+<div class="outline-text-4" id="text-org807d3dc">
+<ul class="org-ul">
+<li>Scientific American</li>
+<li>Physics World</li>
+<li>Quanta Magazine</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org5e60c86" class="outline-4">
+<h4 id="org5e60c86">Dealing with paywalls</h4>
+<div class="outline-text-4" id="text-org5e60c86">
+<ul class="org-ul">
+<li>Search the author&rsquo;s website (it might have a like to a free version) or email the author yourself.</li>
+<li>&ldquo;arxiv&rdquo; (which I personally already use a lot) sometimes has that article available for free.</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org8d14537" class="outline-4">
+<h4 id="org8d14537">Reading papers</h4>
+<div class="outline-text-4" id="text-org8d14537">
+<ul class="org-ul">
+<li>You are reading an article or a paper, and&#x2026; it doesn&rsquo;t make any sense. There&rsquo;s too much jargon/too much math&#x2026; (often happens with me lol)</li>
+<li>Try to read the introduction, the abstract, and the conclusions. You can still try to make sense of the broad applications of the paper.</li>
+<li>Come back to the paper in a few weeks (you may understand a bit more later)</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org045751e" class="outline-2">
+<h2 id="org045751e">Resources</h2>
+<div class="outline-text-2" id="text-org045751e">
 <p>
-I got lazy because this week was a just a summary and digging a bit deeper into some questions
+Entanglement and the Bell states
+<a href="https://www.aliroquantum.com/blog/what-are-bell-states">https://www.aliroquantum.com/blog/what-are-bell-states</a>
 </p>
 
+<p>
+Role of interference and entanglement
+<a href="https://www.scottaaronson.com/qclec/16.pdf">https://www.scottaaronson.com/qclec/16.pdf</a>
+</p>
 
-<div id="outline-container-orgdf47ecd" class="outline-2">
-<h2 id="orgdf47ecd">Resources</h2>
-<div class="outline-text-2" id="text-orgdf47ecd">
-<ul class="org-ul">
-<li><a href="https://www.youtube.com/watch?v=JQBRzsPhw2w">Logic Gates, Truth Tables, Boolean Algebra AND, OR, NOT, NAND &amp; NOR</a></li>
-
-<li><a href="https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/index.htm">Linear Algebra, MIT OCW</a></li>
-
-<li><a href="https://www.qutube.nl/fundamentals-11/how-to-measure-in-any-basis-167">Measuring qubits in any basis</a></li>
-</ul>
+<p>
+The EPR paradox and Bell experiments
+<a href="https://cp3.irmp.ucl.ac.be/~maltoni/PHY1222/mermin_moon.pdf">https://cp3.irmp.ucl.ac.be/~maltoni/PHY1222/mermin_moon.pdf</a>
+</p>
 </div>
 </div>
 </div>

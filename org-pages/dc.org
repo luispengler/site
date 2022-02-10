@@ -525,7 +525,7 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [X] Supergirl – 4.22: “The Quest For Peace”
 + [X] Legends of Tomorrow – 4.16: “Hey World!”
 
-* 2019/2020 [13/112] [11%]
+* 2019/2020 [22/112] [19%]
 
 + [X] Batwoman – 1.01: “Pilot”
 + [X] Supergirl – 5.01: “Event Horizon”
@@ -540,15 +540,15 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [X] Supergirl – 5.03: “Blurred Lines”
 + [X] Black Lightning – 3.03: “The Book Of Occupation: Chapter Three:  Agent Odell's Pipe-Dream”
 + [X] The Flash – 6.03: “Dead Man Running”
-+ [ ] Arrow – 8.02: “Welcome To Hong Kong”
-+ [ ] Batwoman – 1.04: “Who Are You”
-+ [ ] Supergirl – 5.04: “In Plain Sight”
-+ [ ] Black Lightning – 3.04: “The Book Of Occupation: Chapter Four: Lynn’s Ouroboros”
-+ [ ] The Flash – 6.04: “There Will Be Blood”
-+ [ ] Arrow – 8.03: “Leap Of Faith”
-+ [ ] Batwoman – 1.05: “Mine Is A Long Sad Tale”
-+ [ ] Supergirl – 5.05: “Dangerous Liaisons”
-+ [ ] The Flash – 6.05: “Kiss Kiss Breach Breach”
++ [X] Arrow – 8.02: “Welcome To Hong Kong”
++ [X] Batwoman – 1.04: “Who Are You”
++ [X] Supergirl – 5.04: “In Plain Sight”
++ [X] Black Lightning – 3.04: “The Book Of Occupation: Chapter Four: Lynn’s Ouroboros”
++ [X] The Flash – 6.04: “There Will Be Blood”
++ [X] Arrow – 8.03: “Leap Of Faith”
++ [X] Batwoman – 1.05: “Mine Is A Long Sad Tale”
++ [X] Supergirl – 5.05: “Dangerous Liaisons”
++ [X] The Flash – 6.05: “Kiss Kiss Breach Breach”
 + [ ] Arrow – 8.04: “Present Tense”
 + [ ] Batwoman – 1.06: “I’ll Be Judge, I’ll Be Jury”
 + [ ] Supergirl – 5.06: “Confidence Women”

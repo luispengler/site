@@ -1,0 +1,66 @@
+#+TITLE: Week 16 - my notes
+#+DESCRIPTION: Week 16 - my notes
+#+SETUPFILE: https://luispengler.github.io/site/org-html-themes/org/theme-readtheorg.setup
+#+LaTeX_+HEADER: \usepackage{physics}
+#+LaTeX_+HEADER: \usepackage{amsmath}
+#+OPTIONS: num:nil ^:{} toc:2
+
+* Week 16 - Review Week: Entanglement, Superdense Coding, & Projects
+** Multi-Qubit Circuits & Entanglement
++ Entangled states *cannot be factorized*
+
+** Entanglement & Computation
+*** Storing information from independent qubits
++ 3 qubits: \[q0=\begin{bmatrix}0\\1\end{bmatrix}\] \[q1=\begin{bmatrix}1\\0\end{bmatrix}\] \[q2=\frac{1}{\sqrt{2}}\begin{bmatrix}1\\1\end{bmatrix}\] - We need 2 bits for each qubit, meaning we need 6 bits.
++ 5 qubits: \[q0=\begin{bmatrix}1\\0\end{bmatrix}\] \[q1=\begin{bmatrix}1\\0\end{bmatrix}\] \[q2=\begin{bmatrix}1\\0\end{bmatrix}\] \[q3=\begin{bmatrix}1\\0\end{bmatrix}\] \[q4=\begin{bmatrix}1\\0\end{bmatrix}\] - We need 2 bits for each qubit, meaning we need 10 bits.
++ 300 qubits: 600 bits.
+
+*** Storing information from entangled qubits
++ If the previous 3 qubit-circuit were to be represented as a joint state: \(|000\rangle\),\(|001\rangle\),\(|010\rangle\),\(|011\rangle\), \(|100\rangle\), \(|101\rangle\), \(|110\rangle\), \(|111\rangle\) - We need 1 bit for each possible combination \(2^3\), meaning we need 8 bits.
++ If the previous 5 qubit-circuit were to be represented as a joint state: \(|00000\rangle\),\(|00001\rangle\),\(|00010\rangle\)... - We need 1 bit for each possible combination \(2^5\), meaning we need 32 bits.
++ 300 qubits: 2^300 bits.
++ Summarizing: With entanglement, we need \(2^n\) bits. Without entanglement, we need \(2\cdot n\) bits. (note, you are representing n qubits)
+
+** Preview: Superdense Coding
++ Protocol is like a contract signed by multiple parts, but with the function of allowing communication between them. The same idea works for quantum protocols, except for the fact the rules defined in this contract follow the properties of quantum mechanics.
++ As QKD was about secure key distrubuition, superdense coding is about efficient information transfer.
++ Information transfer can simply mean texting, emailing or calling - and all of this is done using 0s and 1s.
++ In superdense coding, we can use entanglement to communicate the same information by sending half as many qubits as classical bits! (by sending 1 qubit, we will transfer 2 bits of information)
+
+** Research projects
++ The further you are from the primary source, the more risk there is for the message to be innacurate.
+
+*** Hierarchy of accuracies
+1. Papers directly from the researchers in the field you are interested in.
+2. Commentaries (quotes) from experts in the field, but not directly involved in the research you read.
+3. Articles in reputable magazines, such as Scientific American, Quanta, etc.
+4. Blog posts, website articles, youtube videos.
+
+*** Good article?
+1. Do they cite others?
+2. Do others cite them?
++ However, some researchers from some countries are not cited as much as others, even though their work as good as any other. So you will have to use your own judgment in these cases.
+
+*** Generally reliable sources
++ Scientific American
++ Physics World
++ Quanta Magazine
+
+*** Dealing with paywalls
++ Search the author's website (it might have a like to a free version) or email the author yourself.
++ "arxiv" (which I personally already use a lot) sometimes has that article available for free.
+
+*** Reading papers
++ You are reading an article or a paper, and... it doesn't make any sense. There's too much jargon/too much math... (often happens with me lol)
++ Try to read the introduction, the abstract, and the conclusions. You can still try to make sense of the broad applications of the paper.
++ Come back to the paper in a few weeks (you may understand a bit more later)
+
+* Resources
+Entanglement and the Bell states
+https://www.aliroquantum.com/blog/what-are-bell-states
+
+Role of interference and entanglement
+https://www.scottaaronson.com/qclec/16.pdf
+
+The EPR paradox and Bell experiments
+https://cp3.irmp.ucl.ac.be/~maltoni/PHY1222/mermin_moon.pdf
