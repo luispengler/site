@@ -14,4 +14,4 @@ Sugestions, contribuitions, and constructive criticism torwads my research is *a
 
 * Open Research
 1. On Linux [DEV] (portuguese): [[https://luispengler.github.io/site/doc/articles/linux/linux.pdf][PDF]], [[https://luispengler.github.io/site/doc/articles/linux/linux.tex][LaTeX]]
-2. On Recycling [DEV] (english): [[https://luispengler.github.io/site/doc/articles/recycling/recycling.pdf][PDF]], [[https://luispengler.github.io/site/doc/articles/recycling/recycling.tex][LaTeX]]
+2. On Recycling [IDEA] (english): [[https://luispengler.github.io/site/doc/articles/recycling/recycling.pdf][PDF]], [[https://luispengler.github.io/site/doc/articles/recycling/recycling.tex][LaTeX]]
