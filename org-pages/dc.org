@@ -525,7 +525,7 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [X] Supergirl – 4.22: “The Quest For Peace”
 + [X] Legends of Tomorrow – 4.16: “Hey World!”
 
-* 2019/2020 [22/112] [19%]
+* 2019/2020 [35/112] [31%]
 
 + [X] Batwoman – 1.01: “Pilot”
 + [X] Supergirl – 5.01: “Event Horizon”
@@ -549,19 +549,19 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [X] Batwoman – 1.05: “Mine Is A Long Sad Tale”
 + [X] Supergirl – 5.05: “Dangerous Liaisons”
 + [X] The Flash – 6.05: “Kiss Kiss Breach Breach”
-+ [ ] Arrow – 8.04: “Present Tense”
-+ [ ] Batwoman – 1.06: “I’ll Be Judge, I’ll Be Jury”
-+ [ ] Supergirl – 5.06: “Confidence Women”
-+ [ ] Black Lightning – 3.05: “The Book Of Occupation: Chapter Five: Requiem For Tavon”
-+ [ ] Batwoman – 1.07: “Tell Me The Truth”
-+ [ ] Supergirl – 5.07: “Tremors”
-+ [ ] Black Lightning – 3.06: “The Book Of Resistance: Chapter Six:”
-+ [ ] The Flash – 6.06: “License To Elongate”
-+ [ ] Arrow – 8.05: “Prochnost”
-+ [ ] Black Lightning – 3.07: “The Book Of Resistance: Chapter Two: Henderson’s Opus”
-+ [ ] The Flash – 6.07: “The Last Temptation Of Barry Allen, Pt 1”
-+ [ ] Arrow – 8.06: “Reset”
-+ [ ] Batwoman – 1.08: “A Mad Tea Party”
++ [X] Arrow – 8.04: “Present Tense”
++ [X] Batwoman – 1.06: “I’ll Be Judge, I’ll Be Jury”
++ [X] Supergirl – 5.06: “Confidence Women”
++ [X] Black Lightning – 3.05: “The Book Of Occupation: Chapter Five: Requiem For Tavon”
++ [X] Batwoman – 1.07: “Tell Me The Truth”
++ [X] Supergirl – 5.07: “Tremors”
++ [X] Black Lightning – 3.06: “The Book Of Resistance: Chapter Six:”
++ [X] The Flash – 6.06: “License To Elongate”
++ [X] Arrow – 8.05: “Prochnost”
++ [X] Black Lightning – 3.07: “The Book Of Resistance: Chapter Two: Henderson’s Opus”
++ [X] The Flash – 6.07: “The Last Temptation Of Barry Allen, Pt 1”
++ [X] Arrow – 8.06: “Reset”
++ [X] Batwoman – 1.08: “A Mad Tea Party”
 + [ ] Supergirl – 5.08: “The Wrath Of Rama Khan”
 + [ ] Black Lightning – 3.08: “The Book Of Resistance: Chapter Three: Battle of Franklin Terrace”
 + [ ] The Flash – 6.08: “The Last Temptation Of Barry Allen, Pt 2”
