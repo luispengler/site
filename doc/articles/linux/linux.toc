@@ -1,0 +1,6 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {portuguese}{}\relax 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1}Introdução}{1}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1}Glossário}{1}{}%

@@ -13,6 +13,9 @@
 \usepackage{caption}
 \usepackage{subcaption}
 \usepackage[parfill]{parskip}
+\usepackage[nottoc]{tocbibind}
+\usepackage[backend=biber]{biblatex}
+\addbibresource{/home/luispengler/drive/LinuxFabrik/Research/read/bib.bib}
 \usepackage{authblk}
 \author[1]{Luís Spengler}
 \affil[1]{Instituto Federal de Educação, Ciência e Tecnologia de Mato Grosso do Sul}
@@ -22,12 +25,16 @@
 \begin{document}
 \maketitle
 
+\tableofcontents
+
+\medskip
+
 \section{Introdução}
-Hoje em dia não há quem nunca tenha ouvido falar, ou não tenha usado o Microsoft Windows. Mesmo que um indivíduo não possua um computador pessoal em casa, ao recorrer a uma casa de rede, é comum se deparar com a escolha deste sistema operacional. Estima-se que em torno de 73,2\% dos computadores pessoais utilizados mundialmente, rodem alguma versão deste sistema. https://www.statista.com/statistics/218089/global-market-share-of-windows-7/
+Hoje em dia não há quem nunca tenha ouvido falar, ou não tenha usado o Microsoft Windows. Mesmo que um indivíduo não possua um computador pessoal em casa, ao recorrer a uma casa de rede, é comum se deparar com a escolha deste sistema operacional. Estima-se que em torno de 73,72\% dos computadores pessoais utilizados mundialmente, rodem alguma versão deste sistema. \cite{statista1}
 
-Do outro lado da moeda, a própria definição de Linux pode ser confuso para algumas pessoas, pois Linux não é um sistema operacional propriamente dito. Este é definido como núcleo (ou kernel), que é o programa que aloca os recursos da máquina em programas em execusão. O kernel somente funciona em um contexto de um sistema operacional completo e na prática geralmente se utiliza o kernel Linux em conjunto com as ferramentas desenvolvidas pelo GNU (GNU \textit{coreutils}). Existem argumentos referentes a utilização do termo GNU/Linux, quando se trata da utilização do kernel Linux em conjunto com as GNU \textit{coreutils}. https://www.gnu.org/gnu/linux-and-gnu.html No entanto, quando este for o caso será referido a tais sistemas como simplesmente "sistemas Linux".
+Do outro lado da moeda, a própria definição de Linux pode ser confuso para algumas pessoas, pois Linux não é um sistema operacional propriamente dito. Este é definido como núcleo (ou kernel), que é o programa que aloca os recursos da máquina em programas em execusão. O kernel somente funciona em um contexto de um sistema operacional completo e na prática geralmente se utiliza o kernel Linux em conjunto com as ferramentas desenvolvidas pelo GNU (GNU \textit{coreutils}). Existem argumentos referentes a utilização do termo GNU/Linux, quando se trata da utilização do kernel Linux em conjunto com as GNU \textit{coreutils}. \cite{GNU} No entanto, quando este for o caso será referido a tais sistemas como simplesmente "sistemas Linux".
 
-O Linux foi originalmente desenvolvido como um kernel de sistema operacional livre para computadores pessoais baseados na arquitetura Intel-86x. Desde então, se tornou o kernel de sistema operacional mais portado para outras plataformas de hardware. \(https://www.academia.edu/8110245/History_of_Linux\) Mas atualmente, o sucesso do Linux não está onde foi originalmente designado, e sim, em quase todas as áreas onde computadores atuam. Desde o ano de 2010, 90\% dos 500 melhores supercomputadores do mundo utilizam alguma versão do Linux, porcentagem que só foi subindo, até atingir a unanimidade no ano de 2017. https://www.top500.org/statistics/details/osfam/1/ No mercado dos servidores, 96\% dos top 1 milhão de servidores mais acessados no mundo rodam Linux. 90\% de toda a estrutura de nuvem opera a partir do Linux. Por último, Linux no mercado móvel domina o setor, pois 85\% de todos os \textit{smartphones} do mundo rodam Android. \(https://linuxfoundation.org/wp-content/uploads/2021_LF_Annual_Report_010222.pdf\) Vale ressaltar que como o Android utiliza o kernel Linux, Linux está presente em 85\% dos celulares do mundo, mesmo que haja certa concordância em não chamar Android de distribuição Linux. \(https://arstechnica.com/gadgets/2009/02/an-introduction-to-google-android-for-developers/\)
+O Linux foi originalmente desenvolvido como um kernel de sistema operacional livre para computadores pessoais baseados na arquitetura Intel-86x. Desde então, se tornou o kernel de sistema operacional mais portado para outras plataformas de hardware. \cite{garrels} Mas atualmente, o sucesso do Linux não está onde foi originalmente designado, e sim, em quase todas as áreas onde computadores atuam. Desde o ano de 2010, 90\% dos 500 melhores supercomputadores do mundo utilizam alguma versão do Linux, porcentagem que só foi subindo, até atingir a unanimidade no ano de 2017. \cite{top500}  No mercado dos servidores, 96\% dos top 1 milhão de servidores mais acessados no mundo rodam Linux. 90\% de toda a estrutura de nuvem opera a partir do Linux. Por último, Linux no mercado móvel domina o setor, pois 85\% de todos os \textit{smartphones} do mundo rodam Android. \cite{LF} Vale ressaltar que como o Android utiliza o kernel Linux, Linux está presente em 85\% dos celulares do mundo, mesmo que haja certa concordância em não chamar Android de distribuição Linux. \cite{arstechnica}
 
 Para que seja promovido o uso dos sistemas Linux entre as massas, será necessário abordar a importância de tal feito, idéias similares em ação e seus desafios encontrados. Somente a partir destes, podemos ajudar na educação da população em geral, apresentando a proposta de um curso livre focado em aspectos importantes no mundo do computador pessoal desktop.
 
@@ -38,5 +45,9 @@ Para que seja promovido o uso dos sistemas Linux entre as massas, será necessá
 \item \textbf{Sistema Operacional} - Utiliza recursos de hardware de um ou mais processadores para fornecer um conjunto de serviços para usuários do sistema. O sistema operacional gerencia memoria secundária e entrada e saída de dados (comumente referido no inglês como \textit{I/O (input/output)}.
 \item \textbf{Kernel}
 \end{itemize}
+
+\medskip
+
+\printbibliography
 
 \end{document}

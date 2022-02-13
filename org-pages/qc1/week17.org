@@ -1,0 +1,32 @@
+#+TITLE: Week 17 - my notes
+#+DESCRIPTION: Week 17 - my notes
+#+SETUPFILE: https://luispengler.github.io/site/org-html-themes/org/theme-readtheorg.setup
+#+LaTeX_+HEADER: \usepackage{physics}
+#+LaTeX_+HEADER: \usepackage{amsmath}
+#+OPTIONS: num:nil ^:{} toc:2
+
+* Week 17 - Superdense Coding
+** Bell States
++ They are the most entangled states of a two-qubit circuits
++ Each Bell state has its own circuit
+
+** Setting up the protocol
+1. Alice and Bob need to create and share the first Bell state (entangle two qubits)
+2. Create a decision scheme which assigns a message to each Bell state.
++ The scheme usually is: 00 - \[|\beta00\rangle\], 01 - \[|\beta01\rangle\], 10 - \[|\beta10\rangle\], 11 - \[|\beta11\rangle\]
+
+** Introduction to Superdense Coding
++ It has 3 phases:
+  1. Sharing (The party entangles two qubits, each one taking one qubit)
+  2. Sending (Alice applies a circuit to her qubit to create a bell state between the entangled pair. Then, she sends her qubit to Bob)
+  3. Measuring (Bob measures his qubit, and can see which Bell state the qubits became. Then, he uses the decision scheme to dechiper the message)
+
+* Resources
+Qiskit textbook page on superdense coding
+URL: https://qiskit.org/textbook/ch-algorithms/superdense-coding.html
+
+Implementation of superdense coding
+URL:https://www.osti.gov/pages/servlets/purl/1343530
+
+Sharing of entanglement over long distances
+URL: https://physicsworld.com/a/entanglement-distributed-over-1200-km-by-quantum-satellite/

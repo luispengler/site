@@ -1,0 +1,15 @@
+[0] Config.pm:311> INFO - This is Biber 2.16
+[0] Config.pm:314> INFO - Logfile is 'linux.blg'
+[101] biber:340> INFO - === Sun Feb 13, 2022, 16:09:17
+[118] Biber.pm:415> INFO - Reading 'linux.bcf'
+[205] Biber.pm:952> INFO - Found 6 citekeys in bib section 0
+[221] Biber.pm:4340> INFO - Processing section 0
+[237] Biber.pm:4531> INFO - Looking for bibtex format file '/home/luispengler/drive/LinuxFabrik/Research/read/bib.bib' for section 0
+[239] bibtex.pm:1689> INFO - LaTeX decoding ...
+[253] bibtex.pm:1494> INFO - Found BibTeX data source '/home/luispengler/drive/LinuxFabrik/Research/read/bib.bib'
+[328] UCollate.pm:68> INFO - Overriding locale 'pt-PT' defaults 'variable = shifted' with 'variable = non-ignorable'
+[328] UCollate.pm:68> INFO - Overriding locale 'pt-PT' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[328] Biber.pm:4168> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'pt-PT'
+[328] Biber.pm:4174> INFO - No sort tailoring available for locale 'pt-PT'
+[339] bbl.pm:654> INFO - Writing 'linux.bbl' with encoding 'UTF-8'
+[343] bbl.pm:757> INFO - Output to linux.bbl

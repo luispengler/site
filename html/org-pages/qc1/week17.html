@@ -6,9 +6,9 @@
 <!-- 2022-02-13 Sun 16:13 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Week 14 - my notes</title>
+<title>Week 17 - my notes</title>
 <meta name="author" content="Luís Spengler" />
-<meta name="description" content="Week 14 - my notes" />
+<meta name="description" content="Week 17 - my notes" />
 <meta name="generator" content="Org Mode" />
 <style>
   #content { max-width: 60em; margin: auto; }
@@ -224,178 +224,79 @@
 </head>
 <body>
 <div id="content" class="content">
-<h1 class="title">Week 14 - my notes</h1>
+<h1 class="title">Week 17 - my notes</h1>
 <div id="table-of-contents" role="doc-toc">
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#orga6ec1ad">Week 14 - Math of Two-Qubit Circuits</a>
+<li><a href="#orga98640e">Week 17 - Superdense Coding</a>
 <ul>
-<li><a href="#orgcf77843">Recap</a></li>
-<li><a href="#orgffbb297">Introduction to 2-Qubit circuits &amp; indexing</a></li>
-<li><a href="#orgbf710de">Vector for multi-qubits states</a></li>
-<li><a href="#org182beec">Applying gates to Multi-Qubit circuits</a></li>
-<li><a href="#org58c417c">Predicting final states</a></li>
-<li><a href="#orgd553269">Math of the CX gate</a></li>
-<li><a href="#orgbb57e05">The Math of Entanglement</a></li>
-<li><a href="#org3a6c603">Tensor Product Introduction</a></li>
+<li><a href="#orgb0b32b4">Bell States</a></li>
+<li><a href="#orgd374a7e">Setting up the protocol</a></li>
+<li><a href="#org53b45fb">Introduction to Superdense Coding</a></li>
 </ul>
 </li>
-<li><a href="#org1fa0db6">Resources</a></li>
+<li><a href="#org78855f3">Resources</a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orga6ec1ad" class="outline-2">
-<h2 id="orga6ec1ad">Week 14 - Math of Two-Qubit Circuits</h2>
-<div class="outline-text-2" id="text-orga6ec1ad">
+<div id="outline-container-orga98640e" class="outline-2">
+<h2 id="orga98640e">Week 17 - Superdense Coding</h2>
+<div class="outline-text-2" id="text-orga98640e">
 </div>
-<div id="outline-container-orgcf77843" class="outline-3">
-<h3 id="orgcf77843">Recap</h3>
-<div class="outline-text-3" id="text-orgcf77843">
-</div>
-<div id="outline-container-org446507a" class="outline-4">
-<h4 id="org446507a">Vector and matrices</h4>
-<div class="outline-text-4" id="text-org446507a">
+<div id="outline-container-orgb0b32b4" class="outline-3">
+<h3 id="orgb0b32b4">Bell States</h3>
+<div class="outline-text-3" id="text-orgb0b32b4">
 <ul class="org-ul">
-<li>X gate:
-\[\begin{bmatrix}0 & 1\\1 & 0\end{bmatrix}\]</li>
-
-<li>Z gate:
-\[\begin{bmatrix}1 & 0\\0 & -1\end{bmatrix}\]</li>
-
-<li>H gate:
-\[\frac{1}{\sqrt{2}}\begin{bmatrix}1 & 1\\1 & -1\end{bmatrix}\]</li>
+<li>They are the most entangled states of a two-qubit circuits</li>
+<li>Each Bell state has its own circuit</li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org3480d72" class="outline-4">
-<h4 id="org3480d72">Multi-Qubit circuits</h4>
-<div class="outline-text-4" id="text-org3480d72">
-<ul class="org-ul">
-<li>You can have single-qubit gates (ones that are applied to one qubit only)</li>
-<li>You can have controlled gates (applied to multipled qubits at a time)</li>
-</ul>
-</div>
-</div>
-</div>
-
-<div id="outline-container-orgffbb297" class="outline-3">
-<h3 id="orgffbb297">Introduction to 2-Qubit circuits &amp; indexing</h3>
-<div class="outline-text-3" id="text-orgffbb297">
-<ul class="org-ul">
-<li>For individual circuits, writing a state in ket notation is super easy: \(|0\rangle\) or \(|1\rangle\)</li>
-<li>For 2-qubit circuits, just put those together: \(|01\rangle\) or \(|10\rangle\). You may also find \(|0\rangle|1\rangle\) or \(|1\rangle|0\rangle\)</li>
-<li>The index to be used is first (at left) q1 and at right q0: \(|q1q0\rangle\). This is known as right indexing.</li>
-</ul>
-</div>
-</div>
-
-<div id="outline-container-orgbf710de" class="outline-3">
-<h3 id="orgbf710de">Vector for multi-qubits states</h3>
-<div class="outline-text-3" id="text-orgbf710de">
-<ul class="org-ul">
-<li>The upper part is the amount of \(|0\rangle\) contribution</li>
-<li>The lower part is the amount of \(|1\rangle\) contribution</li>
-<li>As an example, a \(|0\rangle\) state:</li>
-</ul>
-<p>
-\[\begin{bmatrix}1\\0\end{bmatrix}\]
-</p>
-<ul class="org-ul">
-<li>We will have four parts now. Representing the components of \(|00\rangle\), \(|01\rangle\), \(|10\rangle\), and \(|11\rangle\)</li>
-<li>As an example, a \(|10\rangle\) state:</li>
-</ul>
-<p>
-\[\begin{bmatrix}0\\0\\1\\0\end{bmatrix}\]
-</p>
-</div>
-</div>
-
-<div id="outline-container-org182beec" class="outline-3">
-<h3 id="org182beec">Applying gates to Multi-Qubit circuits</h3>
-<div class="outline-text-3" id="text-org182beec">
-<ul class="org-ul">
-<li>For a single qubit: (Matrix) * (Initial state) = final state</li>
-<li>The math can be the same, but the matrix will be huge.. so let&rsquo;s try to predict it</li>
-</ul>
-</div>
-</div>
-
-<div id="outline-container-org58c417c" class="outline-3">
-<h3 id="org58c417c">Predicting final states</h3>
-<div class="outline-text-3" id="text-org58c417c">
+<div id="outline-container-orgd374a7e" class="outline-3">
+<h3 id="orgd374a7e">Setting up the protocol</h3>
+<div class="outline-text-3" id="text-orgd374a7e">
 <ol class="org-ol">
-<li>Find the ket representation of the final state by applying the gates in the circuit</li>
-<li>Fill in the vector based on the elements in the ket</li>
+<li>Alice and Bob need to create and share the first Bell state (entangle two qubits)</li>
+<li>Create a decision scheme which assigns a message to each Bell state.</li>
+<li>The scheme usually is: 00 - \[|\beta00\rangle\], 01 - \[|\beta01\rangle\], 10 - \[|\beta10\rangle\], 11 - \[|\beta11\rangle\]</li>
 </ol>
 </div>
 </div>
 
-<div id="outline-container-orgd553269" class="outline-3">
-<h3 id="orgd553269">Math of the CX gate</h3>
-<div class="outline-text-3" id="text-orgd553269">
+<div id="outline-container-org53b45fb" class="outline-3">
+<h3 id="org53b45fb">Introduction to Superdense Coding</h3>
+<div class="outline-text-3" id="text-org53b45fb">
 <ul class="org-ul">
-<li>CX gate also has a matrix representation:</li>
+<li>It has 3 phases:
+<ol class="org-ol">
+<li>Sharing (The party entangles two qubits, each one taking one qubit)</li>
+<li>Sending (Alice applies a circuit to her qubit to create a bell state between the entangled pair. Then, she sends her qubit to Bob)</li>
+<li>Measuring (Bob measures his qubit, and can see which Bell state the qubits became. Then, he uses the decision scheme to dechiper the message)</li>
+</ol></li>
 </ul>
-<p>
-\[\begin{bmatrix}1 & 0 & 0 & 0\\0 & 0 & 0 & 1\\0 & 0 & 1 & 0\\0 & 1 & 0 & 0\end{bmatrix}\]
-</p>
-<ul class="org-ul">
-<li>Lets apply this gate to a \(|00\rangle\) state</li>
-</ul>
-<p>
-\[\begin{bmatrix}1 & 0 & 0 & 0\\0 & 0 & 0 & 1\\0 & 0 & 1 & 0\\0 & 1 & 0 & 0\end{bmatrix}\cdot \begin{bmatrix}1\\0\\0\\0\end{bmatrix}=\begin{bmatrix}1\\0\\0\\0\end{bmatrix}\]
-</p>
-</div>
-</div>
-
-<div id="outline-container-orgbb57e05" class="outline-3">
-<h3 id="orgbb57e05">The Math of Entanglement</h3>
-<div class="outline-text-3" id="text-orgbb57e05">
-<ul class="org-ul">
-<li>It generally is \[|q1q2\rangle = \frac{1}{\sqrt{2}}(|00\rangle + |11\rangle)\]</li>
-<li>You can see the sight of dependence in there</li>
-</ul>
-</div>
-</div>
-
-<div id="outline-container-org3a6c603" class="outline-3">
-<h3 id="org3a6c603">Tensor Product Introduction</h3>
-<div class="outline-text-3" id="text-org3a6c603">
-<ul class="org-ul">
-<li>Could you combine two separete vectors to get a 4x1 vector?</li>
-<li>Ofc, we call this mathematical operation a tensor product</li>
-</ul>
-</div>
-<div id="outline-container-org131ef3a" class="outline-4">
-<h4 id="org131ef3a">Example</h4>
-<div class="outline-text-4" id="text-org131ef3a">
-<ul class="org-ul">
-<li>Qubit 0 is in state \(|q0\rangle\) = \(|1\rangle\) = \[\begin{bmatrix}0\\1\end{bmatrix}\]</li>
-<li>Qubit 1 is in state \(|q1\rangle\) = \(|0\rangle\) = \[\begin{bmatrix}1\\0\end{bmatrix}\]</li>
-<li>The math basically is:</li>
-</ul>
-<p>
-\(|q1q0\rangle\) = \(|q1\rangle\otimes |q0\rangle\) = \(|0\rangle\otimes |1\rangle\) = \[\begin{bmatrix}1\\0\end{bmatrix}\otimes \begin{bmatrix}0\\1\end{bmatrix}\]
-</p>
-</div>
 </div>
 </div>
 </div>
 
-<div id="outline-container-org1fa0db6" class="outline-2">
-<h2 id="org1fa0db6">Resources</h2>
-<div class="outline-text-2" id="text-org1fa0db6">
+<div id="outline-container-org78855f3" class="outline-2">
+<h2 id="org78855f3">Resources</h2>
+<div class="outline-text-2" id="text-org78855f3">
 <p>
-Tensor products for qubit states and gates
-<a href="https://docs.microsoft.com/en-us/azure/quantum/concepts-multiple-qubits">https://docs.microsoft.com/en-us/azure/quantum/concepts-multiple-qubits</a>
+Qiskit textbook page on superdense coding
+URL: <a href="https://qiskit.org/textbook/ch-algorithms/superdense-coding.html">https://qiskit.org/textbook/ch-algorithms/superdense-coding.html</a>
 </p>
 
 <p>
-Linear algebra of tensor products
-<a href="https://www.math3ma.com/blog/the-tensor-product-demystified">https://www.math3ma.com/blog/the-tensor-product-demystified</a>
+Implementation of superdense coding
+URL:<a href="https://www.osti.gov/pages/servlets/purl/1343530">https://www.osti.gov/pages/servlets/purl/1343530</a>
+</p>
+
+<p>
+Sharing of entanglement over long distances
+URL: <a href="https://physicsworld.com/a/entanglement-distributed-over-1200-km-by-quantum-satellite/">https://physicsworld.com/a/entanglement-distributed-over-1200-km-by-quantum-satellite/</a>
 </p>
 </div>
 </div>
