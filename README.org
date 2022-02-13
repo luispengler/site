@@ -5,7 +5,7 @@
 
 #+ATTR_HTML: alt: waterwave :title Double-slit :style margin-left: auto;margin-right: auto;background-color: mintcream;display: block;width: 100%;
 https://luispengler.github.io/site/doc/images/punk.png
-| [[https://luispengler.github.io/site/html/org-pages/notes.html][My notes]] | [[https://luispengler.github.io/site/html/org-pages/filmes.html][Carlinda movies]] | [[https://luispengler.github.io/site/html/org-pages/dc.html][DC'series]] | [[https://luispengler.github.io/site/html/org-pages/books.html][Books]] |
+| [[https://luispengler.github.io/site/html/org-pages/notes.html][My notes]] | [[https://luispengler.github.io/site/html/doc/articles/index.html][ORI]] | [[https://luispengler.github.io/site/html/org-pages/books.html][Books]] | [[https://luispengler.github.io/site/html/org-pages/filmes.html][Carlinda movies]] | [[https://luispengler.github.io/site/html/org-pages/dc.html][DC'series]] |
 
 * About me
 My name Luís Spengler and at the moment I write this (02/01/2022) I am a Senior High School student, taking electrotechnics vacational program.
