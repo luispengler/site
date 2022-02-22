@@ -1,0 +1,16 @@
+#+TITLE: Nuclear
+
+* Resources
+1. [[https://www.youtube.com/watch?v=cXarvv2j9WI][A Fusão Nuclear Explicada: Energia do Futuro?]]
+https://www.youtube.com/watch?v=HhhDYebf__s
+
+** Explaning
+I used 1. as startup point for my research. Even though his videos are not in English, which is something I usually prefer, I know how valuable his content is. He also published a second video 2.
+
+* Draft
+Money may be the most valuable thing to some people. In truth, there is nothing in our vast universe where Energy doesn't play the most important role. [1] {Explain what this energy makes in our real life}
+{Introduce the energy distrubuition problem} {80% of our energy comes from non-renewable sources} {Explain what non-renewable is, and why renewable ones are important}
+{Introduce Nuclear Energy as a potential savior of our energy consumption problem} {Briefly explain Fission vs Fusion, but state we will stick with fusion for this article} Nuclear Fusion is so great because it uses the most abudent element in the entire universe: Hydrogen. Just as an example, Nuclear Fusion is the process that makes our sun shine, and heat us. As well as all stars!
+Hydrogen Nuclear Fusion makes 10x energy than Uranium Nuclear Fission;
+Wow! I guess they should've been using this to power up our city since the dawn of time. Except for it is such a technological and engineering challenge! The main problem is to make the two Hydrogen nucleous get close enough to make the phenomena happen. Because they both have protons in their nucleous (which is positivately charged), they repel themselves just like two opposite magnets {Show image} The proton repealing act creates a barrier known as "Coulomb Barrier".
+But as everything in nature, there is always a catch. There is a very specific distance the hydrogen nucleous must be put. If such condition is met, the attraction force will be greater than the repealing force. This is known as Strong Nuclear Force, which is the force that makes protons and neutrons stick together inside the nucleous.

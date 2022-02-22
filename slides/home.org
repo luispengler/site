@@ -7,12 +7,20 @@
 #+Author: Luís Spengler
 
 * SAT
-- [X] 3 practice videos
-- [X] [[https://www.khanacademy.org/mission/sat/][Prep]]
+- 3 practice
+- [[https://www.khanacademy.org/mission/sat/][Prep]]
 
-* Application
+* Applications
 - [X] [[https://www.iquise.mit.edu/iQuHACK/2022-01-28/apply/][iQuISE]] (21 January)
 - [X] [[https://my.hackmit.org/form/Application][MIT Blueprint]] (29 January)
 - [ ] [[https://tks2.typeform.com/to/mx1NDn1k?typeformsource=tksapplication&email=luispengler%40protonmail.com&fname=Lu%C3%ADs&record_id=recz4VVhljM4fcbet&utm_campaign=21-22%20R1%20Application&utm_medium=email&_hsmi=192306195&_hsenc=p2ANqtz-_XI959RY97pr0gbGjTWRz6qxkuzkC5JqHY0Crv7xJmwatZc6BxlpDc3SNbh00bTcOS_-x-eP1t--6566VtGPTd7nSFqG-4sbucZCjM7Ro1sJ7uY6g&utm_content=192306195&utm_source=hs_automation][TKS]]
 - [ ] [[https://jovensembaixadores.org.br/usuario/cadastro?email=luispengler@protonmail.com&nome=Lu%C3%ADs%20Guilherme%20Miranda%20Spengler][Youth Ambassadors]] (10 february)
 - [ ] [[https://spcsonlineapp.stanford.edu/apply/][SPCS]] (March 15)
+- [ ] [[https://beamlineforschools.cern/][A Beamline For Schools]] (April 15)
+
+* TODO (20-26/02)
++ [ ] Inscrição Edital estágio (24)
++ [ ] [[https://tksworld.notion.site/Nuclear-Fusion-3a5e5864204a4ab6bc0b15836458d799][Nuclear fusion]] (26)
++ [ ] Chem Test (26)
++ [ ] Bia's birthday (26)
++ [ ] [[https://www.jovensembaixadores.org.br/questionario/personal-information][JE]] (27)

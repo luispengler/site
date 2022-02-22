@@ -525,7 +525,7 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [X] Supergirl – 4.22: “The Quest For Peace”
 + [X] Legends of Tomorrow – 4.16: “Hey World!”
 
-* 2019/2020 [39/112] [34%]
+* 2019/2020 [53/112] [47%]
 
 + [X] Batwoman – 1.01: “Pilot”
 + [X] Supergirl – 5.01: “Event Horizon”
@@ -566,20 +566,20 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [X] Black Lightning – 3.08: “The Book Of Resistance: Chapter Three: Battle of Franklin Terrace”
 + [X] The Flash – 6.08: “The Last Temptation Of Barry Allen, Pt 2”
 + [X] Arrow – 8.07: “Purgatory”
-+ [ ] Supergirl – 5.09: “Crisis On Infinite Earths Part 1” *MUST WATCH TOGETHER*
-+ [ ] Batwoman – 1.09: “Crisis On Infinite Earths Part 2” *MUST WATCH TOGETHER*
-+ [ ] Black Lightning – 3.09: “The Book Of Resistance: Chapter Four: Earth Crisis” *MUST WATCH TOGETHER*
-+ [ ] The Flash – 6.09: “Crisis On Infinite Earths Part 3” *MUST WATCH TOGETHER*
-+ [ ] Arrow – 8.08: “Crisis On Infinite Earths Part 4” *MUST WATCH TOGETHER*
-+ [ ] Legends of Tomorrow – 5.01: “Crisis On Infinite Earths Part 5” *MUST WATCH TOGETHER*
-+ [ ] Batwoman – 1.10: “How Queer Everything Is Today!”
-+ [ ] Supergirl – 5.10: “The Bottle Episode”
-+ [ ] Black Lightning – 3.10: “The Book Of Markovia: Chapter One: Blessings and Curses Reborn”
-+ [ ] Arrow – 8.09: “Green Arrow & The Canaries”
-+ [ ] Legends of Tomorrow – 5.02: “Meet The Legends”
-+ [ ] Batwoman – 1.11: “An Un-birthday Present”
-+ [ ] Supergirl – 5.11: “Back From The Future – Part One”
-+ [ ] Black Lightning – 3.11: “The Book Of Markovia: Chapter Two: Lynn’s Addiction ”
++ [X] Supergirl – 5.09: “Crisis On Infinite Earths Part 1” *MUST WATCH TOGETHER*
++ [X] Batwoman – 1.09: “Crisis On Infinite Earths Part 2” *MUST WATCH TOGETHER*
++ [X] Black Lightning – 3.09: “The Book Of Resistance: Chapter Four: Earth Crisis” *MUST WATCH TOGETHER*
++ [X] The Flash – 6.09: “Crisis On Infinite Earths Part 3” *MUST WATCH TOGETHER*
++ [X] Arrow – 8.08: “Crisis On Infinite Earths Part 4” *MUST WATCH TOGETHER*
++ [X] Legends of Tomorrow – 5.01: “Crisis On Infinite Earths Part 5” *MUST WATCH TOGETHER*
++ [X] Batwoman – 1.10: “How Queer Everything Is Today!”
++ [X] Supergirl – 5.10: “The Bottle Episode”
++ [X] Black Lightning – 3.10: “The Book Of Markovia: Chapter One: Blessings and Curses Reborn”
++ [X] Arrow – 8.09: “Green Arrow & The Canaries”
++ [X] Legends of Tomorrow – 5.02: “Meet The Legends”
++ [X] Batwoman – 1.11: “An Un-birthday Present”
++ [X] Supergirl – 5.11: “Back From The Future – Part One”
++ [X] Black Lightning – 3.11: “The Book Of Markovia: Chapter Two: Lynn’s Addiction ”
 + [ ] Arrow – 8.10: “Fadeout”
 + [ ] Black Lightning – 3.12: “The Book Of Markovia: Chapter Three: Motherless ID”
 + [ ] The Flash – 6.10: “Marathon”

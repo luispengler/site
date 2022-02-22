@@ -279,7 +279,10 @@ Story 3: I am very fond of the free software community. But I only got to unders
 https://luispengler.github.io/site/html/README.html, I learned cool software should be open, leading me to start sharing telegram skins that I created https://luispengler.github.io/telegram-desktop-themes/html/README.html, and also start sharing a document with actions commited (not so cool actions) by the biggest technology companies https://luispengler.github.io/site/html/org-pages/spooky-tech.html
 
 
-+ Experiência com o inglês
-Raquel é formada em inglês com 6 anos de estudo em um curso de línguas, possui proficiência em língua inglesa certificada pelo Michigan English Test, pesquisadora na área de internacionalização institucional e
-
+* General questions
++ Descreva sua experiência com o inglês em terceira pessoa
 Luís possui uma certificação B2-C1 (CEFR) pela American and British Academy, pesquisador nas áreas de língua inglesa, conversação e internacionalização institucional. Possui experiência como mentor de Inglês. Agora este estuda para o SAT e DET, em processo de candidatura para universidades americanas.
++ What are things you are doing now that relate to your major?
+Qubit by Qubit by The coding School, Video editor senior, Physics teacher assistant (I've gotten a medal on OBF), Self-taught UNIX and FOSS-related content (I study FOSS-related content, including but not limited to, Linux workbench, Linux system administration, basic Git, window managers configuration, free and open source licensing, and Tor networking. I also developed skills regarding AWK, bash/shell, C, Python, LaTeX, Markdown, Org-mode, and Qiskit. All my public activities are available in my github profile).
++ RELATO BREVE DA SITUAÇÃO FAMILIAR: descreva a situação social, econômica, de moradia, transporte, condição de saúde dos membros do núcleo familiar e qual o motivo por estar solicitando o auxílio, assim como demais informações que acredita serem relevantes para uma análise do serviço social
+  Os meus pais estão separados e não tenho muito contato com ele, porque a minha mãe tem medida protetiva e as nossas visitas são assistidas. Moro com a minha mãe e os meus dois irmãos menores de idade. Atualmente a minha mãe esta desempregada e contamos apenas com a pensão alimentícia no valor de meio salário mínimo e r$ 400,00 do Auxílio Brasil. Utilizo transporte público para ir para a escola, ao médico, laboratório. Faço tratamento de uma doença autoimune chamada PTI, pelo SUS, mas às vezes a minha mãe paga alguns exames.

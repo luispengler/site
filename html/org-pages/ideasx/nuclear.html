@@ -6,9 +6,8 @@
 <!-- 2022-02-22 Tue 19:01 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Week 15 - my notes</title>
+<title>Nuclear</title>
 <meta name="author" content="Luís Spengler" />
-<meta name="description" content="Week 15 - my notes" />
 <meta name="generator" content="Org Mode" />
 <style>
   #content { max-width: 60em; margin: auto; }
@@ -194,197 +193,55 @@
     { background-color: #ffff00; color: #000000; font-weight: bold; }
   .org-svg { width: 90%; }
 </style>
-<link rel="stylesheet" type="text/css" href="https://luispengler.github.io/site/org-html-themes/src/readtheorg_theme/css/htmlize.css"/>
-<link rel="stylesheet" type="text/css" href="https://luispengler.github.io/site/org-html-themes/src/readtheorg_theme/css/readtheorg.css"/>
-<script src="httpss://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script src="httpss://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="https://luispengler.github.io/site/org-html-themes/src/lib/js/jquery.stickytableheaders.min.js"></script>
-<script type="text/javascript" src="https://luispengler.github.io/site/org-html-themes/src/readtheorg_theme/js/readtheorg.js"></script>
-<script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-        displayAlign: "center",
-        displayIndent: "0em",
-
-        "HTML-CSS": { scale: 100,
-                        linebreaks: { automatic: "false" },
-                        webFont: "TeX"
-                       },
-        SVG: {scale: 100,
-              linebreaks: { automatic: "false" },
-              font: "TeX"},
-        NativeMML: {scale: 100},
-        TeX: { equationNumbers: {autoNumber: "AMS"},
-               MultLineWidth: "85%",
-               TagSide: "right",
-               TagIndent: ".8em"
-             }
-});
-</script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML"></script>
 </head>
 <body>
 <div id="content" class="content">
-<h1 class="title">Week 15 - my notes</h1>
+<h1 class="title">Nuclear</h1>
 <div id="table-of-contents" role="doc-toc">
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#orgb968b56">Week 15 - Multi-Qubit Circuits Part 3: Measurement &amp; Entanglement</a>
+<li><a href="#org9b94588">1. Resources</a>
 <ul>
-<li><a href="#org719a556">Ket components meaning</a></li>
-<li><a href="#org7f81064">Measuring Multi-Qubit Circuits</a></li>
-<li><a href="#org60d388f">Entangled States</a></li>
-<li><a href="#org2c0afe2">Entangled States as Circuits</a></li>
-<li><a href="#org06d29ef">The Bell states</a></li>
+<li><a href="#orgca3e503">1.1. Explaning</a></li>
 </ul>
 </li>
-<li><a href="#orgcbc855d">Resources</a></li>
+<li><a href="#orgf3f2593">2. Draft</a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orgb968b56" class="outline-2">
-<h2 id="orgb968b56">Week 15 - Multi-Qubit Circuits Part 3: Measurement &amp; Entanglement</h2>
-<div class="outline-text-2" id="text-orgb968b56">
-</div>
-<div id="outline-container-org719a556" class="outline-3">
-<h3 id="org719a556">Ket components meaning</h3>
-<div class="outline-text-3" id="text-org719a556">
-<ul class="org-ul">
-<li>Take this state:</li>
-</ul>
-<p>
-\[|q1q0\rangle = \frac{1}{\sqrt{2}}(|00\rangle + |01\rangle)\]
-</p>
-<ul class="org-ul">
-<li>The number inside the kets tell you the number of qubits</li>
-<li>The number of kets tell you the measurable outcomes for this state</li>
-</ul>
-</div>
-</div>
-
-<div id="outline-container-org7f81064" class="outline-3">
-<h3 id="org7f81064">Measuring Multi-Qubit Circuits</h3>
-<div class="outline-text-3" id="text-org7f81064">
-<ul class="org-ul">
-<li>Remember the Quantum Circuit model? Composed by input states, gates (perform computation), and measurements (obtain the output).</li>
-<li>For a single qubit, measurements result in one of two possible answers. If we measure it using the Z basis, we can only get \(|0\rangle\) or \(|1\rangle\). If we measure it using the X basis, we can only get \(|+\rangle\) or \(|-\rangle\)</li>
-<li>After the measurement, we know the wavefunction colapse happens. Our superposition gets narrowed down to one single state.</li>
-<li>The probability of getting one state is defined by its contribution squared.</li>
-<li>We made normalizations to be able to get correct probabilities. All because of the Born rule. The squares of contribuitions need to add up to 1.</li>
-<li>We can still use the born rule for multi-qubit circuits</li>
-</ul>
-</div>
-</div>
-
-<div id="outline-container-org60d388f" class="outline-3">
-<h3 id="org60d388f">Entangled States</h3>
-<div class="outline-text-3" id="text-org60d388f">
-<ul class="org-ul">
-<li>Entanglement is a very defined relationship, where if you know the state of one object, you know the other&rsquo;s state.</li>
-<li>\[|q1q0\rangle = \frac{1}{\sqrt{2}}(|00\rangle + |11\rangle)\]</li>
-</ul>
-</div>
-
-<div id="outline-container-orgd9bb542" class="outline-4">
-<h4 id="orgd9bb542">We can foil some quantum states</h4>
-<div class="outline-text-4" id="text-orgd9bb542">
-<ul class="org-ul">
-<li>Just multiple the q0 by q1</li>
-<li>You can factore it by doing the reverse</li>
-<li>If a 2-qubit can be unFOILed or factorized, it is not entangled.</li>
-</ul>
-</div>
-</div>
-</div>
-
-<div id="outline-container-org2c0afe2" class="outline-3">
-<h3 id="org2c0afe2">Entangled States as Circuits</h3>
-<div class="outline-text-3" id="text-org2c0afe2">
-<ul class="org-ul">
-<li>Just because a circit has a CX gate, it doesn&rsquo;t mean the qubits are automatically entangled.</li>
-<li>To create an entangled circuit, you should always have a superposition in the control qubit.</li>
-<li>Also, the H gate should always come before the CX gate</li>
-</ul>
-</div>
-</div>
-
-<div id="outline-container-org06d29ef" class="outline-3">
-<h3 id="org06d29ef">The Bell states</h3>
-<div class="outline-text-3" id="text-org06d29ef">
+<div id="outline-container-org9b94588" class="outline-2">
+<h2 id="org9b94588"><span class="section-number-2">1.</span> Resources</h2>
+<div class="outline-text-2" id="text-1">
 <ol class="org-ol">
-<li>\[|\beta00\rangle = \frac{1}{\sqrt{2}}(|00\rangle + |11\rangle)\]</li>
-<li>\[|\beta01\rangle = \frac{1}{\sqrt{2}}(|00\rangle - |11\rangle)\]</li>
-<li>\[|\beta10\rangle = \frac{1}{\sqrt{2}}(|01\rangle + |10\rangle)\]</li>
-<li>\[|\beta11\rangle = \frac{1}{\sqrt{2}}(|01\rangle - |10\rangle)\]</li>
-<li>These states are special!</li>
-<li>They differ in two ways: <b>Parity</b>, <b>Phase</b></li>
+<li><a href="https://www.youtube.com/watch?v=cXarvv2j9WI">A Fusão Nuclear Explicada: Energia do Futuro?</a></li>
 </ol>
+<p>
+<a href="https://www.youtube.com/watch?v=HhhDYebf__s">https://www.youtube.com/watch?v=HhhDYebf__s</a>
+</p>
 </div>
 
-<div id="outline-container-org142f296" class="outline-4">
-<h4 id="org142f296">Creating the circuits</h4>
-<div class="outline-text-4" id="text-org142f296">
-<ul class="org-ul">
-<li>The first bell state: H gate in q0, and control gate in q0 (target in q1)</li>
-</ul>
+<div id="outline-container-orgca3e503" class="outline-3">
+<h3 id="orgca3e503"><span class="section-number-3">1.1.</span> Explaning</h3>
+<div class="outline-text-3" id="text-1-1">
 <p>
-<code>qc = QuantumCircuit(2)</code>
-<code>qc.h(0)</code>
-<code>qc.cx(0,1)</code>
+I used 1. as startup point for my research. Even though his videos are not in English, which is something I usually prefer, I know how valuable his content is. He also published a second video 2.
 </p>
-<ul class="org-ul">
-<li>The second bell state:  H gate in q0, and control gate in q0 (target in q1) + X gate in q0 after CX</li>
-</ul>
-<p>
-<code>qc = QuantumCircuit(2)</code>
-<code>qc.h(0)</code>
-<code>qc.cx(0,1)</code>
-<code>qc.x(0)</code>
-</p>
-<ul class="org-ul">
-<li>The third bell state: H gate in q0, and control gate in q0 (target in q1) + Z gate in q0 after CX</li>
-</ul>
-<p>
-<code>qc = QuantumCircuit(2)</code>
-<code>qc.h(0)</code>
-<code>qc.cx(0,1)</code>
-<code>qc.z(1)</code>
-</p>
-<ul class="org-ul">
-<li>The fourth bell state: H gate in q0, and control gate in q0 (target in q1) + Z and X gate in q0 after CX</li>
-</ul>
-<p>
-<code>qc = QuantumCircuit(2)</code>
-<code>qc.h(0)</code>
-<code>qc.cx(0,1)</code>
-<code>qc.z(1)</code>
-<code>qc.x(1)</code>
-</p>
-</div>
 </div>
 </div>
 </div>
 
-<div id="outline-container-orgcbc855d" class="outline-2">
-<h2 id="orgcbc855d">Resources</h2>
-<div class="outline-text-2" id="text-orgcbc855d">
+<div id="outline-container-orgf3f2593" class="outline-2">
+<h2 id="orgf3f2593"><span class="section-number-2">2.</span> Draft</h2>
+<div class="outline-text-2" id="text-2">
 <p>
-Superposition and entanglement
-URL: <a href="https://www.youtube.com/watch?v=j6Mw3_tOcNI">https://www.youtube.com/watch?v=j6Mw3_tOcNI</a>
-Description: Video on the physics of superposition and entanglement
-</p>
-
-<p>
-Bell’s theorem
-URL: <a href="https://www.youtube.com/watch?v=zcqZHYo7ONs">https://www.youtube.com/watch?v=zcqZHYo7ONs</a>
-Description: Video on Bell’s theorem - a startling consequence of entanglement
-</p>
-
-<p>
-Math of quantum states
-URL: <a href="https://arxiv.org/pdf/1604.01790.pdf">https://arxiv.org/pdf/1604.01790.pdf</a>
-Description: Detailed notes on the linear algebra of quantum states and measurement, including entangled states
+Money may be the most valuable thing to some people. In truth, there is nothing in our vast universe where Energy doesn&rsquo;t play the most important role. [1] {Explain what this energy makes in our real life}
+{Introduce the energy distrubuition problem} {80% of our energy comes from non-renewable sources} {Explain what non-renewable is, and why renewable ones are important}
+{Introduce Nuclear Energy as a potential savior of our energy consumption problem} {Briefly explain Fission vs Fusion, but state we will stick with fusion for this article} Nuclear Fusion is so great because it uses the most abudent element in the entire universe: Hydrogen. Just as an example, Nuclear Fusion is the process that makes our sun shine, and heat us. As well as all stars!
+Hydrogen Nuclear Fusion makes 10x energy than Uranium Nuclear Fission;
+Wow! I guess they should&rsquo;ve been using this to power up our city since the dawn of time. Except for it is such a technological and engineering challenge! The main problem is to make the two Hydrogen nucleous get close enough to make the phenomena happen. Because they both have protons in their nucleous (which is positivately charged), they repel themselves just like two opposite magnets {Show image} The proton repealing act creates a barrier known as &ldquo;Coulomb Barrier&rdquo;.
+But as everything in nature, there is always a catch. There is a very specific distance the hydrogen nucleous must be put. If such condition is met, the attraction force will be greater than the repealing force. This is known as Strong Nuclear Force, which is the force that makes protons and neutrons stick together inside the nucleous.
 </p>
 </div>
 </div>
