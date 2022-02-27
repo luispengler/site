@@ -285,4 +285,26 @@ Luís possui uma certificação B2-C1 (CEFR) pela American and British Academy, 
 + What are things you are doing now that relate to your major?
 Qubit by Qubit by The coding School, Video editor senior, Physics teacher assistant (I've gotten a medal on OBF), Self-taught UNIX and FOSS-related content (I study FOSS-related content, including but not limited to, Linux workbench, Linux system administration, basic Git, window managers configuration, free and open source licensing, and Tor networking. I also developed skills regarding AWK, bash/shell, C, Python, LaTeX, Markdown, Org-mode, and Qiskit. All my public activities are available in my github profile).
 + RELATO BREVE DA SITUAÇÃO FAMILIAR: descreva a situação social, econômica, de moradia, transporte, condição de saúde dos membros do núcleo familiar e qual o motivo por estar solicitando o auxílio, assim como demais informações que acredita serem relevantes para uma análise do serviço social
-  Os meus pais estão separados e não tenho muito contato com ele, porque a minha mãe tem medida protetiva e as nossas visitas são assistidas. Moro com a minha mãe e os meus dois irmãos menores de idade. Atualmente a minha mãe esta desempregada e contamos apenas com a pensão alimentícia no valor de meio salário mínimo e r$ 400,00 do Auxílio Brasil. Utilizo transporte público para ir para a escola, ao médico, laboratório. Faço tratamento de uma doença autoimune chamada PTI, pelo SUS, mas às vezes a minha mãe paga alguns exames.
+Os meus pais estão separados e não tenho muito contato com ele, porque a minha mãe tem medida protetiva e as nossas visitas são assistidas. Moro com a minha mãe e os meus dois irmãos menores de idade. Atualmente a minha mãe esta desempregada e contamos apenas com a pensão alimentícia no valor de meio salário mínimo e r$ 400,00 do Auxílio Brasil. Utilizo transporte público para ir para a escola, ao médico, laboratório. Faço tratamento de uma doença autoimune chamada PTI, pelo SUS, mas às vezes a minha mãe paga alguns exames.
++ Explain the objectives of this social entrepreneurship initiative:* (500 chars.) [ENGLISH CLUB]
+Our goal is to promote opportunities of development of the English language teaching-learning, integrating it to other areas of knowledge, and counting with teachers, students, and servants. To do so, we offer activities in the English language that contain the language, contributing to intellectual production, scientific, artistic and cultural of students and servants.
+
+
+O candidato iniciou suas atividades no projeto English Club no início do ano de 2020 e, desde então, vem atuando em nossa equipe de trabalho (staff), dos encontros de conversação e do grupo de pesquisa de nosso projeto.
+
+O candidato dedica, em média, 4 horas semanais ao desenvolvimento do projeto.
+
+O candidato desenvolveu atividades tais como: elaboração das temáticas para o encontro de conversação; criação de conteúdo e curadoria para as mídias sociais; participação em lives durante a pandemia; condução dos encontros online de conversação, elaboração de artes para divulgação dos encontros; participação em eventos institucionais, tanto no ensino, quanto na pesquisa.
+
+O projeto English Club visa promover oportunidades de desenvolvimento do ensino-aprendizagem da língua inglesa, integrando-as as áreas do conhecimento em diálogo com a educação tecnológica e profissional no Instituto Federal de Mato Grosso do Sul. Com o contexto do cenário pandêmico, lives no Instagram, chamadas de vídeo no Skype e o que ficou conhecido como Let's Bora, foram alternativas utilizadas para continuar cumprindo esse mesmo objetivo.
+
+- O público se tornaria menos engajado na pandemia do COVID-19.
+
+Em uma breve pesquisa com 15 participantes, mais de 90% destes participariam de uma plataforma digital de interação em tempo real (posteriormente denominada let's bora), como alternativa aos encontros de conversação presenciais. esses dados demonstram a adesão e engajamento dos participantes nesse período, além do fortalecimento do trabalho do english club nas redes sociais e no contexto de quarentena que não mais nos permitia a realização de encontros presenciais.
+
+ Os maiores desafios foram obtidos no começo da implementação da nova iniciativa de aplicar o English Club no contexto da pandemia, mantendo as atividades de desenvolvimento do ensino-aprendizagem da língua inglesa. Tivemos desafios na questão da organização, divulgação e voluntários para o projeto.
+
+A organização era efetuada por reuniões virtuais e planilhas Google sheets, mas melhoramos o jeito em que utilizávamos essas ferramentas. Continuamos a conta do projeto no Instagram, utilizando posteriormente para criação de conteúdo digital em uma das frentes do projeto.
+
+
+Desde a criação do perfil do English Club no Instagram (25 de março de 2020) foram criados 109 formatos de conteúdos fixos. Dentre eles, 18 reels, 11 vídeos e 80 posts de conteúdos variados, tais como: convites para os encontros de conversação Let’s Bora, vocabulário, citações, dicas de como estudar inglês, curiosidades de outros países, datas comemorativas e oportunidades de estudar fora.

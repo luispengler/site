@@ -2,15 +2,26 @@
 
 * Resources
 1. [[https://www.youtube.com/watch?v=cXarvv2j9WI][A Fusão Nuclear Explicada: Energia do Futuro?]]
-https://www.youtube.com/watch?v=HhhDYebf__s
+2. [[https://www.youtube.com/watch?v=HhhDYebf__s][Por que é tão Difícil de Fazer FUSÃO NUCLEAR?]]
+3. My teacher
+4. https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/food-energy
+5. https://edition.cnn.com/travel/article/american-food-dishes/index.html
+6. https://www.nationalgeographic.org/encyclopedia/photosynthesis/
+7. https://guibertola.wordpress.com/2014/06/03/a-energia-hidroeletrica-no-brasil/
+8. https://www.eia.gov/energyexplained/electricity/how-electricity-is-generated.php
+9. https://en.wikipedia.org/wiki/Fusion_power
 
 ** Explaning
-I used 1. as startup point for my research. Even though his videos are not in English, which is something I usually prefer, I know how valuable his content is. He also published a second video 2.
+I used 1. as startup point for my research. Even though his videos are not in English, which is something I usually prefer, I know how valuable his content is. He also published a second video 2. I tried to link both the video contents in a draft I wrote. As I advanced my knowledge over the subject, I took advantage of one of my classes at school, where my teacher told me more about Tokamak. I went back to writing, then I thought about how REALLY the sun is important to our entire ecosystem. I used 4 gather supporting evidence to the knowledge I acquired in my previous studies. I used 5 as means of referencing food dishes my reader would probably like eating. I used 6 to explain what photosynthesis is. I used 7 to gather data about hydroelectrics in Brazil. I used 8 to gather data about steam turbines in USA. I started having doubts about the accuracy of what I was writing, because I was taking pieces from too many places at once, so I decided to look up nuclear fusion on wikipedia and continue my research from there.
 
 * Draft
-Money may be the most valuable thing to some people. In truth, there is nothing in our vast universe where Energy doesn't play the most important role. [1] {Explain what this energy makes in our real life}
-{Introduce the energy distrubuition problem} {80% of our energy comes from non-renewable sources} {Explain what non-renewable is, and why renewable ones are important}
-{Introduce Nuclear Energy as a potential savior of our energy consumption problem} {Briefly explain Fission vs Fusion, but state we will stick with fusion for this article} Nuclear Fusion is so great because it uses the most abudent element in the entire universe: Hydrogen. Just as an example, Nuclear Fusion is the process that makes our sun shine, and heat us. As well as all stars!
+I doubt you can find something in your life that doesn't require the use of energy to work. And I am not just talking about electric energy, it can be any type of energy. If you go even deeper, you will realize all the world's energy comes from the sun, directly or indirectly. You are only reading this article because you are absorving, converting, and spending energy. That energy comes from somewhere. You eat, your body breaks down the energy contained in your food. Which, might have been a healthy dish with lots of beans and salad, or even a hot dog. That energy comes from somewhere. Your salad acquired its energy through photosynthesis, which is the process plants go to have their own energy, but energy acquired through the sunlight, and water. Your hot dog's sausage was a pig, and it ate vegetables too. In sum, life on planet earth depends on the sun.
+Now, talking about electric energy, our modern society has found awesome ways to create it. We can have hydroelectrics, wind energy, steam turbines, and of course solar energy. Each and every one of these electric energy types depends on the sun. 90% of Brazil's electric energy comes from hydroelectrics, which is only possibly because water, the thing that keeps hydroelectrics moving, has the water cycle. The main component of the water cycle is the sun, that heats up water in the earth's surface, and oceans just to make it rain. Wind energy is only possible because of a region's climate conditions, where the sun plays a determining role. Steam turbines make up 44% of USA electric energy, and it generally use fossil fuels, which is the result of life millions of years ago. And as we know, life on planet earth depends on the sun.
+And do not be scared when I say the most promissing way to create electric energy finds its contrubution in the sun too. Nuclear Fusion is literally what powers up the sun, and being so hot as we know it, may be our salvation or our destruction...
+** How it works
+The simplest element in the periodic table is Hydrogen. It contains only one electron and one proton, but it might as well have one or two neutrons. The most common form of hydrogen in the universe only has one proton and one electron, and it is known as protium.
+However, when creating nuclear fusion we are going to be using what we call deuterium, which is more like the second form of hydrogen, made it by one electron, one proton, and one neutron.
+Nuclear Fusion is so great because it uses the most abudent element in the entire universe: Hydrogen. Just as an example, Nuclear Fusion is the process that makes our sun shine, and heat us. As well as all stars!
 Hydrogen Nuclear Fusion makes 10x energy than Uranium Nuclear Fission;
 Wow! I guess they should've been using this to power up our city since the dawn of time. Except for it is such a technological and engineering challenge! The main problem is to make the two Hydrogen nucleous get close enough to make the phenomena happen. Because they both have protons in their nucleous (which is positivately charged), they repel themselves just like two opposite magnets {Show image} The proton repealing act creates a barrier known as "Coulomb Barrier".
 But as everything in nature, there is always a catch. There is a very specific distance the hydrogen nucleous must be put. If such condition is met, the attraction force will be greater than the repealing force. This is known as Strong Nuclear Force, which is the force that makes protons and neutrons stick together inside the nucleous.
