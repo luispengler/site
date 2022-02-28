@@ -278,6 +278,15 @@ Story 2: My interest in Physics actually started with Chemistry. As a 6-year-old
 Story 3: I am very fond of the free software community. But I only got to understand why it is important to fight for freedom of software when I started using GNU/Linux. In fact, I only got to understand many things when I started using GNU/Linux. The year was 2017, I knew almost nothing about computers. My mother bought a computer running Linux Mint operating system. Time has gone by, and despite the attempt of several people (some of them friends) trying to make me give up on Linux, I still had this curiosity to know why the system behaved differently than windows, what I could do with it, and why I felt so powerful using it. In 9th grade (2019), I studied and successfully learned English, using open source tools like anki, and several user manuals. Even more time has gone by, and I learned bash/shell, C, LaTeX, Org-mode, and Markdown. I learned the basics of many areas inside computer science, and then I realized my interest for computers had sparked. I learned how to run my own website
 https://luispengler.github.io/site/html/README.html, I learned cool software should be open, leading me to start sharing telegram skins that I created https://luispengler.github.io/telegram-desktop-themes/html/README.html, and also start sharing a document with actions commited (not so cool actions) by the biggest technology companies https://luispengler.github.io/site/html/org-pages/spooky-tech.html
 
+** JE
++ What are your favorite subjects in school and why? (300 chars.)
+  My favorite subject in school is physics. I've always liked and studied physics since I was little. Physics allows me to apply my curiosity in a thousand different ways and come to one hundred different solutions. I like it because it is universally useful, and challenging.
++ What do you plan to study at the university? (300 chars.)
+ I would like to double major in physics and computer science, since those are areas I enjoy studying. Double majoring in physics and computer science will give me a background compatible with many needed careers and research positions, mainly in the quantum computing field.
++ What is your biggest dream and what do you plan to do to achieve it? (300 chars.)
+My biggest dream is to make useful contributions to science, and education. For that, I will need to improve my knowledge and always think in both short and long term.
++ How do you think becoming a Youth Ambassador can help you and your objectives in life? (300 chars.)
+In JE I will improve my multidisciplinarity a lot by having learned about entrepreneurship, leadership, and potentially different cultures. By the end of the program, I will have more impactful ideas to contribute to my community projects.
 
 * General questions
 + Descreva sua experiência com o inglês em terceira pessoa
@@ -288,23 +297,3 @@ Qubit by Qubit by The coding School, Video editor senior, Physics teacher assist
 Os meus pais estão separados e não tenho muito contato com ele, porque a minha mãe tem medida protetiva e as nossas visitas são assistidas. Moro com a minha mãe e os meus dois irmãos menores de idade. Atualmente a minha mãe esta desempregada e contamos apenas com a pensão alimentícia no valor de meio salário mínimo e r$ 400,00 do Auxílio Brasil. Utilizo transporte público para ir para a escola, ao médico, laboratório. Faço tratamento de uma doença autoimune chamada PTI, pelo SUS, mas às vezes a minha mãe paga alguns exames.
 + Explain the objectives of this social entrepreneurship initiative:* (500 chars.) [ENGLISH CLUB]
 Our goal is to promote opportunities of development of the English language teaching-learning, integrating it to other areas of knowledge, and counting with teachers, students, and servants. To do so, we offer activities in the English language that contain the language, contributing to intellectual production, scientific, artistic and cultural of students and servants.
-
-
-O candidato iniciou suas atividades no projeto English Club no início do ano de 2020 e, desde então, vem atuando em nossa equipe de trabalho (staff), dos encontros de conversação e do grupo de pesquisa de nosso projeto.
-
-O candidato dedica, em média, 4 horas semanais ao desenvolvimento do projeto.
-
-O candidato desenvolveu atividades tais como: elaboração das temáticas para o encontro de conversação; criação de conteúdo e curadoria para as mídias sociais; participação em lives durante a pandemia; condução dos encontros online de conversação, elaboração de artes para divulgação dos encontros; participação em eventos institucionais, tanto no ensino, quanto na pesquisa.
-
-O projeto English Club visa promover oportunidades de desenvolvimento do ensino-aprendizagem da língua inglesa, integrando-as as áreas do conhecimento em diálogo com a educação tecnológica e profissional no Instituto Federal de Mato Grosso do Sul. Com o contexto do cenário pandêmico, lives no Instagram, chamadas de vídeo no Skype e o que ficou conhecido como Let's Bora, foram alternativas utilizadas para continuar cumprindo esse mesmo objetivo.
-
-- O público se tornaria menos engajado na pandemia do COVID-19.
-
-Em uma breve pesquisa com 15 participantes, mais de 90% destes participariam de uma plataforma digital de interação em tempo real (posteriormente denominada let's bora), como alternativa aos encontros de conversação presenciais. esses dados demonstram a adesão e engajamento dos participantes nesse período, além do fortalecimento do trabalho do english club nas redes sociais e no contexto de quarentena que não mais nos permitia a realização de encontros presenciais.
-
- Os maiores desafios foram obtidos no começo da implementação da nova iniciativa de aplicar o English Club no contexto da pandemia, mantendo as atividades de desenvolvimento do ensino-aprendizagem da língua inglesa. Tivemos desafios na questão da organização, divulgação e voluntários para o projeto.
-
-A organização era efetuada por reuniões virtuais e planilhas Google sheets, mas melhoramos o jeito em que utilizávamos essas ferramentas. Continuamos a conta do projeto no Instagram, utilizando posteriormente para criação de conteúdo digital em uma das frentes do projeto.
-
-
-Desde a criação do perfil do English Club no Instagram (25 de março de 2020) foram criados 109 formatos de conteúdos fixos. Dentre eles, 18 reels, 11 vídeos e 80 posts de conteúdos variados, tais como: convites para os encontros de conversação Let’s Bora, vocabulário, citações, dicas de como estudar inglês, curiosidades de outros países, datas comemorativas e oportunidades de estudar fora.

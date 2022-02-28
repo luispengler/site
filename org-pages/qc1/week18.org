@@ -1,0 +1,63 @@
+#+TITLE: Week 18 - my notes
+#+DESCRIPTION: Week 18 - my notes
+#+SETUPFILE: https://luispengler.github.io/site/org-html-themes/org/theme-readtheorg.setup
+#+LaTeX_+HEADER: \usepackage{physics}
+#+LaTeX_+HEADER: \usepackage{amsmath}
+#+OPTIONS: num:nil ^:{} toc:2
+
+"I try to understand the limitations of [quantum] algorithms... it goes hand in hand with understanding what is possible." - Scott Aaronson
+
+* Week 18 - Quantum Algorithms and Quantum Advantage
+** Quantum Algorithms
++ It is how a quantum computer solves problems
+
+** Algorithms 101
++ Algorithms are a set of steps taken to solve a problem. They are like a recipe to accomplish some task (like baking a nice cake!)
++ Let's focus on *linear search* right now
+
+** Linear Search Algorithms
++ They focus on finding an specific element, by checking each individual element in a dataset
++ In the worst case scenario, these algorithms would take N steps to find an N number of values
+
+** What makes a good algorithm?
++ Solve the problem correctly (Accuracy)
++ Solve the problem as quickly as possible (Efficiency)
+
+*** Solve the problem (accuracy/efficiency)
++ You can make an algorithm that will eventually give you the right answer, but at what cost?
++ Efficiency is a more important problem to solve, and it is usually how we determine good algorithms
++ But how can we quantify its efficiency?
+
+*** Determining Efficiency
++ We shouldn't examine it by the runtime (it is hardware dependent, and it also depends on the input difficulty and size)
++ Instead of using runtine, we count how many steps an algorithm took. This is known as Big-O Notation
+
+*** Big-O Notation
++ Big-O reports the number of operations and it characterizes the worst-case performance, as well as being expressed as function of input size.
++ Linear Search's big-o notation: \[O(n)\]
++ From left to right (most efficient algorithms):
+\[O(1)\] \[O(log(n))\] \[O(\sqrt{n})\] \[O(n)\] \[O(n^2)\] \[O(2^n)\] \[O(n!)\]
++ When we are designing a quantum algorithm our goal is to have a better efficiency compared to classical ones:
+\[O(Quantum) < O(Classical)\]
+
+** Quantum Algorithms
++ It is a procedure for solving a computational problem that uses the 3 quantum resources (superposition, interference, entanglement)
++ The goal is to show the quantum advantage (idea of being able to solve a problem in a QC faster than any classical device. It means the same as quantum supremacy, but this term is less used nowadays)
++ We do not expect a quantum advantage for all types of problems, however we do expect such thing in optimization and simulation problems
+
+** What makes a quantum algorithm?
++ It is just a complicated quantum circuit!
++ All quantum algorithms are quantum circuits, but not all quantum circuits are not quantum algorithms
++ All quantum algorithms are done by finding matrixes that can get you to the state you want to
+
+** The Quantum Algos Landscape
++ Deutsch-Josza (First theorical demonstration of quantum advantage) \[O(1) << O(2^n)\]
++ Shor's algorithm (Super-polynomial speedup for factoring using the QFT) \[O(log(n)^3) << O(n^{1.9})\]
++ Grover Search (Quadratic speedup for search using amplitude amplification) \[O(\sqrt{n}) << O(n)\]
++ Near-term Algos (Applications of noisy, small available quantum devices)
+
+*** Limitations of Quantum Algorithms
++ We don't have enough qubits and they are too noisy and have errors -- they lose information
++ Maturation of quantum coding languages
++ We need different types of algorithms for different problems
++ Designing algorithms for different potential types of hardware
