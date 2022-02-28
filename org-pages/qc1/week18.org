@@ -35,7 +35,7 @@
 *** Big-O Notation
 + Big-O reports the number of operations and it characterizes the worst-case performance, as well as being expressed as function of input size.
 + Linear Search's big-o notation: \[O(n)\]
-+ From left to right (most efficient algorithms):
++ From top (more efficient) to bottom (less efficient):
 \[O(1)\] \[O(log(n))\] \[O(\sqrt{n})\] \[O(n)\] \[O(n^2)\] \[O(2^n)\] \[O(n!)\]
 + When we are designing a quantum algorithm our goal is to have a better efficiency compared to classical ones:
 \[O(Quantum) < O(Classical)\]
