@@ -1,0 +1,18 @@
+#+TITLE: Virtual Notebook
+#+DESCRIPTION: luispengler.github.io/site - Official Site of Luís Spengler
+#+SETUPFILE:  https://luispengler.github.io/site/org-html-themes/org/theme-readtheorg.setup
+#+OPTIONS: num:nil ^:{} toc:nil
+
+For nothing is better than being able to write, and read your notebook from anywhere you want!
+
+* Self studying subjects
++ [[https://luispengler.github.io/site/html/org-pages/notes/linear-algebra-intro.html][Intro to Linear Algebra]]: "/Linear algebra is the branch of mathematics concerning linear equations, and their representations through matrices and vector spaces./"
+
++ [[https://luispengler.github.io/site/html/org-pages/notes/quantum-computing.html][Intro to Quantum Computing]]: "/Quantum computing is a type of computation that harnesses the collective properties of quantum states, such as superposition, interference, and entanglement, to perform calculations./"
+
++ [[https://luispengler.github.io/site/html/org-pages/notes/particle-physics.html][Particle Physics]]: "/Particle physics is a branch of physics that studies the nature of the particles that constitute matter and radiation./"
+
++ [[https://luispengler.github.io/site/html/org-pages/notes/dave-on-modern-physics.html][Professor Dave on Modern Physics]]: "/Modern physics is a branch of physics that developed in the early 20th century and onward or branches greatly influenced by early 20th century physics./"
+
+* School/College subjects
+** 12th grade

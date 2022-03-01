@@ -6,9 +6,9 @@
 <!-- 2022-03-01 Tue 11:05 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Luis Spengler's actually read books list</title>
+<title>An introduction to Linear Algebra - my notes.</title>
 <meta name="author" content="Luís Spengler" />
-<meta name="description" content="luispengler.github.io/site - Luís Spengler's official webpage" />
+<meta name="description" content="An introduction to Linear Algebra - my notes" />
 <meta name="generator" content="Org Mode" />
 <style>
   #content { max-width: 60em; margin: auto; }
@@ -200,65 +200,90 @@
 <script src="httpss://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="https://luispengler.github.io/site/org-html-themes/src/lib/js/jquery.stickytableheaders.min.js"></script>
 <script type="text/javascript" src="https://luispengler.github.io/site/org-html-themes/src/readtheorg_theme/js/readtheorg.js"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        displayAlign: "center",
+        displayIndent: "0em",
+
+        "HTML-CSS": { scale: 100,
+                        linebreaks: { automatic: "false" },
+                        webFont: "TeX"
+                       },
+        SVG: {scale: 100,
+              linebreaks: { automatic: "false" },
+              font: "TeX"},
+        NativeMML: {scale: 100},
+        TeX: { equationNumbers: {autoNumber: "AMS"},
+               MultLineWidth: "85%",
+               TagSide: "right",
+               TagIndent: ".8em"
+             }
+});
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML"></script>
 </head>
 <body>
 <div id="content" class="content">
-<h1 class="title">Luis Spengler&rsquo;s actually read books list</h1>
+<h1 class="title">An introduction to Linear Algebra - my notes.</h1>
 <div id="table-of-contents" role="doc-toc">
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#org353521c">2022</a>
-<ul>
-<li><a href="#org10fdddd">Miss Peregrine&rsquo;s Home for Peculiar Children</a></li>
-</ul>
-</li>
+<li><a href="#org767ac1a">This collection</a></li>
+<li><a href="#org8e781b4">Why Linear Algebra</a></li>
+<li><a href="#org884f180">What is a vector</a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org353521c" class="outline-2">
-<h2 id="org353521c">2022</h2>
-<div class="outline-text-2" id="text-org353521c">
-</div>
-<div id="outline-container-org10fdddd" class="outline-3">
-<h3 id="org10fdddd">Miss Peregrine&rsquo;s Home for Peculiar Children</h3>
-<div class="outline-text-3" id="text-org10fdddd">
-</div>
-<div id="outline-container-org8f0e4e0" class="outline-4">
-<h4 id="org8f0e4e0">Total books</h4>
-<div class="outline-text-4" id="text-org8f0e4e0">
-<ul class="org-ul">
-<li>Miss Peregrine&rsquo;s Home for Peculiar Children</li>
-<li>Miss Peregrine&rsquo;s Home for Peculiar Children - Hollow City</li>
-<li>Miss Peregrine&rsquo;s Home for Peculiar Children - Library of Souls</li>
-<li>Miss Peregrine&rsquo;s Home for Peculiar Children - A Map of Days</li>
-<li>Miss Peregrine&rsquo;s Home for Peculiar Children - The Conference of the Birds</li>
-<li>Miss Peregrine&rsquo;s Home for Peculiar Children - The Desolations of Devil&rsquo;s Acre</li>
-<li>Tales of the Peculiar</li>
-</ul>
-</div>
-</div>
 
-<div id="outline-container-orgeed9f01" class="outline-4">
-<h4 id="orgeed9f01">Cover sample</h4>
-<div class="outline-text-4" id="text-orgeed9f01">
 
-<div id="orge6d746f" class="figure">
-<p><img src="https://luispengler.github.io/site/doc/images/missperegrines.jpg" alt="missperegrines.jpg" title="Double-slit" style="margin-left: auto;margin-right: auto;background-color: mintcream;display: block;width: 50%;" />
-</p>
-</div>
-</div>
-</div>
-
-<div id="outline-container-org0f2af47" class="outline-4">
-<h4 id="org0f2af47">Description</h4>
-<div class="outline-text-4" id="text-org0f2af47">
+<div id="outline-container-org767ac1a" class="outline-2">
+<h2 id="org767ac1a">This collection</h2>
+<div class="outline-text-2" id="text-org767ac1a">
 <p>
-&ldquo;A mysterious island. An abandoned orphanage. A strange collection of vintage photography. It all waits to be discovered in Miss Peregrine’s Home for Peculiar Children, a spine-tingling YA fantasy illustrated with haunting black-and-white photography. The hardcover edition spent more than 52 consecutive weeks on the New York Times Best-Seller List. This beautifully designed paperback edition features an exclusive interview with author Ransom Riggs and a sneak preview of the upcoming Miss Peregrine novel.&rdquo;
+This is basically a summary from <a href="https://www.youtube.com/watch?v=fNk_zzaMoSs&amp;list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab">Essence of Linear Algebra: A Video Playlist by 3Blue1Brown</a>
+</p>
+
+<p>
+I plan on digging down on Linear Algebra soon and so, I will probably have another (and more advanced) summary for you to read in the future :)
 </p>
 </div>
 </div>
+
+<div id="outline-container-org8e781b4" class="outline-2">
+<h2 id="org8e781b4">Why Linear Algebra</h2>
+<div class="outline-text-2" id="text-org8e781b4">
+<p>
+<a href="https://medium.com/@jeremyjkun/here-s-just-a-fraction-of-what-you-can-do-with-linear-algebra-633383d4153f">Here’s just a fraction of what you can do with linear algebra</a>
+</p>
+
+<p>
+The article above should explain everything, I am lazy to type it all here xD
+</p>
+
+<p>
+But the reason why I am interested in learning this is because linear algebra is a tool every physicist either in particle physics or in quantum mechanics should know.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org884f180" class="outline-2">
+<h2 id="org884f180">What is a vector</h2>
+<div class="outline-text-2" id="text-org884f180">
+<ul class="org-ul">
+<li>You can see it from 3 perspectives: Physics, Mathematics, Computer Science
+<ul class="org-ul">
+<li>Physics: Vectors are arrows pointing in space and they are defined by their length and the direction they are pointing towards to. As long as these are the same, no matter where in space they are. They are the same.</li>
+<li>Computer Science: Vectores are defined in a matrix. In here, vector is just a fancy word for list.</li>
+</ul></li>
+</ul>
+<p>
+\[\begin{bmatrix}Item a\\Item b\end{bmatrix}\]
+</p>
+<ul class="org-ul">
+<li>Math: In Linear algebra, it&rsquo;s almost always the case that the vector will be rooted to the origin.</li>
+</ul>
 </div>
 </div>
 </div>

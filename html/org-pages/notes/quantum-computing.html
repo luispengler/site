@@ -6,9 +6,9 @@
 <!-- 2022-03-01 Tue 11:05 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Week 5 - my notes</title>
+<title>An introduction to Quantum computing - my notes.</title>
 <meta name="author" content="Luís Spengler" />
-<meta name="description" content="Week 5 - my notes" />
+<meta name="description" content="An introduction to Quantum computing (QubitxQubit) - my notes" />
 <meta name="generator" content="Org Mode" />
 <style>
   #content { max-width: 60em; margin: auto; }
@@ -200,182 +200,203 @@
 <script src="httpss://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="https://luispengler.github.io/site/org-html-themes/src/lib/js/jquery.stickytableheaders.min.js"></script>
 <script type="text/javascript" src="https://luispengler.github.io/site/org-html-themes/src/readtheorg_theme/js/readtheorg.js"></script>
-<script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-        displayAlign: "center",
-        displayIndent: "0em",
-
-        "HTML-CSS": { scale: 100,
-                        linebreaks: { automatic: "false" },
-                        webFont: "TeX"
-                       },
-        SVG: {scale: 100,
-              linebreaks: { automatic: "false" },
-              font: "TeX"},
-        NativeMML: {scale: 100},
-        TeX: { equationNumbers: {autoNumber: "AMS"},
-               MultLineWidth: "85%",
-               TagSide: "right",
-               TagIndent: ".8em"
-             }
-});
-</script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML"></script>
 </head>
 <body>
 <div id="content" class="content">
-<h1 class="title">Week 5 - my notes</h1>
+<h1 class="title">An introduction to Quantum computing - my notes.</h1>
 <div id="table-of-contents" role="doc-toc">
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#org195d4e0">Week 5 (Qubit by Qubit)</a>
-<ul>
-<li><a href="#orgf759ff5">RECAP</a></li>
-<li><a href="#orgdf1dbb1">Z gate</a></li>
-<li><a href="#orgaff0a34">Quantum measurements</a></li>
-<li><a href="#org404a644">Wave-particle duality and measurement</a></li>
-<li><a href="#org41a23fc">IQX circuit composer</a></li>
-<li><a href="#org2526a12">A Theory</a></li>
-<li><a href="#org7672812">Resources</a></li>
-</ul>
-</li>
+<li><a href="#org3689d15">This collection</a></li>
+<li><a href="#orgc26358f">Resources</a></li>
 </ul>
 </div>
 </div>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
-<div id="outline-container-org195d4e0" class="outline-2">
-<h2 id="org195d4e0">Week 5 (Qubit by Qubit)</h2>
-<div class="outline-text-2" id="text-org195d4e0">
-</div>
-<div id="outline-container-orgf759ff5" class="outline-3">
-<h3 id="orgf759ff5">RECAP</h3>
-<div class="outline-text-3" id="text-orgf759ff5">
-</div>
-<div id="outline-container-org741f404" class="outline-4">
-<h4 id="org741f404">The Bloch Sphere:</h4>
-<div class="outline-text-4" id="text-org741f404">
-<ul class="org-ul">
-<li>State on the top: \(|0\rangle\)</li>
-<li>State on the bottom: \(|1\rangle\)</li>
-<li>State pointing torwards: \(|+\rangle\)</li>
-<li>State pointing backwards: \(|-\rangle\)</li>
-</ul>
-</div>
-</div>
 
-<div id="outline-container-org6c465d5" class="outline-4">
-<h4 id="org6c465d5">Quantum gates:</h4>
-<div class="outline-text-4" id="text-org6c465d5">
-<ul class="org-ul">
-<li>X gate</li>
-<li>Hadamard gate</li>
-</ul>
-</div>
-</div>
-</div>
+<colgroup>
+<col  class="org-left" />
 
-<div id="outline-container-orgdf1dbb1" class="outline-3">
-<h3 id="orgdf1dbb1">Z gate</h3>
-<div class="outline-text-3" id="text-orgdf1dbb1">
-<ul class="org-ul">
-<li>The Z gate does a 180º rotation around the Z axis (like a carrosel)</li>
-<li>Z axis is the one pointing upwards.</li>
-</ul>
-</div>
+<col  class="org-left" />
 
-<div id="outline-container-org8f5332b" class="outline-4">
-<h4 id="org8f5332b">Rules:</h4>
-<div class="outline-text-4" id="text-org8f5332b">
-<ul class="org-ul">
-<li>If we apply the Z gate to the \(|0\rangle\) state, nothing will change because the \(|0\rangle\) lies on the Z axis.</li>
-<li>Applying it to a superpostion makes more sense: \(|+\rangle\) becomes \(|-\rangle\) and \(|+\rangle\) becomes \(|-\rangle\)</li>
-<li>If we apply the Z gate to the \(|1\rangle\) state, it becomes \(-|1\rangle\) (Changing its fase, subject for next week!!!)</li>
-</ul>
-</div>
-</div>
-</div>
+<col  class="org-left" />
 
-<div id="outline-container-orgaff0a34" class="outline-3">
-<h3 id="orgaff0a34">Quantum measurements</h3>
-<div class="outline-text-3" id="text-orgaff0a34">
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left"><a href="https://luispengler.github.io/site/html/org-pages/qc/week0.html">week0</a></td>
+<td class="org-left"><a href="https://luispengler.github.io/site/html/org-pages/qc/week1.html">week1</a></td>
+<td class="org-left"><a href="https://luispengler.github.io/site/html/org-pages/qc/week2.html">week2</a></td>
+<td class="org-left"><a href="https://luispengler.github.io/site/html/org-pages/qc/week3.html">week3</a></td>
+<td class="org-left"><a href="https://luispengler.github.io/site/html/org-pages/qc/week4.html">week4</a></td>
+<td class="org-left"><a href="https://luispengler.github.io/site/html/org-pages/qc/week5.html">week5</a></td>
+<td class="org-left"><a href="https://luispengler.github.io/site/html/org-pages/qc/week6.html">week6</a></td>
+<td class="org-left"><a href="https://luispengler.github.io/site/html/org-pages/qc/week7.html">week7</a></td>
+<td class="org-left"><a href="https://luispengler.github.io/site/html/org-pages/qc/week8.html">week8</a></td>
+<td class="org-left"><a href="https://luispengler.github.io/site/html/org-pages/qc/week9.html">week9</a></td>
+<td class="org-left"><a href="https://luispengler.github.io/site/html/org-pages/qc/week10.html">week10</a></td>
+<td class="org-left"><a href="https://luispengler.github.io/site/html/org-pages/qc/week11.html">week11</a></td>
+</tr>
+</tbody>
+</table>
+
+<div id="org005eb97" class="figure">
+<p><img src="https://luispengler.github.io/site/doc/images/qubit.jpg" alt="qubit.jpg" title="Double-slit" style="margin-left: auto;margin-right: auto;background-color: mintcream;display: block;width: 100%;" />
+</p>
+</div>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left"><a href="https://luispengler.github.io/site/html/org-pages/qc1/week12.html">week12</a></td>
+<td class="org-left"><a href="https://luispengler.github.io/site/html/org-pages/qc1/week13.html">week13</a></td>
+<td class="org-left"><a href="https://luispengler.github.io/site/html/org-pages/qc1/week14.html">week14</a></td>
+<td class="org-left"><a href="https://luispengler.github.io/site/html/org-pages/qc1/week15.html">week15</a></td>
+<td class="org-left"><a href="https://luispengler.github.io/site/html/org-pages/qc1/week16.html">week16</a></td>
+<td class="org-left"><a href="https://luispengler.github.io/site/html/org-pages/qc1/week17.html">week17</a></td>
+<td class="org-left"><a href="https://luispengler.github.io/site/html/org-pages/qc1/week18.html">week18</a></td>
+<td class="org-left"><a href="https://luispengler.github.io/site/html/org-pages/qc1/week19.html">week19</a></td>
+<td class="org-left"><a href="https://luispengler.github.io/site/html/org-pages/qc1/week20.html">week20</a></td>
+<td class="org-left"><a href="https://luispengler.github.io/site/html/org-pages/qc1/week21.html">week21</a></td>
+<td class="org-left"><a href="https://luispengler.github.io/site/html/org-pages/qc1/week22.html">week22</a></td>
+<td class="org-left"><a href="https://luispengler.github.io/site/html/org-pages/qc1/week23.html">week23</a></td>
+</tr>
+</tbody>
+</table>
+
+<div id="outline-container-org3689d15" class="outline-2">
+<h2 id="org3689d15">This collection</h2>
+<div class="outline-text-2" id="text-org3689d15">
+<p>
+This notes page is about all my notes taken throughout this whole course.
+</p>
 <ul class="org-ul">
-<li>We need to measure the qubits so we can understand what state they are in.</li>
-<li>By observing (measuring) a quantum state, we can change it.</li>
-<li>The outcome of a quantum measurement is oftem random.
+<li>What is this course?
 <ul class="org-ul">
-<li>We don&rsquo;t know why this happens, but it is scientifically proven.</li>
+<li>This is &ldquo;Introduction to Quantum Computing&rdquo;, made by The Coding School (TCS) as a result of a partnership with IBM Quantum.</li>
 </ul></li>
-<li>When we measure a quantum circuit you are asking if it is either in \(|0\rangle\) or \(|1\rangle\) state.</li>
-</ul>
-</div>
-
-<div id="outline-container-org72d1f8b" class="outline-4">
-<h4 id="org72d1f8b">Quantum Circuit model</h4>
-<div class="outline-text-4" id="text-org72d1f8b">
+<li>Who is this for?
 <ul class="org-ul">
-<li>The quantum circuit model shows us three parts of a quantum circuit</li>
-<li>States, Gates, Measurement
-<ul class="org-ul">
-<li>Measurement is a crucial state (without it, we don&rsquo;t get an answer and the goal here is to get an answer!)</li>
+<li>Mainly High School students. But if you are not a High School student anymore, you can check out this <a href="https://qiskit.org/learn/intro-qc-qh/">course</a> instead.</li>
 </ul></li>
-<li>The dial symbol (insert image later!!!!!!!!!) is how we represent measurements in a circuit.</li>
+<li>How do I apply?
+<ul class="org-ul">
+<li>Personally, the first time I heard of this was through a friend and he showed me <a href="https://www.instagram.com/the_coding_school/">their instagram page</a> (where they made the course&rsquo;s annoucement)</li>
+<li>So I would say, wait for it to open again (usually around august each year). However, I am not 100% sure if they are planning on opening new classes - why not tho?</li>
+<li>The course goes from September until April (at least 22&rsquo; was)</li>
+</ul></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org8ade47b" class="outline-4">
-<h4 id="org8ade47b">Some results</h4>
-<div class="outline-text-4" id="text-org8ade47b">
+<div id="outline-container-orgc26358f" class="outline-2">
+<h2 id="orgc26358f">Resources</h2>
+<div class="outline-text-2" id="text-orgc26358f">
 <ul class="org-ul">
-<li>Input: \(|0\rangle\), you measure it and it is \(|0\rangle\)</li>
-<li>Input: \(|1\rangle\), you measure it and it is \(|1\rangle\)</li>
-<li>Measuring a superpostion it is fundamentally random. It can be either \(|0\rangle\) or \(|1\rangle\) at any measurement (the act of measuring itself changes the result). This is known as <b>collapse</b> or <b>wave-function collapse</b>.</li>
+<li>A small collection of resources I gathered</li>
 </ul>
 </div>
-</div>
-</div>
-
-<div id="outline-container-org404a644" class="outline-3">
-<h3 id="org404a644">Wave-particle duality and measurement</h3>
-<div class="outline-text-3" id="text-org404a644">
+<div id="outline-container-orgf490005" class="outline-3">
+<h3 id="orgf490005">Videos</h3>
+<div class="outline-text-3" id="text-orgf490005">
 <ul class="org-ul">
-<li>Qubits can be represented as waves too.</li>
-<li>Q: Just like the dirac notation and the bloch sphere notation, is there a way of representing qubits as waves using notations? or is it useful to do so?</li>
-<li>A: Typically the Dirac notation is used to talk about wavefunctions</li>
-<li>Measurement inherently affects the wavefunction of your quantum object.</li>
-<li>Just like to determine the probability of a coin being heads or tails, you measure again and again (hundreds, thousands, or even tens of thousands of times), to find a probability.</li>
-<li>Quote Richard Feynman about probability.</li>
-<li>Article: Using the un Bob Yirka</li>
-<li>: What if the reason quantum states change when we measure them is because just like in real world we see objects and things using light (light reflects on something and comes to our eyes). The point is, light kinda touches the object. A quantum state is so sensible to the envirorment that its nature is changed by any means of interactions</li>
+<li><a href="https://www.youtube.com/playlist?list=PLR3IPFP-OywS3nMoKLJcEpeHfQRsT7QKR">Quantum Computing playlist</a></li>
+<li><a href="https://www.youtube.com/watch?v=fNk_zzaMoSs&amp;list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab">Essence of Linear Algebra: A Video Playlist by 3Blue1Brown</a></li>
+<li><a href="https://youtube.com/playlist?list=PLZHQObOWTQDP5CVelJJ1bNDouqrAhVPev">Loockdown Math: A Video Playlist by 3Blue1Brown</a></li>
+<li><a href="https://www.youtube.com/watch?v=JQBRzsPhw2w">Logic Gates, Truth Tables, Boolean Algebra AND, OR, NOT, NAND &amp; NOR</a></li>
+<li><a href="https://www.qutube.nl/fundamentals-11/how-to-measure-in-any-basis-167">Measuring qubits in any basis</a></li>
+<li><a href="https://www.youtube.com/watch?v=owPC60Ue0BE">Video on the no-cloning theorem</a></li>
+<li><a href="https://www.youtube.com/watch?v=9aOLwjUZLm0&amp;list=WL">Quantum Computing with trapped ions</a></li>
+<li><a href="https://www.youtube.com/watch?v=c0VMhcjZ3lw&amp;list=WL&amp;index=37">The Emerging Quantum Computing Sector</a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org41a23fc" class="outline-3">
-<h3 id="org41a23fc">IQX circuit composer</h3>
-<div class="outline-text-3" id="text-org41a23fc">
+
+<div id="outline-container-orge990efb" class="outline-3">
+<h3 id="orge990efb">Books</h3>
+<div class="outline-text-3" id="text-orge990efb">
 <ul class="org-ul">
-<li>In IBM quantum experience you can find it: <a href="https://quantum-computing.ibm.com/composer/">https://quantum-computing.ibm.com/composer/</a></li>
-</ul>
-</div>
-</div>
-<div id="outline-container-org2526a12" class="outline-3">
-<h3 id="org2526a12">A Theory</h3>
-<div class="outline-text-3" id="text-org2526a12">
-<ul class="org-ul">
-<li>What if the reason quantum states change when we measure them is because just like in real world we see objects and things using light (light reflects on something and comes to our eyes). The point is, light kinda touches the object. A quantum state is so sensible to the envirorment that its nature is changed by any means of interactions with matter and the simple act of looking (measuring it) at it changes it. So, nowadays there is no way of measuring a quantum state without making a particle or wave touch this quantum object, therefore the measurement property of changing results will continue to occur.</li>
+<li>Life on the Edge: The Coming of Age of Quantum Biology</li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org7672812" class="outline-3">
-<h3 id="org7672812">Resources</h3>
-<div class="outline-text-3" id="text-org7672812">
+<div id="outline-container-orgbb8a586" class="outline-3">
+<h3 id="orgbb8a586">Tools</h3>
+<div class="outline-text-3" id="text-orgbb8a586">
+<ul class="org-ul">
+<li><a href="https://qrng.anu.edu.au/">Quantum random numbers</a></li>
+<li><a href="https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/index.htm">Linear Algebra, MIT OCW</a></li>
+<li><a href="https://lab.quantumflytrap.com/lab/bb84">QKD implemented on Quantum Flytrap</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org06558ff" class="outline-3">
+<h3 id="org06558ff">Articles</h3>
+<div class="outline-text-3" id="text-org06558ff">
 <ul class="org-ul">
 <li><a href="https://www.forbes.com/sites/startswithabang/2020/12/10/does-making-a-quantum-measurement-really-destroy-information/">Does Making A Quantum Measurement Really Destroy Information?</a></li>
-<li><a href="https://phys.org/news/2020-02-scientists-quantum.html">Scientists &rsquo;film&rsquo; a quantum measurement</a></li>
+<li><a href="https://arxiv.org/abs/1507.05255https://phys.org/news/2020-02-scientists-quantum.html">On the quantum measurement problem</a></li>
 <li><a href="http://backreaction.blogspot.com/2019/10/what-is-quantum-measurement-problem.html">What is the quantum measurement problem?</a></li>
+<li><a href="https://phys.org/news/2020-02-scientists-quantum.html">Scientists &rsquo;film&rsquo; a quantum measurement</a></li>
+<li><a href="https://medium.com/@jeremyjkun/here-s-just-a-fraction-of-what-you-can-do-with-linear-algebra-633383d4153f">Here’s just a fraction of what you can do with linear algebra, Jeremy Kun (Article)</a></li>
+<li><a href="https://siliconangle.com/2021/11/15/ibm-debuts-new-eagle-quantum-processor-127-qubits/">IBM debuts new quantum processor with 127 qubits</a></li>
+<li><a href="https://www.axios.com/ibm-quantum-computing-axios-hbo-bd9d50b7-3c11-4586-bdb1-8bbc9928ad1b.html">Exclusive: IBM achieves quantum computing breakthrough</a></li>
+<li><a href="https://daily.jstor.org/the-quantum-random-number-generator/">The Quantum Random Number Generator</a></li>
+<li><a href="https://plato.stanford.edu/entries/qt-issues/">Philosophical Issues in Quantum Theory</a></li>
+<li><a href="https://www.norwegiancreations.com/2018/11/introduction-to-quantum-cryptography/">Intro to quantum cryptography</a></li>
+<li><a href="https://qiskit.org/textbook/ch-gates/multiple-qubits-entangled-states.html">Qiskit textbook page on multiple qubits and entanglement</a></li>
+<li><a href="https://threeplusone.com/pubs/on_gates.pdf">Notes on gates, states, circuits</a></li>
+<li><a href="https://www.nature.com/articles/s41467-018-03059-5">A CNOT gate between multiphoton qubits encoded in two cavities</a></li>
+<li><a href="https://docs.microsoft.com/en-us/azure/quantum/concepts-multiple-qubits">Tensor products for qubit states and gates</a></li>
+<li><a href="https://www.math3ma.com/blog/the-tensor-product-demystified">Linear algebra of tensor products</a></li>
 </ul>
 </div>
 </div>
