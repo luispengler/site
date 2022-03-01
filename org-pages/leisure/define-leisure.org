@@ -1,0 +1,13 @@
+#+TITLE: Leisure - Organizing my favorite leisure activities
+#+DESCRIPTION: luispengler.github.io/site - Official Site of Luís Spengler
+#+SETUPFILE:  https://luispengler.github.io/site/org-html-themes/org/theme-readtheorg.setup
+#+OPTIONS: num:nil ^:{}
+
+
+* Checklists
++ [[https://luispengler.github.io/site/html/org-pages/leisure/dc.html][DC's arrowverse]]: "/The Arrowverse is an American superhero media franchise and a shared universe that is centered on various interconnected television series based on DC Comics superhero characters, primarily airing on The CW as well as web series on CW Seed./"
+
++ [[https://luispengler.github.io/site/html/org-pages/leisure/movies.html][Carlinda Movies]]: "/A selection of movies I plan on watching someday./"
+
+* Accomplished tasks
++ [[https://luispengler.github.io/site/html/org-pages/leisure/books.html][Books I've read]]: "/All books I've read starting from 2022 are here./"

@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2022-03-01 Tue 10:45 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Carlinda movies</title>
+<meta name="author" content="Luís Spengler" />
+<meta name="description" content="luispengler.github.io/site - Carlinda movies" />
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+</style>
+<link rel="stylesheet" type="text/css" href="https://luispengler.github.io/site/org-html-themes/src/readtheorg_theme/css/htmlize.css"/>
+<link rel="stylesheet" type="text/css" href="https://luispengler.github.io/site/org-html-themes/src/readtheorg_theme/css/readtheorg.css"/>
+<script src="httpss://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="httpss://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://luispengler.github.io/site/org-html-themes/src/lib/js/jquery.stickytableheaders.min.js"></script>
+<script type="text/javascript" src="https://luispengler.github.io/site/org-html-themes/src/readtheorg_theme/js/readtheorg.js"></script>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">Carlinda movies</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org03f68aa">Watch the Franchises <code>[6%]</code> <code>[2/31]</code></a></li>
+<li><a href="#orgfa40920">Isolated Movie <code>[7%]</code> <code>[2/28]</code></a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org03f68aa" class="outline-2">
+<h2 id="org03f68aa">Watch the Franchises <code>[6%]</code> <code>[2/31]</code></h2>
+<div class="outline-text-2" id="text-org03f68aa">
+<ul class="org-ul">
+<li class="on"><code>[X]</code> Harry Potter <code>[9/9]</code>
+<ul class="org-ul">
+<li class="on"><code>[X]</code> Harry Potter and the sorcerer&rsquo;s stone</li>
+<li class="on"><code>[X]</code> Harry Potter and the chamber of secrets</li>
+<li class="on"><code>[X]</code> Harry Potter and the prizioner of azkaban</li>
+<li class="on"><code>[X]</code> Harry Potter and the globet of fire</li>
+<li class="on"><code>[X]</code> Harry Potter and the order of the phoenix</li>
+<li class="on"><code>[X]</code> Harry Potter and half-blood prince</li>
+<li class="on"><code>[X]</code> Harry Potter and the deathly hallows pt.1</li>
+<li class="on"><code>[X]</code> Harry Potter and the deathly hallows pt.2</li>
+<li class="on"><code>[X]</code> Fantastic Beasts and where to find them</li>
+</ul></li>
+
+<li class="on"><code>[X]</code> Percy Jackson <code>[2/2]</code>
+<ul class="org-ul">
+<li class="on"><code>[X]</code> Percy Jackson: The lightning thief</li>
+<li class="on"><code>[X]</code> Percy Jackson: Sea of monsters</li>
+</ul></li>
+
+<li class="trans"><code>[-]</code> Indiana Jones <code>[2/5]</code>
+<ul class="org-ul">
+<li class="on"><code>[X]</code> Indiana Jones and the Temple of Doom (1984)</li>
+<li class="on"><code>[X]</code> Indiana Jones and the Raiders of the Lost Ark (1981)</li>
+<li class="off"><code>[&#xa0;]</code> Indiana Jones and the Last Crusade (1989)</li>
+<li class="off"><code>[&#xa0;]</code> Indiana Jones and the Kingdom of the Crystal Skull (2008)</li>
+<li class="off"><code>[&#xa0;]</code> The Young Indiana Jones Chronicles</li>
+</ul></li>
+
+<li class="off"><code>[&#xa0;]</code> Fast &amp; Furious <code>[0/9]</code>
+<ul class="org-ul">
+<li class="off"><code>[&#xa0;]</code> Fast &amp; Furious 1</li>
+<li class="off"><code>[&#xa0;]</code> Fast &amp; Furious 2</li>
+<li class="off"><code>[&#xa0;]</code> Fast &amp; Furious 3</li>
+<li class="off"><code>[&#xa0;]</code> Fast &amp; Furious 4</li>
+<li class="off"><code>[&#xa0;]</code> Fast &amp; Furious 5</li>
+<li class="off"><code>[&#xa0;]</code> Fast &amp; Furious 6</li>
+<li class="off"><code>[&#xa0;]</code> Fast &amp; Furious 7</li>
+<li class="off"><code>[&#xa0;]</code> Fast &amp; Furious 8</li>
+<li class="off"><code>[&#xa0;]</code> Fast &amp; Furious 9</li>
+</ul></li>
+
+<li class="off"><code>[&#xa0;]</code> Toy Story <code>[0/3]</code>
+<ul class="org-ul">
+<li class="off"><code>[&#xa0;]</code> Toy Story 1</li>
+<li class="off"><code>[&#xa0;]</code> Toy Story 2</li>
+<li class="off"><code>[&#xa0;]</code> Toy Story 3</li>
+</ul></li>
+
+<li class="off"><code>[&#xa0;]</code> Ice Age <code>[0/4]</code>
+<ul class="org-ul">
+<li class="off"><code>[&#xa0;]</code> Ice Age 1</li>
+<li class="off"><code>[&#xa0;]</code> Ice Age 2</li>
+<li class="off"><code>[&#xa0;]</code> Ice Age 3</li>
+<li class="off"><code>[&#xa0;]</code> Ice Age 4</li>
+</ul></li>
+
+<li class="off"><code>[&#xa0;]</code> Shrek <code>[0/4]</code>
+<ul class="org-ul">
+<li class="off"><code>[&#xa0;]</code> Sherek 1</li>
+<li class="off"><code>[&#xa0;]</code> Sherek 2</li>
+<li class="off"><code>[&#xa0;]</code> Sherek third</li>
+<li class="off"><code>[&#xa0;]</code> Sherek forever</li>
+</ul></li>
+
+<li class="off"><code>[&#xa0;]</code> Despicable Me <code>[0/4]</code>
+<ul class="org-ul">
+<li class="off"><code>[&#xa0;]</code> Minions</li>
+<li class="off"><code>[&#xa0;]</code> Despicable Me</li>
+<li class="off"><code>[&#xa0;]</code> Despicable Me 2</li>
+<li class="off"><code>[&#xa0;]</code> Despicable Me 3</li>
+</ul></li>
+
+<li class="off"><code>[&#xa0;]</code> Wrect-It Ralph <code>[0/2]</code>
+<ul class="org-ul">
+<li class="off"><code>[&#xa0;]</code> Wrect-It Ralph</li>
+<li class="off"><code>[&#xa0;]</code> Wifi Raplh: breaking the internet</li>
+</ul></li>
+
+<li class="off"><code>[&#xa0;]</code> The chronicles of narnia <code>[0/3]</code>
+<ul class="org-ul">
+<li class="off"><code>[&#xa0;]</code> The chronicles of narnia: The lion, the witch and the wardrobe</li>
+<li class="off"><code>[&#xa0;]</code> Prince caspian and the Voyage of the Dawn Treader</li>
+<li class="off"><code>[&#xa0;]</code> The silver chair</li>
+</ul></li>
+
+<li class="off"><code>[&#xa0;]</code> Alice <code>[0/2]</code>
+<ul class="org-ul">
+<li class="off"><code>[&#xa0;]</code> Alice&rsquo;s adventures in the wonderland</li>
+<li class="off"><code>[&#xa0;]</code> Alice through the looking glass</li>
+</ul></li>
+
+<li class="off"><code>[&#xa0;]</code> Planet of the Apes <code>[0/4]</code>
+<ul class="org-ul">
+<li class="off"><code>[&#xa0;]</code> Planet of the Apes</li>
+<li class="off"><code>[&#xa0;]</code> Beaneth the planet of the apes</li>
+<li class="off"><code>[&#xa0;]</code> Escape from the planet of the apes</li>
+<li class="off"><code>[&#xa0;]</code> Conquest of the planet of the apes</li>
+</ul></li>
+
+<li class="off"><code>[&#xa0;]</code> Resident Evil <code>[0/6]</code>
+<ul class="org-ul">
+<li class="off"><code>[&#xa0;]</code> Resident Evil</li>
+<li class="off"><code>[&#xa0;]</code> Apocalipse</li>
+<li class="off"><code>[&#xa0;]</code> A extinção</li>
+<li class="off"><code>[&#xa0;]</code> Recomeço</li>
+<li class="off"><code>[&#xa0;]</code> Retribuição</li>
+<li class="off"><code>[&#xa0;]</code> Resident Evil captulo final</li>
+</ul></li>
+
+<li class="off"><code>[&#xa0;]</code> Mission: Impossible <code>[0/7]</code>
+<ul class="org-ul">
+<li class="off"><code>[&#xa0;]</code> Mission: Impossible vs the Mob</li>
+<li class="off"><code>[&#xa0;]</code> Mission: Impossible 2</li>
+<li class="off"><code>[&#xa0;]</code> Mission: Impossible 3</li>
+<li class="off"><code>[&#xa0;]</code> Mission: Impossible - Ghost protocol</li>
+<li class="off"><code>[&#xa0;]</code> Mission: Impossible - Rogue nation</li>
+<li class="off"><code>[&#xa0;]</code> Mission: Impossible - fallout</li>
+<li class="off"><code>[&#xa0;]</code> Mission: Impossible 7</li>
+</ul></li>
+
+<li class="off"><code>[&#xa0;]</code> Now you see me <code>[0/3]</code>
+<ul class="org-ul">
+<li class="off"><code>[&#xa0;]</code> Now you see me</li>
+<li class="off"><code>[&#xa0;]</code> Now you see me 2</li>
+<li class="off"><code>[&#xa0;]</code> Now you see me 3</li>
+</ul></li>
+
+<li class="off"><code>[&#xa0;]</code> The Hunger Games <code>[0/4]</code>
+<ul class="org-ul">
+<li class="off"><code>[&#xa0;]</code> The Hunger Games</li>
+<li class="off"><code>[&#xa0;]</code> The Hunger Games: Catching Fire</li>
+<li class="off"><code>[&#xa0;]</code> The Hunger Games: Mockingjay - Part 1</li>
+<li class="off"><code>[&#xa0;]</code> The Hunger Games: Mockingjay - Part 2</li>
+</ul></li>
+
+<li class="off"><code>[&#xa0;]</code> Divergente <code>[0/3]</code>
+<ul class="org-ul">
+<li class="off"><code>[&#xa0;]</code> Divergente</li>
+<li class="off"><code>[&#xa0;]</code> Divergente consergente</li>
+<li class="off"><code>[&#xa0;]</code> Divergente insurgente</li>
+</ul></li>
+
+<li class="off"><code>[&#xa0;]</code> After <code>[0/2]</code>
+<ul class="org-ul">
+<li class="off"><code>[&#xa0;]</code> After 1</li>
+<li class="off"><code>[&#xa0;]</code> After: depois do desencontro</li>
+</ul></li>
+
+<li class="off"><code>[&#xa0;]</code> Crepúsculo <code>[0/4]</code>
+<ul class="org-ul">
+<li class="off"><code>[&#xa0;]</code> Crepúsculo eclipse</li>
+<li class="off"><code>[&#xa0;]</code> Crepúsculo Lua nova</li>
+<li class="off"><code>[&#xa0;]</code> Crepúsculo amanhecer parte 1</li>
+<li class="off"><code>[&#xa0;]</code> Crepúsculo amanhecer parte 2</li>
+</ul></li>
+
+<li class="off"><code>[&#xa0;]</code> Malévola <code>[0/2]</code>
+<ul class="org-ul">
+<li class="off"><code>[&#xa0;]</code> Malévola</li>
+<li class="off"><code>[&#xa0;]</code> Malévola 2</li>
+</ul></li>
+
+<li class="off"><code>[&#xa0;]</code> Jurassic Park <code>[0/6]</code>
+<ul class="org-ul">
+<li class="off"><code>[&#xa0;]</code> Jurassic Park (1993)</li>
+<li class="off"><code>[&#xa0;]</code> The Lost World: Jurassic Park (1997)</li>
+<li class="off"><code>[&#xa0;]</code> Jurassic Park III (2001)</li>
+<li class="off"><code>[&#xa0;]</code> Jurassic World (2015)</li>
+<li class="off"><code>[&#xa0;]</code> Jurassic World: Fallen Kingdom (2018)</li>
+<li class="off"><code>[&#xa0;]</code> Jurassic World: Dominion (2022) – To Be Released.</li>
+</ul></li>
+
+<li class="off"><code>[&#xa0;]</code> Pirates of the Caribbean <code>[0/6]</code>
+<ul class="org-ul">
+<li class="off"><code>[&#xa0;]</code> Pirates of the Caribbean: Tales of the Code – Wedlocked (2011) – Short Movie</li>
+<li class="off"><code>[&#xa0;]</code> Pirates of the Caribbean: The Curse of the Black Pearl (2003)</li>
+<li class="off"><code>[&#xa0;]</code> Pirates of the Caribbean: Dead Man’s Chest (2006)</li>
+<li class="off"><code>[&#xa0;]</code> Pirates of the Caribbean: At World’s End (2007)</li>
+<li class="off"><code>[&#xa0;]</code> Pirates of the Caribbean: On Stranger Tides (2011)</li>
+<li class="off"><code>[&#xa0;]</code> Pirates of the Caribbean: Dead Men Tell No Tales (2017)</li>
+</ul></li>
+
+<li class="off"><code>[&#xa0;]</code> 007 <code>[0/27]</code>
+<ul class="org-ul">
+<li class="off"><code>[&#xa0;]</code> Dr. No (1962) - Sean Connery</li>
+<li class="off"><code>[&#xa0;]</code> From Russia with Love (1963) - Sean Connery</li>
+<li class="off"><code>[&#xa0;]</code> Goldfinger (1964) - Sean Connery</li>
+<li class="off"><code>[&#xa0;]</code> Thunderball (1965) - Sean Connery</li>
+<li class="off"><code>[&#xa0;]</code> Casino Royale (1967) - David Niven</li>
+<li class="off"><code>[&#xa0;]</code> You Only Live Twice (1967) - Sean Connery</li>
+<li class="off"><code>[&#xa0;]</code> On Her Majesty&rsquo;s Secret Service (1969) - George Lazenby</li>
+<li class="off"><code>[&#xa0;]</code> Diamonds Are Forever (1971) - Sean Connery</li>
+<li class="off"><code>[&#xa0;]</code> Live and Let Die (1973) - Roger Moore</li>
+<li class="off"><code>[&#xa0;]</code> The Man with the Golden Gun (1974) - Roger Moore</li>
+<li class="off"><code>[&#xa0;]</code> The Spy Who Loved Me (1977) - Roger Moore</li>
+<li class="off"><code>[&#xa0;]</code> Moonraker (1979) - Roger Moore</li>
+<li class="off"><code>[&#xa0;]</code> For Your Eyes Only (1981) - Roger Moore</li>
+<li class="off"><code>[&#xa0;]</code> Octopussy (1983) - Roger Moore</li>
+<li class="off"><code>[&#xa0;]</code> Never Say Never Again (1983) - Sean Connery</li>
+<li class="off"><code>[&#xa0;]</code> A View to a Kill (1985) - Roger Moore</li>
+<li class="off"><code>[&#xa0;]</code> The Living Daylights (1987) - Timothy Dalton</li>
+<li class="off"><code>[&#xa0;]</code> Licence to Kill (1989) - Timothy Dalton</li>
+<li class="off"><code>[&#xa0;]</code> GoldenEye (1995) - Pierce Brosnan</li>
+<li class="off"><code>[&#xa0;]</code> Tomorrow Never Dies (1997) - Pierce Brosnan</li>
+<li class="off"><code>[&#xa0;]</code> The World Is Not Enough (1999) - Pierce Brosnan</li>
+<li class="off"><code>[&#xa0;]</code> Die Another Day (2002) - Pierce Brosnan</li>
+<li class="off"><code>[&#xa0;]</code> Casino Royale (2006) - Daniel Craig</li>
+<li class="off"><code>[&#xa0;]</code> Quantum of Solace (2008) - Daniel Craig</li>
+<li class="off"><code>[&#xa0;]</code> Skyfall (2012) - Daniel Craig</li>
+<li class="off"><code>[&#xa0;]</code> Spectre (2015) - Daniel Craig</li>
+<li class="off"><code>[&#xa0;]</code> No Time to Die (2021) - Daniel Craig</li>
+</ul></li>
+
+<li class="off"><code>[&#xa0;]</code> Die Hard <code>[0/5]</code>
+<ul class="org-ul">
+<li class="off"><code>[&#xa0;]</code> Die Hard (1988)</li>
+<li class="off"><code>[&#xa0;]</code> Die Hard 2 (1990)</li>
+<li class="off"><code>[&#xa0;]</code> Die Hard with a Vengeance (1995)</li>
+<li class="off"><code>[&#xa0;]</code> Live Free or Die Hard (2007)</li>
+<li class="off"><code>[&#xa0;]</code> A Good Day to Die Hard (2013)</li>
+</ul></li>
+
+<li class="off"><code>[&#xa0;]</code> Matrix <code>[0/3]</code>
+<ul class="org-ul">
+<li class="off"><code>[&#xa0;]</code> The Matrix</li>
+<li class="off"><code>[&#xa0;]</code> The Matrix reloaded</li>
+<li class="off"><code>[&#xa0;]</code> The Matrix Revolutions</li>
+</ul></li>
+
+<li class="off"><code>[&#xa0;]</code> Star Wars <code>[0/11]</code>
+<ul class="org-ul">
+<li class="off"><code>[&#xa0;]</code> A New Hope (1977)</li>
+<li class="off"><code>[&#xa0;]</code> The Empire Strikes Back (1980)</li>
+<li class="off"><code>[&#xa0;]</code> Return of the Jedi (1983)</li>
+<li class="off"><code>[&#xa0;]</code> The Phantom Menace (1999)</li>
+<li class="off"><code>[&#xa0;]</code> Attack of the Clones (2002)</li>
+<li class="off"><code>[&#xa0;]</code> Revenge of the Sith (2005)</li>
+<li class="off"><code>[&#xa0;]</code> The Force Awakens (2015)</li>
+<li class="off"><code>[&#xa0;]</code> Rogue One (2016)</li>
+<li class="off"><code>[&#xa0;]</code> The Last Jedi (2017)</li>
+<li class="off"><code>[&#xa0;]</code> Solo (2018)</li>
+<li class="off"><code>[&#xa0;]</code> The Rise of Skywalker (2019)</li>
+</ul></li>
+
+<li class="off"><code>[&#xa0;]</code> Back to the future <code>[0/3]</code>
+<ul class="org-ul">
+<li class="off"><code>[&#xa0;]</code> Back to the future 1</li>
+<li class="off"><code>[&#xa0;]</code> Back to the future 2</li>
+<li class="off"><code>[&#xa0;]</code> Back to the future 3</li>
+</ul></li>
+
+<li class="off"><code>[&#xa0;]</code> The terminator <code>[0/6]</code>
+<ul class="org-ul">
+<li class="off"><code>[&#xa0;]</code> The terminator</li>
+<li class="off"><code>[&#xa0;]</code> The terminator 2: Judgment day</li>
+<li class="off"><code>[&#xa0;]</code> The terminator 3: Rise of the machines</li>
+<li class="off"><code>[&#xa0;]</code> Terminator Salvation</li>
+<li class="off"><code>[&#xa0;]</code> Terminator Genisys</li>
+<li class="off"><code>[&#xa0;]</code> Terminator: Dark Fate</li>
+</ul></li>
+
+<li class="off"><code>[&#xa0;]</code> MIB <code>[0/4]</code>
+<ul class="org-ul">
+<li class="off"><code>[&#xa0;]</code> Men in Black (1997)</li>
+<li class="off"><code>[&#xa0;]</code> Men in Black II (2002)</li>
+<li class="off"><code>[&#xa0;]</code> Men in Black 3 (2012)</li>
+<li class="off"><code>[&#xa0;]</code> Men in Black: International</li>
+</ul></li>
+
+<li class="off"><code>[&#xa0;]</code> Alien <code>[0/6]</code>
+<ul class="org-ul">
+<li class="off"><code>[&#xa0;]</code> Alien</li>
+<li class="off"><code>[&#xa0;]</code> Aliens</li>
+<li class="off"><code>[&#xa0;]</code> Alien 3</li>
+<li class="off"><code>[&#xa0;]</code> Alien Resurrection</li>
+<li class="off"><code>[&#xa0;]</code> Prometheus (2012)</li>
+<li class="off"><code>[&#xa0;]</code> Alien: Convenant</li>
+</ul></li>
+
+<li class="off"><code>[&#xa0;]</code> <p>
+Ghostbusters
+</p>
+<ul class="org-ul">
+<li class="off"><code>[&#xa0;]</code> Ghostbusters (1984)</li>
+<li class="off"><code>[&#xa0;]</code> Ghostbusters II (1989)</li>
+</ul>
+
+<p>
+<code>Rule:</code> After a franchise, watch an isolated movie
+</p></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgfa40920" class="outline-2">
+<h2 id="orgfa40920">Isolated Movie <code>[7%]</code> <code>[2/28]</code></h2>
+<div class="outline-text-2" id="text-orgfa40920">
+<ul class="org-ul">
+<li class="on"><code>[X]</code> Titanic</li>
+<li class="on"><code>[X]</code> Interestellar</li>
+<li class="off"><code>[&#xa0;]</code> World War Z</li>
+<li class="off"><code>[&#xa0;]</code> Caroline</li>
+<li class="off"><code>[&#xa0;]</code> Hacksaw Ridge</li>
+<li class="off"><code>[&#xa0;]</code> Unbroken</li>
+<li class="off"><code>[&#xa0;]</code> Mama</li>
+<li class="off"><code>[&#xa0;]</code> Rei Arthur e a lenda da espada</li>
+<li class="off"><code>[&#xa0;]</code> Gigantes de aço</li>
+<li class="off"><code>[&#xa0;]</code> Wall-e</li>
+<li class="off"><code>[&#xa0;]</code> As aventuras de Shark Boy e Lava Girl</li>
+<li class="off"><code>[&#xa0;]</code> Em ritmo de fuga</li>
+<li class="off"><code>[&#xa0;]</code> White Chicks</li>
+<li class="off"><code>[&#xa0;]</code> Fahrenheit 451</li>
+<li class="off"><code>[&#xa0;]</code> The Last Witch Hunter</li>
+<li class="off"><code>[&#xa0;]</code> The theory of everthing</li>
+<li class="off"><code>[&#xa0;]</code> Torre negra</li>
+<li class="off"><code>[&#xa0;]</code> The Martian</li>
+<li class="off"><code>[&#xa0;]</code> A lenda dos guardiões</li>
+<li class="off"><code>[&#xa0;]</code> Oxygen</li>
+<li class="off"><code>[&#xa0;]</code> A forma da água</li>
+<li class="off"><code>[&#xa0;]</code> A culpa é das estrelas</li>
+<li class="off"><code>[&#xa0;]</code> Simplesmente acontece</li>
+<li class="off"><code>[&#xa0;]</code> The lost city of Z</li>
+<li class="off"><code>[&#xa0;]</code> Questão de tempo</li>
+<li class="off"><code>[&#xa0;]</code> As vantagens de ser invisivel</li>
+<li class="off"><code>[&#xa0;]</code> A bela e a fera</li>
+<li class="off"><code>[&#xa0;]</code> Sombras da noite</li>
+<li class="off"><code>[&#xa0;]</code> Sing</li>
+<li class="off"><code>[&#xa0;]</code> Avatar</li>
+<li class="off"><code>[&#xa0;]</code> War horse</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Luís Spengler</p>
+<p class="date">Created: 2022-03-01 Tue 10:45</p>
+</div>
+</body>
+</html>
