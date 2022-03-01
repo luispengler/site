@@ -8,18 +8,21 @@ https://luispengler.github.io/site/doc/images/punk.png
 | [[https://luispengler.github.io/site/html/org-pages/notes/define-notes.html][Virtual Notebook]] | [[https://luispengler.github.io/site/html/doc/articles/index.html][ORI]] | [[https://luispengler.github.io/site/html/org-pages/leisure/define-leisure.html][Leisure]] |
 
 * About me
-My name Luís Spengler and at the moment I write this (02/01/2022) I am a Senior High School student, taking electrotechnics vacational program.
+Currently a High School senior, taking electrotechnology vacational program.
 
 I am interested in physics (mainly particle physics and quantum mechanics), and computer science (mainly [[https://www.gnu.org/philosophy/free-sw.en.html][free software]]).
+
 * About this website
 ** Content
-This is the main page of the website, therefore it makes sense to be the center of the webiste. Any action you can perform in the website, has a start in here.
+This is the main page of the website, therefore it makes sense to be the center of the webiste. Any action you can perform in the website, has a start here.
 
-At the top header, you can see a collection of links you can click on to be redirected to. You can also check out the portuguese version of it (coming soon!).
+At the top header, you can see a collection of links you can click on. You can also check out the portuguese version of it (coming soon!).
 
-In "[[https://luispengler.github.io/site/html/org-pages/notes.html][My notes]]" I host several (I will be expanding in the future...) notes on subjects I am interested in. It can be a great source of information if you are someone like me :)
+In "[[https://luispengler.github.io/site/html/org-pages/notes/define-notes.html][Virtual Notebook]]" I host my own virtual notebook, with notes on subjects I studying either alone or in school. It can be a great source of information if you are someone like me :)
 
-The other stuff are some lists I host to organize leisure time, such as my list on [[https://luispengler.github.io/site/html/org-pages/dc.html][arrowverse]], where I check my progess and a [[https://luispengler.github.io/site/html/org-pages/filmes.html][list of movies]] I watch with my girlfriend in the free time.
+In "[[https://luispengler.github.io/site/html/org-pages/leisure/define-leisure.html][Leisure]]" you can find
+
+In The other stuff are some lists I host to organize leisure time, such as my list on [[https://luispengler.github.io/site/html/org-pages/dc.html][arrowverse]], where I check my progess and a [[https://luispengler.github.io/site/html/org-pages/filmes.html][list of movies]] I watch with my girlfriend in the free time.
 
 ** Your rights
 Feel free to share this webpage, modify it and create your own version (and even use it commercially according to the license)

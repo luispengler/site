@@ -15,4 +15,27 @@ For nothing is better than being able to write, and read your notebook from anyw
 + [[https://luispengler.github.io/site/html/org-pages/notes/dave-on-modern-physics.html][Professor Dave on Modern Physics]]: "/Modern physics is a branch of physics that developed in the early 20th century and onward or branches greatly influenced by early 20th century physics./"
 
 * School/College subjects
-** 12th grade
+** 12th grade (in Portuguese -- I'm sorry)
++ [[https://luispengler.github.io/site/html/org-pages/notes/12th-grade/maquinas-eletricas-2.html][Máquinas Elétricas e Acionamentos 2]]: "/Máquina síncronas: Princípios de funcionamento (motor e gerador). Tipos de acionamentos. Efeito no Fator de Potência. Métodos de controle. Máquina de indução: princípio de funcionamento (Monofásico e Trifásicos). Partes construtivas. Tipos de Acionamentos. Máquinas e motores especiais/"
+
++ Biologia 4: "/Verminoses humanas. Morfofisiologia Humana básica: sistema digestório, sistema respiratório, sistema circulatório, sistema excretor, sistema nervoso. IST’S – Infecções sexualmente transmissíveis. Ecologia: conceitos básicos. Fluxo de energia, cadeias e teias tróficas. Relações ecológicas: harmônicas e desarmônicas. Sucessão ecológica. Ciclos biogeoquímicos. Poluições/"
+
++ Sistemas Digitais e Microcontrolados: "/Circuitos digitais sequenciais. Registradores e memórias. Microcontroladores: características, arquitetura básica e Tipos. Noções de Programação e instruções básicas. Softwares e Kits didáticos. Familiarização com esquemas eletroeletrônicos. Desenvolvimento de projetos e aplicações práticas com o Microcontrolador. Projetos aplicados: Desenvolvimento de projetos práticos aplicados, visando a sistematização do conhecimento/"
+
++ História 3: "/Trabalho e meio ambiente nas sociedades pré-industriais. Sociedades hidráulicas (Mesopotâmia e Egito). Escravidão na Antiguidade; Escravidão na modernidade; Escravidão e pós-abolição no Brasil. Os indígenas brasileiros e sua relação produtiva com a natureza. Servidão no período medieval. II - Terra, propriedade e conflitos. Propriedade privada e coletiva; Função social da terra. Feudalismo; Capitanias hereditárias; Lei de terras (1850).Início da República no Brasil; Movimentos sociais camponeses (Canudos, Contestado, MST). III - Trabalho, tecnologia e a sociedade capitalista. O que é Capitalismo? Primeira Revolução Industrial; Segunda Revolução Industrial e consequências contemporâneas. Trabalho infantil; Trabalho feminino; Lutas pelos direitos trabalhistas. Socialismo e Comunismo; Guerra Fria. Vargas e o trabalhismo, JK e a industrialização no Brasil. Sociedade de consumo. Meio Ambiente e Ecologia;/"
+
++ Língua Portuguesa e Literatura Brasileira 5: "/Leitura e produção de textos: leitura e escrita; gêneros textuais argumentativos da esfera jornalística. Reflexão linguística: produção textual e argumentação; competência leitora e habilidades de leitura; orações complexas e grupos oracionais; fatores/critérios de textualidade. Literatura de Língua Portuguesa: Modernismo; Literaturas africanas de língua portuguesa./"
+
++ Matemática 5: "/Geometria Plana. Polígonos regulares inscritos na circunferência. Área de regiões determinadas por polígonos. Área de regiões circulares. Geometria Espacial. Sólidos Geométricos. Poliedros (prismas e pirâmides). Corpos redondos (cones, cilindros, esfera/"
+
++ Química 4: "/Introdução à Química Orgânica. Funções Orgânicas. Isomeria plana e espacial. Reações Orgânicas. Polímeros/"
+
++ Pneumática e Hidráulica: "/Fundamentos da mecânica dos fluidos. Componentes hidráulicos e pneumáticos. Características e diferenças entre circuitos pneumáticos e hidráulicos. Linhas pneumáticas e hidráulicas. Automação com circuitos pneumáticos e hidráulicos./"
+
++ Instalações Elétricas Industriais: "/Luminotécnica: lâmpadas, luminárias e acessórios (reatores, relés fotoelétricos, sensores de presença, dimmers); Cálculo luminotécnico - Método dos Lúmens. Dados nominais de motores elétricos de indução; dimensionamento de condutores (Revisão e aplicação do Critério do Limite de Queda de Tensão); dimensionamentos de eletrocalhas; cálculo de demanda para dimensionamento de quadros de distribuição; noções de corrente de curto-circuito; dimensionamentos de disjuntores termomagnéticos através da análise de curvas de atuação./"
+
++ Instrumentação e Controle: "/Instrumentação Industrial. Processos (características). Principais Grandezas físicas na instrumentação Industrial. Classificação dos instrumentos. Simbologia na instrumentação (diagramas P&I). Conceitos básicos de controle de processos. Princípios de controle (malha aberta e fechada). Noções do controle (P, PI, PID). Sensores industriais. Condicionamento de sinais. O amplificador operacional e suas aplicações. Circuitos de condicionamento com o Amplificador operacional. Projetos práticos aplicados visando a sistematização do conhecimento/"
+
++ Meio Ambiente e Energias Renováveis: "/Conceito de Energia e fontes de energia. Política e Gestão ambiental de energias renováveis. Energias renováveis: conceitos gerais e tipos. Fundamentos da Energia Solar Fotovoltaica. Tecnologia Fotovoltaica: módulos, Arranjos, Células. Boas práticas em sistemas de geração fotovoltaica. Mercado de energia/"
+
++ Educação Física 5: "/Bases técnicas e táticas de esportes coletivos 4; atividade física e exercício físico 2; expressão corporal e atividades rítmicas 1; lutas 2./"

@@ -6,9 +6,9 @@
 <!-- 2022-03-01 Tue 13:21 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Arch - Things that need to be taken care of.</title>
+<title>Máquinas Elétricas e Acionamentos 2 - Meu caderno virtual</title>
 <meta name="author" content="Luís Spengler" />
-<meta name="description" content="Arch - Things that need to be taken care of." />
+<meta name="description" content="Máquinas Elétricas e Acionamentos 2 - Meu caderno virtual" />
 <meta name="generator" content="Org Mode" />
 <style>
   #content { max-width: 60em; margin: auto; }
@@ -200,43 +200,81 @@
 <script src="httpss://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="https://luispengler.github.io/site/org-html-themes/src/lib/js/jquery.stickytableheaders.min.js"></script>
 <script type="text/javascript" src="https://luispengler.github.io/site/org-html-themes/src/readtheorg_theme/js/readtheorg.js"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        displayAlign: "center",
+        displayIndent: "0em",
+
+        "HTML-CSS": { scale: 100,
+                        linebreaks: { automatic: "false" },
+                        webFont: "TeX"
+                       },
+        SVG: {scale: 100,
+              linebreaks: { automatic: "false" },
+              font: "TeX"},
+        NativeMML: {scale: 100},
+        TeX: { equationNumbers: {autoNumber: "AMS"},
+               MultLineWidth: "85%",
+               TagSide: "right",
+               TagIndent: ".8em"
+             }
+});
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML"></script>
 </head>
 <body>
 <div id="content" class="content">
-<h1 class="title">Arch - Things that need to be taken care of.</h1>
+<h1 class="title">Máquinas Elétricas e Acionamentos 2 - Meu caderno virtual</h1>
 <div id="table-of-contents" role="doc-toc">
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#org749d33d">New arch install</a></li>
+<li><a href="#org07db3ee">Primeira Aula</a></li>
+<li><a href="#org9812ddc">Segunda Aula</a></li>
 </ul>
 </div>
 </div>
 
-
-<div id="outline-container-org749d33d" class="outline-2">
-<h2 id="org749d33d">New arch install</h2>
-<div class="outline-text-2" id="text-org749d33d">
-<ul class="org-ul">
-<li class="off"><code>[&#xa0;]</code> Improve the notification system</li>
-<li class="on"><code>[X]</code> Use st (simple terminal) instead of Alacritty.</li>
-<li class="off"><code>[&#xa0;]</code> If you are gonna use Reddit, have a look at bugswritter&rsquo;s video on reddit from bash.</li>
-<li class="off"><code>[&#xa0;]</code> Improve file-sharing &ldquo;Stop using windows style. Now that&rsquo;s how linux users share file.&rdquo;</li>
-<li class="off"><code>[&#xa0;]</code> Configue deluge-console (I managed to get it working) and use bugswritter&rsquo;s script to download stuff.</li>
-<li class="on"><code>[X]</code> Configure firefox to be the secure browser (use it for general webing) and brave to be the one for video conferecing (due to firefox&rsquo;s multiple playback issue, participants camera keep stopping) and also need brave cause I&rsquo;m lazy to configure tor (and would be an extra browser and more dependencies)</li>
-<li class="off"><code>[&#xa0;]</code> Study awk (some day) (The AWK Programming Language)</li>
-<li class="off"><code>[&#xa0;]</code> Study some web scripting on terminal (smth like pup)</li>
-<li class="on"><code>[X]</code> Bugswriter has a cool script for connecting to wifi</li>
-<li class="on"><code>[X]</code> Use maim to take screenshots</li>
-<li class="on"><code>[X]</code> Have a look at <a href="https://wiki.archlinux.org/title/Sxhkd">sxhkd</a> for keyboard shortcuts</li>
-<li class="on"><code>[X]</code> Use xwallpaper instead of feh</li>
-<li class="on"><code>[X]</code> <p>
-Install devour (with xdo installed) to swallow terminal :)
+<div id="outline-container-org07db3ee" class="outline-2">
+<h2 id="org07db3ee">Primeira Aula</h2>
+<div class="outline-text-2" id="text-org07db3ee">
+<p>
+O professor só introduziu a disciplina, mas começando uma revisão de eletricidade 2 e máquinas elétricas e acionamentos 1, tanto nas aulas teóricas, quanto nas práticas
 </p>
 
 <p>
-<code>Good practice</code> it is a good practice to clone repos inside of ~/.local/src
-</p></li>
+O professor disse que a tensão era o conceito mais fundamental da eletricidade que a gente trabalha. Sem tensão, não há palavras chiques: corrente, resistência, capacitância, campo eletromagnético&#x2026;
+</p>
+
+<ul class="org-ul">
+<li>Campo Grande tem uma tensão fase-neutro de 127V, fase-fase é de 220V</li>
+<li>Bahia tem uma tensão fase-neutro de 220V, fase-fase é de 380V</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org9812ddc" class="outline-2">
+<h2 id="org9812ddc">Segunda Aula</h2>
+<div class="outline-text-2" id="text-org9812ddc">
+<ul class="org-ul">
+<li>Por causa da frequência, que é 1, onde T é o tempo decorrido de um ciclo completo em uma onda senoidal, que só acontece em C.A, temos:</li>
+</ul>
+<p>
+\[X_L=2\cdot \pi\cdot f\cdot L\]
+\[X_C=\frac{1}{2\cdot \pi\cdot f\cdot C}\]
+</p>
+
+<ul class="org-ul">
+<li>Toda corrente trifásica pode ser calculada de acordo com as fórmulas abaixo, em função do tempo</li>
+</ul>
+<p>
+\[ia(t)=im\cdot cos(\omega\cdot t+0º\]
+\[ib(t)=im\cdot cos(\omega\cdot t-120º\]
+\[ic(t)=im\cdot cos(\omega\cdot t+120º\]
+</p>
+
+<ul class="org-ul">
+<li>Em uma instalação trifásica os custos dos materiais são reduzidos em 25% para a mesma quantidade de energia transformada e gerada.</li>
 </ul>
 </div>
 </div>
