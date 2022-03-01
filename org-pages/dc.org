@@ -5,8 +5,9 @@
 
 * Getting started
 Another compilation of arroverse viewing order you can find on the net...\\
-=Note 1= As much as I'd like to make this a mainstream project I can't. This webpage serves the only porpouse of helping me check my progress while watching arrowverse.\\
-=Note 2= This viewing order comes from this amazing open-source project, check it out: [[https://arrowverse.info/][arrowverse.info]]
+=Note 1= As much as I'd like to make this a mainstream project, I can't. This webpage's only purpose is of helping me check my progress while watching arrowverse.
+
+=Note 2= This viewing order comes from an amazing open-source project. Check it out: [[https://arrowverse.info/][arrowverse.info]]
 
 |------------------+--------------------+---------------------+---------------+--------------------+------------------------------+-----------------------------------+-------------------------+------------------+------------------+-------------------------|
 | Arrow   (170 ep) | The Flash (151 ep) | Constantine (13 ep) | Vixen (12 ep) | Supergirl (126 ep) | Legends of Tomorrow (102 ep) | Freedom Fighters: The Ray (12 ep) | Black Lightning (58 ep) | Batwoman (43 ep) | Stargirl (26 ep) | Superman & Lois (15 ep) |
@@ -525,7 +526,7 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [X] Supergirl – 4.22: “The Quest For Peace”
 + [X] Legends of Tomorrow – 4.16: “Hey World!”
 
-* 2019/2020 [62/112] [55%]
+* 2019/2020 [64/112] [57%]
 
 + [X] Batwoman – 1.01: “Pilot”
 + [X] Supergirl – 5.01: “Event Horizon”
@@ -589,8 +590,8 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [X] Legends of Tomorrow – 5.04: “Slay Anything”
 + [X] Batwoman – 1.12: “Take Your Choice”
 + [X] Supergirl – 5.12: “Back From The Future – Part Two”
-+ [ ] The Flash – 6.12: “A Girl Named Sue”
-+ [ ] Legends of Tomorrow – 5.05: “A Head Of Her Time”
++ [X] The Flash – 6.12: “A Girl Named Sue”
++ [X] Legends of Tomorrow – 5.05: “A Head Of Her Time”
 + [ ] Batwoman – 1.13: “Drink Me”
 + [ ] Supergirl – 5.13: “A Super Life”
 + [ ] Black Lightning – 3.14: “The Book Of War: Chapter One: Homecoming”
@@ -790,3 +791,4 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [ ] DC's Legends of Tomorrow - 7.11: "Rage Against The Machines"
 + [ ] Superman & Lois - 2.05: "Girl... You'll Be a Woman, Soon"
 + [ ] The Flash - 8.06: "Impulsive Excessive Disorder"
++ [ ] The Flash - 8.07: "Lockdown"

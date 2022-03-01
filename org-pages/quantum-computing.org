@@ -23,7 +23,7 @@ This notes page is about all my notes taken throughout this whole course.
   - The course goes from September until April (at least 22' was)
 
 * Resources
-+ A small collection of resources I gathred
++ A small collection of resources I gathered
 ** Videos
 + [[https://www.youtube.com/playlist?list=PLR3IPFP-OywS3nMoKLJcEpeHfQRsT7QKR][Quantum Computing playlist]]
 + [[https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab][Essence of Linear Algebra: A Video Playlist by 3Blue1Brown]]

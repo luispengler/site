@@ -3,8 +3,7 @@
 #+SETUPFILE:  https://luispengler.github.io/site/org-html-themes/org/theme-readtheorg.setup
 #+OPTIONS: num:nil ^:{}
 
-
-* Assistir as franquias [6%] [2/31]
+* Watch the Franchises [6%] [2/31]
 
 + [X] Harry Potter [9/9]
   - [X] Harry Potter and the sorcerer's stone
@@ -28,27 +27,27 @@
   - [ ] Indiana Jones and the Kingdom of the Crystal Skull (2008)
   - [ ] The Young Indiana Jones Chronicles
 
-+ [ ] Velozes e Furiosos [0/9]
-  - [ ] Velozes e furiosos 1
-  - [ ] Velozes e furiosos 2
-  - [ ] Velozes e furiosos 3
-  - [ ] Velozes e furiosos 4
-  - [ ] Velozes e furiosos 5
-  - [ ] Velozes e furiosos 6
-  - [ ] Velozes e furiosos 7
-  - [ ] Velozes e furiosos 8
-  - [ ] Velozes e furiosos 9
++ [ ] Fast & Furious [0/9]
+  - [ ] Fast & Furious 1
+  - [ ] Fast & Furious 2
+  - [ ] Fast & Furious 3
+  - [ ] Fast & Furious 4
+  - [ ] Fast & Furious 5
+  - [ ] Fast & Furious 6
+  - [ ] Fast & Furious 7
+  - [ ] Fast & Furious 8
+  - [ ] Fast & Furious 9
 
 + [ ] Toy Story [0/3]
   - [ ] Toy Story 1
   - [ ] Toy Story 2
   - [ ] Toy Story 3
 
-+ [ ] A era do gelo [0/4]
-  - [ ] A era do gelo 1
-  - [ ] A era do gelo 2
-  - [ ] A era do gelo 3
-  - [ ] A era do gelo 4
++ [ ] Ice Age [0/4]
+  - [ ] Ice Age 1
+  - [ ] Ice Age 2
+  - [ ] Ice Age 3
+  - [ ] Ice Age 4
 
 + [ ] Shrek [0/4]
   - [ ] Sherek 1
@@ -56,14 +55,14 @@
   - [ ] Sherek third
   - [ ] Sherek forever
 
-+ [ ] Meu malvado favorito [0/4]
++ [ ] Despicable Me [0/4]
   - [ ] Minions
-  - [ ] Meu malvado favorito
-  - [ ] Meu malvado favorito 2
-  - [ ] Meu malvado favorito 3
+  - [ ] Despicable Me
+  - [ ] Despicable Me 2
+  - [ ] Despicable Me 3
 
-+ [ ] Detona ralph [0/2]
-  - [ ] Detona ralph
++ [ ] Wrect-It Ralph [0/2]
+  - [ ] Wrect-It Ralph
   - [ ] Wifi Raplh: breaking the internet
 
 + [ ] The chronicles of narnia [0/3]
@@ -103,7 +102,7 @@
   - [ ] Now you see me 2
   - [ ] Now you see me 3
 
-+ [ ] Jogos vorazes [0/4]
++ [ ] The Hunger Games [0/4]
   - [ ] The Hunger Games
   - [ ] The Hunger Games: Catching Fire
   - [ ] The Hunger Games: Mockingjay - Part 1
@@ -136,7 +135,7 @@
   - [ ] Jurassic World: Fallen Kingdom (2018)
   - [ ] Jurassic World: Dominion (2022) – To Be Released.
 
-+ [ ] Piratas do Caribe [0/6]
++ [ ] Pirates of the Caribbean [0/6]
   - [ ] Pirates of the Caribbean: Tales of the Code – Wedlocked (2011) – Short Movie
   - [ ] Pirates of the Caribbean: The Curse of the Black Pearl (2003)
   - [ ] Pirates of the Caribbean: Dead Man’s Chest (2006)
@@ -198,10 +197,10 @@
   - [ ] Solo (2018)
   - [ ] The Rise of Skywalker (2019)
 
-+ [ ] De volta para o futuro [0/3]
-  - [ ] De volta para o futuro 1
-  - [ ] De volta para o futuro 2
-  - [ ] De volta para o futuro 3
++ [ ] Back to the future [0/3]
+  - [ ] Back to the future 1
+  - [ ] Back to the future 2
+  - [ ] Back to the future 3
 
 + [ ] The terminator [0/6]
   - [ ] The terminator
@@ -229,9 +228,9 @@
   - [ ] Ghostbusters (1984)
   - [ ] Ghostbusters II (1989)
 
-  =Regra:= Depois de uma saga, um filme separado
+  =Rule:= After a franchise, watch an isolated movie
 
-* Filmes separados [7%] [2/28]
+* Isolated Movie [7%] [2/28]
 
 + [X] Titanic
 + [X] Interestellar
@@ -245,7 +244,7 @@
 + [ ] Wall-e
 + [ ] As aventuras de Shark Boy e Lava Girl
 + [ ] Em ritmo de fuga
-+ [ ] As branquelas
++ [ ] White Chicks
 + [ ] Fahrenheit 451
 + [ ] The Last Witch Hunter
 + [ ] The theory of everthing
