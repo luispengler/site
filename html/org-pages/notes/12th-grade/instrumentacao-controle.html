@@ -6,9 +6,9 @@
 <!-- 2022-03-01 Tue 18:34 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Week 0 - Notes</title>
+<title>Instrumentação e Controle</title>
 <meta name="author" content="Luís Spengler" />
-<meta name="description" content="Week 0 - Notes" />
+<meta name="description" content="Instrumentação e Controle - Meu caderno virtual" />
 <meta name="generator" content="Org Mode" />
 <style>
   #content { max-width: 60em; margin: auto; }
@@ -200,131 +200,235 @@
 <script src="httpss://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="https://luispengler.github.io/site/org-html-themes/src/lib/js/jquery.stickytableheaders.min.js"></script>
 <script type="text/javascript" src="https://luispengler.github.io/site/org-html-themes/src/readtheorg_theme/js/readtheorg.js"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        displayAlign: "center",
+        displayIndent: "0em",
+
+        "HTML-CSS": { scale: 100,
+                        linebreaks: { automatic: "false" },
+                        webFont: "TeX"
+                       },
+        SVG: {scale: 100,
+              linebreaks: { automatic: "false" },
+              font: "TeX"},
+        NativeMML: {scale: 100},
+        TeX: { equationNumbers: {autoNumber: "AMS"},
+               MultLineWidth: "85%",
+               TagSide: "right",
+               TagIndent: ".8em"
+             }
+});
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML"></script>
 </head>
 <body>
 <div id="content" class="content">
-<h1 class="title">Week 0 - Notes</h1>
+<h1 class="title">Instrumentação e Controle</h1>
 <div id="table-of-contents" role="doc-toc">
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#org9b3c9a2">Week 0 (Qubit by Qubit)</a>
+<li><a href="#org2ea436c">Primeira Aula</a>
 <ul>
-<li><a href="#org32ebdae">Quantum Computing</a></li>
-<li><a href="#orge0dd523">Quantum Mechanics</a></li>
-<li><a href="#orgb8aa1cc">The 3 main phenomena</a></li>
-<li><a href="#org0115180">Applications of Quantum Computing</a></li>
-<li><a href="#org30a7121">Quantum Computers posses advantages in</a></li>
-<li><a href="#orgc4977a3">The bigger field</a></li>
-<li><a href="#orgf024951">Universities (US/UK)</a></li>
+<li><a href="#org88334a6">Tipos de processos (ponto de vista do tempo e do tipo de operação envolvida)</a></li>
+</ul>
+</li>
+<li><a href="#org490db18">Aula 17/02</a></li>
+<li><a href="#org2920eec">Aula 18/02</a>
+<ul>
+<li><a href="#org5d6eef8">Classes de instrumentos</a></li>
+</ul>
+</li>
+<li><a href="#org4a20c77">Aula 25/02</a>
+<ul>
+<li><a href="#orgdd09007">Características dos sistemas de medição</a></li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org9b3c9a2" class="outline-2">
-<h2 id="org9b3c9a2">Week 0 (Qubit by Qubit)</h2>
-<div class="outline-text-2" id="text-org9b3c9a2">
+<div id="outline-container-org2ea436c" class="outline-2">
+<h2 id="org2ea436c">Primeira Aula</h2>
+<div class="outline-text-2" id="text-org2ea436c">
 <ul class="org-ul">
-<li>As this is the first week of the intire course, we had plenty of introduction to the course logistics, so I will make notes about the <b>content</b> given only.</li>
+<li>O professor Hilton James passou como vai ser as notas da disciplina, de acordo com a seguinte equação
+\[MF=\frac{[(P1\cdot 0,7)+(Ativ. Trab.\cdot 0,3)]+[(P2\cdot 0,7)+(Ativ. Trab.\cdot 0,3)]}{2}\]</li>
+</ul>
+
+<p>
+Sendo P1 dia 31/03 e sua recuperação dia 07/04 e a P2 sendo dia 09/06 e sua recuperação dia 23/06.
+</p>
+
+<ul class="org-ul">
+<li>Ele também passou seus horários de permanência: 14h30-17h05 (WED), 08h30-10h20 (THU), 18h50-20h20 (FRI) - Salas B206, B102, B204</li>
+
+<li>A disciplina vai ser ministrada pelo professor Hilton James na parte prática e a teoria com a professora Gabriele Kavano</li>
+
+<li>Horário de PE da professora: 15h35-16h30 (THU)</li>
 </ul>
 </div>
 
-<div id="outline-container-org32ebdae" class="outline-3">
-<h3 id="org32ebdae">Quantum Computing</h3>
-<div class="outline-text-3" id="text-org32ebdae">
-<ul class="org-ul">
-<li>A quantum computer uses properties of quantum mechanics to solve problems (just like a classical computer would do, except for this we use classical physics)</li>
-</ul>
+<div id="outline-container-org88334a6" class="outline-3">
+<h3 id="org88334a6">Tipos de processos (ponto de vista do tempo e do tipo de operação envolvida)</h3>
+<div class="outline-text-3" id="text-org88334a6">
 </div>
-</div>
-
-<div id="outline-container-orge0dd523" class="outline-3">
-<h3 id="orge0dd523">Quantum Mechanics</h3>
-<div class="outline-text-3" id="text-orge0dd523">
+<div id="outline-container-org51fbc90" class="outline-4">
+<h4 id="org51fbc90">Processo Contínuo</h4>
+<div class="outline-text-4" id="text-org51fbc90">
 <ul class="org-ul">
-<li>It describes how really small objects (AKA quantum objects like atoms and subatomic particles) behave.</li>
-<li>In the quantum world, plenty of strange things can happen: Objects can be in multiple places (superposition), Objects can pass through physical barriers (tunneling), Information can be teleported (teleportation).</li>
-</ul>
-</div>
-</div>
-
-<div id="outline-container-orgb8aa1cc" class="outline-3">
-<h3 id="orgb8aa1cc">The 3 main phenomena</h3>
-<div class="outline-text-3" id="text-orgb8aa1cc">
+<li>A adição da matéria-prima e a saída do produto são contrínuas (no sentido de não ser interrompido). Ex: Refinaria de petróleo
 <ul class="org-ul">
-<li>Superposition, Interference, Entanglement
-<ul class="org-ul">
-<li>These are the 3 quantum phenomena that allow us to design quantum algorithms.</li>
-</ul></li>
-<li>This field is all about mastering these properties to make computing faster and more powerful.</li>
-</ul>
-</div>
-</div>
-
-<div id="outline-container-org0115180" class="outline-3">
-<h3 id="org0115180">Applications of Quantum Computing</h3>
-<div class="outline-text-3" id="text-org0115180">
-<ul class="org-ul">
-<li>Saving lives - Climate change is a threat.</li>
-<li>Globally distributing food - &ldquo;Could Quantum Computing Help Feed the World?&rdquo;</li>
-<li>Astrophysics - Search for life in other planets</li>
-<li>Vaccine developtment, Drug Discovery - Simulating quantum systems
-<ul class="org-ul">
-<li>Finance</li>
-<li>Cyber Security</li>
-<li>Biology</li>
-<li>Chemestry</li>
-<li>Aerospace</li>
-<li>Robotics and Machine Learning</li>
+<li>Não realizam paradas periódicas (Works 24/7), exceto por paradas progamadas com um periodo maior que 1 ano</li>
+<li>Esse tipo de industria faz somente um produto</li>
 </ul></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org30a7121" class="outline-3">
-<h3 id="org30a7121">Quantum Computers posses advantages in</h3>
-<div class="outline-text-3" id="text-org30a7121">
+<div id="outline-container-org719130a" class="outline-4">
+<h4 id="org719130a">Processo em Batelada</h4>
+<div class="outline-text-4" id="text-org719130a">
 <ul class="org-ul">
-<li>Problems that involve too much searching or testing for classical computers to do quickly</li>
-<li>Problems that require secure encryption</li>
-<li>Problems that require simulating quantum mechanical systems</li>
+<li>O processo é alimentado e re-alimentado. O produto é descarregado e inicia-se outro ciclo, sendo o intervalo entre estes curto.</li>
+<li>Permite vários produtor em uma mesma linha de produção. Ex: Fanta laranja, fanta uva, etc&#x2026;</li>
+<li>É um processo descontínuo</li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orgc4977a3" class="outline-3">
-<h3 id="orgc4977a3">The bigger field</h3>
-<div class="outline-text-3" id="text-orgc4977a3">
+<div id="outline-container-orga004ee2" class="outline-4">
+<h4 id="orga004ee2">Processo Discreto</h4>
+<div class="outline-text-4" id="text-orga004ee2">
 <ul class="org-ul">
-<li>Quantum Computing is part of a larger field called Quantum Information Science and Engineering (QISE)
+<li>Itens separados = produto</li>
+<li>Não tem dependência de outras etapas como no processo contínuo, ou tanto quanto em batelada</li>
+<li>Geralmente usa-se robos</li>
+<li>Industria de automóveis é um exemplo</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+
+<div id="outline-container-org490db18" class="outline-2">
+<h2 id="org490db18">Aula 17/02</h2>
+<div class="outline-text-2" id="text-org490db18">
 <ul class="org-ul">
-<li>Quantum computing, Quantum sensing, Quantum networking</li>
-</ul></li>
+<li>Tivemos que fazer o pré-rascunho de um artigo em trio. Fui com Daniel e Lukas. Obtivemos a seguinte belezinha</li>
+</ul>
+
+<div id="org52088d5" class="figure">
+<p><img src="https://luispengler.github.io/site/org-pages/notes/12th-grade/doc/instrumenta1.jpg" alt="instrumenta1.jpg" title="Primeira atividade prática" style="margin-left: auto;margin-right: auto;background-color: mintcream;display: block;width: 100%;" />
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org2920eec" class="outline-2">
+<h2 id="org2920eec">Aula 18/02</h2>
+<div class="outline-text-2" id="text-org2920eec">
+</div>
+<div id="outline-container-org5d6eef8" class="outline-3">
+<h3 id="org5d6eef8">Classes de instrumentos</h3>
+<div class="outline-text-3" id="text-org5d6eef8">
+<ul class="org-ul">
+<li>Podem ser divididos em várias categorias</li>
+</ul>
+</div>
+<div id="outline-container-orgb4766f1" class="outline-4">
+<h4 id="orgb4766f1">Elemento primário/Sensor</h4>
+<div class="outline-text-4" id="text-orgb4766f1">
+<ul class="org-ul">
+<li>Capaz de detectar a variação de uma grandeza física e converter um tipo de grandeza que pode ser mensurada por dispositivos eletrônicos. Ex: termometro</li>
+<li>Esta classe é dividida entre instrumento cego (não apresenta um visor) e instrumento indicador (possui um visor)</li>
+<li>Normalmente se associa com outros componentes para se tornar um transdutor</li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orgf024951" class="outline-3">
-<h3 id="orgf024951">Universities (US/UK)</h3>
-<div class="outline-text-3" id="text-orgf024951">
+<div id="outline-container-orgfcfc214" class="outline-4">
+<h4 id="orgfcfc214">Registrador</h4>
+<div class="outline-text-4" id="text-orgfcfc214">
 <ul class="org-ul">
-<li>Search about &ldquo;The Quantum talent gap&rdquo;
-<ul class="org-ul">
-<li>The Institute for Quantum Computing — University of Waterloo</li>
-<li>University of Oxford</li>
-<li>Centre for Quantum Information and Foundations - Cambridge</li>
-<li>University of California Berkeley</li>
-<li>University of Maryland — Joint Quantum Institute</li>
-<li>University of Science and Technology of China (USTC) – Division of Quantum Physics and Quantum Information</li>
-<li>University of Chicago — Chicago Quantum Exchange (CQE)</li>
-<li>Harvard University — Harvard Quantum Initiative</li>
-<li>MIT — Center for Theoretical Physics</li>
-<li>Unversity of California Riverside</li>
-<li><a href="https://quantumcomputingreport.com/universities/">&ldquo;Quantum Universities&rdquo;</a></li>
-</ul></li>
+<li>Registra as variações de uma ou mais variáveis, guardando as em discos ou fitas de papel e através de displays eletrônicos</li>
 </ul>
+</div>
+</div>
+
+<div id="outline-container-org8f294dd" class="outline-4">
+<h4 id="org8f294dd">Conversor</h4>
+<div class="outline-text-4" id="text-org8f294dd">
+<ul class="org-ul">
+<li>Recebe um tipo de sinal e o converte em outro</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orga153b12" class="outline-4">
+<h4 id="orga153b12">Transmissor/Transdutor</h4>
+<div class="outline-text-4" id="text-orga153b12">
+<ul class="org-ul">
+<li>Mede uma grandeza física e transmite um sinal padronizado proporcional a faixa de variação da grandeza</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org8119878" class="outline-4">
+<h4 id="org8119878">Controlador</h4>
+<div class="outline-text-4" id="text-org8119878">
+<ul class="org-ul">
+<li>Recebe sinais dos transmissores/sensores e com base nisso, faz a correção do sistema acionando os atuadores</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orge457fc0" class="outline-4">
+<h4 id="orge457fc0">Atuador/Elemento final de controle</h4>
+<div class="outline-text-4" id="text-orge457fc0">
+<ul class="org-ul">
+<li>Provoca uma mudança em uma variável do processo de acordo com um sinal enviado pelo controlador do processo.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org4a20c77" class="outline-2">
+<h2 id="org4a20c77">Aula 25/02</h2>
+<div class="outline-text-2" id="text-org4a20c77">
+</div>
+<div id="outline-container-orge02f3c0" class="outline-4">
+<h4 id="orge02f3c0">Zero Vivo</h4>
+<div class="outline-text-4" id="text-orge02f3c0">
+<ul class="org-ul">
+<li>Transmissão de um sinal de 4 a 20mA, com 4 sendo o 0% do nível de água de um recipiente. 20mA representa 10%</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgdd09007" class="outline-3">
+<h3 id="orgdd09007">Características dos sistemas de medição</h3>
+<div class="outline-text-3" id="text-orgdd09007">
+</div>
+<div id="outline-container-org12a25a8" class="outline-4">
+<h4 id="org12a25a8">Faixa nominal (nominal range)</h4>
+<div class="outline-text-4" id="text-org12a25a8">
+<ul class="org-ul">
+<li>Limite superior e inferior da faixa de trabalho do instrumento</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org1a22732" class="outline-4">
+<h4 id="org1a22732">Fundo de escala</h4>
+<div class="outline-text-4" id="text-org1a22732">
+<ul class="org-ul">
+<li>Valor máximo que um instrumento de medida pode medir sem ser danificado</li>
+</ul>
+</div>
 </div>
 </div>
 </div>

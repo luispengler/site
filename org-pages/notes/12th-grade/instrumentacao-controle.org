@@ -1,0 +1,75 @@
+#+TITLE: Instrumentação e Controle
+#+DESCRIPTION: Instrumentação e Controle - Meu caderno virtual
+#+SETUPFILE: https://luispengler.github.io/site/org-html-themes/org/theme-readtheorg.setup
+#+LaTeX_+HEADER: \usepackage{physics}
+#+LaTeX_+HEADER: \usepackage{amsmath}
+#+OPTIONS: num:nil ^:{} toc:2
+
+* Primeira Aula
++ O professor Hilton James passou como vai ser as notas da disciplina, de acordo com a seguinte equação
+  \[MF=\frac{[(P1\cdot 0,7)+(Ativ. Trab.\cdot 0,3)]+[(P2\cdot 0,7)+(Ativ. Trab.\cdot 0,3)]}{2}\]
+
+Sendo P1 dia 31/03 e sua recuperação dia 07/04 e a P2 sendo dia 09/06 e sua recuperação dia 23/06.
+
++ Ele também passou seus horários de permanência: 14h30-17h05 (WED), 08h30-10h20 (THU), 18h50-20h20 (FRI) - Salas B206, B102, B204
+
++ A disciplina vai ser ministrada pelo professor Hilton James na parte prática e a teoria com a professora Gabriele Kavano
+
++ Horário de PE da professora: 15h35-16h30 (THU)
+
+** Tipos de processos (ponto de vista do tempo e do tipo de operação envolvida)
+*** Processo Contínuo
++ A adição da matéria-prima e a saída do produto são contrínuas (no sentido de não ser interrompido). Ex: Refinaria de petróleo
+  - Não realizam paradas periódicas (Works 24/7), exceto por paradas progamadas com um periodo maior que 1 ano
+  - Esse tipo de industria faz somente um produto
+
+*** Processo em Batelada
++ O processo é alimentado e re-alimentado. O produto é descarregado e inicia-se outro ciclo, sendo o intervalo entre estes curto.
++ Permite vários produtor em uma mesma linha de produção. Ex: Fanta laranja, fanta uva, etc...
++ É um processo descontínuo
+
+*** Processo Discreto
++ Itens separados = produto
++ Não tem dependência de outras etapas como no processo contínuo, ou tanto quanto em batelada
++ Geralmente usa-se robos
++ Industria de automóveis é um exemplo
+
+
+* Aula 17/02
++ Tivemos que fazer o pré-rascunho de um artigo em trio. Fui com Daniel e Lukas. Obtivemos a seguinte belezinha
+#+ATTR_HTML: alt: waterwave :title Primeira atividade prática :style margin-left: auto;margin-right: auto;background-color: mintcream;display: block;width: 100%;
+https://luispengler.github.io/site/org-pages/notes/12th-grade/doc/instrumenta1.jpg
+
+* Aula 18/02
+** Classes de instrumentos
++ Podem ser divididos em várias categorias
+*** Elemento primário/Sensor
++ Capaz de detectar a variação de uma grandeza física e converter um tipo de grandeza que pode ser mensurada por dispositivos eletrônicos. Ex: termometro
++ Esta classe é dividida entre instrumento cego (não apresenta um visor) e instrumento indicador (possui um visor)
++ Normalmente se associa com outros componentes para se tornar um transdutor
+
+*** Registrador
++ Registra as variações de uma ou mais variáveis, guardando as em discos ou fitas de papel e através de displays eletrônicos
+
+*** Conversor
++ Recebe um tipo de sinal e o converte em outro
+
+*** Transmissor/Transdutor
++ Mede uma grandeza física e transmite um sinal padronizado proporcional a faixa de variação da grandeza
+
+*** Controlador
++ Recebe sinais dos transmissores/sensores e com base nisso, faz a correção do sistema acionando os atuadores
+
+*** Atuador/Elemento final de controle
++ Provoca uma mudança em uma variável do processo de acordo com um sinal enviado pelo controlador do processo.
+
+* Aula 25/02
+*** Zero Vivo
++ Transmissão de um sinal de 4 a 20mA, com 4 sendo o 0% do nível de água de um recipiente. 20mA representa 10%
+
+** Características dos sistemas de medição
+*** Faixa nominal (nominal range)
++ Limite superior e inferior da faixa de trabalho do instrumento
+
+*** Fundo de escala
++ Valor máximo que um instrumento de medida pode medir sem ser danificado

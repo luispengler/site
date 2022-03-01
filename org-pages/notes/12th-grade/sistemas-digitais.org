@@ -1,4 +1,4 @@
-#+TITLE: Sistemas Digitais e Microcontrolados - Meu caderno virtual
+#+TITLE: Sistemas Digitais e Microcontrolados
 #+DESCRIPTION: Sistemas Digitais e Microcontrolados - Meu caderno virtual
 #+SETUPFILE: https://luispengler.github.io/site/org-html-themes/org/theme-readtheorg.setup
 #+LaTeX_+HEADER: \usepackage{physics}
