@@ -1,0 +1,16 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {portuguese}{}\relax 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1}Experimento 1}{1}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1}CI 7408}{1}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2}CI 7404}{2}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.3}CI 7432}{3}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2}Experimento 2}{4}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1}Porta NAND}{4}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3}Conclusão}{4}{}%

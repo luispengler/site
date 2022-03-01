@@ -1,0 +1,15 @@
+#+TITLE: Sistemas Digitais e Microcontrolados - Meu caderno virtual
+#+DESCRIPTION: Sistemas Digitais e Microcontrolados - Meu caderno virtual
+#+SETUPFILE: https://luispengler.github.io/site/org-html-themes/org/theme-readtheorg.setup
+#+LaTeX_+HEADER: \usepackage{physics}
+#+LaTeX_+HEADER: \usepackage{amsmath}
+#+OPTIONS: num:nil ^:{} toc:2
+
+* Aula (11/02)
++ Realização de experimentos de laboratório: [[https://luispengler.github.io/site/html/org-pages/notes/12th-grade/doc/relatorio1/relatorio1.pdf][PDF]]
+
+* Aula (14/02)
++ Vimos Latch com porta NAND e com porta NOR
+
+* Aula (25/02)
++ Ligamos 74151 (Mux) e 74138 na aula prática para fazer experimentos

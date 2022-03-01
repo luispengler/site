@@ -19,8 +19,8 @@ O professor disse que a tensão era o conceito mais fundamental da eletricidade 
 \[X_C=\frac{1}{2\cdot \pi\cdot f\cdot C}\]
 
 + Toda corrente trifásica pode ser calculada de acordo com as fórmulas abaixo, em função do tempo
-\[ia(t)=im\cdot cos(\omega\cdot t+0º\]
-\[ib(t)=im\cdot cos(\omega\cdot t-120º\]
-\[ic(t)=im\cdot cos(\omega\cdot t+120º\]
+\[ia(t)=im\cdot cos(\omega\cdot t+0º)\]
+\[ib(t)=im\cdot cos(\omega\cdot t-120º)\]
+\[ic(t)=im\cdot cos(\omega\cdot t+120º)\]
 
 + Em uma instalação trifásica os custos dos materiais são reduzidos em 25% para a mesma quantidade de energia transformada e gerada.
