@@ -1,0 +1,61 @@
+#+TITLE: Meio Ambiente e Energias Renováveis
+#+DESCRIPTION: Meio Ambiente e Energias Renováveis - Meu caderno virtual
+#+SETUPFILE: https://luispengler.github.io/site/org-html-themes/org/theme-readtheorg.setup
+#+LaTeX_+HEADER: \usepackage{physics}
+#+LaTeX_+HEADER: \usepackage{amsmath}
+#+OPTIONS: num:nil ^:{} toc:2
+
+* Aula (03/03)
+** Sistema Off-grid
++ Ideal para lugares onde a energia elétrica não chega
++ Economicamente inviável, por conta dos elevados custos e vida útil das baterias reduzidas
++ Todo projeto deve ser sobredimensionado, considerando demanda diária e capacidade de pico (todos aparelhos ligados), assim projetando as placas para funcionar no pior cenário, desperdiçando energia gerada.
+
+** Sistema On-grid
++ Painel solar + Inversor + Medição
++ O medidor precisa ser trocado (para modelo bidirecional), mas a troca do medidor é coberta pela concessionária
+
+** Formas de geração distribuida
+*** até 70Kw (microgeração)
++ Altamente desburocratizada
++
+*** de 70Kw à 5Mw (minigeração)
++ É necessário um estudo de rede
+
+** Módulo Solar Fotovoltaico
++ São células de aprox. 0,65V ligadas em série
++ Quanto mais luz, menos calor = mais energia
++ Pensar no inversor de acordo com a tensão máxima e mínima das suas placas, pois com variações de temperatura para uma mesma luminosidade, a tensão varia. Isso pode tirar o inversor da rede.
+
+** Circuito Equivalente de um paniel solar fotovoltáico
++ Esquematizado no meu caderno (lol)
++ Não existe um diodo de verdade lmao
++ Rp = Resistência Paralela -> Fulgas internas
++ Rs = Resistência Série -> Resistências internas e dos condutores
++ Dp = Diodo Paralelo
+*** Dados no datasheet
++ Short-circuit current: Corrente de curto circuito (dica se estiver com defeito)
++ Open-circuit voltage: Tensão de circuito aberto (desconectado) (operação nos dias frios)
+
+** Curva I-V
++ Tensão e corrente variam
++ 3 tecnologias para inversores identificar o ponto de máxima potência (MPPT = Rastreamento de ponto de máxima potência)
++ Abaixo há um gráfico IxW
+#+ATTR_HTML: alt: waterwave :title Curva T-W :style margin-left: auto;margin-right: auto;background-color: mintcream;display: block;width: 100%;
+https://luispengler.github.io/site/org-pages/notes/12th-grade/doc/meioambiente1.png
+
+** Formas de conexão dos painéis
++ Sistemas em baixa tensão com micro inversor
++ Ligar os painéis em série -> aumentar a tensão
++ Ligar os painéis em paralelo -> aumentar a corrente
+
+*** String: Painéis em Série
++ Maior eficiência, menor o custo
++ Alta tensão DC
++ Maior possibilidade de falhas em projetos
++ Problemas em um painel afetará toda a string
+
+*** Array: Série paralelo
++ Menor custo para instalação
++ Único MMPT para todos os painéis, acentuando as perdas em caso de falha de algum paniel
++ Protação contra curto circuito

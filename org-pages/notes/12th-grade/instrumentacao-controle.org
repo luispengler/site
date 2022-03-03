@@ -63,6 +63,10 @@ https://luispengler.github.io/site/org-pages/notes/12th-grade/doc/instrumenta1.j
 *** Atuador/Elemento final de controle
 + Provoca uma mudança em uma variável do processo de acordo com um sinal enviado pelo controlador do processo.
 
+* Aula 24/02
++ Fazer pré-rascunho de um artigo (sozinho), contendo Introdução, Problemática, Objetivo...
++ Aqui está o [https://luispengler.github.io/site/org-pages/notes/12th-grade/doc/instrumentacao1/instrumentacao1.pdf]][artigo pronto]]
+
 * Aula 25/02
 *** Zero Vivo
 + Transmissão de um sinal de 4 a 20mA, com 4 sendo o 0% do nível de água de um recipiente. 20mA representa 10%
@@ -73,3 +77,7 @@ https://luispengler.github.io/site/org-pages/notes/12th-grade/doc/instrumenta1.j
 
 *** Fundo de escala
 + Valor máximo que um instrumento de medida pode medir sem ser danificado
+
+* Aula 03/03
++ O professor fez a correção da atividade entregue anteriormente (aula 24/02)
++ Fomos apresentados o sensor infrared difuse e o infrared retroreflective. Depois fomos pedidos para escolher o melhor desses dois para identificar a passagem de ouro numa linha de trituração

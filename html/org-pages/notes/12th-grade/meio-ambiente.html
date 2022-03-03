@@ -6,9 +6,9 @@
 <!-- 2022-03-03 Thu 14:54 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Week 14 - my notes</title>
+<title>Meio Ambiente e Energias Renováveis</title>
 <meta name="author" content="Luís Spengler" />
-<meta name="description" content="Week 14 - my notes" />
+<meta name="description" content="Meio Ambiente e Energias Renováveis - Meu caderno virtual" />
 <meta name="generator" content="Org Mode" />
 <style>
   #content { max-width: 60em; margin: auto; }
@@ -200,203 +200,158 @@
 <script src="httpss://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="https://luispengler.github.io/site/org-html-themes/src/lib/js/jquery.stickytableheaders.min.js"></script>
 <script type="text/javascript" src="https://luispengler.github.io/site/org-html-themes/src/readtheorg_theme/js/readtheorg.js"></script>
-<script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-        displayAlign: "center",
-        displayIndent: "0em",
-
-        "HTML-CSS": { scale: 100,
-                        linebreaks: { automatic: "false" },
-                        webFont: "TeX"
-                       },
-        SVG: {scale: 100,
-              linebreaks: { automatic: "false" },
-              font: "TeX"},
-        NativeMML: {scale: 100},
-        TeX: { equationNumbers: {autoNumber: "AMS"},
-               MultLineWidth: "85%",
-               TagSide: "right",
-               TagIndent: ".8em"
-             }
-});
-</script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML"></script>
 </head>
 <body>
 <div id="content" class="content">
-<h1 class="title">Week 14 - my notes</h1>
+<h1 class="title">Meio Ambiente e Energias Renováveis</h1>
 <div id="table-of-contents" role="doc-toc">
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#orga6ec1ad">Week 14 - Math of Two-Qubit Circuits</a>
+<li><a href="#org31bd2a0">Aula (03/03)</a>
 <ul>
-<li><a href="#orgcf77843">Recap</a></li>
-<li><a href="#orgffbb297">Introduction to 2-Qubit circuits &amp; indexing</a></li>
-<li><a href="#orgbf710de">Vector for multi-qubits states</a></li>
-<li><a href="#org182beec">Applying gates to Multi-Qubit circuits</a></li>
-<li><a href="#org58c417c">Predicting final states</a></li>
-<li><a href="#orgd553269">Math of the CX gate</a></li>
-<li><a href="#orgbb57e05">The Math of Entanglement</a></li>
-<li><a href="#org3a6c603">Tensor Product Introduction</a></li>
+<li><a href="#org572bba1">Sistema Off-grid</a></li>
+<li><a href="#orgaadb9c9">Sistema On-grid</a></li>
+<li><a href="#org2797873">Formas de geração distribuida</a></li>
+<li><a href="#orgd0cdf21">Módulo Solar Fotovoltaico</a></li>
+<li><a href="#orgb3b7dec">Circuito Equivalente de um paniel solar fotovoltáico</a></li>
+<li><a href="#org0c126d8">Curva I-V</a></li>
+<li><a href="#org8160447">Formas de conexão dos painéis</a></li>
 </ul>
 </li>
-<li><a href="#org1fa0db6">Resources</a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orga6ec1ad" class="outline-2">
-<h2 id="orga6ec1ad">Week 14 - Math of Two-Qubit Circuits</h2>
-<div class="outline-text-2" id="text-orga6ec1ad">
+<div id="outline-container-org31bd2a0" class="outline-2">
+<h2 id="org31bd2a0">Aula (03/03)</h2>
+<div class="outline-text-2" id="text-org31bd2a0">
 </div>
-<div id="outline-container-orgcf77843" class="outline-3">
-<h3 id="orgcf77843">Recap</h3>
-<div class="outline-text-3" id="text-orgcf77843">
-</div>
-<div id="outline-container-org446507a" class="outline-4">
-<h4 id="org446507a">Vector and matrices</h4>
-<div class="outline-text-4" id="text-org446507a">
+<div id="outline-container-org572bba1" class="outline-3">
+<h3 id="org572bba1">Sistema Off-grid</h3>
+<div class="outline-text-3" id="text-org572bba1">
 <ul class="org-ul">
-<li>X gate:
-\[\begin{bmatrix}0 & 1\\1 & 0\end{bmatrix}\]</li>
-
-<li>Z gate:
-\[\begin{bmatrix}1 & 0\\0 & -1\end{bmatrix}\]</li>
-
-<li>H gate:
-\[\frac{1}{\sqrt{2}}\begin{bmatrix}1 & 1\\1 & -1\end{bmatrix}\]</li>
+<li>Ideal para lugares onde a energia elétrica não chega</li>
+<li>Economicamente inviável, por conta dos elevados custos e vida útil das baterias reduzidas</li>
+<li>Todo projeto deve ser sobredimensionado, considerando demanda diária e capacidade de pico (todos aparelhos ligados), assim projetando as placas para funcionar no pior cenário, desperdiçando energia gerada.</li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org3480d72" class="outline-4">
-<h4 id="org3480d72">Multi-Qubit circuits</h4>
-<div class="outline-text-4" id="text-org3480d72">
+<div id="outline-container-orgaadb9c9" class="outline-3">
+<h3 id="orgaadb9c9">Sistema On-grid</h3>
+<div class="outline-text-3" id="text-orgaadb9c9">
 <ul class="org-ul">
-<li>You can have single-qubit gates (ones that are applied to one qubit only)</li>
-<li>You can have controlled gates (applied to multipled qubits at a time)</li>
+<li>Painel solar + Inversor + Medição</li>
+<li>O medidor precisa ser trocado (para modelo bidirecional), mas a troca do medidor é coberta pela concessionária</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org2797873" class="outline-3">
+<h3 id="org2797873">Formas de geração distribuida</h3>
+<div class="outline-text-3" id="text-org2797873">
+</div>
+<div id="outline-container-org38042fa" class="outline-4">
+<h4 id="org38042fa">até 70Kw (microgeração)</h4>
+<div class="outline-text-4" id="text-org38042fa">
+<ul class="org-ul">
+<li>Altamente desburocratizada</li>
+<li></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org1477baf" class="outline-4">
+<h4 id="org1477baf">de 70Kw à 5Mw (minigeração)</h4>
+<div class="outline-text-4" id="text-org1477baf">
+<ul class="org-ul">
+<li>É necessário um estudo de rede</li>
 </ul>
 </div>
 </div>
 </div>
 
-<div id="outline-container-orgffbb297" class="outline-3">
-<h3 id="orgffbb297">Introduction to 2-Qubit circuits &amp; indexing</h3>
-<div class="outline-text-3" id="text-orgffbb297">
+<div id="outline-container-orgd0cdf21" class="outline-3">
+<h3 id="orgd0cdf21">Módulo Solar Fotovoltaico</h3>
+<div class="outline-text-3" id="text-orgd0cdf21">
 <ul class="org-ul">
-<li>For individual circuits, writing a state in ket notation is super easy: \(|0\rangle\) or \(|1\rangle\)</li>
-<li>For 2-qubit circuits, just put those together: \(|01\rangle\) or \(|10\rangle\). You may also find \(|0\rangle|1\rangle\) or \(|1\rangle|0\rangle\)</li>
-<li>The index to be used is first (at left) q1 and at right q0: \(|q1q0\rangle\). This is known as right indexing.</li>
+<li>São células de aprox. 0,65V ligadas em série</li>
+<li>Quanto mais luz, menos calor = mais energia</li>
+<li>Pensar no inversor de acordo com a tensão máxima e mínima das suas placas, pois com variações de temperatura para uma mesma luminosidade, a tensão varia. Isso pode tirar o inversor da rede.</li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orgbf710de" class="outline-3">
-<h3 id="orgbf710de">Vector for multi-qubits states</h3>
-<div class="outline-text-3" id="text-orgbf710de">
+<div id="outline-container-orgb3b7dec" class="outline-3">
+<h3 id="orgb3b7dec">Circuito Equivalente de um paniel solar fotovoltáico</h3>
+<div class="outline-text-3" id="text-orgb3b7dec">
 <ul class="org-ul">
-<li>The upper part is the amount of \(|0\rangle\) contribution</li>
-<li>The lower part is the amount of \(|1\rangle\) contribution</li>
-<li>As an example, a \(|0\rangle\) state:</li>
+<li>Esquematizado no meu caderno (lol)</li>
+<li>Não existe um diodo de verdade lmao</li>
+<li>Rp = Resistência Paralela -&gt; Fulgas internas</li>
+<li>Rs = Resistência Série -&gt; Resistências internas e dos condutores</li>
+<li>Dp = Diodo Paralelo</li>
 </ul>
-<p>
-\[\begin{bmatrix}1\\0\end{bmatrix}\]
-</p>
+</div>
+<div id="outline-container-orgb85ed81" class="outline-4">
+<h4 id="orgb85ed81">Dados no datasheet</h4>
+<div class="outline-text-4" id="text-orgb85ed81">
 <ul class="org-ul">
-<li>We will have four parts now. Representing the components of \(|00\rangle\), \(|01\rangle\), \(|10\rangle\), and \(|11\rangle\)</li>
-<li>As an example, a \(|10\rangle\) state:</li>
+<li>Short-circuit current: Corrente de curto circuito (dica se estiver com defeito)</li>
+<li>Open-circuit voltage: Tensão de circuito aberto (desconectado) (operação nos dias frios)</li>
 </ul>
-<p>
-\[\begin{bmatrix}0\\0\\1\\0\end{bmatrix}\]
-</p>
+</div>
 </div>
 </div>
 
-<div id="outline-container-org182beec" class="outline-3">
-<h3 id="org182beec">Applying gates to Multi-Qubit circuits</h3>
-<div class="outline-text-3" id="text-org182beec">
+<div id="outline-container-org0c126d8" class="outline-3">
+<h3 id="org0c126d8">Curva I-V</h3>
+<div class="outline-text-3" id="text-org0c126d8">
 <ul class="org-ul">
-<li>For a single qubit: (Matrix) * (Initial state) = final state</li>
-<li>The math can be the same, but the matrix will be huge.. so let&rsquo;s try to predict it</li>
+<li>Tensão e corrente variam</li>
+<li>3 tecnologias para inversores identificar o ponto de máxima potência (MPPT = Rastreamento de ponto de máxima potência)</li>
+<li>Abaixo há um gráfico IxW</li>
 </ul>
-</div>
-</div>
 
-<div id="outline-container-org58c417c" class="outline-3">
-<h3 id="org58c417c">Predicting final states</h3>
-<div class="outline-text-3" id="text-org58c417c">
-<ol class="org-ol">
-<li>Find the ket representation of the final state by applying the gates in the circuit</li>
-<li>Fill in the vector based on the elements in the ket</li>
-</ol>
-</div>
-</div>
-
-<div id="outline-container-orgd553269" class="outline-3">
-<h3 id="orgd553269">Math of the CX gate</h3>
-<div class="outline-text-3" id="text-orgd553269">
-<ul class="org-ul">
-<li>CX gate also has a matrix representation:</li>
-</ul>
-<p>
-\[\begin{bmatrix}1 & 0 & 0 & 0\\0 & 0 & 0 & 1\\0 & 0 & 1 & 0\\0 & 1 & 0 & 0\end{bmatrix}\]
-</p>
-<ul class="org-ul">
-<li>Lets apply this gate to a \(|00\rangle\) state</li>
-</ul>
-<p>
-\[\begin{bmatrix}1 & 0 & 0 & 0\\0 & 0 & 0 & 1\\0 & 0 & 1 & 0\\0 & 1 & 0 & 0\end{bmatrix}\cdot \begin{bmatrix}1\\0\\0\\0\end{bmatrix}=\begin{bmatrix}1\\0\\0\\0\end{bmatrix}\]
-</p>
-</div>
-</div>
-
-<div id="outline-container-orgbb57e05" class="outline-3">
-<h3 id="orgbb57e05">The Math of Entanglement</h3>
-<div class="outline-text-3" id="text-orgbb57e05">
-<ul class="org-ul">
-<li>It generally is \[|q1q2\rangle = \frac{1}{\sqrt{2}}(|00\rangle + |11\rangle)\]</li>
-<li>You can see the sight of dependence in there</li>
-</ul>
-</div>
-</div>
-
-<div id="outline-container-org3a6c603" class="outline-3">
-<h3 id="org3a6c603">Tensor Product Introduction</h3>
-<div class="outline-text-3" id="text-org3a6c603">
-<ul class="org-ul">
-<li>Could you combine two separete vectors to get a 4x1 vector?</li>
-<li>Ofc, we call this mathematical operation a tensor product</li>
-</ul>
-</div>
-<div id="outline-container-org131ef3a" class="outline-4">
-<h4 id="org131ef3a">Example</h4>
-<div class="outline-text-4" id="text-org131ef3a">
-<ul class="org-ul">
-<li>Qubit 0 is in state \(|q0\rangle\) = \(|1\rangle\) = \[\begin{bmatrix}0\\1\end{bmatrix}\]</li>
-<li>Qubit 1 is in state \(|q1\rangle\) = \(|0\rangle\) = \[\begin{bmatrix}1\\0\end{bmatrix}\]</li>
-<li>The math basically is:</li>
-</ul>
-<p>
-\(|q1q0\rangle\) = \(|q1\rangle\otimes |q0\rangle\) = \(|0\rangle\otimes |1\rangle\) = \[\begin{bmatrix}1\\0\end{bmatrix}\otimes \begin{bmatrix}0\\1\end{bmatrix}\]
+<div id="org426b41e" class="figure">
+<p><img src="https://luispengler.github.io/site/org-pages/notes/12th-grade/doc/meioambiente1.png" alt="meioambiente1.png" title="Curva T-W" style="margin-left: auto;margin-right: auto;background-color: mintcream;display: block;width: 100%;" />
 </p>
 </div>
 </div>
 </div>
+
+<div id="outline-container-org8160447" class="outline-3">
+<h3 id="org8160447">Formas de conexão dos painéis</h3>
+<div class="outline-text-3" id="text-org8160447">
+<ul class="org-ul">
+<li>Sistemas em baixa tensão com micro inversor</li>
+<li>Ligar os painéis em série -&gt; aumentar a tensão</li>
+<li>Ligar os painéis em paralelo -&gt; aumentar a corrente</li>
+</ul>
 </div>
 
-<div id="outline-container-org1fa0db6" class="outline-2">
-<h2 id="org1fa0db6">Resources</h2>
-<div class="outline-text-2" id="text-org1fa0db6">
-<p>
-Tensor products for qubit states and gates
-<a href="https://docs.microsoft.com/en-us/azure/quantum/concepts-multiple-qubits">https://docs.microsoft.com/en-us/azure/quantum/concepts-multiple-qubits</a>
-</p>
+<div id="outline-container-orgc04e95f" class="outline-4">
+<h4 id="orgc04e95f">String: Painéis em Série</h4>
+<div class="outline-text-4" id="text-orgc04e95f">
+<ul class="org-ul">
+<li>Maior eficiência, menor o custo</li>
+<li>Alta tensão DC</li>
+<li>Maior possibilidade de falhas em projetos</li>
+<li>Problemas em um painel afetará toda a string</li>
+</ul>
+</div>
+</div>
 
-<p>
-Linear algebra of tensor products
-<a href="https://www.math3ma.com/blog/the-tensor-product-demystified">https://www.math3ma.com/blog/the-tensor-product-demystified</a>
-</p>
+<div id="outline-container-orgf417d8c" class="outline-4">
+<h4 id="orgf417d8c">Array: Série paralelo</h4>
+<div class="outline-text-4" id="text-orgf417d8c">
+<ul class="org-ul">
+<li>Menor custo para instalação</li>
+<li>Único MMPT para todos os painéis, acentuando as perdas em caso de falha de algum paniel</li>
+<li>Protação contra curto circuito</li>
+</ul>
+</div>
+</div>
 </div>
 </div>
 </div>

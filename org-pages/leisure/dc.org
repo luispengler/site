@@ -526,7 +526,7 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [X] Supergirl – 4.22: “The Quest For Peace”
 + [X] Legends of Tomorrow – 4.16: “Hey World!”
 
-* 2019/2020 [70/112] [62%]
+* 2019/2020 [71/112] [63%]
 
 + [X] Batwoman – 1.01: “Pilot”
 + [X] Supergirl – 5.01: “Event Horizon”
@@ -598,7 +598,7 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [X] The Flash – 6.13: “Grodd Friended Me”
 + [X] Legends of Tomorrow – 5.06: “Mortal Khanbat”
 + [X] Black Lightning – 3.15: “The Book Of War: Chapter Two: Freedom Ain’t Free”
-+ [ ] Batwoman – 1.14: “Grinning From Ear To Ear”
++ [X] Batwoman – 1.14: “Grinning From Ear To Ear”
 + [ ] Supergirl – 5.14: “The Bodyguard”
 + [ ] Black Lightning – 3.16: “The Book Of War: Chapter Three: Liberation”
 + [ ] The Flash – 6.14: “Death Of The Speed Force”
