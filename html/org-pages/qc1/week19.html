@@ -6,8 +6,9 @@
 <!-- 2022-03-04 Fri 07:21 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Radiotelescope</title>
+<title>Week 19 - my notes</title>
 <meta name="author" content="Luís Spengler" />
+<meta name="description" content="Week 19 - my notes" />
 <meta name="generator" content="Org Mode" />
 <style>
   #content { max-width: 60em; margin: auto; }
@@ -193,26 +194,148 @@
     { background-color: #ffff00; color: #000000; font-weight: bold; }
   .org-svg { width: 90%; }
 </style>
+<link rel="stylesheet" type="text/css" href="https://luispengler.github.io/site/org-html-themes/src/readtheorg_theme/css/htmlize.css"/>
+<link rel="stylesheet" type="text/css" href="https://luispengler.github.io/site/org-html-themes/src/readtheorg_theme/css/readtheorg.css"/>
+<script src="httpss://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="httpss://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://luispengler.github.io/site/org-html-themes/src/lib/js/jquery.stickytableheaders.min.js"></script>
+<script type="text/javascript" src="https://luispengler.github.io/site/org-html-themes/src/readtheorg_theme/js/readtheorg.js"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        displayAlign: "center",
+        displayIndent: "0em",
+
+        "HTML-CSS": { scale: 100,
+                        linebreaks: { automatic: "false" },
+                        webFont: "TeX"
+                       },
+        SVG: {scale: 100,
+              linebreaks: { automatic: "false" },
+              font: "TeX"},
+        NativeMML: {scale: 100},
+        TeX: { equationNumbers: {autoNumber: "AMS"},
+               MultLineWidth: "85%",
+               TagSide: "right",
+               TagIndent: ".8em"
+             }
+});
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML"></script>
 </head>
 <body>
 <div id="content" class="content">
-<h1 class="title">Radiotelescope</h1>
+<h1 class="title">Week 19 - my notes</h1>
 <div id="table-of-contents" role="doc-toc">
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#orgecaad48">1. Goal</a></li>
+<li><a href="#orgab858e1">Week 19 - Grover&rsquo;s Algorithm</a>
+<ul>
+<li><a href="#org1ffa721">Review</a></li>
+<li><a href="#org7c7b55b">Grover&rsquo;s Algorithm 101</a></li>
+<li><a href="#org20076f8">Grover&rsquo;s &amp; the Quantum Resources</a></li>
+<li><a href="#org1455df0">The Circuit Behind Grover&rsquo;s</a></li>
+<li><a href="#orgf0cb558">Grover nowadays</a></li>
+</ul>
+</li>
 </ul>
 </div>
 </div>
 
-
-<div id="outline-container-orgecaad48" class="outline-2">
-<h2 id="orgecaad48"><span class="section-number-2">1.</span> Goal</h2>
-<div class="outline-text-2" id="text-1">
+<div id="outline-container-orgab858e1" class="outline-2">
+<h2 id="orgab858e1">Week 19 - Grover&rsquo;s Algorithm</h2>
+<div class="outline-text-2" id="text-orgab858e1">
+</div>
+<div id="outline-container-org1ffa721" class="outline-3">
+<h3 id="org1ffa721">Review</h3>
+<div class="outline-text-3" id="text-org1ffa721">
 <ul class="org-ul">
-<li>Develop a cheap radiotelescope that can use simple experiments to study physics subjects</li>
+<li>Classical algortihms can be slow and inneficient. Some even struggle to solve certain complex problems</li>
+<li>Linear Search goes through each element until it finds the right item - we go through this even with which a huge dataset (super inneficient, right?)</li>
+<li>Linear Search is not scalable</li>
 </ul>
+</div>
+</div>
+
+<div id="outline-container-org7c7b55b" class="outline-3">
+<h3 id="org7c7b55b">Grover&rsquo;s Algorithm 101</h3>
+<div class="outline-text-3" id="text-org7c7b55b">
+<ul class="org-ul">
+<li>It is a quantum algortihm that leverages amplitude amplification to speed up search</li>
+<li>As weel as demonstrating quadradic speedup</li>
+<li>We apply Grover&rsquo;s Algorithm to unstructured search, but you know what you are looking for, you just don&rsquo;t know where it is!</li>
+<li>Summarizing: It is a quantum algortihm that leverages superposition and interference to speed up the process</li>
+</ul>
+<p>
+\[number of operations used in Grover's algorithm \approx \sqrt{number of operations used in linear search}\]
+</p>
+<ul class="org-ul">
+<li>Meaning:</li>
+</ul>
+<p>
+\[O(\sqrt{n})\]
+</p>
+</div>
+</div>
+
+<div id="outline-container-org20076f8" class="outline-3">
+<h3 id="org20076f8">Grover&rsquo;s &amp; the Quantum Resources</h3>
+<div class="outline-text-3" id="text-org20076f8">
+<ul class="org-ul">
+<li>Superposition: Combination of the 0 and 1 states</li>
+<li>Interference: Interaction between waves &#x2013; they can add on to each other or cancel out</li>
+<li>We can create a superposition with all the possible different choices &#x2013; all choices are equally likely</li>
+<li>As the algorithm goes on, the probability of incorrect choices reduces (interference) &#x2013; amplitude amplification</li>
+<li>At the final state, you make a measurement, and with a very high probability, we find where it is</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org1455df0" class="outline-3">
+<h3 id="org1455df0">The Circuit Behind Grover&rsquo;s</h3>
+<div class="outline-text-3" id="text-org1455df0">
+<ul class="org-ul">
+<li>Last week we learned that designing a quantum algorithm means translating words into linear algebra</li>
+<li>In the starting point, we just apply an H gate to each qubit</li>
+</ul>
+<p>
+\[\frac{1}{2}\begin{bmatrix}1\\1\\1\\1\end{bmatrix\]
+</p>
+<ul class="org-ul">
+<li>At the end, we wanna know the right answer.</li>
+</ul>
+<p>
+\[\begin{bmatrix}0\\0\\0\\1\end{bmatrix}\]
+</p>
+<ul class="org-ul">
+<li>Which gate do we use from going from the starting point to the end point?</li>
+</ul>
+</div>
+
+<div id="outline-container-org72c4be1" class="outline-4">
+<h4 id="org72c4be1">The circuit step by step</h4>
+<div class="outline-text-4" id="text-org72c4be1">
+<ul class="org-ul">
+<li>Step 1: H gates</li>
+<li>Step 2: Oracle and Grover&rsquo;s Operator
+<ul class="org-ul">
+<li>Part 1: Oracle - It flips the sign of the corresponding to the item we want to find (Z gate or CZ gate) - You know how Waldo looks like, so you can affect him (like e needle you need to find, using a magnet you can affect it even not knowing where it is)</li>
+<li>Part 2: Grover&rsquo;s Operator - flips all the states around the average</li>
+</ul></li>
+<li>We repeat step 2 approx sqrt N times</li>
+<li>Step 3: Measurement - Measure the state, with high probability the result will be the option we are looking for</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgf0cb558" class="outline-3">
+<h3 id="orgf0cb558">Grover nowadays</h3>
+<div class="outline-text-3" id="text-orgf0cb558">
+<ul class="org-ul">
+<li>It is a long-term algorithm: we will need a lot of fault-tolerant qubits; about 10,000 qubits to see an advantage over linear search</li>
+</ul>
+</div>
 </div>
 </div>
 </div>

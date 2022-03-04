@@ -13,3 +13,20 @@
 
 * Aula (25/02)
 + Ligamos 74151 (Mux) e 74138 na aula prática para fazer experimentos
+
+* Aula (04/03)
+
+#+BEGIN_COMMENT
+\begin{displaymath}
+\begin{array}{|c c|c|}
+INPUT & & OUTPUT\\
+\hline
+A & B & Y\\
+\hline % Put a horizontal line between the table header and the rest.
+0 & 0 & 0\\
+0 & 0 & 0\\
+0 & 0 & 0\\
+0 & 0 & 0\\
+\end{array}
+\end{displaymath}
+#+END_COMMENT

@@ -1,0 +1,47 @@
+#+TITLE: Week 19 - my notes
+#+DESCRIPTION: Week 19 - my notes
+#+SETUPFILE: https://luispengler.github.io/site/org-html-themes/org/theme-readtheorg.setup
+#+LaTeX_+HEADER: \usepackage{physics}
+#+LaTeX_+HEADER: \usepackage{amsmath}
+#+OPTIONS: num:nil ^:{} toc:2
+
+* Week 19 - Grover's Algorithm
+** Review
++ Classical algortihms can be slow and inneficient. Some even struggle to solve certain complex problems
++ Linear Search goes through each element until it finds the right item - we go through this even with which a huge dataset (super inneficient, right?)
++ Linear Search is not scalable
+
+** Grover's Algorithm 101
++ It is a quantum algortihm that leverages amplitude amplification to speed up search
++ As weel as demonstrating quadradic speedup
++ We apply Grover's Algorithm to unstructured search, but you know what you are looking for, you just don't know where it is!
++ Summarizing: It is a quantum algortihm that leverages superposition and interference to speed up the process
+\[number of operations used in Grover's algorithm \approx \sqrt{number of operations used in linear search}\]
++ Meaning:
+\[O(\sqrt{n})\]
+
+** Grover's & the Quantum Resources
++ Superposition: Combination of the 0 and 1 states
++ Interference: Interaction between waves -- they can add on to each other or cancel out
++ We can create a superposition with all the possible different choices -- all choices are equally likely
++ As the algorithm goes on, the probability of incorrect choices reduces (interference) -- amplitude amplification
++ At the final state, you make a measurement, and with a very high probability, we find where it is
+
+** The Circuit Behind Grover's
++ Last week we learned that designing a quantum algorithm means translating words into linear algebra
++ In the starting point, we just apply an H gate to each qubit
+\[\frac{1}{2}\begin{bmatrix}1\\1\\1\\1\end{bmatrix\]
++ At the end, we wanna know the right answer.
+\[\begin{bmatrix}0\\0\\0\\1\end{bmatrix}\]
++ Which gate do we use from going from the starting point to the end point?
+
+*** The circuit step by step
++ Step 1: H gates
++ Step 2: Oracle and Grover's Operator
+  - Part 1: Oracle - It flips the sign of the corresponding to the item we want to find (Z gate or CZ gate) - You know how Waldo looks like, so you can affect him (like e needle you need to find, using a magnet you can affect it even not knowing where it is)
+  - Part 2: Grover's Operator - flips all the states around the average
++ We repeat step 2 approx sqrt N times
++ Step 3: Measurement - Measure the state, with high probability the result will be the option we are looking for
+
+** Grover nowadays
++ It is a long-term algorithm: we will need a lot of fault-tolerant qubits; about 10,000 qubits to see an advantage over linear search
