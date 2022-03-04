@@ -65,7 +65,7 @@ https://luispengler.github.io/site/org-pages/notes/12th-grade/doc/instrumenta1.j
 
 * Aula 24/02
 + Fazer pré-rascunho de um artigo (sozinho), contendo Introdução, Problemática, Objetivo...
-+ Aqui está o [[https://luispengler.github.io/site/org-pages/notes/12th-grade/doc/instrumentacao1/instrumentacao1.pdd][artigo pronto]]
++ Aqui está o [[https://luispengler.github.io/site/org-pages/notes/12th-grade/doc/instrumentacao1/instrumentacao1.pdf][artigo pronto]]
 
 * Aula 25/02
 *** Zero Vivo
@@ -84,3 +84,21 @@ https://luispengler.github.io/site/org-pages/notes/12th-grade/doc/instrumenta1.j
 + Retro-reflective: Sinal lógico 0 quando nada está passando. Mas existem dois tipos, aqueles que emitem ondas polarizadas e que não. Não polarizados não saberiam diferenciar o seu espelho retro-refletor de um objeto metálico, se este redirecionasse o feixe do emissor diretamente no receptor. Neste caso, objetos metálicos, às vezes, fariam o nível lógico voltar pra 0. Com objetos normais, o nível lógico continuaria sendo 1. É sensível até 7m. No entanto, para o tipo de ondas polarizadas, qualquer objeto que interrompa o feixe, mesmo que este seja metálico (ou até outro espelho!), o sinal lógico vai ser 1. É sensível de 3 a 5,5m.
 + Difuse: A diferença entre este e o anterior, é que usam o alvo para mandar a luz de volta (em vez de um espelho). No entanto, nem todos os alvos são bons em emitir luz de volta e precisam estar mais perto do que alguns para serem detectados. Sensores de proximidade difusos tem um alcance de até 500mm. Qualquer alvo dentro deste alcance vai ser visto, contanto que reflita luz suficiente. Para aplicações menores (com alvos menores), existe o tipo de foco fixo. O foco do emissor e receptor estão no mesmo ponto do espaço, aumentando a sua precisão, mas diminuindo o alcance quando comparados com sensores de proximidade difusos. Alcance de geralmente até 70mm.
 + Aqui está o artigo pronto
+
+* Aula 04/0
++ Prova semana que vem (atividade avaliativa) até a Aula 3 no moodle
+** Tipos de sensores
++ Sensores industriais: Pega uma variável e transforma em outra variável mais conveniente
++ Sesnsores podem ser do tipo discreto e contínuo
+
+*** Sensores discretos
++ Apenas ligado ou desligado
++ Ex: Chave fim de curso
+
+**** Sensores de proximidade discretos
++ Detectar a presença de um determinado objeto e chaves eletromecânicas são atuadas em função disso
++ Usado para detecção de posição, contagem de peças, medição da velocidade, detecção do nível de água e detecção de altura, detecção de forma, detecção de ferramenta
+
+**** Definições Básicas
++ Face sensora: superficie de onde sai campo elétrico ou campo eletromagnético
++

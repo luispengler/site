@@ -1,0 +1,61 @@
+\documentclass{article}
+\title{Sistemas Digitais e Microcontrolados - Relatório de Laboratório}
+\date{}
+
+\usepackage[utf8]{inputenc}
+\usepackage[portuguese]{babel}
+\usepackage[margin=3.5cm]{geometry}
+\usepackage{amsmath}
+\usepackage{physics}
+\usepackage{titlesec}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage[parfill]{parskip}
+\usepackage[nottoc]{tocbibind}
+\usepackage[backend=biber]{biblatex}
+\addbibresource{/home/luispengler/drive/LinuxFabrik/Research/read/bib.bib}
+\usepackage{authblk}
+\author[1]{Isadora Santos}
+\author[2]{Luís Spengler}
+\affil[1,2]{Instituto Federal de Educação, Ciência e Tecnologia de Mato Grosso do Sul}
+
+\begin{document}
+\maketitle
+
+\begin{displaymath}
+\begin{array}{|c c c|c c c c c c c c|}
+& IN & & & & & OUT & & &\\
+\hline
+A & B & C & D0 & D1 & D2 & D3 & D4 & D5 & D6 & D7\\
+\hline % Put a horizontal line between the table header and the rest.
+0 & 0 & 0 & Q & 0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 1 & 0 & Q & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 1 & 0 & 0 & 0 & Q & 0 & 0 & 0 & 0 & 0\\
+0 & 1 & 1 & 0 & 0 & 0 & Q & 0 & 0 & 0 & 0\\
+1 & 0 & 0 & 0 & 0 & 0 & 0 & Q & 0 & 0 & 0\\
+1 & 0 & 1 & 0 & 0 & 0 & 0 & 0 & Q & 0 & 0\\
+1 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & Q & 0\\
+1 & 1 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & Q\\
+\end{array}
+\end{displaymath}
+
+\begin{displaymath}
+\begin{array}{|c c c|c c c c c c c c|}
+& IN & & & & & OUT & & &\\
+\hline
+A & B & C & Y0 & Y1 & Y2 & Y3 & Y4 & Y5 & Y6 & Y7\\
+\hline % Put a horizontal line between the table header and the rest.
+0 & 0 & 0 & Q & 0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 1 & 0 & Q & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 1 & 0 & 0 & 0 & Q & 0 & 0 & 0 & 0 & 0\\
+0 & 1 & 1 & 0 & 0 & 0 & Q & 0 & 0 & 0 & 0\\
+1 & 0 & 0 & 0 & 0 & 0 & 0 & Q & 0 & 0 & 0\\
+1 & 0 & 1 & 0 & 0 & 0 & 0 & 0 & Q & 0 & 0\\
+1 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & Q & 0\\
+1 & 1 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & Q\\
+\end{array}
+\end{displaymath}
+
+\end{document}
