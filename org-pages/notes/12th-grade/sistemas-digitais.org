@@ -15,18 +15,4 @@
 + Ligamos 74151 (Mux) e 74138 na aula prática para fazer experimentos
 
 * Aula (04/03)
-
-#+BEGIN_COMMENT
-\begin{displaymath}
-\begin{array}{|c c|c|}
-INPUT & & OUTPUT\\
-\hline
-A & B & Y\\
-\hline % Put a horizontal line between the table header and the rest.
-0 & 0 & 0\\
-0 & 0 & 0\\
-0 & 0 & 0\\
-0 & 0 & 0\\
-\end{array}
-\end{displaymath}
-#+END_COMMENT
++ Nesta aula prática ligamos MUX e DEMUX nas CIs ali presente, confirmando suas tabelas verdades de acordo com os resultados obtidos. Isadora e eu montamos as tabelas verdade em LaTeX [[https://luispengler.github.io/site/org-page/notes/12th-grade/doc/mux-demux/relatorio1.pdf][neste PDF]]

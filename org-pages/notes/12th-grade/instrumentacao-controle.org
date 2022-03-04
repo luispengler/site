@@ -114,5 +114,37 @@ https://luispengler.github.io/site/org-pages/notes/12th-grade/doc/instrumenta1.j
   - Um que comuta o terminal positivo da fonte (PNP)
   - Otro que comuta o terminal negativo da fonte (NPN)
 + Esses tipos de sensores apresentam características que dependem do conhecimento das definições abaixo
-  - Normalmente aberto (NO) (NA): O transistor de saída está normalmente cortado, com o sensore desativado, assim a carga está desativada também, pois o transistor de saída está aberto.
-  - Normalmente fechado (NC) (NF):
+  - Normalmente aberto (NO) (NA): O transistor de saída está normalmente cortado, com o sensor desativado, assim a carga está desativada também.
+  - Normalmente fechado (NC) (NF): O transistor de saída está normalmente saturado, com o sensor ativado, assim a carga está ativada também.
+
+**** Tipos de sensores de proximidade
+***** Indutivos: detectam a proximidade de elementos metálicos sem a necessidade de contato
++ Este gera um campo eletromagnético que é gerado por uma bobina ressonante instalada na face sensora
++ Sua distância sensora operacional depende do tipo de material e é multiplicada por um fator de redução
+
+***** Magnéticos: detectam a proximidade de um imã, atuando de acordo com a sua presença e ausência
+***** Capacitivos: detectam a presença de materiais orgânicos, pós, líquidos, entre outros. Assim como objetos dentro de objetos (líquidos dentro de garrafas)
++ Consiste de duas placas paralelas (armaduras) e isoladas por um dielétrico
++ O valor da capacitância pode ser alterado pela aproximação de um objeto
++ Por serem utilizados em uma grande variedade de objetos, geralmente há algum tipo de ajuste de sensibilidade presente na parte traseira do sensor.
++ Permissividade relativa: uma medida do aumento de capacidade de armazenar energia em um meio dielétrico sob efeito de um campo elétrico. Quanto maior esse valor, maior a quantidade de cargas elétricas que o capacitor será capaz de armazenar em suas armaduras.
++ São influenciados pela densidade do meio onde o sensor está instalado, então tomar cuidado com este ambiente
+
+***** Sensores de proximidade fotoelétricos
++ Denomidados de sensores ótpicos, os quais manipulam a luz para detectar a presença de um objeto dentro de uma área delimitada
++ Transmissor: Apenas sensores fotoelétricos ativos o apresentam. Este componente envia um feixe de luz através de um LED. Esses flashes são de alta potência e de curta duração
++ Receptor: Composto por um fototransistor que é sensível à luz emitida pelo transmissor
++ Conversor de sinal: Converte os pulsos de luz do transmissor em sinais elétricos.
++ Estes ainda podem ser
+  - Ativos: Necessitam de transmissor e receptor de infravermelho separados
+  - Passivos: Apresentam somente receptores pois não emitem ondas infravermelhas
+
+****** Sistema por barreira direta
++ Transmissor e receptor estão em unidades distintas e devem ser dispostos frente a frente
++ Quando houver alguma interrupção, a saída será acionada
+****** Sistema por difusão
++ O transmissor e receptor são montados na mesma unidade
++ O acionamento da saída ocorre quando o objeto a ser detectado entre na região de sensibilidade e reflete para o receptor o feixe de luz emitido pelo transmissor
++ É muito eficiente com objetos metálicos, pois depende do índice de reflexão do objeto
++ É calibrado com uma folha de papel branco, apresentando índice de refletividade de 90%
+\[S_{a}=0,81\cdot S_{n}\cdot F\]
