@@ -85,7 +85,7 @@ https://luispengler.github.io/site/org-pages/notes/12th-grade/doc/instrumenta1.j
 + Difuse: A diferença entre este e o anterior, é que usam o alvo para mandar a luz de volta (em vez de um espelho). No entanto, nem todos os alvos são bons em emitir luz de volta e precisam estar mais perto do que alguns para serem detectados. Sensores de proximidade difusos tem um alcance de até 500mm. Qualquer alvo dentro deste alcance vai ser visto, contanto que reflita luz suficiente. Para aplicações menores (com alvos menores), existe o tipo de foco fixo. O foco do emissor e receptor estão no mesmo ponto do espaço, aumentando a sua precisão, mas diminuindo o alcance quando comparados com sensores de proximidade difusos. Alcance de geralmente até 70mm.
 + Aqui está o artigo pronto
 
-* Aula 04/0
+* Aula 04/03
 + Prova semana que vem (atividade avaliativa) até a Aula 3 no moodle
 ** Tipos de sensores
 + Sensores industriais: Pega uma variável e transforma em outra variável mais conveniente
@@ -101,4 +101,18 @@ https://luispengler.github.io/site/org-pages/notes/12th-grade/doc/instrumenta1.j
 
 **** Definições Básicas
 + Face sensora: superficie de onde sai campo elétrico ou campo eletromagnético
-+
++ Distância sensora nominal (Sn): Distância teórica que os sensores são específicados. Não significa que ele sempre vai operar nessa faixa.
++ Distância sensora operacional (Sa): Distância segura, em que se considera todas as variáveis de industrialização, temperatura e tensão de alimentação.
+\[S_{a}=0,81\cdot S_{n}\]
++ Alvo padrão: É um acionador normalizado para calibrar a distância sensore nominal durante o processo de fabriação do sensor. Este consiste de uma chapa de aço de 1mm de espessura, formato quadrado, mas essas medidas mudam por sensor.
++ Histerese: Diferença entre o ponto de acionamento e o ponto de desligamento. Basicamente a medida (em m, mm, cm, etc) da diferença de desligar ou ligar um sensor
+
+**** Configurações elétricas em corrente contínua
++ Apresentam várias formas de estágios de saída.
++ A configuração elétrica em corrente contínua é bastante usada na automação de processos.
++ Existem dois tipos de transistores de saída
+  - Um que comuta o terminal positivo da fonte (PNP)
+  - Otro que comuta o terminal negativo da fonte (NPN)
++ Esses tipos de sensores apresentam características que dependem do conhecimento das definições abaixo
+  - Normalmente aberto (NO) (NA): O transistor de saída está normalmente cortado, com o sensore desativado, assim a carga está desativada também, pois o transistor de saída está aberto.
+  - Normalmente fechado (NC) (NF):

@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2022-03-04 Fri 08:55 -->
+<!-- 2022-03-04 Fri 09:08 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Instrumentação e Controle</title>
@@ -247,7 +247,7 @@
 </ul>
 </li>
 <li><a href="#org7624c75">Aula 03/03</a></li>
-<li><a href="#org9d080df">Aula 04/0</a>
+<li><a href="#org7d97198">Aula 04/03</a>
 <ul>
 <li><a href="#orgc795c7a">Tipos de sensores</a></li>
 </ul>
@@ -327,7 +327,7 @@ Sendo P1 dia 31/03 e sua recuperação dia 07/04 e a P2 sendo dia 09/06 e sua re
 <li>Tivemos que fazer o pré-rascunho de um artigo em trio. Fui com Daniel e Lukas. Obtivemos a seguinte belezinha</li>
 </ul>
 
-<div id="org7bdeb9a" class="figure">
+<div id="orge060d01" class="figure">
 <p><img src="https://luispengler.github.io/site/org-pages/notes/12th-grade/doc/instrumenta1.jpg" alt="instrumenta1.jpg" title="Primeira atividade prática" style="margin-left: auto;margin-right: auto;background-color: mintcream;display: block;width: 100%;" />
 </p>
 </div>
@@ -463,9 +463,9 @@ Sendo P1 dia 31/03 e sua recuperação dia 07/04 e a P2 sendo dia 09/06 e sua re
 </div>
 </div>
 
-<div id="outline-container-org9d080df" class="outline-2">
-<h2 id="org9d080df">Aula 04/0</h2>
-<div class="outline-text-2" id="text-org9d080df">
+<div id="outline-container-org7d97198" class="outline-2">
+<h2 id="org7d97198">Aula 04/03</h2>
+<div class="outline-text-2" id="text-org7d97198">
 <ul class="org-ul">
 <li>Prova semana que vem (atividade avaliativa) até a Aula 3 no moodle</li>
 </ul>
@@ -503,7 +503,35 @@ Sendo P1 dia 31/03 e sua recuperação dia 07/04 e a P2 sendo dia 09/06 e sua re
 <div class="outline-text-5" id="text-orgb49ecb3">
 <ul class="org-ul">
 <li>Face sensora: superficie de onde sai campo elétrico ou campo eletromagnético</li>
-<li></li>
+<li>Distância sensora nominal (Sn): Distância teórica que os sensores são específicados. Não significa que ele sempre vai operar nessa faixa.</li>
+<li>Distância sensora operacional (Sa): Distância segura, em que se considera todas as variáveis de industrialização, temperatura e tensão de alimentação.</li>
+</ul>
+<p>
+\[S_{a}=0,81\cdot S_{n}\]
+</p>
+<ul class="org-ul">
+<li>Alvo padrão: É um acionador normalizado para calibrar a distância sensore nominal durante o processo de fabriação do sensor. Este consiste de uma chapa de aço de 1mm de espessura, formato quadrado, mas essas medidas mudam por sensor.</li>
+<li>Histerese: Diferença entre o ponto de acionamento e o ponto de desligamento. Basicamente a medida (em m, mm, cm, etc) da diferença de desligar ou ligar um sensor</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org379395c" class="outline-5">
+<h5 id="org379395c">Configurações elétricas em corrente contínua</h5>
+<div class="outline-text-5" id="text-org379395c">
+<ul class="org-ul">
+<li>Apresentam várias formas de estágios de saída.</li>
+<li>A configuração elétrica em corrente contínua é bastante usada na automação de processos.</li>
+<li>Existem dois tipos de transistores de saída
+<ul class="org-ul">
+<li>Um que comuta o terminal positivo da fonte (PNP)</li>
+<li>Otro que comuta o terminal negativo da fonte (NPN)</li>
+</ul></li>
+<li>Esses tipos de sensores apresentam características que dependem do conhecimento das definições abaixo
+<ul class="org-ul">
+<li>Normalmente aberto (NO) (NA): O transistor de saída está normalmente cortado, com o sensore desativado, assim a carga está desativada também, pois o transistor de saída está aberto.</li>
+<li>Normalmente fechado (NC) (NF):</li>
+</ul></li>
 </ul>
 </div>
 </div>
@@ -513,7 +541,7 @@ Sendo P1 dia 31/03 e sua recuperação dia 07/04 e a P2 sendo dia 09/06 e sua re
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Luís Spengler</p>
-<p class="date">Created: 2022-03-04 Fri 08:55</p>
+<p class="date">Created: 2022-03-04 Fri 09:08</p>
 </div>
 </body>
 </html>
