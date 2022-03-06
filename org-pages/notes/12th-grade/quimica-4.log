@@ -1,0 +1,27 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.12.28)  4 MAR 2022 10:55
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**/home/luispengler/code/www/site/org-pages/notes/12th-grade/quimica-4.org
+(/home/luispengler/code/www/site/org-pages/notes/12th-grade/quimica-4.org
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2021-11-22>
+! You can't use `macro parameter character #' in vertical mode.
+l.1 #
+     +TITLE: Química 4
+? 
+! Emergency stop.
+l.1 #
+     +TITLE: Química 4
+End of file on the terminal!
+
+ 
+Here is how much of TeX's memory you used:
+ 18 strings out of 478353
+ 581 string characters out of 5854634
+ 295989 words of memory out of 5000000
+ 18244 multiletter control sequences out of 15000+600000
+ 403430 words of font info for 27 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 13i,0n,12p,123b,10s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!

@@ -526,7 +526,7 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [X] Supergirl – 4.22: “The Quest For Peace”
 + [X] Legends of Tomorrow – 4.16: “Hey World!”
 
-* 2019/2020 [73/112] [65%]
+* 2019/2020 [83/112] [74%]
 
 + [X] Batwoman – 1.01: “Pilot”
 + [X] Supergirl – 5.01: “Event Horizon”
@@ -601,16 +601,16 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [X] Batwoman – 1.14: “Grinning From Ear To Ear”
 + [X] Supergirl – 5.14: “The Bodyguard”
 + [X] Black Lightning – 3.16: “The Book Of War: Chapter Three: Liberation”
-+ [ ] The Flash – 6.14: “Death Of The Speed Force”
-+ [ ] Legends of Tomorrow – 5.07: “Mr. Parker’s Cul-De-Sac”
-+ [ ] Batwoman – 1.15: “Off With Her Head”
-+ [ ] Supergirl – 5.15: “Reality Bytes”
-+ [ ] The Flash – 6.15: “The Exorcism of Nash Wells”
-+ [ ] Legends of Tomorrow – 5.08: “Romeo V. Juliet: Dawn of Justness”
-+ [ ] Batwoman – 1.16: “Through The Looking Glass”
-+ [ ] Supergirl – 5.16: “Alex In Wonderland”
-+ [ ] The Flash – 6.16: “So Long and Goodnight”
-+ [ ] Legends of Tomorrow – 5.09: “Zari, Not Zari”
++ [X] The Flash – 6.14: “Death Of The Speed Force”
++ [X] Legends of Tomorrow – 5.07: “Mr. Parker’s Cul-De-Sac”
++ [X] Batwoman – 1.15: “Off With Her Head”
++ [X] Supergirl – 5.15: “Reality Bytes”
++ [X] The Flash – 6.15: “The Exorcism of Nash Wells”
++ [X] Legends of Tomorrow – 5.08: “Romeo V. Juliet: Dawn of Justness”
++ [X] Batwoman – 1.16: “Through The Looking Glass”
++ [X] Supergirl – 5.16: “Alex In Wonderland”
++ [X] The Flash – 6.16: “So Long and Goodnight”
++ [X] Legends of Tomorrow – 5.09: “Zari, Not Zari”
 + [ ] Batwoman – 1.17: “A Narrow Escape”
 + [ ] The Flash – 6.17: “Liberation”
 + [ ] Legends of Tomorrow – 5.10: “The Great British Fake Off”
