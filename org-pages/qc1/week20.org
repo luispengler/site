@@ -1,0 +1,46 @@
+#+TITLE: Week 20 - my notes
+#+DESCRIPTION: Week 20 - my notes
+#+SETUPFILE: https://luispengler.github.io/site/org-html-themes/org/theme-readtheorg.setup
+#+LaTeX_+HEADER: \usepackage{physics}
+#+LaTeX_+HEADER: \usepackage{amsmath}
+#+OPTIONS: num:nil ^:{} toc:2
+
+* Week 20 - Quantum Computing & Beyond
+** Quantum Beyond Computing
++ Superconduction was discovered in 1911, when Kammerligh Onnes cooled mercury down to 3K and it conducted electricity with no resistance
++ However, a full theory of superconductivity was only created in 1957 (BCS theory) -- by means of quantum mechanics
++ SQUIDs (superconducting quantum interference device) are sensible to tiny magnetic field produced by our brain -- this was quantum 1.0
++ We've gotten to quantum 2.0 when we improved those devices and were able to visualize quantum properties in these circuits
+
+** Quantum 1.0 & Quantum 2.0
++ In quantum 1.0, we don't need quantum to understand what is happening, but it is there
+
+*** What is quantum about lasers?
++ The color the laser emits corresponds to its energy (discretization)
+
+** The Uncertainty Principle
++ A consequence of wave-particle duality
++ The more exactly we can point out the position, the less exact we can express the wavelength
++ It is also applied to energy and time
++ We engineer around this fundamental idea!
+
+*** Sensing Gravitational Waves
++ Using "squeezed" states at LIGO
+
+** Quantum Tunneling
++ Particles end up in places that they shouldn't be allowed classicaly, like crossing a wall
++ That's how we can see through a window, or hear that lousy neighbour!
++ Tunneling is easiest when the barrier is thin
++ Fun fact: Quantum tunneling makes the stars shine -- The energy limit required for two atoms to fuse is like a barrier
++ Quantum tunneling is also used in sensors: Scanning tunneling microscope (STM)
++ In STM, we move a very sharp tip over the sample we want to image, it measures how many electrons are tunneling and gives you a picture of this sample
+
+* Resources
+Quantum tunneling in the sun
+URL: https://www.youtube.com/watch?v=gS1dpowPlE8
+The Nobel Laureate vs the Graduate Student
+URL: https://physicstoday.scitation.org/doi/10.1063/1.1397394
+Description: History of the Josephson effect, the key enabling discovery behind superconducting qubits
+Real-world Oracles
+URL: https://arxiv.org/pdf/quant-ph/9911082.pdf
+  URL: https://arxiv.org/pdf/quant-ph/9607014.pdf

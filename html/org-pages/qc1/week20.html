@@ -6,9 +6,9 @@
 <!-- 2022-03-06 Sun 15:36 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Week 11 - my notes</title>
+<title>Week 20 - my notes</title>
 <meta name="author" content="Luís Spengler" />
-<meta name="description" content="Week 11 - my notes" />
+<meta name="description" content="Week 20 - my notes" />
 <meta name="generator" content="Org Mode" />
 <style>
   #content { max-width: 60em; margin: auto; }
@@ -200,216 +200,110 @@
 <script src="httpss://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="https://luispengler.github.io/site/org-html-themes/src/lib/js/jquery.stickytableheaders.min.js"></script>
 <script type="text/javascript" src="https://luispengler.github.io/site/org-html-themes/src/readtheorg_theme/js/readtheorg.js"></script>
-<script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-        displayAlign: "center",
-        displayIndent: "0em",
-
-        "HTML-CSS": { scale: 100,
-                        linebreaks: { automatic: "false" },
-                        webFont: "TeX"
-                       },
-        SVG: {scale: 100,
-              linebreaks: { automatic: "false" },
-              font: "TeX"},
-        NativeMML: {scale: 100},
-        TeX: { equationNumbers: {autoNumber: "AMS"},
-               MultLineWidth: "85%",
-               TagSide: "right",
-               TagIndent: ".8em"
-             }
-});
-</script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML"></script>
 </head>
 <body>
 <div id="content" class="content">
-<h1 class="title">Week 11 - my notes</h1>
+<h1 class="title">Week 20 - my notes</h1>
 <div id="table-of-contents" role="doc-toc">
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#org5698229">Week 11 - Quantum Key Distribuition: Part 2</a>
+<li><a href="#org09a5546">Week 20 - Quantum Computing &amp; Beyond</a>
 <ul>
-<li><a href="#orgb17fed8">Recap</a></li>
+<li><a href="#org038ad45">Quantum Beyond Computing</a></li>
+<li><a href="#org9d8fde8">Quantum 1.0 &amp; Quantum 2.0</a></li>
+<li><a href="#org4cd600e">The Uncertainty Principle</a></li>
+<li><a href="#org8aaf8e9">Quantum Tunneling</a></li>
 </ul>
 </li>
-<li><a href="#org1ed0470">QKD Part 2: Eve returns (imp smiling)</a>
-<ul>
-<li><a href="#orge2a2342">Eve&rsquo;s work</a></li>
-<li><a href="#org2c62538">Receiver&rsquo;s work</a></li>
-<li><a href="#org3e95273">Comparison</a></li>
-</ul>
-</li>
-<li><a href="#orgdc6fd9a">Other QKD protocols</a>
-<ul>
-<li><a href="#org7b38beb">B92 protocol</a></li>
-<li><a href="#orgeec4cf8">E91 protocol</a></li>
-</ul>
-</li>
-<li><a href="#org191dbc0">QKD in the real world</a>
-<ul>
-<li><a href="#org5c3c255">Differences</a></li>
-</ul>
-</li>
+<li><a href="#orgcab3b31">Resources</a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org5698229" class="outline-2">
-<h2 id="org5698229">Week 11 - Quantum Key Distribuition: Part 2</h2>
-<div class="outline-text-2" id="text-org5698229">
+<div id="outline-container-org09a5546" class="outline-2">
+<h2 id="org09a5546">Week 20 - Quantum Computing &amp; Beyond</h2>
+<div class="outline-text-2" id="text-org09a5546">
 </div>
-<div id="outline-container-orgb17fed8" class="outline-3">
-<h3 id="orgb17fed8">Recap</h3>
-<div class="outline-text-3" id="text-orgb17fed8">
-</div>
-<div id="outline-container-org36e7d46" class="outline-4">
-<h4 id="org36e7d46">The Key</h4>
-<div class="outline-text-4" id="text-org36e7d46">
+<div id="outline-container-org038ad45" class="outline-3">
+<h3 id="org038ad45">Quantum Beyond Computing</h3>
+<div class="outline-text-3" id="text-org038ad45">
 <ul class="org-ul">
-<li>It is a series of classical bits</li>
-<li>It is used to encode and decode the party messages</li>
-<li>in QKD, the key is developed together</li>
-<li>QKD helps us construct and send a truly secure key</li>
-<li>Quantum measurement guarantees that we know if there was an eavesdropper listening</li>
+<li>Superconduction was discovered in 1911, when Kammerligh Onnes cooled mercury down to 3K and it conducted electricity with no resistance</li>
+<li>However, a full theory of superconductivity was only created in 1957 (BCS theory) &#x2013; by means of quantum mechanics</li>
+<li>SQUIDs (superconducting quantum interference device) are sensible to tiny magnetic field produced by our brain &#x2013; this was quantum 1.0</li>
+<li>We&rsquo;ve gotten to quantum 2.0 when we improved those devices and were able to visualize quantum properties in these circuits</li>
 </ul>
-</div>
-</div>
-<div id="outline-container-orgca9a356" class="outline-4">
-<h4 id="orgca9a356">QKD protocol</h4>
-<div class="outline-text-4" id="text-orgca9a356">
-</div>
-<div id="outline-container-orgd871ac0" class="outline-5">
-<h5 id="orgd871ac0">Phase 1: Sending</h5>
-<div class="outline-text-5" id="text-orgd871ac0">
-<ol class="org-ol">
-<li>Sender randomly picks some classical bits</li>
-<li>Sender randomly chooses a basis (Z or X) to each bit.</li>
-<li>Sender encondes each classical bit in a qubit using the rules the party agreed on.</li>
-<li>Sender sends the qubits using a quantum channel</li>
-</ol>
-</div>
-</div>
-<div id="outline-container-org87ef0ad" class="outline-5">
-<h5 id="org87ef0ad">Phase 2: Receiving</h5>
-<div class="outline-text-5" id="text-org87ef0ad">
-<ol class="org-ol">
-<li>Receiver ramdonly picks bases</li>
-<li>Receiver measures the qubits with his/her chosen bases to get new quantum states</li>
-<li>Receiver decodes the states of his measured qubits into bits</li>
-</ol>
-</div>
-</div>
-<div id="outline-container-org0478a24" class="outline-5">
-<h5 id="org0478a24">Phase 3: Comparing</h5>
-<div class="outline-text-5" id="text-org0478a24">
-<ol class="org-ol">
-<li>Sender and receiver compare bases using the classical channel and eliminate the ones that their bases didn&rsquo;t match up.</li>
-<li>Sender and receiver compare bits over the classical channel</li>
-</ol>
-</div>
-</div>
-<div id="outline-container-org8d7ae93" class="outline-5">
-<h5 id="org8d7ae93">Importance of second step in third phase</h5>
-<div class="outline-text-5" id="text-org8d7ae93">
-<ul class="org-ul">
-<li>If their bits are not the same, it means someone eveasdropped</li>
-<li>Remember, when we measure quantum states, they can change</li>
-</ul>
-</div>
-</div>
-</div>
 </div>
 </div>
 
-<div id="outline-container-org1ed0470" class="outline-2">
-<h2 id="org1ed0470">QKD Part 2: Eve returns (imp smiling)</h2>
-<div class="outline-text-2" id="text-org1ed0470">
+<div id="outline-container-org9d8fde8" class="outline-3">
+<h3 id="org9d8fde8">Quantum 1.0 &amp; Quantum 2.0</h3>
+<div class="outline-text-3" id="text-org9d8fde8">
 <ul class="org-ul">
-<li>Phase will be slightly different:
-<ul class="org-ul">
-<li>Someone will intecerpt the qubits before Bob can measure them.</li>
-</ul></li>
-<li>When agreeing upon the bases and the table, we gotta consider Eve knowing them too</li>
+<li>In quantum 1.0, we don&rsquo;t need quantum to understand what is happening, but it is there</li>
 </ul>
 </div>
-<div id="outline-container-orge2a2342" class="outline-3">
-<h3 id="orge2a2342">Eve&rsquo;s work</h3>
-<div class="outline-text-3" id="text-orge2a2342">
+
+<div id="outline-container-orgdd1a75a" class="outline-4">
+<h4 id="orgdd1a75a">What is quantum about lasers?</h4>
+<div class="outline-text-4" id="text-orgdd1a75a">
 <ul class="org-ul">
-<li>He intercepts the qubits sent</li>
-<li>Then, he chooses bases (at random) to figure out the bits (he is measuring)</li>
-<li>Of course, as Eve used some different basis than the sender used, his measurements contain differences from the previous ones.</li>
-<li>Even, to remain undetected, needs to send off those results to the receiver</li>
-</ul>
-</div>
-</div>
-<div id="outline-container-org2c62538" class="outline-3">
-<h3 id="org2c62538">Receiver&rsquo;s work</h3>
-<div class="outline-text-3" id="text-org2c62538">
-<ul class="org-ul">
-<li>They choose random bases to figure out the bits</li>
-<li>They decode qubits back to bits using his random bases and the table previously agreed on</li>
-</ul>
-</div>
-</div>
-<div id="outline-container-org3e95273" class="outline-3">
-<h3 id="org3e95273">Comparison</h3>
-<div class="outline-text-3" id="text-org3e95273">
-<ul class="org-ul">
-<li>Sender and receiver compare their bases and cross off the ones tha don&rsquo;t match</li>
-<li>Afterwards, they check to see if their bits are the same (and it is not!)</li>
-<li>After knowing there is an eavesdropper on the line, they need to go and find a more secure method of communicating</li>
+<li>The color the laser emits corresponds to its energy (discretization)</li>
 </ul>
 </div>
 </div>
 </div>
 
-<div id="outline-container-orgdc6fd9a" class="outline-2">
-<h2 id="orgdc6fd9a">Other QKD protocols</h2>
-<div class="outline-text-2" id="text-orgdc6fd9a">
+<div id="outline-container-org4cd600e" class="outline-3">
+<h3 id="org4cd600e">The Uncertainty Principle</h3>
+<div class="outline-text-3" id="text-org4cd600e">
 <ul class="org-ul">
-<li>The QKD protocol we&rsquo;ve been learning is AKA BB84 procotol. It was invented by Bennet and Brassard in 1984</li>
+<li>A consequence of wave-particle duality</li>
+<li>The more exactly we can point out the position, the less exact we can express the wavelength</li>
+<li>It is also applied to energy and time</li>
+<li>We engineer around this fundamental idea!</li>
 </ul>
 </div>
-<div id="outline-container-org7b38beb" class="outline-3">
-<h3 id="org7b38beb">B92 protocol</h3>
-<div class="outline-text-3" id="text-org7b38beb">
+
+<div id="outline-container-org38182ee" class="outline-4">
+<h4 id="org38182ee">Sensing Gravitational Waves</h4>
+<div class="outline-text-4" id="text-org38182ee">
 <ul class="org-ul">
-<li>Sender uses two states to enconde - \(|0\rangle\) \(|+\rangle\) - Notice that these two states are still in different bases (Z and X).</li>
-</ul>
-</div>
-</div>
-<div id="outline-container-orgeec4cf8" class="outline-3">
-<h3 id="orgeec4cf8">E91 protocol</h3>
-<div class="outline-text-3" id="text-orgeec4cf8">
-<ul class="org-ul">
-<li>This protocol uses entenglement - Sender and receiver have one qubit each, and the two qubits are entangled. The key is generated using these shared, entangled qubits</li>
+<li>Using &ldquo;squeezed&rdquo; states at LIGO</li>
 </ul>
 </div>
 </div>
 </div>
 
-<div id="outline-container-org191dbc0" class="outline-2">
-<h2 id="org191dbc0">QKD in the real world</h2>
-<div class="outline-text-2" id="text-org191dbc0">
+<div id="outline-container-org8aaf8e9" class="outline-3">
+<h3 id="org8aaf8e9">Quantum Tunneling</h3>
+<div class="outline-text-3" id="text-org8aaf8e9">
 <ul class="org-ul">
-<li>Many quantum algorithms &amp; protocols are not yet usable, because they assume perfect, fault-tolerant hardware
-<ul class="org-ul">
-<li>These are called long-term algorithms</li>
-</ul></li>
-<li>However, we can start implementing QKD right now!</li>
+<li>Particles end up in places that they shouldn&rsquo;t be allowed classicaly, like crossing a wall</li>
+<li>That&rsquo;s how we can see through a window, or hear that lousy neighbour!</li>
+<li>Tunneling is easiest when the barrier is thin</li>
+<li>Fun fact: Quantum tunneling makes the stars shine &#x2013; The energy limit required for two atoms to fuse is like a barrier</li>
+<li>Quantum tunneling is also used in sensors: Scanning tunneling microscope (STM)</li>
+<li>In STM, we move a very sharp tip over the sample we want to image, it measures how many electrons are tunneling and gives you a picture of this sample</li>
 </ul>
 </div>
-<div id="outline-container-org5c3c255" class="outline-3">
-<h3 id="org5c3c255">Differences</h3>
-<div class="outline-text-3" id="text-org5c3c255">
-<ul class="org-ul">
-<li>QKD protocols have multiple components, such as devices, medium, distance between senders, cost of implementation</li>
-<li>Therefore, different QKD protocols are used for different use cases.</li>
-</ul>
 </div>
+</div>
+
+<div id="outline-container-orgcab3b31" class="outline-2">
+<h2 id="orgcab3b31">Resources</h2>
+<div class="outline-text-2" id="text-orgcab3b31">
+<p>
+Quantum tunneling in the sun
+URL: <a href="https://www.youtube.com/watch?v=gS1dpowPlE8">https://www.youtube.com/watch?v=gS1dpowPlE8</a>
+The Nobel Laureate vs the Graduate Student
+URL: <a href="https://physicstoday.scitation.org/doi/10.1063/1.1397394">https://physicstoday.scitation.org/doi/10.1063/1.1397394</a>
+Description: History of the Josephson effect, the key enabling discovery behind superconducting qubits
+Real-world Oracles
+URL: <a href="https://arxiv.org/pdf/quant-ph/9911082.pdf">https://arxiv.org/pdf/quant-ph/9911082.pdf</a>
+  URL: <a href="https://arxiv.org/pdf/quant-ph/9607014.pdf">https://arxiv.org/pdf/quant-ph/9607014.pdf</a>
+</p>
 </div>
 </div>
 </div>
