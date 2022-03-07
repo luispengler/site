@@ -1,0 +1,38 @@
+#+TITLE: Biologia 4
+#+DESCRIPTION: Biologia 4 - Meu caderno virtual
+#+SETUPFILE: https://luispengler.github.io/site/org-html-themes/org/theme-readtheorg.setup
+#+LaTeX_+HEADER: \usepackage{physics}
+#+LaTeX_+HEADER: \usepackage{amsmath}
+#+OPTIONS: num:nil ^:{} toc:2
+
+* Resumo Platelmintos e Nematódeos
+Video:  [[https://www.youtube.com/watch?v=QVKHCZO06z4][PLATELMINTOS E NEMATÓDEOS - ZOOLOGIA l Prof. Louise Medeiros]]
+
+** Platelmintos
++ Vermes de corpo achatado e alongado
++ Ex: Planária, ténias, esquitossomas
++ Desenvolvimento embionário é um dos seus diferenciais, pois ele avança na gastrulação, tendo um terceiro folheto embrionário, a mesoderma.
++ Mesoderma é uma novidade evolutiva que surgiu pela primeira vez no grupo dos platelmintos
++ Platelmintos vão ter de dentro para fora: Tubo Digestório, Endorderma, Mesoderma e Ectoderma
++ Se ele não chega a formar um celoma (cavidade na mesoderma) é chamado então de acelomado
++ Possuem uma simetria bilateral, com um processo de cefalização
++ Possuem um sistema digestório incompleto (apenas a boca)
++ Fazem respiração cutânea e transporte por difusão
++ Possuem um sistema excretório formado pelos protonefrídios
++ Se reproduzem tanto assexuadamente e sexuadamente, com destaque para sua regeneração
++ Causam diversas doenças: esquistossomose, teníase, cisticercose
+
+** Nematelmintos
++ Vermes de corpo alongado e cilíndrico
++ Ex: Lombrigas, Ancylostoma duadenale, wuchereria bancrafti
++ Desenvolvimento embrionário também é triblástico, mas a mesoderma é compacta, fazendo assim uma cavidade e os tranformando em pseudocelomados
++ Sua simetria é bilateral com cefalização
++ Primeiros animais a possuir um sistema digestório completo: Boca - Anus
++ Também realizão respiração cutânea e o transporte é através do pseudoceloma
++ Seu sistema escretor é formado por canais excretores
++ Se reproduz de forma sexuada e são dióicos (sexos separados, macho e fêmea)
+
+* Apostila Estudo Dirigido - Biologia 4: Verminoses e Fiosologia Humana
++ As aulas de biologia são conduzidas a partir dessa apostila
++ Estou editando o PDF no libreoffice draw, aqui está o arquivo
++ Quando estiver pronta, vou renderizar o PDF e colocar aqui
