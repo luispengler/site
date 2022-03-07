@@ -526,7 +526,7 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [X] Supergirl – 4.22: “The Quest For Peace”
 + [X] Legends of Tomorrow – 4.16: “Hey World!”
 
-* 2019/2020 [83/112] [74%]
+* 2019/2020 [87/112] [77%]
 
 + [X] Batwoman – 1.01: “Pilot”
 + [X] Supergirl – 5.01: “Event Horizon”
@@ -611,10 +611,10 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [X] Supergirl – 5.16: “Alex In Wonderland”
 + [X] The Flash – 6.16: “So Long and Goodnight”
 + [X] Legends of Tomorrow – 5.09: “Zari, Not Zari”
-+ [ ] Batwoman – 1.17: “A Narrow Escape”
-+ [ ] The Flash – 6.17: “Liberation”
-+ [ ] Legends of Tomorrow – 5.10: “The Great British Fake Off”
-+ [ ] Batwoman – 1.18: “If You Believe In Me, I’ll Believe In You”
++ [X] Batwoman – 1.17: “A Narrow Escape”
++ [X] The Flash – 6.17: “Liberation”
++ [X] Legends of Tomorrow – 5.10: “The Great British Fake Off”
++ [X] Batwoman – 1.18: “If You Believe In Me, I’ll Believe In You”
 + [ ] Supergirl – 5.17: “Deus Ex Machina”
 + [ ] The Flash – 6.18: “Pay The Piper”
 + [ ] Legends of Tomorrow – 5.11: “Ship Broken”

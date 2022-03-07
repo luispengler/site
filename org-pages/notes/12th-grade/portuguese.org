@@ -1,0 +1,19 @@
+#+TITLE: Língua Portuguesa e Literatura Brasileira 5
+#+DESCRIPTION: Língua Portuguesa e Literatura Brasileira 5 - Meu caderno virtual
+#+SETUPFILE: https://luispengler.github.io/site/org-html-themes/org/theme-readtheorg.setup
+#+LaTeX_+HEADER: \usepackage{physics}
+#+LaTeX_+HEADER: \usepackage{amsmath}
+#+OPTIONS: num:nil ^:{} toc:2
+
+* Tarefa pro dia 07/03
+"Linux vs Microsoft Windows - Não há competição"
+
+Sistemas operacionais estão em muitos lugares, bem mais do que em dispositivos móveis e computadores pessoais. Eles estão nos semáfaros que controlam o trânsito, no microondas que esquenta sua comida, na Netflix que você acessa, em foguetes espaciais que se vê nas notícias, na estação espacial que todo menino sonha em ir, e nos satélites de comunicação a mais de 35 mil kilômetros de altura. Dos diversos tipos de sistemas operacionais por aí, sempre há competição entre dois deles. Ou será que tem mesmo?
+
+Muitas pessoas acreditam que Linux é alguma empresa e que esta é concorrente da Microsoft. "Por que Linux não faz isso? Vai ficar melhor contra a Microsoft." "Linux tem que ser mais fácil se quiser competir contra a Microsoft." Já ouvi esses argumentos e suas variações muitas vezes, mas primeiro é preciso deixar algo claro. Linux não é uma empresa e Linux não é um sistema operacional somente. Linux é primeiro de tudo, apenas uma tecnologia. Qualquer um pode criar seu sistema operacional a partir dele. Por isso não existe a empresa tal por trás do Linux, mas sim um conjunto delas. A comunidade também está presente para trabalhar nessa tecnologia, que não é só de uma pessoa. E não existe comunidade em torno do windows, porque ele é apenas um produto, um serviço pago, e nada mais.
+
+A Microsoft não compete com os sistemas Linux, porque se não temos que chamar ela de suicída. Apenas 16% do lucro atual vem do sistema operacional chamado de Microsoft Windows. E o resto? O resto vem da sua nuvem inteligente, cada vez gerando mais lucro para a compania. 37%, isto é. Agora, o pessoal que acredita que há competição com o Linux vai se supreender. A nuvem inteligente da Microsoft extorque mais dinheiro de produtos como Microsoft Azure, servidor SQL, e GitHub. O que todos esses servições tem em comum é que eles são construídos a partir do Linux.
+
+A Microsoft também não pode competir com os sitemas Linux, porque ela é uma das empresas que a suporta. Ela é membro rank /platinum/ da /Linux Foundation/. O mais alto rank de contribuição que uma compania pode ter na fundação Linux. Microsoft também tem sua própria distribuição Linux, que é um termo usado para definir um sistema operacional baseado em Linux. CBL-Mariner é o nome deste sistema operacional e só foi criado para auxiliar no desenvolvimento do Windows e no gerencialmento da Microsoft Azure, aquele que dá muito dinheiro para a empresa.
+
+E por último, não tem como competir com algo que já venceu. Linux está em muitos lugares, bem mais do que em dispositivos móveis e computadores pessoais. Ele está nos semáfaros que controlam o trânsito, no microondas que esquenta sua comida, na Netflix que você acessa, em foguetes espaciais que se vê nas notícias, na estação espacial que todo menino sonha em ir, e nos satélites de comunicação a mais de 35 mil kilômetros de altura.
