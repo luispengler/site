@@ -19,3 +19,9 @@
 
 * Aula (07/03)
 + Prova prática implmentando um circuito de hardware
+
+** Opções de circuito
++
++
++
++

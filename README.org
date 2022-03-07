@@ -7,12 +7,11 @@
 https://luispengler.github.io/site/doc/images/punk.png
 | [[https://luispengler.github.io/site/html/org-pages/notes/define-notes.html][Virtual Notebook]] | [[https://luispengler.github.io/site/html/doc/articles/index.html][ORI]] | [[https://luispengler.github.io/site/html/org-pages/leisure/define-leisure.html][Leisure]] |
 
-* About me
+** About me
 Currently a High School senior, taking electrotechnology vacational program.
 
 I am interested in physics (mainly particle physics and quantum mechanics), and computer science (mainly [[https://www.gnu.org/philosophy/free-sw.en.html][free software]]).
 
-* About this website
 ** Content
 This is the main page of the website, therefore it makes sense to be the center of the webiste. Any action you can perform in the website, has a start here.
 
@@ -20,7 +19,7 @@ At the top header, you can see a collection of links you can click on. You can a
 
 In "[[https://luispengler.github.io/site/html/org-pages/notes/define-notes.html][Virtual Notebook]]" I host my own virtual notebook, with notes on subjects I studying either alone or in school. It can be a great source of information if you are someone like me :)
 
-[[https://luispengler.github.io/site/html/doc/articles/index.html][ORI]] is something I set up to share scientific material I am working on. It is open so anyone can read it, and may contribute to his or my research.
+"[[https://luispengler.github.io/site/html/doc/articles/index.html][ORI]]" is something I set up to share scientific material I am working on. It is open so anyone can read it, and may contribute to his or my research.
 
 In "[[https://luispengler.github.io/site/html/org-pages/leisure/define-leisure.html][Leisure]]" you can find lists I set up to [[https://luispengler.github.io/site/html/org-pages/leisure/movies.html][watch movies]] and the [[https://luispengler.github.io/site/html/org-pages/leisure/dc.html][arrowverse]]. As well as all the [[https://luispengler.github.io/site/html/org-pages/leisure/books.html][books]] I've been reading since 2022.
 
@@ -29,4 +28,4 @@ Feel free to share this webpage, modify it and create your own version (and even
 
 This webiste was written in org-mode using [[https://github.com/hlissner/doom-emacs/][doom emacs]] and its function of exporting to html, counting on [[https://github.com/fniessen/org-html-themes][readtheorg]] theme's help.
 
-You can find this whole webiste's source code on  [[https://github.com/luispengler/site][github]].
+You can find this whole webiste's source code on [[https://github.com/luispengler/site][github]].
