@@ -19,9 +19,18 @@
 
 * Aula (07/03)
 + Prova prática implmentando um circuito de hardware
++ Esboce um esquema do problema proposto
++ Identifique variáveis de entrada e saída
++ Identifique os estados das variáveis de entrada e saída
++ Monte a tabela verdade do problema
++ Obtenha a expressão de saída através da tabela verdade
++ Monte o mapa de Karnaugh do problema
++ Simplifique a expressão pelo mapa de Karnaugh
++ Obteha o circuito lógica que atenda à solicitação
++ Implemente o hardware do circuito e apresente ao professor
 
-** Opções de circuito
-+
-+
-+
-+
+** Projeto que fomos sorteados
++ P2 - Controle de mesa de som
++ Integrantes: Giovanna Bughi, Gustavo Ratier Cardoso, João Vitor Medeiros, Luís Spengler
++ Segunda-Feira: 13h30-17h15
++ Prazo máximo: 25/03

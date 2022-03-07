@@ -25,4 +25,6 @@ O professor disse que a tensão era o conceito mais fundamental da eletricidade 
 
 + Em uma instalação trifásica os custos dos materiais são reduzidos em 25% para a mesma quantidade de energia transformada e gerada.
 
-* Aula 07/03
+* Aula 07/03 (Aula prática)
++ Entendemos os tipos de ligações dentro dos motores de indução trifásicos apresentados
++ Um dos modelos era o que eu chamo de "bivolt manual". Era possível ligar ele em 220V, se fosse uma ligação delta. Em 380V esta era uma ligação estrela.
