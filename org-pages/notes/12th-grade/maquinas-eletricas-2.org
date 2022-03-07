@@ -24,3 +24,5 @@ O professor disse que a tensão era o conceito mais fundamental da eletricidade 
 \[ic(t)=im\cdot cos(\omega\cdot t+120º)\]
 
 + Em uma instalação trifásica os custos dos materiais são reduzidos em 25% para a mesma quantidade de energia transformada e gerada.
+
+* Aula 07/03

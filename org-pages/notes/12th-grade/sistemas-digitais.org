@@ -16,3 +16,6 @@
 
 * Aula (04/03)
 + Nesta aula prática ligamos MUX e DEMUX nas CIs ali presente, confirmando suas tabelas verdades de acordo com os resultados obtidos. Isadora e eu montamos as tabelas verdade em LaTeX [[https://luispengler.github.io/site/org-page/notes/12th-grade/doc/mux-demux/relatorio1.pdf][neste PDF]]
+
+* Aula (07/03)
++ Prova prática implmentando um circuito de hardware

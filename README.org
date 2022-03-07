@@ -20,9 +20,9 @@ At the top header, you can see a collection of links you can click on. You can a
 
 In "[[https://luispengler.github.io/site/html/org-pages/notes/define-notes.html][Virtual Notebook]]" I host my own virtual notebook, with notes on subjects I studying either alone or in school. It can be a great source of information if you are someone like me :)
 
-In "[[https://luispengler.github.io/site/html/org-pages/leisure/define-leisure.html][Leisure]]" you can find
+[[https://luispengler.github.io/site/html/doc/articles/index.html][ORI]] is something I set up to share scientific material I am working on. It is open so anyone can read it, and may contribute to his or my research.
 
-In The other stuff are some lists I host to organize leisure time, such as my list on [[https://luispengler.github.io/site/html/org-pages/dc.html][arrowverse]], where I check my progess and a [[https://luispengler.github.io/site/html/org-pages/filmes.html][list of movies]] I watch with my girlfriend in the free time.
+In "[[https://luispengler.github.io/site/html/org-pages/leisure/define-leisure.html][Leisure]]" you can find lists I set up to [[https://luispengler.github.io/site/html/org-pages/leisure/movies.html][watch movies]] and the [[https://luispengler.github.io/site/html/org-pages/leisure/dc.html][arrowverse]]. As well as all the [[https://luispengler.github.io/site/html/org-pages/leisure/books.html][books]] I've been reading since 2022.
 
 ** Your rights
 Feel free to share this webpage, modify it and create your own version (and even use it commercially according to the license)
