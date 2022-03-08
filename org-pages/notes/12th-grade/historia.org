@@ -1,0 +1,127 @@
+#+TITLE: História
+#+DESCRIPTION: História - Meu caderno virtual
+#+SETUPFILE: https://luispengler.github.io/site/org-html-themes/org/theme-readtheorg.setup
+#+LaTeX_+HEADER: \usepackage{physics}
+#+LaTeX_+HEADER: \usepackage{amsmath}
+#+OPTIONS: num:nil ^:{} toc:2
+
+* Conteúdo da P1
++ Só comecei a anotar agora o caderno (07/03) e não tenho a referência das datas. Então aqui vai
+
+** Iluminismo
++ Acreditam na ciência, na razão (racionalismo), no progresso
++ Combatiam a igreja católica, ignorância, o absolutismo, e o mercantilismo
+
+** John Locke - 1632/1704 (36 degrees)
++ Livro: Segundo tratado do governo civil
++ Defende a ideia de um governo limitado, condenou o absolutismo
+
+** Mentesquieu
++ A tripartição entre os poderes
++ Livros: O espírito das leis
++ Formas de governo: República, monarquia e depotismo
+
+** Voltaire - 1694/1776 (40 degrees)
++ Crítico da religião e da monarquia
++ Escreveu: Cândido, cartas inglesas
++ Se Deus não existesse seria necessário inventá-lo
+
+** Rousseau 1712/1778
++ Livro: Discurso sobre as ciência e as artes
++ Discurso sobre a origem da desiguldade entre os homens (Terras)
++ Livro: O contrato social
++ A soberania reside no povo
+
+** D'Alembert e Diderot (41 degrees)
++ Organizaram a enciclopédia
+
+** Os fisiocratas
++ François Quesnay -> terra era a única fonte de riqueza; capitalismo liberal agrário
+
+** Revolução Francesa
++ 1789
++ Causas abaixo:
++ A crise financeira
++ As desiguldades sociais
++ As idéias iluministas
++ Exemplo do EUA
++ Oposição ao mercantilismo
+
+** Os estados gerais
++ Luís XVI (34 degrees) -> Antigo regime -> Governo absolutista
++ Questão do voto -> Critério
++ Estados gerais:
+  - 1º (Clero)
+  - 2º (Nobreza)
+  - 3º (Assembleia nacional)
+
+** Assembleia nacional constituinte
++ Guarda nacional
++ 14/07/1789 -> Queda da Bastilha
++ Grande medo
++ Absolve os privilégios da nobreza
++ Declaração dos direitos do homem e do cidadão
++ Constituição civil do clero
++ Fuga de Luís XVI
++ Monarquia constitucional
+
+** Assembleia legislativa
++ Assembleia -> Burguesia
++ Sans - Culottes -> Eram as massas populares urbanas
++ Luís XVI e Maria Antonieta -> Traição e foram guilhotinados em 1793
++ Batalha de Valmy
+
+** Convenção
++ Partidos:
+  - Jacobinos (Robespicare, Danton, Marat)
+  - Girondinos (Burguesia)
++ Calendário revolucionário
++ Reação termidoriana -> 9 do termidor (R guilhotinado)
+
+** O diretório
++ Tentativa de golpe
+  - Direita -> Monarquistas
+  - Esquerda -> Jacobinos
++ Conspiração dos iguais (socialista)
++ Napoleão Bonaparte (33 degrees) -> Golpe do 18 de Brumário, apoiado pelo exército e burguesia
+
+** A era napoleônica 1799/1815
++ Consulado
++ 1804 -> Imperador
++ 1805 -> Batalha de frafalgar
++ 1806 -> Bloqueio Continental
++ 1812 -> Napoleão invade a rússia
++ Coalização de países (Rússia, Prússia, Austria, Inglaterra)
++ 1815 -> Derrota de Napoleão com Waterloo, foge pra ilha de Elba, 100 dias em Santa Helena e morre em 1821
++ Napoleão vinculava os interesses da burguesia
+
+** O congresso de Viena
++ Combate o liberalismo e nacionalismo
++ Surgimento da Santa Aliança. Objetivo era reprimir os movimentos revolucionários que surgissesm em qualquer lugar do continente Europeu.
++ Princípios: Restauração e Legitimidade
+
+** As revoluções de 1830/1848
++ França, Inglaterra, Itália
++ Foram marcadas pelo caráter liberal e nacionalista, incluindo propostas socialistas: os 3 segmentos disputavam o poder
++ Comuna de Paris -> É considerado a 1º revolução proletária; O 1º ensaio da ditatura do proletariado
+
+** Revoltas emancipaconistas 1789 -> Inconfidência mineira
++ Teve influência no iluminismo e na iden. dos EUA
++ Contexto que se da na extração do ouro (mineração) e aumento de impostos
++ Revolta elitista:
+  - Joaquim José da Silva Xavier
+  - Cláudio da Costa
++ Objetivos: República, Capital, Bandeira, Indústrias
++ Abolição (Não havia consenso)
++ Dia da Derrama
++ Delator -> Joaquim Silveiro dos Reis
++ Tiradentes -> Preso, enforcado e esquartejado
+
+** Conjuração baiana 1798
++ Revolta dos alfaiates
++ Influência na revolução francesa e maçonaria
++ Crise na economia nordetina
++ Líderes -> João de Deus, Manuel Faustino, Lucas Dantes
++ Objetivo -> República, popular e igualitária, abolição da escravidão e aumento salarial para tropa.
++ 12 de agosto -> Salvador foi coberto de cartazes
++ Líderes populares -> PEE
