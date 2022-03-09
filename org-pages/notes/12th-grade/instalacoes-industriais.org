@@ -1,0 +1,43 @@
+#+TITLE: Instalações Elétricas Industriais
+#+DESCRIPTION: Instalações Elétricas Industriais - Meu caderno virtual
+#+SETUPFILE: https://luispengler.github.io/site/org-html-themes/org/theme-readtheorg.setup
+#+LaTeX_+HEADER: \usepackage{physics}
+#+LaTeX_+HEADER: \usepackage{amsmath}
+#+OPTIONS: num:nil ^:{} toc:2
+
+* Avaliações
++ P1.1 - 5.0 pt - 16/03 - REC1 - 10.0 pt - 22/6
++ P1.2 - 5.0 pt - 6/4
++ P2.1 - 5.0 pt - 4/5 - REC2 - 10.0 pt - 29/6
++ P2.2 - 5.0 pt - 8/6
+
+* Conteúdo até agora (08/03)
+** Partes Básicas
++ Estator (fixa): Ligada à rede de energia elétrica
++ Rotor (móvel): Ligada à carga a ser movimentada
+
+** Potência Nominal
++ Potência Mecânica de saída ao ser aplicada uma tensão nominal, com frequência nominal e corrente nominal
++ Potência de entrada (elétrica)
++ Perdas: Calor, magnetimo, mecânicas (W)
+
+** Rendimento
++ Relação entre a potência de saída e a entrada
+
+\[\eta(%)=\frac{Po}{Pt}\cdot 100%\]
+
+\[Pi=Po+\Sigma perdas\]
+
+1. Exemplo 1: Um motor de 4cv possui rendimento de 85%. Calcule:
+   a) Potência de saída (W)
+      \[Po=4cv=2944W\]
+   b) Potência de entrada (W)
+      \[\eta(%)=85%=\frac{2944}{Pi}\cdot 100%\]
+      \[Pi=2944\cdot \frac{100}{85}=3463,52W\]
+   c) Perdas associadas (W)
+      \[Perdas=3463,52-2944=519,53W\]
+
++ Potência Reativa \[VA_{rL}\] -> Responsável pela criação do magnetismo
++ Potência Aparente \[VA\] -> Soma vetorial das potências ativa e reativa
++ Fator de potência -> Relação entre as potências ativa e aparente
+  \[F.P. = \frac{P}{S}=cos\theta\]

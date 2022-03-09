@@ -28,3 +28,6 @@ O professor disse que a tensão era o conceito mais fundamental da eletricidade 
 * Aula 07/03 (Aula prática)
 + Entendemos os tipos de ligações dentro dos motores de indução trifásicos apresentados
 + Um dos modelos era o que eu chamo de "bivolt manual". Era possível ligar ele em 220V, se fosse uma ligação delta. Em 380V esta era uma ligação estrela.
+
+* Aula 08/03 (Aula prática)
++
