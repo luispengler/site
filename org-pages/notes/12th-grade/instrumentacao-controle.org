@@ -83,6 +83,7 @@ https://luispengler.github.io/site/org-pages/notes/12th-grade/doc/instrumenta1.j
 + Fomos apresentados o sensor infrared difuse e o infrared retroreflective. Depois fomos pedidos para escolher o melhor desses dois para identificar a passagem de ouro numa linha de trituração e o melhor entre os dois para identificar se há um objeto passando OU NÃO em uma linha de produção.
 + Retro-reflective: Sinal lógico 0 quando nada está passando. Mas existem dois tipos, aqueles que emitem ondas polarizadas e que não. Não polarizados não saberiam diferenciar o seu espelho retro-refletor de um objeto metálico, se este redirecionasse o feixe do emissor diretamente no receptor. Neste caso, objetos metálicos, às vezes, fariam o nível lógico voltar pra 0. Com objetos normais, o nível lógico continuaria sendo 1. É sensível até 7m. No entanto, para o tipo de ondas polarizadas, qualquer objeto que interrompa o feixe, mesmo que este seja metálico (ou até outro espelho!), o sinal lógico vai ser 1. É sensível de 3 a 5,5m.
 + Difuse: A diferença entre este e o anterior, é que usam o alvo para mandar a luz de volta (em vez de um espelho). No entanto, nem todos os alvos são bons em emitir luz de volta e precisam estar mais perto do que alguns para serem detectados. Sensores de proximidade difusos tem um alcance de até 500mm. Qualquer alvo dentro deste alcance vai ser visto, contanto que reflita luz suficiente. Para aplicações menores (com alvos menores), existe o tipo de foco fixo. O foco do emissor e receptor estão no mesmo ponto do espaço, aumentando a sua precisão, mas diminuindo o alcance quando comparados com sensores de proximidade difusos. Alcance de geralmente até 70mm.
++ Resposta (remover depois) difuso para o do ouro e retoreflector não polarizado para linha de produção
 + Aqui está o artigo pronto
 
 * Aula 04/03
@@ -148,3 +149,33 @@ https://luispengler.github.io/site/org-pages/notes/12th-grade/doc/instrumenta1.j
 + É muito eficiente com objetos metálicos, pois depende do índice de reflexão do objeto
 + É calibrado com uma folha de papel branco, apresentando índice de refletividade de 90%
 \[S_{a}=0,81\cdot S_{n}\cdot F\]
+
+* Aula 10/03
++ Instrumentamos sensores capacitivos e indutivos com diversos materiais (silicone, joelho de cano pvc, cabo de cobre isolado com borracha)
+
+* Aula 11/03
+** Sensores de proximidade ultrassônicos
++ Emprega frequências fora do espectro de audição humana, determinando a distância de objetos (proximidade)
++ A detecção acontece quando a onda bate sobre um objeto e produz um eco
++ O tempo de repetição do eco é medido, sendo convertido em um sinal elétrico.
++ Existe uma repetição desses pulsos de onda mecânica de 1 a 100Hz.
+*** Vantagens
++ Detcção sem contato direto
++ Detecção idependente da cor
+*** Desvantages
++ Dificuldade de detecção se há muitas irregularidades no objeto
++ Esse sensor é relativamente lento (porque usa som)
++ Custo maior comparado aos fotoelétricos
++ Podem ser influenciados pela temperatura (porque a velocidade do som muda de acordo com a temperatura)
++ Dificuldade no uso de vários sensores ultrassônicos próximos (por causa da interferência)
+** Sensor óptico de posição (encoder)
++ Detectam a posição de um objeto com respeito a um ponto de referência
++ Podem medir distâncias lineares quanto angulares
++ Funciona convertendo o movimento ou posição angular em uma série de pulsos.
+*** Encoder absoluto
++ Definimos a posição absoluta do encoder através de um código
++ O código mais utilizado é o binário, mas pode ser o código de Gray
+*** Encoder Incremental
++ Possui apenas uma trilha com dentes igualmente espaçados
++ A resolução é dada pela relação pulso/revolução (chamado de PPR) - Quantos pulsos de luz por cada volta?
++ Podem ser dividos em simples e quadratura

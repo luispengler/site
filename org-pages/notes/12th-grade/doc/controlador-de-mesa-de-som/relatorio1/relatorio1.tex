@@ -1,5 +1,5 @@
 \documentclass{article}
-\title{Sistemas Digitais e Microcontrolados - Relatório de Laboratório}
+\title{Sistema de controle de mesa de som - Sistemas digitais e microcontrolados}
 \date{}
 
 \usepackage[utf8]{inputenc}
@@ -32,133 +32,25 @@
 
 \medskip
 
-\section{Experimento 1}
-\subsection{CI 7408}
-O circuito integrado 7408 possui 4 portas lógicas E.
-
-A tabela verdade de uma porta lógica E pode ser vista na tabela abaixo. Note que para determinarmos o correto funcionamento da CI, esta deve apresentar os mesmos resultados da tabela verdade quando medida experimentalmente.
+\section{}
+\subsection{Problema proposto}
 
 \begin{displaymath}
-\begin{array}{|c c|c|}
-INPUT & & OUTPUT\\
+\begin{array}{|c c c|c c c|}
+INPUT & & & OUTPUT &\\
 \hline
-A & B & Y\\
+ChP & ChD & ChC & SP & SD & SC\\
 \hline % Put a horizontal line between the table header and the rest.
-L & L & L\\
-L & H & L\\
-H & L & L\\
-H & H & H\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 1 & 0 & 0 & 1\\
+0 & 1 & 0 & 0 & 1 & 0\\
+0 & 1 & 1 & 0 & 1 & 0\\
+1 & 0 & 0 & 1 & 0 & 0\\
+1 & 0 & 1 & 1 & 0 & 0\\
+1 & 1 & 0 & 1 & 0 & 0\\
+1 & 1 & 1 & 1 & 0 & 0\\
 \end{array}
 \end{displaymath}
-
-Experimentalmente, ligamos INPUT nos pinos 1 e 2. OUTPUT no pino 3. Verificamos a tabela verdade da CI 7408, que usa um gate AND. Tabela obtida experimentalmente:
-
-\begin{displaymath}
-\begin{array}{|c c|c|}
-INPUT & & OUTPUT\\
-\hline
-A & B & Y\\
-\hline % Put a horizontal line between the table header and the rest.
-0 & 0 & 0\\
-0 & 1 & 0\\
-1 & 0 & 0\\
-1 & 1 & 1\\
-\end{array}
-\end{displaymath}
-
-\subsection{CI 7404}
-O circuito integrado 7404 possui 6 portas lógicas INVERSOR.
-
-A tabela verdade de uma porta lógica INVERSOR pode ser vista na tabela abaixo. Note que para determinarmos o correto funcionamento da CI, esta deve apresentar os mesmos resultados da tabela verdade quando medida experimentalmente.
-
-\begin{displaymath}
-\begin{array}{|c c|c|}
-INPUT & OUTPUT\\
-\hline
-A & Y\\
-\hline % Put a horizontal line between the table header and the rest.
-L & H\\
-H & L\\
-\end{array}
-\end{displaymath}
-
-Experimentalmente, ligamos INPUT no pino 3. OUTPUT no pino 4. Verificamos a tabela verdade da CI 7404, que usa um gate INVERSOR. Tabela obtida experimentalmente:
-
-\begin{displaymath}
-\begin{array}{|c c|c|}
-INPUT & OUTPUT\\
-\hline
-A & Y\\
-\hline % Put a horizontal line between the table header and the rest.
-0 & 1\\
-1 & 0\\
-\end{array}
-\end{displaymath}
-
-\subsection{CI 7432}
-O circuito integrado 7432 possui 4 portas lógicas OR.
-
-
-\begin{displaymath}
-\begin{array}{|c c|c|}
-INPUT & & OUTPUT\\
-\hline
-A & B & Y\\
-\hline % Put a horizontal line between the table header and the rest.
-L & L & L\\
-L & H & H\\
-H & L & H\\
-H & H & H\\
-\end{array}
-\end{displaymath}
-
-Experimentalmente, ligamos INPUT nos pinos 1 e 2. OUTPUT no pino 3. Verificamos a tabela verdade da CI 7432, que usa um gate OR. Tabela obtida experimentalmente:
-
-\begin{displaymath}
-\begin{array}{|c c|c|}
-INPUT & & OUTPUT\\
-\hline
-A & B & Y\\
-\hline % Put a horizontal line between the table header and the rest.
-0 & 0 & 0\\
-0 & 1 & 1\\
-1 & 0 & 1\\
-1 & 1 & 1\\
-\end{array}
-\end{displaymath}
-
-\section{Experimento 2}
-\subsection{Porta NAND}
-Com o objetivo de determinar o correto funcionamento de algumas das CIs do experimento 1, utilizamos a CI 7408 (E) e a CI 7404 (OU) para a criação de uma porta NAND. Formando a seguinte tabela verdade:
-
-\begin{displaymath}
-\begin{array}{|c c|c|}
-INPUT & & OUTPUT\\
-\hline
-A & B & Y\\
-\hline % Put a horizontal line between the table header and the rest.
-1 & 1 & 0\\
-1 & 0 & 1\\
-0 & 1 & 1\\
-0 & 0 & 1\\
-\end{array}
-\end{displaymath}
-
-A tabela verdade acima se assemelha com a tabela verdade de uma porta NAND, concluindo-se que sua implementação experimental foi concluida com sucesso.
-
-\begin{displaymath}
-\begin{array}{|c c|c|}
-INPUT & & OUTPUT\\
-\hline
-A & B & Y\\
-\hline % Put a horizontal line between the table header and the rest.
-H & H & L\\
-H & L & H\\
-L & H & H\\
-L & L & H\\
-\end{array}
-\end{displaymath}
-
 
 \section{Conclusão}
 

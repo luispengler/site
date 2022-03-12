@@ -30,9 +30,23 @@
 
 * TODO (6-12/03)
 + [X] Last week's lecture + test (6)
-+ [ ] 2 Portuguese activity (7)
-+ [ ] Biology test (7)
-+ [ ] Talk bad about your father (8)
-+ [ ] First ec presential thing (8)
-+ [ ] Come dress-up in purple (8)
-+ [ ] Finish pneumática's homework (9)
++ [X] 2 Portuguese activity (7)
++ [X] Biology test (7)
++ [X] Talk bad about your father (8)
++ [X] First ec presential thing (8)
++ [X] Come dress-up in purple (8)
++ [ ] FEBRACE's video
++ [ ] Relatório de instrumentação e controle (10)
++ [ ] Instrumentação e controle's test (11)
+
+* TODO (13-19/03)
++ [ ] Instalações eletricas' test (16)
++ [ ] Finish pneumática's homework (16)
++ [ ] Physical education's homework (18)
++ [ ] LOA's video (19)
+
+* TODO (20-26)
++ [ ] Sistema's digitais apresentation (21 or 25)
+
+* TODO (27-2/04)
++ [ ] P1 Instrumentação e controle (31)

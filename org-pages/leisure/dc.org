@@ -526,7 +526,7 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [X] Supergirl – 4.22: “The Quest For Peace”
 + [X] Legends of Tomorrow – 4.16: “Hey World!”
 
-* 2019/2020 [90/112] [80%]
+* 2019/2020 [93/112] [83%]
 
 + [X] Batwoman – 1.01: “Pilot”
 + [X] Supergirl – 5.01: “Event Horizon”
@@ -618,14 +618,14 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [X] Supergirl – 5.17: “Deus Ex Machina”
 + [X] The Flash – 6.18: “Pay The Piper”
 + [X] Legends of Tomorrow – 5.11: “Ship Broken”
-+ [ ] Batwoman – 1.19: “A Secret Kept From All The Rest”
-+ [ ] Supergirl – 5.18: “The Missing Link”
-+ [ ] The Flash – 6.19: “Success Is Assured”
-+ [ ] Legends of Tomorrow – 5.12: “Freaks and Greeks”
-+ [ ] Batwoman – 1.20: “O, Mouse!”
-+ [ ] Supergirl – 5.19: “Immortal Kombat”
-+ [ ] Stargirl – 1.01: “Pilot”
-+ [ ] Legends of Tomorrow – 5.13: “I Am Legends”
++ [X] Batwoman – 1.19: “A Secret Kept From All The Rest”
++ [X] Supergirl – 5.18: “The Missing Link”
++ [X] The Flash – 6.19: “Success Is Assured”
++ [X] Legends of Tomorrow – 5.12: “Freaks and Greeks”
++ [X] Batwoman – 1.20: “O, Mouse!”
++ [X] Supergirl – 5.19: “Immortal Kombat”
++ [X] Stargirl – 1.01: “Pilot”
++ [X] Legends of Tomorrow – 5.13: “I Am Legends”
 + [ ] Stargirl – 1.02: “S.T.R.I.P.E.”
 + [ ] Legends of Tomorrow – 5.14: “The One Where We’re Stuck On TV”
 + [ ] Stargirl – 1.03: “Icicle”

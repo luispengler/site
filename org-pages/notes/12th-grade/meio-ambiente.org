@@ -59,3 +59,7 @@ https://luispengler.github.io/site/org-pages/notes/12th-grade/doc/meioambiente1.
 + Menor custo para instalação
 + Único MMPT para todos os painéis, acentuando as perdas em caso de falha de algum paniel
 + Protação contra curto circuito
+
+** O problema das sombras
++ A sombra desvia a energia gerada para a resistência, que é o unico condutor fechado, assim sobreaquecendo o painel
++ As sombras paricias são piores, porque se fossem totais, a célula no escuro sairia da geração, minimizando os efeitos da sombra.
