@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2022-03-08 Tue 21:14 -->
+<!-- 2022-03-13 Sun 09:49 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Week 19 - my notes</title>
@@ -229,26 +229,26 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#orgab858e1">Week 19 - Grover&rsquo;s Algorithm</a>
+<li><a href="#org50b7a27">Week 19 - Grover&rsquo;s Algorithm</a>
 <ul>
-<li><a href="#org1ffa721">Review</a></li>
-<li><a href="#org7c7b55b">Grover&rsquo;s Algorithm 101</a></li>
-<li><a href="#org20076f8">Grover&rsquo;s &amp; the Quantum Resources</a></li>
-<li><a href="#org1455df0">The Circuit Behind Grover&rsquo;s</a></li>
-<li><a href="#orgf0cb558">Grover nowadays</a></li>
+<li><a href="#orgd93826a">Review</a></li>
+<li><a href="#orgfc04e5e">Grover&rsquo;s Algorithm 101</a></li>
+<li><a href="#orgafc21f3">Grover&rsquo;s &amp; the Quantum Resources</a></li>
+<li><a href="#orgcb7b185">The Circuit Behind Grover&rsquo;s</a></li>
+<li><a href="#orgea46eff">Grover nowadays</a></li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orgab858e1" class="outline-2">
-<h2 id="orgab858e1">Week 19 - Grover&rsquo;s Algorithm</h2>
-<div class="outline-text-2" id="text-orgab858e1">
+<div id="outline-container-org50b7a27" class="outline-2">
+<h2 id="org50b7a27">Week 19 - Grover&rsquo;s Algorithm</h2>
+<div class="outline-text-2" id="text-org50b7a27">
 </div>
-<div id="outline-container-org1ffa721" class="outline-3">
-<h3 id="org1ffa721">Review</h3>
-<div class="outline-text-3" id="text-org1ffa721">
+<div id="outline-container-orgd93826a" class="outline-3">
+<h3 id="orgd93826a">Review</h3>
+<div class="outline-text-3" id="text-orgd93826a">
 <ul class="org-ul">
 <li>Classical algortihms can be slow and inneficient. Some even struggle to solve certain complex problems</li>
 <li>Linear Search goes through each element until it finds the right item - we go through this even with which a huge dataset (super inneficient, right?)</li>
@@ -257,9 +257,9 @@
 </div>
 </div>
 
-<div id="outline-container-org7c7b55b" class="outline-3">
-<h3 id="org7c7b55b">Grover&rsquo;s Algorithm 101</h3>
-<div class="outline-text-3" id="text-org7c7b55b">
+<div id="outline-container-orgfc04e5e" class="outline-3">
+<h3 id="orgfc04e5e">Grover&rsquo;s Algorithm 101</h3>
+<div class="outline-text-3" id="text-orgfc04e5e">
 <ul class="org-ul">
 <li>It is a quantum algortihm that leverages amplitude amplification to speed up search</li>
 <li>As weel as demonstrating quadradic speedup</li>
@@ -278,9 +278,9 @@
 </div>
 </div>
 
-<div id="outline-container-org20076f8" class="outline-3">
-<h3 id="org20076f8">Grover&rsquo;s &amp; the Quantum Resources</h3>
-<div class="outline-text-3" id="text-org20076f8">
+<div id="outline-container-orgafc21f3" class="outline-3">
+<h3 id="orgafc21f3">Grover&rsquo;s &amp; the Quantum Resources</h3>
+<div class="outline-text-3" id="text-orgafc21f3">
 <ul class="org-ul">
 <li>Superposition: Combination of the 0 and 1 states</li>
 <li>Interference: Interaction between waves &#x2013; they can add on to each other or cancel out</li>
@@ -291,9 +291,9 @@
 </div>
 </div>
 
-<div id="outline-container-org1455df0" class="outline-3">
-<h3 id="org1455df0">The Circuit Behind Grover&rsquo;s</h3>
-<div class="outline-text-3" id="text-org1455df0">
+<div id="outline-container-orgcb7b185" class="outline-3">
+<h3 id="orgcb7b185">The Circuit Behind Grover&rsquo;s</h3>
+<div class="outline-text-3" id="text-orgcb7b185">
 <ul class="org-ul">
 <li>Last week we learned that designing a quantum algorithm means translating words into linear algebra</li>
 <li>In the starting point, we just apply an H gate to each qubit</li>
@@ -312,9 +312,9 @@
 </ul>
 </div>
 
-<div id="outline-container-org72c4be1" class="outline-4">
-<h4 id="org72c4be1">The circuit step by step</h4>
-<div class="outline-text-4" id="text-org72c4be1">
+<div id="outline-container-orge266bae" class="outline-4">
+<h4 id="orge266bae">The circuit step by step</h4>
+<div class="outline-text-4" id="text-orge266bae">
 <ul class="org-ul">
 <li>Step 1: H gates</li>
 <li>Step 2: Oracle and Grover&rsquo;s Operator
@@ -329,9 +329,9 @@
 </div>
 </div>
 
-<div id="outline-container-orgf0cb558" class="outline-3">
-<h3 id="orgf0cb558">Grover nowadays</h3>
-<div class="outline-text-3" id="text-orgf0cb558">
+<div id="outline-container-orgea46eff" class="outline-3">
+<h3 id="orgea46eff">Grover nowadays</h3>
+<div class="outline-text-3" id="text-orgea46eff">
 <ul class="org-ul">
 <li>It is a long-term algorithm: we will need a lot of fault-tolerant qubits; about 10,000 qubits to see an advantage over linear search</li>
 </ul>
@@ -341,7 +341,7 @@
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Luís Spengler</p>
-<p class="date">Created: 2022-03-08 Tue 21:14</p>
+<p class="date">Created: 2022-03-13 Sun 09:49</p>
 </div>
 </body>
 </html>

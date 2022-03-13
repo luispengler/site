@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2022-03-08 Tue 21:14 -->
+<!-- 2022-03-13 Sun 09:49 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Week 8 - my notes</title>
@@ -229,47 +229,47 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#orgc438476">Week 8 (qubit by qubit)</a>
+<li><a href="#org0d3985b">Week 8 (qubit by qubit)</a>
 <ul>
-<li><a href="#orga390a67">Recap</a></li>
+<li><a href="#org6d1e355">Recap</a></li>
 </ul>
 </li>
-<li><a href="#orge6fa5a8">Measurement</a>
+<li><a href="#org1a64e87">Measurement</a>
 <ul>
-<li><a href="#orga8c5230">What we know about quantum measurements</a></li>
+<li><a href="#orge391ea8">What we know about quantum measurements</a></li>
 </ul>
 </li>
-<li><a href="#org5ab1c0f">Statevector math</a>
+<li><a href="#orgd49bbd1">Statevector math</a>
 <ul>
-<li><a href="#orgdec52ca">Born Rule</a></li>
-<li><a href="#org10fcb84">Some questions&#x2026;</a></li>
-<li><a href="#orga0cc01a">That is why we normalize</a></li>
-<li><a href="#orga3b6449">Why does the Born rule work?</a></li>
+<li><a href="#org9a8e83f">Born Rule</a></li>
+<li><a href="#org2243b88">Some questions&#x2026;</a></li>
+<li><a href="#orgc2b7142">That is why we normalize</a></li>
+<li><a href="#orgdba3ee7">Why does the Born rule work?</a></li>
 </ul>
 </li>
-<li><a href="#orgb2ed43b">Measurement Bases</a>
+<li><a href="#orgc08b06d">Measurement Bases</a>
 <ul>
-<li><a href="#orgcef70d0">Rules for measurement</a></li>
-<li><a href="#orgfdf496a">Revisiting the Bloch Sphere</a></li>
+<li><a href="#org0bf5cdb">Rules for measurement</a></li>
+<li><a href="#org2cd1ead">Revisiting the Bloch Sphere</a></li>
 </ul>
 </li>
-<li><a href="#orgaf6f6cf">The Stern Gerlach Experiment</a></li>
-<li><a href="#org754107b">Resources</a></li>
+<li><a href="#orgd61df25">The Stern Gerlach Experiment</a></li>
+<li><a href="#org81a6703">Resources</a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orgc438476" class="outline-2">
-<h2 id="orgc438476">Week 8 (qubit by qubit)</h2>
-<div class="outline-text-2" id="text-orgc438476">
+<div id="outline-container-org0d3985b" class="outline-2">
+<h2 id="org0d3985b">Week 8 (qubit by qubit)</h2>
+<div class="outline-text-2" id="text-org0d3985b">
 </div>
-<div id="outline-container-orga390a67" class="outline-3">
-<h3 id="orga390a67">Recap</h3>
-<div class="outline-text-3" id="text-orga390a67">
+<div id="outline-container-org6d1e355" class="outline-3">
+<h3 id="org6d1e355">Recap</h3>
+<div class="outline-text-3" id="text-org6d1e355">
 </div>
-<div id="outline-container-org3eb51f7" class="outline-4">
-<h4 id="org3eb51f7">Review:</h4>
-<div class="outline-text-4" id="text-org3eb51f7">
+<div id="outline-container-orgcd18836" class="outline-4">
+<h4 id="orgcd18836">Review:</h4>
+<div class="outline-text-4" id="text-orgcd18836">
 <ul class="org-ul">
 <li>The Quantum Circuit Model is broken down in three parts
 <ul class="org-ul">
@@ -287,13 +287,13 @@
 </div>
 </div>
 
-<div id="outline-container-orge6fa5a8" class="outline-2">
-<h2 id="orge6fa5a8">Measurement</h2>
-<div class="outline-text-2" id="text-orge6fa5a8">
+<div id="outline-container-org1a64e87" class="outline-2">
+<h2 id="org1a64e87">Measurement</h2>
+<div class="outline-text-2" id="text-org1a64e87">
 </div>
-<div id="outline-container-orga8c5230" class="outline-3">
-<h3 id="orga8c5230">What we know about quantum measurements</h3>
-<div class="outline-text-3" id="text-orga8c5230">
+<div id="outline-container-orge391ea8" class="outline-3">
+<h3 id="orge391ea8">What we know about quantum measurements</h3>
+<div class="outline-text-3" id="text-orge391ea8">
 <ul class="org-ul">
 <li>By obersivign (measuring) a quantum state, we can change it</li>
 <li>When we measure something, we are basically asking if it is in a \(|0\rangle\) or \(|1\rangle\) state
@@ -311,13 +311,13 @@
 </div>
 </div>
 
-<div id="outline-container-org5ab1c0f" class="outline-2">
-<h2 id="org5ab1c0f">Statevector math</h2>
-<div class="outline-text-2" id="text-org5ab1c0f">
+<div id="outline-container-orgd49bbd1" class="outline-2">
+<h2 id="orgd49bbd1">Statevector math</h2>
+<div class="outline-text-2" id="text-orgd49bbd1">
 </div>
-<div id="outline-container-orgdec52ca" class="outline-3">
-<h3 id="orgdec52ca">Born Rule</h3>
-<div class="outline-text-3" id="text-orgdec52ca">
+<div id="outline-container-org9a8e83f" class="outline-3">
+<h3 id="org9a8e83f">Born Rule</h3>
+<div class="outline-text-3" id="text-org9a8e83f">
 <p>
 Here we got an equal contribuition of \(|0\rangle\) and \(|1\rangle\):
 </p>
@@ -349,9 +349,9 @@ For example, the contribuition of \(|0\rangle\) and its probability:
 </div>
 </div>
 
-<div id="outline-container-org10fcb84" class="outline-3">
-<h3 id="org10fcb84">Some questions&#x2026;</h3>
-<div class="outline-text-3" id="text-org10fcb84">
+<div id="outline-container-org2243b88" class="outline-3">
+<h3 id="org2243b88">Some questions&#x2026;</h3>
+<div class="outline-text-3" id="text-org2243b88">
 <ul class="org-ul">
 <li>What is the probability of measuring \(|0\rangle\) for this state? What about the probability of \(|1\rangle\)?
 \[\frac{1}{\sqrt{5}}\begin{bmatrix}1\\2\end{bmatrix}\]</li>
@@ -366,9 +366,9 @@ For example, the contribuition of \(|0\rangle\) and its probability:
 </ul>
 </div>
 </div>
-<div id="outline-container-orga0cc01a" class="outline-3">
-<h3 id="orga0cc01a">That is why we normalize</h3>
-<div class="outline-text-3" id="text-orga0cc01a">
+<div id="outline-container-orgc2b7142" class="outline-3">
+<h3 id="orgc2b7142">That is why we normalize</h3>
+<div class="outline-text-3" id="text-orgc2b7142">
 <ul class="org-ul">
 <li>When we represent vectors in quantum state, the must be normalized, which means they must have a lenght of 1.</li>
 <li>Why 1?</li>
@@ -377,9 +377,9 @@ For example, the contribuition of \(|0\rangle\) and its probability:
 </ul>
 </div>
 </div>
-<div id="outline-container-orga3b6449" class="outline-3">
-<h3 id="orga3b6449">Why does the Born rule work?</h3>
-<div class="outline-text-3" id="text-orga3b6449">
+<div id="outline-container-orgdba3ee7" class="outline-3">
+<h3 id="orgdba3ee7">Why does the Born rule work?</h3>
+<div class="outline-text-3" id="text-orgdba3ee7">
 <ul class="org-ul">
 <li>No idea.</li>
 <li>In quantum mechanics we have rules for what happens, but sometimes we don&rsquo;t know why they happen.</li>
@@ -388,9 +388,9 @@ For example, the contribuition of \(|0\rangle\) and its probability:
 </div>
 </div>
 
-<div id="outline-container-orgb2ed43b" class="outline-2">
-<h2 id="orgb2ed43b">Measurement Bases</h2>
-<div class="outline-text-2" id="text-orgb2ed43b">
+<div id="outline-container-orgc08b06d" class="outline-2">
+<h2 id="orgc08b06d">Measurement Bases</h2>
+<div class="outline-text-2" id="text-orgc08b06d">
 <ul class="org-ul">
 <li>Are 0 and 1 the only possible outcomes?
 <ul class="org-ul">
@@ -398,9 +398,9 @@ For example, the contribuition of \(|0\rangle\) and its probability:
 </ul></li>
 </ul>
 </div>
-<div id="outline-container-orgcef70d0" class="outline-3">
-<h3 id="orgcef70d0">Rules for measurement</h3>
-<div class="outline-text-3" id="text-orgcef70d0">
+<div id="outline-container-org0bf5cdb" class="outline-3">
+<h3 id="org0bf5cdb">Rules for measurement</h3>
+<div class="outline-text-3" id="text-org0bf5cdb">
 <ul class="org-ul">
 <li>The output can be one of two options. You only have these two options for a potential outcome.</li>
 <li>If your initial state is a superposition the measurement will default to one of the two options randomly.</li>
@@ -408,9 +408,9 @@ For example, the contribuition of \(|0\rangle\) and its probability:
 </ul>
 </div>
 </div>
-<div id="outline-container-orgfdf496a" class="outline-3">
-<h3 id="orgfdf496a">Revisiting the Bloch Sphere</h3>
-<div class="outline-text-3" id="text-orgfdf496a">
+<div id="outline-container-org2cd1ead" class="outline-3">
+<h3 id="org2cd1ead">Revisiting the Bloch Sphere</h3>
+<div class="outline-text-3" id="text-org2cd1ead">
 <ul class="org-ul">
 <li>The Bloch Sphere sits along 3 axes: X, Y and Z.
 <ul class="org-ul">
@@ -421,9 +421,9 @@ For example, the contribuition of \(|0\rangle\) and its probability:
 </ul>
 </div>
 
-<div id="outline-container-org9361e7d" class="outline-4">
-<h4 id="org9361e7d">Measuring in the Z basis</h4>
-<div class="outline-text-4" id="text-org9361e7d">
+<div id="outline-container-org3ce622f" class="outline-4">
+<h4 id="org3ce622f">Measuring in the Z basis</h4>
+<div class="outline-text-4" id="text-org3ce622f">
 <ul class="org-ul">
 <li>If our measurement only have either \(|0\rangle\) or \(|1\rangle\) results, we are measuring along the Z axis. This is also known as measuring along the Z basis.
 <ul class="org-ul">
@@ -439,9 +439,9 @@ For example, the contribuition of \(|0\rangle\) and its probability:
 </div>
 </div>
 
-<div id="outline-container-org3648571" class="outline-4">
-<h4 id="org3648571">Measuring in the X basis</h4>
-<div class="outline-text-4" id="text-org3648571">
+<div id="outline-container-org961c1e1" class="outline-4">
+<h4 id="org961c1e1">Measuring in the X basis</h4>
+<div class="outline-text-4" id="text-org961c1e1">
 <ul class="org-ul">
 <li>When measuring in this basis, we can only get either \(|+\rangle\) or \(|-\rangle\)</li>
 <li>In circuits, we represent the measurement symbol with the X inside it</li>
@@ -457,9 +457,9 @@ For example, the contribuition of \(|0\rangle\) and its probability:
 </div>
 </div>
 
-<div id="outline-container-orgaf6f6cf" class="outline-2">
-<h2 id="orgaf6f6cf">The Stern Gerlach Experiment</h2>
-<div class="outline-text-2" id="text-orgaf6f6cf">
+<div id="outline-container-orgd61df25" class="outline-2">
+<h2 id="orgd61df25">The Stern Gerlach Experiment</h2>
+<div class="outline-text-2" id="text-orgd61df25">
 <ul class="org-ul">
 <li>Step 1: Measurement changes the state of a qubit</li>
 <li>Step 2: The results of quantum measurement are often random</li>
@@ -468,9 +468,9 @@ For example, the contribuition of \(|0\rangle\) and its probability:
 </div>
 </div>
 
-<div id="outline-container-org754107b" class="outline-2">
-<h2 id="org754107b">Resources</h2>
-<div class="outline-text-2" id="text-org754107b">
+<div id="outline-container-org81a6703" class="outline-2">
+<h2 id="org81a6703">Resources</h2>
+<div class="outline-text-2" id="text-org81a6703">
 <ul class="org-ul">
 <li><a href="https://siliconangle.com/2021/11/15/ibm-debuts-new-eagle-quantum-processor-127-qubits/">IBM debuts new quantum processor with 127 qubits</a></li>
 <li><a href="https://www.axios.com/ibm-quantum-computing-axios-hbo-bd9d50b7-3c11-4586-bdb1-8bbc9928ad1b.html">Exclusive: IBM achieves quantum computing breakthrough</a></li>
@@ -483,7 +483,7 @@ For example, the contribuition of \(|0\rangle\) and its probability:
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Luís Spengler</p>
-<p class="date">Created: 2022-03-08 Tue 21:14</p>
+<p class="date">Created: 2022-03-13 Sun 09:49</p>
 </div>
 </body>
 </html>

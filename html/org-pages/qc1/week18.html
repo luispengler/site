@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2022-03-08 Tue 21:14 -->
+<!-- 2022-03-13 Sun 09:49 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Week 18 - my notes</title>
@@ -229,15 +229,15 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#org14d93dd">Week 18 - Quantum Algorithms and Quantum Advantage</a>
+<li><a href="#org947ca06">Week 18 - Quantum Algorithms and Quantum Advantage</a>
 <ul>
-<li><a href="#org7e485fe">Quantum Algorithms</a></li>
-<li><a href="#orgc39f05b">Algorithms 101</a></li>
-<li><a href="#orgf8ca08d">Linear Search Algorithms</a></li>
-<li><a href="#orge75dc0b">What makes a good algorithm?</a></li>
-<li><a href="#org08b72f6">Quantum Algorithms</a></li>
-<li><a href="#org29efad1">What makes a quantum algorithm?</a></li>
-<li><a href="#orgaa13050">The Quantum Algos Landscape</a></li>
+<li><a href="#org6379026">Quantum Algorithms</a></li>
+<li><a href="#org01a3469">Algorithms 101</a></li>
+<li><a href="#orgdc07139">Linear Search Algorithms</a></li>
+<li><a href="#org188a696">What makes a good algorithm?</a></li>
+<li><a href="#org679c59c">Quantum Algorithms</a></li>
+<li><a href="#org6202371">What makes a quantum algorithm?</a></li>
+<li><a href="#org63a52f6">The Quantum Algos Landscape</a></li>
 </ul>
 </li>
 </ul>
@@ -247,22 +247,22 @@
 &ldquo;I try to understand the limitations of [quantum] algorithms&#x2026; it goes hand in hand with understanding what is possible.&rdquo; - Scott Aaronson
 </p>
 
-<div id="outline-container-org14d93dd" class="outline-2">
-<h2 id="org14d93dd">Week 18 - Quantum Algorithms and Quantum Advantage</h2>
-<div class="outline-text-2" id="text-org14d93dd">
+<div id="outline-container-org947ca06" class="outline-2">
+<h2 id="org947ca06">Week 18 - Quantum Algorithms and Quantum Advantage</h2>
+<div class="outline-text-2" id="text-org947ca06">
 </div>
-<div id="outline-container-org7e485fe" class="outline-3">
-<h3 id="org7e485fe">Quantum Algorithms</h3>
-<div class="outline-text-3" id="text-org7e485fe">
+<div id="outline-container-org6379026" class="outline-3">
+<h3 id="org6379026">Quantum Algorithms</h3>
+<div class="outline-text-3" id="text-org6379026">
 <ul class="org-ul">
 <li>It is how a quantum computer solves problems</li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orgc39f05b" class="outline-3">
-<h3 id="orgc39f05b">Algorithms 101</h3>
-<div class="outline-text-3" id="text-orgc39f05b">
+<div id="outline-container-org01a3469" class="outline-3">
+<h3 id="org01a3469">Algorithms 101</h3>
+<div class="outline-text-3" id="text-org01a3469">
 <ul class="org-ul">
 <li>Algorithms are a set of steps taken to solve a problem. They are like a recipe to accomplish some task (like baking a nice cake!)</li>
 <li>Let&rsquo;s focus on <b>linear search</b> right now</li>
@@ -270,9 +270,9 @@
 </div>
 </div>
 
-<div id="outline-container-orgf8ca08d" class="outline-3">
-<h3 id="orgf8ca08d">Linear Search Algorithms</h3>
-<div class="outline-text-3" id="text-orgf8ca08d">
+<div id="outline-container-orgdc07139" class="outline-3">
+<h3 id="orgdc07139">Linear Search Algorithms</h3>
+<div class="outline-text-3" id="text-orgdc07139">
 <ul class="org-ul">
 <li>They focus on finding an specific element, by checking each individual element in a dataset</li>
 <li>In the worst case scenario, these algorithms would take N steps to find an N number of values</li>
@@ -280,18 +280,18 @@
 </div>
 </div>
 
-<div id="outline-container-orge75dc0b" class="outline-3">
-<h3 id="orge75dc0b">What makes a good algorithm?</h3>
-<div class="outline-text-3" id="text-orge75dc0b">
+<div id="outline-container-org188a696" class="outline-3">
+<h3 id="org188a696">What makes a good algorithm?</h3>
+<div class="outline-text-3" id="text-org188a696">
 <ul class="org-ul">
 <li>Solve the problem correctly (Accuracy)</li>
 <li>Solve the problem as quickly as possible (Efficiency)</li>
 </ul>
 </div>
 
-<div id="outline-container-org85f1d0b" class="outline-4">
-<h4 id="org85f1d0b">Solve the problem (accuracy/efficiency)</h4>
-<div class="outline-text-4" id="text-org85f1d0b">
+<div id="outline-container-org3f295c1" class="outline-4">
+<h4 id="org3f295c1">Solve the problem (accuracy/efficiency)</h4>
+<div class="outline-text-4" id="text-org3f295c1">
 <ul class="org-ul">
 <li>You can make an algorithm that will eventually give you the right answer, but at what cost?</li>
 <li>Efficiency is a more important problem to solve, and it is usually how we determine good algorithms</li>
@@ -300,9 +300,9 @@
 </div>
 </div>
 
-<div id="outline-container-org6bb9446" class="outline-4">
-<h4 id="org6bb9446">Determining Efficiency</h4>
-<div class="outline-text-4" id="text-org6bb9446">
+<div id="outline-container-org4e626fb" class="outline-4">
+<h4 id="org4e626fb">Determining Efficiency</h4>
+<div class="outline-text-4" id="text-org4e626fb">
 <ul class="org-ul">
 <li>We shouldn&rsquo;t examine it by the runtime (it is hardware dependent, and it also depends on the input difficulty and size)</li>
 <li>Instead of using runtine, we count how many steps an algorithm took. This is known as Big-O Notation</li>
@@ -310,9 +310,9 @@
 </div>
 </div>
 
-<div id="outline-container-orgbf38de8" class="outline-4">
-<h4 id="orgbf38de8">Big-O Notation</h4>
-<div class="outline-text-4" id="text-orgbf38de8">
+<div id="outline-container-org69f99fb" class="outline-4">
+<h4 id="org69f99fb">Big-O Notation</h4>
+<div class="outline-text-4" id="text-org69f99fb">
 <ul class="org-ul">
 <li>Big-O reports the number of operations and it characterizes the worst-case performance, as well as being expressed as function of input size.</li>
 <li>Linear Search&rsquo;s big-o notation: \[O(n)\]</li>
@@ -331,9 +331,9 @@
 </div>
 </div>
 
-<div id="outline-container-org08b72f6" class="outline-3">
-<h3 id="org08b72f6">Quantum Algorithms</h3>
-<div class="outline-text-3" id="text-org08b72f6">
+<div id="outline-container-org679c59c" class="outline-3">
+<h3 id="org679c59c">Quantum Algorithms</h3>
+<div class="outline-text-3" id="text-org679c59c">
 <ul class="org-ul">
 <li>It is a procedure for solving a computational problem that uses the 3 quantum resources (superposition, interference, entanglement)</li>
 <li>The goal is to show the quantum advantage (idea of being able to solve a problem in a QC faster than any classical device. It means the same as quantum supremacy, but this term is less used nowadays)</li>
@@ -342,9 +342,9 @@
 </div>
 </div>
 
-<div id="outline-container-org29efad1" class="outline-3">
-<h3 id="org29efad1">What makes a quantum algorithm?</h3>
-<div class="outline-text-3" id="text-org29efad1">
+<div id="outline-container-org6202371" class="outline-3">
+<h3 id="org6202371">What makes a quantum algorithm?</h3>
+<div class="outline-text-3" id="text-org6202371">
 <ul class="org-ul">
 <li>It is just a complicated quantum circuit!</li>
 <li>All quantum algorithms are quantum circuits, but not all quantum circuits are not quantum algorithms</li>
@@ -353,9 +353,9 @@
 </div>
 </div>
 
-<div id="outline-container-orgaa13050" class="outline-3">
-<h3 id="orgaa13050">The Quantum Algos Landscape</h3>
-<div class="outline-text-3" id="text-orgaa13050">
+<div id="outline-container-org63a52f6" class="outline-3">
+<h3 id="org63a52f6">The Quantum Algos Landscape</h3>
+<div class="outline-text-3" id="text-org63a52f6">
 <ul class="org-ul">
 <li>Deutsch-Josza (First theorical demonstration of quantum advantage) \[O(1) << O(2^n)\]</li>
 <li>Shor&rsquo;s algorithm (Super-polynomial speedup for factoring using the QFT) \[O(log(n)^3) << O(n^{1.9})\]</li>
@@ -364,9 +364,9 @@
 </ul>
 </div>
 
-<div id="outline-container-org6ca7b01" class="outline-4">
-<h4 id="org6ca7b01">Limitations of Quantum Algorithms</h4>
-<div class="outline-text-4" id="text-org6ca7b01">
+<div id="outline-container-org61b8c9b" class="outline-4">
+<h4 id="org61b8c9b">Limitations of Quantum Algorithms</h4>
+<div class="outline-text-4" id="text-org61b8c9b">
 <ul class="org-ul">
 <li>We don&rsquo;t have enough qubits and they are too noisy and have errors &#x2013; they lose information</li>
 <li>Maturation of quantum coding languages</li>
@@ -380,7 +380,7 @@
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Luís Spengler</p>
-<p class="date">Created: 2022-03-08 Tue 21:14</p>
+<p class="date">Created: 2022-03-13 Sun 09:49</p>
 </div>
 </body>
 </html>

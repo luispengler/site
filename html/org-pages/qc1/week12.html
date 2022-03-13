@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2022-03-08 Tue 21:14 -->
+<!-- 2022-03-13 Sun 09:49 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Week 12 - my notes</title>
@@ -229,26 +229,26 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#orgdd01152">Week 12 - Quantum Key Distribuition: Part 2</a>
+<li><a href="#orga138ad7">Week 12 - Quantum Key Distribuition: Part 2</a>
 <ul>
-<li><a href="#org776b15d">One-to-one vs many-to-one problems</a></li>
-<li><a href="#org9deb775">Quantum computers usefulness</a></li>
-<li><a href="#orgc8a9b20">Relationships between quantum gates</a></li>
-<li><a href="#org5d375fb">LAB</a></li>
-<li><a href="#orgd383326">Resources</a></li>
+<li><a href="#org4b752eb">One-to-one vs many-to-one problems</a></li>
+<li><a href="#org8e19b00">Quantum computers usefulness</a></li>
+<li><a href="#org16efc4f">Relationships between quantum gates</a></li>
+<li><a href="#orga2f020a">LAB</a></li>
+<li><a href="#orgd1561a8">Resources</a></li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orgdd01152" class="outline-2">
-<h2 id="orgdd01152">Week 12 - Quantum Key Distribuition: Part 2</h2>
-<div class="outline-text-2" id="text-orgdd01152">
+<div id="outline-container-orga138ad7" class="outline-2">
+<h2 id="orga138ad7">Week 12 - Quantum Key Distribuition: Part 2</h2>
+<div class="outline-text-2" id="text-orga138ad7">
 </div>
-<div id="outline-container-org776b15d" class="outline-3">
-<h3 id="org776b15d">One-to-one vs many-to-one problems</h3>
-<div class="outline-text-3" id="text-org776b15d">
+<div id="outline-container-org4b752eb" class="outline-3">
+<h3 id="org4b752eb">One-to-one vs many-to-one problems</h3>
+<div class="outline-text-3" id="text-org4b752eb">
 <ul class="org-ul">
 <li>One-to-one: One output for each input. Ex: Update everyone&rsquo;s schedule for the new year. Each input can be processed individually without affecting the other inputs.</li>
 <li>Many-to-one: Many inputs, one output. Ex: Update everyone&rsquo;s schedule based on everyone&rsquo;s availabilites, hence each input needs to be ballanced to get one certain output.</li>
@@ -256,9 +256,9 @@
 </div>
 </div>
 
-<div id="outline-container-org9deb775" class="outline-3">
-<h3 id="org9deb775">Quantum computers usefulness</h3>
-<div class="outline-text-3" id="text-org9deb775">
+<div id="outline-container-org8e19b00" class="outline-3">
+<h3 id="org8e19b00">Quantum computers usefulness</h3>
+<div class="outline-text-3" id="text-org8e19b00">
 <ol class="org-ol">
 <li>Search and optimization: find the best solution in a large dataset. Ex: Database search, energy distrubuition, climate modeling, portfolio optimization
 <ul class="org-ul">
@@ -269,9 +269,9 @@
 </div>
 </div>
 
-<div id="outline-container-orgc8a9b20" class="outline-3">
-<h3 id="orgc8a9b20">Relationships between quantum gates</h3>
-<div class="outline-text-3" id="text-orgc8a9b20">
+<div id="outline-container-org16efc4f" class="outline-3">
+<h3 id="org16efc4f">Relationships between quantum gates</h3>
+<div class="outline-text-3" id="text-org16efc4f">
 <ul class="org-ul">
 <li>Applying H, Z, H in this order is the same as only applying an X gate</li>
 <li>Applying H, X, H in this order is the same as only applying a Z gate</li>
@@ -280,17 +280,17 @@
 </div>
 </div>
 
-<div id="outline-container-org5d375fb" class="outline-3">
-<h3 id="org5d375fb">LAB</h3>
-<div class="outline-text-3" id="text-org5d375fb">
+<div id="outline-container-orga2f020a" class="outline-3">
+<h3 id="orga2f020a">LAB</h3>
+<div class="outline-text-3" id="text-orga2f020a">
 </div>
-<div id="outline-container-orgec5b0db" class="outline-4">
-<h4 id="orgec5b0db">Statevector vs QASM simulation</h4>
-<div class="outline-text-4" id="text-orgec5b0db">
+<div id="outline-container-orgd82389e" class="outline-4">
+<h4 id="orgd82389e">Statevector vs QASM simulation</h4>
+<div class="outline-text-4" id="text-orgd82389e">
 </div>
-<div id="outline-container-org0f1aeac" class="outline-5">
-<h5 id="org0f1aeac">Statevector steps:</h5>
-<div class="outline-text-5" id="text-org0f1aeac">
+<div id="outline-container-org23adc2c" class="outline-5">
+<h5 id="org23adc2c">Statevector steps:</h5>
+<div class="outline-text-5" id="text-org23adc2c">
 <ol class="org-ol">
 <li>Create an &ldquo;empty&rdquo; quantum circuit with no classical bits</li>
 </ol>
@@ -327,9 +327,9 @@
 </p>
 </div>
 </div>
-<div id="outline-container-org29ba9e1" class="outline-5">
-<h5 id="org29ba9e1">QASM steps:</h5>
-<div class="outline-text-5" id="text-org29ba9e1">
+<div id="outline-container-org869e259" class="outline-5">
+<h5 id="org869e259">QASM steps:</h5>
+<div class="outline-text-5" id="text-org869e259">
 <ol class="org-ol">
 <li>Create an &ldquo;empty&rdquo; quantum circuit with classical bits</li>
 </ol>
@@ -372,9 +372,9 @@
 </div>
 </div>
 
-<div id="outline-container-org75931f6" class="outline-4">
-<h4 id="org75931f6">Gates revision</h4>
-<div class="outline-text-4" id="text-org75931f6">
+<div id="outline-container-org56eacf5" class="outline-4">
+<h4 id="org56eacf5">Gates revision</h4>
+<div class="outline-text-4" id="text-org56eacf5">
 <ul class="org-ul">
 <li>X gate: 180º rotation around the X axis</li>
 <li>H gate: creates a superposition, like a 90º roation around the axis</li>
@@ -383,9 +383,9 @@
 </div>
 </div>
 
-<div id="outline-container-orgb5d0013" class="outline-4">
-<h4 id="orgb5d0013">Rotation Gates</h4>
-<div class="outline-text-4" id="text-orgb5d0013">
+<div id="outline-container-orge5248aa" class="outline-4">
+<h4 id="orge5248aa">Rotation Gates</h4>
+<div class="outline-text-4" id="text-orge5248aa">
 <ul class="org-ul">
 <li>With the gates we have we are only getting results like \(0\rangle\), \(1\rangle\), \(+\rangle\), and \(-\rangle\)</li>
 <li>But we should be able to reach every point in the Block Sphere&#x2026;
@@ -395,9 +395,9 @@
 </ul>
 </div>
 
-<div id="outline-container-orgcadb336" class="outline-5">
-<h5 id="orgcadb336">RX gate</h5>
-<div class="outline-text-5" id="text-orgcadb336">
+<div id="outline-container-org26abf8a" class="outline-5">
+<h5 id="org26abf8a">RX gate</h5>
+<div class="outline-text-5" id="text-org26abf8a">
 <ul class="org-ul">
 <li>We tell it how many degrees to rotate around the X axis</li>
 <li>Telling it to rotate 180º, it will behave like a regular X gate</li>
@@ -409,9 +409,9 @@
 </div>
 </div>
 
-<div id="outline-container-orgb7ec068" class="outline-5">
-<h5 id="orgb7ec068">RZ gate</h5>
-<div class="outline-text-5" id="text-orgb7ec068">
+<div id="outline-container-org94de55f" class="outline-5">
+<h5 id="org94de55f">RZ gate</h5>
+<div class="outline-text-5" id="text-org94de55f">
 <ul class="org-ul">
 <li>We tell it how many degrees to rotate around the Z axis</li>
 <li>Telling it to rotate 180º, it will behave like a regular Z gate</li>
@@ -425,9 +425,9 @@
 </div>
 </div>
 
-<div id="outline-container-orgd383326" class="outline-3">
-<h3 id="orgd383326">Resources</h3>
-<div class="outline-text-3" id="text-orgd383326">
+<div id="outline-container-orgd1561a8" class="outline-3">
+<h3 id="orgd1561a8">Resources</h3>
+<div class="outline-text-3" id="text-orgd1561a8">
 <p>
 Quantum Computing With Trapped Ions
 URL: <a href="https://www.youtube.com/watch?v=9aOLwjUZLm0&amp;list=WL&amp;index=37l">https://www.youtube.com/watch?v=9aOLwjUZLm0&amp;list=WL&amp;index=37l</a>
@@ -445,7 +445,7 @@ Description: Overview of the emerging QC industry
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Luís Spengler</p>
-<p class="date">Created: 2022-03-08 Tue 21:14</p>
+<p class="date">Created: 2022-03-13 Sun 09:49</p>
 </div>
 </body>
 </html>

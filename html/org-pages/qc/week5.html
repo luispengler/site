@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2022-03-08 Tue 21:14 -->
+<!-- 2022-03-13 Sun 09:49 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Week 5 - my notes</title>
@@ -229,32 +229,32 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#org195d4e0">Week 5 (Qubit by Qubit)</a>
+<li><a href="#org2dfa20d">Week 5 (Qubit by Qubit)</a>
 <ul>
-<li><a href="#orgf759ff5">RECAP</a></li>
-<li><a href="#orgdf1dbb1">Z gate</a></li>
-<li><a href="#orgaff0a34">Quantum measurements</a></li>
-<li><a href="#org404a644">Wave-particle duality and measurement</a></li>
-<li><a href="#org41a23fc">IQX circuit composer</a></li>
-<li><a href="#org2526a12">A Theory</a></li>
-<li><a href="#org7672812">Resources</a></li>
+<li><a href="#org501c30b">RECAP</a></li>
+<li><a href="#org32c629a">Z gate</a></li>
+<li><a href="#org0473f7e">Quantum measurements</a></li>
+<li><a href="#orgd9ec1e8">Wave-particle duality and measurement</a></li>
+<li><a href="#org78c2276">IQX circuit composer</a></li>
+<li><a href="#orge0bf594">A Theory</a></li>
+<li><a href="#orgdef943d">Resources</a></li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org195d4e0" class="outline-2">
-<h2 id="org195d4e0">Week 5 (Qubit by Qubit)</h2>
-<div class="outline-text-2" id="text-org195d4e0">
+<div id="outline-container-org2dfa20d" class="outline-2">
+<h2 id="org2dfa20d">Week 5 (Qubit by Qubit)</h2>
+<div class="outline-text-2" id="text-org2dfa20d">
 </div>
-<div id="outline-container-orgf759ff5" class="outline-3">
-<h3 id="orgf759ff5">RECAP</h3>
-<div class="outline-text-3" id="text-orgf759ff5">
+<div id="outline-container-org501c30b" class="outline-3">
+<h3 id="org501c30b">RECAP</h3>
+<div class="outline-text-3" id="text-org501c30b">
 </div>
-<div id="outline-container-org741f404" class="outline-4">
-<h4 id="org741f404">The Bloch Sphere:</h4>
-<div class="outline-text-4" id="text-org741f404">
+<div id="outline-container-org8ba733c" class="outline-4">
+<h4 id="org8ba733c">The Bloch Sphere:</h4>
+<div class="outline-text-4" id="text-org8ba733c">
 <ul class="org-ul">
 <li>State on the top: \(|0\rangle\)</li>
 <li>State on the bottom: \(|1\rangle\)</li>
@@ -264,9 +264,9 @@
 </div>
 </div>
 
-<div id="outline-container-org6c465d5" class="outline-4">
-<h4 id="org6c465d5">Quantum gates:</h4>
-<div class="outline-text-4" id="text-org6c465d5">
+<div id="outline-container-org7213c5e" class="outline-4">
+<h4 id="org7213c5e">Quantum gates:</h4>
+<div class="outline-text-4" id="text-org7213c5e">
 <ul class="org-ul">
 <li>X gate</li>
 <li>Hadamard gate</li>
@@ -275,18 +275,18 @@
 </div>
 </div>
 
-<div id="outline-container-orgdf1dbb1" class="outline-3">
-<h3 id="orgdf1dbb1">Z gate</h3>
-<div class="outline-text-3" id="text-orgdf1dbb1">
+<div id="outline-container-org32c629a" class="outline-3">
+<h3 id="org32c629a">Z gate</h3>
+<div class="outline-text-3" id="text-org32c629a">
 <ul class="org-ul">
 <li>The Z gate does a 180º rotation around the Z axis (like a carrosel)</li>
 <li>Z axis is the one pointing upwards.</li>
 </ul>
 </div>
 
-<div id="outline-container-org8f5332b" class="outline-4">
-<h4 id="org8f5332b">Rules:</h4>
-<div class="outline-text-4" id="text-org8f5332b">
+<div id="outline-container-orge7b5b03" class="outline-4">
+<h4 id="orge7b5b03">Rules:</h4>
+<div class="outline-text-4" id="text-orge7b5b03">
 <ul class="org-ul">
 <li>If we apply the Z gate to the \(|0\rangle\) state, nothing will change because the \(|0\rangle\) lies on the Z axis.</li>
 <li>Applying it to a superpostion makes more sense: \(|+\rangle\) becomes \(|-\rangle\) and \(|+\rangle\) becomes \(|-\rangle\)</li>
@@ -296,9 +296,9 @@
 </div>
 </div>
 
-<div id="outline-container-orgaff0a34" class="outline-3">
-<h3 id="orgaff0a34">Quantum measurements</h3>
-<div class="outline-text-3" id="text-orgaff0a34">
+<div id="outline-container-org0473f7e" class="outline-3">
+<h3 id="org0473f7e">Quantum measurements</h3>
+<div class="outline-text-3" id="text-org0473f7e">
 <ul class="org-ul">
 <li>We need to measure the qubits so we can understand what state they are in.</li>
 <li>By observing (measuring) a quantum state, we can change it.</li>
@@ -310,9 +310,9 @@
 </ul>
 </div>
 
-<div id="outline-container-org72d1f8b" class="outline-4">
-<h4 id="org72d1f8b">Quantum Circuit model</h4>
-<div class="outline-text-4" id="text-org72d1f8b">
+<div id="outline-container-org071afef" class="outline-4">
+<h4 id="org071afef">Quantum Circuit model</h4>
+<div class="outline-text-4" id="text-org071afef">
 <ul class="org-ul">
 <li>The quantum circuit model shows us three parts of a quantum circuit</li>
 <li>States, Gates, Measurement
@@ -324,9 +324,9 @@
 </div>
 </div>
 
-<div id="outline-container-org8ade47b" class="outline-4">
-<h4 id="org8ade47b">Some results</h4>
-<div class="outline-text-4" id="text-org8ade47b">
+<div id="outline-container-org05cf4b2" class="outline-4">
+<h4 id="org05cf4b2">Some results</h4>
+<div class="outline-text-4" id="text-org05cf4b2">
 <ul class="org-ul">
 <li>Input: \(|0\rangle\), you measure it and it is \(|0\rangle\)</li>
 <li>Input: \(|1\rangle\), you measure it and it is \(|1\rangle\)</li>
@@ -336,9 +336,9 @@
 </div>
 </div>
 
-<div id="outline-container-org404a644" class="outline-3">
-<h3 id="org404a644">Wave-particle duality and measurement</h3>
-<div class="outline-text-3" id="text-org404a644">
+<div id="outline-container-orgd9ec1e8" class="outline-3">
+<h3 id="orgd9ec1e8">Wave-particle duality and measurement</h3>
+<div class="outline-text-3" id="text-orgd9ec1e8">
 <ul class="org-ul">
 <li>Qubits can be represented as waves too.</li>
 <li>Q: Just like the dirac notation and the bloch sphere notation, is there a way of representing qubits as waves using notations? or is it useful to do so?</li>
@@ -352,26 +352,26 @@
 </div>
 </div>
 
-<div id="outline-container-org41a23fc" class="outline-3">
-<h3 id="org41a23fc">IQX circuit composer</h3>
-<div class="outline-text-3" id="text-org41a23fc">
+<div id="outline-container-org78c2276" class="outline-3">
+<h3 id="org78c2276">IQX circuit composer</h3>
+<div class="outline-text-3" id="text-org78c2276">
 <ul class="org-ul">
 <li>In IBM quantum experience you can find it: <a href="https://quantum-computing.ibm.com/composer/">https://quantum-computing.ibm.com/composer/</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org2526a12" class="outline-3">
-<h3 id="org2526a12">A Theory</h3>
-<div class="outline-text-3" id="text-org2526a12">
+<div id="outline-container-orge0bf594" class="outline-3">
+<h3 id="orge0bf594">A Theory</h3>
+<div class="outline-text-3" id="text-orge0bf594">
 <ul class="org-ul">
 <li>What if the reason quantum states change when we measure them is because just like in real world we see objects and things using light (light reflects on something and comes to our eyes). The point is, light kinda touches the object. A quantum state is so sensible to the envirorment that its nature is changed by any means of interactions with matter and the simple act of looking (measuring it) at it changes it. So, nowadays there is no way of measuring a quantum state without making a particle or wave touch this quantum object, therefore the measurement property of changing results will continue to occur.</li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org7672812" class="outline-3">
-<h3 id="org7672812">Resources</h3>
-<div class="outline-text-3" id="text-org7672812">
+<div id="outline-container-orgdef943d" class="outline-3">
+<h3 id="orgdef943d">Resources</h3>
+<div class="outline-text-3" id="text-orgdef943d">
 <ul class="org-ul">
 <li><a href="https://www.forbes.com/sites/startswithabang/2020/12/10/does-making-a-quantum-measurement-really-destroy-information/">Does Making A Quantum Measurement Really Destroy Information?</a></li>
 <li><a href="https://phys.org/news/2020-02-scientists-quantum.html">Scientists &rsquo;film&rsquo; a quantum measurement</a></li>
@@ -383,7 +383,7 @@
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Luís Spengler</p>
-<p class="date">Created: 2022-03-08 Tue 21:14</p>
+<p class="date">Created: 2022-03-13 Sun 09:49</p>
 </div>
 </body>
 </html>

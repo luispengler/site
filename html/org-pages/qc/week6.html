@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2022-03-08 Tue 21:14 -->
+<!-- 2022-03-13 Sun 09:49 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Week 6 - my notes</title>
@@ -229,30 +229,30 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#orgf054fa5">Week 6 (qubit by qubit)</a>
+<li><a href="#org79d263e">Week 6 (qubit by qubit)</a>
 <ul>
-<li><a href="#org3bcabcd">Recap</a></li>
-<li><a href="#org3890a91">Math for Quantum: Qubits</a></li>
-<li><a href="#org2758d94">Phase</a></li>
-<li><a href="#orgccfa371">Lab</a></li>
-<li><a href="#orgd6e4ecb">Resources</a></li>
+<li><a href="#orgc9e4385">Recap</a></li>
+<li><a href="#org7a1a8eb">Math for Quantum: Qubits</a></li>
+<li><a href="#org119fc45">Phase</a></li>
+<li><a href="#org803fd5d">Lab</a></li>
+<li><a href="#orgf74b2a8">Resources</a></li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orgf054fa5" class="outline-2">
-<h2 id="orgf054fa5">Week 6 (qubit by qubit)</h2>
-<div class="outline-text-2" id="text-orgf054fa5">
+<div id="outline-container-org79d263e" class="outline-2">
+<h2 id="org79d263e">Week 6 (qubit by qubit)</h2>
+<div class="outline-text-2" id="text-org79d263e">
 </div>
-<div id="outline-container-org3bcabcd" class="outline-3">
-<h3 id="org3bcabcd">Recap</h3>
-<div class="outline-text-3" id="text-org3bcabcd">
+<div id="outline-container-orgc9e4385" class="outline-3">
+<h3 id="orgc9e4385">Recap</h3>
+<div class="outline-text-3" id="text-orgc9e4385">
 </div>
-<div id="outline-container-org55ebd3a" class="outline-4">
-<h4 id="org55ebd3a">Review: States and Gates</h4>
-<div class="outline-text-4" id="text-org55ebd3a">
+<div id="outline-container-org6f1ef36" class="outline-4">
+<h4 id="org6f1ef36">Review: States and Gates</h4>
+<div class="outline-text-4" id="text-org6f1ef36">
 <ul class="org-ul">
 <li>X - 180 rotation around the X-axis</li>
 <li>Z - 180 rotation around the Z-axis</li>
@@ -262,9 +262,9 @@
 </div>
 </div>
 
-<div id="outline-container-org3890a91" class="outline-3">
-<h3 id="org3890a91">Math for Quantum: Qubits</h3>
-<div class="outline-text-3" id="text-org3890a91">
+<div id="outline-container-org7a1a8eb" class="outline-3">
+<h3 id="org7a1a8eb">Math for Quantum: Qubits</h3>
+<div class="outline-text-3" id="text-org7a1a8eb">
 <ul class="org-ul">
 <li>With math we can predict the outcomes, without necessarily having to memorize each one of them.</li>
 <li><b>Superconducting</b>, <b>Trapped Ions</b>, <b>Diamond NV Centers</b>, <b>Photonics</b> are different kind of qubits, and math is the language common to all of them!</li>
@@ -272,9 +272,9 @@
 </ul>
 </div>
 
-<div id="outline-container-org7ef70fd" class="outline-4">
-<h4 id="org7ef70fd">Qubits</h4>
-<div class="outline-text-4" id="text-org7ef70fd">
+<div id="outline-container-orga369742" class="outline-4">
+<h4 id="orga369742">Qubits</h4>
+<div class="outline-text-4" id="text-orga369742">
 <ul class="org-ul">
 <li>\(|0\rangle\), \(|1\rangle\), \(|+\rangle\), \(|-\rangle\) are ways to represent them.</li>
 <li><b>But</b> in an unequal superposition, we need a better way to represent contributions.</li>
@@ -287,9 +287,9 @@
 </div>
 </div>
 
-<div id="outline-container-orgb6d6773" class="outline-4">
-<h4 id="orgb6d6773">Superpostions</h4>
-<div class="outline-text-4" id="text-orgb6d6773">
+<div id="outline-container-org6407cc2" class="outline-4">
+<h4 id="org6407cc2">Superpostions</h4>
+<div class="outline-text-4" id="text-org6407cc2">
 <ul class="org-ul">
 <li>To represent equal superpositions, we just need to add the two vectors:
 \[\begin{bmatrix}1\\0\end{bmatrix} + \begin{bmatrix}0\\1\end{bmatrix} = \begin{bmatrix}1\\1\end{bmatrix}\]</li>
@@ -299,9 +299,9 @@
 </div>
 </div>
 
-<div id="outline-container-orgc1954f4" class="outline-4">
-<h4 id="orgc1954f4">Normalization</h4>
-<div class="outline-text-4" id="text-orgc1954f4">
+<div id="outline-container-org4871bea" class="outline-4">
+<h4 id="org4871bea">Normalization</h4>
+<div class="outline-text-4" id="text-org4871bea">
 <ul class="org-ul">
 <li>The vectors representing quantum states must be <b>normalized</b>, which means they have a <b>lenght of 1</b></li>
 <li>The radius of the Bloch Sphere is 1, so as all quantum states lie on the Bloch sphere, they must all have a length of 1.</li>
@@ -316,9 +316,9 @@
 </div>
 </div>
 
-<div id="outline-container-org5da675e" class="outline-4">
-<h4 id="org5da675e">Examples to help with normalization:</h4>
-<div class="outline-text-4" id="text-org5da675e">
+<div id="outline-container-org088108d" class="outline-4">
+<h4 id="org088108d">Examples to help with normalization:</h4>
+<div class="outline-text-4" id="text-org088108d">
 <ul class="org-ul">
 <li>Remember that all of this comes from <b>linear algebra</b></li>
 <li>The length of the state \[\begin{bmatrix}1\\0\end{bmatrix}\]
@@ -338,18 +338,18 @@
 </div>
 </div>
 
-<div id="outline-container-org2758d94" class="outline-3">
-<h3 id="org2758d94">Phase</h3>
-<div class="outline-text-3" id="text-org2758d94">
+<div id="outline-container-org119fc45" class="outline-3">
+<h3 id="org119fc45">Phase</h3>
+<div class="outline-text-3" id="text-org119fc45">
 <ul class="org-ul">
 <li>Subtract the following states:
 \[\frac{1}{\sqrt{2}}\begin{bmatrix}1\\0\end{bmatrix} - \frac{1}{\sqrt{2}}\begin{bmatrix}0\\1\end{bmatrix} = \frac{1}{\sqrt{2}}\begin{bmatrix}1\\-1\end{bmatrix}\]</li>
 <li>That is the same as \(|-\rangle\)</li>
 </ul>
 </div>
-<div id="outline-container-org580eefc" class="outline-4">
-<h4 id="org580eefc">Normalized form of \(|+\rangle\) and \(|-\rangle\) states</h4>
-<div class="outline-text-4" id="text-org580eefc">
+<div id="outline-container-orgede0ce5" class="outline-4">
+<h4 id="orgede0ce5">Normalized form of \(|+\rangle\) and \(|-\rangle\) states</h4>
+<div class="outline-text-4" id="text-orgede0ce5">
 <ul class="org-ul">
 <li>\(|+\rangle\) = \[\frac{1}{\sqrt{2}}(|0\rangle+|1\rangle)\] same as \[\frac{1}{\sqrt{2}}\begin{bmatrix}1\\1\end{bmatrix}\]</li>
 <li>\(|-\rangle\) = \[\\frac{1}{\sqrt{2}}(|0\rangle-|1\rangle)\] same as \[\frac{1}{\sqrt{2}}\begin{bmatrix}1\\-1\end{bmatrix}\]</li>
@@ -362,9 +362,9 @@
 </div>
 </div>
 
-<div id="outline-container-orgccfa371" class="outline-3">
-<h3 id="orgccfa371">Lab</h3>
-<div class="outline-text-3" id="text-orgccfa371">
+<div id="outline-container-org803fd5d" class="outline-3">
+<h3 id="org803fd5d">Lab</h3>
+<div class="outline-text-3" id="text-org803fd5d">
 <ul class="org-ul">
 <li>Qiskit Aer, Qiskit Nature, Qiskit Pulse are what we have inside the mega qiskit library. We are gonna use Qiskit Aer.
 <ul class="org-ul">
@@ -377,9 +377,9 @@
 </div>
 </div>
 
-<div id="outline-container-orgd6e4ecb" class="outline-3">
-<h3 id="orgd6e4ecb">Resources</h3>
-<div class="outline-text-3" id="text-orgd6e4ecb">
+<div id="outline-container-orgf74b2a8" class="outline-3">
+<h3 id="orgf74b2a8">Resources</h3>
+<div class="outline-text-3" id="text-orgf74b2a8">
 <ul class="org-ul">
 <li><a href="https://www.youtube.com/watch?v=fNk_zzaMoSs&amp;list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab">Essence of Linear Algebra: A Video Playlist by 3Blue1Brown</a>
 <ul class="org-ul">
@@ -400,7 +400,7 @@
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Luís Spengler</p>
-<p class="date">Created: 2022-03-08 Tue 21:14</p>
+<p class="date">Created: 2022-03-13 Sun 09:49</p>
 </div>
 </body>
 </html>

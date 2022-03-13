@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2022-03-08 Tue 21:14 -->
+<!-- 2022-03-13 Sun 09:49 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Week 11 - my notes</title>
@@ -229,44 +229,44 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#org5698229">Week 11 - Quantum Key Distribuition: Part 2</a>
+<li><a href="#org26979ac">Week 11 - Quantum Key Distribuition: Part 2</a>
 <ul>
-<li><a href="#orgb17fed8">Recap</a></li>
+<li><a href="#org24b03be">Recap</a></li>
 </ul>
 </li>
-<li><a href="#org1ed0470">QKD Part 2: Eve returns (imp smiling)</a>
+<li><a href="#orgad0a928">QKD Part 2: Eve returns (imp smiling)</a>
 <ul>
-<li><a href="#orge2a2342">Eve&rsquo;s work</a></li>
-<li><a href="#org2c62538">Receiver&rsquo;s work</a></li>
-<li><a href="#org3e95273">Comparison</a></li>
+<li><a href="#orgba94a4c">Eve&rsquo;s work</a></li>
+<li><a href="#orgf990a01">Receiver&rsquo;s work</a></li>
+<li><a href="#org825e928">Comparison</a></li>
 </ul>
 </li>
-<li><a href="#orgdc6fd9a">Other QKD protocols</a>
+<li><a href="#org3f09a2d">Other QKD protocols</a>
 <ul>
-<li><a href="#org7b38beb">B92 protocol</a></li>
-<li><a href="#orgeec4cf8">E91 protocol</a></li>
+<li><a href="#org1da22b4">B92 protocol</a></li>
+<li><a href="#org2b0bd33">E91 protocol</a></li>
 </ul>
 </li>
-<li><a href="#org191dbc0">QKD in the real world</a>
+<li><a href="#orgcc3aeb9">QKD in the real world</a>
 <ul>
-<li><a href="#org5c3c255">Differences</a></li>
+<li><a href="#orgb708ea4">Differences</a></li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org5698229" class="outline-2">
-<h2 id="org5698229">Week 11 - Quantum Key Distribuition: Part 2</h2>
-<div class="outline-text-2" id="text-org5698229">
+<div id="outline-container-org26979ac" class="outline-2">
+<h2 id="org26979ac">Week 11 - Quantum Key Distribuition: Part 2</h2>
+<div class="outline-text-2" id="text-org26979ac">
 </div>
-<div id="outline-container-orgb17fed8" class="outline-3">
-<h3 id="orgb17fed8">Recap</h3>
-<div class="outline-text-3" id="text-orgb17fed8">
+<div id="outline-container-org24b03be" class="outline-3">
+<h3 id="org24b03be">Recap</h3>
+<div class="outline-text-3" id="text-org24b03be">
 </div>
-<div id="outline-container-org36e7d46" class="outline-4">
-<h4 id="org36e7d46">The Key</h4>
-<div class="outline-text-4" id="text-org36e7d46">
+<div id="outline-container-org4568e22" class="outline-4">
+<h4 id="org4568e22">The Key</h4>
+<div class="outline-text-4" id="text-org4568e22">
 <ul class="org-ul">
 <li>It is a series of classical bits</li>
 <li>It is used to encode and decode the party messages</li>
@@ -276,13 +276,13 @@
 </ul>
 </div>
 </div>
-<div id="outline-container-orgca9a356" class="outline-4">
-<h4 id="orgca9a356">QKD protocol</h4>
-<div class="outline-text-4" id="text-orgca9a356">
+<div id="outline-container-org3440bba" class="outline-4">
+<h4 id="org3440bba">QKD protocol</h4>
+<div class="outline-text-4" id="text-org3440bba">
 </div>
-<div id="outline-container-orgd871ac0" class="outline-5">
-<h5 id="orgd871ac0">Phase 1: Sending</h5>
-<div class="outline-text-5" id="text-orgd871ac0">
+<div id="outline-container-org0590f65" class="outline-5">
+<h5 id="org0590f65">Phase 1: Sending</h5>
+<div class="outline-text-5" id="text-org0590f65">
 <ol class="org-ol">
 <li>Sender randomly picks some classical bits</li>
 <li>Sender randomly chooses a basis (Z or X) to each bit.</li>
@@ -291,9 +291,9 @@
 </ol>
 </div>
 </div>
-<div id="outline-container-org87ef0ad" class="outline-5">
-<h5 id="org87ef0ad">Phase 2: Receiving</h5>
-<div class="outline-text-5" id="text-org87ef0ad">
+<div id="outline-container-org93be16d" class="outline-5">
+<h5 id="org93be16d">Phase 2: Receiving</h5>
+<div class="outline-text-5" id="text-org93be16d">
 <ol class="org-ol">
 <li>Receiver ramdonly picks bases</li>
 <li>Receiver measures the qubits with his/her chosen bases to get new quantum states</li>
@@ -301,18 +301,18 @@
 </ol>
 </div>
 </div>
-<div id="outline-container-org0478a24" class="outline-5">
-<h5 id="org0478a24">Phase 3: Comparing</h5>
-<div class="outline-text-5" id="text-org0478a24">
+<div id="outline-container-orge1fbd45" class="outline-5">
+<h5 id="orge1fbd45">Phase 3: Comparing</h5>
+<div class="outline-text-5" id="text-orge1fbd45">
 <ol class="org-ol">
 <li>Sender and receiver compare bases using the classical channel and eliminate the ones that their bases didn&rsquo;t match up.</li>
 <li>Sender and receiver compare bits over the classical channel</li>
 </ol>
 </div>
 </div>
-<div id="outline-container-org8d7ae93" class="outline-5">
-<h5 id="org8d7ae93">Importance of second step in third phase</h5>
-<div class="outline-text-5" id="text-org8d7ae93">
+<div id="outline-container-org9e50297" class="outline-5">
+<h5 id="org9e50297">Importance of second step in third phase</h5>
+<div class="outline-text-5" id="text-org9e50297">
 <ul class="org-ul">
 <li>If their bits are not the same, it means someone eveasdropped</li>
 <li>Remember, when we measure quantum states, they can change</li>
@@ -323,9 +323,9 @@
 </div>
 </div>
 
-<div id="outline-container-org1ed0470" class="outline-2">
-<h2 id="org1ed0470">QKD Part 2: Eve returns (imp smiling)</h2>
-<div class="outline-text-2" id="text-org1ed0470">
+<div id="outline-container-orgad0a928" class="outline-2">
+<h2 id="orgad0a928">QKD Part 2: Eve returns (imp smiling)</h2>
+<div class="outline-text-2" id="text-orgad0a928">
 <ul class="org-ul">
 <li>Phase will be slightly different:
 <ul class="org-ul">
@@ -334,9 +334,9 @@
 <li>When agreeing upon the bases and the table, we gotta consider Eve knowing them too</li>
 </ul>
 </div>
-<div id="outline-container-orge2a2342" class="outline-3">
-<h3 id="orge2a2342">Eve&rsquo;s work</h3>
-<div class="outline-text-3" id="text-orge2a2342">
+<div id="outline-container-orgba94a4c" class="outline-3">
+<h3 id="orgba94a4c">Eve&rsquo;s work</h3>
+<div class="outline-text-3" id="text-orgba94a4c">
 <ul class="org-ul">
 <li>He intercepts the qubits sent</li>
 <li>Then, he chooses bases (at random) to figure out the bits (he is measuring)</li>
@@ -345,18 +345,18 @@
 </ul>
 </div>
 </div>
-<div id="outline-container-org2c62538" class="outline-3">
-<h3 id="org2c62538">Receiver&rsquo;s work</h3>
-<div class="outline-text-3" id="text-org2c62538">
+<div id="outline-container-orgf990a01" class="outline-3">
+<h3 id="orgf990a01">Receiver&rsquo;s work</h3>
+<div class="outline-text-3" id="text-orgf990a01">
 <ul class="org-ul">
 <li>They choose random bases to figure out the bits</li>
 <li>They decode qubits back to bits using his random bases and the table previously agreed on</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org3e95273" class="outline-3">
-<h3 id="org3e95273">Comparison</h3>
-<div class="outline-text-3" id="text-org3e95273">
+<div id="outline-container-org825e928" class="outline-3">
+<h3 id="org825e928">Comparison</h3>
+<div class="outline-text-3" id="text-org825e928">
 <ul class="org-ul">
 <li>Sender and receiver compare their bases and cross off the ones tha don&rsquo;t match</li>
 <li>Afterwards, they check to see if their bits are the same (and it is not!)</li>
@@ -366,24 +366,24 @@
 </div>
 </div>
 
-<div id="outline-container-orgdc6fd9a" class="outline-2">
-<h2 id="orgdc6fd9a">Other QKD protocols</h2>
-<div class="outline-text-2" id="text-orgdc6fd9a">
+<div id="outline-container-org3f09a2d" class="outline-2">
+<h2 id="org3f09a2d">Other QKD protocols</h2>
+<div class="outline-text-2" id="text-org3f09a2d">
 <ul class="org-ul">
 <li>The QKD protocol we&rsquo;ve been learning is AKA BB84 procotol. It was invented by Bennet and Brassard in 1984</li>
 </ul>
 </div>
-<div id="outline-container-org7b38beb" class="outline-3">
-<h3 id="org7b38beb">B92 protocol</h3>
-<div class="outline-text-3" id="text-org7b38beb">
+<div id="outline-container-org1da22b4" class="outline-3">
+<h3 id="org1da22b4">B92 protocol</h3>
+<div class="outline-text-3" id="text-org1da22b4">
 <ul class="org-ul">
 <li>Sender uses two states to enconde - \(|0\rangle\) \(|+\rangle\) - Notice that these two states are still in different bases (Z and X).</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orgeec4cf8" class="outline-3">
-<h3 id="orgeec4cf8">E91 protocol</h3>
-<div class="outline-text-3" id="text-orgeec4cf8">
+<div id="outline-container-org2b0bd33" class="outline-3">
+<h3 id="org2b0bd33">E91 protocol</h3>
+<div class="outline-text-3" id="text-org2b0bd33">
 <ul class="org-ul">
 <li>This protocol uses entenglement - Sender and receiver have one qubit each, and the two qubits are entangled. The key is generated using these shared, entangled qubits</li>
 </ul>
@@ -391,9 +391,9 @@
 </div>
 </div>
 
-<div id="outline-container-org191dbc0" class="outline-2">
-<h2 id="org191dbc0">QKD in the real world</h2>
-<div class="outline-text-2" id="text-org191dbc0">
+<div id="outline-container-orgcc3aeb9" class="outline-2">
+<h2 id="orgcc3aeb9">QKD in the real world</h2>
+<div class="outline-text-2" id="text-orgcc3aeb9">
 <ul class="org-ul">
 <li>Many quantum algorithms &amp; protocols are not yet usable, because they assume perfect, fault-tolerant hardware
 <ul class="org-ul">
@@ -402,9 +402,9 @@
 <li>However, we can start implementing QKD right now!</li>
 </ul>
 </div>
-<div id="outline-container-org5c3c255" class="outline-3">
-<h3 id="org5c3c255">Differences</h3>
-<div class="outline-text-3" id="text-org5c3c255">
+<div id="outline-container-orgb708ea4" class="outline-3">
+<h3 id="orgb708ea4">Differences</h3>
+<div class="outline-text-3" id="text-orgb708ea4">
 <ul class="org-ul">
 <li>QKD protocols have multiple components, such as devices, medium, distance between senders, cost of implementation</li>
 <li>Therefore, different QKD protocols are used for different use cases.</li>
@@ -415,7 +415,7 @@
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Luís Spengler</p>
-<p class="date">Created: 2022-03-08 Tue 21:14</p>
+<p class="date">Created: 2022-03-13 Sun 09:49</p>
 </div>
 </body>
 </html>

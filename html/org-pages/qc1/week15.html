@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2022-03-08 Tue 21:14 -->
+<!-- 2022-03-13 Sun 09:49 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Week 15 - my notes</title>
@@ -229,27 +229,27 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#orgb968b56">Week 15 - Multi-Qubit Circuits Part 3: Measurement &amp; Entanglement</a>
+<li><a href="#orgda7cffa">Week 15 - Multi-Qubit Circuits Part 3: Measurement &amp; Entanglement</a>
 <ul>
-<li><a href="#org719a556">Ket components meaning</a></li>
-<li><a href="#org7f81064">Measuring Multi-Qubit Circuits</a></li>
-<li><a href="#org60d388f">Entangled States</a></li>
-<li><a href="#org2c0afe2">Entangled States as Circuits</a></li>
-<li><a href="#org06d29ef">The Bell states</a></li>
+<li><a href="#orgcca4c62">Ket components meaning</a></li>
+<li><a href="#org06ca0b7">Measuring Multi-Qubit Circuits</a></li>
+<li><a href="#org7c8110f">Entangled States</a></li>
+<li><a href="#orgadfb2dc">Entangled States as Circuits</a></li>
+<li><a href="#org5d793eb">The Bell states</a></li>
 </ul>
 </li>
-<li><a href="#orgcbc855d">Resources</a></li>
+<li><a href="#org751e61b">Resources</a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orgb968b56" class="outline-2">
-<h2 id="orgb968b56">Week 15 - Multi-Qubit Circuits Part 3: Measurement &amp; Entanglement</h2>
-<div class="outline-text-2" id="text-orgb968b56">
+<div id="outline-container-orgda7cffa" class="outline-2">
+<h2 id="orgda7cffa">Week 15 - Multi-Qubit Circuits Part 3: Measurement &amp; Entanglement</h2>
+<div class="outline-text-2" id="text-orgda7cffa">
 </div>
-<div id="outline-container-org719a556" class="outline-3">
-<h3 id="org719a556">Ket components meaning</h3>
-<div class="outline-text-3" id="text-org719a556">
+<div id="outline-container-orgcca4c62" class="outline-3">
+<h3 id="orgcca4c62">Ket components meaning</h3>
+<div class="outline-text-3" id="text-orgcca4c62">
 <ul class="org-ul">
 <li>Take this state:</li>
 </ul>
@@ -263,9 +263,9 @@
 </div>
 </div>
 
-<div id="outline-container-org7f81064" class="outline-3">
-<h3 id="org7f81064">Measuring Multi-Qubit Circuits</h3>
-<div class="outline-text-3" id="text-org7f81064">
+<div id="outline-container-org06ca0b7" class="outline-3">
+<h3 id="org06ca0b7">Measuring Multi-Qubit Circuits</h3>
+<div class="outline-text-3" id="text-org06ca0b7">
 <ul class="org-ul">
 <li>Remember the Quantum Circuit model? Composed by input states, gates (perform computation), and measurements (obtain the output).</li>
 <li>For a single qubit, measurements result in one of two possible answers. If we measure it using the Z basis, we can only get \(|0\rangle\) or \(|1\rangle\). If we measure it using the X basis, we can only get \(|+\rangle\) or \(|-\rangle\)</li>
@@ -277,18 +277,18 @@
 </div>
 </div>
 
-<div id="outline-container-org60d388f" class="outline-3">
-<h3 id="org60d388f">Entangled States</h3>
-<div class="outline-text-3" id="text-org60d388f">
+<div id="outline-container-org7c8110f" class="outline-3">
+<h3 id="org7c8110f">Entangled States</h3>
+<div class="outline-text-3" id="text-org7c8110f">
 <ul class="org-ul">
 <li>Entanglement is a very defined relationship, where if you know the state of one object, you know the other&rsquo;s state.</li>
 <li>\[|q1q0\rangle = \frac{1}{\sqrt{2}}(|00\rangle + |11\rangle)\]</li>
 </ul>
 </div>
 
-<div id="outline-container-orgd9bb542" class="outline-4">
-<h4 id="orgd9bb542">We can foil some quantum states</h4>
-<div class="outline-text-4" id="text-orgd9bb542">
+<div id="outline-container-org9f30584" class="outline-4">
+<h4 id="org9f30584">We can foil some quantum states</h4>
+<div class="outline-text-4" id="text-org9f30584">
 <ul class="org-ul">
 <li>Just multiple the q0 by q1</li>
 <li>You can factore it by doing the reverse</li>
@@ -298,9 +298,9 @@
 </div>
 </div>
 
-<div id="outline-container-org2c0afe2" class="outline-3">
-<h3 id="org2c0afe2">Entangled States as Circuits</h3>
-<div class="outline-text-3" id="text-org2c0afe2">
+<div id="outline-container-orgadfb2dc" class="outline-3">
+<h3 id="orgadfb2dc">Entangled States as Circuits</h3>
+<div class="outline-text-3" id="text-orgadfb2dc">
 <ul class="org-ul">
 <li>Just because a circit has a CX gate, it doesn&rsquo;t mean the qubits are automatically entangled.</li>
 <li>To create an entangled circuit, you should always have a superposition in the control qubit.</li>
@@ -309,9 +309,9 @@
 </div>
 </div>
 
-<div id="outline-container-org06d29ef" class="outline-3">
-<h3 id="org06d29ef">The Bell states</h3>
-<div class="outline-text-3" id="text-org06d29ef">
+<div id="outline-container-org5d793eb" class="outline-3">
+<h3 id="org5d793eb">The Bell states</h3>
+<div class="outline-text-3" id="text-org5d793eb">
 <ol class="org-ol">
 <li>\[|\beta00\rangle = \frac{1}{\sqrt{2}}(|00\rangle + |11\rangle)\]</li>
 <li>\[|\beta01\rangle = \frac{1}{\sqrt{2}}(|00\rangle - |11\rangle)\]</li>
@@ -322,9 +322,9 @@
 </ol>
 </div>
 
-<div id="outline-container-org142f296" class="outline-4">
-<h4 id="org142f296">Creating the circuits</h4>
-<div class="outline-text-4" id="text-org142f296">
+<div id="outline-container-orgb0fbcd4" class="outline-4">
+<h4 id="orgb0fbcd4">Creating the circuits</h4>
+<div class="outline-text-4" id="text-orgb0fbcd4">
 <ul class="org-ul">
 <li>The first bell state: H gate in q0, and control gate in q0 (target in q1)</li>
 </ul>
@@ -366,9 +366,9 @@
 </div>
 </div>
 
-<div id="outline-container-orgcbc855d" class="outline-2">
-<h2 id="orgcbc855d">Resources</h2>
-<div class="outline-text-2" id="text-orgcbc855d">
+<div id="outline-container-org751e61b" class="outline-2">
+<h2 id="org751e61b">Resources</h2>
+<div class="outline-text-2" id="text-org751e61b">
 <p>
 Superposition and entanglement
 URL: <a href="https://www.youtube.com/watch?v=j6Mw3_tOcNI">https://www.youtube.com/watch?v=j6Mw3_tOcNI</a>
@@ -391,7 +391,7 @@ Description: Detailed notes on the linear algebra of quantum states and measurem
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Luís Spengler</p>
-<p class="date">Created: 2022-03-08 Tue 21:14</p>
+<p class="date">Created: 2022-03-13 Sun 09:49</p>
 </div>
 </body>
 </html>

@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2022-03-08 Tue 21:14 -->
+<!-- 2022-03-13 Sun 09:49 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Week 7 - my notes</title>
@@ -229,31 +229,31 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#orgbf85b58">Week 7 (qubit by qubit)</a>
+<li><a href="#org3df3373">Week 7 (qubit by qubit)</a>
 <ul>
-<li><a href="#org0ff101a">Recap</a></li>
-<li><a href="#org0fe11a6">Math for Quantum: Gates</a></li>
-<li><a href="#org8310016">The formula</a></li>
-<li><a href="#orga6866f5">Multiplying matrices</a></li>
-<li><a href="#org1506498">The math of Quantum Resources</a></li>
-<li><a href="#org6800765">Guest</a></li>
+<li><a href="#org10995ff">Recap</a></li>
+<li><a href="#orgeb67bc3">Math for Quantum: Gates</a></li>
+<li><a href="#org6b460af">The formula</a></li>
+<li><a href="#orgcf3f408">Multiplying matrices</a></li>
+<li><a href="#org573ed22">The math of Quantum Resources</a></li>
+<li><a href="#orgba9bdec">Guest</a></li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orgbf85b58" class="outline-2">
-<h2 id="orgbf85b58">Week 7 (qubit by qubit)</h2>
-<div class="outline-text-2" id="text-orgbf85b58">
+<div id="outline-container-org3df3373" class="outline-2">
+<h2 id="org3df3373">Week 7 (qubit by qubit)</h2>
+<div class="outline-text-2" id="text-org3df3373">
 </div>
-<div id="outline-container-org0ff101a" class="outline-3">
-<h3 id="org0ff101a">Recap</h3>
-<div class="outline-text-3" id="text-org0ff101a">
+<div id="outline-container-org10995ff" class="outline-3">
+<h3 id="org10995ff">Recap</h3>
+<div class="outline-text-3" id="text-org10995ff">
 </div>
-<div id="outline-container-orge1467be" class="outline-4">
-<h4 id="orge1467be">Review:</h4>
-<div class="outline-text-4" id="text-orge1467be">
+<div id="outline-container-orga4c4ae8" class="outline-4">
+<h4 id="orga4c4ae8">Review:</h4>
+<div class="outline-text-4" id="text-orga4c4ae8">
 <ul class="org-ul">
 <li>We saw the math of qubit states - vectors</li>
 <li>X - 180 rotation around the X-axis</li>
@@ -266,9 +266,9 @@
 </div>
 </div>
 
-<div id="outline-container-org0fe11a6" class="outline-3">
-<h3 id="org0fe11a6">Math for Quantum: Gates</h3>
-<div class="outline-text-3" id="text-org0fe11a6">
+<div id="outline-container-orgeb67bc3" class="outline-3">
+<h3 id="orgeb67bc3">Math for Quantum: Gates</h3>
+<div class="outline-text-3" id="text-orgeb67bc3">
 <ul class="org-ul">
 <li>The representation of the gates is done by using matrices.</li>
 <li>When applying a gate, the input state and output state (qubit) can be represented as vectors.
@@ -286,9 +286,9 @@
 </div>
 </div>
 
-<div id="outline-container-org8310016" class="outline-3">
-<h3 id="org8310016">The formula</h3>
-<div class="outline-text-3" id="text-org8310016">
+<div id="outline-container-org6b460af" class="outline-3">
+<h3 id="org6b460af">The formula</h3>
+<div class="outline-text-3" id="text-org6b460af">
 <ul class="org-ul">
 <li><p>
 Gate x Quantum State = New Quantum State
@@ -317,9 +317,9 @@ Gate x Quantum State = New Quantum State
 </div>
 </div>
 
-<div id="outline-container-orga6866f5" class="outline-3">
-<h3 id="orga6866f5">Multiplying matrices</h3>
-<div class="outline-text-3" id="text-orga6866f5">
+<div id="outline-container-orgcf3f408" class="outline-3">
+<h3 id="orgcf3f408">Multiplying matrices</h3>
+<div class="outline-text-3" id="text-orgcf3f408">
 <ul class="org-ul">
 <li>You start by multiplying the first line of the first matrix by the first columm of the second matrix</li>
 </ul>
@@ -347,13 +347,13 @@ Gate x Quantum State = New Quantum State
 </div>
 </div>
 
-<div id="outline-container-org1506498" class="outline-3">
-<h3 id="org1506498">The math of Quantum Resources</h3>
-<div class="outline-text-3" id="text-org1506498">
+<div id="outline-container-org573ed22" class="outline-3">
+<h3 id="org573ed22">The math of Quantum Resources</h3>
+<div class="outline-text-3" id="text-org573ed22">
 </div>
-<div id="outline-container-org8a360b2" class="outline-4">
-<h4 id="org8a360b2">Math for superposition:</h4>
-<div class="outline-text-4" id="text-org8a360b2">
+<div id="outline-container-org41bfe7f" class="outline-4">
+<h4 id="org41bfe7f">Math for superposition:</h4>
+<div class="outline-text-4" id="text-org41bfe7f">
 <ul class="org-ul">
 <li>Apply the H gate to a \(|0\rangle\) input
 \[\frac{1}{\sqrt{2}}\begin{bmatrix}1 & 1\\1 & -1\end{bmatrix}\begin{bmatrix}1\\0\end{bmatrix} = \frac{1}{\sqrt{2}} \begin{bmatrix}1*1 + 1*0\\1*1 + (-1)*0\end{bmatrix} = \frac{1}{\sqrt{2}}\begin{bmatrix}1\\1\end{bmatrix} = |+\rangle\]</li>
@@ -364,9 +364,9 @@ Gate x Quantum State = New Quantum State
 </div>
 </div>
 
-<div id="outline-container-org86ffaa5" class="outline-4">
-<h4 id="org86ffaa5">Interference with two H gates:</h4>
-<div class="outline-text-4" id="text-org86ffaa5">
+<div id="outline-container-org70e4c79" class="outline-4">
+<h4 id="org70e4c79">Interference with two H gates:</h4>
+<div class="outline-text-4" id="text-org70e4c79">
 <ul class="org-ul">
 <li><p>
 What is the final state of a circuit with input \(|0\rangle\) and two H gates after it?
@@ -387,9 +387,9 @@ What is the final state of a circuit with input \(|0\rangle\) and two H gates af
 </div>
 </div>
 
-<div id="outline-container-org6800765" class="outline-3">
-<h3 id="org6800765">Guest</h3>
-<div class="outline-text-3" id="text-org6800765">
+<div id="outline-container-orgba9bdec" class="outline-3">
+<h3 id="orgba9bdec">Guest</h3>
+<div class="outline-text-3" id="text-orgba9bdec">
 <p>
 <a href="https://physicstoday.scitation.org/do/10.1063/PT.6.4.20211025b/full/">https://physicstoday.scitation.org/do/10.1063/PT.6.4.20211025b/full/</a>
 </p>
@@ -399,7 +399,7 @@ What is the final state of a circuit with input \(|0\rangle\) and two H gates af
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Luís Spengler</p>
-<p class="date">Created: 2022-03-08 Tue 21:14</p>
+<p class="date">Created: 2022-03-13 Sun 09:49</p>
 </div>
 </body>
 </html>

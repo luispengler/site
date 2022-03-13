@@ -626,10 +626,10 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [X] Supergirl – 5.19: “Immortal Kombat”
 + [X] Stargirl – 1.01: “Pilot”
 + [X] Legends of Tomorrow – 5.13: “I Am Legends”
-+ [ ] Stargirl – 1.02: “S.T.R.I.P.E.”
-+ [ ] Legends of Tomorrow – 5.14: “The One Where We’re Stuck On TV”
-+ [ ] Stargirl – 1.03: “Icicle”
-+ [ ] Legends of Tomorrow – 5.15: “Swan Thong”
++ [X] Stargirl – 1.02: “S.T.R.I.P.E.”
++ [X] Legends of Tomorrow – 5.14: “The One Where We’re Stuck On TV”
++ [X] Stargirl – 1.03: “Icicle”
++ [X] Legends of Tomorrow – 5.15: “Swan Thong”
 + [ ] Stargirl – 1.04: “Wildcat”
 + [ ] Stargirl – 1.05: “Hourman and Dr. Mid-Nite ”
 + [ ] Stargirl – 1.06: “The Justice Society”

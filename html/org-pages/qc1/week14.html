@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2022-03-08 Tue 21:14 -->
+<!-- 2022-03-13 Sun 09:49 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Week 14 - my notes</title>
@@ -229,34 +229,34 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#orga6ec1ad">Week 14 - Math of Two-Qubit Circuits</a>
+<li><a href="#org2dc8c0d">Week 14 - Math of Two-Qubit Circuits</a>
 <ul>
-<li><a href="#orgcf77843">Recap</a></li>
-<li><a href="#orgffbb297">Introduction to 2-Qubit circuits &amp; indexing</a></li>
-<li><a href="#orgbf710de">Vector for multi-qubits states</a></li>
-<li><a href="#org182beec">Applying gates to Multi-Qubit circuits</a></li>
-<li><a href="#org58c417c">Predicting final states</a></li>
-<li><a href="#orgd553269">Math of the CX gate</a></li>
-<li><a href="#orgbb57e05">The Math of Entanglement</a></li>
-<li><a href="#org3a6c603">Tensor Product Introduction</a></li>
+<li><a href="#org77bcc86">Recap</a></li>
+<li><a href="#org537986e">Introduction to 2-Qubit circuits &amp; indexing</a></li>
+<li><a href="#org74f7156">Vector for multi-qubits states</a></li>
+<li><a href="#orgb6fd4c6">Applying gates to Multi-Qubit circuits</a></li>
+<li><a href="#org5ca04d3">Predicting final states</a></li>
+<li><a href="#org0e36124">Math of the CX gate</a></li>
+<li><a href="#org4f38cd1">The Math of Entanglement</a></li>
+<li><a href="#orge2bf02f">Tensor Product Introduction</a></li>
 </ul>
 </li>
-<li><a href="#org1fa0db6">Resources</a></li>
+<li><a href="#org81c1441">Resources</a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orga6ec1ad" class="outline-2">
-<h2 id="orga6ec1ad">Week 14 - Math of Two-Qubit Circuits</h2>
-<div class="outline-text-2" id="text-orga6ec1ad">
+<div id="outline-container-org2dc8c0d" class="outline-2">
+<h2 id="org2dc8c0d">Week 14 - Math of Two-Qubit Circuits</h2>
+<div class="outline-text-2" id="text-org2dc8c0d">
 </div>
-<div id="outline-container-orgcf77843" class="outline-3">
-<h3 id="orgcf77843">Recap</h3>
-<div class="outline-text-3" id="text-orgcf77843">
+<div id="outline-container-org77bcc86" class="outline-3">
+<h3 id="org77bcc86">Recap</h3>
+<div class="outline-text-3" id="text-org77bcc86">
 </div>
-<div id="outline-container-org446507a" class="outline-4">
-<h4 id="org446507a">Vector and matrices</h4>
-<div class="outline-text-4" id="text-org446507a">
+<div id="outline-container-org821ff8b" class="outline-4">
+<h4 id="org821ff8b">Vector and matrices</h4>
+<div class="outline-text-4" id="text-org821ff8b">
 <ul class="org-ul">
 <li>X gate:
 \[\begin{bmatrix}0 & 1\\1 & 0\end{bmatrix}\]</li>
@@ -270,9 +270,9 @@
 </div>
 </div>
 
-<div id="outline-container-org3480d72" class="outline-4">
-<h4 id="org3480d72">Multi-Qubit circuits</h4>
-<div class="outline-text-4" id="text-org3480d72">
+<div id="outline-container-org72e9409" class="outline-4">
+<h4 id="org72e9409">Multi-Qubit circuits</h4>
+<div class="outline-text-4" id="text-org72e9409">
 <ul class="org-ul">
 <li>You can have single-qubit gates (ones that are applied to one qubit only)</li>
 <li>You can have controlled gates (applied to multipled qubits at a time)</li>
@@ -281,9 +281,9 @@
 </div>
 </div>
 
-<div id="outline-container-orgffbb297" class="outline-3">
-<h3 id="orgffbb297">Introduction to 2-Qubit circuits &amp; indexing</h3>
-<div class="outline-text-3" id="text-orgffbb297">
+<div id="outline-container-org537986e" class="outline-3">
+<h3 id="org537986e">Introduction to 2-Qubit circuits &amp; indexing</h3>
+<div class="outline-text-3" id="text-org537986e">
 <ul class="org-ul">
 <li>For individual circuits, writing a state in ket notation is super easy: \(|0\rangle\) or \(|1\rangle\)</li>
 <li>For 2-qubit circuits, just put those together: \(|01\rangle\) or \(|10\rangle\). You may also find \(|0\rangle|1\rangle\) or \(|1\rangle|0\rangle\)</li>
@@ -292,9 +292,9 @@
 </div>
 </div>
 
-<div id="outline-container-orgbf710de" class="outline-3">
-<h3 id="orgbf710de">Vector for multi-qubits states</h3>
-<div class="outline-text-3" id="text-orgbf710de">
+<div id="outline-container-org74f7156" class="outline-3">
+<h3 id="org74f7156">Vector for multi-qubits states</h3>
+<div class="outline-text-3" id="text-org74f7156">
 <ul class="org-ul">
 <li>The upper part is the amount of \(|0\rangle\) contribution</li>
 <li>The lower part is the amount of \(|1\rangle\) contribution</li>
@@ -313,9 +313,9 @@
 </div>
 </div>
 
-<div id="outline-container-org182beec" class="outline-3">
-<h3 id="org182beec">Applying gates to Multi-Qubit circuits</h3>
-<div class="outline-text-3" id="text-org182beec">
+<div id="outline-container-orgb6fd4c6" class="outline-3">
+<h3 id="orgb6fd4c6">Applying gates to Multi-Qubit circuits</h3>
+<div class="outline-text-3" id="text-orgb6fd4c6">
 <ul class="org-ul">
 <li>For a single qubit: (Matrix) * (Initial state) = final state</li>
 <li>The math can be the same, but the matrix will be huge.. so let&rsquo;s try to predict it</li>
@@ -323,9 +323,9 @@
 </div>
 </div>
 
-<div id="outline-container-org58c417c" class="outline-3">
-<h3 id="org58c417c">Predicting final states</h3>
-<div class="outline-text-3" id="text-org58c417c">
+<div id="outline-container-org5ca04d3" class="outline-3">
+<h3 id="org5ca04d3">Predicting final states</h3>
+<div class="outline-text-3" id="text-org5ca04d3">
 <ol class="org-ol">
 <li>Find the ket representation of the final state by applying the gates in the circuit</li>
 <li>Fill in the vector based on the elements in the ket</li>
@@ -333,9 +333,9 @@
 </div>
 </div>
 
-<div id="outline-container-orgd553269" class="outline-3">
-<h3 id="orgd553269">Math of the CX gate</h3>
-<div class="outline-text-3" id="text-orgd553269">
+<div id="outline-container-org0e36124" class="outline-3">
+<h3 id="org0e36124">Math of the CX gate</h3>
+<div class="outline-text-3" id="text-org0e36124">
 <ul class="org-ul">
 <li>CX gate also has a matrix representation:</li>
 </ul>
@@ -351,9 +351,9 @@
 </div>
 </div>
 
-<div id="outline-container-orgbb57e05" class="outline-3">
-<h3 id="orgbb57e05">The Math of Entanglement</h3>
-<div class="outline-text-3" id="text-orgbb57e05">
+<div id="outline-container-org4f38cd1" class="outline-3">
+<h3 id="org4f38cd1">The Math of Entanglement</h3>
+<div class="outline-text-3" id="text-org4f38cd1">
 <ul class="org-ul">
 <li>It generally is \[|q1q2\rangle = \frac{1}{\sqrt{2}}(|00\rangle + |11\rangle)\]</li>
 <li>You can see the sight of dependence in there</li>
@@ -361,17 +361,17 @@
 </div>
 </div>
 
-<div id="outline-container-org3a6c603" class="outline-3">
-<h3 id="org3a6c603">Tensor Product Introduction</h3>
-<div class="outline-text-3" id="text-org3a6c603">
+<div id="outline-container-orge2bf02f" class="outline-3">
+<h3 id="orge2bf02f">Tensor Product Introduction</h3>
+<div class="outline-text-3" id="text-orge2bf02f">
 <ul class="org-ul">
 <li>Could you combine two separete vectors to get a 4x1 vector?</li>
 <li>Ofc, we call this mathematical operation a tensor product</li>
 </ul>
 </div>
-<div id="outline-container-org131ef3a" class="outline-4">
-<h4 id="org131ef3a">Example</h4>
-<div class="outline-text-4" id="text-org131ef3a">
+<div id="outline-container-orgc9f12d3" class="outline-4">
+<h4 id="orgc9f12d3">Example</h4>
+<div class="outline-text-4" id="text-orgc9f12d3">
 <ul class="org-ul">
 <li>Qubit 0 is in state \(|q0\rangle\) = \(|1\rangle\) = \[\begin{bmatrix}0\\1\end{bmatrix}\]</li>
 <li>Qubit 1 is in state \(|q1\rangle\) = \(|0\rangle\) = \[\begin{bmatrix}1\\0\end{bmatrix}\]</li>
@@ -385,9 +385,9 @@
 </div>
 </div>
 
-<div id="outline-container-org1fa0db6" class="outline-2">
-<h2 id="org1fa0db6">Resources</h2>
-<div class="outline-text-2" id="text-org1fa0db6">
+<div id="outline-container-org81c1441" class="outline-2">
+<h2 id="org81c1441">Resources</h2>
+<div class="outline-text-2" id="text-org81c1441">
 <p>
 Tensor products for qubit states and gates
 <a href="https://docs.microsoft.com/en-us/azure/quantum/concepts-multiple-qubits">https://docs.microsoft.com/en-us/azure/quantum/concepts-multiple-qubits</a>
@@ -402,7 +402,7 @@ Linear algebra of tensor products
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Luís Spengler</p>
-<p class="date">Created: 2022-03-08 Tue 21:14</p>
+<p class="date">Created: 2022-03-13 Sun 09:49</p>
 </div>
 </body>
 </html>

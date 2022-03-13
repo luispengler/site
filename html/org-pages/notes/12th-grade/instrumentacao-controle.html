@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2022-03-08 Tue 21:15 -->
+<!-- 2022-03-13 Sun 09:49 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Instrumentação e Controle</title>
@@ -229,36 +229,43 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#org2ea436c">Primeira Aula</a>
+<li><a href="#orga15c3b9">Primeira Aula</a>
 <ul>
-<li><a href="#org88334a6">Tipos de processos (ponto de vista do tempo e do tipo de operação envolvida)</a></li>
+<li><a href="#orgd22f299">Tipos de processos (ponto de vista do tempo e do tipo de operação envolvida)</a></li>
 </ul>
 </li>
-<li><a href="#org490db18">Aula 17/02</a></li>
-<li><a href="#org2920eec">Aula 18/02</a>
+<li><a href="#org5ee11c3">Aula 17/02</a></li>
+<li><a href="#orgc1afae7">Aula 18/02</a>
 <ul>
-<li><a href="#org5d6eef8">Classes de instrumentos</a></li>
+<li><a href="#org6f28b0f">Classes de instrumentos</a></li>
 </ul>
 </li>
-<li><a href="#orgff15bfc">Aula 24/02</a></li>
-<li><a href="#org4a20c77">Aula 25/02</a>
+<li><a href="#orgc19e087">Aula 24/02</a></li>
+<li><a href="#orgbc8404b">Aula 25/02</a>
 <ul>
-<li><a href="#orgdd09007">Características dos sistemas de medição</a></li>
+<li><a href="#orgd2916cf">Características dos sistemas de medição</a></li>
 </ul>
 </li>
-<li><a href="#org7624c75">Aula 03/03</a></li>
-<li><a href="#org7d97198">Aula 04/03</a>
+<li><a href="#orgb4e4b80">Aula 03/03</a></li>
+<li><a href="#orgc34f113">Aula 04/03</a>
 <ul>
-<li><a href="#orgc795c7a">Tipos de sensores</a></li>
+<li><a href="#orgd5546c5">Tipos de sensores</a></li>
+</ul>
+</li>
+<li><a href="#org04f35e1">Aula 10/03</a></li>
+<li><a href="#org34ee426">Aula 11/03</a>
+<ul>
+<li><a href="#org49fd253">Sensores de proximidade ultrassônicos</a></li>
+<li><a href="#orgd0ea575">Sensor óptico de posição (encoder)</a></li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org2ea436c" class="outline-2">
-<h2 id="org2ea436c">Primeira Aula</h2>
-<div class="outline-text-2" id="text-org2ea436c">
+<div id="outline-container-orga15c3b9" class="outline-2">
+<h2 id="orga15c3b9">Primeira Aula</h2>
+<div class="outline-text-2" id="text-orga15c3b9">
 <ul class="org-ul">
 <li>O professor Hilton James passou como vai ser as notas da disciplina, de acordo com a seguinte equação
 \[MF=\frac{[(P1\cdot 0,7)+(Ativ. Trab.\cdot 0,3)]+[(P2\cdot 0,7)+(Ativ. Trab.\cdot 0,3)]}{2}\]</li>
@@ -277,13 +284,13 @@ Sendo P1 dia 31/03 e sua recuperação dia 07/04 e a P2 sendo dia 09/06 e sua re
 </ul>
 </div>
 
-<div id="outline-container-org88334a6" class="outline-3">
-<h3 id="org88334a6">Tipos de processos (ponto de vista do tempo e do tipo de operação envolvida)</h3>
-<div class="outline-text-3" id="text-org88334a6">
+<div id="outline-container-orgd22f299" class="outline-3">
+<h3 id="orgd22f299">Tipos de processos (ponto de vista do tempo e do tipo de operação envolvida)</h3>
+<div class="outline-text-3" id="text-orgd22f299">
 </div>
-<div id="outline-container-org51fbc90" class="outline-4">
-<h4 id="org51fbc90">Processo Contínuo</h4>
-<div class="outline-text-4" id="text-org51fbc90">
+<div id="outline-container-org6c6f2d7" class="outline-4">
+<h4 id="org6c6f2d7">Processo Contínuo</h4>
+<div class="outline-text-4" id="text-org6c6f2d7">
 <ul class="org-ul">
 <li>A adição da matéria-prima e a saída do produto são contrínuas (no sentido de não ser interrompido). Ex: Refinaria de petróleo
 <ul class="org-ul">
@@ -294,9 +301,9 @@ Sendo P1 dia 31/03 e sua recuperação dia 07/04 e a P2 sendo dia 09/06 e sua re
 </div>
 </div>
 
-<div id="outline-container-org719130a" class="outline-4">
-<h4 id="org719130a">Processo em Batelada</h4>
-<div class="outline-text-4" id="text-org719130a">
+<div id="outline-container-orgf01c430" class="outline-4">
+<h4 id="orgf01c430">Processo em Batelada</h4>
+<div class="outline-text-4" id="text-orgf01c430">
 <ul class="org-ul">
 <li>O processo é alimentado e re-alimentado. O produto é descarregado e inicia-se outro ciclo, sendo o intervalo entre estes curto.</li>
 <li>Permite vários produtor em uma mesma linha de produção. Ex: Fanta laranja, fanta uva, etc&#x2026;</li>
@@ -305,9 +312,9 @@ Sendo P1 dia 31/03 e sua recuperação dia 07/04 e a P2 sendo dia 09/06 e sua re
 </div>
 </div>
 
-<div id="outline-container-orga004ee2" class="outline-4">
-<h4 id="orga004ee2">Processo Discreto</h4>
-<div class="outline-text-4" id="text-orga004ee2">
+<div id="outline-container-org6e17dfd" class="outline-4">
+<h4 id="org6e17dfd">Processo Discreto</h4>
+<div class="outline-text-4" id="text-org6e17dfd">
 <ul class="org-ul">
 <li>Itens separados = produto</li>
 <li>Não tem dependência de outras etapas como no processo contínuo, ou tanto quanto em batelada</li>
@@ -320,34 +327,34 @@ Sendo P1 dia 31/03 e sua recuperação dia 07/04 e a P2 sendo dia 09/06 e sua re
 </div>
 
 
-<div id="outline-container-org490db18" class="outline-2">
-<h2 id="org490db18">Aula 17/02</h2>
-<div class="outline-text-2" id="text-org490db18">
+<div id="outline-container-org5ee11c3" class="outline-2">
+<h2 id="org5ee11c3">Aula 17/02</h2>
+<div class="outline-text-2" id="text-org5ee11c3">
 <ul class="org-ul">
 <li>Tivemos que fazer o pré-rascunho de um artigo em trio. Fui com Daniel e Lukas. Obtivemos a seguinte belezinha</li>
 </ul>
 
-<div id="org2120cdd" class="figure">
+<div id="org4a69fed" class="figure">
 <p><img src="https://luispengler.github.io/site/org-pages/notes/12th-grade/doc/instrumenta1.jpg" alt="instrumenta1.jpg" title="Primeira atividade prática" style="margin-left: auto;margin-right: auto;background-color: mintcream;display: block;width: 100%;" />
 </p>
 </div>
 </div>
 </div>
 
-<div id="outline-container-org2920eec" class="outline-2">
-<h2 id="org2920eec">Aula 18/02</h2>
-<div class="outline-text-2" id="text-org2920eec">
+<div id="outline-container-orgc1afae7" class="outline-2">
+<h2 id="orgc1afae7">Aula 18/02</h2>
+<div class="outline-text-2" id="text-orgc1afae7">
 </div>
-<div id="outline-container-org5d6eef8" class="outline-3">
-<h3 id="org5d6eef8">Classes de instrumentos</h3>
-<div class="outline-text-3" id="text-org5d6eef8">
+<div id="outline-container-org6f28b0f" class="outline-3">
+<h3 id="org6f28b0f">Classes de instrumentos</h3>
+<div class="outline-text-3" id="text-org6f28b0f">
 <ul class="org-ul">
 <li>Podem ser divididos em várias categorias</li>
 </ul>
 </div>
-<div id="outline-container-orgb4766f1" class="outline-4">
-<h4 id="orgb4766f1">Elemento primário/Sensor</h4>
-<div class="outline-text-4" id="text-orgb4766f1">
+<div id="outline-container-org9e635f9" class="outline-4">
+<h4 id="org9e635f9">Elemento primário/Sensor</h4>
+<div class="outline-text-4" id="text-org9e635f9">
 <ul class="org-ul">
 <li>Capaz de detectar a variação de uma grandeza física e converter um tipo de grandeza que pode ser mensurada por dispositivos eletrônicos. Ex: termometro</li>
 <li>Esta classe é dividida entre instrumento cego (não apresenta um visor) e instrumento indicador (possui um visor)</li>
@@ -356,45 +363,45 @@ Sendo P1 dia 31/03 e sua recuperação dia 07/04 e a P2 sendo dia 09/06 e sua re
 </div>
 </div>
 
-<div id="outline-container-orgfcfc214" class="outline-4">
-<h4 id="orgfcfc214">Registrador</h4>
-<div class="outline-text-4" id="text-orgfcfc214">
+<div id="outline-container-orgdbef213" class="outline-4">
+<h4 id="orgdbef213">Registrador</h4>
+<div class="outline-text-4" id="text-orgdbef213">
 <ul class="org-ul">
 <li>Registra as variações de uma ou mais variáveis, guardando as em discos ou fitas de papel e através de displays eletrônicos</li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org8f294dd" class="outline-4">
-<h4 id="org8f294dd">Conversor</h4>
-<div class="outline-text-4" id="text-org8f294dd">
+<div id="outline-container-org9bc8d74" class="outline-4">
+<h4 id="org9bc8d74">Conversor</h4>
+<div class="outline-text-4" id="text-org9bc8d74">
 <ul class="org-ul">
 <li>Recebe um tipo de sinal e o converte em outro</li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orga153b12" class="outline-4">
-<h4 id="orga153b12">Transmissor/Transdutor</h4>
-<div class="outline-text-4" id="text-orga153b12">
+<div id="outline-container-org7ce4320" class="outline-4">
+<h4 id="org7ce4320">Transmissor/Transdutor</h4>
+<div class="outline-text-4" id="text-org7ce4320">
 <ul class="org-ul">
 <li>Mede uma grandeza física e transmite um sinal padronizado proporcional a faixa de variação da grandeza</li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org8119878" class="outline-4">
-<h4 id="org8119878">Controlador</h4>
-<div class="outline-text-4" id="text-org8119878">
+<div id="outline-container-org3229e4c" class="outline-4">
+<h4 id="org3229e4c">Controlador</h4>
+<div class="outline-text-4" id="text-org3229e4c">
 <ul class="org-ul">
 <li>Recebe sinais dos transmissores/sensores e com base nisso, faz a correção do sistema acionando os atuadores</li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orge457fc0" class="outline-4">
-<h4 id="orge457fc0">Atuador/Elemento final de controle</h4>
-<div class="outline-text-4" id="text-orge457fc0">
+<div id="outline-container-org714e9eb" class="outline-4">
+<h4 id="org714e9eb">Atuador/Elemento final de controle</h4>
+<div class="outline-text-4" id="text-org714e9eb">
 <ul class="org-ul">
 <li>Provoca uma mudança em uma variável do processo de acordo com um sinal enviado pelo controlador do processo.</li>
 </ul>
@@ -403,9 +410,9 @@ Sendo P1 dia 31/03 e sua recuperação dia 07/04 e a P2 sendo dia 09/06 e sua re
 </div>
 </div>
 
-<div id="outline-container-orgff15bfc" class="outline-2">
-<h2 id="orgff15bfc">Aula 24/02</h2>
-<div class="outline-text-2" id="text-orgff15bfc">
+<div id="outline-container-orgc19e087" class="outline-2">
+<h2 id="orgc19e087">Aula 24/02</h2>
+<div class="outline-text-2" id="text-orgc19e087">
 <ul class="org-ul">
 <li>Fazer pré-rascunho de um artigo (sozinho), contendo Introdução, Problemática, Objetivo&#x2026;</li>
 <li>Aqui está o <a href="https://luispengler.github.io/site/org-pages/notes/12th-grade/doc/instrumentacao1/instrumentacao1.pdf">artigo pronto</a></li>
@@ -413,35 +420,35 @@ Sendo P1 dia 31/03 e sua recuperação dia 07/04 e a P2 sendo dia 09/06 e sua re
 </div>
 </div>
 
-<div id="outline-container-org4a20c77" class="outline-2">
-<h2 id="org4a20c77">Aula 25/02</h2>
-<div class="outline-text-2" id="text-org4a20c77">
+<div id="outline-container-orgbc8404b" class="outline-2">
+<h2 id="orgbc8404b">Aula 25/02</h2>
+<div class="outline-text-2" id="text-orgbc8404b">
 </div>
-<div id="outline-container-orge02f3c0" class="outline-4">
-<h4 id="orge02f3c0">Zero Vivo</h4>
-<div class="outline-text-4" id="text-orge02f3c0">
+<div id="outline-container-orgafff009" class="outline-4">
+<h4 id="orgafff009">Zero Vivo</h4>
+<div class="outline-text-4" id="text-orgafff009">
 <ul class="org-ul">
 <li>Transmissão de um sinal de 4 a 20mA, com 4 sendo o 0% do nível de água de um recipiente. 20mA representa 10%</li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orgdd09007" class="outline-3">
-<h3 id="orgdd09007">Características dos sistemas de medição</h3>
-<div class="outline-text-3" id="text-orgdd09007">
+<div id="outline-container-orgd2916cf" class="outline-3">
+<h3 id="orgd2916cf">Características dos sistemas de medição</h3>
+<div class="outline-text-3" id="text-orgd2916cf">
 </div>
-<div id="outline-container-org12a25a8" class="outline-4">
-<h4 id="org12a25a8">Faixa nominal (nominal range)</h4>
-<div class="outline-text-4" id="text-org12a25a8">
+<div id="outline-container-orgbcdfbea" class="outline-4">
+<h4 id="orgbcdfbea">Faixa nominal (nominal range)</h4>
+<div class="outline-text-4" id="text-orgbcdfbea">
 <ul class="org-ul">
 <li>Limite superior e inferior da faixa de trabalho do instrumento</li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org1a22732" class="outline-4">
-<h4 id="org1a22732">Fundo de escala</h4>
-<div class="outline-text-4" id="text-org1a22732">
+<div id="outline-container-org3a3f812" class="outline-4">
+<h4 id="org3a3f812">Fundo de escala</h4>
+<div class="outline-text-4" id="text-org3a3f812">
 <ul class="org-ul">
 <li>Valor máximo que um instrumento de medida pode medir sem ser danificado</li>
 </ul>
@@ -450,47 +457,48 @@ Sendo P1 dia 31/03 e sua recuperação dia 07/04 e a P2 sendo dia 09/06 e sua re
 </div>
 </div>
 
-<div id="outline-container-org7624c75" class="outline-2">
-<h2 id="org7624c75">Aula 03/03</h2>
-<div class="outline-text-2" id="text-org7624c75">
+<div id="outline-container-orgb4e4b80" class="outline-2">
+<h2 id="orgb4e4b80">Aula 03/03</h2>
+<div class="outline-text-2" id="text-orgb4e4b80">
 <ul class="org-ul">
 <li>O professor fez a correção da atividade entregue anteriormente (aula 24/02)</li>
 <li>Fomos apresentados o sensor infrared difuse e o infrared retroreflective. Depois fomos pedidos para escolher o melhor desses dois para identificar a passagem de ouro numa linha de trituração e o melhor entre os dois para identificar se há um objeto passando OU NÃO em uma linha de produção.</li>
 <li>Retro-reflective: Sinal lógico 0 quando nada está passando. Mas existem dois tipos, aqueles que emitem ondas polarizadas e que não. Não polarizados não saberiam diferenciar o seu espelho retro-refletor de um objeto metálico, se este redirecionasse o feixe do emissor diretamente no receptor. Neste caso, objetos metálicos, às vezes, fariam o nível lógico voltar pra 0. Com objetos normais, o nível lógico continuaria sendo 1. É sensível até 7m. No entanto, para o tipo de ondas polarizadas, qualquer objeto que interrompa o feixe, mesmo que este seja metálico (ou até outro espelho!), o sinal lógico vai ser 1. É sensível de 3 a 5,5m.</li>
 <li>Difuse: A diferença entre este e o anterior, é que usam o alvo para mandar a luz de volta (em vez de um espelho). No entanto, nem todos os alvos são bons em emitir luz de volta e precisam estar mais perto do que alguns para serem detectados. Sensores de proximidade difusos tem um alcance de até 500mm. Qualquer alvo dentro deste alcance vai ser visto, contanto que reflita luz suficiente. Para aplicações menores (com alvos menores), existe o tipo de foco fixo. O foco do emissor e receptor estão no mesmo ponto do espaço, aumentando a sua precisão, mas diminuindo o alcance quando comparados com sensores de proximidade difusos. Alcance de geralmente até 70mm.</li>
+<li>Resposta (remover depois) difuso para o do ouro e retoreflector não polarizado para linha de produção</li>
 <li>Aqui está o artigo pronto</li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org7d97198" class="outline-2">
-<h2 id="org7d97198">Aula 04/03</h2>
-<div class="outline-text-2" id="text-org7d97198">
+<div id="outline-container-orgc34f113" class="outline-2">
+<h2 id="orgc34f113">Aula 04/03</h2>
+<div class="outline-text-2" id="text-orgc34f113">
 <ul class="org-ul">
 <li>Prova semana que vem (atividade avaliativa) até a Aula 3 no moodle</li>
 </ul>
 </div>
-<div id="outline-container-orgc795c7a" class="outline-3">
-<h3 id="orgc795c7a">Tipos de sensores</h3>
-<div class="outline-text-3" id="text-orgc795c7a">
+<div id="outline-container-orgd5546c5" class="outline-3">
+<h3 id="orgd5546c5">Tipos de sensores</h3>
+<div class="outline-text-3" id="text-orgd5546c5">
 <ul class="org-ul">
 <li>Sensores industriais: Pega uma variável e transforma em outra variável mais conveniente</li>
 <li>Sesnsores podem ser do tipo discreto e contínuo</li>
 </ul>
 </div>
 
-<div id="outline-container-org229198b" class="outline-4">
-<h4 id="org229198b">Sensores discretos</h4>
-<div class="outline-text-4" id="text-org229198b">
+<div id="outline-container-orgb99502e" class="outline-4">
+<h4 id="orgb99502e">Sensores discretos</h4>
+<div class="outline-text-4" id="text-orgb99502e">
 <ul class="org-ul">
 <li>Apenas ligado ou desligado</li>
 <li>Ex: Chave fim de curso</li>
 </ul>
 </div>
 
-<div id="outline-container-org673907a" class="outline-5">
-<h5 id="org673907a">Sensores de proximidade discretos</h5>
-<div class="outline-text-5" id="text-org673907a">
+<div id="outline-container-orgc85c017" class="outline-5">
+<h5 id="orgc85c017">Sensores de proximidade discretos</h5>
+<div class="outline-text-5" id="text-orgc85c017">
 <ul class="org-ul">
 <li>Detectar a presença de um determinado objeto e chaves eletromecânicas são atuadas em função disso</li>
 <li>Usado para detecção de posição, contagem de peças, medição da velocidade, detecção do nível de água e detecção de altura, detecção de forma, detecção de ferramenta</li>
@@ -498,9 +506,9 @@ Sendo P1 dia 31/03 e sua recuperação dia 07/04 e a P2 sendo dia 09/06 e sua re
 </div>
 </div>
 
-<div id="outline-container-orgb49ecb3" class="outline-5">
-<h5 id="orgb49ecb3">Definições Básicas</h5>
-<div class="outline-text-5" id="text-orgb49ecb3">
+<div id="outline-container-org6060f05" class="outline-5">
+<h5 id="org6060f05">Definições Básicas</h5>
+<div class="outline-text-5" id="text-org6060f05">
 <ul class="org-ul">
 <li>Face sensora: superficie de onde sai campo elétrico ou campo eletromagnético</li>
 <li>Distância sensora nominal (Sn): Distância teórica que os sensores são específicados. Não significa que ele sempre vai operar nessa faixa.</li>
@@ -516,9 +524,9 @@ Sendo P1 dia 31/03 e sua recuperação dia 07/04 e a P2 sendo dia 09/06 e sua re
 </div>
 </div>
 
-<div id="outline-container-org379395c" class="outline-5">
-<h5 id="org379395c">Configurações elétricas em corrente contínua</h5>
-<div class="outline-text-5" id="text-org379395c">
+<div id="outline-container-org3d395cf" class="outline-5">
+<h5 id="org3d395cf">Configurações elétricas em corrente contínua</h5>
+<div class="outline-text-5" id="text-org3d395cf">
 <ul class="org-ul">
 <li>Apresentam várias formas de estágios de saída.</li>
 <li>A configuração elétrica em corrente contínua é bastante usada na automação de processos.</li>
@@ -536,13 +544,13 @@ Sendo P1 dia 31/03 e sua recuperação dia 07/04 e a P2 sendo dia 09/06 e sua re
 </div>
 </div>
 
-<div id="outline-container-orgb3f9ac5" class="outline-5">
-<h5 id="orgb3f9ac5">Tipos de sensores de proximidade</h5>
-<div class="outline-text-5" id="text-orgb3f9ac5">
+<div id="outline-container-org41b2c16" class="outline-5">
+<h5 id="org41b2c16">Tipos de sensores de proximidade</h5>
+<div class="outline-text-5" id="text-org41b2c16">
 </div>
 <ul class="org-ul">
-<li><a id="org9d1aad5"></a>Indutivos: detectam a proximidade de elementos metálicos sem a necessidade de contato<br />
-<div class="outline-text-6" id="text-org9d1aad5">
+<li><a id="org4076f2d"></a>Indutivos: detectam a proximidade de elementos metálicos sem a necessidade de contato<br />
+<div class="outline-text-6" id="text-org4076f2d">
 <ul class="org-ul">
 <li>Este gera um campo eletromagnético que é gerado por uma bobina ressonante instalada na face sensora</li>
 <li>Sua distância sensora operacional depende do tipo de material e é multiplicada por um fator de redução</li>
@@ -550,9 +558,9 @@ Sendo P1 dia 31/03 e sua recuperação dia 07/04 e a P2 sendo dia 09/06 e sua re
 </div>
 </li>
 
-<li><a id="orgf669719"></a>Magnéticos: detectam a proximidade de um imã, atuando de acordo com a sua presença e ausência<br /></li>
-<li><a id="org48747db"></a>Capacitivos: detectam a presença de materiais orgânicos, pós, líquidos, entre outros. Assim como objetos dentro de objetos (líquidos dentro de garrafas)<br />
-<div class="outline-text-6" id="text-org48747db">
+<li><a id="org0e04d19"></a>Magnéticos: detectam a proximidade de um imã, atuando de acordo com a sua presença e ausência<br /></li>
+<li><a id="org03b7df7"></a>Capacitivos: detectam a presença de materiais orgânicos, pós, líquidos, entre outros. Assim como objetos dentro de objetos (líquidos dentro de garrafas)<br />
+<div class="outline-text-6" id="text-org03b7df7">
 <ul class="org-ul">
 <li>Consiste de duas placas paralelas (armaduras) e isoladas por um dielétrico</li>
 <li>O valor da capacitância pode ser alterado pela aproximação de um objeto</li>
@@ -563,8 +571,8 @@ Sendo P1 dia 31/03 e sua recuperação dia 07/04 e a P2 sendo dia 09/06 e sua re
 </div>
 </li>
 
-<li><a id="orgc7204ad"></a>Sensores de proximidade fotoelétricos<br />
-<div class="outline-text-6" id="text-orgc7204ad">
+<li><a id="org267333c"></a>Sensores de proximidade fotoelétricos<br />
+<div class="outline-text-6" id="text-org267333c">
 <ul class="org-ul">
 <li>Denomidados de sensores ótpicos, os quais manipulam a luz para detectar a presença de um objeto dentro de uma área delimitada</li>
 <li>Transmissor: Apenas sensores fotoelétricos ativos o apresentam. Este componente envia um feixe de luz através de um LED. Esses flashes são de alta potência e de curta duração</li>
@@ -579,16 +587,16 @@ Sendo P1 dia 31/03 e sua recuperação dia 07/04 e a P2 sendo dia 09/06 e sua re
 </div>
 
 <ul class="org-ul">
-<li><a id="orga648909"></a>Sistema por barreira direta<br />
-<div class="outline-text-7" id="text-orga648909">
+<li><a id="orgbb04dfd"></a>Sistema por barreira direta<br />
+<div class="outline-text-7" id="text-orgbb04dfd">
 <ul class="org-ul">
 <li>Transmissor e receptor estão em unidades distintas e devem ser dispostos frente a frente</li>
 <li>Quando houver alguma interrupção, a saída será acionada</li>
 </ul>
 </div>
 </li>
-<li><a id="org173c166"></a>Sistema por difusão<br />
-<div class="outline-text-7" id="text-org173c166">
+<li><a id="orgf6431d6"></a>Sistema por difusão<br />
+<div class="outline-text-7" id="text-orgf6431d6">
 <ul class="org-ul">
 <li>O transmissor e receptor são montados na mesma unidade</li>
 <li>O acionamento da saída ocorre quando o objeto a ser detectado entre na região de sensibilidade e reflete para o receptor o feixe de luz emitido pelo transmissor</li>
@@ -607,10 +615,86 @@ Sendo P1 dia 31/03 e sua recuperação dia 07/04 e a P2 sendo dia 09/06 e sua re
 </div>
 </div>
 </div>
+
+<div id="outline-container-org04f35e1" class="outline-2">
+<h2 id="org04f35e1">Aula 10/03</h2>
+<div class="outline-text-2" id="text-org04f35e1">
+<ul class="org-ul">
+<li>Instrumentamos sensores capacitivos e indutivos com diversos materiais (silicone, joelho de cano pvc, cabo de cobre isolado com borracha)</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org34ee426" class="outline-2">
+<h2 id="org34ee426">Aula 11/03</h2>
+<div class="outline-text-2" id="text-org34ee426">
+</div>
+<div id="outline-container-org49fd253" class="outline-3">
+<h3 id="org49fd253">Sensores de proximidade ultrassônicos</h3>
+<div class="outline-text-3" id="text-org49fd253">
+<ul class="org-ul">
+<li>Emprega frequências fora do espectro de audição humana, determinando a distância de objetos (proximidade)</li>
+<li>A detecção acontece quando a onda bate sobre um objeto e produz um eco</li>
+<li>O tempo de repetição do eco é medido, sendo convertido em um sinal elétrico.</li>
+<li>Existe uma repetição desses pulsos de onda mecânica de 1 a 100Hz.</li>
+</ul>
+</div>
+<div id="outline-container-org603bfb7" class="outline-4">
+<h4 id="org603bfb7">Vantagens</h4>
+<div class="outline-text-4" id="text-org603bfb7">
+<ul class="org-ul">
+<li>Detcção sem contato direto</li>
+<li>Detecção idependente da cor</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgcabe3f7" class="outline-4">
+<h4 id="orgcabe3f7">Desvantages</h4>
+<div class="outline-text-4" id="text-orgcabe3f7">
+<ul class="org-ul">
+<li>Dificuldade de detecção se há muitas irregularidades no objeto</li>
+<li>Esse sensor é relativamente lento (porque usa som)</li>
+<li>Custo maior comparado aos fotoelétricos</li>
+<li>Podem ser influenciados pela temperatura (porque a velocidade do som muda de acordo com a temperatura)</li>
+<li>Dificuldade no uso de vários sensores ultrassônicos próximos (por causa da interferência)</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orgd0ea575" class="outline-3">
+<h3 id="orgd0ea575">Sensor óptico de posição (encoder)</h3>
+<div class="outline-text-3" id="text-orgd0ea575">
+<ul class="org-ul">
+<li>Detectam a posição de um objeto com respeito a um ponto de referência</li>
+<li>Podem medir distâncias lineares quanto angulares</li>
+<li>Funciona convertendo o movimento ou posição angular em uma série de pulsos.</li>
+</ul>
+</div>
+<div id="outline-container-org91a4fe0" class="outline-4">
+<h4 id="org91a4fe0">Encoder absoluto</h4>
+<div class="outline-text-4" id="text-org91a4fe0">
+<ul class="org-ul">
+<li>Definimos a posição absoluta do encoder através de um código</li>
+<li>O código mais utilizado é o binário, mas pode ser o código de Gray</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org80209f5" class="outline-4">
+<h4 id="org80209f5">Encoder Incremental</h4>
+<div class="outline-text-4" id="text-org80209f5">
+<ul class="org-ul">
+<li>Possui apenas uma trilha com dentes igualmente espaçados</li>
+<li>A resolução é dada pela relação pulso/revolução (chamado de PPR) - Quantos pulsos de luz por cada volta?</li>
+<li>Podem ser dividos em simples e quadratura</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Luís Spengler</p>
-<p class="date">Created: 2022-03-08 Tue 21:15</p>
+<p class="date">Created: 2022-03-13 Sun 09:49</p>
 </div>
 </body>
 </html>

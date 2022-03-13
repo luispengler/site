@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2022-03-08 Tue 21:14 -->
+<!-- 2022-03-13 Sun 09:49 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Week 16 - my notes</title>
@@ -229,39 +229,39 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#orgb3b2789">Week 16 - Review Week: Entanglement, Superdense Coding, &amp; Projects</a>
+<li><a href="#orgb5d40c0">Week 16 - Review Week: Entanglement, Superdense Coding, &amp; Projects</a>
 <ul>
-<li><a href="#org55f5419">Multi-Qubit Circuits &amp; Entanglement</a></li>
-<li><a href="#org9c9bacf">Entanglement &amp; Computation</a></li>
-<li><a href="#org28de5a9">Preview: Superdense Coding</a></li>
-<li><a href="#org4448fa7">Research projects</a></li>
+<li><a href="#orgc910316">Multi-Qubit Circuits &amp; Entanglement</a></li>
+<li><a href="#orgc8f331a">Entanglement &amp; Computation</a></li>
+<li><a href="#orgd379ea4">Preview: Superdense Coding</a></li>
+<li><a href="#org13643f1">Research projects</a></li>
 </ul>
 </li>
-<li><a href="#org045751e">Resources</a></li>
+<li><a href="#orgd8f04a7">Resources</a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orgb3b2789" class="outline-2">
-<h2 id="orgb3b2789">Week 16 - Review Week: Entanglement, Superdense Coding, &amp; Projects</h2>
-<div class="outline-text-2" id="text-orgb3b2789">
+<div id="outline-container-orgb5d40c0" class="outline-2">
+<h2 id="orgb5d40c0">Week 16 - Review Week: Entanglement, Superdense Coding, &amp; Projects</h2>
+<div class="outline-text-2" id="text-orgb5d40c0">
 </div>
-<div id="outline-container-org55f5419" class="outline-3">
-<h3 id="org55f5419">Multi-Qubit Circuits &amp; Entanglement</h3>
-<div class="outline-text-3" id="text-org55f5419">
+<div id="outline-container-orgc910316" class="outline-3">
+<h3 id="orgc910316">Multi-Qubit Circuits &amp; Entanglement</h3>
+<div class="outline-text-3" id="text-orgc910316">
 <ul class="org-ul">
 <li>Entangled states <b>cannot be factorized</b></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org9c9bacf" class="outline-3">
-<h3 id="org9c9bacf">Entanglement &amp; Computation</h3>
-<div class="outline-text-3" id="text-org9c9bacf">
+<div id="outline-container-orgc8f331a" class="outline-3">
+<h3 id="orgc8f331a">Entanglement &amp; Computation</h3>
+<div class="outline-text-3" id="text-orgc8f331a">
 </div>
-<div id="outline-container-org4e669d2" class="outline-4">
-<h4 id="org4e669d2">Storing information from independent qubits</h4>
-<div class="outline-text-4" id="text-org4e669d2">
+<div id="outline-container-orga37d8ec" class="outline-4">
+<h4 id="orga37d8ec">Storing information from independent qubits</h4>
+<div class="outline-text-4" id="text-orga37d8ec">
 <ul class="org-ul">
 <li>3 qubits: \[q0=\begin{bmatrix}0\\1\end{bmatrix}\] \[q1=\begin{bmatrix}1\\0\end{bmatrix}\] \[q2=\frac{1}{\sqrt{2}}\begin{bmatrix}1\\1\end{bmatrix}\] - We need 2 bits for each qubit, meaning we need 6 bits.</li>
 <li>5 qubits: \[q0=\begin{bmatrix}1\\0\end{bmatrix}\] \[q1=\begin{bmatrix}1\\0\end{bmatrix}\] \[q2=\begin{bmatrix}1\\0\end{bmatrix}\] \[q3=\begin{bmatrix}1\\0\end{bmatrix}\] \[q4=\begin{bmatrix}1\\0\end{bmatrix}\] - We need 2 bits for each qubit, meaning we need 10 bits.</li>
@@ -270,9 +270,9 @@
 </div>
 </div>
 
-<div id="outline-container-org69847e4" class="outline-4">
-<h4 id="org69847e4">Storing information from entangled qubits</h4>
-<div class="outline-text-4" id="text-org69847e4">
+<div id="outline-container-org46ef2a4" class="outline-4">
+<h4 id="org46ef2a4">Storing information from entangled qubits</h4>
+<div class="outline-text-4" id="text-org46ef2a4">
 <ul class="org-ul">
 <li>If the previous 3 qubit-circuit were to be represented as a joint state: \(|000\rangle\),\(|001\rangle\),\(|010\rangle\),\(|011\rangle\), \(|100\rangle\), \(|101\rangle\), \(|110\rangle\), \(|111\rangle\) - We need 1 bit for each possible combination \(2^3\), meaning we need 8 bits.</li>
 <li>If the previous 5 qubit-circuit were to be represented as a joint state: \(|00000\rangle\),\(|00001\rangle\),\(|00010\rangle\)&#x2026; - We need 1 bit for each possible combination \(2^5\), meaning we need 32 bits.</li>
@@ -283,9 +283,9 @@
 </div>
 </div>
 
-<div id="outline-container-org28de5a9" class="outline-3">
-<h3 id="org28de5a9">Preview: Superdense Coding</h3>
-<div class="outline-text-3" id="text-org28de5a9">
+<div id="outline-container-orgd379ea4" class="outline-3">
+<h3 id="orgd379ea4">Preview: Superdense Coding</h3>
+<div class="outline-text-3" id="text-orgd379ea4">
 <ul class="org-ul">
 <li>Protocol is like a contract signed by multiple parts, but with the function of allowing communication between them. The same idea works for quantum protocols, except for the fact the rules defined in this contract follow the properties of quantum mechanics.</li>
 <li>As QKD was about secure key distrubuition, superdense coding is about efficient information transfer.</li>
@@ -295,17 +295,17 @@
 </div>
 </div>
 
-<div id="outline-container-org4448fa7" class="outline-3">
-<h3 id="org4448fa7">Research projects</h3>
-<div class="outline-text-3" id="text-org4448fa7">
+<div id="outline-container-org13643f1" class="outline-3">
+<h3 id="org13643f1">Research projects</h3>
+<div class="outline-text-3" id="text-org13643f1">
 <ul class="org-ul">
 <li>The further you are from the primary source, the more risk there is for the message to be innacurate.</li>
 </ul>
 </div>
 
-<div id="outline-container-org605ff15" class="outline-4">
-<h4 id="org605ff15">Hierarchy of accuracies</h4>
-<div class="outline-text-4" id="text-org605ff15">
+<div id="outline-container-org9051919" class="outline-4">
+<h4 id="org9051919">Hierarchy of accuracies</h4>
+<div class="outline-text-4" id="text-org9051919">
 <ol class="org-ol">
 <li>Papers directly from the researchers in the field you are interested in.</li>
 <li>Commentaries (quotes) from experts in the field, but not directly involved in the research you read.</li>
@@ -315,9 +315,9 @@
 </div>
 </div>
 
-<div id="outline-container-orgc697972" class="outline-4">
-<h4 id="orgc697972">Good article?</h4>
-<div class="outline-text-4" id="text-orgc697972">
+<div id="outline-container-org49dcefe" class="outline-4">
+<h4 id="org49dcefe">Good article?</h4>
+<div class="outline-text-4" id="text-org49dcefe">
 <ol class="org-ol">
 <li>Do they cite others?</li>
 <li>Do others cite them?</li>
@@ -326,9 +326,9 @@
 </div>
 </div>
 
-<div id="outline-container-org807d3dc" class="outline-4">
-<h4 id="org807d3dc">Generally reliable sources</h4>
-<div class="outline-text-4" id="text-org807d3dc">
+<div id="outline-container-orgc964613" class="outline-4">
+<h4 id="orgc964613">Generally reliable sources</h4>
+<div class="outline-text-4" id="text-orgc964613">
 <ul class="org-ul">
 <li>Scientific American</li>
 <li>Physics World</li>
@@ -337,9 +337,9 @@
 </div>
 </div>
 
-<div id="outline-container-org5e60c86" class="outline-4">
-<h4 id="org5e60c86">Dealing with paywalls</h4>
-<div class="outline-text-4" id="text-org5e60c86">
+<div id="outline-container-org3c65932" class="outline-4">
+<h4 id="org3c65932">Dealing with paywalls</h4>
+<div class="outline-text-4" id="text-org3c65932">
 <ul class="org-ul">
 <li>Search the author&rsquo;s website (it might have a like to a free version) or email the author yourself.</li>
 <li>&ldquo;arxiv&rdquo; (which I personally already use a lot) sometimes has that article available for free.</li>
@@ -347,9 +347,9 @@
 </div>
 </div>
 
-<div id="outline-container-org8d14537" class="outline-4">
-<h4 id="org8d14537">Reading papers</h4>
-<div class="outline-text-4" id="text-org8d14537">
+<div id="outline-container-orgeab03dc" class="outline-4">
+<h4 id="orgeab03dc">Reading papers</h4>
+<div class="outline-text-4" id="text-orgeab03dc">
 <ul class="org-ul">
 <li>You are reading an article or a paper, and&#x2026; it doesn&rsquo;t make any sense. There&rsquo;s too much jargon/too much math&#x2026; (often happens with me lol)</li>
 <li>Try to read the introduction, the abstract, and the conclusions. You can still try to make sense of the broad applications of the paper.</li>
@@ -360,9 +360,9 @@
 </div>
 </div>
 
-<div id="outline-container-org045751e" class="outline-2">
-<h2 id="org045751e">Resources</h2>
-<div class="outline-text-2" id="text-org045751e">
+<div id="outline-container-orgd8f04a7" class="outline-2">
+<h2 id="orgd8f04a7">Resources</h2>
+<div class="outline-text-2" id="text-orgd8f04a7">
 <p>
 Entanglement and the Bell states
 <a href="https://www.aliroquantum.com/blog/what-are-bell-states">https://www.aliroquantum.com/blog/what-are-bell-states</a>
@@ -382,7 +382,7 @@ The EPR paradox and Bell experiments
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Luís Spengler</p>
-<p class="date">Created: 2022-03-08 Tue 21:14</p>
+<p class="date">Created: 2022-03-13 Sun 09:49</p>
 </div>
 </body>
 </html>
