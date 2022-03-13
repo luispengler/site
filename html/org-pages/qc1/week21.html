@@ -3,12 +3,12 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2022-03-13 Sun 14:30 -->
+<!-- 2022-03-13 Sun 14:29 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Sistemas Digitais e Microcontrolados</title>
+<title>Week 21 - my notes</title>
 <meta name="author" content="Luís Spengler" />
-<meta name="description" content="Sistemas Digitais e Microcontrolados - Meu caderno virtual" />
+<meta name="description" content="Week 21 - my notes" />
 <meta name="generator" content="Org Mode" />
 <style>
   #content { max-width: 60em; margin: auto; }
@@ -203,93 +203,142 @@
 </head>
 <body>
 <div id="content" class="content">
-<h1 class="title">Sistemas Digitais e Microcontrolados</h1>
+<h1 class="title">Week 21 - my notes</h1>
 <div id="table-of-contents" role="doc-toc">
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#orga29570b">Aula (11/02)</a></li>
-<li><a href="#orgba694ef">Aula (14/02)</a></li>
-<li><a href="#orgd7bf0f6">Aula (25/02)</a></li>
-<li><a href="#org1505abb">Aula (04/03)</a></li>
-<li><a href="#org2d34222">Aula (07/03)</a>
+<li><a href="#orge0d62b9">Week 21 - Quantum Computing Hardware</a>
 <ul>
-<li><a href="#org9d54bcc">Projeto que fomos sorteados</a></li>
+<li><a href="#org71a80cf">How are circuits implemented?</a></li>
+<li><a href="#org0ec119a">Quantum Hardware</a></li>
+<li><a href="#org7c30753">Looking forward</a></li>
 </ul>
 </li>
+<li><a href="#org3777b66">Resources</a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orga29570b" class="outline-2">
-<h2 id="orga29570b">Aula (11/02)</h2>
-<div class="outline-text-2" id="text-orga29570b">
+<div id="outline-container-orge0d62b9" class="outline-2">
+<h2 id="orge0d62b9">Week 21 - Quantum Computing Hardware</h2>
+<div class="outline-text-2" id="text-orge0d62b9">
+</div>
+<div id="outline-container-org71a80cf" class="outline-3">
+<h3 id="org71a80cf">How are circuits implemented?</h3>
+<div class="outline-text-3" id="text-org71a80cf">
+<ol class="org-ol">
+<li>Transpilation</li>
+<li>Gates as Pulses</li>
+<li>Readout</li>
+<li>Display</li>
+</ol>
+</div>
+
+<div id="outline-container-org1997c24" class="outline-4">
+<h4 id="org1997c24">Transpilation</h4>
+<div class="outline-text-4" id="text-org1997c24">
 <ul class="org-ul">
-<li>Realização de experimentos de laboratório: <a href="https://luispengler.github.io/site/html/org-pages/notes/12th-grade/doc/relatorio1/relatorio1.pdf">PDF</a></li>
+<li>We want very diverse languages, but not at hardware level</li>
+<li>Sometimes you can&rsquo;t actually apply some gate, because your hardware doesn&rsquo;t have it, but it can substitute it by two or more gates that can do the same function</li>
+<li>It&rsquo;s like in a map, where the easiest way is to go in a straight line, but there are things on your way (buildings, cars, etc). So you need solutions to do the same things</li>
+<li>E.g.: You apply a H gate, but in reality, you apply an RZ gate, a square root X gate, an RZ gate.</li>
+<li>IBM is working on transpilation a lot</li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orgba694ef" class="outline-2">
-<h2 id="orgba694ef">Aula (14/02)</h2>
-<div class="outline-text-2" id="text-orgba694ef">
+<div id="outline-container-org5ced5a8" class="outline-4">
+<h4 id="org5ced5a8">Gate as Pulses</h4>
+<div class="outline-text-4" id="text-org5ced5a8">
 <ul class="org-ul">
-<li>Vimos Latch com porta NAND e com porta NOR</li>
+<li>The gates in your circuit get converted to a sequence of energy pulses</li>
+<li>Different gates are implemented as pulses of different duration and energy</li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orgd7bf0f6" class="outline-2">
-<h2 id="orgd7bf0f6">Aula (25/02)</h2>
-<div class="outline-text-2" id="text-orgd7bf0f6">
+<div id="outline-container-orga4f5cd0" class="outline-4">
+<h4 id="orga4f5cd0">Readout</h4>
+<div class="outline-text-4" id="text-orga4f5cd0">
 <ul class="org-ul">
-<li>Ligamos 74151 (Mux) e 74138 na aula prática para fazer experimentos</li>
+<li>We make a measurement after all gates have been implemented</li>
+<li>The measurement pulse is like one</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org0ec119a" class="outline-3">
+<h3 id="org0ec119a">Quantum Hardware</h3>
+<div class="outline-text-3" id="text-org0ec119a">
+<p>
+There are two general parts
+</p>
+<ul class="org-ul">
+<li>The quantum chip</li>
+<li>All the other components that protect it</li>
+</ul>
+</div>
+
+<div id="outline-container-org6a227c3" class="outline-4">
+<h4 id="org6a227c3">Noise and errors</h4>
+<div class="outline-text-4" id="text-org6a227c3">
+<ul class="org-ul">
+<li>Qubits lose information in two ways: relaxation, decoherence</li>
+<li>The first is called T1, and it represents a loss of energy. Qubits want to be in their lowest energy state</li>
+<li>The second is called T2, and it represents a loss of energy and of phase. Qubits lose their quantum state due to noise</li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org1505abb" class="outline-2">
-<h2 id="org1505abb">Aula (04/03)</h2>
-<div class="outline-text-2" id="text-org1505abb">
+<div id="outline-container-org51cbfa0" class="outline-4">
+<h4 id="org51cbfa0">Errors in measurement</h4>
+<div class="outline-text-4" id="text-org51cbfa0">
 <ul class="org-ul">
-<li>Nesta aula prática ligamos MUX e DEMUX nas CIs ali presente, confirmando suas tabelas verdades de acordo com os resultados obtidos. Isadora e eu montamos as tabelas verdade em LaTeX <a href="https://luispengler.github.io/site/org-page/notes/12th-grade/doc/mux-demux/relatorio1.pdf">neste PDF</a></li>
+<li>To measure qubits, we have to temporarily open up to the environment</li>
 </ul>
+</div>
 </div>
 </div>
 
-<div id="outline-container-org2d34222" class="outline-2">
-<h2 id="org2d34222">Aula (07/03)</h2>
-<div class="outline-text-2" id="text-org2d34222">
+<div id="outline-container-org7c30753" class="outline-3">
+<h3 id="org7c30753">Looking forward</h3>
+<div class="outline-text-3" id="text-org7c30753">
 <ul class="org-ul">
-<li>Prova prática implmentando um circuito de hardware</li>
-<li>Esboce um esquema do problema proposto</li>
-<li>Identifique variáveis de entrada e saída</li>
-<li>Identifique os estados das variáveis de entrada e saída</li>
-<li>Monte a tabela verdade do problema</li>
-<li>Obtenha a expressão de saída através da tabela verdade</li>
-<li>Monte o mapa de Karnaugh do problema</li>
-<li>Simplifique a expressão pelo mapa de Karnaugh</li>
-<li>Obteha o circuito lógica que atenda à solicitação</li>
-<li>Implemente o hardware do circuito e apresente ao professor</li>
+<li>NISQ: &ldquo;Noisy Intermediate-Scale Quantum devices&rdquo; It&rsquo;s like the QASM simulator.The era of error correction. We are here.</li>
+<li>Fault-tolerance: It&rsquo;s like the statevector simulator. An ideal quantum device. We wanna get here to implement our stuff</li>
 </ul>
+</div>
+</div>
 </div>
 
-<div id="outline-container-org9d54bcc" class="outline-3">
-<h3 id="org9d54bcc">Projeto que fomos sorteados</h3>
-<div class="outline-text-3" id="text-org9d54bcc">
-<ul class="org-ul">
-<li>P2 - Controle de mesa de som</li>
-<li>Integrantes: Giovanna Bughi, Gustavo Ratier Cardoso, João Vitor Medeiros, Luís Spengler</li>
-<li>Segunda-Feira: 13h30-17h15</li>
-<li>Prazo máximo: 25/03</li>
-</ul>
-</div>
+<div id="outline-container-org3777b66" class="outline-2">
+<h2 id="org3777b66">Resources</h2>
+<div class="outline-text-2" id="text-org3777b66">
+<p>
+Qiskit textbook pages on Measurement Errors and Quantum Error Correction
+Measurement errors: <a href="https://qiskit.org/textbook/ch-quantum-hardware/measurement-error-mitigation.html">https://qiskit.org/textbook/ch-quantum-hardware/measurement-error-mitigation.html</a>
+Quantum Error Correction: <a href="https://qiskit.org/textbook/ch-quantum-hardware/error-correction-repetition-code.html">https://qiskit.org/textbook/ch-quantum-hardware/error-correction-repetition-code.html</a>
+</p>
+
+<p>
+Quantum Computing in the NISQ Era and Beyond
+URL: <a href="https://arxiv.org/abs/1801.00862">https://arxiv.org/abs/1801.00862</a>
+Description: Paper by Prof. John Preskill discussing the outlook for quantum computing
+</p>
+
+<p>
+Quantum Error Correction: An Introductory Guide
+URL: <a href="https://arxiv.org/abs/1907.11157">https://arxiv.org/abs/1907.11157</a>
+Description: Into to QEC techniques
+</p>
 </div>
 </div>
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Luís Spengler</p>
-<p class="date">Created: 2022-03-13 Sun 14:30</p>
+<p class="date">Created: 2022-03-13 Sun 14:29</p>
 </div>
 </body>
 </html>

@@ -1,0 +1,58 @@
+#+TITLE: Week 21 - my notes
+#+DESCRIPTION: Week 21 - my notes
+#+SETUPFILE: https://luispengler.github.io/site/org-html-themes/org/theme-readtheorg.setup
+#+LaTeX_+HEADER: \usepackage{physics}
+#+LaTeX_+HEADER: \usepackage{amsmath}
+#+OPTIONS: num:nil ^:{} toc:2
+
+* Week 21 - Quantum Computing Hardware
+** How are circuits implemented?
+1. Transpilation
+2. Gates as Pulses
+3. Readout
+4. Display
+
+*** Transpilation
++ We want very diverse languages, but not at hardware level
++ Sometimes you can't actually apply some gate, because your hardware doesn't have it, but it can substitute it by two or more gates that can do the same function
++ It's like in a map, where the easiest way is to go in a straight line, but there are things on your way (buildings, cars, etc). So you need solutions to do the same things
++ E.g.: You apply a H gate, but in reality, you apply an RZ gate, a square root X gate, an RZ gate.
++ IBM is working on transpilation a lot
+
+*** Gate as Pulses
++ The gates in your circuit get converted to a sequence of energy pulses
++ Different gates are implemented as pulses of different duration and energy
+
+*** Readout
++ We make a measurement after all gates have been implemented
++ The measurement pulse is like one
+
+** Quantum Hardware
+There are two general parts
++ The quantum chip
++ All the other components that protect it
+
+*** Noise and errors
++ Qubits lose information in two ways: relaxation, decoherence
++ The first is called T1, and it represents a loss of energy. Qubits want to be in their lowest energy state
++ The second is called T2, and it represents a loss of energy and of phase. Qubits lose their quantum state due to noise
+
+*** Errors in measurement
++ To measure qubits, we have to temporarily open up to the environment
+
+** Looking forward
++ NISQ: "Noisy Intermediate-Scale Quantum devices" It's like the QASM simulator.The era of error correction. We are here.
++ Fault-tolerance: It's like the statevector simulator. An ideal quantum device. We wanna get here to implement our stuff
+
+* Resources
+Qiskit textbook pages on Measurement Errors and Quantum Error Correction
+Measurement errors: https://qiskit.org/textbook/ch-quantum-hardware/measurement-error-mitigation.html
+Quantum Error Correction: https://qiskit.org/textbook/ch-quantum-hardware/error-correction-repetition-code.html
+
+Quantum Computing in the NISQ Era and Beyond
+URL: https://arxiv.org/abs/1801.00862
+Description: Paper by Prof. John Preskill discussing the outlook for quantum computing
+
+Quantum Error Correction: An Introductory Guide
+URL: https://arxiv.org/abs/1907.11157
+Description: Into to QEC techniques

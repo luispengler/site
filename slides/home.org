@@ -35,9 +35,9 @@
 + [X] Talk bad about your father (8)
 + [X] First ec presential thing (8)
 + [X] Come dress-up in purple (8)
-+ [ ] FEBRACE's video
-+ [ ] Relatório de instrumentação e controle (10)
-+ [ ] Instrumentação e controle's test (11)
++ [X] FEBRACE's video
++ [X] Relatório de instrumentação e controle (10)
++ [X] Instrumentação e controle's test (11)
 
 * TODO (13-19/03)
 + [ ] Instalações eletricas' test (16)
@@ -47,6 +47,7 @@
 
 * TODO (20-26)
 + [ ] Sistema's digitais apresentation (21 or 25)
++ [ ] SAT practice (26)
 
 * TODO (27-2/04)
 + [ ] P1 Instrumentação e controle (31)
