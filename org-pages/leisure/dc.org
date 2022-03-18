@@ -526,7 +526,7 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [X] Supergirl – 4.22: “The Quest For Peace”
 + [X] Legends of Tomorrow – 4.16: “Hey World!”
 
-* 2019/2020 [93/112] [83%]
+* 2019/2020 [112/112] [100%]
 
 + [X] Batwoman – 1.01: “Pilot”
 + [X] Supergirl – 5.01: “Event Horizon”
@@ -630,16 +630,16 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [X] Legends of Tomorrow – 5.14: “The One Where We’re Stuck On TV”
 + [X] Stargirl – 1.03: “Icicle”
 + [X] Legends of Tomorrow – 5.15: “Swan Thong”
-+ [ ] Stargirl – 1.04: “Wildcat”
-+ [ ] Stargirl – 1.05: “Hourman and Dr. Mid-Nite ”
-+ [ ] Stargirl – 1.06: “The Justice Society”
-+ [ ] Stargirl – 1.07: “Shiv Part One”
-+ [ ] Stargirl – 1.08: “Shiv Part Two”
-+ [ ] Stargirl – 1.09: “Brainwave”
-+ [ ] Stargirl – 1.10: “Brainwave Jr.”
-+ [ ] Stargirl – 1.11: “Shining Knight”
-+ [ ] Stargirl – 1.12: “Stars & S.T.R.I.P.E Part One”
-+ [ ] Stargirl – 1.13: “Stars & S.T.R.I.P.E Part Two”
++ [X] Stargirl – 1.04: “Wildcat”
++ [X] Stargirl – 1.05: “Hourman and Dr. Mid-Nite ”
++ [X] Stargirl – 1.06: “The Justice Society”
++ [X] Stargirl – 1.07: “Shiv Part One”
++ [X] Stargirl – 1.08: “Shiv Part Two”
++ [X] Stargirl – 1.09: “Brainwave”
++ [X] Stargirl – 1.10: “Brainwave Jr.”
++ [X] Stargirl – 1.11: “Shining Knight”
++ [X] Stargirl – 1.12: “Stars & S.T.R.I.P.E Part One”
++ [X] Stargirl – 1.13: “Stars & S.T.R.I.P.E Part Two”
 
 * 2020/2021 [0/104] [0%]
 

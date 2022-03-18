@@ -40,10 +40,15 @@
 + [X] Instrumentação e controle's test (11)
 
 * TODO (13-19/03)
-+ [ ] Instalações eletricas' test (16)
-+ [ ] Finish pneumática's homework (16)
++ [X] Portuguese hw (15)
++ [X] Math hw (16)
++ [X] Instalações eletricas' test (16)
++ [X] Chemestry activity (16)
++ [X] Finish pneumática's homework (16)
++ [X] Instrumentação e controle new activity (17)
 + [ ] Physical education's homework (18)
 + [ ] LOA's video (19)
++ [ ] SAT practice (19)
 
 * TODO (20-26)
 + [ ] Sistema's digitais apresentation (21 or 25)
