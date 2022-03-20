@@ -1,0 +1,80 @@
+#+TITLE: Week 22 - my notes
+#+DESCRIPTION: Week 22 - my notes
+#+SETUPFILE: https://luispengler.github.io/site/org-html-themes/org/theme-readtheorg.setup
+#+LaTeX_+HEADER: \usepackage{physics}
+#+LaTeX_+HEADER: \usepackage{amsmath}
+#+OPTIONS: num:nil ^:{} toc:2
+
+* Week 22 - Types of Qubits and Intro to Near-Term Algorithms
+** Superconducting Qubits
+*** Pros
++ It's on a chip
++ Microwave technology is well developed
++ High quality gates and readout
+*** Cons
++ Require cooling to mK temperatures
++ Loss to substrate material
++ Need bigger dilution
+
+** Photonic Qubits
+*** Pros
++ Room temperature
++ Compatible with existing fabrication infrastructure
++ Uses photonic technology which is well-developed
++ Low single-photon error rates
+*** Cons
++ Entanglement is difficult (photons don't interact with each other easily)
++ Single photon generation is unreliable
++ Superconducting detectors require cooling to K temperatures
+
+** Guest
+*** Rydberg Atom Qubits
++ Relativily new type of qubit
++ Each atom is a qubit
++ We use the shell of the electron to identify different states
++ The types of atoms used are called neutral atom: atoms with only one atom in the valence
++ If  the valence electron is where it should be, it's \[|0\rangle\] if it's not, it's \[|1\rangle\]
+*** How do you hold atoms in the right locations?
++ Optical tweezers are used to hold the atoms in place. It is even possible to create an array of atoms
+*** Pros
++ Large number of qubits
++ Customizable qubit locations
++ High decoherence time
+*** Cons
++ Physical crowding limits single-qubit gates
++ High error rates for ~2 qubit gates
+
+** Near-term algorithms
++ Designed to work on NISQ (Noisy Intermidiate-Scale Quantum) technology
++ It is used by leveraging quantum computers alongside classical ones
++ We don't know about advantages in near-term algorithms over classical ones
++ These algortihms are also called hybrid algorithms (bc of quantum + classical)
++ The ultimate goal we can shift more computation into QC, but right now, most of them are done in CC
+*** QPU & CPU partnership
+1. Quantum Computer: Runs your Quantum Circuit
+2. Quantum Computer: Send the results of your circuit to Classical Computer
+3. Classical Computer: Figure out how to modify the circuit
+4. Classical Computer: Send new-instructions to Quantum Computer
++ Quantum Approximate Optimization Algorithms (QAOA)
++ Variational Quantum Eigensolver (VQE)
+
+*** Problems VQE and QAOA can solve
++ Constrained Optimization Problems: Find the most optimal solution
++ The Knapsack problem (the backpack problem) is the most famous problem
++ The KP is that you are only allowed to bring one backpack. It is up to you to pack the bag most efficiently, given that you can only carry a certain wight and certain volume
++ You can map the different solutions in discrete values!
+
+** Tunable Quantum Circuits
++ We can implement the possible solutions to different settings of a quantum circuit
++ For our tunable circuits, we will use tunable gates.
++ Tuning the circuit to find the most optimal circuit, it's just tuning these gates
+
+* Resources
+VQE in the Qiskit Textbook: https://qiskit.org/textbook/ch-applications/vqe-molecules.htm
+Introductory Blog post on VQE: https://www.mustythoughts.com/variational-quantum-eigensolver-explained
+Blog post on simulating molecules using VQE: https://towardsdatascience.com/simulated-quantum-computation-of-molecular-energies-using-vqe-c717f8c86b94
+
+Prof. Michelle Simmons: https://www.sydneyquantum.org/news/four-brilliant-women-in-quantum-share-stories-on-international-womens-day/
+
+
+Dr. Hanhee Paik: https://researcher.watson.ibm.com/researcher/view.php?person=us-hanhee.paik

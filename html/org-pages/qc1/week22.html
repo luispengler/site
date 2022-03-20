@@ -6,9 +6,9 @@
 <!-- 2022-03-20 Sun 19:29 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Week 4 - my own writings</title>
+<title>Week 22 - my notes</title>
 <meta name="author" content="Luís Spengler" />
-<meta name="description" content="Week 4 - my own writings" />
+<meta name="description" content="Week 22 - my notes" />
 <meta name="generator" content="Org Mode" />
 <style>
   #content { max-width: 60em; margin: auto; }
@@ -200,196 +200,10 @@
 <script src="httpss://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="https://luispengler.github.io/site/org-html-themes/src/lib/js/jquery.stickytableheaders.min.js"></script>
 <script type="text/javascript" src="https://luispengler.github.io/site/org-html-themes/src/readtheorg_theme/js/readtheorg.js"></script>
-<script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-        displayAlign: "center",
-        displayIndent: "0em",
-
-        "HTML-CSS": { scale: 100,
-                        linebreaks: { automatic: "false" },
-                        webFont: "TeX"
-                       },
-        SVG: {scale: 100,
-              linebreaks: { automatic: "false" },
-              font: "TeX"},
-        NativeMML: {scale: 100},
-        TeX: { equationNumbers: {autoNumber: "AMS"},
-               MultLineWidth: "85%",
-               TagSide: "right",
-               TagIndent: ".8em"
-             }
-});
-</script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML"></script>
 </head>
 <body>
 <div id="content" class="content">
-<h1 class="title">Week 4 - my own writings</h1>
-<div id="table-of-contents" role="doc-toc">
-<h2>Table of Contents</h2>
-<div id="text-table-of-contents" role="doc-toc">
-<ul>
-<li><a href="#org91973d5">Week 4 (Qubit by Qubit)</a>
-<ul>
-<li><a href="#org8f61726">RECAP:</a></li>
-<li><a href="#orga385e07">Quantum Gates and Measurement</a></li>
-<li><a href="#org259384b">Lab:</a></li>
-<li><a href="#org7c189d7">Guest speaker:</a></li>
-</ul>
-</li>
-</ul>
-</div>
-</div>
-
-<div id="outline-container-org91973d5" class="outline-2">
-<h2 id="org91973d5">Week 4 (Qubit by Qubit)</h2>
-<div class="outline-text-2" id="text-org91973d5">
-</div>
-<div id="outline-container-org8f61726" class="outline-3">
-<h3 id="org8f61726">RECAP:</h3>
-<div class="outline-text-3" id="text-org8f61726">
-</div>
-<div id="outline-container-org0f6f3a5" class="outline-4">
-<h4 id="org0f6f3a5">Quantum mechanics:</h4>
-<div class="outline-text-4" id="text-org0f6f3a5">
-<ul class="org-ul">
-<li>Qubits have discrete states and we can use these 0s and 1s in computation.</li>
-<li>In adition to being 0 or 1, qubits can also be in a superposition and therefore, can hold exponentionally more information than classical</li>
-<li>Superposition powers: Process all possibilities of solving a problem at the same time.</li>
-<li>Interference powers: Rules out incorrect possible solutions, making them interfere with each other destructively and correct ones interfere constructively.</li>
-<li>Quantum computers excel at finding one solution among massive amounts of possibilities.</li>
-</ul>
-</div>
-</div>
-</div>
-
-<div id="outline-container-orga385e07" class="outline-3">
-<h3 id="orga385e07">Quantum Gates and Measurement</h3>
-<div class="outline-text-3" id="text-orga385e07">
-</div>
-<div id="outline-container-org3ae1e92" class="outline-4">
-<h4 id="org3ae1e92">Representing Qubits</h4>
-<div class="outline-text-4" id="text-org3ae1e92">
-<ul class="org-ul">
-<li>Superconducting qubits (Google, IBM), trapped ion qubits (IONq), Photonics (PsiQuantum) are some types of qubits, but they all obey quantum mechanics laws as well as <b>having the same way to represent them.</b></li>
-<li>Represntation is a way to write down and show what&rsquo;s happening, without worring to much about the physics.</li>
-</ul>
-<p>
-Ket notation and the Block sphere are two common ways to describe qubits instead of using arrows.
-</p>
-</div>
-</div>
-
-<div id="outline-container-org21dc7ff" class="outline-4">
-<h4 id="org21dc7ff">Ket Notation</h4>
-<div class="outline-text-4" id="text-org21dc7ff">
-<ul class="org-ul">
-<li>1 and 0 are not just numbers, they are <b>quantum states.</b> and to represent that, we use kets.</li>
-<li>Anything inside  \(\langle|\) means it&rsquo;s a quantum state. Ex: \(|1\rangle\), \(|0\rangle\) and Superposition of \(|0\rangle\) and \(|1\rangle\)</li>
-<li>AKA bra-ket notation or Dirac notation.</li>
-</ul>
-</div>
-<div id="outline-container-orgd3dc5e0" class="outline-5">
-<h5 id="orgd3dc5e0">Schrodinger&rsquo;s ket</h5>
-<div class="outline-text-5" id="text-orgd3dc5e0">
-<ul class="org-ul">
-<li>\(|alive\rangle+|dead\rangle\)</li>
-<li>In future weeks, we will be learning some math with kets.</li>
-</ul>
-</div>
-</div>
-</div>
-
-<div id="outline-container-orgdc4890c" class="outline-4">
-<h4 id="orgdc4890c">the Block sphere</h4>
-<div class="outline-text-4" id="text-orgdc4890c">
-<ul class="org-ul">
-<li>Qubits can be in more than three states (different than using arrow notation, that uses <b>Equal Superpostion</b>).</li>
-</ul>
-
-<div id="orgd74c58d" class="figure">
-<p><img src="https://luispengler.github.io/site/doc/images/qc-x-h.png" alt="qc-x-h.png" title="Double-slit" style="margin-left: auto;margin-right: auto;background-color: mintcream;display: block;width: 50%;" />
-</p>
-</div>
-
-
-<div id="orgad6f5df" class="figure">
-<p><img src="https://luispengler.github.io/site/doc/images/qc-h-x.png" alt="qc-h-x.png" title="Double-slit" style="margin-left: auto;margin-right: auto;background-color: mintcream;display: block;width: 50%;" />
-</p>
-</div>
-
-<ul class="org-ul">
-<li>Unequal superpositions are the ones that are not either 0, 1 or 50% superposition. It&rsquo;s like 30% of 0 and 70% of 1. They are like an unfair coin.</li>
-</ul>
-</div>
-</div>
-
-<div id="outline-container-org9ff7049" class="outline-4">
-<h4 id="org9ff7049">Quantum Gates</h4>
-<div class="outline-text-4" id="text-org9ff7049">
-<ul class="org-ul">
-<li>Quantum gates convert a qubit from one state to another.</li>
-<li>The computations that quantum gates make can be visualized as rotations on the Bloch sphere.</li>
-<li>There are a lot of gates. But we&rsquo;ll be focusing on 3 (X gate, H gate, Z gate) of them first, 2 of them today (H and X gate).</li>
-<li>For gates, we will need a 3-D coordinate system. Like x,y,z. and we can place the Bloch sphere on this coordinate system.</li>
-<li>\(|0\rangle\) lies along z, as well as \(|1\rangle\). Equal superposition \(|0\rangle+|1\rangle\) lies along x axis.</li>
-</ul>
-</div>
-
-<div id="outline-container-org9e34f5b" class="outline-5">
-<h5 id="org9e34f5b">The X gate</h5>
-<div class="outline-text-5" id="text-org9e34f5b">
-<ul class="org-ul">
-<li>it gives the opposite of the input (hint: just like NOT gate in classical computing)</li>
-<li>Input: \(|0\rangle\) Output: \(|1\rangle\)</li>
-<li>Input: \(|1\rangle\) Output: \(|0\rangle\)</li>
-<li>Its name is &ldquo;X gate&rdquo; because it does a rotation of 180º around the X axis.</li>
-</ul>
-</div>
-</div>
-
-<div id="outline-container-org18afaca" class="outline-5">
-<h5 id="org18afaca">The H gate</h5>
-<div class="outline-text-5" id="text-org18afaca">
-<ul class="org-ul">
-<li>AKA Hadamard gate</li>
-<li>It is a purely quantum gate (has no classical equivalent) and only exists on quantum computers.</li>
-<li>It creates a superposition.</li>
-<li>Input: \(|0\rangle\) Output: \(|+\rangle\)</li>
-<li>Input: \(|1\rangle\) Output: \(|-\rangle\)</li>
-<li>\(|+\rangle\) and \(|-\rangle\) are examples of superpositions.</li>
-<li>It rotates 90º on any axis, creating a superposition.</li>
-<li>We will learn more math to understand the difference between the \(|+\rangle\) and \(|-\rangle\) states.</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-
-<div id="outline-container-org259384b" class="outline-3">
-<h3 id="org259384b">Lab:</h3>
-<div class="outline-text-3" id="text-org259384b">
-<p>
-We had an introduction to Qiskit (a python library developed by IBM)
-</p>
-
-<p>
-to define a Quantum Circuit (with one qubit):
-qc = QuantumCircuit(1)
-</p>
-</div>
-</div>
-<div id="outline-container-org7c189d7" class="outline-3">
-<h3 id="org7c189d7">Guest speaker:</h3>
-<div class="outline-text-3" id="text-org7c189d7">
-<p>
-Dr. Casey Berger, visiting assistant. Computational physics.
-science fiction she&rsquo;s written: URSA MAJOR, FIRST LIGHT, DARK STARTS <a href="https://www.caseybergerbooks.com/">https://www.caseybergerbooks.com/</a>
-She studies superfluids.
-</p>
-</div>
-</div>
-</div>
+<h1 class="title">Week 22 - my notes</h1>
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Luís Spengler</p>

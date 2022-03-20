@@ -641,13 +641,13 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [X] Stargirl – 1.12: “Stars & S.T.R.I.P.E Part One”
 + [X] Stargirl – 1.13: “Stars & S.T.R.I.P.E Part Two”
 
-* 2020/2021 [0/104] [0%]
+* 2020/2021 [5/104] [4%]
 
-+ [ ] Batwoman – 2.01: “What Happened To Kate Kane”
-+ [ ] Batwoman – 2.02: “Prior Criminal History”
-+ [ ] Batwoman – 2.03: “Bat Girl Magic!”
-+ [ ] Black Lightning – 4.01: “The Book of Reconstruction: Chapter One”
-+ [ ] Batwoman – 2.04: “Fair Skin, Blue Eyes”
++ [X] Batwoman – 2.01: “What Happened To Kate Kane”
++ [X] Batwoman – 2.02: “Prior Criminal History”
++ [X] Batwoman – 2.03: “Bat Girl Magic!”
++ [X] Black Lightning – 4.01: “The Book of Reconstruction: Chapter One”
++ [X] Batwoman – 2.04: “Fair Skin, Blue Eyes”
 + [ ] Black Lightning – 4.02: “The Book of Reconstruction: Chapter Two”
 + [ ] Batwoman – 2.05: “Gore On Canvas”
 + [ ] Black Lightning – 4.03: “The Book of Reconstruction: Chapter Three”

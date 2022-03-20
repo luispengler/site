@@ -1,0 +1,11 @@
+#+TITLE: Annotations
+
++ Create a schedule to study (you and your brother) - that means strictly defining your goals for what's to come
++ 3+2 double major is not the same as double degree
++ CSS Profile non-custodial waiver (explain why vc n tem contato - documentos judiciais servem)
++ Think about somone in the school to be your consuler (to talk about your bad grade - contextualizar)
++ Apply to Brasa in the second semester (ajuda financeira)
++ +5582998329963
++ Keep an eye on "Design in the command line: Recipes for tasty outcomes" Imagemagick + ffmpeg + bash to create animation for LP work (https://erase.artdel.net/ )
++ Keep an eye on "Living in freedom with GNU Emacs"
++ Course on Open Source applications (Living in freedom with GNU emacs is a good idea!)

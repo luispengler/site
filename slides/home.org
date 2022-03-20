@@ -6,38 +6,13 @@
 #+Title: Daily college prep
 #+Author: Luís Spengler
 
-* SAT
-- 3 practice
-- [[https://www.khanacademy.org/mission/sat/][Prep]]
+* Daily
++ [ ] [[https://www.khanacademy.org/mission/sat/][SAT]]
++ [ ] Solve 10 Khan Academy Math
++ [ ] One Tópicos de Física chapter a week day
 
 * Applications
-- [X] [[https://www.iquise.mit.edu/iQuHACK/2022-01-28/apply/][iQuISE]] (21 January)
-- [X] [[https://my.hackmit.org/form/Application][MIT Blueprint]] (29 January)
-- [ ] [[https://jovensembaixadores.org.br/usuario/cadastro?email=luispengler@protonmail.com&nome=Lu%C3%ADs%20Guilherme%20Miranda%20Spengler][Youth Ambassadors]] (10 february)
-- [ ] [[https://spcsonlineapp.stanford.edu/apply/][SPCS]] (March 15)
 - [ ] [[https://beamlineforschools.cern/][A Beamline For Schools]] (April 15)
-
-* TODO (20-26/02)
-+ [X] Inscrição Edital estágio (24)
-+ [X] Chem Test (26)
-+ [X] Bia's birthday (26)
-+ [X] [[https://www.jovensembaixadores.org.br/questionario/personal-information][JE]] (27)
-
-* TODO (27/02-5/03)
-+ [X] Last week's lecture + test (27)
-+ [X] EC meeting (28)
-+ [X] Video LOA (5)
-
-* TODO (6-12/03)
-+ [X] Last week's lecture + test (6)
-+ [X] 2 Portuguese activity (7)
-+ [X] Biology test (7)
-+ [X] Talk bad about your father (8)
-+ [X] First ec presential thing (8)
-+ [X] Come dress-up in purple (8)
-+ [X] FEBRACE's video
-+ [X] Relatório de instrumentação e controle (10)
-+ [X] Instrumentação e controle's test (11)
 
 * TODO (13-19/03)
 + [X] Portuguese hw (15)
@@ -46,13 +21,20 @@
 + [X] Chemestry activity (16)
 + [X] Finish pneumática's homework (16)
 + [X] Instrumentação e controle new activity (17)
-+ [ ] Physical education's homework (18)
-+ [ ] LOA's video (19)
-+ [ ] SAT practice (19)
++ [X] Physical education's homework (18)
++ [X] LOA's video (19)
 
 * TODO (20-26)
 + [ ] Sistema's digitais apresentation (21 or 25)
-+ [ ] SAT practice (26)
++ [ ] Instrumentação e Controle: Recuperação da primeira prova (24/03-27/03)
 
 * TODO (27-2/04)
 + [ ] P1 Instrumentação e controle (31)
++ [ ] SAT Practice (April 2)
+
+* TODO (3-9/04)
++ [ ] Atividade 2 de instrumentação e controle (7/04-10/04)
+
+* TODO (17-23/04)
++ [ ] Instrumentação e controle: recuperação da segunda prova (22/04-24/04)
+* TODO (24-30/04)

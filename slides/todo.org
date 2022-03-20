@@ -1,0 +1,39 @@
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+#+REVEAL_REVEAL_JS_VERSION: 4
+#+REVEAL_TRANS: linear
+#+REVEAL_THEME: moon
+#+OPTIONS: timestamp:nil toc:nil num:nil
+#+Title: Todo - olympiads and tests
+#+Author: Luís Spengler
+
++ [ ] Math: additonal topics in math (21/03)
+
++ [ ] Math: 1 skill in recommendation (22/03)
++ [ ] A physics's chapter (22/03)
+
++ [ ] Math: additional topics in math (23/03)
++ [ ] A physics's chapter (23/03)
+
++ [ ] Math: 1 skill in recommendation (24/03)
++ [ ] A physics's chapter (24/03)
+
++ [ ] Math: addtional topics in math (25/03)
++ [ ] A physics's chapter (25/03)
+
++ [ ] Math: 1 skill in recommendation (26/03)
++ [ ] A physics's chapter (26/03)
+
++ [ ] Math: additonal topics in math (27/03)
++ [ ] A physics's chapter 27/03)
+
++ [ ] Math: 1 skill in recommendation (28/03)
++ [ ] A physics's chapter 28/03)
+
++ [ ] Math: additonal topics in math (29/03)
++ [ ] A physics's chapter (29/03)
+
++ [ ] Math: 1 skill in recommendation (30/03)
++ [ ] A physics's chapter (30/03)
+
++ [ ] Math: additonal topics in math (31/03)
++ [ ] A physics's chapter (31/03)
