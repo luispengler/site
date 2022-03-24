@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2022-03-20 Sun 19:29 -->
+<!-- 2022-03-24 Thu 09:51 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Week 22 - my notes</title>
@@ -200,14 +200,224 @@
 <script src="httpss://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="https://luispengler.github.io/site/org-html-themes/src/lib/js/jquery.stickytableheaders.min.js"></script>
 <script type="text/javascript" src="https://luispengler.github.io/site/org-html-themes/src/readtheorg_theme/js/readtheorg.js"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        displayAlign: "center",
+        displayIndent: "0em",
+
+        "HTML-CSS": { scale: 100,
+                        linebreaks: { automatic: "false" },
+                        webFont: "TeX"
+                       },
+        SVG: {scale: 100,
+              linebreaks: { automatic: "false" },
+              font: "TeX"},
+        NativeMML: {scale: 100},
+        TeX: { equationNumbers: {autoNumber: "AMS"},
+               MultLineWidth: "85%",
+               TagSide: "right",
+               TagIndent: ".8em"
+             }
+});
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML"></script>
 </head>
 <body>
 <div id="content" class="content">
 <h1 class="title">Week 22 - my notes</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org6c5a655">Week 22 - Types of Qubits and Intro to Near-Term Algorithms</a>
+<ul>
+<li><a href="#orgb153f4f">Superconducting Qubits</a></li>
+<li><a href="#orgbab62cc">Photonic Qubits</a></li>
+<li><a href="#orgf4a89aa">Guest</a></li>
+<li><a href="#org01f9803">Near-term algorithms</a></li>
+<li><a href="#orge77bbdd">Tunable Quantum Circuits</a></li>
+</ul>
+</li>
+<li><a href="#org89d0b08">Resources</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org6c5a655" class="outline-2">
+<h2 id="org6c5a655">Week 22 - Types of Qubits and Intro to Near-Term Algorithms</h2>
+<div class="outline-text-2" id="text-org6c5a655">
+</div>
+<div id="outline-container-orgb153f4f" class="outline-3">
+<h3 id="orgb153f4f">Superconducting Qubits</h3>
+<div class="outline-text-3" id="text-orgb153f4f">
+</div>
+<div id="outline-container-orgefddb20" class="outline-4">
+<h4 id="orgefddb20">Pros</h4>
+<div class="outline-text-4" id="text-orgefddb20">
+<ul class="org-ul">
+<li>It&rsquo;s on a chip</li>
+<li>Microwave technology is well developed</li>
+<li>High quality gates and readout</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org43a91c8" class="outline-4">
+<h4 id="org43a91c8">Cons</h4>
+<div class="outline-text-4" id="text-org43a91c8">
+<ul class="org-ul">
+<li>Require cooling to mK temperatures</li>
+<li>Loss to substrate material</li>
+<li>Need bigger dilution</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgbab62cc" class="outline-3">
+<h3 id="orgbab62cc">Photonic Qubits</h3>
+<div class="outline-text-3" id="text-orgbab62cc">
+</div>
+<div id="outline-container-orga10a323" class="outline-4">
+<h4 id="orga10a323">Pros</h4>
+<div class="outline-text-4" id="text-orga10a323">
+<ul class="org-ul">
+<li>Room temperature</li>
+<li>Compatible with existing fabrication infrastructure</li>
+<li>Uses photonic technology which is well-developed</li>
+<li>Low single-photon error rates</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org01e0436" class="outline-4">
+<h4 id="org01e0436">Cons</h4>
+<div class="outline-text-4" id="text-org01e0436">
+<ul class="org-ul">
+<li>Entanglement is difficult (photons don&rsquo;t interact with each other easily)</li>
+<li>Single photon generation is unreliable</li>
+<li>Superconducting detectors require cooling to K temperatures</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgf4a89aa" class="outline-3">
+<h3 id="orgf4a89aa">Guest</h3>
+<div class="outline-text-3" id="text-orgf4a89aa">
+</div>
+<div id="outline-container-org35472cf" class="outline-4">
+<h4 id="org35472cf">Rydberg Atom Qubits</h4>
+<div class="outline-text-4" id="text-org35472cf">
+<ul class="org-ul">
+<li>Relativily new type of qubit</li>
+<li>Each atom is a qubit</li>
+<li>We use the shell of the electron to identify different states</li>
+<li>The types of atoms used are called neutral atom: atoms with only one atom in the valence</li>
+<li>If  the valence electron is where it should be, it&rsquo;s \[|0\rangle\] if it&rsquo;s not, it&rsquo;s \[|1\rangle\]</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org80ebf92" class="outline-4">
+<h4 id="org80ebf92">How do you hold atoms in the right locations?</h4>
+<div class="outline-text-4" id="text-org80ebf92">
+<ul class="org-ul">
+<li>Optical tweezers are used to hold the atoms in place. It is even possible to create an array of atoms</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orge5ddf86" class="outline-4">
+<h4 id="orge5ddf86">Pros</h4>
+<div class="outline-text-4" id="text-orge5ddf86">
+<ul class="org-ul">
+<li>Large number of qubits</li>
+<li>Customizable qubit locations</li>
+<li>High decoherence time</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orge41ec9d" class="outline-4">
+<h4 id="orge41ec9d">Cons</h4>
+<div class="outline-text-4" id="text-orge41ec9d">
+<ul class="org-ul">
+<li>Physical crowding limits single-qubit gates</li>
+<li>High error rates for ~2 qubit gates</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org01f9803" class="outline-3">
+<h3 id="org01f9803">Near-term algorithms</h3>
+<div class="outline-text-3" id="text-org01f9803">
+<ul class="org-ul">
+<li>Designed to work on NISQ (Noisy Intermidiate-Scale Quantum) technology</li>
+<li>It is used by leveraging quantum computers alongside classical ones</li>
+<li>We don&rsquo;t know about advantages in near-term algorithms over classical ones</li>
+<li>These algortihms are also called hybrid algorithms (bc of quantum + classical)</li>
+<li>The ultimate goal we can shift more computation into QC, but right now, most of them are done in CC</li>
+</ul>
+</div>
+<div id="outline-container-orga6c14f6" class="outline-4">
+<h4 id="orga6c14f6">QPU &amp; CPU partnership</h4>
+<div class="outline-text-4" id="text-orga6c14f6">
+<ol class="org-ol">
+<li>Quantum Computer: Runs your Quantum Circuit</li>
+<li>Quantum Computer: Send the results of your circuit to Classical Computer</li>
+<li>Classical Computer: Figure out how to modify the circuit</li>
+<li>Classical Computer: Send new-instructions to Quantum Computer</li>
+<li>Quantum Approximate Optimization Algorithms (QAOA)</li>
+<li>Variational Quantum Eigensolver (VQE)</li>
+</ol>
+</div>
+</div>
+
+<div id="outline-container-org78970cf" class="outline-4">
+<h4 id="org78970cf">Problems VQE and QAOA can solve</h4>
+<div class="outline-text-4" id="text-org78970cf">
+<ul class="org-ul">
+<li>Constrained Optimization Problems: Find the most optimal solution</li>
+<li>The Knapsack problem (the backpack problem) is the most famous problem</li>
+<li>The KP is that you are only allowed to bring one backpack. It is up to you to pack the bag most efficiently, given that you can only carry a certain wight and certain volume</li>
+<li>You can map the different solutions in discrete values!</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orge77bbdd" class="outline-3">
+<h3 id="orge77bbdd">Tunable Quantum Circuits</h3>
+<div class="outline-text-3" id="text-orge77bbdd">
+<ul class="org-ul">
+<li>We can implement the possible solutions to different settings of a quantum circuit</li>
+<li>For our tunable circuits, we will use tunable gates.</li>
+<li>Tuning the circuit to find the most optimal circuit, it&rsquo;s just tuning these gates</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org89d0b08" class="outline-2">
+<h2 id="org89d0b08">Resources</h2>
+<div class="outline-text-2" id="text-org89d0b08">
+<p>
+VQE in the Qiskit Textbook: <a href="https://qiskit.org/textbook/ch-applications/vqe-molecules.htm">https://qiskit.org/textbook/ch-applications/vqe-molecules.htm</a>
+Introductory Blog post on VQE: <a href="https://www.mustythoughts.com/variational-quantum-eigensolver-explained">https://www.mustythoughts.com/variational-quantum-eigensolver-explained</a>
+Blog post on simulating molecules using VQE: <a href="https://towardsdatascience.com/simulated-quantum-computation-of-molecular-energies-using-vqe-c717f8c86b94">https://towardsdatascience.com/simulated-quantum-computation-of-molecular-energies-using-vqe-c717f8c86b94</a>
+</p>
+
+<p>
+Prof. Michelle Simmons: <a href="https://www.sydneyquantum.org/news/four-brilliant-women-in-quantum-share-stories-on-international-womens-day/">https://www.sydneyquantum.org/news/four-brilliant-women-in-quantum-share-stories-on-international-womens-day/</a>
+</p>
+
+
+<p>
+Dr. Hanhee Paik: <a href="https://researcher.watson.ibm.com/researcher/view.php?person=us-hanhee.paik">https://researcher.watson.ibm.com/researcher/view.php?person=us-hanhee.paik</a>
+</p>
+</div>
+</div>
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Luís Spengler</p>
-<p class="date">Created: 2022-03-20 Sun 19:29</p>
+<p class="date">Created: 2022-03-24 Thu 09:51</p>
 </div>
 </body>
 </html>

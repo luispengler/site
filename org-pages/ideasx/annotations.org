@@ -5,7 +5,59 @@
 + CSS Profile non-custodial waiver (explain why vc n tem contato - documentos judiciais servem)
 + Think about somone in the school to be your consuler (to talk about your bad grade - contextualizar)
 + Apply to Brasa in the second semester (ajuda financeira)
-+ +5582998329963
 + Keep an eye on "Design in the command line: Recipes for tasty outcomes" Imagemagick + ffmpeg + bash to create animation for LP work (https://erase.artdel.net/ )
 + Keep an eye on "Living in freedom with GNU Emacs"
 + Course on Open Source applications (Living in freedom with GNU emacs is a good idea!)
++ 42 chapters must be read (physics)
++ Dois prótons e um café: https://www.youtube.com/channel/UCW0Eyk1RrjIWFjgjBy_RR_g, Physikós: https://www.youtube.com/channel/UCIyM6oBSv0qHwxVpCl5Rehw
+
+* Lucas nos eua 1
++ Alguma das 5 mil faculdades vai te dar uma bolsa, mas qual é a certa pra vc?
++ 85% das 5mil faculdades tem mais de 50% de taxa de aceitação
++ 2 Reach, 5 Match, 3 Safety: Estratégia conservadora
+
+** Provando seu amor
++ Feiras de faculs abertas ao público
++ Webinars
++ Solicitando entrevistas e bate papos
++ Emails
++ Receber cartas físicas e posters
++ Tour virtual
++ Aplicar Early
+
+** Oglethrope University (GA) e Trinity University (TX)
++ Exemplos de EA
+
+** Os 4 fits
++ Acadêmico
+  - Procure Recursos/Tamanho
+  - Olho na grade curricular (Conteúdo é essencial)
++ Cultural
+  - Pesquisar experiência/vivência/indenpendência/networking
+  - Tamanho/Localização/Clima
+  - Dormitórios/Campus/Serviços
+  - Clubes/Organizações/Vida Social
++ Financeiro
+  - Quantos alunos recebem bolsa?
+  - Quantos de bolsa recebem?/Brasileiros?
++ Carreira
+  - Procurar career fairs
+  - Ver os ex-alumni
+
+** Mínimo-ideal-sonho
++ Mínimo
++ Ideal
++ Sonho
+
+* Lucas nos eua 2
++ Tenha um kit de stalker completo: cada site é uma ferramenta
++ Quem procura acha: estudar cada faculdade (fuçar e clicar)
++ A fila anda: pesquisar faculdades o mais cedo possível
+
+** Tops sites de pesquisa
++ Ranking: [[https://www.usnews.com/best-colleges?int=top_nav_Colleges][US News]]
++ Filtragem: [[https://collegesearch.collegeboard.org/home][Big Future]]
+senha: arroz
+
+* Wichita State University
++ Info on telegram

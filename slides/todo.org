@@ -6,13 +6,14 @@
 #+Title: Todo - olympiads and tests
 #+Author: Luís Spengler
 
-+ [ ] Math: additonal topics in math (21/03)
++ [X] Math: additonal topics in math (21/03)
++ [X] A physics's chapter (21/03)
 
-+ [ ] Math: 1 skill in recommendation (22/03)
-+ [ ] A physics's chapter (22/03)
++ [X] Math: 1 skill in recommendation (22/03)
++ [X] A physics's chapter (22/03)
 
-+ [ ] Math: additional topics in math (23/03)
-+ [ ] A physics's chapter (23/03)
++ [X] Math: additional topics in math (23/03)
++ [X] A physics's chapter (23/03)
 
 + [ ] Math: 1 skill in recommendation (24/03)
 + [ ] A physics's chapter (24/03)
@@ -24,10 +25,10 @@
 + [ ] A physics's chapter (26/03)
 
 + [ ] Math: additonal topics in math (27/03)
-+ [ ] A physics's chapter 27/03)
++ [ ] A physics's chapter (27/03)
 
 + [ ] Math: 1 skill in recommendation (28/03)
-+ [ ] A physics's chapter 28/03)
++ [ ] A physics's chapter (28/03)
 
 + [ ] Math: additonal topics in math (29/03)
 + [ ] A physics's chapter (29/03)

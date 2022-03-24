@@ -14,23 +14,23 @@
 * Applications
 - [ ] [[https://beamlineforschools.cern/][A Beamline For Schools]] (April 15)
 
-* TODO (13-19/03)
-+ [X] Portuguese hw (15)
-+ [X] Math hw (16)
-+ [X] Instalações eletricas' test (16)
-+ [X] Chemestry activity (16)
-+ [X] Finish pneumática's homework (16)
-+ [X] Instrumentação e controle new activity (17)
-+ [X] Physical education's homework (18)
-+ [X] LOA's video (19)
-
 * TODO (20-26)
-+ [ ] Sistema's digitais apresentation (21 or 25)
-+ [ ] Instrumentação e Controle: Recuperação da primeira prova (24/03-27/03)
++ [X] TUE (22): 15:00 - 17:00 - "[[https://cern.zoom.us/j/6575273504?pwd=dHNUTTk4aWkwWmJzQ2djNThQY29rdz09][Qual é a natureza das entidades físicas mais básicas? A questão do realismo: da física de partículas à química orgânica.]]"
++ [X] TUE (22): 18:00 - 19:30 - Lucas
++ [ ] TUE (22): 18:30 - "Whichita State Information Session: International Admission"
++ [ ] WED (23): 15:00 - 18:00 - "O experimento ATLAS e o início da análise dos eventos para o estudo do bóson Z"
++ [ ] WED (23): 18:00 - 19:30 - Lucas
++ [ ] THU (24): 18:00 - 20:00 - "Análise dos eventos do experimento ATLAS"
++ [ ] THU (24): 18:00 - 19:30 - Lucas
++ [ ] FRI (25): Sistemas Digitais Apresentação
++ [ ] FRI (25): Beam4sl meeting
++ [ ] FRI (25): 16:00 - 18:00 - Particle Physics
++ [ ] THU-SAT (24-26): Instrumentação e Controle: Rec P1
 
 * TODO (27-2/04)
-+ [ ] P1 Instrumentação e controle (31)
-+ [ ] SAT Practice (April 2)
++ [ ] MON (28): P2 Biologia
++ [ ] THU (31): P1 Instrumentação e controle
++ [ ] SAT (2): SAT Practice
 
 * TODO (3-9/04)
 + [ ] Atividade 2 de instrumentação e controle (7/04-10/04)

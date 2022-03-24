@@ -79,7 +79,7 @@
       <file>linux.bcf</file>
     </requires>
     <requires type="editable">
-      <file>/home/luispengler/drive/LinuxFabrik/Research/read/bib.bib</file>
+      <file>/home/luispengler/drive/NextCloud/Research/read/bib.bib</file>
     </requires>
   </external>
 </requests>
