@@ -3,6 +3,11 @@
 #+SETUPFILE: https://luispengler.github.io/site/org-html-themes/org/theme-readtheorg.setup
 #+OPTIONS: num:nil ^:{} toc:2
 
+* Legend
++ [QC] = Quantum Computing research/center
++ [101] = Possible 100% tuition or payable
++ [DM] = Double majoring available (Physics + CS)
+
 * College list
 ** Dream
 + MIT [QC]
@@ -48,6 +53,9 @@ northwestern? (QC)
 cambridge?
 waterloo? (QC)
 oxford? (QC)
+Kentucky (101) [DM]
+
+
 
 FACULDADES AMERICANAS QUE DERAM BOLSAS INTEGRAIS - CLASS OF 2025
 1. Amherst College 1x # Physics & astronomy are together; Support low-income families;

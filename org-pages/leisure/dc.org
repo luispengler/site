@@ -641,7 +641,7 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [X] Stargirl – 1.12: “Stars & S.T.R.I.P.E Part One”
 + [X] Stargirl – 1.13: “Stars & S.T.R.I.P.E Part Two”
 
-* 2020/2021 [6/104] [5%]
+* 2020/2021 [19/104] [18%]
 
 + [X] Batwoman – 2.01: “What Happened To Kate Kane”
 + [X] Batwoman – 2.02: “Prior Criminal History”
@@ -649,19 +649,19 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [X] Black Lightning – 4.01: “The Book of Reconstruction: Chapter One”
 + [X] Batwoman – 2.04: “Fair Skin, Blue Eyes”
 + [X] Black Lightning – 4.02: “The Book of Reconstruction: Chapter Two”
-+ [ ] Batwoman – 2.05: “Gore On Canvas”
-+ [ ] Black Lightning – 4.03: “The Book of Reconstruction: Chapter Three”
-+ [ ] Superman & Lois – 1.01: “Pilot”
-+ [ ] Batwoman – 2.06: “Do Not Resuscitate”
-+ [ ] Black Lightning – 4.04: “The Book of Reconstruction: Chapter Four”
-+ [ ] The Flash – 7.01: “All’s Wells That Ends Wells”
-+ [ ] Superman & Lois – 1.02: “Heritage”
-+ [ ] Black Lightning – 4.05: “The Book of Ruin: Chapter One”
-+ [ ] The Flash – 7.02: “The Speed of Thought”
-+ [ ] Superman & Lois – 1.03: “The Perks of Not Being a Wallflower”
-+ [ ] Batwoman – 2.07: “It’s Best You Stop Digging”
-+ [ ] Black Lightning – 4.06: “The Book of Ruin: Chapter Two”
-+ [ ] The Flash – 7.02: “Mother”
++ [X] Batwoman – 2.05: “Gore On Canvas”
++ [X] Black Lightning – 4.03: “The Book of Reconstruction: Chapter Three”
++ [X] Superman & Lois – 1.01: “Pilot”
++ [X] Batwoman – 2.06: “Do Not Resuscitate”
++ [X] Black Lightning – 4.04: “The Book of Reconstruction: Chapter Four”
++ [X] The Flash – 7.01: “All’s Wells That Ends Wells”
++ [X] Superman & Lois – 1.02: “Heritage”
++ [X] Black Lightning – 4.05: “The Book of Ruin: Chapter One”
++ [X] The Flash – 7.02: “The Speed of Thought”
++ [X] Superman & Lois – 1.03: “The Perks of Not Being a Wallflower”
++ [X] Batwoman – 2.07: “It’s Best You Stop Digging”
++ [X] Black Lightning – 4.06: “The Book of Ruin: Chapter Two”
++ [X] The Flash – 7.03: “Mother”
 + [ ] Superman & Lois – 1.04: “Haywire”
 + [ ] Batwoman – 2.08: “Survived Much Worse”
 + [ ] The Flash – 7.04: “Central City Strong”

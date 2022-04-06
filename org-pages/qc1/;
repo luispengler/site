@@ -1,0 +1,34 @@
+#+TITLE: Week 23 - my notes
+#+DESCRIPTION: Week 23 - my notes
+#+SETUPFILE: https://luispengler.github.io/site/org-html-themes/org/theme-readtheorg.setup
+#+LaTeX_+HEADER: \usepackage{physics}
+#+LaTeX_+HEADER: \usepackage{amsmath}
+#+OPTIONS: num:nil ^:{} toc:2
+
+* Week 23 - VQE and its Applications
++ We can combine quantum computing with classical computing to solve problems
++ Today we will look in chemisty simulation and finance
+
+** Chemestry
++ Understanding how a molecule is composed and structured, you can use this knowledge to explain its function and properties
++ We can reverse engineer this process, by creating something that you want to behave in a certain way
++ The problem is that finding a structure is hard. Finding its composition is easy
++ Quantum computers will help us find these structures!
++ Bigger molecule = more calculation = more computing power
+
+** Case Study: Protein folding
++ As the size of the protein increases, the number of possible solutions for its structure rises exponentially
++ One method of developing vaccines is to disrupt the process of a virus' spike protein from binding to human cells
++ In order to find a molecule that can stop this process, we need to try /many/ simulations
++ In pharmaceuticals, you're dealing with large proteins with thousands of atoms
++ To experimentally determine a protein structure, you use x-ray or electron diffraction, Nuclear Magnetic Resonance, and Cyro electron microscopy
++ To computationall determine a protein structure, you use molecular dynamics simulations on a supercomputer, crowdsourced simulations (folding@home), and artificial intelligence
++ Why to use quantum? Quantum systems are naturally discrete, so we can map the different possible solutions to the optimization problem to discrete quantum levels
++ Because of current hardware errors, results aren't reliable, therefore we use VQE to shift some of the work to classical computers
+
+** VQE cycle to find protein structure
+1. CPU receives atoms in the protein
+2. CPU decides which structure to try out and sends to QPU
+3. QPU measures the energy of the structure
+4. QPU sends results of the measurement to CPU
+5. CPU decides if this structure minimizes energy - if yes, solved. If not, repeat the process

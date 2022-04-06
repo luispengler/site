@@ -15,26 +15,36 @@
 + [X] Math: additional topics in math (23/03)
 + [X] A physics's chapter (23/03)
 
-+ [ ] Math: 1 skill in recommendation (24/03)
-+ [ ] A physics's chapter (24/03)
++ [X] Math: 1 skill in recommendation (24/03)
++ [X] A physics's chapter (24/03)
 
-+ [ ] Math: addtional topics in math (25/03)
-+ [ ] A physics's chapter (25/03)
++ [X] Math: addtional topics in math (25/03)
++ [X] A physics's chapter (25/03)
 
-+ [ ] Math: 1 skill in recommendation (26/03)
-+ [ ] A physics's chapter (26/03)
++ [X] Math: 1 skill in recommendation (26/03)
++ [X] Physics: Solve chapter's week aditional exercises (26/03)
 
-+ [ ] Math: additonal topics in math (27/03)
-+ [ ] A physics's chapter (27/03)
++ [X] Math: additonal topics in math (27/03)
++ [X] Physics: Solve chapter's week aditional exercises (27/03)
 
-+ [ ] Math: 1 skill in recommendation (28/03)
-+ [ ] A physics's chapter (28/03)
++ [X] Math: passport to advance math (28/03)
++ [X] A physics's chapter (28/03)
 
-+ [ ] Math: additonal topics in math (29/03)
-+ [ ] A physics's chapter (29/03)
++ [X] Math: 1 skill in recommendation (29/03)
++ [X] Physics: Finish late exercises (29/03)
 
-+ [ ] Math: 1 skill in recommendation (30/03)
-+ [ ] A physics's chapter (30/03)
++ [X] Math: passport to advance math (30/03)
++ [X] Physics: Finish late exercises (30/03)
 
-+ [ ] Math: additonal topics in math (31/03)
-+ [ ] A physics's chapter (31/03)
++ [X] Math: 1 skill in recommendation (31/03)
++ [X] Physics: Finish late exercises (31/03)
+
++ [X] Math: passport to advance math (01/04)
++ [X] Physics: Finish late exercises (01/04)
+
++ [X] SAT Practice (02/04)
++ [X] Physics: Finish late exercises (02/04)
+
++ [X] Physics: Finish late exercises (03/04)
+
++ [X] A physics's chapter (04/04)

@@ -6,9 +6,9 @@
 <!-- 2022-04-06 Wed 10:55 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Week 2 - me own writings</title>
+<title>Week 23 - my notes</title>
 <meta name="author" content="Luís Spengler" />
-<meta name="description" content="Week 2 - my own writings" />
+<meta name="description" content="Week 23 - my notes" />
 <meta name="generator" content="Org Mode" />
 <style>
   #content { max-width: 60em; margin: auto; }
@@ -203,22 +203,113 @@
 </head>
 <body>
 <div id="content" class="content">
-<h1 class="title">Week 2 - me own writings</h1>
+<h1 class="title">Week 23 - my notes</h1>
 <div id="table-of-contents" role="doc-toc">
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#orge703844">THIS PAGE IS A PLACE HOLDER</a></li>
+<li><a href="#orgb6d9252">Week 23 - VQE and its Applications</a>
+<ul>
+<li><a href="#org25b522f">Chemestry</a></li>
+<li><a href="#org2a60370">Case Study: Protein folding</a></li>
+<li><a href="#org2903125">VQE cycle to find protein structure</a></li>
+<li><a href="#org68c7ec8">VQE for Finance</a></li>
+<li><a href="#orgdbc65c0">Three &ldquo;buckets&rdquo; of quantum applications</a></li>
+</ul>
+</li>
+<li><a href="#org55de936">Resources</a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orge703844" class="outline-2">
-<h2 id="orge703844">THIS PAGE IS A PLACE HOLDER</h2>
-<div class="outline-text-2" id="text-orge703844">
-<p>
-Content is coming soon.
-</p>
+<div id="outline-container-orgb6d9252" class="outline-2">
+<h2 id="orgb6d9252">Week 23 - VQE and its Applications</h2>
+<div class="outline-text-2" id="text-orgb6d9252">
+<ul class="org-ul">
+<li>We can combine quantum computing with classical computing to solve problems</li>
+<li>Today we will look in chemisty simulation and finance</li>
+</ul>
+</div>
+
+<div id="outline-container-org25b522f" class="outline-3">
+<h3 id="org25b522f">Chemestry</h3>
+<div class="outline-text-3" id="text-org25b522f">
+<ul class="org-ul">
+<li>Understanding how a molecule is composed and structured, you can use this knowledge to explain its function and properties</li>
+<li>We can reverse engineer this process, by creating something that you want to behave in a certain way</li>
+<li>The problem is that finding a structure is hard. Finding its composition is easy</li>
+<li>Quantum computers will help us find these structures!</li>
+<li>Bigger molecule = more calculation = more computing power</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org2a60370" class="outline-3">
+<h3 id="org2a60370">Case Study: Protein folding</h3>
+<div class="outline-text-3" id="text-org2a60370">
+<ul class="org-ul">
+<li>As the size of the protein increases, the number of possible solutions for its structure rises exponentially</li>
+<li>One method of developing vaccines is to disrupt the process of a virus&rsquo; spike protein from binding to human cells</li>
+<li>In order to find a molecule that can stop this process, we need to try <i>many</i> simulations</li>
+<li>In pharmaceuticals, you&rsquo;re dealing with large proteins with thousands of atoms</li>
+<li>To experimentally determine a protein structure, you use x-ray or electron diffraction, Nuclear Magnetic Resonance, and Cyro electron microscopy</li>
+<li>To computationall determine a protein structure, you use molecular dynamics simulations on a supercomputer, crowdsourced simulations (folding@home), and artificial intelligence</li>
+<li>Why to use quantum? Quantum systems are naturally discrete, so we can map the different possible solutions to the optimization problem to discrete quantum levels</li>
+<li>Because of current hardware errors, results aren&rsquo;t reliable, therefore we use VQE to shift some of the work to classical computers</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org2903125" class="outline-3">
+<h3 id="org2903125">VQE cycle to find protein structure</h3>
+<div class="outline-text-3" id="text-org2903125">
+<ol class="org-ol">
+<li>CPU receives atoms in the protein: We know what atoms are present, just not how they are arranged three-dimensionally</li>
+<li>CPU decides which structure to try out and sends to QPU: The structure will get implemented using a tunable quantum circuit. A lot of math is used here.</li>
+<li>QPU measures the energy of the structure: This is very similar to the circuit measurements we made in the labs</li>
+<li>QPU sends results of the measurement to CPU:</li>
+<li>CPU decides if this structure minimizes energy - if yes, solved. If not, repeat the process</li>
+</ol>
+</div>
+</div>
+
+<div id="outline-container-org68c7ec8" class="outline-3">
+<h3 id="org68c7ec8">VQE for Finance</h3>
+<div class="outline-text-3" id="text-org68c7ec8">
+<ul class="org-ul">
+<li>The world of finance is built upon massive data sets</li>
+<li>Quantum applications in finance are already in motion</li>
+<li>QC could solve High-Frequency Trading, Risk Profiling, Portfolio Optimization</li>
+<li>Given a choice of available assets (cash, stocks, commodities), what is the best combination of assets to maximize your returns and minimize risk?</li>
+<li>CPU receives the assests in the portfolio</li>
+<li>CPU decides which portfolio to try and sends to QPU</li>
+<li>QPU measures the expected value of the portfolio</li>
+<li>QPU sends results of the measurement to CPU</li>
+<li>CPU decides if this portfolio maximizes returns - if yes, solved. If not, repeat the process</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgdbc65c0" class="outline-3">
+<h3 id="orgdbc65c0">Three &ldquo;buckets&rdquo; of quantum applications</h3>
+<div class="outline-text-3" id="text-orgdbc65c0">
+<ul class="org-ul">
+<li>Quantum protocols: Sending and receiving qubits for cryptography and efficiency communication (E.g. Superdense coding)</li>
+<li>Longer-term algorithms: Powerful algorithms that assume perfect, fault-tolerant hardware with millions of qubits, which is likely decades away (Grover&rsquo;s algorithm)</li>
+<li>Near-term algorithms: Leverage quantum computers alongside classical computers to perform functions more efficiently than classical alone (VQE)</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org55de936" class="outline-2">
+<h2 id="org55de936">Resources</h2>
+<div class="outline-text-2" id="text-org55de936">
+<ul class="org-ul">
+<li>Blog post on simulating molecules using VQE: <a href="https://towardsdatascience.com/simulated-quantum-computation-of-molecular-energies-using-vqe-c717f8c86b94">https://towardsdatascience.com/simulated-quantum-computation-of-molecular-energies-using-vqe-c717f8c86b94</a></li>
+<li>McKinsey report on quantum computing in finance: <a href="https://www.mckinsey.com/industries/financial-services/our-insights/how-quantum-computing-could-change-financial-services">https://www.mckinsey.com/industries/financial-services/our-insights/how-quantum-computing-could-change-financial-services</a></li>
+<li>Technical paper on QC in finance: <a href="https://arxiv.org/pdf/2006.14510.pdf">https://arxiv.org/pdf/2006.14510.pdf</a></li>
+</ul>
 </div>
 </div>
 </div>
