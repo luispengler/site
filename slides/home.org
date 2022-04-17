@@ -19,14 +19,9 @@ https://media.libreplanet.org/
 * To watch
 + Masterclass classes (lol -redudence)
 
-* TODO (3-9/04)
-+ [ ] Atividade 2 de instrumentação e controle (7/04-10/04)
-+ [ ] WED (6) 18h-19h30: Física [[http://www.sbfisica.org.br/v1/home/index.php/pt/fisica-ao-vivo][ao Vivo]] (Sociedade Brasileira de Física) - "O que é o problema da medição em mecânica quântica?"
-+ [ ] SAT (9): Ao infinito e além (Video LOA)
-
-* TODO (10-16/04)
-+ [ ] WED (13): Math test + list
-
 * TODO (17-23/04)
++ [ ] TUE (19) History 3 rec
++ [ ] WED (20): Instalações Elétricas test
++ [ ] WED (20): Chemestry test
 + [ ] Instrumentação e controle: recuperação da segunda prova (22/04-24/04)
 * TODO (24-30/04)

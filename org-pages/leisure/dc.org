@@ -641,7 +641,7 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [X] Stargirl – 1.12: “Stars & S.T.R.I.P.E Part One”
 + [X] Stargirl – 1.13: “Stars & S.T.R.I.P.E Part Two”
 
-* 2020/2021 [19/104] [18%]
+* 2020/2021 [33/104] [31%]
 
 + [X] Batwoman – 2.01: “What Happened To Kate Kane”
 + [X] Batwoman – 2.02: “Prior Criminal History”
@@ -662,20 +662,20 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [X] Batwoman – 2.07: “It’s Best You Stop Digging”
 + [X] Black Lightning – 4.06: “The Book of Ruin: Chapter Two”
 + [X] The Flash – 7.03: “Mother”
-+ [ ] Superman & Lois – 1.04: “Haywire”
-+ [ ] Batwoman – 2.08: “Survived Much Worse”
-+ [ ] The Flash – 7.04: “Central City Strong”
-+ [ ] Superman & Lois – 1.05: “The Best of Smallville”
-+ [ ] Batwoman – 2.09: “Rule #1”
-+ [ ] The Flash – 7.05: “Fear Me”
-+ [ ] Supergirl – 6.01: “Rebirth”
-+ [ ] The Flash – 7.06: “The One With The Nineties”
-+ [ ] Supergirl – 6.02: “A Few Good Women”
-+ [ ] Batwoman – 2.10: “Time Off For Good Behavior”
-+ [ ] Black Lightning – 4.07: “Painkiller”
-+ [ ] The Flash – 7.07: “Growing Pains”
-+ [ ] Supergirl – 6.03: “Phantom Menaces”
-+ [ ] Batwoman – 2.11: “Arrive Alive”
++ [X] Superman & Lois – 1.04: “Haywire”
++ [X] Batwoman – 2.08: “Survived Much Worse”
++ [X] The Flash – 7.04: “Central City Strong”
++ [X] Superman & Lois – 1.05: “The Best of Smallville”
++ [X] Batwoman – 2.09: “Rule #1”
++ [X] The Flash – 7.05: “Fear Me”
++ [X] Supergirl – 6.01: “Rebirth”
++ [X] The Flash – 7.06: “The One With The Nineties”
++ [X] Supergirl – 6.02: “A Few Good Women”
++ [X] Batwoman – 2.10: “Time Off For Good Behavior”
++ [X] Black Lightning – 4.07: “Painkiller”
++ [X] The Flash – 7.07: “Growing Pains”
++ [X] Supergirl – 6.03: “Phantom Menaces”
++ [X] Batwoman – 2.11: “Arrive Alive”
 + [ ] Black Lightning – 4.08: “The Book of Ruin: Chapter Three”
 + [ ] Supergirl – 6.04: “Lost Souls”
 + [ ] Black Lightning – 4.09: “The Book of Ruin: Chapter Four”

@@ -6,45 +6,37 @@
 #+Title: Todo - olympiads and tests
 #+Author: Luís Spengler
 
-+ [X] Math: additonal topics in math (21/03)
-+ [X] A physics's chapter (21/03)
+* Week 1
++ [X] 3 Heart of Algebra (11/04)
++ [X] English recommendation (12/04)
++ [ ] 3 Heart of Algebra (13/04) (1/3)
++ [ ] English recommendation (14/04)
++ [ ] 3 Heart of Algebra (15/04)
++ [ ] English recommendation (16/04)
 
-+ [X] Math: 1 skill in recommendation (22/03)
-+ [X] A physics's chapter (22/03)
+* Week 2
++ [ ] 3 Passport to advanced mathematics (17/04)
++ [ ] English recommendation (18/04)
++ [ ] 3 Passport to advanced mathematics (19/04)
++ [ ] English recommendation (20/04)
++ [ ] 5 Passport to advanced mathematics (21/04)
++ [ ] English recommendation (22/04)
++ [ ] 3 Passport to advanced mathematics (23/04)
 
-+ [X] Math: additional topics in math (23/03)
-+ [X] A physics's chapter (23/03)
+* Week 3
++ [ ] English recommendation (24/04)
++ [ ] 4 Problem solving and data analysis (25/04)
++ [ ] English recommendation (26/04)
++ [ ] 3 Problem solving and data analysis (27/04)
++ [ ] English recommendation (28/04)
++ [ ] 3 Problem solving and data analysis (29/04)
++ [ ] English recommendation (30/04)
 
-+ [X] Math: 1 skill in recommendation (24/03)
-+ [X] A physics's chapter (24/03)
-
-+ [X] Math: addtional topics in math (25/03)
-+ [X] A physics's chapter (25/03)
-
-+ [X] Math: 1 skill in recommendation (26/03)
-+ [X] Physics: Solve chapter's week aditional exercises (26/03)
-
-+ [X] Math: additonal topics in math (27/03)
-+ [X] Physics: Solve chapter's week aditional exercises (27/03)
-
-+ [X] Math: passport to advance math (28/03)
-+ [X] A physics's chapter (28/03)
-
-+ [X] Math: 1 skill in recommendation (29/03)
-+ [X] Physics: Finish late exercises (29/03)
-
-+ [X] Math: passport to advance math (30/03)
-+ [X] Physics: Finish late exercises (30/03)
-
-+ [X] Math: 1 skill in recommendation (31/03)
-+ [X] Physics: Finish late exercises (31/03)
-
-+ [X] Math: passport to advance math (01/04)
-+ [X] Physics: Finish late exercises (01/04)
-
-+ [X] SAT Practice (02/04)
-+ [X] Physics: Finish late exercises (02/04)
-
-+ [X] Physics: Finish late exercises (03/04)
-
-+ [X] A physics's chapter (04/04)
+* Week 4
++ [ ] 4 Additional topics in math (01/05)
++ [ ] English recommendation (02/05)
++ [ ] 2 Additional topics in math (03/05)
++ [ ] English recommendation (04/05)
++ [ ] 2 Additional topics in math (05/05)
++ [ ] English recommendation (06/05)
++ [ ] Sat Mock test (07/05)

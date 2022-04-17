@@ -297,3 +297,15 @@ Qubit by Qubit by The coding School, Video editor senior, Physics teacher assist
 Os meus pais estão separados e não tenho muito contato com ele, porque a minha mãe tem medida protetiva e as nossas visitas são assistidas. Moro com a minha mãe e os meus dois irmãos menores de idade. Atualmente a minha mãe esta desempregada e contamos apenas com a pensão alimentícia no valor de meio salário mínimo e r$ 400,00 do Auxílio Brasil. Utilizo transporte público para ir para a escola, ao médico, laboratório. Faço tratamento de uma doença autoimune chamada PTI, pelo SUS, mas às vezes a minha mãe paga alguns exames.
 + Explain the objectives of this social entrepreneurship initiative:* (500 chars.) [ENGLISH CLUB]
 Our goal is to promote opportunities of development of the English language teaching-learning, integrating it to other areas of knowledge, and counting with teachers, students, and servants. To do so, we offer activities in the English language that contain the language, contributing to intellectual production, scientific, artistic and cultural of students and servants.
+
+* Codelab
+*USE YOUR SCHOOL EMAILLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL
++ Por que você deseja se tornar um mentor no Code Lab? (Até 100 palavras)
+Quero contribuir para a democratização do ensino de programação para jovens de todo Brasil, pois acredito ter grande
+
++ Informe seu nível de conhecimento na(s) linguagem(ns) que deseja ensinar, fornecendo o máximo de detalhes possível. *
+
++ Por favor, utilize esse espaço para dar mais detalhes a respeito da sua disponibilidade.
+Se possível, gostaria de trabalhar diretamente com o aluno(a) por no máximo 2 horas por semana. Preferencialmente uma hora na quinta-feira a tarde/noite, estaria disponível entre as 17h-21h e outra hora no sábado/domingo esses mesmos horários.
+No entanto, gostaria de usar cerca de duas horas por semana na elaboração de materiais introdutórios a programação em C, ou em algo que venho chamando "Programação em ambiente Linux: Bash/Shell + LaTeX e Markdown", que consistiria na melhor introdução possível a programação no ambiente Linux, abordando de jeito único os benefícios de se utilizar esse sistema operacional.
+A ideia de se fazer duas calls por semana de 1h (esses horários na quinta/sábado/domingo) é para se desenvolver um método de ensino de programação que considere aulas de até 1h. Por isso também, considero trabalhar com apenas 1 aluno do nível iniciante.

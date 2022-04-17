@@ -69,6 +69,8 @@ senha: arroz
 * Education USA
 + 99% universities will have financial aid, but it is important to understand what kind of it
 + It is not university tution you need to worry about (there is also books & supplies, health insurance, room & board, misecellaneous living expenses)
++ Lecture number 4 is really useful (common mistakes to avoid in your application)
++ Additional Information: I NEED TO USE THIS
 ** Kinds of need
 + Need based: scholarships given based on need (based on family income)
 + Merit based: students receive this based on their special skills, competitiveness, etc
@@ -76,9 +78,36 @@ senha: arroz
 + Need aware: applicants financial status affect their admittion
 + Unmet need: the amout you need to pay after the scholarship is applied (what the scholarship doesn't cover)
 
-https://international.uky.edu/Apply/LifeAtUK/AskAWildcat
-https://augie.zoom.us/j/3627775868?pwd=NE9qUWFxZXZkVFFzK1JkUFlEdHN2UT09
-https://oswego-edu.zoom.us/j/9437133759
-https://ucf.zoom.us/meeting/register/tJEqdumqrzIsGNzRP5so_9y4et_jvTkLb2HG
-https://uky.zoom.us/j/85105451518
+* New idea
++ Define this "club" goal...
++ "Computação Quântica - Plano de aula com enfoque para o Ensino Médio" will work for thinking about creating the IFMS QC course, but it can be improved...
++ This project should involve particle physics too!
++ Building OPEN SOURCE detectors (particle physics), the Pauli teta QC (wow!)
++ This project may be done in 3 different tracks... classical physics, particle physics and quantum mechanics focused on quantum computing
++ Building a photonics quantum computer (School builds quantum computer to teach students...), but why..
 
+** The why
++ It is scalable
++ It is robust
++ Practical (room temperature, can be easily integrated infrastucturely)
+** Materials
++ Optical Table
++ 2 Lasers (One class four, another class 1)
++ EPI for Lasers
++ 1 KDP (monopotassium phosphate) crystal
++ 3 Polarized Beam Splitter (2 for breaking the entanglement + 1 for identification of the measurement)
++ 2 Mirrors (for breakign the entanglement)
++ 1 Photomultiplier Tube (for measurement)
+*** Gates
++ 3 Rx gate (1 Rx gate will work as an X gate + 1 Rx gate will work as an H gate + 1 Rx gate will work as a real Rx gate)
+
+* Marcohort 2
++ I don't get how music is applied into your life (how you feel), and give the example. He doesn't illustrate how it is important music in his context... <- Just Add things in another color, don't delete;
++ The music story will probably not become a personal statement, probably something for a supplemental essay
++ They cycling thing (the imposed limitation here... how?) and the autoimmune disease (focus on how you life were before and how you had to adjust, what you had to do differently like mentally, etc - how did you feel about it? - some limitations were imposed on me, how you feel about it?)
+
+* New idea
++ Create a palce (it can be a website) for people to share real world problems
++ I am tired of looking at my country and seeing only problems. I start thinking of a way I could fix them, but it is just too much for one person
++ So I decided to create this place where anyone can share a problem their community have. Someone can come and propose a solution
++ Maybe a social media???????????????
