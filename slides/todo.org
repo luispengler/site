@@ -16,8 +16,8 @@
 
 * Week 2
 + [ ] 3 Passport to advanced mathematics (17/04)
-+ [ ] English recommendation (18/04)
-+ [ ] 3 Passport to advanced mathematics (19/04)
++ [X] English recommendation (18/04)
++ [X] 3 Passport to advanced mathematics (19/04)
 + [ ] English recommendation (20/04)
 + [ ] 5 Passport to advanced mathematics (21/04)
 + [ ] English recommendation (22/04)

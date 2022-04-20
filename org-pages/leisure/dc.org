@@ -641,7 +641,7 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [X] Stargirl – 1.12: “Stars & S.T.R.I.P.E Part One”
 + [X] Stargirl – 1.13: “Stars & S.T.R.I.P.E Part Two”
 
-* 2020/2021 [33/104] [31%]
+* 2020/2021 [39/104] [37%]
 
 + [X] Batwoman – 2.01: “What Happened To Kate Kane”
 + [X] Batwoman – 2.02: “Prior Criminal History”
@@ -676,12 +676,12 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [X] The Flash – 7.07: “Growing Pains”
 + [X] Supergirl – 6.03: “Phantom Menaces”
 + [X] Batwoman – 2.11: “Arrive Alive”
-+ [ ] Black Lightning – 4.08: “The Book of Ruin: Chapter Three”
-+ [ ] Supergirl – 6.04: “Lost Souls”
-+ [ ] Black Lightning – 4.09: “The Book of Ruin: Chapter Four”
-+ [ ] Supergirl – 6.05: “Prom Night”
-+ [ ] Legends of Tomorrow – 6.01: “Ground Control to Sara Lance”
-+ [ ] Batwoman – 2.12: “Initiate Self Destruct”
++ [X] Black Lightning – 4.08: “The Book of Ruin: Chapter Three”
++ [X] Supergirl – 6.04: “Lost Souls”
++ [X] Black Lightning – 4.09: “The Book of Ruin: Chapter Four”
++ [X] Supergirl – 6.05: “Prom Night”
++ [X] Legends of Tomorrow – 6.01: “Ground Control to Sara Lance”
++ [X] Batwoman – 2.12: “Initiate Self Destruct”
 + [ ] Black Lightning – 4.10: “The Book of Reunification: Chapter One”
 + [ ] The Flash – 7.08: “The People v. Killer Frost”
 + [ ] Supergirl – 6.06: “Prom Again!”

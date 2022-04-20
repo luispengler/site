@@ -111,3 +111,7 @@ senha: arroz
 + I am tired of looking at my country and seeing only problems. I start thinking of a way I could fix them, but it is just too much for one person
 + So I decided to create this place where anyone can share a problem their community have. Someone can come and propose a solution
 + Maybe a social media???????????????
+
+
+* Colleges test
+Suggested Schools: Science: California Institute of Technology, Clarkson University, Georgia Institute of Technology, Harvey Mudd College, Massachusetts Institute of Technology, New Mexico Institute of Mining and Technology, Rensselaer Polytechnic Institute, Texas Tech University Not science: UCLA, University of North Carolina, Penn State, or Michigan State

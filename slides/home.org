@@ -14,14 +14,19 @@
 https://media.libreplanet.org/
 
 * Applications
-- [ ] [[https://beamlineforschools.cern/][A Beamline For Schools]] (April 15)
+- [X] [[https://beamlineforschools.cern/][A Beamline For Schools]] (April 15)
+- [ ] MOBFOG + OBA (May 20)
 
 * To watch
 + Masterclass classes (lol -redudence)
 
 * TODO (17-23/04)
-+ [ ] TUE (19) History 3 rec
++ [X] MON (18): Biology test
++ [X] TUE (19): History 3 rec
++ [X] TUE (19): Dois trabalhos
++ [X] TUE (19): Portuguese test
 + [ ] WED (20): Instalações Elétricas test
 + [ ] WED (20): Chemestry test
 + [ ] Instrumentação e controle: recuperação da segunda prova (22/04-24/04)
 * TODO (24-30/04)
++ [ ] TUE (26): Máquinas rec

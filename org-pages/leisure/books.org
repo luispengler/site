@@ -20,3 +20,22 @@ https://luispengler.github.io/site/doc/images/missperegrines.jpg
 
 *** Description
 "A mysterious island. An abandoned orphanage. A strange collection of vintage photography. It all waits to be discovered in Miss Peregrine’s Home for Peculiar Children, a spine-tingling YA fantasy illustrated with haunting black-and-white photography. The hardcover edition spent more than 52 consecutive weeks on the New York Times Best-Seller List. This beautifully designed paperback edition features an exclusive interview with author Ransom Riggs and a sneak preview of the upcoming Miss Peregrine novel."
+
+
+** QED: The Strange Theory of Light and Matter
+
+*** Cover sample
+#+ATTR_HTML: alt: waterwave :title Double-slit :style margin-left: auto;margin-right: auto;background-color: mintcream;display: block;width: 50%;
+https://luispengler.github.io/site/doc/images/qed.jpg
+
+*** Description
+"Celebrated for his brilliantly quirky insights into the physical world, Nobel laureate Richard Feynman also possessed an extraordinary talent for explaining difficult concepts to the general public. Here Feynman provides a classic and definitive introduction to QED (namely, quantum electrodynamics), that part of quantum field theory describing the interactions of light with charged particles. Using everyday language, spatial concepts, visualizations, and his renowned "Feynman diagrams" instead of advanced mathematics, Feynman clearly and humorously communicates both the substance and spirit of QED to the layperson. A. Zee's introduction places Feynman’s book and his seminal contribution to QED in historical context and further highlights Feynman’s uniquely appealing and illuminating style."
+
+** What is Spiritism?
+
+*** Cover sample
+#+ATTR_HTML: alt: waterwave :title Double-slit :style margin-left: auto;margin-right: auto;background-color: mintcream;display: block;width: 50%;
+https://luispengler.github.io/site/doc/images/spiritism1.jpg
+
+*** Description
+"A work that is still up-to-date, What is Spiritism? is useful for adherents of the Spiritist Doctrine as well as for those who want to understand the nature of Spiritism and its fundamental points. Kardec’s logic and common sense are obvious in this book as he confounds Spiritism’s detractors while answering the questions of those who believe in and aspire to a superior life. The book is divided into three chapters. The first is composed of dialogues between Kardec and a critic, a skeptic and a priest, providing answers to those who do not understand the basic principles of Spiritism. It also presents appropriate refutations to its opponents. The second chapter presents practical and experimental aspects of the science and is a kind of summary of The Mediums’ Book. The third chapter is a short synthesis of The Spirits’ Book, with solutions to psychological, moral and philosophical problems according to the Spiritist Doctrine. In addition, the book is prefaced with an abridged version of Henri Sausse’s biography of Allan Kardec.""

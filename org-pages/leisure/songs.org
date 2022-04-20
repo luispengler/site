@@ -1,0 +1,116 @@
+#+TITLE: Learning Acousting Guitar - Selftracking progress through songs
+#+DESCRIPTION: Learning Acousting Guitar - Selftracking progress through songs
+#+SETUPFILE:  https://luispengler.github.io/site/org-html-themes/org/theme-readtheorg.setup
+#+OPTIONS: num:nil ^:{} toc:1
+
+* Getting started
+You are probably wondering... One more list of things? The answer is yes, but that's the wrong question! Why am I doing this? To simply put this: I wanna learn guitar again and don't wanna get unmotivated.
+
+I already played acoustic guitar before, even electric. But perhaps I might've gotten slightly unmotivated to play as time passed by. And every time I wanna show my guitar skills I've got no songs to play! So I should also build my music repertoire
+
+** Begginer
++ [X] Hurt - Johnny Cash
++ [X] Slow Cheetah - Red Hot Chilli Peppers
++ [ ] I Got a Name – Jim Croce
++ [ ] Big Yellow Taxi – Joni Mitchell
++ [ ] Bad Bad Leroy Brown – Jim Croce
++ [ ] Time For Me to Fly – REO Speedwagon
++ [ ] Take Me Home Country Roads – John Denver
++ [ ] The House of the Rising Sun – The Animals
++ [ ] I’m Yours – Jason Mraz
++ [ ] Every Rose has It’s Thorn – Poison
++ [ ] Not Fade Away – Buddy Holly
++ [ ] Waiting In Vain – Bob Marley
++ [ ] Old Time Rock n’ Roll – Bob Seger
++ [ ] Sweet Home Alabama – Lynyrd Skynyrd
++ [ ] Glory Days – Bruce Springsteen
++ [ ] You Are My Sunshine – Jimmie Davis
++ [ ] Wild Thing – The Troggs
++ [ ] Free Fallin – Tom Petty
++ [ ] More than Words – Extreme
++ [ ] Everlong – Foo Fighters
++ [ ] Big Me – Foo Fighters
++ [ ] Hey There Delilah – Plane White T’s
++ [ ] Hound Dog – Elvis Presley
++ [ ] Hot Legs – Rod Stewart
++ [ ] Sweet Caroline – Neil Diamond
++ [ ] You’re In My Heart (Final Acclaim) – Rod Stewart
++ [ ] Twist and Shout – The Beatles
++ [ ] Wild Horses – The Rolling Stones
++ [ ] Franklin’s Tower – The Grateful Dead
++ [ ] Old Man – Neil Young
++ [ ] Three Little Birds – Bob Marley
++ [ ] Bad Moon Rising – Creedence Clearwater Revival
++ [ ] Let It Be – The Beatles
++ [ ] Songbird – Oasis
++ [ ] Perfect – Ed Sheeran
++ [ ] Wonderful Tonight – Eric Clapton
++ [ ] Let Her Go – Passenger
++ [ ] Can’t You See – Marshall Tucker Band
++ [ ] Leaving on a Jet Plane – John Denver
++ [ ] I Still Haven’t Found What I’m Looking For – U2
++ [ ] For What It’s Worth – Buffalo Springfield
++ [ ] Dead Flowers – The Rolling Stones
++ [ ] All Of Me – John Legend
++ [ ] Hallelujah – Leonard Cohen
++ [ ] Mockingbird – James Taylor
++ [ ] Good Riddance / Time of Your Life – Green Day
++ [ ] Stuck in the Middle With You – Steelers Wheels
++ [ ] Give Peace a Chance – John Lennon
++ [ ] What I Got – Sublime
++ [ ] Two Tickets to Paradise – Eddie Money
++ [ ] High & Dry – Radiohead
++ [ ] Stir it Up – Bob Marley
++ [ ] Teach Your Children – Crosby Stills and Nash
++ [ ] Working Class Hero – John Lennon
++ [ ] Hotel California – The Eagles
++ [ ] Wish You Were Here – Pink Floyd
++ [ ] Here Comes The Sun – The Beatles
++ [ ] Stand By Me – Ben E. King
++ [ ] Ho Hey – The Lumineers
++ [ ] Chasing Cars – Snow Patrol
++ [ ] Eleanor Rigby – The Beatles
++ [ ] Feelin’ Alright – Joe Cocker
++ [ ] Tears in Heaven – Eric Clapton
++ [ ] Harvest Moon – Neil Young
++ [ ] She Talks to Angel – Black Crowes
++ [ ] Thinking Out Loud – Ed Sheeran
++ [ ] Better Together – Jack Johnson
++ [ ] Brown Eyed Girl – Van Morrison
++ [ ] Love Me Do – The Beatles
++ [ ] Have You Ever Seen the Rain? – Creedence Clearwater Revival
++ [ ] Born in the USA – Bruce Springsteen
++ [ ] Love Story – Taylor Swift
++ [ ] Upside Down – Jack Johnson
++ [ ] Blowin’ In The Wind – Bob Dylan
++ [ ] Wonderwall – Oasis
++ [ ] The Joker – Steve Miller Band
++ [ ] Wagon Wheel – Old Crow Medicine Show
++ [ ] Horse with No Name – America
++ [ ] Ring of Fire – Johnny Cash
++ [ ] Knocking on Heaven’s Door – Bob Dylan
++ [ ] Wild World – Cat Stevens
++ [ ] Yellow – Cold Play
++ [ ] I Won’t Back Down – Tom Petty
++ [ ] You Might Think – The Cars
++ [ ] Light My Fire – The Doors
++ [ ] People Are Strange – The Doors
++ [ ] Lonely People – America
++ [ ] Ripple – The Grateful Dead
++ [ ] Take It Easy – The Eagles
++ [ ] The Race is On – George Jones
++ [ ] Heart of Gold – Neil Young
++ [ ] Don’t Think Twice It’s Alright – Bob Dylan
++ [ ] Ventura Highway – America
++ [ ] Lola – The Kinks
++ [ ] Apeman – The Kinks
++ [ ] Over The Hills and Faraway – Led Zeppelin
++ [ ] Fire Flies – Owl City
++ [ ] Paperback Writer – The Beatles
++ [ ] Yellow Submarine – The Beatles
++ [ ] If You Want to Sing Out – Cat Stevens
++ [ ] No Rain – Blind Melon
++ [ ] That’s the Way the World Goes Round – John Prine
+
+** Intermidiate
++ [-] Stairway to heaven - Led Zeppelin
