@@ -6,37 +6,24 @@
 #+Title: Todo - olympiads and tests
 #+Author: Luís Spengler
 
+
+
 * Week 1
-+ [X] 3 Heart of Algebra (11/04)
-+ [X] English recommendation (12/04)
-+ [ ] 3 Heart of Algebra (13/04) (1/3)
-+ [ ] English recommendation (14/04)
-+ [ ] 3 Heart of Algebra (15/04)
-+ [ ] English recommendation (16/04)
++ [X] English recommendation (24/04)
++ [ ] 3 Heart of Algebra (25/04)
++ [ ] 3 Passport to advanced mathematics (26/04)
++ [ ] 5 Passport to advanced mathematics (27/04)
++ [ ] 3 Passport to advanced mathematics (28/04)
++ [ ] 4 Problem solving and data analysis (29/04)
++ [ ] 3 Problem solving and data analysis (30/04)
 
 * Week 2
-+ [ ] 3 Passport to advanced mathematics (17/04)
-+ [X] English recommendation (18/04)
-+ [X] 3 Passport to advanced mathematics (19/04)
-+ [ ] English recommendation (20/04)
-+ [ ] 5 Passport to advanced mathematics (21/04)
-+ [ ] English recommendation (22/04)
-+ [ ] 3 Passport to advanced mathematics (23/04)
++ [ ] 3 Problem solving and data analysis (01/05)
++ [ ] 4 Additional topics in math (02/05)
++ [ ] English recommendation (03/05)
++ [ ] 2 Additional topics in math (04/05)
++ [ ] English recommendation (05/05)
++ [ ] 2 Additional topics in math (06/05)
++ [ ] English recommendation (07/05)
 
-* Week 3
-+ [ ] English recommendation (24/04)
-+ [ ] 4 Problem solving and data analysis (25/04)
-+ [ ] English recommendation (26/04)
-+ [ ] 3 Problem solving and data analysis (27/04)
-+ [ ] English recommendation (28/04)
-+ [ ] 3 Problem solving and data analysis (29/04)
-+ [ ] English recommendation (30/04)
-
-* Week 4
-+ [ ] 4 Additional topics in math (01/05)
-+ [ ] English recommendation (02/05)
-+ [ ] 2 Additional topics in math (03/05)
-+ [ ] English recommendation (04/05)
-+ [ ] 2 Additional topics in math (05/05)
-+ [ ] English recommendation (06/05)
-+ [ ] Sat Mock test (07/05)
++ [ ] Sat Mock test (08/05)

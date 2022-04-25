@@ -11,8 +11,8 @@ I already played acoustic guitar before, even electric. But perhaps I might've g
 ** Begginer
 + [X] Hurt - Johnny Cash
 + [X] Slow Cheetah - Red Hot Chilli Peppers
-+ [ ] I Got a Name – Jim Croce
 + [ ] Big Yellow Taxi – Joni Mitchell
++ [ ] I Got a Name – Jim Croce
 + [ ] Bad Bad Leroy Brown – Jim Croce
 + [ ] Time For Me to Fly – REO Speedwagon
 + [ ] Take Me Home Country Roads – John Denver

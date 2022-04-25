@@ -641,7 +641,7 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [X] Stargirl – 1.12: “Stars & S.T.R.I.P.E Part One”
 + [X] Stargirl – 1.13: “Stars & S.T.R.I.P.E Part Two”
 
-* 2020/2021 [39/104] [37%]
+* 2020/2021 [62/104] [59%]
 
 + [X] Batwoman – 2.01: “What Happened To Kate Kane”
 + [X] Batwoman – 2.02: “Prior Criminal History”
@@ -682,29 +682,29 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [X] Supergirl – 6.05: “Prom Night”
 + [X] Legends of Tomorrow – 6.01: “Ground Control to Sara Lance”
 + [X] Batwoman – 2.12: “Initiate Self Destruct”
-+ [ ] Black Lightning – 4.10: “The Book of Reunification: Chapter One”
-+ [ ] The Flash – 7.08: “The People v. Killer Frost”
-+ [ ] Supergirl – 6.06: “Prom Again!”
-+ [ ] Legends of Tomorrow – 6.02: “Meat: The Legends”
-+ [ ] Batwoman – 2.13: “I'll Give You A Clue”
-+ [ ] Black Lightning – 4.11: “The Book of Reunification: Chapter Two”
-+ [ ] The Flash – 7.09: “Timeless”
-+ [ ] Supergirl – 6.07: “Fear Knot”
-+ [ ] Legends of Tomorrow – 6.03: “The Ex-Factor”
-+ [ ] Batwoman – 2.14: “And Justice For All”
-+ [ ] Black Lightning – 4.12: “The Book of Resurrection: Chapter One”
-+ [ ] The Flash – 7.10: “Family Matters Part 1”
-+ [ ] Superman & Lois – 1.06: “Broken Trust”
-+ [ ] Legends of Tomorrow – 6.04: “Bay of Squids”
-+ [ ] Black Lightning – 4.13: “The Book of Resurrection: Chapter Two” (Series Finale)
-+ [ ] The Flash – 7.11: “Family Matters Part 2”
-+ [ ] Superman & Lois – 1.07: “Man of Steel”
-+ [ ] Superman & Lois – 1.08: “Holding The Wrench”
-+ [ ] Legends of Tomorrow – 6.05: “The Satanist's Apprentice”
-+ [ ] Batwoman – 2.15: “Armed and Dangerous”
-+ [ ] The Flash – 7.12: “Good-Bye Vibrations”
-+ [ ] Superman & Lois – 1.09: “Loyal Subjekts”
-+ [ ] Legends of Tomorrow – 6.06: “Bishop's Gambit”
++ [X] Black Lightning – 4.10: “The Book of Reunification: Chapter One”
++ [X] The Flash – 7.08: “The People v. Killer Frost”
++ [X] Supergirl – 6.06: “Prom Again!”
++ [X] Legends of Tomorrow – 6.02: “Meat: The Legends”
++ [X] Batwoman – 2.13: “I'll Give You A Clue”
++ [X] Black Lightning – 4.11: “The Book of Reunification: Chapter Two”
++ [X] The Flash – 7.09: “Timeless”
++ [X] Supergirl – 6.07: “Fear Knot”
++ [X] Legends of Tomorrow – 6.03: “The Ex-Factor”
++ [X] Batwoman – 2.14: “And Justice For All”
++ [X] Black Lightning – 4.12: “The Book of Resurrection: Chapter One”
++ [X] The Flash – 7.10: “Family Matters Part 1”
++ [X] Superman & Lois – 1.06: “Broken Trust”
++ [X] Legends of Tomorrow – 6.04: “Bay of Squids”
++ [X] Black Lightning – 4.13: “The Book of Resurrection: Chapter Two” (Series Finale)
++ [X] The Flash – 7.11: “Family Matters Part 2”
++ [X] Superman & Lois – 1.07: “Man of Steel”
++ [X] Superman & Lois – 1.08: “Holding The Wrench”
++ [X] Legends of Tomorrow – 6.05: “The Satanist's Apprentice”
++ [X] Batwoman – 2.15: “Armed and Dangerous”
++ [X] The Flash – 7.12: “Good-Bye Vibrations”
++ [X] Superman & Lois – 1.09: “Loyal Subjekts”
++ [X] Legends of Tomorrow – 6.06: “Bishop's Gambit”
 + [ ] Batwoman – 2.16: “Rebirth”
 + [ ] The Flash – 7.13: “Masquerade”
 + [ ] Superman & Lois – 1.10: “O Mother, Where Art Thou?”
@@ -748,7 +748,7 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [ ] Stargirl - 2.10: "Summer School: Chapter Ten"
 + [ ] Supergirl - 6.15: "Hope for Tomorrow"
 
-* 2021/2022 [0/41] [0%]
+* 2021/2022 [0/57] [0%]
 
 + [ ] Batwoman - 3.01: "Mad As a Hatter"
 + [ ] DC's Legends of Tomorrow - 7.01: "The Bullet Blondes"
@@ -792,3 +792,18 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [ ] Superman & Lois - 2.05: "Girl... You'll Be a Woman, Soon"
 + [ ] The Flash - 8.06: "Impulsive Excessive Disorder"
 + [ ] The Flash - 8.07: "Lockdown"
++ [ ] Superman & Lois - 2.08: "Into Oblivion"
++ [ ] The Flash - 8.08: "The Fire Next Time"
++ [ ] Superman & Lois - 2.09: "30 Days and 30 Nights"
++ [ ] The Flash - 8.09: "Phantoms"
++ [ ] The Flash - 8.10: "Reckless"
++ [ ] The Flash - 8.11: "Resurrection"
++ [ ] Superman & Lois - 2.10: "Bizarros in a Bizarro World"
++ [ ] The Flash - 8.12: "Death Rises"
++ [ ] Superman & Lois - 2.11: "Truth and Consequences"
++ [ ] The Flash - 8.13: "Death Falls"
++ [ ] The Flash - 8.14: "Funeral for a Friend"
++ [ ] Superman & Lois - 2.12: "Lies That Bind"
++ [ ] Superman & Lois - 2.13: "All Is Lost"
++ [ ] Superman & Lois - 2.14: "Worlds War Bizzare"
++ [ ] Superman & Lois - 2.15: "Waiting for Superman"

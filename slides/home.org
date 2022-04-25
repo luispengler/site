@@ -25,8 +25,12 @@ https://media.libreplanet.org/
 + [X] TUE (19): History 3 rec
 + [X] TUE (19): Dois trabalhos
 + [X] TUE (19): Portuguese test
-+ [ ] WED (20): Instalações Elétricas test
-+ [ ] WED (20): Chemestry test
-+ [ ] Instrumentação e controle: recuperação da segunda prova (22/04-24/04)
++ [X] WED (20): Instalações Elétricas test
++ [X] WED (20): Chemestry test
++ [X] Instrumentação e controle: recuperação da segunda prova (22/04-24/04)
 * TODO (24-30/04)
++ [ ] MON (25): Ed. fisica trabalho
++ [ ] MON (25): Talk to physics teachers
 + [ ] TUE (26): Máquinas rec
++ [ ] TUE (26): Chemestry work
++ [ ] THU (28): Meio ambiente's work
