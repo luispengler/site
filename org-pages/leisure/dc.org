@@ -641,7 +641,7 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [X] Stargirl – 1.12: “Stars & S.T.R.I.P.E Part One”
 + [X] Stargirl – 1.13: “Stars & S.T.R.I.P.E Part Two”
 
-* 2020/2021 [62/104] [59%]
+* 2020/2021 [73/104] [70%]
 
 + [X] Batwoman – 2.01: “What Happened To Kate Kane”
 + [X] Batwoman – 2.02: “Prior Criminal History”
@@ -705,17 +705,17 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [X] The Flash – 7.12: “Good-Bye Vibrations”
 + [X] Superman & Lois – 1.09: “Loyal Subjekts”
 + [X] Legends of Tomorrow – 6.06: “Bishop's Gambit”
-+ [ ] Batwoman – 2.16: “Rebirth”
-+ [ ] The Flash – 7.13: “Masquerade”
-+ [ ] Superman & Lois – 1.10: “O Mother, Where Art Thou?”
-+ [ ] Legends of Tomorrow – 6.07: “Back to the Finale: Part II”
-+ [ ] Batwoman – 2.17: “Kane, Kate”
-+ [ ] The Flash – 7.14: “Rayo de Luz”
-+ [ ] Superman & Lois – 1.11: “A Brief Reminiscence In-Between Cataclysmic Events”
-+ [ ] Legends of Tomorrow – 6.08: “Stressed Western”
-+ [ ] Batwoman – 2.18: “Power”
-+ [ ] The Flash – 7.15: “Enemy At The Gates”
-+ [ ] The Flash – 7.16: “P.O.W.”
++ [X] Batwoman – 2.16: “Rebirth”
++ [X] The Flash – 7.13: “Masquerade”
++ [X] Superman & Lois – 1.10: “O Mother, Where Art Thou?”
++ [X] Legends of Tomorrow – 6.07: “Back to the Finale: Part II”
++ [X] Batwoman – 2.17: “Kane, Kate”
++ [X] The Flash – 7.14: “Rayo de Luz”
++ [X] Superman & Lois – 1.11: “A Brief Reminiscence In-Between Cataclysmic Events”
++ [X] Legends of Tomorrow – 6.08: “Stressed Western”
++ [X] Batwoman – 2.18: “Power”
++ [X] The Flash – 7.15: “Enemy At The Gates”
++ [X] The Flash – 7.16: “P.O.W.”
 + [ ] Legends of Tomorrow – 6.09: “This Is Gus”
 + [ ] The Flash – 7.17: “Heart Of The Matter, Part 1”
 + [ ] Superman & Lois – 1.12: “Through The Valley Of Death”

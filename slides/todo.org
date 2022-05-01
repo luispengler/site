@@ -10,8 +10,8 @@
 
 * Week 1
 + [X] English recommendation (24/04)
-+ [ ] 3 Heart of Algebra (25/04)
-+ [ ] 3 Passport to advanced mathematics (26/04)
++ [X] 3 Heart of Algebra (25/04)
++ [X] 3 Passport to advanced mathematics (26/04)
 + [ ] 5 Passport to advanced mathematics (27/04)
 + [ ] 3 Passport to advanced mathematics (28/04)
 + [ ] 4 Problem solving and data analysis (29/04)

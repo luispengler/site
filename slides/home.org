@@ -20,17 +20,26 @@ https://media.libreplanet.org/
 * To watch
 + Masterclass classes (lol -redudence)
 
-* TODO (17-23/04)
-+ [X] MON (18): Biology test
-+ [X] TUE (19): History 3 rec
-+ [X] TUE (19): Dois trabalhos
-+ [X] TUE (19): Portuguese test
-+ [X] WED (20): Instalações Elétricas test
-+ [X] WED (20): Chemestry test
-+ [X] Instrumentação e controle: recuperação da segunda prova (22/04-24/04)
++ 1 PM at most in the library
++ Always do things from the other, but remember SAT first!
+
 * TODO (24-30/04)
-+ [ ] MON (25): Ed. fisica trabalho
-+ [ ] MON (25): Talk to physics teachers
-+ [ ] TUE (26): Máquinas rec
-+ [ ] TUE (26): Chemestry work
-+ [ ] THU (28): Meio ambiente's work
++ [X] MON (25): Ed. fisica trabalho
++ [X] TUE (26): Portuguese work
++ [X] TUE (26): Máquinas rec
++ [X] MON (26): Talk to physics teachers
++ [ ] THU (28): Instrumentação report on histerese
++ [X] THU (28): Meio ambiente's test
++ [X] TUE (28): Chemestry work
++ [ ] THU (28): Assistir aula da OBA
++ [X] FRI (29): Rework story
++ [X] SAT (30): Unesco's program at 9 AM
++ [X] SAT (30): Finish list of step for MOBFOG
+
+* TODO (1-07/05)
++ [ ] SUN (1): Estudar mais sobre a construção do foguete
++ [ ] SUN (1): Gettysburg college at 6 PM
++ [ ] WED (4): Pneumatica's rec
++ [ ] FRI (6): Rework story
++ [ ] FRI (6): Have asked about transcript
++ [ ] SAT (7): LOA's guide
