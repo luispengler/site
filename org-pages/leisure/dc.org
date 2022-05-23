@@ -641,7 +641,7 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [X] Stargirl – 1.12: “Stars & S.T.R.I.P.E Part One”
 + [X] Stargirl – 1.13: “Stars & S.T.R.I.P.E Part Two”
 
-* 2020/2021 [73/104] [70%]
+* 2020/2021 [104/104] [100%]
 
 + [X] Batwoman – 2.01: “What Happened To Kate Kane”
 + [X] Batwoman – 2.02: “Prior Criminal History”
@@ -716,52 +716,52 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [X] Batwoman – 2.18: “Power”
 + [X] The Flash – 7.15: “Enemy At The Gates”
 + [X] The Flash – 7.16: “P.O.W.”
-+ [ ] Legends of Tomorrow – 6.09: “This Is Gus”
-+ [ ] The Flash – 7.17: “Heart Of The Matter, Part 1”
-+ [ ] Superman & Lois – 1.12: “Through The Valley Of Death”
-+ [ ] Legends of Tomorrow – 6.10: “Bad Blood”
-+ [ ] The Flash – 7.18: “Heart Of The Matter, Part 2”
-+ [ ] Superman & Lois – 1.13: “Fail Safe”
-+ [ ] Legends of Tomorrow – 6.11: “The Final Frame”
-+ [ ] Stargirl – 2.01: “Summer School: Chapter One”
-+ [ ] Superman & Lois – 1.14: “The Eradicator”
-+ [ ] Legends of Tomorrow – 6.12: “Bored On Board Onboard”
-+ [ ] Stargirl – 2.02: “Summer School: Chapter Two”
-+ [ ] Superman & Lois – 1.15: “Last Sons of Krypton”
-+ [ ] Legends of Tomorrow – 6.13: “Silence of the Sonograms”
-+ [ ] Stargirl – 2.03: “Summer School: Chapter Three”
-+ [ ] Supergirl – 6.08: “Welcome Back, Kara”
-+ [ ] Legends of Tomorrow – 6.14: “There Will Be Brood”
-+ [ ] Stargirl – 2.04: “Summer School: Chapter Four”
-+ [ ] Supergirl – 6.09: “Dream Weaver”
-+ [ ] Legends of Tomorrow – 6.15: “The Fungus Amongus”
-+ [ ] Stargirl – 2.05: “Summer School: Chapter Five”
-+ [ ] Supergirl – 6.10: “Still I Rise”
-+ [ ] Stargirl – 2.06: “Summer School: Chapter Six”
-+ [ ] Supergirl – 6.11: “Mxy In The Middle”
-+ [ ] Stargirl – 2.07: “Summer School: Chapter Seven”
-+ [ ] Supergirl – 6.12: “Blind Spots”
-+ [ ] Stargirl – 2.08: “Summer School: Chapter Eight”
-+ [ ] Supergirl – 6.13: “The Gauntlet”
-+ [ ] Stargirl – 2.09: “Summer School: Chapter Nine”
-+ [ ] Supergirl – 6.14: “Magical Thinking”
-+ [ ] Stargirl - 2.10: "Summer School: Chapter Ten"
-+ [ ] Supergirl - 6.15: "Hope for Tomorrow"
++ [X] Legends of Tomorrow – 6.09: “This Is Gus”
++ [X] The Flash – 7.17: “Heart Of The Matter, Part 1”
++ [X] Superman & Lois – 1.12: “Through The Valley Of Death”
++ [X] Legends of Tomorrow – 6.10: “Bad Blood”
++ [X] The Flash – 7.18: “Heart Of The Matter, Part 2”
++ [X] Superman & Lois – 1.13: “Fail Safe”
++ [X] Legends of Tomorrow – 6.11: “The Final Frame”
++ [X] Stargirl – 2.01: “Summer School: Chapter One”
++ [X] Superman & Lois – 1.14: “The Eradicator”
++ [X] Legends of Tomorrow – 6.12: “Bored On Board Onboard”
++ [X] Stargirl – 2.02: “Summer School: Chapter Two”
++ [X] Superman & Lois – 1.15: “Last Sons of Krypton”
++ [X] Legends of Tomorrow – 6.13: “Silence of the Sonograms”
++ [X] Stargirl – 2.03: “Summer School: Chapter Three”
++ [X] Supergirl – 6.08: “Welcome Back, Kara”
++ [X] Legends of Tomorrow – 6.14: “There Will Be Brood”
++ [X] Stargirl – 2.04: “Summer School: Chapter Four”
++ [X] Supergirl – 6.09: “Dream Weaver”
++ [X] Legends of Tomorrow – 6.15: “The Fungus Amongus”
++ [X] Stargirl – 2.05: “Summer School: Chapter Five”
++ [X] Supergirl – 6.10: “Still I Rise”
++ [X] Stargirl – 2.06: “Summer School: Chapter Six”
++ [X] Supergirl – 6.11: “Mxy In The Middle”
++ [X] Stargirl – 2.07: “Summer School: Chapter Seven”
++ [X] Supergirl – 6.12: “Blind Spots”
++ [X] Stargirl – 2.08: “Summer School: Chapter Eight”
++ [X] Supergirl – 6.13: “The Gauntlet”
++ [X] Stargirl – 2.09: “Summer School: Chapter Nine”
++ [X] Supergirl – 6.14: “Magical Thinking”
++ [X] Stargirl - 2.10: "Summer School: Chapter Ten"
++ [X] Supergirl - 6.15: "Hope for Tomorrow"
 
-* 2021/2022 [0/57] [0%]
+* 2021/2022 [12/57] [21%]
 
-+ [ ] Batwoman - 3.01: "Mad As a Hatter"
-+ [ ] DC's Legends of Tomorrow - 7.01: "The Bullet Blondes"
-+ [ ] Stargirl - 2.11: "Summer School: Chapter Eleven"
-+ [ ] Supergirl - 6.16: "Nightmare in National City"
-+ [ ] Batwoman - 3.02: "Loose Tooth"
-+ [ ] DC's Legends of Tomorrow - 7.02: "The Need for Speed"
-+ [ ] Stargirl - 2.12: "Summer School: Chapter Twelve"
-+ [ ] Supergirl - 6.17: "I Believe in a thing Called Love"
-+ [ ] Batwoman - 3.03: "Freeze"
-+ [ ] DC's Legends of Tomorrow - 7.03: "wvrdr_error_100 not found"
-+ [ ] Stargirl - 2.13: "Summer School: Chapter Thirteen"
-+ [ ] Supergirl - 6.18: "Truth or Consequences"
++ [X] Batwoman - 3.01: "Mad As a Hatter"
++ [X] DC's Legends of Tomorrow - 7.01: "The Bullet Blondes"
++ [X] Stargirl - 2.11: "Summer School: Chapter Eleven"
++ [X] Supergirl - 6.16: "Nightmare in National City"
++ [X] Batwoman - 3.02: "Loose Tooth"
++ [X] DC's Legends of Tomorrow - 7.02: "The Need for Speed"
++ [X] Stargirl - 2.12: "Summer School: Chapter Twelve"
++ [X] Supergirl - 6.17: "I Believe in a thing Called Love"
++ [X] Batwoman - 3.03: "Freeze"
++ [X] DC's Legends of Tomorrow - 7.03: "wvrdr_error_100 not found"
++ [X] Stargirl - 2.13: "Summer School: Chapter Thirteen"
++ [X] Supergirl - 6.18: "Truth or Consequences"
 + [ ] Batwoman - 3.04: "Antifreeze"
 + [ ] DC's Legends of Tomorrow - 7.04: "Speakeasy Does It"
 + [ ] Supergirl - 6.19: "The Last Gauntlet"

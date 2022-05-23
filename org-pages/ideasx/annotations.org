@@ -145,9 +145,17 @@ Suggested Schools: Science: California Institute of Technology, Clarkson Univers
 
 * Marcohort 4
 + In paragraph 4, be more clear/straitforward "To add up, I could not go outside yet. Sun was boiling eggs in the pavement, and Covid-19 was running rampant. So, I stay in my room, quiet and alone. I press a button, and a beast silently awakens. I keep staring at the screen, as if the shiny letters could hurt my reality even more. But all it does is ask who I am. As I prompt my user data, I am reminded how trustworthy the system I modified is, and I could also use, study, improve, and share it as I pleased." Try using less metaphors and ryme less, because you already used them in the beginning.
-+ You have to be very clear tha coding is very important
++ You have to be very clear that coding is very important
 + Have a final paragraph saying you can't cycle and it sucks (even though my freedom was removed), but this issue allowed me to discover something else, to explore more about this world.
 + I will need my parcial transcript + transcript
+
+Luís Guilherme Miranda Spengler is currently a High School senior, taking electrotechnology vocational program at Instituto Federal do Mato Grosso do Sul. He is very engaged in the activities from his school, and takes great interest in activities involving research, volunteering and teaching.
+
+During the pandemic, Luís was one of the most engaged students from his school, where he developed research, and coordinated at English Club. As a result of this, his team won Fecintec and were invited to participate in Mostra Nacional Itinerante das Feiras de Ciências. As a 1-year Quantum Computing student at the Qubit by Qubit program for high school students, he could learn more about an exciting career that is changing the world for the better, with its state-of-the-art innovations. He makes it his personal goal to somehow contribute to the Quantum Computing field.
+
+Currently, he is preparing for the application process with the help of EducationUSA Application Tracker project. Meanwhile, he works on other projects he knows will also make an impact on his community, and hopes US colleges will notice his hard work and dedication.
+
+
 
 * UNESCO Center for Peace
 + They will give a letter to apply for VISA - A visa of tourist is already enough
@@ -175,3 +183,132 @@ Suggested Schools: Science: California Institute of Technology, Clarkson Univers
   - A primeira garrafa terá as empenas, a segunda garrafa será removida o fundo e ficará em cima da primeira para que tenha mais aerodinâmica
 + Pasta Polionda para as empenas (3-4 empenas)
 + Parafuso de 1/4 de polegada para peso
+
++ Fanta 2L é 8,5
++ Suco Scheppes é 4,5
+
+** Materiais - Base de lançamento opção 1
++ (15cm + 15cm + 15cm + 15cm + 40cm + 40cm + 25cm + 25cm + 26,5m 2,165m) 2,165m de cano PVC 25mm
++ 22 cm de cano PVC 20mm
++ 1 pedaço (5,5cm) de cano de 40mm
++ 2 Joelhos pra cano 25mm (Temos)
++ 5 Tês para cano 25mm
++ 1 cap para cano 25mm
++ 1 bucha de redução 25mm para 20mm (Temos)
++ 1 abraçadeira de metal
++ 1 manômetro de 150 PSI pra cima
++ 1 espaladrapo (Temos)
++ 8 enforca gato (4 pra válvula e o resto pra apertar) (Temos)
+*** Additional
++ Registro esfera 25 mm soldável
++ 2 arruela de vedação 1/4
++ 1 Cap 25mm
++ 1 porca 1/4
++ 1 abraçadeira anel
++ 1 luva de redução 25 para 20mm
+** Materiais - Foguete opção 2
+** Materiais que não precisarão ser comprados
+- serra
+- veda rosca
+- varetas de churrasco (obrigatórias)
+- vaselina
+- joelhos de pvc 25mm
+- enforca gato
+- esparadrapo
+- estilete
+- fita isolante
+- balão (não sei o tamanho)
+- garrafa pesa 39,4g
+- 9,93cm
+- altura 34cm
+
+
+* ACT
+** School Documents
++ Pedir para usar email institucional
++ Pedir para usar cabeçalho da escola ou logo
++ Pedir para assinarem os documentos (principalmente cartas de recomendação)
++ Todos os documentos devem ser traduzidas para inglês
++ Não tem problema os recomendadores não poderem escrever em inglês, o ACT poderá traduzi-los
+
+** Transcripts
++ Históricos oficiais da escola (precisam ter suas notas do 9th grade a 12th)
++ Precisa ser assinado pelo school counseler/director
+
+** School Profile
++ Helps admissions officers interpret the transcript for classes offered, rigor, grading policies and more
++ Também possui informação sobre a escola, administração, tipo de escola, número de estudantes graduando, curriculo, processo de admissão, atividades extracurriculares, etc
++ Que fique claro que o técnico integrado é diferente de escolas normais -- explicar como essas materias funcionam e que tipo de conteúdo que é ensinado
++ Devem ser traduzidos em inglês, mas não precisam ser assinados
++ Pergunta: Como funciona para quem mudou de escola no nono ano?
+
+** Cartas de recomendação
++ Pedir para pessoas que te acompanharam de perto
++ Escolha seus recommenders sabiamente, mande um email perguntando se eles podem ser seus recommenders, explicar porque escolheu eles, explicar para eles que vc está aplicando para US Colleges, explicar sobre o EducationUS -- application tracker e que o meu mentor pode auxiliar ele na correção de algumas coisas, etc e qualquer dificuldade que você tiver
++ Escreva uma lista de coisas que possa ser destacada na carta -- refresque a memória deles!
++ Possible names: H-Fernanda, H-Flávio, S-Hilton, S-José Ricardo, S-Marco, S-Simone (1 humanities teacher, 1 stem teacher, 1 additional teacher, 1 counseler, 1 peer letter, 1 additional recommender (Iago))
++ As cartas devem contextualizar o candidato no ambiente escolar, por tanto seus recommenders devem compartilhar suas percepções sobre você seja dentro da sala de aula, fora dela ou em um projeto
++ Papel da carta do Counseler: Highlight any special program, how prominent are acitivites/impact in school, any family or personal context we should be aware of, context for student and entire graduating class - A carta do counseler não vai repetir o school profile, mas sim focará em você, no entanto é importante ter em mente o que foi dito no school profile
++ Papel da carta do Professor: Provide a brief introduction of the class for context, Outline academic performance, Highlight distinguishing performance, Be specific and use examples, evitem usar templates (geralmente levam a erros com pronomes) e compartilhar modelos de cartas inteiras.
++ O professor pode utilizar o "Bullet letter of recommendation"
+
+** Homework
++ Contact your recommenders via e-mail (and other modes of communication)
++ Make a list of events that occurred in the recommender classroom or during a project
++ Explain them you are applying to U.S. Colleges. For now, it is necessary to write the letters of recommendation,
+
+* OBA
++ 07/05 -> 5h
++ 08/05 -> 5h40
++ 09/05 -> 4h50
++ 10/05 -> 1h30
++ 11/05 -> 30min
++ 12/05 -> 3h
++ 13/05 -> 5h30
++ 14/05 -> 9h30
++ Total week 1: 35h30min
++ 15/05 -> 9h
++ 16/05 -> 6h
++ 17/05 -> 5h
++ 18/05 -> 30min
++ 19/05 -> 3h
+
+* Marcohort 5
++ Think about the connections between the "As I recovered..." "My interest..." bringing people together - how? what did you participate in? in this virtual world or whatever
++ Also try introducing the community first
++ Also try coming back to cycling more like at the bottom of "As I recovered" paragraph
++ At the end, try modifying something as you see fit
+
+* ACT
+** Extracurriculars, Honors & Add Info
++ ECAs don't need to have a social impact to be in the application
++ ECAs are simply activities that are not part of the usual school or college course
++ Through them, you showcase abilities you've developed in the past years -> ECAs also tell a lot about who you are
++ ECAs can be any activity that tells you apart
++ Hobbies: Roleplaying, Horticulture club
++ Music: Choir, Musical Interest club, Solo music, Singing lessons, Bands
++ Arts: Writing, annimation, paiting, choreography, puppetry, community theater club, drama club, photography, cartooning, poetry clubs, dance
++ Sports and Recreation: Soccer, Swimming, Ping pong, sports club, martial arts, cheerleading, gymnastics
++ Na hora de elencar as ECAs no common app, colocar as mais relevantes pois só tem 10 vagas...
++ Competitions: Spelling Contest, Poetry Contest, Math Olympiad, Science Olympiad, Language Contest, Essay Contest, Triathlon
++ Language: English clubs, Latin American Studies
++ Discussions and Political Interest: Model UN, Debate Club, Model Congress Club, Parlamento Jovem Brasileiro
++ Programs: improve english, learn/hone general skills, learn about different cultures, engage in special activities, campus visits, special classes, be equipped with leadership skills -> this also justifies a gap year
++ Volunteering: Mentoring, Local Charity, Animal Rescue, International Volunteer Programs, Online/remote volunteering
++ Paid-work interships
++ Research Projects, Extension Projects, Scientific Initiation
++ Some applications may accept portfolios - like MIT
++ Github and website are valid, but you may want to put them on additional information
+
+
+* ACT
+** College list
++
+
+
+* Marcohort 6
++ Everything, everwhere at once -> movie recommendation
++ There are lot of "software" words repetition software, freedom... (be mindful of the uses) -> refine it in terms of vocabulary
++ Get the 5th semester grades
++ Start the extracurricular activities and additional information docs
++ Search about universities (Duke, Dartmouth college, Rice university, Northwestern university, tarnford) search about the labs?

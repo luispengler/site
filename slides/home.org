@@ -6,16 +6,14 @@
 #+Title: Daily college prep
 #+Author: Luís Spengler
 
-* Daily
-+ [ ] [[https://www.khanacademy.org/mission/sat/][SAT]]
-+ [ ] Solve 10 Khan Academy Math
-+ [ ] One Tópicos de Física chapter a week day
-
-https://media.libreplanet.org/
-
 * Applications
 - [X] [[https://beamlineforschools.cern/][A Beamline For Schools]] (April 15)
-- [ ] MOBFOG + OBA (May 20)
+- [X] MOBFOG + OBA (May 20)
+- [ ] QIntern2022 application (25/05)
+- [ ] +Science 3.0 (27/05)
+- [ ] Qiskit Global Summer School 2022: Quantum Simulations (27/05)
+- [ ] Torneio Nacional de Física (08/07)
+- [ ] OBF 2022 (20/07)
 
 * To watch
 + Masterclass classes (lol -redudence)
@@ -23,23 +21,29 @@ https://media.libreplanet.org/
 + 1 PM at most in the library
 + Always do things from the other, but remember SAT first!
 
-* TODO (24-30/04)
-+ [X] MON (25): Ed. fisica trabalho
-+ [X] TUE (26): Portuguese work
-+ [X] TUE (26): Máquinas rec
-+ [X] MON (26): Talk to physics teachers
-+ [ ] THU (28): Instrumentação report on histerese
-+ [X] THU (28): Meio ambiente's test
-+ [X] TUE (28): Chemestry work
-+ [ ] THU (28): Assistir aula da OBA
-+ [X] FRI (29): Rework story
-+ [X] SAT (30): Unesco's program at 9 AM
-+ [X] SAT (30): Finish list of step for MOBFOG
+* TODO (15-21/05)
++ [X] MON (16): Get transcript
++ [X] TUE (17): Mobfog
++ [X] WED (18): Instalações Industriais test
++ [X] WED-FRI (18-20): P2 Gabriele
++ [X] WED (18): Chemestry rec
++ [X] FRI (20): OBA
++ [X] FRI (20): IAAC
++ [X] FRI (20): History's test
++ [X] FRI (20): Marcohort PE
++ [X] FRI (20): Portuguese final opinion article
++ [X] FRI (20): School Profile
++ [X] SAT (21): ACT forms
 
-* TODO (1-07/05)
-+ [ ] SUN (1): Estudar mais sobre a construção do foguete
-+ [ ] SUN (1): Gettysburg college at 6 PM
-+ [ ] WED (4): Pneumatica's rec
-+ [ ] FRI (6): Rework story
-+ [ ] FRI (6): Have asked about transcript
-+ [ ] SAT (7): LOA's guide
+* TODO (22-28/05)
++ [X] SUN (22): Schedule your activities
++ [ ] MON (23): Finish Portuguese eBook
++ [ ] MON (23): Finish Instrumentação e Controle's reports
++ [ ] MON (23): Continue research about QC
++ [ ] TUE (24): Corpos Secos Parágrafo
++ [ ] WED (25): QIntern2022 application
++ [ ] THU (26): Instrumentação e Controle's report
++ [ ] FRI (27): Entrega da atividade final da semana de 22
+
+* TODO (29/05 - 4/06)
++ [ ] TUE (31): Resumo Gideon

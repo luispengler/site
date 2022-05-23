@@ -9,7 +9,7 @@
 + [DM] = Double majoring available (Physics + CS)
 
 * College list
-** Dream
+** Dream (your dream school)
 + MIT [QC]
 + Princeton [QC] (common-app)
 + Oxford [QC]
@@ -17,15 +17,24 @@
 + Columbia [QC] (common-app)
 + Duke [QC] (common-app)
 + Cornell [QC] (common-app)
-
-** Target
 + Dartmouth [QC] (ED) (common-app)
 
-** Safe
+** Target (your app meets the minimum requirements)
+
+** Safe (your app is way above the minimum requirements)
 + Brandeis University (common-app)
 + Centre College (ED) (common-app)
 + Lehigh (common-app)
 + Whichita
+
+Perfect fit?
+Financial Aid > Requirements > Academics > Community > Location
+Financial Aid -> 100%
+Academics -> Can I take Physics and CS? Can I study QC? Can I do research?
+Community -> Physics Clubs? Language Clubs?
+Need blind (poucas uni -9) is great, but need aware is awful
+Duke has a unique approach to QC (they built a lab in 2008)
+
 
 cornell university? (QC)
 johns hopkins?
@@ -125,3 +134,7 @@ Faculdades full need met que estão com um histórico muito ruim de aceitação 
 11. Skidmore College
 12. Williams College
 13. University of Rochester
+
+
+Three Quantum Leap Challenge Institutes: University of California-Berkeley (quantum computing), the University of Illinois at Urbana-Champaign (quantum architectures and networks), the University of Colorado Boulder (quantum sensing and distribution)
+Quantum Information Science Research Centers: Argonne (quantum networks, sensors, standards), Brookhaven (quantum computing), Fermilab (quantum materials and systems), Lawrence Berkeley (quantum algorithms and devices), and Oak Ridge (topological quantum materials).
