@@ -3,6 +3,9 @@
 #+SETUPFILE:  https://luispengler.github.io/site/org-html-themes/org/theme-readtheorg.setup
 #+OPTIONS: num:nil ^:{} toc:1
 
+* Additional Information
+
+
 * Writing and Activities Section - for future reference
 ** Extracurricular activities
 + LIST your extracurricular activities (i.e activities that students do outside of their classroom work, such as participation in clubs and societies, volunteer work, house responsibilities). Include dates of participation and briefly the type of activities that you do. Write them in order of importance. Also, feel free to share a link in the description of the activity, if applicable.

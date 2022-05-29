@@ -38,12 +38,13 @@
 * TODO (22-28/05)
 + [X] SUN (22): Schedule your activities
 + [X] MON (23): Finish Portuguese eBook
-+ [ ] MON (23): Finish Instrumentação e Controle's reports
-+ [ ] MON (23): Continue research about QC
++ [X] MON (23): Finish Instrumentação e Controle's reports
++ [X] MON (23): Continue research about QC
 + [X] TUE (24): Corpos Secos Parágrafo
 + [ ] WED (25): QIntern2022 application
-+ [ ] THU (26): Instrumentação e Controle's report
-+ [ ] FRI (27): Entrega da atividade final da semana de 22
++ [X] THU (26): Instrumentação e Controle's report
++ [X] FRI (27): Entrega da atividade final da semana de 22
 
 * TODO (29/05 - 4/06)
 + [ ] TUE (31): Resumo Gideon
++ [ ] TUE (31): Roda de leitura

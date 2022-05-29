@@ -300,12 +300,6 @@ Currently, he is preparing for the application process with the help of Educatio
 + Some applications may accept portfolios - like MIT
 + Github and website are valid, but you may want to put them on additional information
 
-
-* ACT
-** College list
-+
-
-
 * Marcohort 6
 + Everything, everwhere at once -> movie recommendation
 + There are lot of "software" words repetition software, freedom... (be mindful of the uses) -> refine it in terms of vocabulary
@@ -313,5 +307,29 @@ Currently, he is preparing for the application process with the help of Educatio
 + Start the extracurricular activities and additional information docs
 + Search about universities (Duke, Dartmouth college, Rice university, Northwestern university, tarnford) search about the labs?
 
-* English club meeting
-+ Medalha do ifmaker - veja com o Celio
+* Marcohort 7
++ Use maybe a parelel between programming and cycling, and recover something you said in the text -> create a new last paragraph and put it at the bottom
++ Add additional information in the additional information document
++ How many people have been impacted since the beginning of it?
++ Don't use "low-income" use underprevileged
++ Add the rocket
++ Duke University Press is not student led
++ What does IHouse do?
++ What does Bryan center
++ Talk more about the quantum center
++ Research about Duke research abroad universities
++ Find more things about research - what do they do there?
++ Relate something to what you are doing to what they are doing -- for instance, the part from Jungsang Kim
+
+* Ideas
+** 1st and 2nd semester
++ Firstly, apply to the research programs. If you don't suceed, go straight to the Linux research (AND FIND A RESEARCHER FROM U.S. TO HELP YOU) <- Very important!
++ In paralel, continue the research with Hilton <- Very important!
++ Also, try your best with Cortez <- Very important!
+** 2nd semester
++ Conduct the physics club experiments <- Very important!
++ Improve your rocket! <- Very important!
++ Improve EC! <- Very important!
++ Spend time with Linux (wisely)... <- Very important!
+** Future
++ Raspberry pi...
