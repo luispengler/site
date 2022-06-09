@@ -21,30 +21,30 @@
 + 1 PM at most in the library
 + Always do things from the other, but remember SAT first!
 
-* TODO (15-21/05)
-+ [X] MON (16): Get transcript
-+ [X] TUE (17): Mobfog
-+ [X] WED (18): Instalações Industriais test
-+ [X] WED-FRI (18-20): P2 Gabriele
-+ [X] WED (18): Chemestry rec
-+ [X] FRI (20): OBA
-+ [X] FRI (20): IAAC
-+ [X] FRI (20): History's test
-+ [X] FRI (20): Marcohort PE
-+ [X] FRI (20): Portuguese final opinion article
-+ [X] FRI (20): School Profile
-+ [X] SAT (21): ACT forms
-
 * TODO (22-28/05)
 + [X] SUN (22): Schedule your activities
 + [X] MON (23): Finish Portuguese eBook
 + [X] MON (23): Finish Instrumentação e Controle's reports
 + [X] MON (23): Continue research about QC
 + [X] TUE (24): Corpos Secos Parágrafo
-+ [ ] WED (25): QIntern2022 application
 + [X] THU (26): Instrumentação e Controle's report
 + [X] FRI (27): Entrega da atividade final da semana de 22
 
 * TODO (29/05 - 4/06)
-+ [ ] TUE (31): Resumo Gideon
-+ [ ] TUE (31): Roda de leitura
++ [X] MON (30): Prova de Biologia
++ [X] TUE (31): Prova do Gedeon
++ [X] TUE (31): Roda de leitura Policarpo
++ [X] SAT (4): Study for OBI and OBMEP
++ [X] SAT (4): Marcohort
+
+* TODO (5 - 11/06)
+Ask about OBI until the 9/6 (O último dia para inscrição das escolas é 10/06)
++ [X] SUN (5): Study for OBI, OBMEP
++ [ ] SUN (5): QIntern2022 application
++ [X] SUN (5): Make medalhas
++ [ ] MON (6): Meeting with Paola
++ [X] TUE (7): OBMEP
++ [X] TUE (7): Máquinas Elétricas activity
++ [X] TUE (7): Parágrafo Andreia
++ [ ] THU (9): Instrumentação e controle paragraph
++ [ ] FRI (10): Apresentação de quimica

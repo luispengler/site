@@ -114,3 +114,4 @@ I already played acoustic guitar before, even electric. But perhaps I might've g
 
 ** Intermidiate
 + [-] Stairway to heaven - Led Zeppelin
++ [ ] One - Metallica

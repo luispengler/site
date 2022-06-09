@@ -257,22 +257,6 @@ Currently, he is preparing for the application process with the help of Educatio
 + Make a list of events that occurred in the recommender classroom or during a project
 + Explain them you are applying to U.S. Colleges. For now, it is necessary to write the letters of recommendation,
 
-* OBA
-+ 07/05 -> 5h
-+ 08/05 -> 5h40
-+ 09/05 -> 4h50
-+ 10/05 -> 1h30
-+ 11/05 -> 30min
-+ 12/05 -> 3h
-+ 13/05 -> 5h30
-+ 14/05 -> 9h30
-+ Total week 1: 35h30min
-+ 15/05 -> 9h
-+ 16/05 -> 6h
-+ 17/05 -> 5h
-+ 18/05 -> 30min
-+ 19/05 -> 3h
-
 * Marcohort 5
 + Think about the connections between the "As I recovered..." "My interest..." bringing people together - how? what did you participate in? in this virtual world or whatever
 + Also try introducing the community first
@@ -309,17 +293,17 @@ Currently, he is preparing for the application process with the help of Educatio
 
 * Marcohort 7
 + Use maybe a parelel between programming and cycling, and recover something you said in the text -> create a new last paragraph and put it at the bottom
-+ Add additional information in the additional information document
-+ How many people have been impacted since the beginning of it?
-+ Don't use "low-income" use underprevileged
-+ Add the rocket
-+ Duke University Press is not student led
-+ What does IHouse do?
-+ What does Bryan center
-+ Talk more about the quantum center
-+ Research about Duke research abroad universities
++ Add additional information in the additional information document -DONE
++ How many people have been impacted since the beginning of it? -DONE
++ Don't use "low-income" use underprevileged -DONE
++ Add the rocket -DONE
++ Duke University Press is not student led -DONE
++ What does IHouse do? -DONE
++ What does Bryan center -DONE
++ Talk more about the quantum center -DONE
++ Research about Duke research abroad universities -WHAT
 + Find more things about research - what do they do there?
-+ Relate something to what you are doing to what they are doing -- for instance, the part from Jungsang Kim
++ Relate something to what you are doing to what they are doing -- for instance, the part from Jungsang Kim -DONE
 
 * Ideas
 ** 1st and 2nd semester
@@ -333,3 +317,68 @@ Currently, he is preparing for the application process with the help of Educatio
 + Spend time with Linux (wisely)... <- Very important!
 ** Future
 + Raspberry pi...
+
+* ACT
+** Vocabulary
++ Aid Policy, Financial Aid Office, Need-Blind Policy, Need-Aware Policy, Need-Based Scholarships, Merit-Based Scholarships, Loans, Grants, Work-Study, Endowments, Tuition, Room & Board, Health Insurance, Other Fees, Cost of Attendance
+*** Documents
++ Bank Statement, Individual Income Tax Return, Non-filer Tax Return Form, Annual Income Statement, Employer Letter, Pay checks
+*** Searching
++ University Grants, Outside Scholarships, Merit Scholarships Programs
+
+** Examples
+*** Villanova University
++ Merit-Based Scholarships, Need-based grants, private education loans
++ They are Need-Aware
+**** Merit-Based Scholarships
++ Presidential Scholarship
+**** Documents
++ CSS Profile, Employer Letter, Bank Statement -> IDOC service and not the office of financial assistance
+Merit-based:
+
+Presidential Scholarship
+valued at tuition, general fee, room, board and books for eight consecutive semesters)
+
+Due to the high number of eligible applicants, not all students who meet the minimum criteria are offered scholarships
+
+Need-based:
+
+Although a student applying for aid may be academically admissible, not all students will be awarded financial aid due to the limited availability of funding. In addition, all students receiving funds are expected to contribute personally toward educational and personal expenses while attending Villanova University.
+
++ Imposto de Renda (Exercício 202 | Ano Calendário 2021) ou Declaração Anual de Rendimentos (Exercício 202 | Ano Calendário 2021) para dia 12/06
+
+* Marco
++ 20D
+
+* Marcohort
++ Yo Cientificx info about your interviews...
++ 9th grade honors go into additional information AND all the strikethrough
++ Research the other universities
+* Olympiads
+** May
++ 07/05 -> 5h (OBA + MOBFOG)
++ 08/05 -> 5h40min (OBA + MOBFOG)
++ 09/05 -> 4h50min (OBA + MOBFOG)
++ 10/05 -> 1h30min (OBA + MOBFOG)
++ 11/05 -> 30min (OBA + MOBFOG)
++ 12/05 -> 3h (OBA + MOBFOG)
++ 13/05 -> 5h30min (OBA + MOBFOG)
++ 14/05 -> 9h30min (OBA + MOBFOG)
++ 15/05 -> 9h (OBA + MOBFOG)
++ 16/05 -> 6h (OBA + MOBFOG)
++ 17/05 -> 5h (OBA + MOBFOG)
++ 18/05 -> 30min (OBA + MOBFOG)
++ 19/05 -> 3h (OBA + MOBFOG)
+** June
++ 03/06 -> 3h (OBI)
++ 04/06 -> 3h (OBI)
++ 05/06 -> 2h (OBI) + 1h (OBMEP)
++ 06/06 ->
+
+* English Club
+** Registro Escrito
++ Talking about weeks...
++ "Keep calm" "Yesterday yesterday...", "Fracasso...", "Defame", "Bad words - cursing"
+
+* Chemestry apresentation
++ Pesquisas emergentes no campo de estudo de polímeros naturais

@@ -312,3 +312,43 @@ Quero contribuir para a democratização do ensino de programação para jovens 
 Se possível, gostaria de trabalhar diretamente com o aluno(a) por no máximo 2 horas por semana. Preferencialmente uma hora na quinta-feira a tarde/noite, estaria disponível entre as 17h-21h e outra hora no sábado/domingo esses mesmos horários.
 No entanto, gostaria de usar cerca de duas horas por semana na elaboração de materiais introdutórios a programação em C, ou em algo que venho chamando "Programação em ambiente Linux: Bash/Shell + LaTeX e Markdown", que consistiria na melhor introdução possível a programação no ambiente Linux, abordando de jeito único os benefícios de se utilizar esse sistema operacional.
 A ideia de se fazer duas calls por semana de 1h (esses horários na quinta/sábado/domingo) é para se desenvolver um método de ensino de programação que considere aulas de até 1h. Por isso também, considero trabalhar com apenas 1 aluno do nível iniciante.
+
+
+* QIntern
++ 5, 8, 9, 13
+** Requirements
++ 2 days per week
++ QC: Basic Quantum Gates and Algorithm, Basic Concept of Quantum/Classical Comunication, Familiarity with random number generators
++ Math: Linear Algebra, Matrix Operations
++ Coding: Programming in Python
++ Language: Advanced English, Ability to read and understand scientific papers and scientific terminology in the QC domain, Interest in popular culture
+
+** 5 - Continuous variable quantum random number generators
++ 1 day per week
++ Familiarity with random number generators, linear algebra, matrix operations
+
+** 8 - N-Queens Solver Implementation for Optimization of Communication System by Qiskit
++ 2 days per week
++ Basic Concept of Quantum Computing (quantum gates and algorithm), Basic Coding Skills on Python, Basic Concept of Quantum/Classical Communication
+
+** 9 - References to Quantum Technologies in Cultural Artefacts
++ 1 day per week
++ They should have at least above average command of the English language. Some familiarity and interest in popular culture, and cultural works. Commitment to the scientific rigor of and interest toward qualitative research methods employed in social sciences.
++ The project requires some commitment by the interns, so please do not apply if you don’t have the time to read, write, attend meetings, and prepare presentations.
+
+** 13 - Optimizing logistics using quantum computing
++ 1 day per week
++ Knowledge of basics of quantum computing, programming in Python, ability to read and understand scientific papers and scientific terminology in the QC domain (like in  https://drive.google.com/file/d/1xivRK-HWS28ANuh2A8BbUzmCVp4eXUyj/view), motivation to learn new things from the QC domain. Possibility to join weekly (online) meetings on Sundays at 13:00 CEST (This is 7 am)
+
+** Question
++ What are your skills and experience related to quantum science, technology, etc?
+
+I have basic knowledge on quantum mechanics, being sufficient for understanding of major physical phenomena that make quantum computing, information and communication possible. I can code in Python (also using Qiskit SDK), bash/shell, C, and some markdown languages like LaTeX, Markdown, and Org Mode. In Qiskit I can create quantum gates and run basic quantum algorithms (like Shor's, and Groover's). I also know how to use Git, GitHub, and GitLab (as well as any unix-like operating system). I know how to do matrix operations, and find the determinants of a matrix (giving me basic knowledge on linear algebra). Furthermore, I understand how most electronic components work and how to operate them, and have a good domain over topics on electricity and electronics. In addition, I can understand scientific papers and scientific terminology in the quantum computing domain, as well as in other topics in the quantum mechanics, and particle physics fields.
+
+* Code Connects
+** Emerging Technologies - July 11 - July 22 (Monday - Friday 1pm to 4am)
++ Week 1: - Python (learn about variables, conditionals, booleans, loops, functions, etc)
++ Week 2: - Learn about problems every day and some fields (AI, cybersecurity, healthcare +tech, web development + desgin), and at the end choose one to try to solve using the knowledge built on week 1
+** Research - July 5 - August 5 (Monday - Friday 1pm to 5pm)
++ Week 1-2: - Training in data science, developing skills in R, data visualizations, data cleaning, data analysis
++ Week 3-5: - Research...
