@@ -373,12 +373,61 @@ Although a student applying for aid may be academically admissible, not all stud
 + 03/06 -> 3h (OBI)
 + 04/06 -> 3h (OBI)
 + 05/06 -> 2h (OBI) + 1h (OBMEP)
-+ 06/06 ->
++ 11/06 ->
 
 * English Club
 ** Registro Escrito
 + Talking about weeks...
 + "Keep calm" "Yesterday yesterday...", "Fracasso...", "Defame", "Bad words - cursing"
 
-* Chemestry apresentation
-+ Pesquisas emergentes no campo de estudo de polímeros naturais
+* LOA
++ Criador de conteúdo - 2
++ Editor de Vídeo - 1
++ Gerenciador de Mídias - 1
++ Roteirista - 2
++ Desenvolvedor de Software - Verificar com Gustavo
++ Gestor de projetos e parcerias - Verificar com Iago
++ Gestor de interação - Verificar com Iago
+
+* Marcohort
++ Stimate how much you improved students' grades
++ Check if you want to add some other stuff
++ Check with Ronaldinho the partipants + add how many projects in fecintec
++ Briefly explain your condition today - commute to school + healt
++ Search more about stanford classes
++ Have a look at Tufts and use the strategy: apply early decision to duke or dartmouth (for instance) and then use early decision 2 from tufts -> this way you get more chances hehe
+
+* ATC
+Group 1 https://mitadmissions.org/apply/firstyear/essays-activities-academics/ https://college.harvard.edu/guides/application-tips Group 2 https://www.amherst.edu/admission/apply/firstyear/writingsupplement https://www.bu.edu/admissions/tuition-aid/scholarships-financial-aid/first-year-merit/trustee/ Group 3 https://admission.stanford.edu/apply/freshman/apply.html https://blog.emoryadmission.com/2021/06/emory_saq2021/ Group 4 https://collegeadmissions.uchicago.edu/apply/uchicago-supplemental-essay-questions
+
+** MIT
++ Consists of several short essays (5) --MIT não usa common application system
+
++ Describe the world you come from; for example, your family, clubs, school, community, city or town. How has that world shaped your dreams and aspirations? (250 words or fewer) --personal statement
++ Pick what field of study at MIT appeals to you the most right now, and tell us more about why this field of study appeals to you. (100 words or fewer) --Why major?
++ We know you lead a busy life, full of activities, many of which are required of you. Tell us about something you do simply for the pleasure of it. (200–250 words) --Hobbies
++ At MIT, we bring people together to better the lives of others. MIT students work to improve their communities in different ways, from tackling the world’s biggest challenges to being a good friend. Describe one way in which you have contributed to your community, whether in your family, the classroom, your neighborhood, etc. (200–250 words) --Social impact
++ Tell us about a significant challenge you’ve faced or something that didn’t go according to plan that you feel comfortable sharing. How did you manage the situation? (200-250 words) --personal statement
+
+** Harvard
++ Harvard Questions
++ Writing Supplement (Pode mandar uma que já escreveu ou 10 examples)
+Achamos confuso!
+
++ Unusual circumstances in your life --Context
++    Travel, living, or working experiences in your own or other communities
++    What you would want your future college roommate to know about you
++    An intellectual experience (course, project, book, discussion, paper, poetry, or research topic in engineering, mathematics, science or other modes of inquiry) that has meant the most to you
++    How you hope to use your college education
++    A list of books you have read during the past twelve months
++    The Harvard College Honor code declares that we “hold honesty as the foundation of our community.” As you consider entering this community that is committed to honesty, please reflect on a time when you or someone you observed had to make a choice about whether to act with integrity and honesty.
++    The mission of Harvard College is to educate our students to be citizens and citizen-leaders for society. What would you do to contribute to the lives of your classmates in advancing this mission?
++    Each year a substantial number of students admitted to Harvard defer their admission for one year or take time off during college. If you decided in the future to choose either option, what would you like to do?
++    Harvard has long recognized the importance of student body diversity of all kinds. We welcome you to write about distinctive aspects of your background, personal development or the intellectual interests you might bring to your Harvard classmates.
+
++ Not all short questions are supplemental essays, because some require you to be very objective
++ Analise o que tu já escreveu em outras partes da sua app pra nao ficar repetitivo
++ Alimony goes as supplementaldoc
+
+* Estágio Relatório
++ 07/06 -> 14h-17h... Arrumamos a mesa do lab B105, removendo quatro computadores e alocando-os em mesas próximas. Preparamos a fonte de bancada, multimetro de bancada, gerador de frequencia para uso. Montamos três kits de protoboard.

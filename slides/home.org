@@ -40,11 +40,11 @@
 * TODO (5 - 11/06)
 Ask about OBI until the 9/6 (O último dia para inscrição das escolas é 10/06)
 + [X] SUN (5): Study for OBI, OBMEP
-+ [ ] SUN (5): QIntern2022 application
++ [X] SUN (5): QIntern2022 application
 + [X] SUN (5): Make medalhas
-+ [ ] MON (6): Meeting with Paola
 + [X] TUE (7): OBMEP
 + [X] TUE (7): Máquinas Elétricas activity
 + [X] TUE (7): Parágrafo Andreia
-+ [ ] THU (9): Instrumentação e controle paragraph
-+ [ ] FRI (10): Apresentação de quimica
++ [X] FRI (10): Apresentação de quimica
++ [X] SAT (11): Meeting with Paola
++ [ ] SAT (11): Instrumentação e controle

@@ -1,0 +1,12 @@
+#+TITLE: Relatório Estágio Interno
+#+DESCRIPTION: Relatório Estágio Interno
+#+SETUPFILE:  https://luispengler.github.io/site/org-html-themes/org/theme-readtheorg.setup
+#+OPTIONS: toc:nil
+
+* Algumas considerações
+Estamos registrados para começar o estágio às 13h... batemos o ponto normalmente. No entanto, nosso professor orientador só começa a nos dar instruções a partir das 14h. Por esse motivo, todos os registros do relatório diário começam a partir das 14h.
+
+* Relatório Diário
+=(07/06 -> 14h-17h)= Arrumamos a mesa do lab B105, removendo quatro computadores e alocando-os em mesas próximas. Preparamos a fonte de bancada, multimetro de bancada, gerador de frequencia para uso. Montamos três kits de protoboard.
+=(10/06 -> 14h-17h)= Com o auxílio de uma serra tico-tico cortamos um tampo de madeira para que coubesse na diferença da área existente em uma mesa para cadeirantes, com o objetivo de entesourar uma outra madeira, que estava sendo utilizando como tampão, para uso posterior.
+=(14/06 -> 14h-17h)= Fixamos o tampo de madeira cortado anteriormente. Trocamos as pilhas de aprox 9. alicates amperímetros e atestamos seu correto funcionamento
