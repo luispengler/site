@@ -390,10 +390,10 @@ Although a student applying for aid may be academically admissible, not all stud
 + Gestor de interação - Verificar com Iago
 
 * Marcohort
-+ Stimate how much you improved students' grades
++ Stimate how much you improved students' grades DONE
 + Check if you want to add some other stuff
 + Check with Ronaldinho the partipants + add how many projects in fecintec
-+ Briefly explain your condition today - commute to school + healt
++ Briefly explain your condition today - commute to school + healt DONE
 + Search more about stanford classes
 + Have a look at Tufts and use the strategy: apply early decision to duke or dartmouth (for instance) and then use early decision 2 from tufts -> this way you get more chances hehe
 

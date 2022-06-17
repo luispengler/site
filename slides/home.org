@@ -17,7 +17,13 @@
 
 * To watch
 + Masterclass classes (lol -redudence)
-
++ Biohackers (GER)
++ The Witcher (ENG)
++ Dark (GER)
++ Demon Slayer: Kimetsu no Yaiba (JAP)
++ Raumpatrouille – Die phantastischen Abenteuer des Raumschiffes Orion (GER)
++ Death Note (JAP)
++ LEXX: The Dark Zone Stories (GER)
 + 1 PM at most in the library
 + Always do things from the other, but remember SAT first!
 
@@ -47,4 +53,25 @@ Ask about OBI until the 9/6 (O último dia para inscrição das escolas é 10/06
 + [X] TUE (7): Parágrafo Andreia
 + [X] FRI (10): Apresentação de quimica
 + [X] SAT (11): Meeting with Paola
-+ [ ] SAT (11): Instrumentação e controle
+
+* TODO (12 - 18/06)
++ [ ] THU (16): FINISH NDEVOURS ESSAYS
++ [ ] THU (16): Instrumentação e controle reports + Test
++ [ ] THU (16): Grind Carla's instalações
++ [ ] FRI (17): See about LOA's selective process
+
+* TODO (19 - 25/06)
++ [ ] TUE (21): SEMANA DE LP DIA 21
++ [ ] TUE (21): History rec
++ [ ] TUE (21): Maquinas rec
++ [ ] WED (22): Math test
++ [ ] WED (22): Instalações rec 1
++ [ ] WED (22): Chemestry test
++ [ ] WED (22): Pneumatica test
++ [ ] THU (23): Meio ambiente test
++ [ ] THU (23): Meeting with Simone at 1pm
++ [ ] SAT (25): Chemestry Lab at 8pm
+
+* TODO (26-02/07)
++ [ ] MON (27): Biology test
++ [ ] WED (29): Instalações rec 2
