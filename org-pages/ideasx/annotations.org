@@ -355,6 +355,8 @@ Although a student applying for aid may be academically admissible, not all stud
 + 9th grade honors go into additional information AND all the strikethrough
 + Research the other universities
 * Olympiads
+** 2019 (9th grade)
+5h/w for 32 weeks
 ** May
 + 07/05 -> 5h (OBA + MOBFOG)
 + 08/05 -> 5h40min (OBA + MOBFOG)
@@ -369,11 +371,14 @@ Although a student applying for aid may be academically admissible, not all stud
 + 17/05 -> 5h (OBA + MOBFOG)
 + 18/05 -> 30min (OBA + MOBFOG)
 + 19/05 -> 3h (OBA + MOBFOG)
++ HOURS: 59h | DAYS: 13 days | H/D: 4h32min
 ** June
 + 03/06 -> 3h (OBI)
 + 04/06 -> 3h (OBI)
 + 05/06 -> 2h (OBI) + 1h (OBMEP)
-+ 11/06 ->
++ HOURS: 8h | DAYS: 3 days | H/D: 2h40min
+
+Study for ONC, OBF, OBMEP...
 
 * English Club
 ** Registro Escrito
@@ -391,11 +396,9 @@ Although a student applying for aid may be academically admissible, not all stud
 
 * Marcohort
 + Stimate how much you improved students' grades DONE
-+ Check if you want to add some other stuff
-+ Check with Ronaldinho the partipants + add how many projects in fecintec
++ Check with Ronaldinho the partipants + add how many projects in fecintec DONE
 + Briefly explain your condition today - commute to school + healt DONE
-+ Search more about stanford classes
-+ Have a look at Tufts and use the strategy: apply early decision to duke or dartmouth (for instance) and then use early decision 2 from tufts -> this way you get more chances hehe
++ Search more about stanford classes DONE
 
 * ATC
 Group 1 https://mitadmissions.org/apply/firstyear/essays-activities-academics/ https://college.harvard.edu/guides/application-tips Group 2 https://www.amherst.edu/admission/apply/firstyear/writingsupplement https://www.bu.edu/admissions/tuition-aid/scholarships-financial-aid/first-year-merit/trustee/ Group 3 https://admission.stanford.edu/apply/freshman/apply.html https://blog.emoryadmission.com/2021/06/emory_saq2021/ Group 4 https://collegeadmissions.uchicago.edu/apply/uchicago-supplemental-essay-questions
@@ -415,19 +418,16 @@ Group 1 https://mitadmissions.org/apply/firstyear/essays-activities-academics/ h
 Achamos confuso!
 
 + Unusual circumstances in your life --Context
-+    Travel, living, or working experiences in your own or other communities
-+    What you would want your future college roommate to know about you
-+    An intellectual experience (course, project, book, discussion, paper, poetry, or research topic in engineering, mathematics, science or other modes of inquiry) that has meant the most to you
-+    How you hope to use your college education
-+    A list of books you have read during the past twelve months
-+    The Harvard College Honor code declares that we “hold honesty as the foundation of our community.” As you consider entering this community that is committed to honesty, please reflect on a time when you or someone you observed had to make a choice about whether to act with integrity and honesty.
-+    The mission of Harvard College is to educate our students to be citizens and citizen-leaders for society. What would you do to contribute to the lives of your classmates in advancing this mission?
-+    Each year a substantial number of students admitted to Harvard defer their admission for one year or take time off during college. If you decided in the future to choose either option, what would you like to do?
-+    Harvard has long recognized the importance of student body diversity of all kinds. We welcome you to write about distinctive aspects of your background, personal development or the intellectual interests you might bring to your Harvard classmates.
++ Travel, living, or working experiences in your own or other communities
++ What you would want your future college roommate to know about you
++ An intellectual experience (course, project, book, discussion, paper, poetry, or research topic in engineering, mathematics, science or other modes of inquiry) that has meant the most to you
++ How you hope to use your college education
++ A list of books you have read during the past twelve months
++ The Harvard College Honor code declares that we “hold honesty as the foundation of our community.” As you consider entering this community that is committed to honesty, please reflect on a time when you or someone you observed had to make a choice about whether to act with integrity and honesty.
++ The mission of Harvard College is to educate our students to be citizens and citizen-leaders for society. What would you do to contribute to the lives of your classmates in advancing this mission?
++ Each year a substantial number of students admitted to Harvard defer their admission for one year or take time off during college. If you decided in the future to choose either option, what would you like to do?
++ Harvard has long recognized the importance of student body diversity of all kinds. We welcome you to write about distinctive aspects of your background, personal development or the intellectual interests you might bring to your Harvard classmates.
 
 + Not all short questions are supplemental essays, because some require you to be very objective
 + Analise o que tu já escreveu em outras partes da sua app pra nao ficar repetitivo
 + Alimony goes as supplementaldoc
-
-* Estágio Relatório
-+ 07/06 -> 14h-17h... Arrumamos a mesa do lab B105, removendo quatro computadores e alocando-os em mesas próximas. Preparamos a fonte de bancada, multimetro de bancada, gerador de frequencia para uso. Montamos três kits de protoboard.
