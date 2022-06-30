@@ -62,9 +62,7 @@ senha: arroz
 * Wichita State University
 + Info on telegram
 
-* Marcohort
-+ Literally explain metaphors
-+ Follow up + Weekly things + Examples reading + Three short essays
+
 
 * Education USA
 + 99% universities will have financial aid, but it is important to understand what kind of it
@@ -101,10 +99,6 @@ senha: arroz
 *** Gates
 + 3 Rx gate (1 Rx gate will work as an X gate + 1 Rx gate will work as an H gate + 1 Rx gate will work as a real Rx gate)
 
-* Marcohort 2
-+ I don't get how music is applied into your life (how you feel), and give the example. He doesn't illustrate how it is important music in his context... <- Just Add things in another color, don't delete;
-+ The music story will probably not become a personal statement, probably something for a supplemental essay
-+ They cycling thing (the imposed limitation here... how?) and the autoimmune disease (focus on how you life were before and how you had to adjust, what you had to do differently like mentally, etc - how did you feel about it? - some limitations were imposed on me, how you feel about it?)
 
 * New idea
 + Create a palce (it can be a website) for people to share real world problems
@@ -118,10 +112,7 @@ Suggested Schools: Science: California Institute of Technology, Clarkson Univers
 
 + Arduino ATmega328
 
-* Marcohort 3
-+ "Since I was a child..." - Explain better the consequences of the disease (BE MORE IMPACTFUL) + Explain how you adjusted to your new life (Introduce Linux!!! Explain it is a different kind of freedom, and you get that, my disease allowed me to develop passion for tech - idea: having a change of scnerio, being excited differently)
-+ In the story 3 second paragraph, maybe explain what freedom means for you now
-+ Perguntar sobre o histórico parcial na escola
+
 
 * LOA
 + Usar mais o quadro-negro como um retorno visual -> a ideia é parecer mais uma aula
@@ -143,17 +134,6 @@ Suggested Schools: Science: California Institute of Technology, Clarkson Univers
 + Em maio, possivelmente divulgaremos nas salas os cursos CENID
 + Em junho, podemos planejar um encontro no parque das nações, possivelmente dia 11/06
 
-* Marcohort 4
-+ In paragraph 4, be more clear/straitforward "To add up, I could not go outside yet. Sun was boiling eggs in the pavement, and Covid-19 was running rampant. So, I stay in my room, quiet and alone. I press a button, and a beast silently awakens. I keep staring at the screen, as if the shiny letters could hurt my reality even more. But all it does is ask who I am. As I prompt my user data, I am reminded how trustworthy the system I modified is, and I could also use, study, improve, and share it as I pleased." Try using less metaphors and ryme less, because you already used them in the beginning.
-+ You have to be very clear that coding is very important
-+ Have a final paragraph saying you can't cycle and it sucks (even though my freedom was removed), but this issue allowed me to discover something else, to explore more about this world.
-+ I will need my parcial transcript + transcript
-
-Luís Guilherme Miranda Spengler is currently a High School senior, taking electrotechnology vocational program at Instituto Federal do Mato Grosso do Sul. He is very engaged in the activities from his school, and takes great interest in activities involving research, volunteering and teaching.
-
-During the pandemic, Luís was one of the most engaged students from his school, where he developed research, and coordinated at English Club. As a result of this, his team won Fecintec and were invited to participate in Mostra Nacional Itinerante das Feiras de Ciências. As a 1-year Quantum Computing student at the Qubit by Qubit program for high school students, he could learn more about an exciting career that is changing the world for the better, with its state-of-the-art innovations. He makes it his personal goal to somehow contribute to the Quantum Computing field.
-
-Currently, he is preparing for the application process with the help of EducationUSA Application Tracker project. Meanwhile, he works on other projects he knows will also make an impact on his community, and hopes US colleges will notice his hard work and dedication.
 
 
 
@@ -257,11 +237,7 @@ Currently, he is preparing for the application process with the help of Educatio
 + Make a list of events that occurred in the recommender classroom or during a project
 + Explain them you are applying to U.S. Colleges. For now, it is necessary to write the letters of recommendation,
 
-* Marcohort 5
-+ Think about the connections between the "As I recovered..." "My interest..." bringing people together - how? what did you participate in? in this virtual world or whatever
-+ Also try introducing the community first
-+ Also try coming back to cycling more like at the bottom of "As I recovered" paragraph
-+ At the end, try modifying something as you see fit
+
 
 * ACT
 ** Extracurriculars, Honors & Add Info
@@ -284,26 +260,7 @@ Currently, he is preparing for the application process with the help of Educatio
 + Some applications may accept portfolios - like MIT
 + Github and website are valid, but you may want to put them on additional information
 
-* Marcohort 6
-+ Everything, everwhere at once -> movie recommendation
-+ There are lot of "software" words repetition software, freedom... (be mindful of the uses) -> refine it in terms of vocabulary
-+ Get the 5th semester grades
-+ Start the extracurricular activities and additional information docs
-+ Search about universities (Duke, Dartmouth college, Rice university, Northwestern university, tarnford) search about the labs?
 
-* Marcohort 7
-+ Use maybe a parelel between programming and cycling, and recover something you said in the text -> create a new last paragraph and put it at the bottom
-+ Add additional information in the additional information document -DONE
-+ How many people have been impacted since the beginning of it? -DONE
-+ Don't use "low-income" use underprevileged -DONE
-+ Add the rocket -DONE
-+ Duke University Press is not student led -DONE
-+ What does IHouse do? -DONE
-+ What does Bryan center -DONE
-+ Talk more about the quantum center -DONE
-+ Research about Duke research abroad universities -WHAT
-+ Find more things about research - what do they do there?
-+ Relate something to what you are doing to what they are doing -- for instance, the part from Jungsang Kim -DONE
 
 * Ideas
 ** 1st and 2nd semester
@@ -350,10 +307,7 @@ Although a student applying for aid may be academically admissible, not all stud
 * Marco
 + 20D
 
-* Marcohort
-+ Yo Cientificx info about your interviews...
-+ 9th grade honors go into additional information AND all the strikethrough
-+ Research the other universities
+
 * Olympiads
 ** 2019 (9th grade)
 5h/w for 32 weeks
@@ -386,19 +340,13 @@ Study for ONC, OBF, OBMEP...
 + "Keep calm" "Yesterday yesterday...", "Fracasso...", "Defame", "Bad words - cursing"
 
 * LOA
-+ Criador de conteúdo - 2
++ Criador de conteúdo - 2 (inclui roteirista)
 + Editor de Vídeo - 1
-+ Gerenciador de Mídias - 1
-+ Roteirista - 2
++ Gerenciador de Mídias Sociais - 1
+
 + Desenvolvedor de Software - Verificar com Gustavo
 + Gestor de projetos e parcerias - Verificar com Iago
 + Gestor de interação - Verificar com Iago
-
-* Marcohort
-+ Stimate how much you improved students' grades DONE
-+ Check with Ronaldinho the partipants + add how many projects in fecintec DONE
-+ Briefly explain your condition today - commute to school + healt DONE
-+ Search more about stanford classes DONE
 
 * ATC
 Group 1 https://mitadmissions.org/apply/firstyear/essays-activities-academics/ https://college.harvard.edu/guides/application-tips Group 2 https://www.amherst.edu/admission/apply/firstyear/writingsupplement https://www.bu.edu/admissions/tuition-aid/scholarships-financial-aid/first-year-merit/trustee/ Group 3 https://admission.stanford.edu/apply/freshman/apply.html https://blog.emoryadmission.com/2021/06/emory_saq2021/ Group 4 https://collegeadmissions.uchicago.edu/apply/uchicago-supplemental-essay-questions
@@ -431,3 +379,120 @@ Achamos confuso!
 + Not all short questions are supplemental essays, because some require you to be very objective
 + Analise o que tu já escreveu em outras partes da sua app pra nao ficar repetitivo
 + Alimony goes as supplementaldoc
+
+* Marcohort
++ Stimate how much you improved students' grades DONE
++ Check with Ronaldinho the partipants + add how many projects in fecintec DONE
++ Briefly explain your condition today - commute to school + healt DONE
++ Search more about stanford classes DONE
+
+* Marcohort
++ Literally explain metaphors
++ Follow up + Weekly things + Examples reading + Three short essays
+
+* Marcohort 2
++ I don't get how music is applied into your life (how you feel), and give the example. He doesn't illustrate how it is important music in his context... <- Just Add things in another color, don't delete;
++ The music story will probably not become a personal statement, probably something for a supplemental essay
++ They cycling thing (the imposed limitation here... how?) and the autoimmune disease (focus on how you life were before and how you had to adjust, what you had to do differently like mentally, etc - how did you feel about it? - some limitations were imposed on me, how you feel about it?)
+
+* Marcohort 3
++ "Since I was a child..." - Explain better the consequences of the disease (BE MORE IMPACTFUL) + Explain how you adjusted to your new life (Introduce Linux!!! Explain it is a different kind of freedom, and you get that, my disease allowed me to develop passion for tech - idea: having a change of scnerio, being excited differently)
++ In the story 3 second paragraph, maybe explain what freedom means for you now
++ Perguntar sobre o histórico parcial na escola
+
+* Marcohort 4
++ In paragraph 4, be more clear/straitforward "To add up, I could not go outside yet. Sun was boiling eggs in the pavement, and Covid-19 was running rampant. So, I stay in my room, quiet and alone. I press a button, and a beast silently awakens. I keep staring at the screen, as if the shiny letters could hurt my reality even more. But all it does is ask who I am. As I prompt my user data, I am reminded how trustworthy the system I modified is, and I could also use, study, improve, and share it as I pleased." Try using less metaphors and ryme less, because you already used them in the beginning.
++ You have to be very clear that coding is very important
++ Have a final paragraph saying you can't cycle and it sucks (even though my freedom was removed), but this issue allowed me to discover something else, to explore more about this world.
++ I will need my parcial transcript + transcript
+
+Luís Guilherme Miranda Spengler is currently a High School senior, taking electrotechnology vocational program at Instituto Federal do Mato Grosso do Sul. He is very engaged in the activities from his school, and takes great interest in activities involving research, volunteering and teaching.
+
+During the pandemic, Luís was one of the most engaged students from his school, where he developed research, and coordinated at English Club. As a result of this, his team won Fecintec and were invited to participate in Mostra Nacional Itinerante das Feiras de Ciências. As a 1-year Quantum Computing student at the Qubit by Qubit program for high school students, he could learn more about an exciting career that is changing the world for the better, with its state-of-the-art innovations. He makes it his personal goal to somehow contribute to the Quantum Computing field.
+
+Currently, he is preparing for the application process with the help of EducationUSA Application Tracker project. Meanwhile, he works on other projects he knows will also make an impact on his community, and hopes US colleges will notice his hard work and dedication.
+
+* Marcohort 5
++ Think about the connections between the "As I recovered..." "My interest..." bringing people together - how? what did you participate in? in this virtual world or whatever
++ Also try introducing the community first
++ Also try coming back to cycling more like at the bottom of "As I recovered" paragraph
++ At the end, try modifying something as you see fit
+
+* Marcohort 6
++ Everything, everwhere at once -> movie recommendation
++ There are lot of "software" words repetition software, freedom... (be mindful of the uses) -> refine it in terms of vocabulary
++ Get the 5th semester grades
++ Start the extracurricular activities and additional information docs
++ Search about universities (Duke, Dartmouth college, Rice university, Northwestern university, tarnford) search about the labs?
+
+* Marcohort 7
++ Use maybe a parelel between programming and cycling, and recover something you said in the text -> create a new last paragraph and put it at the bottom
++ Add additional information in the additional information document -DONE
++ How many people have been impacted since the beginning of it? -DONE
++ Don't use "low-income" use underprevileged -DONE
++ Add the rocket -DONE
++ Duke University Press is not student led -DONE
++ What does IHouse do? -DONE
++ What does Bryan center -DONE
++ Talk more about the quantum center -DONE
++ Research about Duke research abroad universities -WHAT
++ Find more things about research - what do they do there?
++ Relate something to what you are doing to what they are doing -- for instance, the part from Jungsang Kim -DONE
+
+* Marcohort
++ Yo Cientificx info about your interviews...
++ 9th grade honors go into additional information AND all the strikethrough
++ Research the other universities
+
+* Marcohort (18/06)
++ We will go back on the ECAs later to check for things -- keep in mind I still have GTwins to write about
++ Create a google sheets template for college search -DONE
++ Create a google sheets | Application Tracker - DONE - In Progress
++ It is mandatory to get my father's documents -> Imposto de renda COMPLETO
++ Continue searching for next week
++ Add the drive folder for each teacher and the document -> Contact them
++ Next week we will start organizing for me to start writing the supplemental essays
++ Visit the College Essay Guy links on google classroom
++ Organize individual folders for each university (write the full university name)
++ Create google docs and write down the prompts-1 prompt per page (use page breaks)
+
+* ATC
++ Why this community essay
++ Why this major essay
++ Why this college essay
+
++ How would you approach this prompt?
+Basicamente tu tem que refletir no seu futuro e imaginar indo nessa faculdade pra conseguir isso. Dá pra pensar no why college essays em como você aprova a faculdade em te ajudar no que tu quer fazer no futuro, não pensa nisso como a faculdade te avaliando, mas em você avaliando ela, porque aí dá pra criar um fit muito bom
+
++ Where could you find the necessary information?
+- Through college searching, throught self-thinking, assistam videos de campus, entendam a geografia de onde fica a faculdade -- só pra dar você realmente se imaginar indo lá
+
+* Reuniao GEDUC + LOA
++ Parceria com pitagóricos para preparação de seletivas + indicar participação no discord? - FALAR COM ELES
++ Brainstorming com cargos específicos no servidor - FAZER ISSO
++ Breakouts com perguntas especificas para as seletivas de astronomia -- o que te levou a ficar interessado em astronomia -- assim aumentamos o engagamento do pessoal. Vai ter kahoot?
++ Fazer brainstorming de canais do youtube que a gente pode fazer divulgação do servidor - FAZER ISSO
++ Canal de memes (off-topic) + sugestão (server info) + desafios semanais ()
+
+
+
+* EC
++ Primeira logo em 2017, segunda em 2020 -> está em memories
+
+* ACT - SUPER MEETING
+** General
++ João says 5 classes is recommended for a double major and he has a very flexible routine -- Is it really that flexible?
++ Diego +5516988113432 , coelhorodriguesdiego@gmail.com
+** DUKE -- João Vitor Boechat -- Computer Science;
+vitorboechatbotelho@gmail.com
+whatsapp: +19843779581
+** NORTHWESTERN -- Davi Maciel -- Computer Science; Kaio Kumagai -- Biomedical Engineering
+*** Kaio
++ Quarter system -> Kaio describes it as accelerated
++ Kaio  +1 847 907 1146, kaiokumagai2025@u.northwestern.edu
+*** Davi
++ 1st quarter -> He was trying to explore a lot of things... It seems like his biggest task was the even nights to get points for the dorm
++ 2nd quarter ->
++ 3rd quarter ->
++ He says there is a lab for CS students -- Is it like an informatics lab?
++ He says the campus is very pretty and nice to walk

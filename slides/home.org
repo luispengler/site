@@ -9,14 +9,13 @@
 * Applications
 - [X] [[https://beamlineforschools.cern/][A Beamline For Schools]] (April 15)
 - [X] MOBFOG + OBA (May 20)
-- [ ] QIntern2022 application (25/05)
-- [ ] +Science 3.0 (27/05)
-- [ ] Qiskit Global Summer School 2022: Quantum Simulations (27/05)
+- [X] QIntern2022 application (25/05)
 - [ ] Torneio Nacional de Física (08/07)
-- [ ] OBF 2022 (20/07)
+- [ ] OBF 2022 (05/08)
 
 * To watch
 + Masterclass classes (lol -redudence)
++ Física Experimental do prof. Ivan
 + Biohackers (GER)
 + The Witcher (ENG)
 + Dark (GER)
@@ -27,62 +26,25 @@
 + 1 PM at most in the library
 + Always do things from the other, but remember SAT first!
 
-* TODO (22-28/05)
-+ [X] SUN (22): Schedule your activities
-+ [X] MON (23): Finish Portuguese eBook
-+ [X] MON (23): Finish Instrumentação e Controle's reports
-+ [X] MON (23): Continue research about QC
-+ [X] TUE (24): Corpos Secos Parágrafo
-+ [X] THU (26): Instrumentação e Controle's report
-+ [X] FRI (27): Entrega da atividade final da semana de 22
+* TODO (26-02/06)
++ [X] MON (27): Biology test
++ [X] TUE (28): SEMANA DE LP DIA 21
++ [X] TUE (28): History rec
++ [X] TUE (28): Chemestry activity rec
++ [X] WED (29): Instalações rec 2
++ [X] WED (29): Lab de quimica
 
-* TODO (29/05 - 4/06)
-+ [X] MON (30): Prova de Biologia
-+ [X] TUE (31): Prova do Gedeon
-+ [X] TUE (31): Roda de leitura Policarpo
-+ [X] SAT (4): Study for OBI and OBMEP
-+ [X] SAT (4): Marcohort
-
-* TODO (5 - 11/06)
-Ask about OBI until the 9/6 (O último dia para inscrição das escolas é 10/06)
-+ [X] SUN (5): Study for OBI, OBMEP
-+ [X] SUN (5): QIntern2022 application
-+ [X] SUN (5): Make medalhas
-+ [X] TUE (7): OBMEP
-+ [X] TUE (7): Máquinas Elétricas activity
-+ [X] TUE (7): Parágrafo Andreia
-+ [X] FRI (10): Apresentação de quimica
-+ [X] SAT (11): Meeting with Paola
-
-* TODO (12 - 18/06)
-+ [ ] THU (16): FINISH NDEVOURS ESSAYS
-+ [ ] THU (16): Instrumentação e controle reports + Test
-+ [ ] THU (16): Grind Carla's instalações
-  Testes:
-  Avaliação 01-A FEITA
-  Avaliação 01-B DISPONÍVEL
-  Tarefa 01 - DISPONÍVEL
-  Tarefa 02 - DISPONÍVEL
-  Projeto Parte 1 - DISPONÍVEL
-  Projeto Parte 2 - DISPONÍVEL
-  Projeto Parte 3 - DISPONÍVEL
-  Questionário Dimensionamnto - DISPONÍVEL
-  Projeto Final - DISPONÍVEL
-  Projeto Final - DISPONÍVEL
-+ [ ] FRI (17): See about LOA's selective process
-
-* TODO (19 - 25/06)
-+ [ ] TUE (21): SEMANA DE LP DIA 21
-+ [ ] TUE (21): History rec
-+ [ ] TUE (21): Maquinas rec
-+ [ ] WED (22): Math test
-+ [ ] WED (22): Instalações rec 1
-+ [ ] WED (22): Chemestry test
-+ [ ] WED (22): Pneumatica test
-+ [ ] THU (23): Meio ambiente test
-+ [ ] THU (23): Meeting with Simone at 1pm
-+ [ ] SAT (25): Chemestry Lab at 8pm
-
-* TODO (26-02/07)
-+ [ ] MON (27): Biology test
-+ [ ] WED (29): Instalações rec 2
+* TODO (13/08) SPECIAL
++ [ ] OBF primeira fase
+* TODO (18/08) SPECIAL
++ [ ] ONC primeira fase
+* TODO (09/09) SPECIAL
++ [ ] ONC segunda fase
+* TODO (24/09) SPECIAL
++ [ ] OBF segunda fase
+* TODO (1/10) SPECIAL
++ [ ] SAT Goiânia
+* TODO (24-27/10) SPECIAL
++ [ ] MOBFOG Barra do Piraí
+* TODO (10/12) SPECIAL
++ [ ] OBF terceira fase
