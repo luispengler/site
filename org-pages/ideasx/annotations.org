@@ -456,6 +456,12 @@ Currently, he is preparing for the application process with the help of Educatio
 + Organize individual folders for each university (write the full university name)
 + Create google docs and write down the prompts-1 prompt per page (use page breaks)
 
+* Marcohort
++ Specific stuff in 1st and 2nd paragrahps -- good, but you need to shorten it
++ The last paragraph is too general -- delete it
++ Introduce other things you could do at Duke -- asides from academics -- try to find connections
++ Homework: Focus on rewriting the why duke essay + writing the duke background essay + finish the research + add universities + try to do a why essay or extracurricular essay
+
 * ATC
 + Why this community essay
 + Why this major essay
