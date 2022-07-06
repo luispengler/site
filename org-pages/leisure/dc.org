@@ -748,7 +748,7 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [X] Stargirl - 2.10: "Summer School: Chapter Ten"
 + [X] Supergirl - 6.15: "Hope for Tomorrow"
 
-* 2021/2022 [65/69] [94%]
+* 2021/2022 [69/69] [100%]
 
 + [X] Batwoman - 3.01: "Mad As a Hatter"
 + [X] DC's Legends of Tomorrow - 7.01: "The Bullet Blondes"
@@ -815,7 +815,7 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [X] Superman & Lois - 2.13: "All Is Lost"
 + [X] The Flash - 8.17: "Keep it Dark"
 + [X] The Flash - 8.18: "The Man in the Yellow Tie"
-+ [ ] Superman & Lois - 2.14: "Worlds War Bizzare"
-+ [ ] The Flash - 8.19: "Negative, Part One"
-+ [ ] Superman & Lois - 2.15: "Waiting for Superman"
-+ [ ] The Flash - 8.20: "Negative, Part Two"
++ [X] Superman & Lois - 2.14: "Worlds War Bizzare"
++ [X] The Flash - 8.19: "Negative, Part One"
++ [X] Superman & Lois - 2.15: "Waiting for Superman"
++ [X] The Flash - 8.20: "Negative, Part Two"
