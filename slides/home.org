@@ -26,24 +26,32 @@
 + 1 PM at most in the library
 + Always do things from the other, but remember SAT first!
 
-* TODO (26-02/06)
-+ [X] MON (27): Biology test
-+ [X] TUE (28): SEMANA DE LP DIA 21
-+ [X] TUE (28): History rec
-+ [X] TUE (28): Chemestry activity rec
-+ [X] WED (29): Instalações rec 2
-+ [X] WED (29): Lab de quimica
-
+* TODO (11/07) SPECIAL
++ [X] Dartmouth Virtual Information Session at 7 PM
+* TODO (12/07) SPECIAL
++ [X] Tufts Virtual Guided Tour at 10h30 AM
++ [X] Tufts Virtual General Information Session at 3 PM
++ [X] Northwestern Online Admission Information Session at 5 PM
+* TODO (13/07) SPECIAL
++ [X] Duke Live information session (virtual) at 2 PM
+* TODO (14/07) SPECIAL
++ [X] Duke Apply to Duke Session (virtual) at 11 AM
+* TODO (26/07) SPECIAL
++ [ ] Dartmouth Climate & Energy Summer Series at 7 PM
 * TODO (13/08) SPECIAL
 + [ ] OBF primeira fase
 * TODO (18/08) SPECIAL
 + [ ] ONC primeira fase
 * TODO (09/09) SPECIAL
 + [ ] ONC segunda fase
+* TODO (18/09) SPECIAL
++ [ ] Torneio Nacional de Física
 * TODO (24/09) SPECIAL
 + [ ] OBF segunda fase
 * TODO (1/10) SPECIAL
 + [ ] SAT Goiânia
+* TODO (8/10) SPECIAL
++ [ ] OBMEP segunda fase
 * TODO (24-27/10) SPECIAL
 + [ ] MOBFOG Barra do Piraí
 * TODO (10/12) SPECIAL

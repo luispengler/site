@@ -3,6 +3,16 @@
 #+SETUPFILE:  https://luispengler.github.io/site/org-html-themes/org/theme-readtheorg.setup
 #+OPTIONS: num:nil ^:{} toc:nil
 
+
+
+
+
+
+
+
+
+
+
 #+ATTR_HTML: alt: waterwave :title Wanted! Stolen NFT :style margin-left: auto;margin-right: auto;background-color: mintcream;display: block;width: 100%;
 https://luispengler.github.io/site/doc/images/punk.png
 | [[https://luispengler.github.io/site/html/org-pages/notes/define-notes.html][Virtual Notebook]] | [[https://luispengler.github.io/site/html/doc/articles/index.html][ORI]] | [[https://luispengler.github.io/site/html/org-pages/leisure/define-leisure.html][Leisure]] |
