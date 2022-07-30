@@ -17,7 +17,6 @@
 + Masterclass classes (lol -redudence)
 + Física Experimental do prof. Ivan
 + Biohackers (GER)
-+ The Witcher (ENG)
 + Dark (GER)
 + Demon Slayer: Kimetsu no Yaiba (JAP)
 + Raumpatrouille – Die phantastischen Abenteuer des Raumschiffes Orion (GER)
@@ -36,8 +35,6 @@
 + [X] Duke Live information session (virtual) at 2 PM
 * TODO (14/07) SPECIAL
 + [X] Duke Apply to Duke Session (virtual) at 11 AM
-* TODO (26/07) SPECIAL
-+ [ ] Dartmouth Climate & Energy Summer Series at 7 PM
 * TODO (13/08) SPECIAL
 + [ ] OBF primeira fase
 * TODO (18/08) SPECIAL
@@ -56,3 +53,10 @@
 + [ ] MOBFOG Barra do Piraí
 * TODO (10/12) SPECIAL
 + [ ] OBF terceira fase
+
+
+It is no accident that more than a billion dollars has been invested by the United States government in quantum computing initiatives and research, showing that the scientific community is very confident we can use it to solve the world's greatest problems. A growing field like this has a lot of people with different backgrounds involved, from politics to mathematics.
+
+Brazil is also as diverse as the people involved with quantum, yet with no noticeable participation of governments and institutions when it comes to research nor education and training required to be a player in this field. Through my 7 month course "An introduction to Quantum computing" I came across other Brazilians who would also fancy an education abroad, especially if they want to continue working in the field.
+
+It is of my very best intentions to further advance the quantum computing situation in Brazil. For that I can create cheap, but functional photonic quantum hardware, partnering with Brazilian educational institutions to bring curiosity on the subject to High Scholers. Through this method we can ensure we have researchers in the long run, interested enough to make advances that will lead to problems such as  global hunger, climate change, cybersecurity issues, vaccine development, drug discovery, search for life on other planets, and many others take a step further.
