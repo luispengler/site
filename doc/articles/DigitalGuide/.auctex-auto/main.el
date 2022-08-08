@@ -11,10 +11,8 @@
    (LaTeX-add-index-entries
     "Paragraphs of Text"
     "Citation"
-    "Theorems"
-    "Definitions"
-    "Vocabulary"
     "Table"
-    "figure"))
+    "figure"
+    "Lists!Intercâmbio diversos"))
  :latex)
 

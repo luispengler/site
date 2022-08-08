@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.5.6)  7 AUG 2022 23:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.5.6)  8 AUG 2022 00:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1259,11 +1259,11 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 53.
 LaTeX Info: Redefining \pageref on input line 53.
 LaTeX Info: Redefining \nameref on input line 53.
-<Pictures//background.pdf, id=7, 584.1825pt x 835.12pt>
-File: Pictures//background.pdf Graphic file (type pdf)
-<use Pictures//background.pdf>
-Package pdftex.def Info: Pictures//background.pdf  used on input line 65.
-(pdftex.def)             Requested size: 597.50787pt x 854.24503pt.
+<Pictures//background.png, id=7, 584.1825pt x 834.86906pt>
+File: Pictures//background.png Graphic file (type png)
+<use Pictures//background.png>
+Package pdftex.def Info: Pictures//background.png  used on input line 65.
+(pdftex.def)             Requested size: 597.50787pt x 853.98836pt.
 LaTeX Font Info:    Trying to load font information for T1+pag on input line 66
 .
 
@@ -1328,7 +1328,7 @@ File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 ) [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Pictures//background.pdf
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Pictures//background.png
 >]
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 8
 2.
@@ -1407,7 +1407,7 @@ LaTeX Font Info:    Font shape `T1/pag/b/n' in size <30> not available
 ]
 [6]
 Chapter 1.
-<Pictures//chapter_head_2.pdf, id=113, 3581.38pt x 1790.69pt>
+<Pictures//chapter_head_2.pdf, id=95, 3581.38pt x 1790.69pt>
 File: Pictures//chapter_head_2.pdf Graphic file (type pdf)
 <use Pictures//chapter_head_2.pdf>
 Package pdftex.def Info: Pictures//chapter_head_2.pdf  used on input line 120.
@@ -1416,43 +1416,35 @@ Package pdftex.def Info: Pictures//chapter_head_2.pdf  used on input line 120.
 
  <./Pictures//chapter_head_2.pdf>] [8
 
-]
+] (./main.ptc) [9] [10]
 Chapter 2.
-File: Pictures//chapter_head_2.pdf Graphic file (type pdf)
-<use Pictures//chapter_head_2.pdf>
-Package pdftex.def Info: Pictures//chapter_head_2.pdf  used on input line 147.
-(pdftex.def)             Requested size: 597.50787pt x 298.75726pt.
-[9] [10
-
-] (./main.ptc) [11] [12]
-Chapter 3.
 File: Pictures//chapter_head_1.pdf Graphic file (type pdf)
 <use Pictures//chapter_head_1.pdf>
-Package pdftex.def Info: Pictures//chapter_head_1.pdf  used on input line 177.
+Package pdftex.def Info: Pictures//chapter_head_1.pdf  used on input line 175.
 (pdftex.def)             Requested size: 597.50787pt x 336.08511pt.
-[13
+[11
 
-] [14
+] [12
 
 ]
 File: Pictures//chapter_head_1.pdf Graphic file (type pdf)
 <use Pictures//chapter_head_1.pdf>
-Package pdftex.def Info: Pictures//chapter_head_1.pdf  used on input line 201.
+Package pdftex.def Info: Pictures//chapter_head_1.pdf  used on input line 199.
 (pdftex.def)             Requested size: 597.50787pt x 336.08511pt.
 
 
-Package biblatex Warning: Type 'book' not found on input line 205.
+Package biblatex Warning: Type 'book' not found on input line 203.
 
 
-LaTeX Warning: Empty bibliography on input line 205.
+LaTeX Warning: Empty bibliography on input line 203.
 
 
-Package biblatex Warning: Type 'article' not found on input line 208.
+Package biblatex Warning: Type 'article' not found on input line 206.
 
 
-LaTeX Warning: Empty bibliography on input line 208.
+LaTeX Warning: Empty bibliography on input line 206.
 
-[15] [16
+[13] [14
 
 ] (./main.ind
 File: Pictures//chapter_head_1.pdf Graphic file (type pdf)
@@ -1475,21 +1467,16 @@ Overfull \hbox (1.20001pt too wide) in paragraph at lines 15--16
  []
 
 
-Overfull \hbox (1.20001pt too wide) in paragraph at lines 21--22
+Overfull \hbox (1.20001pt too wide) in paragraph at lines 22--23
 [][] 
  []
 
 
-Overfull \hbox (1.20001pt too wide) in paragraph at lines 27--28
+Overfull \hbox (1.20001pt too wide) in paragraph at lines 28--29
 [][] 
  []
 
-
-Overfull \hbox (1.20001pt too wide) in paragraph at lines 34--35
-[][] 
- []
-
-[17
+[15
 
 
 ])
@@ -1502,23 +1489,23 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 34275 strings out of 478238
- 639104 string characters out of 5850457
- 1481123 words of memory out of 5000000
- 51678 multiletter control sequences out of 15000+600000
- 566327 words of font info for 264 fonts, out of 8000000 for 9000
+ 34251 strings out of 478238
+ 638826 string characters out of 5850457
+ 1480039 words of memory out of 5000000
+ 51669 multiletter control sequences out of 15000+600000
+ 565746 words of font info for 256 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 89i,11n,92p,997b,2881s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 89i,11n,92p,997b,2880s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf-dist/fon
 ts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf-dist/fonts/type1/public
 /cm-super/sftt1095.pfb></usr/share/texmf-dist/fonts/type1/urw/avantgar/uagd8a.p
 fb></usr/share/texmf-dist/fonts/type1/urw/avantgar/uagk8a.pfb></usr/share/texmf
 -dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/t
 imes/utmri8a.pfb>
-Output written on main.pdf (17 pages, 494569 bytes).
+Output written on main.pdf (15 pages, 568203 bytes).
 PDF statistics:
- 274 PDF objects out of 1000 (max. 8388607)
- 204 compressed objects within 3 object streams
- 36 named destinations out of 1000 (max. 500000)
- 115876 words of extra memory for PDF output out of 128383 (max. 10000000)
+ 233 PDF objects out of 1000 (max. 8388607)
+ 172 compressed objects within 2 object streams
+ 31 named destinations out of 1000 (max. 500000)
+ 115844 words of extra memory for PDF output out of 128383 (max. 10000000)
 
