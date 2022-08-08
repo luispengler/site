@@ -352,3 +352,28 @@ I have basic knowledge on quantum mechanics, being sufficient for understanding 
 ** Research - July 5 - August 5 (Monday - Friday 1pm to 5pm)
 + Week 1-2: - Training in data science, developing skills in R, data visualizations, data cleaning, data analysis
 + Week 3-5: - Research...
+
+* Values exercise
+** Top 10
++ intellect
++ laughter
++ freedom
++ security
++ knowledge
++ privacy
++ efficiency
++ helping others
++ curiosity
++ growth
+** Top 5
++ freedom
++ helping others
++ curiosity
++ growth
++ laughter
+** Top 3
++ freedom
++ helping others
++ curiosity
+** Top 1
++ freedom
