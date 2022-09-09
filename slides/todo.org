@@ -6,43 +6,70 @@
 #+Title: Todo - olympiads and tests
 #+Author: Luís Spengler
 
+* 17/07
+ + [X] Math: 4 Videos of Estatistica
+ + [X] Math: 5 OBMEP questions
+ + [X] SAT: MATH
+* 18/07
++ [X] Math: 4 Videos of Probabilidade
++ [X] Math: 5 OBMEP questions
++ [X] SAT: ENGLISH
+* 19/07
++ [X] APPLICATION: ACT TASKS
++ [X] Math: 5 OBMEP questions
++ [X] SAT: MATH
+* 20/07
++ [X] Math: 5 OBMEP questions
++ [X] SAT: ENGLISH
+* 21/07
++ [X] Math: 5 OBMEP questions
++ [X] SAT: MATH
+* 22/07
++ [ ] Física 1: (Parte 1) Tópico 3 - Calor sensível e calor latente
++ [X] Física 2: (Parte 1) Tópico 3 - Movimento uniformemente variado
++ [ ] Física 3: (Parte 1) Tópico 3 - Potencial elétrico
++ [ ] Math: 5 OBMEP questions
++ [ ] SAT: ENGLISH
 * 23/07
 + [ ] Física 1: (Parte 1) Tópico 4 - Movimentos circulares
 + [ ] Física 2: (Parte 1) Tópico 4 - Gases perfeitos
 + [ ] Física 3: (Parte 2) Tópico 1 - Corrente elétrica e resistores
-+ [X] Math: 5 OBMEP questions
-+ [X] SAT: MATH
++ [ ] Math: 5 OBMEP questions
++ [ ] SAT: MATH
 * 24/07
 + [ ] Física 1: (Parte 1) Tópico 5 - Vetores e Cinemática vetorial
 + [ ] Física 2: (Parte 1) Tópico 5 - Termodinâmica
 + [ ] Física 3: (Parte 2) Tópico 2 - Associação dos resistores e medidas elétricas
 + [ ] Math: 5 OBMEP questions
-+ [X] SAT: ENGLISH
++ [ ] SAT: ENGLISH
 * 25/07
 + [ ] Física 1: (Parte 2) Tópico 1 - Os princípios da Dinâmica
 + [ ] Física 2: (Parte 1) Tópico 6 - Dilatação térmica dos sólidos e dos líquidos
 + [ ] Física 3: (Parte 2) Tópico 3 - Circuitos elétricos
 + [ ] Math: 5 OBMEP questions
-+ [X] SAT: MATH
++ [ ] SAT: MATH
 * 26/07
 + [ ] Física 1: (Parte 2) Tópico 2 - Atrito entre sólidos
 + [ ] Física 2: (Parte 2) Tópico 1 - Movimento harmônico simples
 + [ ] Física 3: (Parte 2) Tópico 4 - Capacitores
 + [ ] Math: 5 OBMEP questions
-+ [X] SAT: ENGLISH
++ [ ] SAT: ENGLISH
 * 27/07
 + [ ] Física 1: (Parte 2) Tópico 3 - Resultantes tangencial e centrípeta
 + [ ] Física 2: (Parte 2) Tópico 2 - Ondas
 + [ ] APPLICATION: ACT TASKS
-+ [X] SAT: MATH
++ [ ] Math: 5 OBMEP questions
++ [ ] SAT: MATH
 * 28/07
 + [ ] Física 1: (Parte 2) Tópico 4 - Gravitação
 + [ ] Física 3: (Parte 3) Tópico 1 - Campo magnético e sua influência sobre cargas elétricas
 + [ ] APPLICATION: ACT TASKS
++ [ ] Math: 5 OBMEP questions
 + [ ] SAT: ENGLISH
 * 29/07
 + [ ] Física 2: (Parte 2) Tópico 3 - Acústica
 + [ ] Física 3: (Parte 3) Tópico 2 - A origem do campo magnético
++ [ ] Math: 5 OBMEP questions
 + [ ] APPLICATION: ACT TASKS
 + [ ] SAT: MATH
 * 30/07

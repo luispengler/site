@@ -6,24 +6,11 @@
 #+Title: Daily college prep
 #+Author: Luís Spengler
 
-* Applications
-- [X] [[https://beamlineforschools.cern/][A Beamline For Schools]] (April 15)
-- [X] MOBFOG + OBA (May 20)
-- [X] QIntern2022 application (25/05)
-- [ ] Torneio Nacional de Física (08/07)
-- [ ] OBF 2022 (05/08)
-
-* To watch
-+ Masterclass classes (lol -redudence)
-+ Física Experimental do prof. Ivan
-+ Biohackers (GER)
-+ Dark (GER)
-+ Demon Slayer: Kimetsu no Yaiba (JAP)
-+ Raumpatrouille – Die phantastischen Abenteuer des Raumschiffes Orion (GER)
-+ Death Note (JAP)
-+ LEXX: The Dark Zone Stories (GER)
-+ 1 PM at most in the library
-+ Always do things from the other, but remember SAT first!
+* Rule
++ 6h30 -> 7h30: Physics
++ 7h45 -> 8h15: Homework
++ 8h30 -> 9h30: College app
++ 9h30 -> 10h30: Reading
 
 * TODO (11/07) SPECIAL
 + [X] Dartmouth Virtual Information Session at 7 PM
@@ -36,9 +23,9 @@
 * TODO (14/07) SPECIAL
 + [X] Duke Apply to Duke Session (virtual) at 11 AM
 * TODO (18/08) SPECIAL
-+ [ ] ONC primeira fase
++ [X] ONC primeira fase
 * TODO (27/08) SPECIAL
-+ [ ] OBF primeira fase
++ [X] OBF primeira fase
 * TODO (09/09) SPECIAL
 + [ ] ONC segunda fase
 * TODO (18/09) SPECIAL
@@ -47,9 +34,13 @@
 + [ ] OBF segunda fase
 * TODO (1/10) SPECIAL
 + [ ] SAT Goiânia
+* TODO (5-7/10) SPECIAL
++ [ ] FECINTEC
 * TODO (8/10) SPECIAL
 + [ ] OBMEP segunda fase
 * TODO (24-27/10) SPECIAL
 + [ ] MOBFOG Barra do Piraí
+* TODO (26-29/10) SPECIAL
++ [ ] FETEC MS
 * TODO (10/12) SPECIAL
 + [ ] OBF terceira fase
