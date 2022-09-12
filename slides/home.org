@@ -27,13 +27,11 @@
 * TODO (27/08) SPECIAL
 + [X] OBF primeira fase
 * TODO (09/09) SPECIAL
-+ [ ] ONC segunda fase
++ [X] ONC segunda fase
 * TODO (18/09) SPECIAL
 + [ ] Torneio Nacional de Física
 * TODO (24/09) SPECIAL
 + [ ] OBF segunda fase
-* TODO (1/10) SPECIAL
-+ [ ] SAT Goiânia
 * TODO (5-7/10) SPECIAL
 + [ ] FECINTEC
 * TODO (8/10) SPECIAL

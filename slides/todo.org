@@ -6,97 +6,35 @@
 #+Title: Todo - olympiads and tests
 #+Author: Luís Spengler
 
-* 17/07
- + [X] Math: 4 Videos of Estatistica
- + [X] Math: 5 OBMEP questions
- + [X] SAT: MATH
-* 18/07
-+ [X] Math: 4 Videos of Probabilidade
-+ [X] Math: 5 OBMEP questions
-+ [X] SAT: ENGLISH
-* 19/07
-+ [X] APPLICATION: ACT TASKS
-+ [X] Math: 5 OBMEP questions
-+ [X] SAT: MATH
-* 20/07
-+ [X] Math: 5 OBMEP questions
-+ [X] SAT: ENGLISH
-* 21/07
-+ [X] Math: 5 OBMEP questions
-+ [X] SAT: MATH
-* 22/07
-+ [ ] Física 1: (Parte 1) Tópico 3 - Calor sensível e calor latente
-+ [X] Física 2: (Parte 1) Tópico 3 - Movimento uniformemente variado
-+ [ ] Física 3: (Parte 1) Tópico 3 - Potencial elétrico
-+ [ ] Math: 5 OBMEP questions
-+ [ ] SAT: ENGLISH
-* 23/07
-+ [ ] Física 1: (Parte 1) Tópico 4 - Movimentos circulares
-+ [ ] Física 2: (Parte 1) Tópico 4 - Gases perfeitos
-+ [ ] Física 3: (Parte 2) Tópico 1 - Corrente elétrica e resistores
-+ [ ] Math: 5 OBMEP questions
-+ [ ] SAT: MATH
-* 24/07
-+ [ ] Física 1: (Parte 1) Tópico 5 - Vetores e Cinemática vetorial
-+ [ ] Física 2: (Parte 1) Tópico 5 - Termodinâmica
-+ [ ] Física 3: (Parte 2) Tópico 2 - Associação dos resistores e medidas elétricas
-+ [ ] Math: 5 OBMEP questions
-+ [ ] SAT: ENGLISH
-* 25/07
-+ [ ] Física 1: (Parte 2) Tópico 1 - Os princípios da Dinâmica
-+ [ ] Física 2: (Parte 1) Tópico 6 - Dilatação térmica dos sólidos e dos líquidos
-+ [ ] Física 3: (Parte 2) Tópico 3 - Circuitos elétricos
-+ [ ] Math: 5 OBMEP questions
-+ [ ] SAT: MATH
-* 26/07
-+ [ ] Física 1: (Parte 2) Tópico 2 - Atrito entre sólidos
-+ [ ] Física 2: (Parte 2) Tópico 1 - Movimento harmônico simples
-+ [ ] Física 3: (Parte 2) Tópico 4 - Capacitores
-+ [ ] Math: 5 OBMEP questions
-+ [ ] SAT: ENGLISH
-* 27/07
-+ [ ] Física 1: (Parte 2) Tópico 3 - Resultantes tangencial e centrípeta
-+ [ ] Física 2: (Parte 2) Tópico 2 - Ondas
-+ [ ] APPLICATION: ACT TASKS
-+ [ ] Math: 5 OBMEP questions
-+ [ ] SAT: MATH
-* 28/07
-+ [ ] Física 1: (Parte 2) Tópico 4 - Gravitação
-+ [ ] Física 3: (Parte 3) Tópico 1 - Campo magnético e sua influência sobre cargas elétricas
-+ [ ] APPLICATION: ACT TASKS
-+ [ ] Math: 5 OBMEP questions
-+ [ ] SAT: ENGLISH
-* 29/07
-+ [ ] Física 2: (Parte 2) Tópico 3 - Acústica
-+ [ ] Física 3: (Parte 3) Tópico 2 - A origem do campo magnético
-+ [ ] Math: 5 OBMEP questions
-+ [ ] APPLICATION: ACT TASKS
-+ [ ] SAT: MATH
-* 30/07
-+ [ ] Mock SAT
-+ [ ] Mock OBF 1st phase
-* 31/07
-+ [ ] Mock OBMEP 2nd phase
-
-+ [ ] Física 1: (Parte 2) Tópico 5 - Movimentos em campo gravitacional uniforme
-+ [ ] Física 2: (Parte 3) Tópico 1 - Fundamentos da Óptica geométrica
-+ [ ] Física 3: (Parte 3) Tópico 3 - Força magnética em correntes elétricas
-
-+ [ ] Física 1: (Parte 2) Tópico 6 - Trabalho e potência
-+ [ ] Física 2: (Parte 3) Tópico 2 - Reflexão da luz
-+ [ ] Física 3: (Parte 3) Tópico 4 - Indução eletromagnética
-
-+ [ ] Física 1: (Parte 2) Tópico 7 - Energia mecânica e sua conservação
-+ [ ] Física 2: (Parte 3) Tópico 3 - Refração da Luz
-+ [ ] Física 3: (Parte 4) Tópico 1 - Noções de física quântica
-
-+ [ ] Física 1: (Parte 2) Tópico 8 - Quantidade de movimento e sua conservação
-+ [ ] Física 2: (Parte 3) Tópico 4 - Lentes esféricas
-+ [ ] Física 3: (Parte 4) Tópico 2 - Mais de física moderna: relatividade e outras noções
-
-+ [ ] Física 1: (Parte 3) Tópico 1 - Estática dos sólidos
-+ [ ] Física 2: (Parte 3) Tópico 5 - Instrumentos ópticos e Óptica da visão
-+ [ ] Física 3: (Parte 4) Tópico 3 - Comportamento ondulatório da matéria
-
-+ [ ] Física 1: (Parte 3) Tópico 2 - Estática dos fluidos
-+ [ ] Física 3: (Parte 5) Análise dimensional
+* 12/9
+* 13/9
++ [ ] REPORT Eletrop
++ [ ] TEST filo
+* 14/9
++ [ ] TEST Math 6
++ [ ] TEST Roda de leitura
+* 15/9
++ [ ] TEST history
+* 16/9
++ [ ] TEST sociologia
+* 18/9
++ [ ] OLYMPIAD Torneio Nacional de Física
++ [ ] APP Jovens Embaixadores Etapa 2
+* 19/9
+* 20/9
++ [ ] TEST acionamentos esp
+* 21/9
+* 22/9
++ [ ] PRESENTATION GD
++ [ ] TEST projeto BT AT
+* 23/9
+* 24/9
++ [ ] OLYMPIAD OBF segunda fase
+* 26/9
++ [ ] TEST estatistica
+* 27/9
+* 28/9
++ [ ] APP Jovens Embaixadores Etapa 2
+* 29/9
++ [ ] REPORT GTD
+* 30/9

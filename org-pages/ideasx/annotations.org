@@ -661,7 +661,6 @@ How many courses would you like to report?" -> 28. Chemestry 4, Biology 4, Histo
 * Raquel
 + She acts quick when solving problems
 + She believes in education -> Demonstrates that when deciding the future leaders of our country, in her social projects
-+
 
 * Empreendedorismo e inovação
 after 2. Como você acredita que sua vida estaria se não tivesse aberto esse negócio?
