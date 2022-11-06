@@ -307,6 +307,9 @@ Although a student applying for aid may be academically admissible, not all stud
 * Marco
 + 20D
 
+* Clara
++ Dancing, books, music (zouk, latinas)
++ Eu não sei explicar, mas você tem um jeito que me atrai muito. É muito bizarro o quanto que é diferente e bom ao mesmo tempo
 
 * English Club
 ** Registro Escrito
@@ -656,15 +659,104 @@ How many courses would you like to report?" -> 28. Chemestry 4, Biology 4, Histo
 ** August
 + Multiply by 0,5h each block + level 1 exercise (OBF)
 + 40h (OBF)
-** September
+** September + OCTOBER
++ MOBFOG? (37h + 200h)
++ ONC? 4h
++ OBMEP? 4h
+
+  + Reported on common app: other olympiads (75h)
 
 * Raquel
 + She acts quick when solving problems
 + She believes in education -> Demonstrates that when deciding the future leaders of our country, in her social projects
 
-* Empreendedorismo e inovação
-after 2. Como você acredita que sua vida estaria se não tivesse aberto esse negócio?
-1.
++ Personality: Present-oriented, concerned about problem at hand, insightful, shows sympathy, warmth, concern and support for others, enthusiastic
++ Chracter
++ Interests outside of school: impact in education
++ Attitude: acting as a leader, pushing others to their best,
++ Unique traits
++ Interaction with others
 
-* School profile
-+
++ Leadership
++ Motivation
++ Trustworthiness
++ Dependability
+
++ What makes Raquel stand out?
++ What qualities in them impress you?
++ What have the two of you bonded over?
++ What successes or adversities have you shared?
+
++ Introduction
++ Body
++ Conclusion
+
+* Marcohort
++ Ask him if he wants to pass the credentials to the common app acc
++ Because it takes time, he can help, he has the answers for my app because of the form.
++ Find  one thing you can say from everything you said and finish with it.
++ In rice essay, say that collaborating with people is important and that you want to continue working on that - with the goal of whatever it is
++ Interviews: see what universities are able to be scheduled -> then schedule those, then prioritize the college search!
++ Amanda: She can start talking with the teachers, but they will only be able to sign it next week.
++ Amanda 2: The counselers (less questions) and the teachers answer questions about the students when submitting the letters. The forms is for the advisor to be checking if all answers are accordingly, but it also helps with the support of the language. She must also tell them the evaluation must be accurate. If they think her evaluation is to be placed in the top of the class, she should tell them to be very realistic
++ You go to any university
++ Write your full name (remove the full name thing), remove the address for the english version of it. Change the Goals to Profile (how you define yourself). Move formação academica e complementar in the beggining. You also put your GPA in the brazilian system. Honors and accomplishements - rename that. Have a section for Extracurriculars (explained), and uise the ones in your app. Use your general abilities in the profile section. Technical abilities is good. Create a linkedi as well. Remove the bulleted things in put them in line
++ Interviews: Rice doesn't need to apply,
+
+* Lecture
++ O sol é tão quente que os atomos que se formam estão em um estado meio quebrado, pois elétrons e nucleo estão separados -> um estado conhecido como plasma
++ Esse plasma sofre alterações pelo próprio campo magnético do sol, que é gerado pelo movimento dessas partículas
++ As vezes, estranhos padrões de campo magnético surgem na superfície do sol que carregam grandes quantidades de energia
++ Quando esse padrão estranho quebra, o sol pode liberar algumas coisas no sistema solar
++ Um delas é o flare solar, que nada mais é que radiação de alta energia
++ Flare solares viajam na velocidade da luz, mas elas vão carregando protons do vento solar, formando uma tempestade solar de protons
++ Outra coisa que pode ser liberado é massa coronal, o próprio plasma do sol é catapultado a velocidades de até 9 milhões de km/h
++ Quando essa ejeção de massa coronal atinge a terra, nada acontece a nós. Mas no espaço próximo, satelites, comunicações por rádio são prejudicados e astronautas
++ A própria atmosfera proteje a gente dos raio-x, absorvendo os antes da superficie
++ No espaço, CMEs são desviados pelo campo magnético da terra e acabam caindo nos polos
+
+* Test foguete
++ 5.5L de vinagre + 500g de bicarbonato
++ Lançando em proporção 20 para 1 -> 800 mL de vinagre dá 40g de bicarbonato -> Vamos usar 1L e 40g -> 50-60 psi
++ Testando em 500 ml para 25g de bicarbonato 2x (?psi)
++ Testando em 1,5L para 75 de bicarbonato
+
+
+* Marcohort
++ Should I add my scholarships from school in the work part? (NO)
++ What if I only include my mother's sorts of income in the parents part, and leave the amount received by my father (which is the non-custodial parent) be reported by him when he receives the email from college board? -> Only mother's!!!
++ Create an email for your father to edit CSS Profile, and you fill it out
++ Put the DET score in the languages session
++ Recommenders, make them sign (Fernanda, Marco, Flávio) -> Ask for access, and Marco will be responsible to fill it out so that they won't be worried about me. Flávio doesn't need to fill mine, my mentor will take care of everything, just pass the credentials
++ Remind Marco to reschedule for Friday or Saturday (prob sat.)
+
++ More specific on the academic experience thing -> choose something that lasted a considerable time, like the rocket thing -> foca na quesatão do rocket desde quando vc começou até a premiação -> ganhamos, mas foi uma long journey -> it was the best academic experience beacuse you put everything you learned  to practice, and it reassured to you it is the path you want to follow in stem
++ Expand something on the why essayy
+
+* Pedro
++ como você vê a LOA no sentido de concretizar sua meta de falar sobre a sua área de atuação (astrofísica)? seria interessante você participar do projeto criando vídeos pra LOA apresentando sua experiência, especialmente pela sua área de atuação ser astrofísica -> Continuar no meio de divulgação de astronomia
++ Corrigido: como você vê a LOA no sentido de concretizar sua meta de falar sobre astrofísica?
++ Vendo seu perfil, deu a impressão que você gosta de pensar sobre a conexão da ciência com a sociedade, de uma forma, isso resume o que a gente tem em mente aqui na LOA. Tem alguma coisa a comentar sobre isso?
++ Parece gostar da área da educação, já tem materiais elaborados por ele (big olimpicos brasil)
+
+
+* Paula
++ Em quais tipos de projetos utilizou LaTeX?
++ Você acha que consegue aplicar sua experiência obtida na escrita dos artigos de opnião na criação de roteiros de vídeos para o canal da LOA?
++ Observativa, organizada
+
+* About
++ Felipe: Estudante egresso do Instituto Federal de Educação, Ciência e Tecnologia de Mato Grosso do Sul - IFMS no curso de nível médio integrado em Eletrotécnica. Alumni da Embaixada dos Estados Unidos no Brasil e da Casa Thomas Jefferson em Brasília pelos programas English Immersion USA Program (EIP) 2019 e Jovens Embaixadores 2020. Envolvido em diversos projetos de pesquisa aplicada e de extensão, assim como em diversos trabalhos voluntários, sejam esses ligados ou não à Instituição Federal de ensino IFMS. Aluno egresso do Centro Estadual de Atendimento Multidisciplinar para Altas Habilidades/Superdotação - CEAM/AHS com áreas de destaque em "Acadêmico" e "Musica". Monitor voluntário de Inglês e representante das Relações Estudantis e Institucionais do Grêmio 2019 no Campus Campo Grande do IFMS. Mentor voluntário de inglês do Projeto Globalizando pelo ciclo de 2020.1. Coordenador Educacional do Projeto Globalizando pelos ciclos 2020.2. e 2021.1
++ Marco: I have been teaching English for the past 9 years in primary school. In 2018 I started working at Centro Universitário Cesmac (2018-2021) to teach English in the Faculty of Medicine. In the same year, I was given the opportunity to work as an EducationUSA Adviser and coordinate the EducationUSA Center in Maceió, AL, Brazil.\Since then, International Education has become a topic of interest. Therefore, in 2019, I was also given the chance to be a part of the Opportunity Funds Program (Undergraduate) Coordination in Brazil, which focuses on supporting academically competitive students that cannot afford the application process to U.S. Higher Education Institutions.\I have also created the Application Tracker Cohort Group, in 2021, to support 11 underserved students navigate in the application process to U.S. H.E.I. The new 2022 cohort has 20 brilliant students.\Currently, I remotely work at ABA Global Education as an EducationUSA Adviser and implementing mentorship programs to underserved students, such as My Application Prep (MAP) and the Global Education Prep (GEPrep).\Thus, I have successfully supported many brilliant students in the application process to US H.E.I., which is what brings me joy as I have to be in constant contact with them, learning about their journey, and helping them achieve the best application they could have ever sent.
++ Joao: I like to see creativity in just about everything, from music and movies to ways how to solve a mathematical problem. For me, creating new and innovative "things" is extremely fascinating, since humanity has a great history and thousands of minds that have existed and still exist. Therefore, creating something original becomes much more amazing than people usually think about it.\An incoming first-year at the Trinity College of Arts and Sciences @ Duke University intending to major in Computer Science + Linguistics IDM program. Current interested in Information Technology, Linguistics, Foreign languages, and Racial Issues.\Being the first-ever quilombola to study in the USA at the undergraduate level with a full-ride scholarship, I want to unite my interests to help people who are part of socio-historically oppressed groups. So that education will change their lives in the same way it changed mine.\Experienced in Information Technology services, Classical and Quantum Programming, Web Development, Web Desing, Public Speaking, Research on Linguistics and Internationalization, and Racial Equality Initiatives.
+
+* Mock Interviews
+** Introduction
+** Why the US
+** Major&Carrer
+** ECA
+** Favorite Person
+** Favorite Book
+** Worst&Best
+** Research
+** Additional Info

@@ -28,17 +28,19 @@
 + [X] OBF primeira fase
 * TODO (09/09) SPECIAL
 + [X] ONC segunda fase
-* TODO (18/09) SPECIAL
-+ [ ] Torneio Nacional de Física
 * TODO (24/09) SPECIAL
-+ [ ] OBF segunda fase
++ [X] OBF segunda fase
 * TODO (5-7/10) SPECIAL
-+ [ ] FECINTEC
++ [X] FECINTEC
 * TODO (8/10) SPECIAL
-+ [ ] OBMEP segunda fase
++ [X] OBMEP segunda fase
 * TODO (24-27/10) SPECIAL
-+ [ ] MOBFOG Barra do Piraí
++ [X] MOBFOG Barra do Piraí
 * TODO (26-29/10) SPECIAL
-+ [ ] FETEC MS
++ [X] FETEC MS
+* TODO (26/11) SPECIAL
++ [ ] OBFEP última fase
+* TODO (4/12) SPECIAL
++ [ ] Vestibular
 * TODO (10/12) SPECIAL
-+ [ ] OBF terceira fase
++ [ ] OBF última fase

@@ -5,36 +5,43 @@
 #+OPTIONS: timestamp:nil toc:nil num:nil
 #+Title: Todo - olympiads and tests
 #+Author: Luís Spengler
-
-* 12/9
-* 13/9
-+ [ ] REPORT Eletrop
-+ [ ] TEST filo
-* 14/9
-+ [ ] TEST Math 6
-+ [ ] TEST Roda de leitura
-* 15/9
-+ [ ] TEST history
-* 16/9
-+ [ ] TEST sociologia
-* 18/9
-+ [ ] OLYMPIAD Torneio Nacional de Física
-+ [ ] APP Jovens Embaixadores Etapa 2
-* 19/9
-* 20/9
-+ [ ] TEST acionamentos esp
-* 21/9
-* 22/9
-+ [ ] PRESENTATION GD
-+ [ ] TEST projeto BT AT
-* 23/9
-* 24/9
-+ [ ] OLYMPIAD OBF segunda fase
-* 26/9
-+ [ ] TEST estatistica
-* 27/9
-* 28/9
-+ [ ] APP Jovens Embaixadores Etapa 2
-* 29/9
-+ [ ] REPORT GTD
-* 30/9
+** November
+* 06/11
++ [ ] Flip Mock Interview
++ [ ] Finish a Desumanização
++ [ ] Finish your part on Empreendedorismo homework
++ [ ] Finish your part on QEE's presentation
+* 07/11
++ [ ] Estatistica's test
++ [ ] OPP's homework
+* 08/11
++ [ ] Newton's homework
+* 09/11
++ [ ] Portuguese roda de leitura
+* 10/11
++ [ ] David's test
+* 11/11
+* 12/11
++ [ ] LOA Interview
+* 13/11
+* 14/11
+* 15/11
+* 16/11
++ [ ] Portuguese roda de leitura
+* 17/11
++ [ ] Rec de BTAT
+* 18/11
++ [ ] Célio's test
+* 19/11
+* 20/11
+* 21/11
+* 22/11
+* 23/11
+* 24/11
+* 25/11
+* 26/11
+* 27/11
+* 28/11
+* 29/11
+* 30/11
+** December

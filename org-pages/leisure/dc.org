@@ -825,3 +825,8 @@ There are *734 episodes* in arrowverse as of November 13th, 2022. If every episo
 + [ ] Stargirl - 3.04: "Frenemies – Chapter Four: The Evidence"
 + [ ] Stargirl - 3.05: "Frenemies – Chapter Five: The Thief"
 + [ ] Stargirl - 3.06: "Frenemies – Chapter Six: The Betrayal"
++ [ ] Stargirl - 3.07: "Frenemies – Chapter Seven: Infinity Inc. Part One"
++ [ ] Stargirl - 3.08: "Frenemies – Chapter Eight: Infinity Inc. Part Two"
++ [ ] Stargirl - 3.09: "Frenemies – Chapter Nine: The Monsters"
++ [ ] Stargirl - 3.10: "Frenemies – Chapter Ten: The Killer"
++ [ ] Stargirl - 3.11: "Frenemies – Chapter Eleven: The Haunting"
