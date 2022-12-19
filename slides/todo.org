@@ -7,41 +7,169 @@
 #+Author: Luís Spengler
 ** November
 * 06/11
-+ [ ] Flip Mock Interview
-+ [ ] Finish a Desumanização
-+ [ ] Finish your part on Empreendedorismo homework
-+ [ ] Finish your part on QEE's presentation
++ [X] Flip Mock Interview
++ [X] Finish your part on QEE's presentation
++ [X] Study statistics
++ [X] OBFEFP
++ [X] OPP's homework
++ [X] Finish a Desumanização
 * 07/11
-+ [ ] Estatistica's test
-+ [ ] OPP's homework
++ [X] Estatistica's test + OPP and QEE presentations
++ [X] Finish your part on Empreendedorismo homework
 * 08/11
-+ [ ] Newton's homework
++ [X] Newton's homework
++ [X] Portuguese paragraph
 * 09/11
-+ [ ] Portuguese roda de leitura
++ [X] David's test
 * 10/11
-+ [ ] David's test
 * 11/11
++ [X] Sociology's presentation
 * 12/11
-+ [ ] LOA Interview
++ [X] LOA Interview
 * 13/11
 * 14/11
 * 15/11
++ [X] Emory APP
 * 16/11
-+ [ ] Portuguese roda de leitura
++ [X] Duke interview
 * 17/11
-+ [ ] Rec de BTAT
 * 18/11
-+ [ ] Célio's test
++ [X] Célio's test
++ [X] Empreendedorismo activity
 * 19/11
 * 20/11
 * 21/11
++ [X] Filosofia activity
 * 22/11
 * 23/11
 * 24/11
 * 25/11
++ [X] Empreendedorismo presentation
++ [X] Sociology's TEST
 * 26/11
++ [X] OBFEP
 * 27/11
 * 28/11
++ [X] Estatistica's TEST
++ [X] Atividade QEE
 * 29/11
 * 30/11
++ [X] Portuguese roda de leitura (A desumanização)
++ [X] OMIF
 ** December
+* 01/12
++ [X] W&L APP
++ [X] BU APP
++ [X] Rec de BTAT
++ [X] History test
+* 02/12
++ [X] Finalizar Relatório parcial de Estágio
+* 03/12
++ [X] Try "Atividade David"
++ [X] Study Newton
++ [X] Do "Atividade QEE"
++ [X] Do "Atividade Filosofia"
+* 04/12
++ [X] Vestibular UFMS
++ [X] Finish Rice University
++ [X] Orientação Pessoal e Professional Activity
+* 05/12
++ [X] Atividade Filosofia
++ [X] David
++ [X] Do your "Empreendedorismo"
+* 06/12
++ [X] Finish David
++ [X] Do your "QEE1"
+* 07/12
++ [X] Math test
++ [X] Parágrafo Português
+* 08/12
++ [X] Atividade David
++ [X] Terminar O CURSO
+* 9/12
++ [X] Math 3 test
++ [X] Record entrepreneurship
++ [X] Atividade CICE
+* 10/12
+
++ [X] Do Raquel's peer letter
++ [X] Verify University's portals to all you've applied
+* 11/12
++ [X] Do all Newton's reports
++ [X] Study for OPP's Test
+* 12/12
++ [X] QEE1
++ [X] Orientação Pessoal e Profissional Test
++ [X] Empreendedorismo
+* 13/12
++ [X] Camaroes Test
++ [X] Newton Test
+* 14/12
++ [X] QEE2
++ [X] GTD e QEE Rec 1
+* 15/12
++ [X] Portuguese roda de leitura (A hora da estrela)
++ [X] Empreendedorismo Trabalho
++ [X] Newton relatórios
+* 16/12
+* 17/12
++ [X] Duke admissions result -> 3pm
+* 18/12
++ [X] Do Rice Essay
++ [X] Check Temple University for DET -> NO CHANGE
++ [X] Do a Why Essay -> Cornell
++ [X] Reunião de Acolhida LOA at 14h
+* 19/12
++ [ ] Finish relatorio final
++ [ ] Do Cornell/Rice dependency
++ [ ] GTD e QEE Rec 2
++ [ ] Check Temple University for DET
+* Morning Routine
++ [ ] Wake up
++ [ ] Meditate
++ [ ] Gratitude journaling
++ [ ] Get a run around the block
++ [ ] Eat fruits
++ [ ] Take a shower
+* 20/12
++ [ ] UChicago College Search
++ [ ] Do Cornell/Rice dependency
++ [ ] So os Humanos despedida
+* 21/12
++ [ ] Dartmouth Impact/Excitment/Drive/Wondering/Challenge
+* 22/12
++ [ ] Do Swarthmore Essay
+* 23/12
++ [ ] Curso Inversor de Frequência Básico
++ [ ] Dartmouth Introduce Yourself
+* 24/12
++ [ ] Dartmouth College Search + Why Us
+* 25/12
++ [ ] Notre Dame College Search
++ [ ] Columbia College Search
+* 26/12
++ [ ] Columbia Why Major + Lived Experiences
++ [ ] Columbia Something Joyful
+* 27/12
++ [ ] Curso Inversor de Frequência Intermediário
++ [ ] Columbia Why Us
+* 28/12
++ [ ] Columbia Books You've Enjoyed + Exploring Interests
++ [ ] UChicago
+* 29/12
++ [ ] Notre Dame Community Involv. Essay + Why Us
++ [ ] UChicago Palindrome/Advice/Humanity Representation/New Nobel/Technology Historic Charc./ANYTHING
+* 30/12
++ [ ] Yale College Search + Why Major + Community Involv + Design Course
++ [ ] Brown College Search
+* 31/12
++ [ ] Yale Why Us + What inspires you + Figure + something unique
++ [ ] Stanford Why Major
+* 01/01
++ [ ] Brown Why Major + Something Joyful
++ [ ] Stanford Note to roomate
++ [ ] uPenn Thank You Note
+* 02/01
++ [ ] Stanford Something Meaninful
++ [ ] Brown Different Perspective
++ [ ] uPenn Why Us

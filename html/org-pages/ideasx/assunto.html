@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2022-12-19 Mon 09:30 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Assunto</title>
+<meta name="author" content="Luís Spengler" />
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+</style>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">Assunto</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org8bd9fca">1. Módulo 3 - Segredos de um bom conversador</a>
+<ul>
+<li><a href="#orgbc0c6dc">1.1. Autoconhecimento</a></li>
+<li><a href="#orgddfc773">1.2. Ouvir e estar presente</a></li>
+<li><a href="#org718dfa5">1.3. Comunicação</a></li>
+</ul>
+</li>
+<li><a href="#org4983d28">2. Módulo 4 - 4 erros e 4 regras da conversa</a>
+<ul>
+<li><a href="#org99a5101">2.1. 4 Erros comuns</a>
+<ul>
+<li><a href="#org6f7d2de">2.1.1. Entrevista de emprego</a></li>
+<li><a href="#org9cb1da7">2.1.2. Perguntas fechadas</a></li>
+<li><a href="#org97fee12">2.1.3. Falar de mais</a></li>
+<li><a href="#orgb3ce8c5">2.1.4. Filtram demais</a></li>
+</ul>
+</li>
+<li><a href="#orgbf39d6d">2.2. Regras</a>
+<ul>
+<li><a href="#org79575e3">2.2.1. Não importa o que dizer, mas como dizer</a></li>
+<li><a href="#orgf31edec">2.2.2. Entender que conversar é trocar informações e experiências e jamais ter medo de expor o que você gosta</a></li>
+<li><a href="#orgb80b903">2.2.3. Aprenda a contar uma boa historia</a></li>
+<li><a href="#orga189f34">2.2.4. Dominar a arte das correntes de associação</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orga933329">3. Módulo 5 - Gerais sobre conversa</a>
+<ul>
+<li><a href="#org312c549">3.1. Distância de Abridores Direto - Indireto</a>
+<ul>
+<li><a href="#org9d7a8b2">3.1.1. Abridor direto</a></li>
+<li><a href="#org07ce4f7">3.1.2. Abridor indireto</a></li>
+<li><a href="#org4200ede">3.1.3. De direto até mais indireto</a></li>
+<li><a href="#org1eb1399">3.1.4. Tipos extras de abordagem</a></li>
+</ul>
+</li>
+<li><a href="#orgbad7da9">3.2. Estrutura de Conversa</a></li>
+<li><a href="#orge946d05">3.3. Dicas Gerais de Ferramentas</a>
+<ul>
+<li><a href="#orgebe21f6">3.3.1. Corrente de associações</a></li>
+<li><a href="#org9491742">3.3.2. Storytelling</a></li>
+<li><a href="#orgd980235">3.3.3. Gatilhos mentais</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org1f70fa3">4. Módulo 6 - Assuntos Infinitos</a>
+<ul>
+<li><a href="#org7d6e557">4.1. Frases e Assuntos Quebra-gelo</a>
+<ul>
+<li><a href="#orge7a0240">4.1.1. Nível de Intimidade 1</a></li>
+<li><a href="#org0d33f88">4.1.2. Nível de Intimidade 2</a></li>
+<li><a href="#org3dde97e">4.1.3. Nível de Intimidade 3</a></li>
+</ul>
+</li>
+<li><a href="#orge0cdaec">4.2. Assuntos questionadores</a></li>
+</ul>
+</li>
+<li><a href="#orgda96978">5. Módulo 7 - Gatilhos mentais</a></li>
+<li><a href="#orgd47bb50">6. Módulo 8 - Técnicas e Exercícios</a></li>
+<li><a href="#org04f8dcc">7. Módulo 9 - Infield</a></li>
+<li><a href="#org0d7c9ec">8. Módulo 10 - Análises de conversa</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org8bd9fca" class="outline-2">
+<h2 id="org8bd9fca"><span class="section-number-2">1.</span> Módulo 3 - Segredos de um bom conversador</h2>
+<div class="outline-text-2" id="text-1">
+<ul class="org-ul">
+<li>Sendo um bom conversador, você vai saber conduzir bem qualquer conversa</li>
+</ul>
+</div>
+<div id="outline-container-orgbc0c6dc" class="outline-3">
+<h3 id="orgbc0c6dc"><span class="section-number-3">1.1.</span> Autoconhecimento</h3>
+<div class="outline-text-3" id="text-1-1">
+<ul class="org-ul">
+<li>Quando você se conhece fica mais fácil saber mais sobre as coisas e falar sobre</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgddfc773" class="outline-3">
+<h3 id="orgddfc773"><span class="section-number-3">1.2.</span> Ouvir e estar presente</h3>
+<div class="outline-text-3" id="text-1-2">
+<ul class="org-ul">
+<li>Cria mais valor</li>
+<li>Colher informação a favor de vocês</li>
+<li>Deixe o outro falar mais</li>
+<li>Prestar atenção é questão de respeito</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org718dfa5" class="outline-3">
+<h3 id="org718dfa5"><span class="section-number-3">1.3.</span> Comunicação</h3>
+<div class="outline-text-3" id="text-1-3">
+<ul class="org-ul">
+<li>Passar a mensagem da forma mais clara possível</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org4983d28" class="outline-2">
+<h2 id="org4983d28"><span class="section-number-2">2.</span> Módulo 4 - 4 erros e 4 regras da conversa</h2>
+<div class="outline-text-2" id="text-2">
+</div>
+<div id="outline-container-org99a5101" class="outline-3">
+<h3 id="org99a5101"><span class="section-number-3">2.1.</span> 4 Erros comuns</h3>
+<div class="outline-text-3" id="text-2-1">
+</div>
+<div id="outline-container-org6f7d2de" class="outline-4">
+<h4 id="org6f7d2de"><span class="section-number-4">2.1.1.</span> Entrevista de emprego</h4>
+<div class="outline-text-4" id="text-2-1-1">
+<ul class="org-ul">
+<li>Não faça perguntas que milhares de caras já fizeram</li>
+<li>Assuntos questionadores são mais interessantes do que uma entrevista</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org9cb1da7" class="outline-4">
+<h4 id="org9cb1da7"><span class="section-number-4">2.1.2.</span> Perguntas fechadas</h4>
+<div class="outline-text-4" id="text-2-1-2">
+<ul class="org-ul">
+<li>Não faça perguntas com sim ou não</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org97fee12" class="outline-4">
+<h4 id="org97fee12"><span class="section-number-4">2.1.3.</span> Falar de mais</h4>
+<div class="outline-text-4" id="text-2-1-3">
+<ul class="org-ul">
+<li>Elas gostam de falar + Você colhe informações</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgb3ce8c5" class="outline-4">
+<h4 id="orgb3ce8c5"><span class="section-number-4">2.1.4.</span> Filtram demais</h4>
+<div class="outline-text-4" id="text-2-1-4">
+<ul class="org-ul">
+<li>Não filtre uma conversa para não achar que você é bobo demais</li>
+<li>Se ela deixou a bola quicando, vai e zoa</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orgbf39d6d" class="outline-3">
+<h3 id="orgbf39d6d"><span class="section-number-3">2.2.</span> Regras</h3>
+<div class="outline-text-3" id="text-2-2">
+</div>
+<div id="outline-container-org79575e3" class="outline-4">
+<h4 id="org79575e3"><span class="section-number-4">2.2.1.</span> Não importa o que dizer, mas como dizer</h4>
+<div class="outline-text-4" id="text-2-2-1">
+<ul class="org-ul">
+<li>Transmita energia positiva, boa vibe</li>
+<li>Não aborde alguém sobre pressão</li>
+<li>Voz, contato visual, postura boa</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgf31edec" class="outline-4">
+<h4 id="orgf31edec"><span class="section-number-4">2.2.2.</span> Entender que conversar é trocar informações e experiências e jamais ter medo de expor o que você gosta</h4>
+<div class="outline-text-4" id="text-2-2-2">
+<ul class="org-ul">
+<li>Ter vários leques de assunto</li>
+<li>Conversar sobre aquilo que você mais gosta</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgb80b903" class="outline-4">
+<h4 id="orgb80b903"><span class="section-number-4">2.2.3.</span> Aprenda a contar uma boa historia</h4>
+<div class="outline-text-4" id="text-2-2-3">
+<ul class="org-ul">
+<li>Ter começo meio e fim</li>
+<li>Elemento de curiosidade, contextualizar um pouco, parte mais interessante</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orga189f34" class="outline-4">
+<h4 id="orga189f34"><span class="section-number-4">2.2.4.</span> Dominar a arte das correntes de associação</h4>
+<div class="outline-text-4" id="text-2-2-4">
+<ul class="org-ul">
+<li>Usa a informação da outra pessoa numa conversa futura</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orga933329" class="outline-2">
+<h2 id="orga933329"><span class="section-number-2">3.</span> Módulo 5 - Gerais sobre conversa</h2>
+<div class="outline-text-2" id="text-3">
+</div>
+<div id="outline-container-org312c549" class="outline-3">
+<h3 id="org312c549"><span class="section-number-3">3.1.</span> Distância de Abridores Direto - Indireto</h3>
+<div class="outline-text-3" id="text-3-1">
+<ul class="org-ul">
+<li>O abridor é supervalorizado! -&gt; Não importa como você vai iniciar, importa como você vai desenvolver ao longo do processo</li>
+<li>Iniciar a conversa é captar a atenção da pessoa</li>
+</ul>
+</div>
+<div id="outline-container-org9d7a8b2" class="outline-4">
+<h4 id="org9d7a8b2"><span class="section-number-4">3.1.1.</span> Abridor direto</h4>
+<div class="outline-text-4" id="text-3-1-1">
+<ul class="org-ul">
+<li>Mostra as intenções no começo da abordagem</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org07ce4f7" class="outline-4">
+<h4 id="org07ce4f7"><span class="section-number-4">3.1.2.</span> Abridor indireto</h4>
+<div class="outline-text-4" id="text-3-1-2">
+<ul class="org-ul">
+<li>Oculta as intenções, até você mostrar sua intenção</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org4200ede" class="outline-4">
+<h4 id="org4200ede"><span class="section-number-4">3.1.3.</span> De direto até mais indireto</h4>
+<div class="outline-text-4" id="text-3-1-3">
+<ul class="org-ul">
+<li>Super direto</li>
+<li>Direto homem pra mulher</li>
+<li>Direto amigável</li>
+<li>Morde assopra: &ldquo;Eu adorei o jeito estranho que você dança!&rdquo;</li>
+<li>Observação</li>
+<li>Abordagem situacional</li>
+<li>Opinião</li>
+<li>Impessoal</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org1eb1399" class="outline-4">
+<h4 id="org1eb1399"><span class="section-number-4">3.1.4.</span> Tipos extras de abordagem</h4>
+<div class="outline-text-4" id="text-3-1-4">
+<ul class="org-ul">
+<li>Iniciar uma conversa com o mesmo assunto: em uma roda de conversa que estão falando sobre futebol, você entra falando de futebol</li>
+<li>Criar uma situação que aconteceu com você: &ldquo;Me perdi dos meus amigos, decidi vim falar com você porque parece de confiança&rdquo;</li>
+<li>Indireta para direto: Usar uma abordagem indireta sobre qualquer coisa e depois você diz que só foi falar nela porque estava interessado</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orgbad7da9" class="outline-3">
+<h3 id="orgbad7da9"><span class="section-number-3">3.2.</span> Estrutura de Conversa</h3>
+<div class="outline-text-3" id="text-3-2">
+<ul class="org-ul">
+<li>Cada resposta da garota é uma semente para o próximo assunto</li>
+<li>PRPREH -&gt; Pergunta, Resposta, Pergunta, Resposta, Elogio, História</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orge946d05" class="outline-3">
+<h3 id="orge946d05"><span class="section-number-3">3.3.</span> Dicas Gerais de Ferramentas</h3>
+<div class="outline-text-3" id="text-3-3">
+</div>
+<div id="outline-container-orgebe21f6" class="outline-4">
+<h4 id="orgebe21f6"><span class="section-number-4">3.3.1.</span> Corrente de associações</h4>
+<div class="outline-text-4" id="text-3-3-1">
+<ul class="org-ul">
+<li>Utilizar informações das perguntas questionadoras e utilizar ao seu favor</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org9491742" class="outline-4">
+<h4 id="org9491742"><span class="section-number-4">3.3.2.</span> Storytelling</h4>
+<div class="outline-text-4" id="text-3-3-2">
+<ul class="org-ul">
+<li>A sua história tem começo, meio e fim?</li>
+<li>Utilize a história em W: alguma coisa ruim, alguma coisa positiva mas não deu certo, solução da história</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgd980235" class="outline-4">
+<h4 id="orgd980235"><span class="section-number-4">3.3.3.</span> Gatilhos mentais</h4>
+<div class="outline-text-4" id="text-3-3-3">
+<ul class="org-ul">
+<li>Ela ficaria com você por impulso</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org1f70fa3" class="outline-2">
+<h2 id="org1f70fa3"><span class="section-number-2">4.</span> Módulo 6 - Assuntos Infinitos</h2>
+<div class="outline-text-2" id="text-4">
+</div>
+<div id="outline-container-org7d6e557" class="outline-3">
+<h3 id="org7d6e557"><span class="section-number-3">4.1.</span> Frases e Assuntos Quebra-gelo</h3>
+<div class="outline-text-3" id="text-4-1">
+</div>
+<div id="outline-container-orge7a0240" class="outline-4">
+<h4 id="orge7a0240"><span class="section-number-4">4.1.1.</span> Nível de Intimidade 1</h4>
+<div class="outline-text-4" id="text-4-1-1">
+<ul class="org-ul">
+<li>Opa, e ai&#x2026; qual é o seu nome?</li>
+<li>Oi, deixa eu te perguntar uma coisa, qual é o melhor assunto que eu uso para iniciar uma conversa com uma garota que eu estou interessado? (Use a resposta dela como pergunta&#x2026;)</li>
+<li>Oi com licensa, te vi passando te achei estilosa e precisava vim aqui te dizer oi, qual é o seu nome?</li>
+<li>E ai garotas vocês parecem ser muito divertidas vim aqui dizer oi</li>
+<li>Oi, achei esse (insira aqui um objeto) muito legal&#x2026; aonde você conseguiu?</li>
+<li>Oi essa bebida parece gostosa o que é?</li>
+<li>Nossa eu curti muito esse lugar, você já esteve aqui antes?</li>
+<li>Oi com licença isso que você está comendo parece gostoso o que é?</li>
+<li>Nossa você não vai acreditar, olha que incrível (inserir uma notícia comum)</li>
+<li>Ei vem cá eu quero a sua opnião sobre uma coisa (inserir algo)</li>
+<li>Me ajude a escolher entre (opção a e b)</li>
+<li>Ei preciso da sua ajuda para entender porque algumas pessoas gostam de (inserir algo)</li>
+<li>Ei você parece uma garota que gosta de (inserir algo) aonde posso encontrar?</li>
+<li>Ei me diz uma coisa você por acaso já fez (inserir uma atividade)</li>
+<li>Ei por acaso a gente já não se conheceu antes? (Responde que isso é provavelmente culpa dela)</li>
+<li>Me diz uma coisa o que você acha dessa aula?</li>
+<li>Ei você sabe por acaso que horas esse lugar fecha? (Pergunta o que a gente vai fazer depois)</li>
+<li>Ei eu vi você cantando essa música, qual o nome dela?</li>
+<li>Me responde uma coisa quem aqui você acha que tá mais se divertindo? Vamos dar uma analisada?</li>
+<li>Ei meninas deixa eu fazer uma pergunta para vocês, como vocês se conheceram? vocês dois parecem tão diferentes</li>
+<li>Oi com licença eu sempre te vejo por aqui só que tem um problema eu ainda não sei seu nome, qual teu nome?</li>
+<li>Oi não quero atrapalhar mas deixa eu te fazer uma pergunta aquele cara ali é o teu namorado ou é teu segurança?</li>
+<li>Pro nosso relacionamento dar certo eu preciso saber de uma coisa, que time você torce?</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org0d33f88" class="outline-4">
+<h4 id="org0d33f88"><span class="section-number-4">4.1.2.</span> Nível de Intimidade 2</h4>
+</div>
+<div id="outline-container-org3dde97e" class="outline-4">
+<h4 id="org3dde97e"><span class="section-number-4">4.1.3.</span> Nível de Intimidade 3</h4>
+<div class="outline-text-4" id="text-4-1-3">
+<ul class="org-ul">
+<li>Ei vem cá, deixa eu te fazer uma pergunta. O que você achou do meu visual?</li>
+<li>Hummm tenho certeza que tem algo interessante sobre você&#x2026; me conta aí vai</li>
+<li>E ai, me conta uma coisa legal que aconteceu no seu dia hoje&#x2026;</li>
+<li>Poxa, você tem um estilo legal hein? Eu gosto disso!</li>
+<li>Com licensa meninas vocês duas parecem legais, mas você tem cara de encrenca</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orge0cdaec" class="outline-3">
+<h3 id="orge0cdaec"><span class="section-number-3">4.2.</span> Assuntos questionadores</h3>
+<div class="outline-text-3" id="text-4-2">
+<ul class="org-ul">
+<li>Assuntos que começam com a palavra &ldquo;O que?&rdquo; &ldquo;Qual?&rdquo; &ldquo;Como?&rdquo;</li>
+<li>As perguntas são para conhecer a pessoa melhor</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orgda96978" class="outline-2">
+<h2 id="orgda96978"><span class="section-number-2">5.</span> Módulo 7 - Gatilhos mentais</h2>
+</div>
+<div id="outline-container-orgd47bb50" class="outline-2">
+<h2 id="orgd47bb50"><span class="section-number-2">6.</span> Módulo 8 - Técnicas e Exercícios</h2>
+</div>
+<div id="outline-container-org04f8dcc" class="outline-2">
+<h2 id="org04f8dcc"><span class="section-number-2">7.</span> Módulo 9 - Infield</h2>
+</div>
+<div id="outline-container-org0d7c9ec" class="outline-2">
+<h2 id="org0d7c9ec"><span class="section-number-2">8.</span> Módulo 10 - Análises de conversa</h2>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Luís Spengler</p>
+<p class="date">Created: 2022-12-19 Mon 09:30</p>
+</div>
+</body>
+</html>
