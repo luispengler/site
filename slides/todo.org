@@ -120,10 +120,10 @@
 + [X] Do a Why Essay -> Cornell
 + [X] Reunião de Acolhida LOA at 14h
 * 19/12
-+ [ ] Finish relatorio final
++ [X] Finish relatorio final
 + [ ] Do Cornell/Rice dependency
 + [ ] GTD e QEE Rec 2
-+ [ ] Check Temple University for DET
++ [ ] Check Temple University for DET at 11:05
 * Morning Routine
 + [ ] Wake up
 + [ ] Meditate
